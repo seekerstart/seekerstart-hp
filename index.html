@@ -12,6 +12,10 @@
         :root {
             --gold: #d4af37;
             --gold-light: #f7ef8a;
+            --silver: #c0c0c0;
+            --silver-light: #e8e8e8;
+            --bronze: #cd7f32;
+            --bronze-light: #f4c49c;
             --red-vermilion: #b91c1c;
             --bg-deep: #050505;
             --bg-paper: #0a0a0a;
@@ -40,6 +44,18 @@
 
         .gold-gradient {
             background: linear-gradient(to bottom, var(--gold-light), var(--gold), #996515);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .silver-gradient {
+            background: linear-gradient(to bottom, var(--silver-light), var(--silver), #757575);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .bronze-gradient {
+            background: linear-gradient(to bottom, var(--bronze-light), var(--bronze), #8b4513);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
@@ -422,6 +438,7 @@
             </div>
 
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-0 items-stretch">
+                <!-- A League -->
                 <div class="jp-card p-10 reveal flex flex-col" style="transition-delay: 0.1s;">
                     <div class="flex-grow">
                         <div class="flex justify-between items-start mb-8">
@@ -453,29 +470,30 @@
                     </div>
                 </div>
 
-                <div class="jp-card p-10 bg-black border-gold/40 lg:scale-105 z-10 shadow-2xl reveal flex flex-col" style="transition-delay: 0.1s;">
+                <!-- B League (Silver) -->
+                <div class="jp-card p-10 bg-black lg:scale-105 z-10 shadow-2xl reveal flex flex-col" style="transition-delay: 0.1s; border-color: var(--silver);">
                     <div class="flex-grow">
                         <div class="flex justify-between items-start mb-8">
-                            <span class="text-white/60 font-black text-[10px] tracking-widest uppercase">Second Tier</span>
-                            <span class="text-[9px] text-gold/60">激戦</span>
+                            <span class="font-black text-[10px] tracking-widest uppercase" style="color: var(--silver);">Second Tier</span>
+                            <span class="text-[9px]" style="color: var(--silver);">激戦</span>
                         </div>
-                        <h3 class="text-2xl font-serif font-bold gold-gradient mb-4 italic text-white">Bリーグ</h3>
+                        <h3 class="text-2xl font-serif font-bold silver-gradient mb-4 italic text-white">Bリーグ</h3>
                         <p class="text-xs text-gray-400 leading-relaxed mb-10">実力者がひしめく中堅階層。昇格と降格が常に交差する、最も過酷なサバイバル・ゾーン。</p>
-                        <div class="h-[1px] w-full bg-gradient-to-r from-gold/30 to-transparent mb-8"></div>
+                        <div class="h-[1px] w-full bg-gradient-to-r from-white/30 to-transparent mb-8"></div>
                     </div>
                     <div class="mt-auto">
-                        <h4 class="text-[9px] text-gold font-bold tracking-[0.2em] mb-5 border-b border-gold/10 pb-2">主要参戦選手</h4>
+                        <h4 class="text-[9px] font-bold tracking-[0.2em] mb-5 border-b border-white/20 pb-2" style="color: var(--silver);">主要参戦選手</h4>
                         <div class="space-y-4">
                             <div class="flex items-center justify-between">
                                 <div class="flex items-center gap-3">
-                                    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=B1" alt="Player" class="player-thumb" onerror="this.src='https://via.placeholder.com/50'">
+                                    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=B1" alt="Player" class="player-thumb" style="border-color: var(--silver);" onerror="this.src='https://via.placeholder.com/50'">
                                     <span class="text-xs font-bold text-white">ブラフ三郎</span>
                                 </div>
                                 <i class="fab fa-x-twitter text-white/20 text-xs"></i>
                             </div>
                             <div class="flex items-center justify-between">
                                 <div class="flex items-center gap-3">
-                                    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=B2" alt="Player" class="player-thumb" onerror="this.src='https://via.placeholder.com/50'">
+                                    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=B2" alt="Player" class="player-thumb" style="border-color: var(--silver);" onerror="this.src='https://via.placeholder.com/50'">
                                     <span class="text-xs font-bold text-white">ナッツ花子</span>
                                 </div>
                                 <i class="fab fa-x-twitter text-white/20 text-xs"></i>
@@ -484,29 +502,30 @@
                     </div>
                 </div>
 
-                <div class="jp-card p-10 reveal flex flex-col" style="transition-delay: 0.1s;">
+                <!-- C League (Bronze) -->
+                <div class="jp-card p-10 reveal flex flex-col" style="transition-delay: 0.1s; border-color: var(--bronze);">
                     <div class="flex-grow">
                         <div class="flex justify-between items-start mb-8">
-                            <span class="text-gray-600 font-black text-[10px] tracking-widest uppercase">Third Tier</span>
-                            <span class="text-[9px] text-gray-700">登竜門</span>
+                            <span class="font-black text-[10px] tracking-widest uppercase" style="color: var(--bronze);">Third Tier</span>
+                            <span class="text-[9px]" style="color: var(--bronze);">登竜門</span>
                         </div>
-                        <h3 class="text-2xl font-serif font-bold text-white mb-4 italic">Cリーグ</h3>
+                        <h3 class="text-2xl font-serif font-bold bronze-gradient mb-4 italic">Cリーグ</h3>
                         <p class="text-xs text-gray-500 leading-relaxed mb-10">鳳凰への第一歩。すべての挑戦者はここから始まります。上位40%が次なるランクへと駒を進める。</p>
-                        <div class="h-[1px] w-full bg-gradient-to-r from-white/10 to-transparent mb-8"></div>
+                        <div class="h-[1px] w-full bg-gradient-to-r from-orange-900/50 to-transparent mb-8"></div>
                     </div>
                     <div class="mt-auto">
-                        <h4 class="text-[9px] text-gray-600 font-bold tracking-[0.2em] mb-5 border-b border-white/10 pb-2">主要参戦選手</h4>
+                        <h4 class="text-[9px] font-bold tracking-[0.2em] mb-5 border-b border-orange-900/30 pb-2" style="color: var(--bronze);">主要参戦選手</h4>
                         <div class="space-y-4">
                             <div class="flex items-center justify-between">
                                 <div class="flex items-center gap-3">
-                                    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=C1" alt="Player" class="player-thumb opacity-70" onerror="this.src='https://via.placeholder.com/50'">
+                                    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=C1" alt="Player" class="player-thumb" style="border-color: var(--bronze); opacity: 0.8;" onerror="this.src='https://via.placeholder.com/50'">
                                     <span class="text-xs font-bold text-white">ルーキー五郎</span>
                                 </div>
                                 <i class="fab fa-x-twitter text-white/20 text-xs"></i>
                             </div>
                             <div class="flex items-center justify-between">
                                 <div class="flex items-center gap-3">
-                                    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=C2" alt="Player" class="player-thumb opacity-70" onerror="this.src='https://via.placeholder.com/50'">
+                                    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=C2" alt="Player" class="player-thumb" style="border-color: var(--bronze); opacity: 0.8;" onerror="this.src='https://via.placeholder.com/50'">
                                     <span class="text-xs font-bold text-white">ビギナー恵美</span>
                                 </div>
                                 <i class="fab fa-x-twitter text-white/20 text-xs"></i>
