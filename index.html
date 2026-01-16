@@ -153,6 +153,28 @@
             transform: translateY(0);
         }
 
+        /* Feather Animation */
+        .feather {
+            position: fixed;
+            top: -10vh;
+            z-index: 40; /* コンテンツの上、ヘッダーより下 */
+            pointer-events: none;
+            color: rgba(212, 175, 55, 0.15); /* 薄く調整: 0.4 -> 0.15 */
+            text-shadow: 0 0 2px rgba(247, 239, 138, 0.1); /* 影も控えめに */
+        }
+
+        @keyframes feather-fall {
+            0% { top: -10vh; opacity: 0; }
+            10% { opacity: 0.8; }
+            90% { opacity: 0.8; }
+            100% { top: 110vh; opacity: 0; }
+        }
+
+        @keyframes feather-sway {
+            0% { transform: translateX(-30px) rotate(-15deg); }
+            100% { transform: translateX(30px) rotate(15deg); }
+        }
+
         @keyframes slowZoom {
             0% { transform: scale(1); }
             100% { transform: scale(1.1); }
@@ -327,7 +349,7 @@
                 </div>
             </div>
 
-            <!-- 詳細カードエリア (Updated text size and padding) -->
+            <!-- 詳細カードエリア -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 reveal" style="transition-delay: 0.2s;">
                 <div class="bg-white/5 p-6 border-l-4 border-gold rounded-r-sm flex flex-col justify-center">
                     <h4 class="text-white font-serif font-black text-lg mb-3 flex items-center gap-3">
@@ -793,6 +815,39 @@
         }, observerOptions);
 
         document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+        // Feather Animation Logic
+        function createFeather() {
+            const feather = document.createElement('div');
+            // アイコンを内包する要素で変形（細長く）を適用
+            // scale(0.5, 1.3) で横を半分、縦を1.3倍にして細長く見せる
+            feather.innerHTML = '<i class="fas fa-feather" style="display:block; transform: scale(0.5, 1.3);"></i>';
+            feather.classList.add('feather');
+            
+            // Random properties
+            const size = Math.random() * 20 + 20; // 少し大きめに調整 20px - 40px (細くしたので視認性確保)
+            const left = Math.random() * 100; // 0% - 100vw
+            const fallDuration = Math.random() * 10 + 15; // 15s - 25s (よりゆっくりに)
+            const swayDuration = Math.random() * 3 + 3; // 3s - 6s (ゆったり揺れる)
+            const delay = Math.random() * 5; // 0s - 5s delay
+
+            feather.style.fontSize = `${size}px`;
+            feather.style.left = `${left}vw`;
+            feather.style.animation = `
+                feather-fall ${fallDuration}s linear forwards,
+                feather-sway ${swayDuration}s ease-in-out infinite alternate
+            `;
+            
+            document.body.appendChild(feather);
+
+            // Cleanup
+            setTimeout(() => {
+                feather.remove();
+            }, fallDuration * 1000);
+        }
+
+        // Start feather animation loop
+        setInterval(createFeather, 2000); // 生成頻度を少し上げる
 
         // Mobile Menu Toggle Logic
         const menuToggle = document.getElementById('menu-toggle');
