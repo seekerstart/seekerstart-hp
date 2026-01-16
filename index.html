@@ -232,13 +232,13 @@
 
         <div class="relative z-10 text-center px-6">
             <div class="mb-12 reveal">
-                <span class="block text-gold font-serif italic tracking-[0.8em] uppercase mb-4 text-xs sm:text-sm">RING GAME</span>
+                <span class="block text-gold font-serif italic tracking-[0.5em] uppercase mb-4 text-[10px] sm:text-xs">RING GAME</span>
                 <h1 class="text-4xl md:text-7xl lg:text-8xl font-serif font-black tracking-tighter mb-4 leading-none">
                     <span class="text-white">ポーカー</span><span class="gold-gradient gold-glow">鳳凰</span><span class="text-white">戦</span>
                 </h1>
                 <div class="flex justify-center items-center gap-4 mt-6">
                     <div class="h-[1px] w-8 sm:w-12 bg-gold/50"></div>
-                    <span class="text-gold font-serif italic tracking-[0.2em] text-[10px] sm:text-xs">POKER PHOENIX LEAGUE</span>
+                    <span class="text-gold font-serif italic tracking-[0.5em] text-[10px] sm:text-xs">POKER PHOENIX LEAGUE</span>
                     <div class="h-[1px] w-8 sm:w-12 bg-gold/50"></div>
                 </div>
             </div>
@@ -265,10 +265,9 @@
         </div>
     </section>
 
-    <!-- Season Section (Redesigned for Landscape Image) -->
+    <!-- Season Section -->
     <section id="season" class="py-24 md:py-32 bg-[#080808] border-b border-white/5 relative">
         <div class="container mx-auto px-6 max-w-5xl">
-            <!-- 概要ヘッダー -->
             <div class="text-center mb-16 reveal">
                 <div class="inline-block px-4 py-1 border border-gold/30 mb-6">
                     <span class="text-gold text-[9px] font-bold tracking-[0.5em] uppercase">Season 01</span>
@@ -283,12 +282,11 @@
                 </div>
             </div>
 
-            <!-- 横長バナーエリア -->
             <div class="reveal mb-16" style="transition-delay: 0.2s;">
                 <div class="relative group">
                     <div class="absolute -inset-1 bg-gradient-to-b from-gold/30 to-transparent blur-md opacity-20 group-hover:opacity-40 transition duration-1000"></div>
                     <div class="relative bg-black border border-white/10 rounded-sm overflow-hidden shadow-2xl">
-                        <img src="houoh_season.png" alt="Season 1 Banner" class="w-full h-auto object-cover transform transition duration-1000 group-hover:scale-105" onerror="this.src='https://images.unsplash.com/photo-1518893063132-36e46dbe2428?auto=format&fit=crop&q=80&w=1200'">
+                        <img src="houoh_season.png" alt="Season 1 Banner" class="w-full h-auto object-cover" onerror="this.src='https://images.unsplash.com/photo-1518893063132-36e46dbe2428?auto=format&fit=crop&q=80&w=1200'">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-60"></div>
                         <div class="absolute bottom-4 left-6">
                             <span class="text-white/50 text-[10px] font-bold tracking-[0.5em] uppercase italic">Phoenix League Road</span>
@@ -297,7 +295,6 @@
                 </div>
             </div>
 
-            <!-- 詳細カードエリア -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 reveal" style="transition-delay: 0.4s;">
                 <div class="bg-white/5 p-8 border-l-4 border-gold rounded-r-sm">
                     <h4 class="text-white font-serif font-black text-lg mb-4 flex items-center gap-3">
@@ -344,7 +341,7 @@
                         <span class="text-gold text-[9px] font-bold tracking-[0.5em] uppercase">Philosophy</span>
                     </div>
                     <h2 class="text-3xl md:text-4xl font-serif font-black text-white mb-10 leading-snug">
-                        一時の勝利よりも、<br><span class="text-gold italic">不変の強さ</span>を。
+                        一時の勝利よりも、<br><span class="text-gold">不変の強さ</span>を。
                     </h2>
                     <div class="space-y-8 text-gray-400 text-sm leading-loose font-light">
                         <p>ポーカー鳳凰戦は、従来のトーナメントのような「一過性の幸運」を極限まで排除し、長期的な戦績管理に基づいた真の実力評価を目的として設立されました。</p>
@@ -380,7 +377,6 @@
                 <h2 class="jp-title text-3xl md:text-4xl font-serif font-black text-white uppercase tracking-widest" data-sub="RANK">ランク構成</h2>
             </div>
 
-            <!-- Title: Houou-i -->
             <div class="mb-20 max-w-4xl mx-auto reveal">
                 <div class="relative p-8 md:p-12 bg-gradient-to-br from-[#1a0505] to-black border border-red-900/40 overflow-hidden group">
                     <div class="absolute -right-10 -bottom-10 opacity-[0.05] group-hover:opacity-10 transition duration-700 pointer-events-none">
@@ -409,7 +405,6 @@
             </div>
 
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-0">
-                <!-- A League -->
                 <div class="jp-card p-10 reveal flex flex-col" style="transition-delay: 0.1s;">
                     <div class="flex-grow">
                         <div class="flex justify-between items-start mb-8">
@@ -441,7 +436,6 @@
                     </div>
                 </div>
 
-                <!-- B League -->
                 <div class="jp-card p-10 bg-black border-gold/40 lg:scale-105 z-10 shadow-2xl reveal flex flex-col" style="transition-delay: 0.2s;">
                     <div class="flex-grow">
                         <div class="flex justify-between items-start mb-8">
@@ -473,7 +467,6 @@
                     </div>
                 </div>
 
-                <!-- C League -->
                 <div class="jp-card p-10 reveal flex flex-col" style="transition-delay: 0.3s;">
                     <div class="flex-grow">
                         <div class="flex justify-between items-start mb-8">
@@ -510,39 +503,110 @@
 
     <!-- Rules Section -->
     <section id="rules" class="py-24 md:py-32 bg-[#050505]">
-        <div class="container mx-auto px-6 max-w-5xl">
+        <div class="container mx-auto px-6 max-w-6xl">
             <div class="flex flex-col md:flex-row justify-between items-end mb-20 reveal">
                 <div class="mb-6 md:mb-0">
                     <span class="text-gold text-xs font-black tracking-[0.4em] mb-4 block">Regulation</span>
                     <h2 class="text-3xl md:text-4xl font-serif font-black text-white tracking-widest">開催ルール</h2>
                 </div>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="reveal">
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 items-stretch">
+                <!-- 01対戦日程 -->
+                <div class="reveal flex flex-col">
                     <h4 class="text-gold font-serif font-bold text-lg mb-6 flex items-center gap-4">
-                        <span class="text-xs opacity-30">01</span> 対局日程
+                        <span class="text-xs opacity-30">01</span> 対戦日程
                     </h4>
-                    <ul class="text-xs space-y-4 text-gray-500">
-                        <li class="flex justify-between border-b border-white/5 pb-2"><span>開催日</span><span class="text-white">毎週月曜日</span></li>
-                        <li class="flex justify-between border-b border-white/5 pb-2"><span>刻限</span><span class="text-white">20:00 〜 23:00</span></li>
-                    </ul>
-                </div>
-                <div class="reveal" style="transition-delay: 0.1s;">
-                    <h4 class="text-gold font-serif font-bold text-lg mb-6 flex items-center gap-4">
-                        <span class="text-xs opacity-30">02</span> 対局形式
-                    </h4>
-                    <div class="grid grid-cols-2 gap-3 text-[9px] font-black tracking-widest text-center">
-                        <div class="bg-white/5 p-4 rounded-sm border-l-2 border-gold">NLH / 6-Max</div>
-                        <div class="bg-white/5 p-4 rounded-sm border-l-2 border-gold">100-150BB</div>
+                    <div class="bg-white/5 p-6 border border-white/5 rounded flex-grow">
+                        <ul class="text-xs space-y-5 text-gray-400">
+                            <li class="flex justify-between border-b border-white/5 pb-2">
+                                <span class="font-bold">開催日</span>
+                                <span class="text-white">毎週月曜日</span>
+                            </li>
+                            <li class="flex justify-between border-b border-white/5 pb-2">
+                                <span class="font-bold">時間</span>
+                                <span class="text-white font-serif tracking-widest">20:00 〜 23:00</span>
+                            </li>
+                            <li class="text-[10px] text-gray-500 leading-relaxed italic">
+                                ※上記の時間帯であれば、いつでも自由に入退室が可能です。
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <div class="reveal md:col-span-2 lg:col-span-1" style="transition-delay: 0.2s;">
+
+                <!-- 02対戦形式 -->
+                <div class="reveal flex flex-col" style="transition-delay: 0.1s;">
                     <h4 class="text-gold font-serif font-bold text-lg mb-6 flex items-center gap-4">
-                        <span class="text-xs opacity-30">03</span> 認定基準
+                        <span class="text-xs opacity-30">02</span> 対戦形式
                     </h4>
-                    <p class="text-[11px] text-gray-500 leading-loose">
-                        各プレイヤーはシーズン中に400ハンド以上のプレイを義務付けられます。これを下回る場合は公式記録として認められず、昇格の対象外となります。
+                    <div class="bg-white/5 p-6 border border-white/5 rounded flex-grow">
+                        <div class="space-y-4">
+                            <div class="flex items-center gap-3">
+                                <span class="text-[10px] bg-gold/20 text-gold px-2 py-0.5 rounded font-black">NLH</span>
+                                <span class="text-[10px] bg-white/10 text-white px-2 py-0.5 rounded font-black uppercase">6-Max 限定</span>
+                            </div>
+                            <ul class="text-xs space-y-3 text-gray-400">
+                                <li class="flex items-start gap-2">
+                                    <i class="fas fa-check text-gold text-[10px] mt-1"></i>
+                                    <span>マルチプレイ：最大 <span class="text-white font-bold">3面打ち</span> まで可</span>
+                                </li>
+                                <li class="flex items-start gap-2">
+                                    <i class="fas fa-check text-gold text-[10px] mt-1"></i>
+                                    <span>レーキ（手数料）：<span class="text-white font-bold">なし</span></span>
+                                </li>
+                                <li class="flex items-start gap-2">
+                                    <i class="fas fa-check text-gold text-[10px] mt-1"></i>
+                                    <span>途中参加・途中退室 自由</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 03バイイン・運用 -->
+                <div class="reveal flex flex-col" style="transition-delay: 0.2s;">
+                    <h4 class="text-gold font-serif font-bold text-lg mb-6 flex items-center gap-4">
+                        <span class="text-xs opacity-30">03</span> バイイン・運用
+                    </h4>
+                    <div class="bg-white/5 p-6 border border-white/5 rounded flex-grow">
+                        <div class="space-y-4">
+                            <div class="grid grid-cols-2 gap-2">
+                                <div class="bg-black/40 p-3 text-center border border-white/5">
+                                    <span class="block text-[8px] text-gray-500 uppercase mb-1">Min Buy-in</span>
+                                    <span class="text-white font-serif font-black">100 BB</span>
+                                </div>
+                                <div class="bg-black/40 p-3 text-center border border-white/5">
+                                    <span class="block text-[8px] text-gray-500 uppercase mb-1">Max Buy-in</span>
+                                    <span class="text-white font-serif font-black">150 BB</span>
+                                </div>
+                            </div>
+                            <div class="bg-red-900/10 p-4 border border-red-900/20 rounded-sm">
+                                <h5 class="text-[10px] text-red-400 font-black mb-2 uppercase flex items-center gap-2">
+                                    <i class="fas fa-exclamation-triangle"></i> スタック調整ルール
+                                </h5>
+                                <p class="text-[10px] text-gray-400 leading-relaxed">
+                                    スタックが <span class="text-white font-bold">200BB以上</span> に達した場合、強制的に <span class="text-white font-bold">150BB</span> へ調整されます。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 認定基準の追記 -->
+            <div class="mt-16 reveal bg-gradient-to-r from-transparent via-white/5 to-transparent p-8 text-center border-y border-white/5" style="transition-delay: 0.3s;">
+                <h4 class="text-white font-serif font-bold text-sm mb-4 tracking-widest text-gold uppercase italic">League Certification Standards</h4>
+                <div class="max-w-3xl mx-auto space-y-4">
+                    <p class="text-xs md:text-sm text-gray-300 leading-loose">
+                        各プレイヤーはシーズン中に <span class="text-white font-bold border-b border-gold/50">400ハンド以上の対戦</span> が義務付けられます。
                     </p>
+                    <div class="bg-red-950/20 border border-red-900/30 p-4 inline-block">
+                        <p class="text-[11px] text-red-400 leading-relaxed">
+                            <i class="fas fa-exclamation-circle mr-2"></i>
+                            ハンド数が400に満たない場合、そのシーズンの公式記録は認められず、<br class="hidden md:block">
+                            <span class="text-white font-bold">次シーズンの所属ランクは強制的に「Cランク」となります。</span>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -555,7 +619,6 @@
                 <h2 class="jp-title text-3xl md:text-4xl font-serif font-black text-white uppercase tracking-widest" data-sub="FAQ">質問</h2>
             </div>
             <div class="space-y-6">
-                <!-- FAQ Item 1 -->
                 <div class="faq-item reveal bg-white/5 border border-white/10 rounded overflow-hidden">
                     <button class="w-full p-6 md:p-8 flex justify-between items-center text-left focus:outline-none transition-colors hover:bg-white/10" onclick="toggleFaq(this)">
                         <span class="font-serif font-bold text-white text-sm md:text-base tracking-wider">参加に費用は発生しますか？</span>
@@ -567,7 +630,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- FAQ Item 2 -->
                 <div class="faq-item reveal bg-white/5 border border-white/10 rounded overflow-hidden" style="transition-delay: 0.1s;">
                     <button class="w-full p-6 md:p-8 flex justify-between items-center text-left focus:outline-none transition-colors hover:bg-white/10" onclick="toggleFaq(this)">
                         <span class="font-serif font-bold text-white text-sm md:text-base tracking-wider">初心者でも参加して良いのでしょうか？</span>
@@ -579,7 +641,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- FAQ Item 3 -->
                 <div class="faq-item reveal bg-white/5 border border-white/10 rounded overflow-hidden" style="transition-delay: 0.2s;">
                     <button class="w-full p-6 md:p-8 flex justify-between items-center text-left focus:outline-none transition-colors hover:bg-white/10" onclick="toggleFaq(this)">
                         <span class="font-serif font-bold text-white text-sm md:text-base tracking-wider">リーグの戦績はどのように集計されますか？</span>
