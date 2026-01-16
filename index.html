@@ -12,7 +12,7 @@
         :root {
             --gold: #d4af37;
             --gold-light: #f7ef8a;
-            --red-vermilion: #b91c1c; /* 朱色 */
+            --red-vermilion: #b91c1c;
             --bg-deep: #050505;
             --bg-paper: #0a0a0a;
         }
@@ -44,7 +44,6 @@
             -webkit-text-fill-color: transparent;
         }
 
-        /* ヘッダーナビゲーションの発光アニメーション */
         .nav-link-glow {
             position: relative;
             transition: all 0.4s ease;
@@ -56,7 +55,6 @@
             transform: translateY(-1px);
         }
 
-        /* 参加申込ボタン専用の発光アニメーション */
         .nav-button-glow {
             transition: all 0.4s ease;
         }
@@ -67,7 +65,6 @@
             border-color: var(--gold-light);
             box-shadow: 0 0 15px rgba(212, 175, 55, 0.4), inset 0 0 8px rgba(212, 175, 55, 0.2);
             text-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
-            transform: translateY(-1px);
         }
 
         .jp-title {
@@ -86,7 +83,7 @@
             background: linear-gradient(90deg, transparent, var(--gold), transparent);
         }
         .jp-title::after {
-            content: 'PHOENIX';
+            content: attr(data-sub);
             position: absolute;
             bottom: -5px;
             left: 50%;
@@ -103,9 +100,6 @@
             border: 1px solid rgba(212, 175, 55, 0.15);
             position: relative;
             transition: all 0.4s ease;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
         }
         .jp-card:hover {
             border-color: var(--gold);
@@ -133,16 +127,10 @@
             object-fit: cover;
         }
 
-        /* Q&A 表示：常時表示 */
-        .faq-answer {
-            display: block;
-            overflow: hidden;
-        }
-
         .reveal {
             opacity: 0;
-            transform: translateY(20px);
-            transition: all 1s cubic-bezier(0.22, 1, 0.36, 1);
+            transform: translateY(30px);
+            transition: all 0.8s cubic-bezier(0.22, 1, 0.36, 1);
         }
         .reveal.active {
             opacity: 1;
@@ -154,122 +142,232 @@
             100% { transform: scale(1.1); }
         }
         .animate-zoom {
-            animation: slowZoom 20s ease-out forwards;
+            animation: slowZoom 25s ease-out forwards;
+        }
+
+        /* FAQ Accordion */
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease-out;
+        }
+        .faq-item.open .faq-answer {
+            max-height: 500px;
+        }
+        .faq-item.open .fa-chevron-down {
+            transform: rotate(180deg);
+        }
+
+        /* Mobile Menu */
+        #mobile-menu {
+            transform: translateX(100%);
+            transition: transform 0.4s ease;
+        }
+        #mobile-menu.open {
+            transform: translateX(0);
         }
     </style>
 </head>
-<body>
+<body class="antialiased">
 
     <!-- Header -->
     <header id="nav" class="fixed w-full z-[100] transition-all duration-500">
-        <div class="container mx-auto px-8 py-5 flex justify-between items-center">
-            <div class="flex items-center gap-5">
-                <img src="SeekerStart_logo.png" alt="Logo" class="h-9 w-auto grayscale brightness-200">
-                <div class="h-6 w-[1px] bg-white/20"></div>
-                <span class="text-xl font-serif font-black tracking-[0.2em] text-white">ポーカー鳳凰戦</span>
+        <div class="container mx-auto px-6 py-5 flex justify-between items-center">
+            <div class="flex items-center gap-4">
+                <div class="bg-white/10 p-1 rounded">
+                    <img src="SeekerStart_logo.png" alt="Logo" class="h-8 w-auto" onerror="this.src='https://via.placeholder.com/100x40/111/d4af37?text=SS'">
+                </div>
+                <div class="h-6 w-[1px] bg-white/20 hidden sm:block"></div>
+                <span class="text-lg md:text-xl font-serif font-black tracking-[0.2em] text-white">ポーカー鳳凰戦</span>
             </div>
             
-            <nav class="hidden lg:flex gap-10 text-sm font-bold tracking-[0.2em] uppercase text-white/60">
-                <a href="#concept" class="nav-link-glow">理念</a>
-                <a href="#league" class="nav-link-glow">ランク</a>
-                <a href="#rules" class="nav-link-glow">ルール</a>
-                <a href="#faq" class="nav-link-glow">Q&A</a>
+            <nav class="hidden lg:flex gap-8 text-[11px] font-bold tracking-[0.2em] uppercase text-white/60">
+                <a href="#season" class="nav-link-glow hover:text-white">シーズン</a>
+                <a href="#concept" class="nav-link-glow hover:text-white">理念</a>
+                <a href="#league" class="nav-link-glow hover:text-white">ランク</a>
+                <a href="#rules" class="nav-link-glow hover:text-white">ルール</a>
+                <a href="#faq" class="nav-link-glow hover:text-white">質問</a>
             </nav>
 
             <div class="flex items-center gap-4">
-                <!-- 修正箇所：ボタンに nav-button-glow クラスを適用 -->
-                <a href="https://x.com/seekerstart" target="_blank" class="border border-gold/40 text-gold px-10 py-2.5 text-xs font-black tracking-widest nav-button-glow">
+                <a href="https://x.com/seekerstart" target="_blank" class="hidden sm:block border border-gold/40 text-gold px-8 py-2 text-[10px] font-black tracking-widest nav-button-glow">
                     参戦申込
                 </a>
+                <button id="menu-toggle" class="lg:hidden text-white p-2" aria-label="Menu">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
             </div>
         </div>
     </header>
 
+    <!-- Mobile Nav -->
+    <div id="mobile-menu" class="fixed inset-0 bg-black/95 z-[110] flex flex-col items-center justify-center gap-10">
+        <button id="menu-close" class="absolute top-8 right-8 text-white text-3xl">
+            <i class="fas fa-times"></i>
+        </button>
+        <a href="#season" class="text-2xl font-serif text-white tracking-widest">シーズン</a>
+        <a href="#concept" class="text-2xl font-serif text-white tracking-widest">理念</a>
+        <a href="#league" class="text-2xl font-serif text-white tracking-widest">ランク</a>
+        <a href="#rules" class="text-2xl font-serif text-white tracking-widest">ルール</a>
+        <a href="#faq" class="text-2xl font-serif text-white tracking-widest">質問</a>
+        <a href="https://x.com/seekerstart" target="_blank" class="mt-4 border border-gold text-gold px-12 py-4 text-sm font-black tracking-[0.3em]">参戦申込</a>
+    </div>
+
     <!-- Hero Section -->
     <section class="relative h-screen flex items-center justify-center overflow-hidden bg-black">
         <div class="absolute inset-0 z-0">
-            <div class="w-full h-full bg-cover bg-center opacity-40 animate-zoom" 
-                 style="background-image: url('houoh_kaimaku.png');">
+            <div class="w-full h-full bg-cover bg-center opacity-30 animate-zoom" 
+                 style="background-image: url('houoh_kaimaku.png');"
+                 onerror="this.style.backgroundImage='url(https://images.unsplash.com/photo-1511193311914-0346f16efe90?auto=format&fit=crop&q=80&w=2073)'">
             </div>
             <div class="absolute inset-0 bg-gradient-to-b from-transparent via-black/40 to-black"></div>
-            <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_0%,black_90%)]"></div>
+            <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_0%,black_95%)]"></div>
         </div>
 
-        <div class="absolute right-12 top-1/2 -translate-y-1/2 hidden md:block">
-            <div class="vertical-text text-gold/30 font-serif text-sm tracking-[1em] border-r border-gold/20 pr-4">
+        <div class="absolute right-6 sm:right-12 top-1/2 -translate-y-1/2 hidden md:block">
+            <div class="vertical-text text-gold/40 font-serif text-xs sm:text-sm tracking-[1em] border-r border-gold/20 pr-4">
                 最高峰の舞台、真の実力者が集う場所。
             </div>
         </div>
 
-        <div class="relative z-10 text-center">
-            <div class="mb-12 reveal active">
-                <span class="block text-gold text-xs font-bold tracking-[0.8em] uppercase mb-4">Official Ring League</span>
-                <h1 class="text-6xl md:text-9xl font-serif font-black tracking-tighter mb-4 leading-none">
-                    <span class="text-white">鳳</span><span class="gold-gradient gold-glow">凰</span><span class="text-white">戦</span>
+        <div class="relative z-10 text-center px-6">
+            <div class="mb-12 reveal">
+                <span class="block text-gold font-serif italic tracking-[0.8em] uppercase mb-4 text-xs sm:text-sm">RING GAME</span>
+                <h1 class="text-4xl md:text-7xl lg:text-8xl font-serif font-black tracking-tighter mb-4 leading-none">
+                    <span class="text-white">ポーカー</span><span class="gold-gradient gold-glow">鳳凰</span><span class="text-white">戦</span>
                 </h1>
                 <div class="flex justify-center items-center gap-4 mt-6">
-                    <div class="h-[1px] w-12 bg-gold/50"></div>
-                    <span class="text-gold font-serif italic tracking-[0.2em]">POKER PHOENIX LEAGUE</span>
-                    <div class="h-[1px] w-12 bg-gold/50"></div>
+                    <div class="h-[1px] w-8 sm:w-12 bg-gold/50"></div>
+                    <span class="text-gold font-serif italic tracking-[0.2em] text-[10px] sm:text-xs">POKER PHOENIX LEAGUE</span>
+                    <div class="h-[1px] w-8 sm:w-12 bg-gold/50"></div>
                 </div>
             </div>
 
-            <div class="reveal active" style="transition-delay: 0.5s;">
-                <p class="text-gray-400 text-sm md:text-base font-light tracking-[0.1em] mb-12 max-w-xl mx-auto leading-loose">
+            <div class="reveal" style="transition-delay: 0.4s;">
+                <p class="text-gray-400 text-xs sm:text-base font-light tracking-[0.1em] mb-12 max-w-xl mx-auto leading-loose">
                     運に左右される一戦を超え、<br>
                     永続的な技量と精神力を評価する。
                 </p>
-                <div class="flex flex-col sm:flex-row gap-8 justify-center items-center">
-                    <a href="#concept" class="group relative px-12 py-4 overflow-hidden">
+                <div class="flex flex-col sm:flex-row gap-6 justify-center items-center">
+                    <a href="#season" class="group relative px-10 py-4 overflow-hidden min-w-[200px]">
                         <div class="absolute inset-0 border border-gold/50 group-hover:scale-105 transition duration-500"></div>
-                        <span class="relative z-10 text-gold text-xs font-black tracking-[0.4em]">大会詳細</span>
+                        <span class="relative z-10 text-gold text-[10px] font-black tracking-[0.4em]">現在の状況を確認</span>
                     </a>
-                    <a href="#league" class="text-white/40 text-[10px] font-black tracking-[0.4em] hover:text-white transition">
-                        ランク構成を確認
+                    <a href="#league" class="text-white/40 text-[9px] font-black tracking-[0.4em] hover:text-white transition uppercase">
+                        View Rank Structure
                     </a>
                 </div>
             </div>
         </div>
 
-        <div class="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-4 reveal active" style="transition-delay: 1s;">
-            <div class="w-[1px] h-16 bg-gradient-to-b from-gold to-transparent animate-[bounce_2s_infinite]"></div>
+        <div class="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-4">
+            <div class="w-[1px] h-12 bg-gradient-to-b from-gold to-transparent animate-[bounce_2s_infinite]"></div>
+        </div>
+    </section>
+
+    <!-- Season Section (Redesigned for Landscape Image) -->
+    <section id="season" class="py-24 md:py-32 bg-[#080808] border-b border-white/5 relative">
+        <div class="container mx-auto px-6 max-w-5xl">
+            <!-- 概要ヘッダー -->
+            <div class="text-center mb-16 reveal">
+                <div class="inline-block px-4 py-1 border border-gold/30 mb-6">
+                    <span class="text-gold text-[9px] font-bold tracking-[0.5em] uppercase">Season 01</span>
+                </div>
+                <h2 class="text-3xl md:text-5xl font-serif font-black text-white mb-6 tracking-widest leading-tight">
+                    第1期 <span class="gold-gradient italic">鳳凰開幕</span>
+                </h2>
+                <div class="flex justify-center items-center gap-4 mb-10">
+                    <div class="h-[1px] w-12 bg-white/10"></div>
+                    <span class="text-white font-serif font-black text-xl md:text-2xl tracking-widest italic">2/2 — 3/30</span>
+                    <div class="h-[1px] w-12 bg-white/10"></div>
+                </div>
+            </div>
+
+            <!-- 横長バナーエリア -->
+            <div class="reveal mb-16" style="transition-delay: 0.2s;">
+                <div class="relative group">
+                    <div class="absolute -inset-1 bg-gradient-to-b from-gold/30 to-transparent blur-md opacity-20 group-hover:opacity-40 transition duration-1000"></div>
+                    <div class="relative bg-black border border-white/10 rounded-sm overflow-hidden shadow-2xl">
+                        <!-- image_2e66a9.png は横長 -->
+                        <img src="image_2e66a9.png" alt="Season 1 Banner" class="w-full h-auto object-cover transform transition duration-1000 group-hover:scale-105" onerror="this.src='https://images.unsplash.com/photo-1518893063132-36e46dbe2428?auto=format&fit=crop&q=80&w=1200'">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-60"></div>
+                        <div class="absolute bottom-4 left-6">
+                            <span class="text-white/50 text-[10px] font-bold tracking-[0.5em] uppercase italic">Phoenix League Road</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 詳細カードエリア -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 reveal" style="transition-delay: 0.4s;">
+                <div class="bg-white/5 p-8 border-l-4 border-gold rounded-r-sm">
+                    <h4 class="text-white font-serif font-black text-lg mb-4 flex items-center gap-3">
+                        <i class="fas fa-chess-knight text-gold text-sm"></i> 全員Cリーグから始動
+                    </h4>
+                    <p class="text-[12px] text-gray-400 leading-loose">
+                        初回シーズンは、すべての挑戦者が同一の<span class="text-white font-bold">Cリーグ</span>よりスタートします。実力を証明し、上位ランクへの切符を掴んでください。
+                    </p>
+                </div>
+                
+                <div class="bg-white/5 p-8 border-l-4 border-white/20 rounded-r-sm">
+                    <h4 class="text-white font-serif font-black text-lg mb-4 flex items-center gap-3">
+                        <i class="fas fa-trophy text-gold text-sm"></i> 昇格と残留の壁
+                    </h4>
+                    <div class="space-y-4">
+                        <div class="flex justify-between items-center border-b border-white/5 pb-2">
+                            <span class="text-[11px] text-gray-500 font-bold">上位 40%</span>
+                            <span class="text-gold font-black text-xs tracking-widest uppercase">Bリーグへ昇格</span>
+                        </div>
+                        <div class="flex justify-between items-center border-b border-white/5 pb-2">
+                            <span class="text-[11px] text-gray-500 font-bold">下位 60%</span>
+                            <span class="text-white/40 font-black text-xs tracking-widest uppercase">Cリーグ継続</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-12 text-center reveal" style="transition-delay: 0.5s;">
+                <p class="text-[10px] text-gray-600 italic">
+                    ※最高位「Aリーグ」は、今後のリーグ展開に合わせて段階的に形成・開放されます。
+                </p>
+            </div>
         </div>
     </section>
 
     <!-- Concept Section -->
-    <section id="concept" class="py-32 bg-[#050505] relative">
+    <section id="concept" class="py-24 md:py-32 bg-[#050505] relative">
         <div class="absolute top-0 left-0 w-full h-full opacity-[0.03] pointer-events-none" style="background-image: radial-gradient(#d4af37 1px, transparent 0); background-size: 40px 40px;"></div>
         
-        <div class="container mx-auto px-8 max-w-6xl">
-            <div class="flex flex-col md:flex-row items-center gap-20">
-                <div class="w-full md:w-1/2 reveal">
+        <div class="container mx-auto px-6 max-w-6xl">
+            <div class="flex flex-col lg:flex-row items-center gap-16 lg:gap-24">
+                <div class="w-full lg:w-1/2 reveal">
                     <div class="inline-block px-4 py-1 border border-gold/30 mb-8">
-                        <span class="text-gold text-[10px] font-bold tracking-[0.5em] uppercase">Concept</span>
+                        <span class="text-gold text-[9px] font-bold tracking-[0.5em] uppercase">Philosophy</span>
                     </div>
-                    <h2 class="text-4xl font-serif font-black text-white mb-10 leading-snug">
+                    <h2 class="text-3xl md:text-4xl font-serif font-black text-white mb-10 leading-snug">
                         一時の勝利よりも、<br><span class="text-gold italic">不変の強さ</span>を。
                     </h2>
-                    <div class="space-y-8 text-gray-500 text-sm leading-loose font-light">
+                    <div class="space-y-8 text-gray-400 text-sm leading-loose font-light">
                         <p>ポーカー鳳凰戦は、従来のトーナメントのような「一過性の幸運」を極限まで排除し、長期的な戦績管理に基づいた真の実力評価を目的として設立されました。</p>
-                        <p>シーズンを通じたBB（ビッグブラインド）の累計収支、圧倒的な試行回数による運の収束、震えるような局面での期待値の最大化。これらこそが、私たちが定義する「強さ」の証明です。</p>
+                        <p>シーズンを通じたBB（ビッグブラインド）の累計収支、圧倒的な試行回数による運の収束、そしてリングゲーム特有の期待値の最大化。これらこそが、私たちが定義する「強さ」の証明です。</p>
                     </div>
                 </div>
-                <div class="w-full md:w-1/2 grid grid-cols-2 gap-4 items-stretch reveal" style="transition-delay: 0.3s;">
-                    <div class="jp-card p-6 md:p-8 corner-deco">
-                        <h4 class="text-gold font-serif font-bold text-sm md:text-base mb-3 md:mb-4">誠実な評価</h4>
-                        <p class="text-[10px] md:text-[11px] text-gray-600 leading-relaxed">BB収支に基づいた絶対的な実力評価システムを採用しています。</p>
+                <div class="w-full lg:w-1/2 grid grid-cols-1 sm:grid-cols-2 gap-4 reveal" style="transition-delay: 0.3s;">
+                    <div class="jp-card p-8 corner-deco">
+                        <h4 class="text-gold font-serif font-bold text-base mb-4 italic">誠実な評価</h4>
+                        <p class="text-[11px] text-gray-500 leading-relaxed">BB収支に基づいた絶対的な実力評価システムを採用。分散を排除します。</p>
                     </div>
-                    <div class="jp-card p-6 md:p-8">
-                        <h4 class="text-gold font-serif font-bold text-sm md:text-base mb-3 md:mb-4">伝統の継承</h4>
-                        <p class="text-[10px] md:text-[11px] text-gray-600 leading-relaxed">戦績は生涯データとしてアーカイブされ、個人の歴史となります。</p>
+                    <div class="jp-card p-8">
+                        <h4 class="text-gold font-serif font-bold text-base mb-4 italic">伝統の継承</h4>
+                        <p class="text-[11px] text-gray-500 leading-relaxed">戦績は生涯データとしてアーカイブされ、ポーカー史に刻まれます。</p>
                     </div>
-                    <div class="jp-card p-6 md:p-8">
-                        <h4 class="text-gold font-serif font-bold text-sm md:text-base mb-3 md:mb-4">運の収束</h4>
-                        <p class="text-[10px] md:text-[11px] text-gray-600 leading-relaxed">オンラインならではの圧倒的な試行回数を確保。短期的な運を排します。</p>
+                    <div class="jp-card p-8">
+                        <h4 class="text-gold font-serif font-bold text-base mb-4 italic">運の収束</h4>
+                        <p class="text-[11px] text-gray-500 leading-relaxed">オンラインならではの圧倒的ハンド数。短期的分散に惑わされません。</p>
                     </div>
-                    <div class="jp-card p-6 md:p-8 corner-deco">
-                        <h4 class="text-gold font-serif font-bold text-sm md:text-base mb-3 md:mb-4">期待値の追求</h4>
-                        <p class="text-[10px] md:text-[11px] text-gray-600 leading-relaxed">リング形式による期待値（EV）の最大化こそが、勝利への唯一の道です。</p>
+                    <div class="jp-card p-8 corner-deco">
+                        <h4 class="text-gold font-serif font-bold text-base mb-4 italic">期待値の追求</h4>
+                        <p class="text-[11px] text-gray-500 leading-relaxed">リング形式によるEVの最大化こそが、勝者の唯一の道標です。</p>
                     </div>
                 </div>
             </div>
@@ -277,133 +375,132 @@
     </section>
 
     <!-- League Structure -->
-    <section id="league" class="py-32 bg-[#080808] border-y border-white/5">
-        <div class="container mx-auto px-8">
+    <section id="league" class="py-24 md:py-32 bg-[#080808] border-y border-white/5">
+        <div class="container mx-auto px-6">
             <div class="text-center mb-16 reveal">
-                <h2 class="jp-title text-4xl font-serif font-black text-white uppercase tracking-widest">ランク構成</h2>
+                <h2 class="jp-title text-3xl md:text-4xl font-serif font-black text-white uppercase tracking-widest" data-sub="RANK">ランク構成</h2>
             </div>
 
             <!-- Title: Houou-i -->
-            <div class="mb-24 max-w-4xl mx-auto reveal">
-                <div class="relative p-12 bg-gradient-to-br from-[#1a0505] to-black border border-red-900/30 overflow-hidden group">
-                    <div class="absolute -right-10 -bottom-10 opacity-[0.05] group-hover:opacity-10 transition duration-700">
+            <div class="mb-20 max-w-4xl mx-auto reveal">
+                <div class="relative p-8 md:p-12 bg-gradient-to-br from-[#1a0505] to-black border border-red-900/40 overflow-hidden group">
+                    <div class="absolute -right-10 -bottom-10 opacity-[0.05] group-hover:opacity-10 transition duration-700 pointer-events-none">
                         <i class="fas fa-dragon text-[200px] text-red-600"></i>
                     </div>
-                    <div class="relative z-10 flex flex-col md:flex-row items-center gap-12">
+                    <div class="relative z-10 flex flex-col md:flex-row items-center gap-10">
                         <div class="flex-1 text-center md:text-left">
-                            <h3 class="text-3xl font-serif font-black text-gold mb-6 tracking-tighter italic">最高位「鳳凰位」</h3>
+                            <h3 class="text-2xl md:text-3xl font-serif font-black text-gold mb-6 tracking-tighter italic">最高位「鳳凰位」</h3>
                             <p class="text-sm text-gray-400 leading-loose mb-8">
-                                Aリーグに<span class="text-white font-bold underline underline-offset-4 decoration-gold">三期連続</span>で所属。
-                                それはもはや「実力」という言葉では足りない、精神の完成を意味します。
-                                鳳凰位は本リーグの象徴として、ポーカー界における様々な特待を受ける権利を有します。
+                                Aリーグに<span class="text-white font-bold underline underline-offset-4 decoration-gold">三期連続</span>で所属。<br class="hidden sm:block">
+                                実力の極致に達した者のみが冠する称号。鳳凰位は本リーグの象徴として、特別招待や広告起用など、様々な特待権利を有します。
                             </p>
-                            <div class="flex flex-wrap justify-center md:justify-start gap-4">
-                                <span class="text-[9px] font-black tracking-widest border border-gold/20 px-4 py-2 text-gold/60 uppercase">推薦委託</span>
-                                <span class="text-[9px] font-black tracking-widest border border-gold/20 px-4 py-2 text-gold/60 uppercase">広告起用</span>
-                                <span class="text-[9px] font-black tracking-widest border border-gold/20 px-4 py-2 text-gold/60 uppercase">特別招待</span>
+                            <div class="flex flex-wrap justify-center md:justify-start gap-3">
+                                <span class="text-[8px] font-black tracking-widest border border-gold/30 px-3 py-1.5 text-gold/70 uppercase">推薦委託</span>
+                                <span class="text-[8px] font-black tracking-widest border border-gold/30 px-3 py-1.5 text-gold/70 uppercase">広告起用</span>
+                                <span class="text-[8px] font-black tracking-widest border border-gold/30 px-3 py-1.5 text-gold/70 uppercase">特別招待</span>
                             </div>
                         </div>
                         <div class="relative">
-                            <div class="w-32 h-32 rounded-full border border-gold/30 flex items-center justify-center bg-black shadow-[0_0_40px_rgba(139,0,0,0.2)]">
-                                <i class="fas fa-crown text-4xl text-gold drop-shadow-[0_0_10px_rgba(212,175,55,0.8)]"></i>
+                            <div class="w-32 h-32 rounded-full border border-gold/40 flex items-center justify-center bg-black shadow-[0_0_50px_rgba(212,175,55,0.1)]">
+                                <i class="fas fa-crown text-5xl text-gold drop-shadow-[0_0_15px_rgba(212,175,55,0.8)]"></i>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="grid lg:grid-cols-3 gap-8 lg:gap-0 items-stretch">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-0">
                 <!-- A League -->
-                <div class="jp-card p-12 border-white/5 reveal" style="transition-delay: 0.1s;">
+                <div class="jp-card p-10 reveal flex flex-col" style="transition-delay: 0.1s;">
                     <div class="flex-grow">
                         <div class="flex justify-between items-start mb-8">
-                            <span class="text-gold font-black text-xs tracking-widest uppercase">First Tier</span>
-                            <span class="text-[10px] text-gold/40">最高峰</span>
+                            <span class="text-gold font-black text-[10px] tracking-widest uppercase">First Tier</span>
+                            <span class="text-[9px] text-gold/40">神域</span>
                         </div>
-                        <h3 class="text-2xl font-serif font-bold gold-gradient mb-6">Aリーグ</h3>
-                        <p class="text-xs text-gray-500 leading-relaxed mb-10">選ばれし数名のみが許される最高峰。この舞台での戦いは全プレイヤーに公開・配信されます。</p>
-                        <div class="h-[1px] w-full bg-gradient-to-r from-gold/10 to-transparent mb-8"></div>
+                        <h3 class="text-2xl font-serif font-bold gold-gradient mb-4 italic">Aリーグ</h3>
+                        <p class="text-xs text-gray-500 leading-relaxed mb-10">選ばれし上位数名のみが許される最高峰。その戦いは全プレイヤーに公開・配信される。</p>
+                        <div class="h-[1px] w-full bg-gradient-to-r from-gold/20 to-transparent mb-8"></div>
                     </div>
                     <div class="mt-auto">
-                        <h4 class="text-[10px] text-gold font-bold tracking-[0.2em] mb-6 border-b border-gold/10 pb-2">主要参戦選手</h4>
+                        <h4 class="text-[9px] text-gold font-bold tracking-[0.2em] mb-5 border-b border-gold/10 pb-2">主要参戦選手</h4>
                         <div class="space-y-4">
                             <div class="flex items-center justify-between group">
                                 <div class="flex items-center gap-3">
-                                    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=A1" alt="Player" class="player-thumb">
-                                    <span class="text-xs font-bold text-white tracking-wider">鳳凰 太郎</span>
+                                    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=A1" alt="Player" class="player-thumb" onerror="this.src='https://via.placeholder.com/50'">
+                                    <span class="text-xs font-bold text-white">鳳凰 太郎</span>
                                 </div>
-                                <a href="#" class="text-white/30 hover:text-gold transition"><i class="fab fa-x-twitter text-sm"></i></a>
+                                <i class="fab fa-x-twitter text-white/20 text-xs"></i>
                             </div>
                             <div class="flex items-center justify-between group">
                                 <div class="flex items-center gap-3">
-                                    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=A2" alt="Player" class="player-thumb">
-                                    <span class="text-xs font-bold text-white tracking-wider">シーカー次郎</span>
+                                    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=A2" alt="Player" class="player-thumb" onerror="this.src='https://via.placeholder.com/50'">
+                                    <span class="text-xs font-bold text-white">シーカー次郎</span>
                                 </div>
-                                <a href="#" class="text-white/30 hover:text-gold transition"><i class="fab fa-x-twitter text-sm"></i></a>
+                                <i class="fab fa-x-twitter text-white/20 text-xs"></i>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <!-- B League -->
-                <div class="jp-card p-12 bg-black/40 border-gold/20 lg:scale-105 z-10 shadow-2xl reveal" style="transition-delay: 0.2s;">
+                <div class="jp-card p-10 bg-black border-gold/40 lg:scale-105 z-10 shadow-2xl reveal flex flex-col" style="transition-delay: 0.2s;">
                     <div class="flex-grow">
                         <div class="flex justify-between items-start mb-8">
-                            <span class="text-gold/50 font-black text-xs tracking-widest uppercase">Second Tier</span>
-                            <span class="text-[10px] text-gold/30">激戦</span>
+                            <span class="text-white/60 font-black text-[10px] tracking-widest uppercase">Second Tier</span>
+                            <span class="text-[9px] text-gold/60">激戦</span>
                         </div>
-                        <h3 class="text-2xl font-serif font-bold text-white mb-6">Bリーグ</h3>
-                        <p class="text-xs text-gray-400 leading-relaxed mb-10">実力者がひしめく中堅階層。昇格と降格が交差する、最も過酷なサバイバル・ゾーン。</p>
+                        <h3 class="text-2xl font-serif font-bold text-white mb-4 italic">Bリーグ</h3>
+                        <p class="text-xs text-gray-400 leading-relaxed mb-10">実力者がひしめく中堅階層。昇格と降格が常に交差する、最も過酷なサバイバル・ゾーン。</p>
                         <div class="h-[1px] w-full bg-gradient-to-r from-gold/30 to-transparent mb-8"></div>
                     </div>
                     <div class="mt-auto">
-                        <h4 class="text-[10px] text-gold font-bold tracking-[0.2em] mb-6 border-b border-gold/10 pb-2">主要参戦選手</h4>
+                        <h4 class="text-[9px] text-gold font-bold tracking-[0.2em] mb-5 border-b border-gold/10 pb-2">主要参戦選手</h4>
                         <div class="space-y-4">
-                            <div class="flex items-center justify-between group">
+                            <div class="flex items-center justify-between">
                                 <div class="flex items-center gap-3">
-                                    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=B1" alt="Player" class="player-thumb">
-                                    <span class="text-xs font-bold text-white tracking-wider">ブラフ三郎</span>
+                                    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=B1" alt="Player" class="player-thumb" onerror="this.src='https://via.placeholder.com/50'">
+                                    <span class="text-xs font-bold text-white">ブラフ三郎</span>
                                 </div>
-                                <a href="#" class="text-white/30 hover:text-gold transition"><i class="fab fa-x-twitter text-sm"></i></a>
+                                <i class="fab fa-x-twitter text-white/20 text-xs"></i>
                             </div>
-                            <div class="flex items-center justify-between group">
+                            <div class="flex items-center justify-between">
                                 <div class="flex items-center gap-3">
-                                    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=B2" alt="Player" class="player-thumb">
-                                    <span class="text-xs font-bold text-white tracking-wider">ナッツ花子</span>
+                                    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=B2" alt="Player" class="player-thumb" onerror="this.src='https://via.placeholder.com/50'">
+                                    <span class="text-xs font-bold text-white">ナッツ花子</span>
                                 </div>
-                                <a href="#" class="text-white/30 hover:text-gold transition"><i class="fab fa-x-twitter text-sm"></i></a>
+                                <i class="fab fa-x-twitter text-white/20 text-xs"></i>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <!-- C League -->
-                <div class="jp-card p-12 border-white/5 reveal" style="transition-delay: 0.3s;">
+                <div class="jp-card p-10 reveal flex flex-col" style="transition-delay: 0.3s;">
                     <div class="flex-grow">
                         <div class="flex justify-between items-start mb-8">
-                            <span class="text-gray-700 font-black text-xs tracking-widest uppercase">Third Tier</span>
-                            <span class="text-[10px] text-gray-800">登竜門</span>
+                            <span class="text-gray-600 font-black text-[10px] tracking-widest uppercase">Third Tier</span>
+                            <span class="text-[9px] text-gray-700">登竜門</span>
                         </div>
-                        <h3 class="text-2xl font-serif font-bold text-white mb-6">Cリーグ</h3>
-                        <p class="text-xs text-gray-500 leading-relaxed mb-10">鳳凰への第一歩。すべての挑戦者はここから始まります。上位40%が次なるランクへと駒を進めます。</p>
+                        <h3 class="text-2xl font-serif font-bold text-white mb-4 italic">Cリーグ</h3>
+                        <p class="text-xs text-gray-500 leading-relaxed mb-10">鳳凰への第一歩。すべての挑戦者はここから始まります。上位40%が次なるランクへと駒を進める。</p>
                         <div class="h-[1px] w-full bg-gradient-to-r from-white/10 to-transparent mb-8"></div>
                     </div>
                     <div class="mt-auto">
-                        <h4 class="text-[10px] text-gray-600 font-bold tracking-[0.2em] mb-6 border-b border-white/10 pb-2">主要参戦選手</h4>
+                        <h4 class="text-[9px] text-gray-600 font-bold tracking-[0.2em] mb-5 border-b border-white/10 pb-2">主要参戦選手</h4>
                         <div class="space-y-4">
-                            <div class="flex items-center justify-between group">
+                            <div class="flex items-center justify-between">
                                 <div class="flex items-center gap-3">
-                                    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=C1" alt="Player" class="player-thumb" style="border-color: #333;">
-                                    <span class="text-xs font-bold text-white tracking-wider">ルーキー五郎</span>
+                                    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=C1" alt="Player" class="player-thumb opacity-70" onerror="this.src='https://via.placeholder.com/50'">
+                                    <span class="text-xs font-bold text-white">ルーキー五郎</span>
                                 </div>
-                                <a href="#" class="text-white/30 hover:text-gold transition"><i class="fab fa-x-twitter text-sm"></i></a>
+                                <i class="fab fa-x-twitter text-white/20 text-xs"></i>
                             </div>
-                            <div class="flex items-center justify-between group">
+                            <div class="flex items-center justify-between">
                                 <div class="flex items-center gap-3">
-                                    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=C2" alt="Player" class="player-thumb" style="border-color: #333;">
-                                    <span class="text-xs font-bold text-white tracking-wider">ビギナー恵美</span>
+                                    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=C2" alt="Player" class="player-thumb opacity-70" onerror="this.src='https://via.placeholder.com/50'">
+                                    <span class="text-xs font-bold text-white">ビギナー恵美</span>
                                 </div>
-                                <a href="#" class="text-white/30 hover:text-gold transition"><i class="fab fa-x-twitter text-sm"></i></a>
+                                <i class="fab fa-x-twitter text-white/20 text-xs"></i>
                             </div>
                         </div>
                     </div>
@@ -413,20 +510,20 @@
     </section>
 
     <!-- Rules Section -->
-    <section id="rules" class="py-32 bg-[#050505]">
-        <div class="container mx-auto px-8 max-w-5xl">
-            <div class="flex flex-col md:flex-row justify-between items-end mb-24 reveal">
-                <div>
+    <section id="rules" class="py-24 md:py-32 bg-[#050505]">
+        <div class="container mx-auto px-6 max-w-5xl">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-20 reveal">
+                <div class="mb-6 md:mb-0">
                     <span class="text-gold text-xs font-black tracking-[0.4em] mb-4 block">Regulation</span>
-                    <h2 class="text-4xl font-serif font-black text-white tracking-widest">開催ルール</h2>
+                    <h2 class="text-3xl md:text-4xl font-serif font-black text-white tracking-widest">開催ルール</h2>
                 </div>
             </div>
-            <div class="grid md:grid-cols-2 gap-x-20 gap-y-16">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div class="reveal">
                     <h4 class="text-gold font-serif font-bold text-lg mb-6 flex items-center gap-4">
                         <span class="text-xs opacity-30">01</span> 対局日程
                     </h4>
-                    <ul class="text-sm space-y-4 text-gray-500">
+                    <ul class="text-xs space-y-4 text-gray-500">
                         <li class="flex justify-between border-b border-white/5 pb-2"><span>開催日</span><span class="text-white">毎週月曜日</span></li>
                         <li class="flex justify-between border-b border-white/5 pb-2"><span>刻限</span><span class="text-white">20:00 〜 23:00</span></li>
                     </ul>
@@ -435,17 +532,17 @@
                     <h4 class="text-gold font-serif font-bold text-lg mb-6 flex items-center gap-4">
                         <span class="text-xs opacity-30">02</span> 対局形式
                     </h4>
-                    <div class="grid grid-cols-2 gap-3 text-[10px] font-bold tracking-widest">
+                    <div class="grid grid-cols-2 gap-3 text-[9px] font-black tracking-widest text-center">
                         <div class="bg-white/5 p-4 rounded-sm border-l-2 border-gold">NLH / 6-Max</div>
-                        <div class="bg-white/5 p-4 rounded-sm border-l-2 border-gold">100BB-150BB</div>
+                        <div class="bg-white/5 p-4 rounded-sm border-l-2 border-gold">100-150BB</div>
                     </div>
                 </div>
-                <div class="reveal" style="transition-delay: 0.2s;">
+                <div class="reveal md:col-span-2 lg:col-span-1" style="transition-delay: 0.2s;">
                     <h4 class="text-gold font-serif font-bold text-lg mb-6 flex items-center gap-4">
                         <span class="text-xs opacity-30">03</span> 認定基準
                     </h4>
-                    <p class="text-xs text-gray-600 leading-loose">
-                        各プレイヤーはシーズン中に400ハンド以上のプレイを義務付けられます。これを下回る場合、そのシーズンの公式記録としては認められず、ランク維持・昇格の対象外となります。
+                    <p class="text-[11px] text-gray-500 leading-loose">
+                        各プレイヤーはシーズン中に400ハンド以上のプレイを義務付けられます。これを下回る場合は公式記録として認められず、昇格の対象外となります。
                     </p>
                 </div>
             </div>
@@ -453,39 +550,45 @@
     </section>
 
     <!-- Q&A Section -->
-    <section id="faq" class="py-32 bg-[#080808] border-t border-white/5">
-        <div class="container mx-auto px-8 max-w-3xl">
-            <div class="text-center mb-24 reveal">
-                <h2 class="jp-title text-4xl font-serif font-black text-white uppercase tracking-widest">Q&A</h2>
+    <section id="faq" class="py-24 md:py-32 bg-[#080808] border-t border-white/5">
+        <div class="container mx-auto px-6 max-w-3xl">
+            <div class="text-center mb-20 reveal">
+                <h2 class="jp-title text-3xl md:text-4xl font-serif font-black text-white uppercase tracking-widest" data-sub="FAQ">質問</h2>
             </div>
-            <div class="space-y-12">
-                <div class="faq-item reveal">
-                    <div class="w-full p-8 bg-white/5 text-left border-l-4 border-gold">
-                        <span class="font-serif font-bold text-white tracking-wider">参加に費用は発生しますか？</span>
-                    </div>
+            <div class="space-y-6">
+                <!-- FAQ Item 1 -->
+                <div class="faq-item reveal bg-white/5 border border-white/10 rounded overflow-hidden">
+                    <button class="w-full p-6 md:p-8 flex justify-between items-center text-left focus:outline-none transition-colors hover:bg-white/10" onclick="toggleFaq(this)">
+                        <span class="font-serif font-bold text-white text-sm md:text-base tracking-wider">参加に費用は発生しますか？</span>
+                        <i class="fas fa-chevron-down text-gold transition-transform duration-300"></i>
+                    </button>
                     <div class="faq-answer">
-                        <div class="px-10 py-8 text-gray-500 text-sm leading-loose border-t border-white/5 bg-white/5">
-                            現在、本リーグの参戦に費用は頂いておりません。将来的に維持協力金をお願いする可能性はございます。
+                        <div class="px-8 pb-8 text-gray-400 text-xs md:text-sm leading-loose">
+                            現在、本リーグの参戦に費用は頂いておりません。将来的に運営の安定化のため、維持協力金をお願いする可能性はございます。
                         </div>
                     </div>
                 </div>
-                <div class="faq-item reveal" style="transition-delay: 0.1s;">
-                    <div class="w-full p-8 bg-white/5 text-left border-l-4 border-gold">
-                        <span class="font-serif font-bold text-white tracking-wider">初心者でも参加して良いのでしょうか？</span>
-                    </div>
+                <!-- FAQ Item 2 -->
+                <div class="faq-item reveal bg-white/5 border border-white/10 rounded overflow-hidden" style="transition-delay: 0.1s;">
+                    <button class="w-full p-6 md:p-8 flex justify-between items-center text-left focus:outline-none transition-colors hover:bg-white/10" onclick="toggleFaq(this)">
+                        <span class="font-serif font-bold text-white text-sm md:text-base tracking-wider">初心者でも参加して良いのでしょうか？</span>
+                        <i class="fas fa-chevron-down text-gold transition-transform duration-300"></i>
+                    </button>
                     <div class="faq-answer">
-                        <div class="px-10 py-8 text-gray-500 text-sm leading-loose border-t border-white/5 bg-white/5">
-                            もちろんです。技量は実戦の中で磨かれるものです。Cリーグは広く門戸を開いております。
+                        <div class="px-8 pb-8 text-gray-400 text-xs md:text-sm leading-loose">
+                            もちろんです。技量は実戦と学習の中で磨かれるものです。Cリーグは広く門戸を開いておりますので、向上心のあるプレイヤーを歓迎します。
                         </div>
                     </div>
                 </div>
-                <div class="faq-item reveal" style="transition-delay: 0.2s;">
-                    <div class="w-full p-8 bg-white/5 text-left border-l-4 border-gold">
-                        <span class="font-serif font-bold text-white tracking-wider">リーグの戦績はどのように集計されますか？</span>
-                    </div>
+                <!-- FAQ Item 3 -->
+                <div class="faq-item reveal bg-white/5 border border-white/10 rounded overflow-hidden" style="transition-delay: 0.2s;">
+                    <button class="w-full p-6 md:p-8 flex justify-between items-center text-left focus:outline-none transition-colors hover:bg-white/10" onclick="toggleFaq(this)">
+                        <span class="font-serif font-bold text-white text-sm md:text-base tracking-wider">リーグの戦績はどのように集計されますか？</span>
+                        <i class="fas fa-chevron-down text-gold transition-transform duration-300"></i>
+                    </button>
                     <div class="faq-answer">
-                        <div class="px-10 py-8 text-gray-500 text-sm leading-loose border-t border-white/5 bg-white/5">
-                            Poker Nowのログを運営が抽出・集計し、公式スプレッドシートおよびDiscord上で公開します。透明性の高い管理を徹底しております。
+                        <div class="px-8 pb-8 text-gray-400 text-xs md:text-sm leading-loose">
+                            Poker Now等のログを運営が抽出し、公式スプレッドシートおよびDiscord上で公開します。透明性を担保し、全ハンドの整合性をチェックしています。
                         </div>
                     </div>
                 </div>
@@ -494,18 +597,18 @@
     </section>
 
     <!-- Final CTA -->
-    <section class="py-40 bg-black text-center relative overflow-hidden">
-        <div class="absolute inset-0 flex items-center justify-center opacity-[0.03] pointer-events-none">
-            <span class="text-[30vw] font-serif font-black">鳳凰</span>
+    <section class="py-32 md:py-48 bg-black text-center relative overflow-hidden">
+        <div class="absolute inset-0 flex items-center justify-center opacity-[0.02] pointer-events-none">
+            <span class="text-[30vw] font-serif font-black select-none">鳳凰</span>
         </div>
-        <div class="container mx-auto px-8 relative z-10 reveal">
-            <h2 class="text-4xl md:text-6xl font-serif font-black text-white mb-10 tracking-[0.2em] leading-tight">
+        <div class="container mx-auto px-6 relative z-10 reveal">
+            <h2 class="text-3xl md:text-5xl lg:text-6xl font-serif font-black text-white mb-10 tracking-[0.2em] leading-tight">
                 歴史の<span class="gold-gradient">目撃者</span>ではなく、<br><span class="text-white">当事者</span>となれ。
             </h2>
-            <div class="w-20 h-[1px] bg-gold mx-auto mb-16"></div>
+            <div class="w-16 h-[1px] bg-gold mx-auto mb-16"></div>
             <a href="https://x.com/seekerstart" target="_blank" class="inline-block group relative">
                 <div class="absolute inset-0 bg-gold translate-x-1 translate-y-1 group-hover:translate-x-0 group-hover:translate-y-0 transition duration-300"></div>
-                <div class="relative bg-white text-black px-16 py-6 font-black tracking-[0.5em] text-sm md:text-base border border-black">
+                <div class="relative bg-white text-black px-12 md:px-20 py-5 md:py-6 font-black tracking-[0.5em] text-[10px] md:text-xs border border-black uppercase">
                     公式Xより参戦を申し込む
                 </div>
             </a>
@@ -513,39 +616,54 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-[#050505] py-24 border-t border-white/5">
-        <div class="container mx-auto px-8 text-center md:text-left">
-            <div class="flex flex-col md:flex-row justify-between gap-16">
-                <div class="max-w-md">
-                    <div class="flex items-center justify-center md:justify-start gap-4 mb-8">
-                        <img src="SeekerStart_logo.png" alt="Logo" class="h-6 w-auto grayscale">
+    <footer class="bg-[#050505] py-20 border-t border-white/5">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col lg:flex-row justify-between gap-16">
+                <div class="max-w-md text-center lg:text-left">
+                    <div class="flex items-center justify-center lg:justify-start gap-4 mb-8">
+                        <img src="SeekerStart_logo.png" alt="Logo" class="h-8 w-auto" onerror="this.src='https://via.placeholder.com/80x30/111/d4af37?text=Logo'">
                         <span class="text-xl font-serif font-black tracking-[0.2em] text-white">ポーカー鳳凰戦</span>
                     </div>
-                    <p class="text-gray-500 text-[11px] leading-loose">
-                        運営主体：Seeker Start（ポーカー学習コミュニティ）
+                    <p class="text-gray-500 text-[10px] leading-loose max-w-xs mx-auto lg:mx-0">
+                        運営主体：Seeker Start（ポーカー学習コミュニティ）<br>
+                        私たちは、ポーカーを競技として愛し、その実力を公平に競い合う舞台を提供し続けます。
                     </p>
+                    <div class="flex gap-8 justify-center lg:justify-start mt-8">
+                        <a href="https://x.com/seekerstart" target="_blank" class="text-gray-600 hover:text-white transition text-xl"><i class="fab fa-x-twitter"></i></a>
+                        <a href="#" class="text-gray-600 hover:text-white transition text-xl"><i class="fab fa-discord"></i></a>
+                    </div>
                 </div>
-                <div class="flex gap-12 justify-center">
-                    <a href="https://x.com/seekerstart" target="_blank" class="text-gray-600 hover:text-white transition text-xl"><i class="fab fa-x-twitter"></i></a>
-                    <a href="#" class="text-gray-600 hover:text-white transition text-xl"><i class="fab fa-discord"></i></a>
-                </div>
-                <div class="flex flex-col gap-4 text-center md:text-right">
-                    <h4 class="text-gold font-serif font-bold text-[10px] mb-2 uppercase tracking-[0.4em]">Site Map</h4>
-                    <ul class="text-gray-600 text-[11px] space-y-2 font-bold tracking-[0.2em]">
-                        <li><a href="#concept" class="hover:text-white transition">理念 ─ CONCEPT</a></li>
-                        <li><a href="#league" class="hover:text-white transition">ランク ─ RANK</a></li>
-                        <li><a href="#rules" class="hover:text-white transition">ルール ─ RULE</a></li>
-                        <li><a href="#faq" class="hover:text-white transition">Q&A ─ Q&A</a></li>
-                    </ul>
+                
+                <div class="grid grid-cols-2 sm:grid-cols-2 gap-12 text-center lg:text-right">
+                    <div>
+                        <h4 class="text-gold font-serif font-bold text-[10px] mb-6 uppercase tracking-[0.4em]">Navigation</h4>
+                        <ul class="text-gray-600 text-[10px] space-y-3 font-bold tracking-[0.1em]">
+                            <li><a href="#season" class="hover:text-white transition">シーズン ─ SEASON</a></li>
+                            <li><a href="#concept" class="hover:text-white transition">理念 ─ CONCEPT</a></li>
+                            <li><a href="#league" class="hover:text-white transition">ランク ─ RANK</a></li>
+                            <li><a href="#rules" class="hover:text-white transition">ルール ─ RULE</a></li>
+                            <li><a href="#faq" class="hover:text-white transition">質問 ─ FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-gold font-serif font-bold text-[10px] mb-6 uppercase tracking-[0.4em]">Official</h4>
+                        <ul class="text-gray-600 text-[10px] space-y-3 font-bold tracking-[0.1em]">
+                            <li><a href="https://x.com/seekerstart" class="hover:text-white transition">公式X</a></li>
+                            <li><a href="#" class="hover:text-white transition">利用規約</a></li>
+                            <li><a href="#" class="hover:text-white transition">プライバシー</a></li>
+                            <li><a href="#" class="hover:text-white transition">お問い合わせ</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <div class="pt-10 mt-10 border-t border-white/5 text-[9px] text-gray-800 font-bold uppercase tracking-[0.3em] text-center">
+            <div class="pt-12 mt-16 border-t border-white/5 text-[9px] text-gray-700 font-bold uppercase tracking-[0.4em] text-center">
                 © 2026 POKER HOUOU LEAGUE. ALL RIGHTS RESERVED.
             </div>
         </div>
     </footer>
 
     <script>
+        // Scroll Management
         window.addEventListener('scroll', () => {
             const nav = document.getElementById('nav');
             if (window.scrollY > 100) {
@@ -557,15 +675,55 @@
             }
         });
 
+        // Intersection Observer for Animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     entry.target.classList.add('active');
                 }
             });
-        }, { threshold: 0.1 });
+        }, observerOptions);
 
         document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+        // Mobile Menu Toggle
+        const menuToggle = document.getElementById('menu-toggle');
+        const menuClose = document.getElementById('menu-close');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuToggle.addEventListener('click', () => {
+            mobileMenu.classList.add('open');
+            document.body.style.overflow = 'hidden';
+        });
+
+        menuClose.addEventListener('click', () => {
+            mobileMenu.classList.remove('open');
+            document.body.style.overflow = '';
+        });
+
+        mobileMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('open');
+                document.body.style.overflow = '';
+            });
+        });
+
+        // FAQ Toggle Logic
+        function toggleFaq(button) {
+            const item = button.parentElement;
+            const isOpen = item.classList.contains('open');
+            
+            if (isOpen) {
+                item.classList.remove('open');
+            } else {
+                item.classList.add('open');
+            }
+        }
     </script>
 </body>
 </html>
