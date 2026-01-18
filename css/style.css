@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700;900&family=Noto+Sans+JP:wght@300;400;700&display=swap');
+
+:root {
+    --gold: #d4af37;
+    --gold-light: #f7ef8a;
+    --silver: #c0c0c0;
+    --silver-light: #e8e8e8;
+    --bronze: #cd7f32;
+    --bronze-light: #f4c49c;
+    --red-vermilion: #b91c1c;
+    --bg-deep: #050505;
+    --bg-paper: #0a0a0a;
+}
+
+body {
+    background-color: var(--bg-deep);
+    color: #d1d1d1;
+    font-family: 'Noto Sans JP', sans-serif;
+    overflow-x: hidden;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23ffffff' fill-opacity='0.02' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+h1, h2, h3, .font-serif {
+    font-family: 'Noto Serif JP', serif;
+}
+
+.vertical-text {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+.gold-glow {
+    text-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
+}
+
+.gold-gradient {
+    background: linear-gradient(to bottom, var(--gold-light), var(--gold), #996515);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.silver-gradient {
+    background: linear-gradient(to bottom, var(--silver-light), var(--silver), #757575);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bronze-gradient {
+    background: linear-gradient(to bottom, var(--bronze-light), var(--bronze), #8b4513);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-link-glow {
+    position: relative;
+    transition: all 0.4s ease;
+}
+
+.nav-link-glow:hover {
+    color: #fff !important;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.6), 0 0 15px var(--gold);
+    transform: translateY(-1px);
+}
+
+.nav-button-glow {
+    transition: all 0.4s ease;
+}
+
+.nav-button-glow:hover {
+    color: #fff !important;
+    background-color: rgba(212, 175, 55, 0.1);
+    border-color: var(--gold-light);
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.4), inset 0 0 8px rgba(212, 175, 55, 0.2);
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+}
+
+.jp-title {
+    position: relative;
+    padding-bottom: 2rem;
+    display: inline-block;
+}
+.jp-title::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--gold), transparent);
+}
+.jp-title::after {
+    content: attr(data-sub);
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.6rem;
+    letter-spacing: 0.5em;
+    color: var(--gold);
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.jp-card {
+    background: rgba(15, 15, 15, 0.8);
+    border: 1px solid rgba(212, 175, 55, 0.15);
+    position: relative;
+    transition: all 0.4s ease;
+}
+.jp-card:hover {
+    border-color: var(--gold);
+    background: rgba(20, 20, 20, 0.95);
+    box-shadow: 0 0 30px rgba(0,0,0,0.5), inset 0 0 10px rgba(212, 175, 55, 0.1);
+}
+
+.corner-deco::before, .corner-deco::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 1px solid var(--gold);
+}
+.corner-deco::before { top: -2px; left: -2px; border-right: 0; border-bottom: 0; }
+.corner-deco::after { bottom: -2px; right: -2px; border-left: 0; border-top: 0; }
+
+.player-thumb {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 1px solid var(--gold);
+    padding: 2px;
+    background: var(--bg-deep);
+    object-fit: cover;
+}
+
+.reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Feather Animation */
+.feather {
+    position: fixed;
+    top: -10vh;
+    z-index: 40; /* コンテンツの上、ヘッダーより下 */
+    pointer-events: none;
+    color: rgba(212, 175, 55, 0.15); /* 薄く調整: 0.4 -> 0.15 */
+    text-shadow: 0 0 2px rgba(247, 239, 138, 0.1); /* 影も控えめに */
+}
+
+@keyframes feather-fall {
+    0% { top: -10vh; opacity: 0; }
+    10% { opacity: 0.8; }
+    90% { opacity: 0.8; }
+    100% { top: 110vh; opacity: 0; }
+}
+
+@keyframes feather-sway {
+    0% { transform: translateX(-30px) rotate(-15deg); }
+    100% { transform: translateX(30px) rotate(15deg); }
+}
+
+@keyframes slowZoom {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.1); }
+}
+.animate-zoom {
+    animation: slowZoom 25s ease-out forwards;
+}
+
+/* FAQ Accordion */
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out;
+}
+.faq-item.open .faq-answer {
+    max-height: 500px;
+}
+.faq-item.open .fa-chevron-down {
+    transform: rotate(180deg);
+}
+
+/* Mobile Menu */
+#mobile-menu {
+    transform: translateX(100%);
+    transition: transform 0.4s ease;
+}
+#mobile-menu.open {
+    transform: translateX(0);
+}
+
+/* ============================================
+   Utility Classes
+   ============================================ */
+
+/* Transition Delays */
+.delay-100 { transition-delay: 0.1s; }
+.delay-200 { transition-delay: 0.2s; }
+.delay-300 { transition-delay: 0.3s; }
+
+/* League Colors - Silver (B League) */
+.text-silver { color: var(--silver); }
+.border-silver { border-color: var(--silver); }
+
+/* League Colors - Bronze (C League) */
+.text-bronze { color: var(--bronze); }
+.border-bronze { border-color: var(--bronze); }
+
+/* Player Thumbnail Variants */
+.player-thumb-silver {
+    border-color: var(--silver);
+}
+.player-thumb-bronze {
+    border-color: var(--bronze);
+    opacity: 0.8;
+}
+
+/* Background Patterns */
+.bg-hero {
+    background-image: url('../houoh_kaimaku.png');
+}
+
+.bg-dots-gold {
+    background-image: radial-gradient(#d4af37 1px, transparent 0);
+    background-size: 40px 40px;
+}
+
+.bg-cta-rays {
+    background: repeating-conic-gradient(from 0deg at 50% 50%, transparent 0deg, transparent 2deg, rgba(212, 175, 55, 0.1) 2deg, rgba(212, 175, 55, 0.1) 4deg);
+}
