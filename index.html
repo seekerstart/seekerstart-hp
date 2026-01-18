@@ -6,205 +6,7 @@
     <title>ポーカー鳳凰戦 | 公式サイト - 最高峰の競技ポーカーリーグ</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700;900&family=Noto+Sans+JP:wght@300;400;700&display=swap');
-
-        :root {
-            --gold: #d4af37;
-            --gold-light: #f7ef8a;
-            --silver: #c0c0c0;
-            --silver-light: #e8e8e8;
-            --bronze: #cd7f32;
-            --bronze-light: #f4c49c;
-            --red-vermilion: #b91c1c;
-            --bg-deep: #050505;
-            --bg-paper: #0a0a0a;
-        }
-
-        body {
-            background-color: var(--bg-deep);
-            color: #d1d1d1;
-            font-family: 'Noto Sans JP', sans-serif;
-            overflow-x: hidden;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23ffffff' fill-opacity='0.02' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
-        }
-
-        h1, h2, h3, .font-serif {
-            font-family: 'Noto Serif JP', serif;
-        }
-
-        .vertical-text {
-            writing-mode: vertical-rl;
-            text-orientation: mixed;
-        }
-
-        .gold-glow {
-            text-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
-        }
-
-        .gold-gradient {
-            background: linear-gradient(to bottom, var(--gold-light), var(--gold), #996515);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        .silver-gradient {
-            background: linear-gradient(to bottom, var(--silver-light), var(--silver), #757575);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        .bronze-gradient {
-            background: linear-gradient(to bottom, var(--bronze-light), var(--bronze), #8b4513);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        .nav-link-glow {
-            position: relative;
-            transition: all 0.4s ease;
-        }
-
-        .nav-link-glow:hover {
-            color: #fff !important;
-            text-shadow: 0 0 8px rgba(255, 255, 255, 0.6), 0 0 15px var(--gold);
-            transform: translateY(-1px);
-        }
-
-        .nav-button-glow {
-            transition: all 0.4s ease;
-        }
-
-        .nav-button-glow:hover {
-            color: #fff !important;
-            background-color: rgba(212, 175, 55, 0.1);
-            border-color: var(--gold-light);
-            box-shadow: 0 0 15px rgba(212, 175, 55, 0.4), inset 0 0 8px rgba(212, 175, 55, 0.2);
-            text-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
-        }
-
-        .jp-title {
-            position: relative;
-            padding-bottom: 2rem;
-            display: inline-block;
-        }
-        .jp-title::before {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 150px;
-            height: 1px;
-            background: linear-gradient(90deg, transparent, var(--gold), transparent);
-        }
-        .jp-title::after {
-            content: attr(data-sub);
-            position: absolute;
-            bottom: -5px;
-            left: 50%;
-            transform: translateX(-50%);
-            font-size: 0.6rem;
-            letter-spacing: 0.5em;
-            color: var(--gold);
-            font-family: sans-serif;
-            font-weight: 900;
-        }
-
-        .jp-card {
-            background: rgba(15, 15, 15, 0.8);
-            border: 1px solid rgba(212, 175, 55, 0.15);
-            position: relative;
-            transition: all 0.4s ease;
-        }
-        .jp-card:hover {
-            border-color: var(--gold);
-            background: rgba(20, 20, 20, 0.95);
-            box-shadow: 0 0 30px rgba(0,0,0,0.5), inset 0 0 10px rgba(212, 175, 55, 0.1);
-        }
-        
-        .corner-deco::before, .corner-deco::after {
-            content: '';
-            position: absolute;
-            width: 10px;
-            height: 10px;
-            border: 1px solid var(--gold);
-        }
-        .corner-deco::before { top: -2px; left: -2px; border-right: 0; border-bottom: 0; }
-        .corner-deco::after { bottom: -2px; right: -2px; border-left: 0; border-top: 0; }
-
-        .player-thumb {
-            width: 48px;
-            height: 48px;
-            border-radius: 50%;
-            border: 1px solid var(--gold);
-            padding: 2px;
-            background: var(--bg-deep);
-            object-fit: cover;
-        }
-
-        .reveal {
-            opacity: 0;
-            transform: translateY(30px);
-            transition: all 0.6s cubic-bezier(0.22, 1, 0.36, 1);
-        }
-        .reveal.active {
-            opacity: 1;
-            transform: translateY(0);
-        }
-
-        /* Feather Animation */
-        .feather {
-            position: fixed;
-            top: -10vh;
-            z-index: 40; /* コンテンツの上、ヘッダーより下 */
-            pointer-events: none;
-            color: rgba(212, 175, 55, 0.15); /* 薄く調整: 0.4 -> 0.15 */
-            text-shadow: 0 0 2px rgba(247, 239, 138, 0.1); /* 影も控えめに */
-        }
-
-        @keyframes feather-fall {
-            0% { top: -10vh; opacity: 0; }
-            10% { opacity: 0.8; }
-            90% { opacity: 0.8; }
-            100% { top: 110vh; opacity: 0; }
-        }
-
-        @keyframes feather-sway {
-            0% { transform: translateX(-30px) rotate(-15deg); }
-            100% { transform: translateX(30px) rotate(15deg); }
-        }
-
-        @keyframes slowZoom {
-            0% { transform: scale(1); }
-            100% { transform: scale(1.1); }
-        }
-        .animate-zoom {
-            animation: slowZoom 25s ease-out forwards;
-        }
-
-        /* FAQ Accordion */
-        .faq-answer {
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.4s ease-out;
-        }
-        .faq-item.open .faq-answer {
-            max-height: 500px;
-        }
-        .faq-item.open .fa-chevron-down {
-            transform: rotate(180deg);
-        }
-
-        /* Mobile Menu */
-        #mobile-menu {
-            transform: translateX(100%);
-            transition: transform 0.4s ease;
-        }
-        #mobile-menu.open {
-            transform: translateX(0);
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="antialiased">
 
@@ -263,9 +65,7 @@
     <!-- Hero Section -->
     <section class="relative h-screen flex items-center justify-center overflow-hidden bg-black">
         <div class="absolute inset-0 z-0">
-            <div class="w-full h-full bg-cover bg-center opacity-30 animate-zoom" 
-                 style="background-image: url('houoh_kaimaku.png');"
-                 onerror="this.style.backgroundImage='url(https://images.unsplash.com/photo-1511193311914-0346f16efe90?auto=format&fit=crop&q=80&w=2073)'">
+            <div class="w-full h-full bg-cover bg-center opacity-30 animate-zoom bg-hero">
             </div>
             <div class="absolute inset-0 bg-gradient-to-b from-transparent via-black/40 to-black"></div>
             <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_0%,black_95%)]"></div>
@@ -292,7 +92,7 @@
             </div>
 
             <!-- Balanced Hero Buttons -->
-            <div class="reveal" style="transition-delay: 0.2s;">
+            <div class="reveal delay-200">
                 <p class="text-gray-400 text-xs sm:text-base font-light tracking-[0.1em] mb-12 max-w-xl mx-auto leading-loose">
                     運に左右される一戦を超え、<br>
                     永続的な技量と精神力を評価する。
@@ -336,7 +136,7 @@
             </div>
 
             <!-- 横長バナーエリア -->
-            <div class="reveal mb-16" style="transition-delay: 0.1s;">
+            <div class="reveal mb-16 delay-100">
                 <div class="relative group">
                     <div class="absolute -inset-1 bg-gradient-to-b from-gold/30 to-transparent blur-md opacity-20 group-hover:opacity-40 transition duration-1000"></div>
                     <div class="relative bg-black border border-white/10 rounded-sm overflow-hidden shadow-2xl">
@@ -350,7 +150,7 @@
             </div>
 
             <!-- 詳細カードエリア -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 reveal" style="transition-delay: 0.2s;">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 reveal delay-200">
                 <div class="bg-white/5 p-6 border-l-4 border-gold rounded-r-sm flex flex-col justify-center">
                     <h4 class="text-white font-serif font-black text-lg mb-3 flex items-center gap-3">
                         <i class="fas fa-chess-knight text-gold text-sm"></i> 全員Cリーグから始動
@@ -377,7 +177,7 @@
                 </div>
             </div>
 
-            <div class="mt-12 text-center reveal" style="transition-delay: 0.3s;">
+            <div class="mt-12 text-center reveal delay-300">
                 <p class="text-[10px] text-gray-600 italic">
                     ※最高位「Aリーグ」は、今後のリーグ展開に合わせて段階的に形成・開放されます。
                 </p>
@@ -387,7 +187,7 @@
 
     <!-- Concept Section -->
     <section id="concept" class="py-24 md:py-32 bg-[#050505] relative">
-        <div class="absolute top-0 left-0 w-full h-full opacity-[0.03] pointer-events-none" style="background-image: radial-gradient(#d4af37 1px, transparent 0); background-size: 40px 40px;"></div>
+        <div class="absolute top-0 left-0 w-full h-full opacity-[0.03] pointer-events-none bg-dots-gold"></div>
         
         <div class="container mx-auto px-6 max-w-6xl">
             <div class="flex flex-col lg:flex-row items-center gap-16 lg:gap-24">
@@ -403,7 +203,7 @@
                         <p>シーズンを通じたBB（ビッグブラインド）の累計収支、期待値の最大化を目指した上での圧倒的な試行回数。これらこそが、私たちが定義する「強さ」の証明です。</p>
                     </div>
                 </div>
-                <div class="w-full lg:w-1/2 grid grid-cols-1 sm:grid-cols-2 gap-4 reveal" style="transition-delay: 0.1s;">
+                <div class="w-full lg:w-1/2 grid grid-cols-1 sm:grid-cols-2 gap-4 reveal delay-100">
                     <div class="jp-card p-8 corner-deco">
                         <h4 class="text-gold font-serif font-bold text-base mb-4 italic">誠実な評価</h4>
                         <p class="text-[11px] text-gray-500 leading-relaxed">BBの累計収支に基づいた絶対的な実力評価を採用。</p>
@@ -461,7 +261,7 @@
 
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-0 items-stretch">
                 <!-- A League -->
-                <div class="jp-card p-10 reveal flex flex-col" style="transition-delay: 0.1s;">
+                <div class="jp-card p-10 reveal flex flex-col delay-100">
                     <div class="flex-grow">
                         <div class="flex justify-between items-start mb-8">
                             <span class="text-gold font-black text-[10px] tracking-widest uppercase">First Tier</span>
@@ -493,29 +293,29 @@
                 </div>
 
                 <!-- B League (Silver) -->
-                <div class="jp-card p-10 bg-black lg:scale-105 z-10 shadow-2xl reveal flex flex-col" style="transition-delay: 0.1s; border-color: var(--silver);">
+                <div class="jp-card p-10 bg-black lg:scale-105 z-10 shadow-2xl reveal flex flex-col delay-100 border-silver">
                     <div class="flex-grow">
                         <div class="flex justify-between items-start mb-8">
-                            <span class="font-black text-[10px] tracking-widest uppercase" style="color: var(--silver);">Second Tier</span>
-                            <span class="text-[9px]" style="color: var(--silver);">激戦</span>
+                            <span class="font-black text-[10px] tracking-widest uppercase text-silver">Second Tier</span>
+                            <span class="text-[9px] text-silver">激戦</span>
                         </div>
                         <h3 class="text-2xl font-serif font-bold silver-gradient mb-4 italic text-white">Bリーグ</h3>
                         <p class="text-xs text-gray-400 leading-relaxed mb-10">実力者がひしめく中堅階層。昇格と降格が常に交差する、最も過酷なサバイバル・ゾーン。</p>
                         <div class="h-[1px] w-full bg-gradient-to-r from-white/30 to-transparent mb-8"></div>
                     </div>
                     <div class="mt-auto">
-                        <h4 class="text-[9px] font-bold tracking-[0.2em] mb-5 border-b border-white/20 pb-2" style="color: var(--silver);">主要参戦選手</h4>
+                        <h4 class="text-[9px] font-bold tracking-[0.2em] mb-5 border-b border-white/20 pb-2 text-silver">主要参戦選手</h4>
                         <div class="space-y-4">
                             <div class="flex items-center justify-between">
                                 <div class="flex items-center gap-3">
-                                    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=B1" alt="Player" class="player-thumb" style="border-color: var(--silver);" onerror="this.src='https://via.placeholder.com/50'">
+                                    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=B1" alt="Player" class="player-thumb player-thumb-silver" onerror="this.src='https://via.placeholder.com/50'">
                                     <span class="text-xs font-bold text-white">ブラフ三郎</span>
                                 </div>
                                 <i class="fab fa-x-twitter text-white/20 text-xs"></i>
                             </div>
                             <div class="flex items-center justify-between">
                                 <div class="flex items-center gap-3">
-                                    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=B2" alt="Player" class="player-thumb" style="border-color: var(--silver);" onerror="this.src='https://via.placeholder.com/50'">
+                                    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=B2" alt="Player" class="player-thumb player-thumb-silver" onerror="this.src='https://via.placeholder.com/50'">
                                     <span class="text-xs font-bold text-white">ナッツ花子</span>
                                 </div>
                                 <i class="fab fa-x-twitter text-white/20 text-xs"></i>
@@ -525,29 +325,29 @@
                 </div>
 
                 <!-- C League (Bronze) -->
-                <div class="jp-card p-10 reveal flex flex-col" style="transition-delay: 0.1s; border-color: var(--bronze);">
+                <div class="jp-card p-10 reveal flex flex-col delay-100 border-bronze">
                     <div class="flex-grow">
                         <div class="flex justify-between items-start mb-8">
-                            <span class="font-black text-[10px] tracking-widest uppercase" style="color: var(--bronze);">Third Tier</span>
-                            <span class="text-[9px]" style="color: var(--bronze);">登竜門</span>
+                            <span class="font-black text-[10px] tracking-widest uppercase text-bronze">Third Tier</span>
+                            <span class="text-[9px] text-bronze">登竜門</span>
                         </div>
                         <h3 class="text-2xl font-serif font-bold bronze-gradient mb-4 italic">Cリーグ</h3>
                         <p class="text-xs text-gray-500 leading-relaxed mb-10">鳳凰への第一歩。すべての挑戦者はここから始まります。上位40%が次なるランクへと駒を進める。</p>
                         <div class="h-[1px] w-full bg-gradient-to-r from-orange-900/50 to-transparent mb-8"></div>
                     </div>
                     <div class="mt-auto">
-                        <h4 class="text-[9px] font-bold tracking-[0.2em] mb-5 border-b border-orange-900/30 pb-2" style="color: var(--bronze);">主要参戦選手</h4>
+                        <h4 class="text-[9px] font-bold tracking-[0.2em] mb-5 border-b border-orange-900/30 pb-2 text-bronze">主要参戦選手</h4>
                         <div class="space-y-4">
                             <div class="flex items-center justify-between">
                                 <div class="flex items-center gap-3">
-                                    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=C1" alt="Player" class="player-thumb" style="border-color: var(--bronze); opacity: 0.8;" onerror="this.src='https://via.placeholder.com/50'">
+                                    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=C1" alt="Player" class="player-thumb player-thumb-bronze" onerror="this.src='https://via.placeholder.com/50'">
                                     <span class="text-xs font-bold text-white">ルーキー五郎</span>
                                 </div>
                                 <i class="fab fa-x-twitter text-white/20 text-xs"></i>
                             </div>
                             <div class="flex items-center justify-between">
                                 <div class="flex items-center gap-3">
-                                    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=C2" alt="Player" class="player-thumb" style="border-color: var(--bronze); opacity: 0.8;" onerror="this.src='https://via.placeholder.com/50'">
+                                    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=C2" alt="Player" class="player-thumb player-thumb-bronze" onerror="this.src='https://via.placeholder.com/50'">
                                     <span class="text-xs font-bold text-white">ビギナー恵美</span>
                                 </div>
                                 <i class="fab fa-x-twitter text-white/20 text-xs"></i>
@@ -590,7 +390,7 @@
                 </div>
 
                 <!-- 02 対戦形式 -->
-                <div class="reveal flex flex-col" style="transition-delay: 0.1s;">
+                <div class="reveal flex flex-col delay-100">
                     <h4 class="text-gold font-serif font-bold text-lg mb-6 flex items-center gap-4">
                         <span class="text-xs opacity-30">02</span> 対戦形式
                     </h4>
@@ -619,7 +419,7 @@
                 </div>
 
                 <!-- 03 バイイン・運用 -->
-                <div class="reveal flex flex-col" style="transition-delay: 0.2s;">
+                <div class="reveal flex flex-col delay-200">
                     <h4 class="text-gold font-serif font-bold text-lg mb-6 flex items-center gap-4">
                         <span class="text-xs opacity-30">03</span> バイイン・運用
                     </h4>
@@ -649,7 +449,7 @@
             </div>
 
             <!-- Certification Section -->
-            <div class="mt-16 reveal bg-gradient-to-r from-transparent via-white/5 to-transparent p-8 text-center border-y border-white/5" style="transition-delay: 0.3s;">
+            <div class="mt-16 reveal bg-gradient-to-r from-transparent via-white/5 to-transparent p-8 text-center border-y border-white/5 delay-300">
                 <h4 class="text-white font-serif font-bold text-sm mb-4 tracking-widest text-gold uppercase italic">リーグ認定基準</h4>
                 <div class="max-w-3xl mx-auto space-y-4">
                     <p class="text-xs md:text-sm text-gray-300 leading-loose">
@@ -685,7 +485,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="faq-item reveal bg-white/5 border border-white/10 rounded overflow-hidden" style="transition-delay: 0.1s;">
+                <div class="faq-item reveal bg-white/5 border border-white/10 rounded overflow-hidden delay-100">
                     <button class="w-full p-6 md:p-8 flex justify-between items-center text-left focus:outline-none transition-colors hover:bg-white/10" onclick="toggleFaq(this)">
                         <span class="font-serif font-bold text-white text-sm md:text-base tracking-wider">初心者でも参加して良いのでしょうか？</span>
                         <i class="fas fa-chevron-down text-gold transition-transform duration-300"></i>
@@ -696,7 +496,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="faq-item reveal bg-white/5 border border-white/10 rounded overflow-hidden" style="transition-delay: 0.2s;">
+                <div class="faq-item reveal bg-white/5 border border-white/10 rounded overflow-hidden delay-200">
                     <button class="w-full p-6 md:p-8 flex justify-between items-center text-left focus:outline-none transition-colors hover:bg-white/10" onclick="toggleFaq(this)">
                         <span class="font-serif font-bold text-white text-sm md:text-base tracking-wider">リーグの戦績はどのように集計されますか？</span>
                         <i class="fas fa-chevron-down text-gold transition-transform duration-300"></i>
@@ -714,9 +514,7 @@
     <!-- Final CTA Section -->
     <section class="py-32 md:py-48 bg-black text-center relative overflow-hidden">
         <!-- 集中線背景 -->
-        <div class="absolute inset-0 pointer-events-none opacity-20" 
-             style="background: repeating-conic-gradient(from 0deg at 50% 50%, transparent 0deg, transparent 2deg, rgba(212, 175, 55, 0.1) 2deg, rgba(212, 175, 55, 0.1) 4deg);">
-        </div>
+        <div class="absolute inset-0 pointer-events-none opacity-20 bg-cta-rays"></div>
         <!-- 中心を抜くグラデーション -->
         <div class="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_center,black_30%,transparent_100%)]"></div>
 
@@ -787,102 +585,6 @@
         </div>
     </footer>
 
-    <script>
-        // Scroll Management (Header shrink)
-        window.addEventListener('scroll', () => {
-            const nav = document.getElementById('nav');
-            if (window.scrollY > 100) {
-                nav.classList.add('bg-black/90', 'backdrop-blur-md', 'border-b', 'border-white/5', 'py-3');
-                nav.classList.remove('py-5');
-            } else {
-                nav.classList.remove('bg-black/90', 'backdrop-blur-md', 'border-b', 'border-white/5', 'py-3');
-                nav.classList.add('py-5');
-            }
-        });
-
-        // Intersection Observer for Reveal Animations
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px'
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('active');
-                }
-            });
-        }, observerOptions);
-
-        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
-
-        // Feather Animation Logic
-        function createFeather() {
-            const feather = document.createElement('div');
-            // アイコンを内包する要素で変形（細長く）を適用
-            // scale(0.5, 1.3) で横を半分、縦を1.3倍にして細長く見せる
-            feather.innerHTML = '<i class="fas fa-feather" style="display:block; transform: scale(0.5, 1.3);"></i>';
-            feather.classList.add('feather');
-            
-            // Random properties
-            const size = Math.random() * 20 + 20; // 少し大きめに調整 20px - 40px (細くしたので視認性確保)
-            const left = Math.random() * 100; // 0% - 100vw
-            const fallDuration = Math.random() * 10 + 15; // 15s - 25s (よりゆっくりに)
-            const swayDuration = Math.random() * 3 + 3; // 3s - 6s (ゆったり揺れる)
-            const delay = Math.random() * 5; // 0s - 5s delay
-
-            feather.style.fontSize = `${size}px`;
-            feather.style.left = `${left}vw`;
-            feather.style.animation = `
-                feather-fall ${fallDuration}s linear forwards,
-                feather-sway ${swayDuration}s ease-in-out infinite alternate
-            `;
-            
-            document.body.appendChild(feather);
-
-            // Cleanup
-            setTimeout(() => {
-                feather.remove();
-            }, fallDuration * 1000);
-        }
-
-        // Start feather animation loop
-        setInterval(createFeather, 2000); // 生成頻度を少し上げる
-
-        // Mobile Menu Toggle Logic
-        const menuToggle = document.getElementById('menu-toggle');
-        const menuClose = document.getElementById('menu-close');
-        const mobileMenu = document.getElementById('mobile-menu');
-
-        menuToggle.addEventListener('click', () => {
-            mobileMenu.classList.add('open');
-            document.body.style.overflow = 'hidden';
-        });
-
-        menuClose.addEventListener('click', () => {
-            mobileMenu.classList.remove('open');
-            document.body.style.overflow = '';
-        });
-
-        // Close menu on link click
-        mobileMenu.querySelectorAll('a').forEach(link => {
-            link.addEventListener('click', () => {
-                mobileMenu.classList.remove('open');
-                document.body.style.overflow = '';
-            });
-        });
-
-        // FAQ Toggle Logic
-        function toggleFaq(button) {
-            const item = button.parentElement;
-            const isOpen = item.classList.contains('open');
-            
-            if (isOpen) {
-                item.classList.remove('open');
-            } else {
-                item.classList.add('open');
-            }
-        }
-    </script>
+    <script src="js/main.js"></script>
 </body>
 </html>
