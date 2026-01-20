@@ -1,0 +1,17 @@
+{
+  "seasons": [
+    {
+      "id": 1,
+      "name": "第1期",
+      "start_date": "2026-01-01",
+      "end_date": "2026-03-31",
+      "leagues": {
+        "A": [],
+        "B": [],
+        "C": ["*"]
+      },
+      "status": "active"
+    }
+  ],
+  "current_season_id": 1
+}
