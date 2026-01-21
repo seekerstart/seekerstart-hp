@@ -206,13 +206,23 @@ h1, h2, h3, .font-serif {
 .delay-200 { transition-delay: 0.2s; }
 .delay-300 { transition-delay: 0.3s; }
 
+/* League Colors - Gold (A League) */
+.text-gold { color: var(--gold); }
+.border-gold { border-color: var(--gold); }
+.border-gold-10 { border-color: rgba(212, 175, 55, 0.1); }
+.divider-gold { background: linear-gradient(to right, rgba(212, 175, 55, 0.2), transparent); }
+
 /* League Colors - Silver (B League) */
 .text-silver { color: var(--silver); }
 .border-silver { border-color: var(--silver); }
+.border-silver-20 { border-color: rgba(192, 192, 192, 0.2); }
+.divider-silver { background: linear-gradient(to right, rgba(192, 192, 192, 0.3), transparent); }
 
 /* League Colors - Bronze (C League) */
 .text-bronze { color: var(--bronze); }
 .border-bronze { border-color: var(--bronze); }
+.border-bronze-30 { border-color: rgba(205, 127, 50, 0.3); }
+.divider-bronze { background: linear-gradient(to right, rgba(205, 127, 50, 0.5), transparent); }
 
 /* Player Thumbnail Variants */
 .player-thumb-silver {
