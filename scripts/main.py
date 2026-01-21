@@ -98,8 +98,9 @@ def main():
     # 結果サマリー
     print(f"\n=== Summary ===")
     print(f"Total players: {len(aggregator.all_stats)}")
-    total_hands = sum(s.hands for s in aggregator.all_stats.values())
-    print(f"Total hands: {total_hands}")
+    print(f"Total unique hands: {aggregator.total_unique_hands}")
+    total_player_hands = sum(s.hands for s in aggregator.all_stats.values())
+    print(f"Total player-hands: {total_player_hands} (延べ参加数)")
     print(f"Seasons with data: {len(aggregator.stats_by_season)}")
 
     if args.dry_run:

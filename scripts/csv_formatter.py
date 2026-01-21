@@ -213,7 +213,8 @@ def extract_player_id_map(raw_csv_text: str) -> Dict[str, str]:
         Dict[str, str]: {プレイヤー名: プレイヤーID}
     """
     name_id_map = {}
-    matches = re.findall(r'"(.*?) @ (\w+)"', raw_csv_text)
+    # "name @ id" パターンを抽出（IDは @ 以降の文字列全体）
+    matches = re.findall(r'"(.*?) @ ([^"]+)"', raw_csv_text)
     for name, player_id in matches:
         if name not in name_id_map:
             name_id_map[name] = player_id

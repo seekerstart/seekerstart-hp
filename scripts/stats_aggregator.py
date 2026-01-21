@@ -43,6 +43,9 @@ class StatsAggregator:
         self.stats_by_season: Dict[int, Dict[str, PlayerStats]] = {}
         # player_id -> PlayerStats (全期間)
         self.all_stats: Dict[str, PlayerStats] = {}
+        # ユニークハンド数の追跡
+        self.total_unique_hands: int = 0
+        self.unique_hands_by_season: Dict[int, int] = {}
 
     def discover_sessions(self) -> List[SessionInfo]:
         """data/hand_histories/内のセッションを検出"""
@@ -88,23 +91,29 @@ class StatsAggregator:
 
         return sessions
 
-    def process_session(self, session: SessionInfo) -> Dict[str, PlayerStats]:
-        """1セッションを処理してスタッツを計算"""
+    def process_session(self, session: SessionInfo) -> tuple:
+        """
+        1セッションを処理してスタッツを計算
+
+        Returns:
+            tuple: (session_stats: Dict[str, PlayerStats], unique_hands: int)
+        """
         if self.verbose:
             print(f"Processing session: {session.session_dir.name}")
 
         if not session.csv_path or not session.csv_path.exists():
             if self.verbose:
                 print(f"  Warning: No CSV file found")
-            return {}
+            return {}, 0
 
         # CSVをパース
         parser = PokerNowParser(str(session.csv_path))
         formatted_text, player_names = parser.parse()
 
+        # パース済みのテキストを使用（csv.readerでクォートが正しく処理されている）
+        raw_text = parser.raw_text
+
         # ID変更を検出
-        with open(session.csv_path, "r", encoding="utf-8") as f:
-            raw_text = f.read()
         self.registry.process_id_changes(raw_text)
 
         # プレイヤーIDマップを取得
@@ -115,7 +124,9 @@ class StatsAggregator:
         if not histories:
             if self.verbose:
                 print(f"  Warning: No hands found")
-            return {}
+            return {}, 0
+
+        unique_hands = len(histories)
 
         # スタッツ計算
         calculator = StatsCalculator(histories)
@@ -152,14 +163,21 @@ class StatsAggregator:
                     session_stats[player_id].net = ledger_info["net"]
 
         if self.verbose:
-            print(f"  Found {len(session_stats)} players, {len(histories)} hands")
+            print(f"  Found {len(session_stats)} players, {unique_hands} hands")
 
-        return session_stats
+        return session_stats, unique_hands
 
     def aggregate(self, sessions: List[SessionInfo]) -> None:
         """全セッションを集計"""
         for session in sessions:
-            session_stats = self.process_session(session)
+            session_stats, unique_hands = self.process_session(session)
+
+            # ユニークハンド数を加算
+            self.total_unique_hands += unique_hands
+            if session.season_id:
+                if session.season_id not in self.unique_hands_by_season:
+                    self.unique_hands_by_season[session.season_id] = 0
+                self.unique_hands_by_season[session.season_id] += unique_hands
 
             for player_id, stats in session_stats.items():
                 # シーズン別集計

@@ -222,18 +222,17 @@ def vpip_add(history, player):
         return True
 
 def calculate_vpip(histories: list, player: str):
-    print(player)
     vpip = 0
     hands = 0
-    if player == "TOMO()":
-        print(player)
     for history in histories:
-        if player in history:
+        # シート情報からプレイヤーの参加を判定
+        seated_players = re.findall(r"seat \d+: (.*?) \(\d+ in chips\)", history)
+        if player in seated_players:
             hands += 1
             if vpip_add(history, player):
                 vpip += 1
-        else:
-            continue
+    if hands == 0:
+        return 0, 0, 0
     return round(vpip / hands * 100, 2), hands, int(vpip)
 
 # 3bet 率を計算する
