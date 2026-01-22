@@ -30,7 +30,9 @@ class StatsAggregator:
 
     CSV_HEADERS = [
         "player_id", "プレイヤー", "リーグ", "収支", "ハンド数",
-        "VPIP", "PFR", "3bet", "Fold to 3bet", "CB", "WTSD", "W$SD"
+        "VPIP", "VPIP_hands", "PFR", "PFR_hands", "3bet", "3bet_hands",
+        "Fold to 3bet", "Fold to 3bet_hands", "CB", "CB_hands",
+        "WTSD", "WTSD_hands", "W$SD", "W$SD_hands"
     ]
 
     def __init__(self, config_loader: ConfigLoader, player_registry: PlayerRegistry,
@@ -48,7 +50,16 @@ class StatsAggregator:
         self.unique_hands_by_season: Dict[int, int] = {}
 
     def discover_sessions(self) -> List[SessionInfo]:
-        """data/hand_histories/内のセッションを検出"""
+        """
+        data/hand_histories/内のセッションを検出
+
+        ディレクトリ構造:
+            hand_histories/
+                {YYYYMMDD}/
+                    {table{N} または YYYYMMDD_table{N}}/
+                        poker_now_log_*.csv
+                        ledger_*.csv
+        """
         sessions = []
         hand_histories_dir = self.data_dir / "hand_histories"
 
@@ -57,37 +68,49 @@ class StatsAggregator:
                 print(f"Warning: {hand_histories_dir} does not exist")
             return sessions
 
-        for session_dir in sorted(hand_histories_dir.iterdir()):
-            if not session_dir.is_dir():
+        # 日付ディレクトリを走査
+        for date_dir in sorted(hand_histories_dir.iterdir()):
+            if not date_dir.is_dir():
                 continue
 
-            # ディレクトリ名から日付を抽出 (例: 20260112_table1)
-            dir_name = session_dir.name
+            # ディレクトリ名から日付を抽出 (例: 20260112)
+            date_str = date_dir.name
             try:
-                date_str = dir_name.split("_")[0]
                 date = datetime.strptime(date_str, "%Y%m%d")
-            except (ValueError, IndexError):
+            except ValueError:
                 if self.verbose:
-                    print(f"Warning: Cannot parse date from {dir_name}")
+                    print(f"Warning: Cannot parse date from {date_str}")
                 continue
 
-            session = SessionInfo(date=date, session_dir=session_dir)
+            # テーブルディレクトリを走査
+            for table_dir in sorted(date_dir.iterdir()):
+                if not table_dir.is_dir():
+                    continue
 
-            # CSVファイルを検索
-            csv_files = list(session_dir.glob("poker_now_log_*.csv"))
-            if csv_files:
-                session.csv_path = csv_files[0]
+                # テーブルディレクトリ名の検証 (table{N} または YYYYMMDD_table{N})
+                table_name = table_dir.name
+                if not ("table" in table_name.lower()):
+                    if self.verbose:
+                        print(f"Warning: Skipping non-table directory {table_name}")
+                    continue
 
-            ledger_files = list(session_dir.glob("ledger_*.csv"))
-            if ledger_files:
-                session.ledger_path = ledger_files[0]
+                session = SessionInfo(date=date, session_dir=table_dir)
 
-            # シーズンを特定
-            season = self.config.get_season_by_date(date)
-            if season:
-                session.season_id = season["id"]
+                # テーブルディレクトリ直下のCSVファイルを検索
+                csv_files = list(table_dir.glob("poker_now_log_*.csv"))
+                if csv_files:
+                    session.csv_path = csv_files[0]
 
-            sessions.append(session)
+                ledger_files = list(table_dir.glob("ledger_*.csv"))
+                if ledger_files:
+                    session.ledger_path = ledger_files[0]
+
+                # シーズンを特定
+                season = self.config.get_season_by_date(date)
+                if season:
+                    session.season_id = season["id"]
+
+                sessions.append(session)
 
         return sessions
 
@@ -234,12 +257,19 @@ class StatsAggregator:
                     self._format_net(stats.net),
                     stats.hands,
                     stats.vpip,
+                    stats.vpip_hands,
                     stats.pfr,
+                    stats.pfr_hands,
                     stats.three_bet,
+                    stats.three_bet_hands,
                     stats.fold_to_3bet,
+                    stats.fold_to_3bet_hands,
                     stats.cb,
+                    stats.cb_hands,
                     stats.wtsd,
+                    stats.wtsd_hands,
                     stats.wdsd,
+                    stats.wtsd_count,
                 ]
                 writer.writerow(row)
 

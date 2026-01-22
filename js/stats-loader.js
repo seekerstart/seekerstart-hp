@@ -14,29 +14,120 @@ const StatsLoader = {
     allStatsData: null,
     seasonStatsData: {},
     currentView: 'all',  // 'all' または season id
+    pageMode: null,  // 'season', 'all', または null（従来動作）
 
     /**
      * 初期化
      */
     async init() {
         try {
+            // ページモードを取得
+            this.pageMode = window.STATS_PAGE_MODE || null;
+
             // シーズン設定を読み込み
             await this.loadSeasonsConfig();
 
-            // タブを生成
-            this.renderTabs();
-
-            // 全期間データを読み込んで表示
-            const data = await this.loadAllStats();
-            this.renderTable(data);
-            this.updateSummary(data);
-
-            // タブクリックイベントを設定
-            this.setupTabEvents();
+            // ページモードに応じた初期化
+            if (this.pageMode === 'all') {
+                // 全期間専用モード：タブなし、全期間データのみ
+                this.hideSeasonTabs();
+                const data = await this.loadAllStats();
+                this.renderTable(data);
+                this.updateSummary(data);
+            } else if (this.pageMode === 'season') {
+                // シーズン専用モード：シーズンタブのみ
+                this.renderSeasonOnlyTabs();
+                // 最初のシーズンまたは現在のシーズンを表示
+                const firstSeasonId = this.getDefaultSeasonId();
+                if (firstSeasonId) {
+                    const data = await this.loadSeasonStats(firstSeasonId);
+                    this.currentView = firstSeasonId;
+                    this.renderTable(data);
+                    this.updateSummary(data);
+                } else {
+                    this.showNoSeasonMessage();
+                }
+                this.setupTabEvents();
+            } else {
+                // 従来動作：全期間 + シーズンタブ
+                this.renderTabs();
+                const data = await this.loadAllStats();
+                this.renderTable(data);
+                this.updateSummary(data);
+                this.setupTabEvents();
+            }
         } catch (error) {
             console.error('スタッツデータの読み込みに失敗しました:', error);
             this.showError();
         }
+    },
+
+    /**
+     * デフォルトのシーズンIDを取得
+     */
+    getDefaultSeasonId() {
+        if (!this.seasonsConfig || !this.seasonsConfig.seasons || this.seasonsConfig.seasons.length === 0) {
+            return null;
+        }
+        // current_season_id があればそれを使用、なければ最初のシーズン
+        if (this.seasonsConfig.current_season_id) {
+            return this.seasonsConfig.current_season_id;
+        }
+        return this.seasonsConfig.seasons[0].id;
+    },
+
+    /**
+     * シーズンタブを非表示
+     */
+    hideSeasonTabs() {
+        const tabContainer = document.getElementById('season-tabs');
+        if (tabContainer) {
+            tabContainer.style.display = 'none';
+        }
+    },
+
+    /**
+     * シーズン専用タブを生成（全期間なし）
+     */
+    renderSeasonOnlyTabs() {
+        const tabContainer = document.getElementById('season-tabs');
+        if (!tabContainer) return;
+
+        if (!this.seasonsConfig || !this.seasonsConfig.seasons || this.seasonsConfig.seasons.length === 0) {
+            tabContainer.innerHTML = '';
+            return;
+        }
+
+        let tabsHtml = '';
+        const defaultSeasonId = this.getDefaultSeasonId();
+
+        this.seasonsConfig.seasons.forEach((season, index) => {
+            const isActive = season.id === defaultSeasonId;
+            tabsHtml += `
+                <button class="season-tab${isActive ? ' active' : ''}" data-season="${season.id}">
+                    ${this.escapeHtml(season.name)}
+                </button>
+            `;
+        });
+
+        tabContainer.innerHTML = tabsHtml;
+    },
+
+    /**
+     * シーズンデータがない場合のメッセージを表示
+     */
+    showNoSeasonMessage() {
+        const tbody = document.getElementById('stats-table-body');
+        if (!tbody) return;
+
+        tbody.innerHTML = `
+            <tr>
+                <td colspan="11" class="py-12 text-center text-gray-500">
+                    <i class="fas fa-calendar-xmark text-2xl mb-4 block text-gold/50"></i>
+                    シーズンデータがまだありません。
+                </td>
+            </tr>
+        `;
     },
 
     /**
@@ -199,6 +290,18 @@ const StatsLoader = {
     },
 
     /**
+     * スタッツ値とハンド数を組み合わせた表示を生成
+     */
+    formatStatWithHands(statValue, handsValue) {
+        const stat = this.escapeHtml(statValue);
+        const hands = this.escapeHtml(handsValue);
+        if (hands && hands !== '--' && hands !== '0') {
+            return `${stat}%<br><span class="text-gray-500 text-xs">[${hands}]</span>`;
+        }
+        return `${stat}%`;
+    },
+
+    /**
      * テーブルにデータを描画
      */
     renderTable(data) {
@@ -228,13 +331,13 @@ const StatsLoader = {
                 <td class="py-4 px-3 text-center">${leagueBadge}</td>
                 <td class="py-4 px-3 text-right text-sm font-mono ${profitClass}">${this.escapeHtml(profitValue)}</td>
                 <td class="py-4 px-3 text-right text-gray-300 text-sm font-mono">${this.escapeHtml(player['ハンド数'])}</td>
-                <td class="py-4 px-3 text-right text-gray-300 text-sm font-mono">${this.escapeHtml(player['VPIP'])}%</td>
-                <td class="py-4 px-3 text-right text-gray-300 text-sm font-mono">${this.escapeHtml(player['PFR'])}%</td>
-                <td class="py-4 px-3 text-right text-gray-300 text-sm font-mono">${this.escapeHtml(player['3bet'])}%</td>
-                <td class="py-4 px-3 text-right text-gray-300 text-sm font-mono">${this.escapeHtml(player['Fold to 3bet'])}%</td>
-                <td class="py-4 px-3 text-right text-gray-300 text-sm font-mono">${this.escapeHtml(player['CB'])}%</td>
-                <td class="py-4 px-3 text-right text-gray-300 text-sm font-mono">${this.escapeHtml(player['WTSD'])}%</td>
-                <td class="py-4 px-3 text-right text-gray-300 text-sm font-mono">${this.escapeHtml(player['W$SD'])}%</td>
+                <td class="py-4 px-3 text-right text-gray-300 text-sm font-mono">${this.formatStatWithHands(player['VPIP'], player['VPIP_hands'])}</td>
+                <td class="py-4 px-3 text-right text-gray-300 text-sm font-mono">${this.formatStatWithHands(player['PFR'], player['PFR_hands'])}</td>
+                <td class="py-4 px-3 text-right text-gray-300 text-sm font-mono">${this.formatStatWithHands(player['3bet'], player['3bet_hands'])}</td>
+                <td class="py-4 px-3 text-right text-gray-300 text-sm font-mono">${this.formatStatWithHands(player['Fold to 3bet'], player['Fold to 3bet_hands'])}</td>
+                <td class="py-4 px-3 text-right text-gray-300 text-sm font-mono">${this.formatStatWithHands(player['CB'], player['CB_hands'])}</td>
+                <td class="py-4 px-3 text-right text-gray-300 text-sm font-mono">${this.formatStatWithHands(player['WTSD'], player['WTSD_hands'])}</td>
+                <td class="py-4 px-3 text-right text-gray-300 text-sm font-mono">${this.formatStatWithHands(player['W$SD'], player['W$SD_hands'])}</td>
             `;
 
             tbody.appendChild(row);

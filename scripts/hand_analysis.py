@@ -175,45 +175,106 @@ class StatsCalculator:
 # ==============================================================================
 
 def extract_preflop(history):
+    """
+    ハンド履歴からプリフロップ部分を抽出する
+
+    Returns:
+        str: プリフロップ部分のテキスト。抽出できない場合は None
+    """
     import re
     if "*** FLOP ***" in history:
-        preflop = re.findall(rf'posts big blind \d+([\s\S]*?)\*\*\* [FS]', history)[0]     # preflop で all-in になった時は、*** FLOP *** の前に *** SHOW DOWN *** が入る  
+        matches = re.findall(rf'posts big blind \d+([\s\S]*?)\*\*\* [FS]', history)
+        if matches:
+            return matches[0]
     else:
-        preflop = re.findall(rf'posts big blind \d+([\s\S]*? wins \d*)', history)[0]
-    return preflop
+        # wins がある場合
+        matches = re.findall(rf'posts big blind \d+([\s\S]*? wins \d*)', history)
+        if matches:
+            return matches[0]
+        # wins がない不完全なハンド（ゲーム中断など）の場合
+        # big blind post 以降の全てをプリフロップとして扱う
+        matches = re.findall(rf'posts big blind \d+([\s\S]*)', history)
+        if matches:
+            return matches[0]
+    return None
 
 def extract_flop(history):
-    if "*** FLOP ***" in history:
-        if "*** TURN ***" in history:
-            flop = re.findall(rf'(\*\*\* FLOP \*\*\*[\s\S]*?)\*\*\* [TS]', history)[0]      # flop で all-in になった時は、*** TURN *** の前に *** SHOW DOWN *** が入る
-        else:
-            flop = re.findall(rf'(\*\*\* FLOP \*\*\*[\s\S]*? wins \d*)', history)[0]
-        return flop
-    else:
+    """
+    ハンド履歴からフロップ部分を抽出する
+
+    Returns:
+        str: フロップ部分のテキスト。フロップがない場合は False
+    """
+    if "*** FLOP ***" not in history:
         return False
 
-def extract_turn(history):
     if "*** TURN ***" in history:
-        if "*** RIVER ***" in history:
-            turn = re.findall(rf'(\*\*\* TURN \*\*\*[\s\S]*?)\*\*\* [RS]', history)[0]      # turn で all-in になった時は、*** RIVER *** の前に *** SHOW DOWN *** が入る
-        else:
-            turn = re.findall(rf'(\*\*\* TURN \*\*\*[\s\S]*? wins \d*)', history)[0]
-        return turn
+        matches = re.findall(rf'(\*\*\* FLOP \*\*\*[\s\S]*?)\*\*\* [TS]', history)
+        if matches:
+            return matches[0]
     else:
+        # wins がある場合
+        matches = re.findall(rf'(\*\*\* FLOP \*\*\*[\s\S]*? wins \d*)', history)
+        if matches:
+            return matches[0]
+        # wins がない不完全なハンド（ゲーム中断など）
+        matches = re.findall(rf'(\*\*\* FLOP \*\*\*[\s\S]*)', history)
+        if matches:
+            return matches[0]
+    return False
+
+def extract_turn(history):
+    """
+    ハンド履歴からターン部分を抽出する
+
+    Returns:
+        str: ターン部分のテキスト。ターンがない場合は False
+    """
+    if "*** TURN ***" not in history:
         return False
-    
-def extract_river(history):
+
     if "*** RIVER ***" in history:
-        river = re.findall(rf'(\*\*\* RIVER \*\*\*[\s\S]*? wins \d*)', history)[0]     # *** SHOW DOWN *** が river 以前で入ることもあるので、この記述
-        return river
+        matches = re.findall(rf'(\*\*\* TURN \*\*\*[\s\S]*?)\*\*\* [RS]', history)
+        if matches:
+            return matches[0]
     else:
+        # wins がある場合
+        matches = re.findall(rf'(\*\*\* TURN \*\*\*[\s\S]*? wins \d*)', history)
+        if matches:
+            return matches[0]
+        # wins がない不完全なハンド（ゲーム中断など）
+        matches = re.findall(rf'(\*\*\* TURN \*\*\*[\s\S]*)', history)
+        if matches:
+            return matches[0]
+    return False
+
+def extract_river(history):
+    """
+    ハンド履歴からリバー部分を抽出する
+
+    Returns:
+        str: リバー部分のテキスト。リバーがない場合は False
+    """
+    if "*** RIVER ***" not in history:
         return False
+
+    # wins がある場合
+    matches = re.findall(rf'(\*\*\* RIVER \*\*\*[\s\S]*? wins \d*)', history)
+    if matches:
+        return matches[0]
+    # wins がない不完全なハンド（ゲーム中断など）
+    matches = re.findall(rf'(\*\*\* RIVER \*\*\*[\s\S]*)', history)
+    if matches:
+        return matches[0]
+    return False
 
 
 # VPIP を計算する
 def vpip_add(history, player):
     # preflop 内でのそのプレイヤーのアクションが folds のみ、もしくは checks のみの場合は、VPIP にカウントしない
     preflop = extract_preflop(history)
+    if preflop is None:
+        return False
     escape_player = re.escape(player)
     actions = re.findall(rf'{escape_player}: (.*?)\n', preflop)
     if actions == ["folds"] or actions == ["checks"]:
@@ -239,6 +300,8 @@ def calculate_vpip(histories: list, player: str):
 def three_bet_add(history, player):
     # 前に raise が入っているかどうか
     preflop = extract_preflop(history)
+    if preflop is None:
+        return False
     raise_num = 0
     all_actions = re.findall(rf'(.*?): (.*?)\n', preflop)
     for action in all_actions:
@@ -258,6 +321,8 @@ def calculate_three_bet(histories: list, player: str):
     hands = 0
     for history in histories:
         preflop = extract_preflop(history)
+        if preflop is None:
+            continue
         all_actions = re.findall(rf'(.*?): (.*?)\n', preflop)
         raises = 0
         for action in all_actions:
@@ -281,6 +346,8 @@ def calculate_three_bet(histories: list, player: str):
 
 def original_raiser(history):
     preflop = extract_preflop(history)
+    if preflop is None:
+        return False
     actions = re.findall(rf'(.*?): (.*?)\n', preflop)
     for action in actions:
         if "raises" in action[1]:
@@ -289,6 +356,8 @@ def original_raiser(history):
 
 def last_aggressor(history):
     preflop = extract_preflop(history)
+    if preflop is None:
+        return False
     actions = re.findall(rf'(.*?): (.*?)\n', preflop)
     agressor = ""
     for action in actions:
@@ -307,6 +376,8 @@ def calculate_fold_to_three_bet(histories: list, player: str):
     hands = 0
     for history in histories:
         preflop = extract_preflop(history)
+        if preflop is None:
+            continue
 
         # 自分がoriginal raiserでない場合はスキップ
         if original_raiser(history) != player:
@@ -462,6 +533,8 @@ def calculate_pfr(histories: list, player: str):
     pfr = 0
     for history in histories:
         preflop = extract_preflop(history)
+        if preflop is None:
+            continue
         escape_player = re.escape(player)
         actions_hero = re.findall(rf'{escape_player}: (.*?)[ \n]', preflop)
         if len(actions_hero) > 0:
@@ -476,7 +549,7 @@ def calculate_pfr(histories: list, player: str):
         return round(pfr / hands * 100, 2), hands, int(pfr)
 
 
-# WTSD を計算する 
+# WTSD を計算する
 # フロップに参加した上でshow downまで到達する割合
 
 def calculate_wtsd_wdsd(histories: list, player: str):
@@ -486,6 +559,8 @@ def calculate_wtsd_wdsd(histories: list, player: str):
     for history in histories:
         if extract_flop(history):
             preflop = extract_preflop(history)
+            if preflop is None:
+                continue
             if player in extract_street_survivor(preflop):
                 hands += 1
                 river = extract_river(history)

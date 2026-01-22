@@ -86,9 +86,10 @@ def main():
         print("No sessions found. Please add hand histories to data/hand_histories/")
         print("\nExpected directory structure:")
         print("  data/hand_histories/")
-        print("    └── {YYYYMMDD}_table{N}/")
-        print("        ├── poker_now_log_*.csv")
-        print("        └── ledger_*.csv")
+        print("    └── {YYYYMMDD}/")
+        print("        └── table{N}/ (or {YYYYMMDD}_table{N}/)")
+        print("            ├── poker_now_log_*.csv")
+        print("            └── ledger_*.csv")
         sys.exit(0)
 
     # 集計処理
