@@ -1,0 +1,309 @@
+"""
+スタッツ集計モジュール
+セッションごとのスタッツを集計してCSV出力する
+"""
+
+import csv
+from pathlib import Path
+from datetime import datetime
+from typing import Dict, List, Optional
+from dataclasses import dataclass
+
+from hand_analysis import PlayerStats, StatsCalculator
+from csv_formatter import PokerNowParser, LedgerParser, extract_player_id_map
+from config_loader import ConfigLoader
+from player_registry import PlayerRegistry
+
+
+@dataclass
+class SessionInfo:
+    """セッション情報を保持するデータクラス"""
+    date: datetime
+    session_dir: Path
+    csv_path: Optional[Path] = None
+    ledger_path: Optional[Path] = None
+    season_id: Optional[int] = None
+
+
+class StatsAggregator:
+    """スタッツを集計するクラス"""
+
+    CSV_HEADERS = [
+        "player_id", "プレイヤー", "リーグ", "収支", "ハンド数",
+        "VPIP", "VPIP_hands", "PFR", "PFR_hands", "3bet", "3bet_hands",
+        "Fold to 3bet", "Fold to 3bet_hands", "CB", "CB_hands",
+        "WTSD", "WTSD_hands", "W$SD", "W$SD_hands"
+    ]
+
+    def __init__(self, config_loader: ConfigLoader, player_registry: PlayerRegistry,
+                 data_dir: str = "data", verbose: bool = False):
+        self.config = config_loader
+        self.registry = player_registry
+        self.data_dir = Path(data_dir)
+        self.verbose = verbose
+        # player_id -> season_id -> PlayerStats
+        self.stats_by_season: Dict[int, Dict[str, PlayerStats]] = {}
+        # player_id -> PlayerStats (全期間)
+        self.all_stats: Dict[str, PlayerStats] = {}
+        # ユニークハンド数の追跡
+        self.total_unique_hands: int = 0
+        self.unique_hands_by_season: Dict[int, int] = {}
+
+    def discover_sessions(self) -> List[SessionInfo]:
+        """
+        data/hand_histories/内のセッションを検出
+
+        ディレクトリ構造:
+            hand_histories/
+                {YYYYMMDD}/
+                    {table{N} または YYYYMMDD_table{N}}/
+                        poker_now_log_*.csv
+                        ledger_*.csv
+        """
+        sessions = []
+        hand_histories_dir = self.data_dir / "hand_histories"
+
+        if not hand_histories_dir.exists():
+            if self.verbose:
+                print(f"Warning: {hand_histories_dir} does not exist")
+            return sessions
+
+        # 日付ディレクトリを走査
+        for date_dir in sorted(hand_histories_dir.iterdir()):
+            if not date_dir.is_dir():
+                continue
+
+            # ディレクトリ名から日付を抽出 (例: 20260112)
+            date_str = date_dir.name
+            try:
+                date = datetime.strptime(date_str, "%Y%m%d")
+            except ValueError:
+                if self.verbose:
+                    print(f"Warning: Cannot parse date from {date_str}")
+                continue
+
+            # テーブルディレクトリを走査
+            for table_dir in sorted(date_dir.iterdir()):
+                if not table_dir.is_dir():
+                    continue
+
+                # テーブルディレクトリ名の検証 (table{N} または YYYYMMDD_table{N})
+                table_name = table_dir.name
+                if not ("table" in table_name.lower()):
+                    if self.verbose:
+                        print(f"Warning: Skipping non-table directory {table_name}")
+                    continue
+
+                session = SessionInfo(date=date, session_dir=table_dir)
+
+                # テーブルディレクトリ直下のCSVファイルを検索
+                csv_files = list(table_dir.glob("poker_now_log_*.csv"))
+                if csv_files:
+                    session.csv_path = csv_files[0]
+
+                ledger_files = list(table_dir.glob("ledger_*.csv"))
+                if ledger_files:
+                    session.ledger_path = ledger_files[0]
+
+                # シーズンを特定
+                season = self.config.get_season_by_date(date)
+                if season:
+                    session.season_id = season["id"]
+
+                sessions.append(session)
+
+        return sessions
+
+    def process_session(self, session: SessionInfo) -> tuple:
+        """
+        1セッションを処理してスタッツを計算
+
+        Returns:
+            tuple: (session_stats: Dict[str, PlayerStats], unique_hands: int)
+        """
+        if self.verbose:
+            print(f"Processing session: {session.session_dir.name}")
+
+        if not session.csv_path or not session.csv_path.exists():
+            if self.verbose:
+                print(f"  Warning: No CSV file found")
+            return {}, 0
+
+        # CSVをパース
+        parser = PokerNowParser(str(session.csv_path))
+        formatted_text, player_names = parser.parse()
+
+        # パース済みのテキストを使用（csv.readerでクォートが正しく処理されている）
+        raw_text = parser.raw_text
+
+        # ID変更を検出
+        self.registry.process_id_changes(raw_text)
+
+        # プレイヤーIDマップを取得
+        player_id_map = extract_player_id_map(raw_text)
+
+        # ハンド履歴を取得
+        histories = [h for h in formatted_text.split("\n\n") if h.strip()]
+        if not histories:
+            if self.verbose:
+                print(f"  Warning: No hands found")
+            return {}, 0
+
+        unique_hands = len(histories)
+
+        # スタッツ計算
+        calculator = StatsCalculator(histories)
+        all_players = calculator.get_all_players()
+
+        session_stats = {}
+        for player_name in all_players:
+            stats = calculator.calculate_all(player_name)
+            player_id = player_id_map.get(player_name, player_name)
+            stats.player_id = player_id
+            stats.display_name = player_name
+
+            # リーグを設定
+            if session.season_id:
+                season = self.config.get_season_by_id(session.season_id)
+                if season:
+                    stats.league = self.config.get_player_league(player_id, season)
+
+            # プレイヤーを登録
+            self.registry.register_player(player_id, player_name)
+
+            session_stats[player_id] = stats
+
+        # Ledgerから収支を取得
+        if session.ledger_path and session.ledger_path.exists():
+            ledger_parser = LedgerParser(str(session.ledger_path))
+            ledger_data = ledger_parser.parse()
+
+            for player_id, ledger_info in ledger_data.items():
+                canonical_id = self.registry.get_canonical_id(player_id)
+                if canonical_id in session_stats:
+                    session_stats[canonical_id].net = ledger_info["net"]
+                elif player_id in session_stats:
+                    session_stats[player_id].net = ledger_info["net"]
+
+        if self.verbose:
+            print(f"  Found {len(session_stats)} players, {unique_hands} hands")
+
+        return session_stats, unique_hands
+
+    def aggregate(self, sessions: List[SessionInfo]) -> None:
+        """全セッションを集計"""
+        for session in sessions:
+            session_stats, unique_hands = self.process_session(session)
+
+            # ユニークハンド数を加算
+            self.total_unique_hands += unique_hands
+            if session.season_id:
+                if session.season_id not in self.unique_hands_by_season:
+                    self.unique_hands_by_season[session.season_id] = 0
+                self.unique_hands_by_season[session.season_id] += unique_hands
+
+            for player_id, stats in session_stats.items():
+                # シーズン別集計
+                if session.season_id:
+                    if session.season_id not in self.stats_by_season:
+                        self.stats_by_season[session.season_id] = {}
+
+                    season_stats = self.stats_by_season[session.season_id]
+                    if player_id in season_stats:
+                        season_stats[player_id].merge(stats)
+                    else:
+                        season_stats[player_id] = PlayerStats(
+                            player_id=stats.player_id,
+                            display_name=stats.display_name,
+                            league=stats.league,
+                        )
+                        season_stats[player_id].merge(stats)
+
+                # 全期間集計
+                if player_id in self.all_stats:
+                    self.all_stats[player_id].merge(stats)
+                else:
+                    self.all_stats[player_id] = PlayerStats(
+                        player_id=stats.player_id,
+                        display_name=stats.display_name,
+                        league=stats.league,
+                    )
+                    self.all_stats[player_id].merge(stats)
+
+    def _format_net(self, net: int) -> str:
+        """収支をフォーマット（+/-付き）"""
+        if net > 0:
+            return f"+{net}"
+        return str(net)
+
+    def _write_csv(self, stats_dict: Dict[str, PlayerStats], output_path: Path) -> None:
+        """スタッツをCSVに出力"""
+        with open(output_path, "w", encoding="utf-8", newline="") as f:
+            writer = csv.writer(f)
+            writer.writerow(self.CSV_HEADERS)
+
+            # ハンド数でソート
+            sorted_stats = sorted(
+                stats_dict.values(),
+                key=lambda s: s.hands,
+                reverse=True
+            )
+
+            for stats in sorted_stats:
+                row = [
+                    stats.player_id,
+                    stats.display_name,
+                    stats.league,
+                    self._format_net(stats.net),
+                    stats.hands,
+                    stats.vpip,
+                    stats.vpip_hands,
+                    stats.pfr,
+                    stats.pfr_hands,
+                    stats.three_bet,
+                    stats.three_bet_hands,
+                    stats.fold_to_3bet,
+                    stats.fold_to_3bet_hands,
+                    stats.cb,
+                    stats.cb_hands,
+                    stats.wtsd,
+                    stats.wtsd_hands,
+                    stats.wdsd,
+                    stats.wtsd_count,
+                ]
+                writer.writerow(row)
+
+    def output_all_stats(self) -> Path:
+        """全期間スタッツをCSV出力"""
+        output_path = self.data_dir / "all_stats.csv"
+        self._write_csv(self.all_stats, output_path)
+        if self.verbose:
+            print(f"Wrote all_stats.csv with {len(self.all_stats)} players")
+        return output_path
+
+    def output_season_stats(self) -> List[Path]:
+        """シーズン別スタッツをCSV出力"""
+        output_paths = []
+        for season_id, stats_dict in self.stats_by_season.items():
+            output_path = self.data_dir / f"season_{season_id}_stats.csv"
+            self._write_csv(stats_dict, output_path)
+            output_paths.append(output_path)
+            if self.verbose:
+                print(f"Wrote season_{season_id}_stats.csv with {len(stats_dict)} players")
+        return output_paths
+
+
+if __name__ == "__main__":
+    # テスト用
+    config = ConfigLoader()
+    registry = PlayerRegistry(config)
+    aggregator = StatsAggregator(config, registry, verbose=True)
+
+    sessions = aggregator.discover_sessions()
+    print(f"Found {len(sessions)} sessions")
+
+    if sessions:
+        aggregator.aggregate(sessions)
+        aggregator.output_all_stats()
+        aggregator.output_season_stats()
+        registry.save()

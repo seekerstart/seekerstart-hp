@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ja" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>全期間累計スタッツ | ポーカー鳳凰戦</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="antialiased">
+
+    <!-- Header -->
+    <header id="nav" class="fixed w-full z-[100] bg-black/90 backdrop-blur-md border-b border-white/5">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-10 py-4 flex justify-between items-center">
+            <!-- Logo & Title Section -->
+            <a href="index.html" class="flex items-center gap-3 sm:gap-4 md:gap-5">
+                <div class="bg-white/10 p-1 rounded shrink-0">
+                    <img src="images/SeekerStart_logo.png" alt="Logo" class="h-7 sm:h-8 md:h-9 w-auto" onerror="this.src='https://via.placeholder.com/100x40/111/d4af37?text=SS'">
+                </div>
+                <div class="h-5 sm:h-6 w-[1px] bg-white/20 hidden xs:block"></div>
+                <span class="text-sm sm:text-base md:text-lg lg:text-xl font-serif font-black tracking-[0.15em] sm:tracking-[0.2em] text-white whitespace-nowrap uppercase">
+                    ポーカー鳳凰戦
+                </span>
+            </a>
+
+            <!-- Back to Home -->
+            <a href="index.html" class="border border-gold/40 text-gold px-5 md:px-6 py-2.5 text-xs font-black tracking-widest nav-button-glow whitespace-nowrap uppercase">
+                ホームへ戻る
+            </a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="pt-32 pb-24 min-h-screen">
+        <div class="container mx-auto px-6 max-w-6xl">
+            <!-- Page Header -->
+            <div class="text-center mb-16">
+                <div class="inline-block px-4 py-1 border border-gold/30 mb-6">
+                    <span class="text-gold text-[9px] font-bold tracking-[0.5em] uppercase">All Time Statistics</span>
+                </div>
+                <h1 class="text-3xl md:text-5xl font-serif font-black text-white mb-6 tracking-widest">
+                    全期間<span class="gold-gradient">累計スタッツ</span>
+                </h1>
+                <p class="text-gray-400 text-sm max-w-xl mx-auto leading-loose">
+                    Seeker Start に所属している全プレイヤーの全期間通算戦績データを、内部向けに公開しています。
+                </p>
+            </div>
+
+            <!-- Stats Categories -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-white/5 p-6 border border-white/10 rounded text-center">
+                    <div id="total-players" class="text-gold text-3xl font-serif font-black mb-2">--</div>
+                    <div class="text-gray-500 text-xs uppercase tracking-widest">総参加者数</div>
+                </div>
+                <div class="bg-white/5 p-6 border border-white/10 rounded text-center">
+                    <div id="total-hands" class="text-gold text-3xl font-serif font-black mb-2">--</div>
+                    <div class="text-gray-500 text-xs uppercase tracking-widest">総ハンド数</div>
+                </div>
+            </div>
+
+            <!-- Player Stats Table -->
+            <div class="jp-card p-6 md:p-8 corner-deco mt-12">
+                <div class="flex items-center gap-3 mb-6">
+                    <i class="fas fa-chart-bar text-gold text-lg"></i>
+                    <h2 class="text-lg font-serif font-bold text-white">全期間プレイヤースタッツ</h2>
+                </div>
+
+                <!-- Scrollable Table Container -->
+                <div class="overflow-x-auto">
+                    <table class="w-full min-w-[600px]">
+                        <thead>
+                            <tr class="border-b border-gold/20">
+                                <th class="text-left py-4 px-3 text-gold text-xs font-bold tracking-wider uppercase">プレイヤー</th>
+                                <th class="text-center py-4 px-3 text-gold text-xs font-bold tracking-wider uppercase">リーグ</th>
+                                <th class="text-right py-4 px-3 text-gold text-xs font-bold tracking-wider uppercase">収支</th>
+                                <th class="text-right py-4 px-3 text-gold text-xs font-bold tracking-wider uppercase">ハンド数</th>
+                                <th class="text-right py-4 px-3 text-gold text-xs font-bold tracking-wider uppercase">VPIP</th>
+                                <th class="text-right py-4 px-3 text-gold text-xs font-bold tracking-wider uppercase">PFR</th>
+                                <th class="text-right py-4 px-3 text-gold text-xs font-bold tracking-wider uppercase">3bet</th>
+                                <th class="text-right py-4 px-3 text-gold text-xs font-bold tracking-wider uppercase">Fold to 3bet</th>
+                                <th class="text-right py-4 px-3 text-gold text-xs font-bold tracking-wider uppercase">CB</th>
+                                <th class="text-right py-4 px-3 text-gold text-xs font-bold tracking-wider uppercase">WTSD</th>
+                                <th class="text-right py-4 px-3 text-gold text-xs font-bold tracking-wider uppercase">W$SD</th>
+                            </tr>
+                        </thead>
+                        <tbody id="stats-table-body" class="divide-y divide-white/5">
+                            <!-- データはJavaScriptで動的に読み込まれます -->
+                            <tr>
+                                <td colspan="11" class="py-12 text-center text-gray-500">
+                                    <i class="fas fa-spinner fa-spin text-2xl mb-4 block text-gold/50"></i>
+                                    データを読み込んでいます...
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Scroll Hint (Mobile) -->
+                <div class="mt-4 text-center md:hidden">
+                    <span class="text-gray-600 text-[10px] tracking-wider">
+                        <i class="fas fa-arrows-left-right mr-1"></i>横スクロールで全項目を表示
+                    </span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#050505] py-12 border-t border-white/5">
+        <div class="container mx-auto px-6 text-center">
+            <div class="flex items-center justify-center gap-4 mb-6">
+                <img src="images/SeekerStart_logo.png" alt="Logo" class="h-6 w-auto" onerror="this.src='https://via.placeholder.com/80x30/111/d4af37?text=Logo'">
+                <span class="text-base font-serif font-black tracking-[0.2em] text-white">ポーカー鳳凰戦</span>
+            </div>
+            <p class="text-gray-600 text-[10px] mb-6">
+                運営主体：Seeker Start（ポーカー学習コミュニティ）
+            </p>
+            <div class="text-[9px] text-gray-700 font-bold uppercase tracking-[0.4em]">
+                © 2026 POKER HOUOU LEAGUE. ALL RIGHTS RESERVED.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // 全期間専用モード（シーズンタブを非表示）
+        window.STATS_PAGE_MODE = 'all';
+
+        // preseason_all_stats.csvを読み込むように設定
+        window.CUSTOM_STATS_PATH = 'data/preseason_all_stats.csv';
+    </script>
+    <script src="js/stats-loader.js"></script>
+</body>
+</html>
