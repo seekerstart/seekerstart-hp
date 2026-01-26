@@ -21,6 +21,11 @@ const StatsLoader = {
      */
     async init() {
         try {
+            // カスタムパスが設定されている場合は上書き
+            if (window.CUSTOM_STATS_PATH) {
+                this.allStatsPath = window.CUSTOM_STATS_PATH;
+            }
+
             // ページモードを取得
             this.pageMode = window.STATS_PAGE_MODE || null;
 
@@ -161,6 +166,7 @@ const StatsLoader = {
         if (this.allStatsData) {
             return this.allStatsData;
         }
+        console.log('Loading stats from:', this.allStatsPath);
         const response = await fetch(this.allStatsPath);
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
