@@ -224,7 +224,7 @@ h1, h2, h3, .font-serif {
 
 /* Background Patterns */
 .bg-hero {
-    background-image: url('../houoh_kaimaku.png');
+    background-image: url('/images/houoh_kaimaku.png');
 }
 
 .bg-dots-gold {
