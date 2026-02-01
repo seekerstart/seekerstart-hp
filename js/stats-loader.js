@@ -131,7 +131,7 @@ const StatsLoader = {
 
         tbody.innerHTML = `
             <tr>
-                <td colspan="11" class="py-12 text-center text-gray-500">
+                <td colspan="12" class="py-12 text-center text-gray-500">
                     <i class="fas fa-calendar-xmark text-2xl mb-4 block text-gold/50"></i>
                     シーズンデータがまだありません。
                 </td>
@@ -356,9 +356,12 @@ const StatsLoader = {
         // データをソート
         const sortedData = this.sortData(data, this.currentSortColumn, this.currentSortOrder);
 
-        sortedData.forEach(player => {
+        sortedData.forEach((player, index) => {
             const row = document.createElement('tr');
             row.className = 'hover:bg-white/5 transition-colors';
+
+            // 順位（インデックス + 1）
+            const rank = index + 1;
 
             // 収支をBB数に変換（各行のbb_sizeを使用）
             const profitChips = player['収支'] || '0';
@@ -377,6 +380,7 @@ const StatsLoader = {
             const leagueBadge = this.getLeagueBadge(league);
 
             row.innerHTML = `
+                <td class="py-4 px-3 text-center text-gold font-bold text-sm">${rank}</td>
                 <td class="py-4 px-3 text-white font-bold text-sm whitespace-nowrap">${this.escapeHtml(player['プレイヤー'])}</td>
                 <td class="py-4 px-3 text-center">${leagueBadge}</td>
                 <td class="py-4 px-3 text-right text-sm font-mono ${profitClass}">${this.escapeHtml(profitBBStr)}</td>
@@ -444,7 +448,7 @@ const StatsLoader = {
 
         tbody.innerHTML = `
             <tr>
-                <td colspan="11" class="py-12 text-center text-gray-500">
+                <td colspan="12" class="py-12 text-center text-gray-500">
                     <i class="fas fa-exclamation-triangle text-2xl mb-4 block text-red-400/50"></i>
                     データの読み込みに失敗しました。<br>
                     しばらく経ってから再度お試しください。

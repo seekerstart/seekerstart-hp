@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>シーズン別スタッツ | ポーカー鳳凰戦</title>
+    <title>シーズン別ランキング | ポーカー鳳凰戦</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
@@ -40,7 +40,7 @@
                     <span class="text-gold text-[9px] font-bold tracking-[0.5em] uppercase">Season Statistics</span>
                 </div>
                 <h1 class="text-3xl md:text-5xl font-serif font-black text-white mb-6 tracking-widest">
-                    シーズン別<span class="gold-gradient">スタッツ</span>
+                    シーズン別<span class="gold-gradient">ランキング</span>
                 </h1>
                 <p class="text-gray-400 text-sm max-w-xl mx-auto leading-loose">
                     鳳凰戦に参加する全プレイヤーのシーズン別戦績データを公開しています。
@@ -57,7 +57,7 @@
                             </div>
                             <div>
                                 <h3 class="text-white font-serif font-bold text-base group-hover:text-gold transition-colors">
-                                    鳳凰戦全期間の累計スタッツはこちら
+                                    鳳凰戦全期間の累計ランキングはこちら
                                 </h3>
                                 <p class="text-gray-500 text-xs mt-1">
                                     全シーズン通算の累計戦績データを確認できます
@@ -96,14 +96,15 @@
             <div class="jp-card p-6 md:p-8 corner-deco">
                 <div class="flex items-center gap-3 mb-6">
                     <i class="fas fa-chart-bar text-gold text-lg"></i>
-                    <h2 class="text-lg font-serif font-bold text-white">プレイヤースタッツ（現在は第1期開幕前です。）</h2>
+                    <h2 class="text-lg font-serif font-bold text-white">プレイヤーランキング（現在は第1期開幕前です。）</h2>
                 </div>
 
                 <!-- Scrollable Table Container -->
-                <div class="overflow-x-auto">
-                    <table class="w-full min-w-[600px]">
+                <div class="overflow-auto max-h-[700px]">
+                    <table class="w-full min-w-[600px] sticky-header">
                         <thead>
                             <tr class="border-b border-gold/20">
+                                <th class="text-center py-4 px-3 text-gold text-xs font-bold tracking-wider uppercase">順位</th>
                                 <th class="text-left py-4 px-3 text-gold text-xs font-bold tracking-wider uppercase">プレイヤー</th>
                                 <th class="text-center py-4 px-3 text-gold text-xs font-bold tracking-wider uppercase">リーグ</th>
                                 <th class="text-right py-4 px-3 text-gold text-xs font-bold tracking-wider uppercase">収支</th>
