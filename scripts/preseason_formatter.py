@@ -15,7 +15,7 @@ class PreseasonFormatter:
 
     # 目標フォーマットのヘッダー
     OUTPUT_HEADERS = [
-        "player_id", "プレイヤー", "リーグ", "収支", "ハンド数",
+        "player_id", "プレイヤー", "リーグ", "収支", "bb_size", "ハンド数",
         "VPIP", "VPIP_hands", "PFR", "PFR_hands", "3bet", "3bet_hands",
         "Fold to 3bet", "Fold to 3bet_hands", "CB", "CB_hands",
         "WTSD", "WTSD_hands", "W$SD", "W$SD_hands"
@@ -199,6 +199,7 @@ class PreseasonFormatter:
                 "プレイヤー": player_name,
                 "リーグ": "C",  # デフォルトでCリーグ
                 "収支": net_str,
+                "bb_size": self.bb_size,  # preseasonのbb_size（デフォルト20）
                 "ハンド数": hands,
                 "VPIP": stats_info.get("VPIP", 0.0),
                 "VPIP_hands": stats_info.get("VPIP_hands", 0),

@@ -16,6 +16,10 @@ const StatsLoader = {
     currentView: 'all',  // 'all' または season id
     pageMode: null,  // 'season', 'all', または null（従来動作）
 
+    // ソート設定
+    currentSortColumn: '収支',  // デフォルトは収支でソート
+    currentSortOrder: 'desc',  // desc: 降順, asc: 昇順
+
     /**
      * 初期化
      */
@@ -308,6 +312,39 @@ const StatsLoader = {
     },
 
     /**
+     * データをソート
+     */
+    sortData(data, column, order) {
+        return [...data].sort((a, b) => {
+            let valA, valB;
+
+            if (column === '収支') {
+                // 収支は "+1000" や "-500" の文字列なので数値に変換（チップ数）
+                valA = parseInt(a[column].replace(/[+,]/g, '')) || 0;
+                valB = parseInt(b[column].replace(/[+,]/g, '')) || 0;
+            } else if (column === 'ハンド数' || column.includes('_hands')) {
+                // ハンド数は数値
+                valA = parseInt(a[column]) || 0;
+                valB = parseInt(b[column]) || 0;
+            } else if (column === 'プレイヤー' || column === 'リーグ') {
+                // 文字列
+                valA = a[column] || '';
+                valB = b[column] || '';
+            } else {
+                // スタッツ値（パーセンテージ）
+                valA = parseFloat(a[column]) || 0;
+                valB = parseFloat(b[column]) || 0;
+            }
+
+            if (order === 'asc') {
+                return valA > valB ? 1 : valA < valB ? -1 : 0;
+            } else {
+                return valA < valB ? 1 : valA > valB ? -1 : 0;
+            }
+        });
+    },
+
+    /**
      * テーブルにデータを描画
      */
     renderTable(data) {
@@ -316,17 +353,24 @@ const StatsLoader = {
 
         tbody.innerHTML = '';
 
-        data.forEach(player => {
+        // データをソート
+        const sortedData = this.sortData(data, this.currentSortColumn, this.currentSortOrder);
+
+        sortedData.forEach(player => {
             const row = document.createElement('tr');
             row.className = 'hover:bg-white/5 transition-colors';
 
-            // 収支の色分け
-            const profitValue = player['収支'] || '0';
-            const profitClass = profitValue.startsWith('+')
+            // 収支をBB数に変換（各行のbb_sizeを使用）
+            const profitChips = player['収支'] || '0';
+            const bbSize = parseInt(player['bb_size']) || 20;  // デフォルト20
+            const chipsNum = parseInt(profitChips.replace(/[+,]/g, '')) || 0;
+            const profitBB = chipsNum / bbSize;
+            const sign = chipsNum >= 0 ? '+' : '';
+            const profitBBStr = `${sign}${profitBB.toFixed(1)} BB`;
+
+            const profitClass = chipsNum >= 0
                 ? 'text-green-400'
-                : profitValue.startsWith('-')
-                    ? 'text-red-400'
-                    : 'text-gray-300';
+                : 'text-red-400';
 
             // リーグバッジ
             const league = player['リーグ'] || 'C';
@@ -335,7 +379,7 @@ const StatsLoader = {
             row.innerHTML = `
                 <td class="py-4 px-3 text-white font-bold text-sm whitespace-nowrap">${this.escapeHtml(player['プレイヤー'])}</td>
                 <td class="py-4 px-3 text-center">${leagueBadge}</td>
-                <td class="py-4 px-3 text-right text-sm font-mono ${profitClass}">${this.escapeHtml(profitValue)}</td>
+                <td class="py-4 px-3 text-right text-sm font-mono ${profitClass}">${this.escapeHtml(profitBBStr)}</td>
                 <td class="py-4 px-3 text-right text-gray-300 text-sm font-mono">${this.escapeHtml(player['ハンド数'])}</td>
                 <td class="py-4 px-3 text-right text-gray-300 text-sm font-mono">${this.formatStatWithHands(player['VPIP'], player['VPIP_hands'])}</td>
                 <td class="py-4 px-3 text-right text-gray-300 text-sm font-mono">${this.formatStatWithHands(player['PFR'], player['PFR_hands'])}</td>

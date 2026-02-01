@@ -29,7 +29,7 @@ class StatsAggregator:
     """スタッツを集計するクラス"""
 
     CSV_HEADERS = [
-        "player_id", "プレイヤー", "リーグ", "収支", "ハンド数",
+        "player_id", "プレイヤー", "リーグ", "収支", "bb_size", "ハンド数",
         "VPIP", "VPIP_hands", "PFR", "PFR_hands", "3bet", "3bet_hands",
         "Fold to 3bet", "Fold to 3bet_hands", "CB", "CB_hands",
         "WTSD", "WTSD_hands", "W$SD", "W$SD_hands"
@@ -255,6 +255,7 @@ class StatsAggregator:
                     stats.display_name,
                     stats.league,
                     self._format_net(stats.net),
+                    20,  # bb_size（現時点のデフォルト値）
                     stats.hands,
                     stats.vpip,
                     stats.vpip_hands,
