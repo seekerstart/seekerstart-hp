@@ -135,10 +135,28 @@ class PokerNowParser:
                 )
                 history = history.replace(f"Your hand is {my_hand}\n", "")
 
-        # ストリートマーカーを追加
-        for street in ["Flop", "Turn", "River"]:
-            if street in history:
-                history = history.replace(f"{street}:", f"*** {street.upper()} ***")
+        # ストリートマーカーを追加（行頭のパターンのみマッチさせ、プレイヤー名との誤マッチを防ぐ）
+        # Flop: [カード] 形式
+        history = re.sub(
+            r'^Flop:\s+\[',
+            '*** FLOP *** [',
+            history,
+            flags=re.MULTILINE
+        )
+        # Turn: カード, カード, カード [新カード] 形式
+        history = re.sub(
+            r'^Turn:\s+.*?\s+\[',
+            '*** TURN *** [',
+            history,
+            flags=re.MULTILINE
+        )
+        # River: カード, カード, カード, カード [新カード] 形式
+        history = re.sub(
+            r'^River:\s+.*?\s+\[',
+            '*** RIVER *** [',
+            history,
+            flags=re.MULTILINE
+        )
 
         # 組み合わせ情報を削除
         history = re.sub(r" with .*? \(combination: .*?\)", "", history)
