@@ -6,3 +6,5 @@ data/hand_histories/**
 # Python
 __pycache__/
 *.pyc
+
+.DS_Store

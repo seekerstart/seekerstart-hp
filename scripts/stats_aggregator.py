@@ -158,20 +158,22 @@ class StatsAggregator:
         session_stats = {}
         for player_name in all_players:
             stats = calculator.calculate_all(player_name)
-            player_id = player_id_map.get(player_name, player_name)
-            stats.player_id = player_id
+            raw_player_id = player_id_map.get(player_name, player_name)
+            # canonical_id に変換して一貫したIDを使用
+            canonical_id = self.registry.get_canonical_id(raw_player_id)
+            stats.player_id = canonical_id
             stats.display_name = player_name
 
             # リーグを設定
             if session.season_id:
                 season = self.config.get_season_by_id(session.season_id)
                 if season:
-                    stats.league = self.config.get_player_league(player_id, season)
+                    stats.league = self.config.get_player_league(canonical_id, season)
 
-            # プレイヤーを登録
-            self.registry.register_player(player_id, player_name)
+            # プレイヤーを登録（raw_player_id も登録してエイリアス追加の機会を与える）
+            self.registry.register_player(raw_player_id, player_name)
 
-            session_stats[player_id] = stats
+            session_stats[canonical_id] = stats
 
         # Ledgerから収支を取得
         if session.ledger_path and session.ledger_path.exists():
