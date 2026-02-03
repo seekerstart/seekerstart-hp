@@ -1,0 +1,511 @@
+﻿<!DOCTYPE html>
+<html lang="ja" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注目選手 | ポーカー鳳凰戦</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="antialiased">
+
+    <!-- Header -->
+    <header id="nav" class="fixed w-full z-[100] transition-all duration-500">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-10 py-5 flex justify-between items-center">
+            <!-- Logo & Title Section -->
+            <div class="flex items-center gap-3 sm:gap-4 md:gap-5">
+                <div class="bg-white/10 p-1 rounded shrink-0">
+                    <img src="images/SeekerStart_logo.png" alt="Logo" class="h-7 sm:h-8 md:h-9 w-auto" onerror="this.src='https://via.placeholder.com/100x40/111/d4af37?text=SS'">
+                </div>
+                <div class="h-5 sm:h-6 w-[1px] bg-white/20 hidden xs:block"></div>
+                <span class="text-sm sm:text-base md:text-lg lg:text-xl font-serif font-black tracking-[0.15em] sm:tracking-[0.2em] text-white whitespace-nowrap uppercase">
+                    ポーカー鳳凰戦
+                </span>
+            </div>
+
+            <!-- Desktop Nav -->
+            <nav class="hidden lg:flex items-center gap-6 xl:gap-10 text-xs xl:text-sm font-bold tracking-[0.15em] xl:tracking-[0.2em] uppercase text-white/60">
+                <a href="index.html#season" class="nav-link-glow hover:text-white">シーズン</a>
+                <a href="index.html#concept" class="nav-link-glow hover:text-white">理念</a>
+                <a href="index.html#league" class="nav-link-glow hover:text-white">リーグ</a>
+                <a href="index.html#rules" class="nav-link-glow hover:text-white">ルール</a>
+                <a href="index.html#stats" class="nav-link-glow hover:text-white">ランキング</a>
+                <a href="pickup.html" class="nav-link-glow hover:text-white">注目選手</a>
+                <a href="index.html#faq" class="nav-link-glow hover:text-white">FAQ</a>
+            </nav>
+
+            <!-- Action Buttons -->
+            <div class="flex items-center gap-3 sm:gap-4">
+                <a href="https://x.com/seekerstart" target="_blank" rel="noopener" class="hidden sm:block border border-gold/40 text-gold px-5 md:px-6 lg:px-10 py-2.5 text-xs font-black tracking-widest nav-button-glow whitespace-nowrap uppercase">
+                    協賛を検討する
+                </a>
+                <button id="menu-toggle" class="lg:hidden text-white p-2 focus:outline-none" aria-label="Menu">
+                    <i class="fas fa-bars text-xl sm:text-2xl"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Nav Overlay -->
+    <div id="mobile-menu" class="fixed inset-0 bg-black/98 z-[110] flex flex-col items-center justify-center gap-8 px-6">
+        <button id="menu-close" class="absolute top-6 right-6 text-white text-3xl focus:outline-none">
+            <i class="fas fa-times"></i>
+        </button>
+        <div class="flex flex-col items-center gap-6">
+            <a href="index.html#season" class="text-2xl font-serif text-white tracking-widest hover:text-gold transition">シーズン</a>
+            <a href="index.html#concept" class="text-2xl font-serif text-white tracking-widest hover:text-gold transition">理念</a>
+            <a href="index.html#league" class="text-2xl font-serif text-white tracking-widest hover:text-gold transition">リーグ</a>
+            <a href="index.html#rules" class="text-2xl font-serif text-white tracking-widest hover:text-gold transition">ルール</a>
+            <a href="index.html#stats" class="text-2xl font-serif text-white tracking-widest hover:text-gold transition">ランキング</a>
+            <a href="pickup.html" class="text-2xl font-serif text-white tracking-widest hover:text-gold transition">注目選手</a>
+            <a href="index.html#faq" class="text-2xl font-serif text-white tracking-widest hover:text-gold transition">FAQ</a>
+        </div>
+        <a href="https://x.com/seekerstart" target="_blank" rel="noopener" class="mt-4 border border-gold text-gold px-12 py-5 text-sm font-black tracking-[0.3em] uppercase">
+            協賛を検討する
+        </a>
+    </div>
+
+    <main class="pt-32">
+        <!-- Hero Section -->
+        <section class="relative overflow-hidden py-20 md:py-28">
+            <div class="absolute inset-0 pointer-events-none">
+                <div class="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(212,175,55,0.12),transparent_60%)]"></div>
+                <div class="absolute inset-0 opacity-[0.05] bg-dots-gold"></div>
+            </div>
+            <div class="container mx-auto px-6 max-w-6xl relative">
+                <div class="inline-block px-4 py-1 border border-gold/30 mb-6 reveal">
+                    <span class="text-gold text-[9px] font-bold tracking-[0.5em] uppercase">Players</span>
+                </div>
+                <h1 class="text-4xl md:text-6xl font-serif font-black text-white tracking-widest mb-6 reveal">
+                    注目選手
+                </h1>
+                <p class="text-gray-400 text-sm md:text-base leading-loose max-w-2xl reveal delay-100">
+                    各シーズンのTOP3と、鳳凰戦に参加する注目プレイヤーをピックアップ。<br>
+                    ここから新たなスターが生まれます。
+                </p>
+            </div>
+        </section>
+
+        <!-- Season Tabs -->
+        <section class="py-10 bg-[#080808] border-y border-white/5">
+            <div class="container mx-auto px-6 max-w-6xl">
+                <div class="flex flex-wrap items-center gap-3" id="season-tabs"></div>
+            </div>
+        </section>
+
+        <!-- Top 3 Section -->
+        <section id="top3" class="py-20 md:py-28 bg-black">
+            <div class="container mx-auto px-6 max-w-6xl">
+                <div class="text-center mb-16 reveal">
+                    <div class="inline-block px-4 py-1 border border-gold/30 mb-6">
+                        <span class="text-gold text-[9px] font-bold tracking-[0.5em] uppercase">Top3</span>
+                    </div>
+                    <h2 class="text-3xl md:text-5xl font-serif font-black text-white mb-6 tracking-widest">シーズンTOP3</h2>
+                    <p class="text-gray-400 text-sm max-w-2xl mx-auto leading-loose">
+                        シーズン成績上位3名は以下のプレイヤーです。
+                    </p>
+                </div>
+                <div class="flex flex-col gap-6" id="top3-list"></div>
+            </div>
+        </section>
+
+        <!-- Featured Section -->
+        <section id="featured" class="py-20 md:py-28 bg-[#050505]">
+            <div class="container mx-auto px-6 max-w-6xl">
+                <div class="text-center mb-16 reveal">
+                    <div class="inline-block px-4 py-1 border border-gold/30 mb-6">
+                        <span class="text-gold text-[9px] font-bold tracking-[0.5em] uppercase">Pick Up</span>
+                    </div>
+                    <h2 class="text-3xl md:text-5xl font-serif font-black text-white mb-6 tracking-widest">Pick Up選手</h2>
+                    <p class="text-gray-400 text-sm max-w-2xl mx-auto leading-loose">
+                        今シーズンに参加している注目の選手は以下のプレイヤーです。
+                    </p>
+                </div>
+                <div class="grid grid-cols-1 gap-6" id="featured-list"></div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section id="cta" class="py-24 md:py-32 bg-black text-center relative overflow-hidden">
+            <div class="absolute inset-0 pointer-events-none opacity-20 bg-cta-rays"></div>
+            <div class="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_center,black_30%,transparent_100%)]"></div>
+            <div class="container mx-auto px-6 relative z-10 reveal">
+                <div class="inline-block px-4 py-1 border border-gold/30 mb-6">
+                    <span class="text-gold text-[9px] font-bold tracking-[0.5em] uppercase">Join</span>
+                </div>
+                <h2 class="text-3xl md:text-5xl font-serif font-black text-white mb-8 tracking-[0.2em] leading-tight">参戦申込</h2>
+                <p class="text-gray-400 text-sm md:text-base leading-loose max-w-2xl mx-auto">
+                    鳳凰戦への参加をご希望の方は、XのDMからご連絡ください。
+                </p>
+                <a href="https://x.com/seekerstart" target="_blank" rel="noopener" class="inline-block group relative mt-12">
+                    <div class="absolute inset-0 bg-gold translate-x-1 translate-y-1 group-hover:translate-x-0 group-hover:translate-y-0 transition duration-300"></div>
+                    <div class="relative bg-white text-black px-12 md:px-20 py-5 md:py-6 font-black tracking-[0.5em] text-xs md:text-sm border border-black uppercase">
+                        Xで連絡する
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#050505] py-12 border-t border-white/5">
+        <div class="container mx-auto px-6 text-center">
+            <div class="flex items-center justify-center gap-4 mb-6">
+                <img src="images/SeekerStart_logo.png" alt="Logo" class="h-6 w-auto" onerror="this.src='https://via.placeholder.com/80x30/111/d4af37?text=Logo'">
+                <span class="text-base font-serif font-black tracking-[0.2em] text-white">ポーカー鳳凰戦</span>
+            </div>
+            <p class="text-gray-600 text-[10px] mb-6">
+                注目選手の掲載に関するお問い合わせはXのDMまでお願い致します。
+            </p>
+            <div class="text-[9px] text-gray-700 font-bold uppercase tracking-[0.4em]">
+                © 2026 POKER HOUOU LEAGUE. ALL RIGHTS RESERVED.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const BASE_PLAYER = {
+            name: 'Sigma',
+            alias: '部分探求家',
+            quote: 'J-high monotoneの若輩者の部分。',
+            image: 'images/sigma.jpg',
+            x: 'https://x.com/seekerstart',
+            youtube: '#',
+            instagram: '#',
+            tiktok: '#',
+            website: '#'
+        };
+
+        const TOP3_ACHIEVEMENTS = [
+            'ポーカー部分ツイート日本一',
+            'ポーカー博士課程修了',
+            '2025アドベントカレンダー主催'
+        ];
+
+        const STREAMER_ACHIEVEMENTS = [
+            '配信総視聴数 120万',
+            '大型イベント解説',
+            '週間参加者 300人'
+        ];
+
+        const FAMOUS_ACHIEVEMENTS = [
+            '投稿平均 1万いいね',
+            '大会レポ連載',
+            'イベント集客 500人'
+        ];
+
+        const makeTop3 = (bb, hands) => ({
+            ...BASE_PLAYER,
+            achievements: [...TOP3_ACHIEVEMENTS],
+            bb,
+            hands
+        });
+        const CHAMPION_LINK = 'https://x.com/sigm_4';
+        const makeChampion = (bb, hands) => ({
+            ...makeTop3(bb, hands),
+            x: CHAMPION_LINK,
+            youtube: CHAMPION_LINK,
+            instagram: CHAMPION_LINK,
+            tiktok: CHAMPION_LINK,
+            website: CHAMPION_LINK
+        });
+
+        const makeFeatured = (tag, achievements) => ({
+            ...BASE_PLAYER,
+            tag,
+            achievements: [...achievements]
+        });
+
+        const featuredStreamer = () => makeFeatured('配信者', STREAMER_ACHIEVEMENTS);
+        const featuredFamous = () => makeFeatured('有名人', FAMOUS_ACHIEVEMENTS);
+        const featuredKnown = () => makeFeatured('著名人', STREAMER_ACHIEVEMENTS);
+
+        window.PICKUP_DATA = {
+            seasons: [
+                {
+                    id: 'season1',
+                    label: 'Season 1',
+                    top3: [],
+                    featured: []
+                },
+                {
+                    id: 'season2',
+                    label: 'Season 2',
+                    top3: [
+                        makeChampion('+160 BB', '1,030 hands'),
+                        makeTop3('+105 BB', '980 hands'),
+                        makeTop3('+88 BB', '940 hands')
+                    ],
+                    featured: [featuredKnown(), featuredFamous(), featuredStreamer()]
+                },
+                {
+                    id: 'season3',
+                    label: 'Season 3',
+                    top3: [
+                        makeChampion('+190 BB', '1,260 hands'),
+                        makeTop3('+135 BB', '1,190 hands'),
+                        makeTop3('+102 BB', '1,140 hands')
+                    ],
+                    featured: [featuredStreamer(), featuredFamous(), featuredStreamer()]
+                }
+            ]
+        };
+    </script>
+    <script>
+        const seasonTabs = document.getElementById('season-tabs');
+        const top3List = document.getElementById('top3-list');
+        const featuredList = document.getElementById('featured-list');
+        const MAX_TOP3 = 3;
+        const MAX_FEATURED = 5;
+        const CONTENT_TEXT_CLASS = 'text-[13px] text-gray-300 leading-snug';
+        const SECTION_LABEL_CLASS = 'text-[9px] text-gold/70 tracking-[0.5em] uppercase mb-2';
+        const BOX_CLASS = 'border border-white/15 bg-white/5 px-4 py-3';
+        const COMMENT_BOX_CLASS = 'border border-gold/30 bg-black/70 rounded px-5 py-4 shadow-[0_0_18px_rgba(212,175,55,0.15)]';
+        const PLAYER_CARD_CLASS = 'jp-card p-6 corner-deco reveal active relative group';
+        const isEnabledLink = (url) => url && url !== '#';
+
+        const buildSocialIcons = (player) => {
+            const items = [
+                { label: 'X', icon: 'fa-brands fa-twitter', url: player.x, color: '#38bdf8' },
+                { label: 'YouTube', icon: 'fa-brands fa-youtube', url: player.youtube, color: '#ff0000' },
+                { label: 'Instagram', icon: 'fa-brands fa-instagram', url: player.instagram, color: '#e1306c', gradient: ['#f58529', '#feda77', '#dd2a7b', '#8134af', '#515bd4'] },
+                { label: 'TikTok', icon: 'fa-brands fa-tiktok', url: player.tiktok, color: '#25F4EE', gradient: ['#25F4EE', '#FE2C55'] },
+                { label: 'Website', icon: 'fa-solid fa-globe', url: player.website, color: '#d4af37' }
+            ];
+
+            return items.map((item) => {
+                const enabled = isEnabledLink(item.url);
+                const color = enabled ? item.color : '#6b7280';
+                const border = enabled ? (item.gradient ? item.gradient[0] : item.color) : '#374151';
+                const tag = enabled ? 'a' : 'span';
+                const hrefAttr = enabled ? `href="${item.url}" target="_blank" rel="noopener"` : '';
+                const gradientStops = item.gradient ? item.gradient.join(', ') : '';
+                const iconStyle = enabled && item.gradient
+                    ? `style="background: linear-gradient(135deg, ${gradientStops}); -webkit-background-clip: text; background-clip: text; color: transparent; -webkit-text-fill-color: transparent;"`
+                    : `style="color:${color};"`;
+
+                return `<${tag} ${hrefAttr} class="inline-flex items-center justify-center w-10 h-10 rounded border" style="color:${color}; border-color:${border};" aria-label="${item.label}">
+                    <i class="${item.icon} text-[19px]" ${iconStyle}></i>
+                </${tag}>`;
+            }).join('');
+        };
+
+        const buildRankBadge = (rank) => {
+            if (!rank) return '';
+            const rankLabel = rank === 1 ? '優勝' : rank === 2 ? '準優勝' : '3位';
+            const rankStyles = rank === 1
+                ? {
+                    border: 'rgba(212,175,55,0.8)',
+                    text: '#d4af37',
+                    shadow: '0 0 26px rgba(212,175,55,0.55)'
+                }
+                : rank === 2
+                    ? {
+                        border: 'rgba(226,232,240,0.7)',
+                        text: '#e2e8f0',
+                        shadow: '0 0 22px rgba(226,232,240,0.35)'
+                    }
+                    : {
+                        border: 'rgba(184,115,51,0.85)',
+                        text: '#b87333',
+                        shadow: '0 0 22px rgba(184,115,51,0.45)'
+                    };
+
+            return `
+                <div class="absolute top-4 left-4 px-5 py-2 rounded-full text-center bg-black/80 border backdrop-blur-sm" style="border-color:${rankStyles.border}; box-shadow:${rankStyles.shadow};">
+                    <div class="text-[18px] font-black tracking-[0.2em] drop-shadow-[0_1px_2px_rgba(0,0,0,0.9)]" style="color:${rankStyles.text};">${rankLabel}</div>
+                </div>
+            `;
+        };
+
+        const buildTagBadge = (tag) => {
+            if (!tag) return '';
+            if (tag === '配信者' || tag === '有名人' || tag === '著名人') {
+                return `
+                    <div class="absolute top-4 left-4">
+                        <div class="relative px-5 py-2 rounded-md bg-black/80 border border-gold/60 backdrop-blur-sm">
+                            <div class="absolute inset-1 rounded-[6px] border border-gold/30 bg-black/60"></div>
+                            <div class="absolute -top-8 left-1/2 -translate-x-1/2 flex gap-2">
+                                <span class="w-4 h-[2px] bg-gold/90 -rotate-[30deg]"></span>
+                                <span class="w-4 h-[2px] bg-gold/90 rotate-[30deg]"></span>
+                            </div>
+                            <div class="absolute -bottom-6 left-1/2 -translate-x-1/2 w-12 h-[2px] bg-gold/70"></div>
+                            <div class="absolute -bottom-9 left-1/2 -translate-x-1/2 w-6 h-[2px] bg-gold/40"></div>
+                            <div class="relative z-10 text-[12px] font-black tracking-[0.3em] text-gold drop-shadow-[0_1px_2px_rgba(0,0,0,0.9)]">${tag}</div>
+                        </div>
+                    </div>
+                `;
+            }
+
+            return `
+                <div class="absolute top-4 left-4">
+                    <div class="px-4 py-2 rounded-full text-center bg-black/80 border border-white/15 backdrop-blur-sm">
+                        <div class="text-[12px] font-black tracking-[0.3em] text-gold drop-shadow-[0_1px_2px_rgba(0,0,0,0.9)]">${tag}</div>
+                    </div>
+                </div>
+            `;
+        };
+
+        const sortSeasons = (seasons) => {
+            return seasons
+                .map((season, index) => ({ ...season, _order: index }))
+                .sort((a, b) => {
+                    const getNumber = (value) => {
+                        const match = String(value || '').match(/(\d+)/);
+                        return match ? parseInt(match[1], 10) : null;
+                    };
+                    const aNumber = getNumber(a.id) ?? getNumber(a.label);
+                    const bNumber = getNumber(b.id) ?? getNumber(b.label);
+                    if (aNumber !== null && bNumber !== null && aNumber !== bNumber) {
+                        return aNumber - bNumber;
+                    }
+                    return a._order - b._order;
+                });
+        };
+
+        const createPlayerCard = (player, extraClass = '', rank = null) => {
+            const achievements = player.achievements || [];
+            const achievementsHtml = achievements.slice(0, 3).map(item => `<li>${item}</li>`).join('');
+            const statsHtml = rank ? `
+                <div class="flex flex-row flex-wrap gap-3 font-black tracking-[0.08em] uppercase ${CONTENT_TEXT_CLASS}">
+                    ${player.bb ? `<span class="px-3 py-2 border border-white/15 bg-white/5 whitespace-nowrap">獲得BB数 ${player.bb}</span>` : ''}
+                    ${player.hands ? `<span class="px-3 py-2 border border-white/15 bg-white/5 whitespace-nowrap">プレイハンド ${player.hands}</span>` : ''}
+                </div>
+            ` : '';
+            const quoteHtml = player.quote ? `
+                <div class="mt-4">
+                    <div class="${SECTION_LABEL_CLASS}">Player Comment</div>
+                    <div class="${COMMENT_BOX_CLASS}">
+                        <p class="${CONTENT_TEXT_CLASS}">${player.quote}</p>
+                    </div>
+                </div>
+            ` : '';
+            const badge = rank ? buildRankBadge(rank) : buildTagBadge(player.tag);
+            const cardClass = `${PLAYER_CARD_CLASS} ${extraClass} ${rank === 1 ? 'border border-gold/50' : ''}`;
+            const achievementsClass = `space-y-1 ${CONTENT_TEXT_CLASS}`;
+
+            return `
+                <div class="${cardClass}">
+                    ${badge}
+                    <div class="flex flex-col lg:flex-row gap-6 lg:gap-10">
+                        <div class="flex flex-col items-center gap-5 lg:w-[45%]">
+                            <div class="relative shrink-0" style="width:${rank ? 220 : 242}px;height:${rank ? 220 : 242}px;">
+                                <div class="rounded-lg overflow-hidden border border-white/10 bg-white/5 w-full h-full">
+                                    <img src="${player.image}" alt="${player.name}" class="w-full h-full object-cover object-center" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;160&quot; height=&quot;160&quot; viewBox=&quot;0 0 160 160&quot;><rect width=&quot;160&quot; height=&quot;160&quot; fill=&quot;#111&quot;/><text x=&quot;50%&quot; y=&quot;52%&quot; dominant-baseline=&quot;middle&quot; text-anchor=&quot;middle&quot; fill=&quot;#d4af37&quot; font-size=&quot;16&quot; font-family=&quot;Arial&quot;>Player</text></svg>'">
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <div class="text-gold text-[14.3px] tracking-[0.25em] uppercase">${player.alias}</div>
+                                <div class="text-white font-serif font-black text-[26.4px]">${player.name}</div>
+                            </div>
+                        </div>
+                        <div class="flex-1">
+                            <div class="flex items-start justify-between gap-6">
+                                <div class="flex-1">
+                                    <div class="${SECTION_LABEL_CLASS}">主な実績</div>
+                                    <div class="${BOX_CLASS}">
+                                        <ul class="${achievementsClass} list-disc pl-4">
+                                            ${achievementsHtml}
+                                        </ul>
+                                    </div>
+                                    <div class="mt-3">
+                                        <div class="${SECTION_LABEL_CLASS}">シーズン結果</div>
+                                        <div class="${BOX_CLASS}">
+                                            ${statsHtml}
+                                        </div>
+                                    </div>
+                                    ${quoteHtml}
+                                </div>
+                                <div class="flex flex-col items-center gap-3">
+                                    ${buildSocialIcons(player)}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+        };
+
+        const renderPlayers = (container, players) => {
+            if (!container) return;
+            const displayPlayers = (players || []).slice(0, MAX_FEATURED);
+            if (displayPlayers.length === 0) {
+                container.innerHTML = `
+                    <div class="jp-card p-6 border-dashed border-white/10 text-center text-gray-500 text-sm reveal active">
+                        準備中です。
+                    </div>
+                `;
+                return;
+            }
+            container.innerHTML = displayPlayers.map(player => createPlayerCard(player)).join('');
+        };
+
+        const renderTop3 = (container, players) => {
+            if (!container) return;
+            const displayPlayers = (players || []).slice(0, MAX_TOP3);
+            if (displayPlayers.length === 0) {
+                renderPlayers(container, []);
+                return;
+            }
+
+            const [first, ...rest] = displayPlayers;
+            const firstHtml = first ? createPlayerCard(first, 'md:col-span-2', 1) : '';
+            const restHtml = rest.map((player, index) => createPlayerCard(player, '', index + 2)).join('');
+
+            container.innerHTML = `${firstHtml}${restHtml}`;
+        };
+
+        const setActiveTab = (activeId) => {
+            if (!seasonTabs) return;
+            [...seasonTabs.querySelectorAll('button')].forEach(btn => {
+                const isActive = btn.dataset.season === activeId;
+                btn.classList.toggle('text-white', isActive);
+                btn.classList.toggle('text-gray-400', !isActive);
+                btn.classList.toggle('border-gold/60', isActive);
+                btn.classList.toggle('border-white/10', !isActive);
+            });
+        };
+
+        const renderSeason = (season) => {
+            renderTop3(top3List, season.top3);
+            renderPlayers(featuredList, season.featured);
+            setActiveTab(season.id);
+        };
+
+        const init = () => {
+            const data = window.PICKUP_DATA || { seasons: [] };
+            const seasons = sortSeasons(data.seasons || []);
+
+            if (!seasonTabs || !top3List || !featuredList) return;
+
+            if (seasons.length === 0) {
+                renderPlayers(top3List, []);
+                renderPlayers(featuredList, []);
+                return;
+            }
+
+            seasonTabs.innerHTML = seasons.map((season, index) => {
+                const baseClass = 'px-4 py-2 border text-xs font-black tracking-[0.3em] uppercase transition';
+                const activeClass = index === 0
+                    ? ' text-white border-gold/60'
+                    : ' text-gray-400 border-white/10 hover:text-white';
+                return `<button class="${baseClass}${activeClass}" data-season="${season.id}">${season.label}</button>`;
+            }).join('');
+
+            seasonTabs.addEventListener('click', (event) => {
+                const button = event.target.closest('button');
+                if (!button) return;
+                const seasonId = button.dataset.season;
+                const season = seasons.find(item => item.id === seasonId);
+                if (season) renderSeason(season);
+            });
+
+            renderSeason(seasons[0]);
+        };
+
+        document.addEventListener('DOMContentLoaded', init);
+    </script>
+    <script src="js/main.js"></script>
+</body>
+</html>
