@@ -1,0 +1,251 @@
+﻿<!DOCTYPE html>
+<html lang="ja" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>協賛一覧 | ポーカー鳳凰戦</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="antialiased">
+
+    <!-- Header -->
+    <header id="nav" class="fixed w-full z-[100] transition-all duration-500">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-10 py-5 flex justify-between items-center">
+            <!-- Logo & Title Section -->
+            <a href="index.html" class="flex items-center gap-3 sm:gap-4 md:gap-5">
+                <div class="bg-white/10 p-1 rounded shrink-0">
+                    <img src="images/SeekerStart_logo.png" alt="Logo" class="h-7 sm:h-8 md:h-9 w-auto" onerror="this.src='https://via.placeholder.com/100x40/111/d4af37?text=SS'">
+                </div>
+                <div class="h-5 sm:h-6 w-[1px] bg-white/20 hidden xs:block"></div>
+                <span class="text-sm sm:text-base md:text-lg lg:text-xl font-serif font-black tracking-[0.15em] sm:tracking-[0.2em] text-white whitespace-nowrap uppercase">
+                    ポーカー鳳凰戦
+                </span>
+            </a>
+
+            <!-- Desktop Nav -->
+            <nav class="hidden lg:flex items-center gap-6 xl:gap-10 text-xs xl:text-sm font-bold tracking-[0.15em] xl:tracking-[0.2em] uppercase text-white/60">
+                <a href="#sponsors" class="nav-link-glow hover:text-white">協賛一覧</a>
+                <a href="#benefits" class="nav-link-glow hover:text-white">協賛メリット</a>
+                <a href="#cta" class="nav-link-glow hover:text-white">協賛をご検討の方へ</a>
+                <a href="#faq" class="nav-link-glow hover:text-white">FAQ</a>
+            </nav>
+
+            <!-- Action Buttons -->
+            <div class="flex items-center gap-3 sm:gap-4">
+                <a href="index.html" class="hidden sm:block border border-white/20 text-white/70 px-5 md:px-6 lg:px-8 py-2.5 text-xs font-black tracking-widest nav-button-glow whitespace-nowrap uppercase">
+                    TOPへ戻る
+                </a>
+                <a href="https://x.com/seekerstart" target="_blank" rel="noopener" class="hidden sm:block border border-gold/40 text-gold px-5 md:px-6 lg:px-10 py-2.5 text-xs font-black tracking-widest nav-button-glow whitespace-nowrap uppercase">
+                    協賛を検討する
+                </a>
+                <button id="menu-toggle" class="lg:hidden text-white p-2 focus:outline-none" aria-label="Menu">
+                    <i class="fas fa-bars text-xl sm:text-2xl"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Nav Overlay -->
+    <div id="mobile-menu" class="fixed inset-0 bg-black/98 z-[110] flex flex-col items-center justify-center gap-8 px-6">
+        <button id="menu-close" class="absolute top-6 right-6 text-white text-3xl focus:outline-none">
+            <i class="fas fa-times"></i>
+        </button>
+        <div class="flex flex-col items-center gap-6">
+            <a href="#sponsors" class="text-2xl font-serif text-white tracking-widest hover:text-gold transition">協賛一覧</a>
+            <a href="#benefits" class="text-2xl font-serif text-white tracking-widest hover:text-gold transition">協賛メリット</a>
+            <a href="#cta" class="text-2xl font-serif text-white tracking-widest hover:text-gold transition">協賛をご検討の方へ</a>
+            <a href="#faq" class="text-2xl font-serif text-white tracking-widest hover:text-gold transition">FAQ</a>
+            <a href="index.html" class="text-xl font-serif text-white/70 tracking-widest hover:text-white transition">ホーム</a>
+        </div>
+        <a href="https://x.com/seekerstart" target="_blank" rel="noopener" class="mt-4 border border-gold text-gold px-12 py-5 text-sm font-black tracking-[0.3em] uppercase">
+            協賛を検討する
+        </a>
+    </div>
+
+    <main class="pt-32">
+        <!-- Hero Section -->
+        <section class="relative overflow-hidden py-20 md:py-28 bg-[url('images/sponsor.jpg')] bg-cover bg-center">
+            <div class="absolute inset-0 pointer-events-none">
+                <div class="absolute inset-0 bg-black/60"></div>
+                <div class="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(212,175,55,0.12),transparent_60%)]"></div>
+                <div class="absolute inset-0 opacity-[0.05] bg-dots-gold"></div>
+            </div>
+            <div class="container mx-auto px-6 max-w-6xl relative">
+                <div class="inline-block px-4 py-1 border border-gold/30 mb-6 reveal">
+                    <span class="text-gold text-[9px] font-bold tracking-[0.5em] uppercase">Sponsor</span>
+                </div>
+                <h1 class="text-4xl md:text-6xl font-serif font-black text-white tracking-widest mb-6 reveal">
+                    協賛一覧
+                </h1>
+                <p class="text-gray-400 text-sm md:text-base leading-loose max-w-2xl reveal delay-100 bg-black/55 border border-white/10 rounded px-4 py-3 inline-block">
+                    鳳凰戦を支えてくださる協賛企業・団体・店舗をご紹介します。<br>
+                    掲載枠をご用意し、参加者・ファンへ価値のある露出をお届けします。
+                </p>
+            </div>
+        </section>
+
+        <!-- Sponsors Section -->
+        <section id="sponsors" class="py-24 md:py-32 bg-[#080808] border-y border-white/5">
+            <div class="container mx-auto px-6 max-w-6xl">
+                <div class="text-center mb-16 reveal">
+                    <div class="inline-block px-4 py-1 border border-gold/30 mb-6">
+                        <span class="text-gold text-[9px] font-bold tracking-[0.5em] uppercase">Featured</span>
+                    </div>
+                    <h2 class="text-3xl md:text-5xl font-serif font-black text-white mb-6 tracking-widest">メイン協賛</h2>
+                    <p class="text-gray-400 text-sm max-w-2xl mx-auto leading-loose">
+                        提供内容に応じて大きく掲載します。
+                    </p>
+                </div>
+
+                <div class="jp-card p-8 md:p-12 corner-deco reveal">
+                    <div class="flex flex-col gap-10">
+                        <div class="flex-1 flex flex-col">
+                            <div class="flex flex-wrap items-center gap-4">
+                                <div class="w-16 h-16 bg-white/5 border border-white/10 rounded flex items-center justify-center p-2">
+                                    <img src="images/joptlogo.jpg" alt="Japan Open Poker Tour ロゴ" class="w-full h-full object-contain">
+                                </div>
+                                <h3 class="text-2xl md:text-3xl font-serif font-black text-white">ジャパンオープンポーカーツアー株式会社</h3>
+                                <span class="text-[10px] font-bold tracking-[0.3em] uppercase border border-gold/40 text-gold px-3 py-1">メイン協賛</span>
+                            </div>
+                            <div class="mt-4 text-xs text-gray-500 tracking-widest uppercase">
+                                所在地 <span class="ml-3">東京都新宿区</span>
+                            </div>
+                            <p class="text-gray-400 text-sm leading-loose mt-4">
+                                国内最大規模のポーカー大会「JOPT」を主催・運営。2011年の発足以来、世界基準のトーナメントを提供し続け、日本のポーカーシーンを牽引するリーディングカンパニーです。ポーカーをマインドスポーツとして普及させ、世界へ挑戦するプレイヤーを支援しています。
+                            </p>
+
+                            <div class="mt-8 bg-black/40 border border-white/10 p-6">
+                                <h4 class="text-gold font-serif font-bold text-sm mb-4">協賛内容</h4>
+                                <ul class="space-y-2 text-xs text-gray-300 leading-relaxed">
+                                    <li class="text-gray-400">Cリーグ結果</li>
+                                    <li>1位: NLH Millions ご招待 / JOPT 2026 Grand Final</li>
+                                    <li>2-3位: NLH Megastack ご招待 / JOPT 2026 Grand Final</li>
+                                    <li>4-6位: HSグループ共通割引券 15,000円分</li>
+                                    <li>7-12位: HSグループ共通割引券 10,000円分</li>
+                                    <li>13-18位: HSグループ共通割引券 5,000円分</li>
+                                </ul>
+                                <img src="images/jopt_season1.jpg" alt="JOPT協賛決定 鳳凰戦 season1 Cリーグ賞品" class="w-2/3 h-auto rounded mt-6 mx-auto">
+                                <p class="text-[10px] text-gray-500 mt-3">
+                                    ※ 画像内の内容は提供特典の詳細です。
+                                </p>
+                            </div>
+
+                            <a href="https://japanopenpoker.com/" target="_blank" rel="noopener" class="mt-8 flex items-center gap-2 text-xs text-gold hover:text-gold-light transition self-end">
+                                <i class="fas fa-link"></i> 公式サイト
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-20 reveal delay-100">
+                    <div class="text-center mb-10">
+                        <div class="inline-block px-4 py-1 border border-gold/20 mb-4">
+                            <span class="text-gold text-[9px] font-bold tracking-[0.5em] uppercase">Sponsors</span>
+                        </div>
+                        <h3 class="text-2xl md:text-3xl font-serif font-black text-white mb-4 tracking-widest">協賛</h3>
+                        <p class="text-gray-500 text-xs md:text-sm">協賛企業・団体・店舗一覧</p>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <div class="jp-card p-8 border-dashed border-white/20 text-center flex flex-col justify-center items-center">
+                            <div class="w-12 h-12 rounded-full border border-gold/40 flex items-center justify-center">
+                                <i class="fas fa-plus text-gold"></i>
+                            </div>
+                            <h4 class="text-white font-serif font-bold mt-4">協賛募集中</h4>
+                            <p class="text-xs text-gray-500 mt-3">協賛をご希望の方はXのDMよりご連絡ください。</p>
+                            <a href="https://x.com/seekerstart" target="_blank" rel="noopener" class="text-gold text-xs font-bold tracking-widest uppercase mt-4">DMを送る</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits Section -->
+        <section id="benefits" class="py-24 md:py-32 bg-[#050505] relative">
+            <div class="absolute top-0 left-0 w-full h-full opacity-[0.03] pointer-events-none bg-dots-gold"></div>
+            <div class="container mx-auto px-6 max-w-6xl relative">
+                <div class="text-center mb-16 reveal">
+                    <div class="inline-block px-4 py-1 border border-gold/30 mb-6">
+                        <span class="text-gold text-[9px] font-bold tracking-[0.5em] uppercase">Benefits</span>
+                    </div>
+                    <h2 class="text-3xl md:text-4xl font-serif font-black text-white mb-6 tracking-widest">協賛メリット</h2>
+                    <p class="text-gray-400 text-sm max-w-2xl mx-auto leading-loose">
+                        大会公式サイト・配信・SNSなどの接点を通じて、参加者とファンに向けた高品質な露出を提供します。
+                    </p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="jp-card p-8 corner-deco reveal">
+                        <div class="w-12 h-12 rounded-full border border-gold/40 flex items-center justify-center mb-6">
+                            <i class="fas fa-bullhorn text-gold"></i>
+                        </div>
+                        <h4 class="text-white font-serif font-bold text-base mb-3">露出強化</h4>
+                        <p class="text-[11px] text-gray-500 leading-relaxed">
+                            公式サイトやX、運営しているdiscordでのイベント掲載により、ポーカー層への認知を高めます。
+                        </p>
+                    </div>
+                    <div class="jp-card p-8 corner-deco reveal delay-100">
+                        <div class="w-12 h-12 rounded-full border border-gold/40 flex items-center justify-center mb-6">
+                            <i class="fas fa-handshake text-gold"></i>
+                        </div>
+                        <h4 class="text-white font-serif font-bold text-base mb-3">共同プロモーション</h4>
+                        <p class="text-[11px] text-gray-500 leading-relaxed">
+                            協賛内容に問わず、コラボイベントや商品設計など、何でもご相談ください。
+                        </p>
+                    </div>
+                    <div class="jp-card p-8 corner-deco reveal delay-200">
+                        <div class="w-12 h-12 rounded-full border border-gold/40 flex items-center justify-center mb-6">
+                            <i class="fas fa-users text-gold"></i>
+                        </div>
+                        <h4 class="text-white font-serif font-bold text-base mb-3">参加者との接点</h4>
+                        <p class="text-[11px] text-gray-500 leading-relaxed">
+                            参加者・ファンとの直接的な接点を提供し、長期的な関係構築を支援します。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section id="cta" class="py-24 md:py-32 bg-black text-center relative overflow-hidden">
+            <div class="absolute inset-0 pointer-events-none opacity-20 bg-cta-rays"></div>
+            <div class="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_center,black_30%,transparent_100%)]"></div>
+            <div class="container mx-auto px-6 relative z-10 reveal">
+                <div class="inline-block px-4 py-1 border border-gold/30 mb-6">
+                    <span class="text-gold text-[9px] font-bold tracking-[0.5em] uppercase">Sponsorship</span>
+                </div>
+                <h2 class="text-3xl md:text-5xl font-serif font-black text-white mb-8 tracking-[0.2em] leading-tight">協賛をご検討の方へ</h2>
+                <p class="text-gray-400 text-sm md:text-base leading-loose max-w-2xl mx-auto">
+                    鳳凰戦を一緒に盛り上げてくださる協賛企業・団体・店舗を募集しています。協賛枠・掲載内容は柔軟に調整可能です。まずはフォームからご連絡頂けますと幸いです。
+                </p>
+                <a href="https://x.com/seekerstart" target="_blank" rel="noopener" class="inline-block group relative mt-12">
+                    <div class="absolute inset-0 bg-gold translate-x-1 translate-y-1 group-hover:translate-x-0 group-hover:translate-y-0 transition duration-300"></div>
+                    <div class="relative bg-white text-black px-12 md:px-20 py-5 md:py-6 font-black tracking-[0.5em] text-xs md:text-sm border border-black uppercase">
+                        協賛を検討する
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- FAQ Section removed -->
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#050505] py-12 border-t border-white/5">
+        <div class="container mx-auto px-6 text-center">
+            <div class="flex items-center justify-center gap-4 mb-6">
+                <img src="images/SeekerStart_logo.png" alt="Logo" class="h-6 w-auto" onerror="this.src='https://via.placeholder.com/80x30/111/d4af37?text=Logo'">
+                <span class="text-base font-serif font-black tracking-[0.2em] text-white">ポーカー鳳凰戦</span>
+            </div>
+            <p class="text-gray-600 text-[10px] mb-6">
+                協賛に関するお問い合わせはXのDMまでお願い致します。
+            </p>
+            <div class="text-[9px] text-gray-700 font-bold uppercase tracking-[0.4em]">
+                © 2026 POKER HOUOU LEAGUE. ALL RIGHTS RESERVED.
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
