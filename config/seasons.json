@@ -1,4 +1,4 @@
-{
+﻿{
   "seasons": [
     {
       "id": 1,
@@ -11,6 +11,18 @@
         "C": ["*"]
       },
       "status": "active"
+    },
+    {
+      "id": 2,
+      "name": "シーズン 2",
+      "start_date": "",
+      "end_date": "",
+      "leagues": {
+        "A": [],
+        "B": [],
+        "C": []
+      },
+      "status": "upcoming"
     }
   ],
   "current_season_id": 1

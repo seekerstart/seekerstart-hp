@@ -201,6 +201,11 @@ h1, h2, h3, .font-serif {
    Utility Classes
    ============================================ */
 
+.full-bleed {
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+}
+
 /* Transition Delays */
 .delay-100 { transition-delay: 0.1s; }
 .delay-200 { transition-delay: 0.2s; }
@@ -323,4 +328,81 @@ h1, h2, h3, .font-serif {
     background: linear-gradient(135deg, rgba(205, 127, 50, 0.2), rgba(205, 127, 50, 0.1));
     border-color: var(--bronze);
     text-shadow: 0 0 8px rgba(205, 127, 50, 0.5);
+}
+
+/* ============================================
+   Season Highlight Ribbon
+   ============================================ */
+
+.season-highlight-ribbon {
+    background: linear-gradient(90deg, rgba(5, 5, 5, 0.98), rgba(20, 20, 20, 0.9), rgba(5, 5, 5, 0.98));
+    border-top: 1px solid rgba(212, 175, 55, 0.35);
+    border-bottom: 1px solid rgba(212, 175, 55, 0.35);
+    box-shadow: 0 0 28px rgba(212, 175, 55, 0.25);
+    padding: 14px 0;
+}
+
+.season-highlight-ribbon__core {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    padding: 10px 72px;
+    background: rgba(8, 8, 8, 0.85);
+    border: 1px solid rgba(212, 175, 55, 0.7);
+    box-shadow: inset 0 0 12px rgba(212, 175, 55, 0.2), 0 0 18px rgba(212, 175, 55, 0.25);
+}
+
+.season-highlight-ribbon__nav {
+    position: absolute;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    background: transparent;
+    cursor: pointer;
+    transform: translateY(-50%);
+    transition: filter 0.2s ease, transform 0.2s ease;
+}
+
+.season-highlight-ribbon__nav--prev {
+    left: -56px;
+    border-width: 20px 40px 20px 0;
+    border-color: transparent rgba(212, 175, 55, 0.55) transparent transparent;
+}
+
+.season-highlight-ribbon__nav--next {
+    right: -56px;
+    border-width: 20px 0 20px 40px;
+    border-color: transparent transparent transparent rgba(212, 175, 55, 0.55);
+}
+
+.season-highlight-ribbon__nav:hover,
+.season-highlight-ribbon__nav:focus-visible {
+    filter: brightness(1.2);
+    transform: translateY(-50%) scale(1.05);
+    outline: none;
+}
+
+.season-highlight-ribbon__sub {
+    font-size: 10px;
+    color: rgba(212, 175, 55, 0.75);
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.season-highlight-ribbon__title {
+    font-size: 1.6rem;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
+    color: #fff;
+    letter-spacing: 0.25em;
+}
+
+@media (min-width: 768px) {
+    .season-highlight-ribbon__title {
+        font-size: 2rem;
+    }
 }

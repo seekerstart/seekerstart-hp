@@ -12,7 +12,7 @@ seekerstart-hp/
 │   └── style.css           # カスタムCSS
 ├── js/
 │   ├── main.js             # メインJS（アニメーション、メニュー等）
-│   └── stats-loader.js     # CSVからスタッツを読み込むJS
+│   └── stats-table.js      # CSVからスタッツを読み込むJS
 ├── data/
 │   └── player_stats.csv    # プレイヤースタッツデータ
 ├── SeekerStart_logo.png    # ロゴ画像
