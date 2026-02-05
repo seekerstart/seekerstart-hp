@@ -330,8 +330,8 @@
             const value = this.formatStatValue(this.parseNumber(stat.value));
             return `
                 <div class="bg-black/40 border border-white/10 p-4 text-center">
-                    <div class="text-[9px] text-gray-500 tracking-[0.4em] uppercase">${this.escapeHtml(stat.label)}</div>
-                    <div class="text-lg font-black text-white mt-2">${value !== '--' ? `${value}%` : '--'}</div>
+                    <div class="text-[11px] text-gray-500 tracking-[0.4em] uppercase">${this.escapeHtml(stat.label)}</div>
+                    <div class="text-[1.35rem] font-black text-white mt-2">${value !== '--' ? `${value}%` : '--'}</div>
                 </div>
             `;
         }).join('');
@@ -502,8 +502,8 @@
             const value = this.formatStatValue(weighted.value);
             return `
                 <div class="bg-black/40 border border-white/10 p-4 text-center">
-                    <div class="text-[9px] text-gray-500 tracking-[0.4em] uppercase">${this.escapeHtml(stat.label)}</div>
-                    <div class="text-lg font-black text-white mt-2">${value !== '--' ? `${value}%` : '--'}</div>
+                    <div class="text-[11px] text-gray-500 tracking-[0.4em] uppercase">${this.escapeHtml(stat.label)}</div>
+                    <div class="text-[1.35rem] font-black text-white mt-2">${value !== '--' ? `${value}%` : '--'}</div>
                 </div>
             `;
         }).join('');

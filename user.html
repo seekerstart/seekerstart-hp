@@ -30,7 +30,7 @@
             </a>
 
             <!-- Back to Season Stats -->
-            <a href="season_stats.html" class="border border-gold/40 text-gold px-5 md:px-6 py-2.5 text-xs font-black tracking-widest nav-button-glow whitespace-nowrap uppercase">
+            <a href="season_stats.html" class="border border-gold/40 text-gold px-5 md:px-6 py-2.5 text-[0.9rem] font-black tracking-widest nav-button-glow whitespace-nowrap uppercase">
                 シーズン成績へ戻る
             </a>
         </div>
@@ -47,7 +47,7 @@
                 <h1 class="text-3xl md:text-5xl font-serif font-black text-white mb-6 tracking-widest">
                     ユーザーページ
                 </h1>
-                <p class="text-gray-400 text-sm max-w-xl mx-auto leading-loose">
+                <p class="text-gray-400 text-[1.05rem] max-w-xl mx-auto leading-loose">
                     今シーズンの成績、過去の戦績、各種スタッツをまとめて確認できます。
                 </p>
             </div>
@@ -68,30 +68,30 @@
             <div class="jp-card p-6 md:p-8 corner-deco mb-10">
                 <div class="flex flex-col md:flex-row md:items-stretch md:justify-between gap-6">
                     <div class="flex flex-col justify-center">
-                        <div id="user-league" class="text-gold text-xs font-bold tracking-[0.4em] uppercase mb-2">LEAGUE --</div>
+                        <div id="user-league" class="text-gold text-[0.9rem] font-bold tracking-[0.4em] uppercase mb-2">LEAGUE --</div>
                         <div class="flex flex-wrap items-center gap-3">
                             <div id="user-name" class="text-2xl md:text-3xl font-serif font-black text-white">--</div>
                         </div>
                     </div>
                     <div class="grid grid-cols-1 sm:grid-cols-4 gap-4">
                         <div class="bg-black/40 border border-white/10 p-4 text-center">
-                            <div class="text-[9px] text-gray-500 tracking-[0.4em] uppercase">参加節数</div>
-                            <div id="season-sessions" class="text-lg font-black text-white mt-2">--</div>
+                            <div class="text-[11px] text-gray-500 tracking-[0.4em] uppercase">参加節数</div>
+                            <div id="season-sessions" class="text-[1.35rem] font-black text-white mt-2">--</div>
                         </div>
                         <div class="bg-black/40 border border-white/10 p-4 text-center">
-                            <div class="text-[9px] text-gray-500 tracking-[0.4em] uppercase">順位</div>
-                            <div id="user-season-rank" class="text-lg font-black text-white mt-2">--/--</div>
-                            <div id="promotion-border-rank" class="text-[10px] text-gray-500 mt-2">昇格圏: --</div>
+                            <div class="text-[11px] text-gray-500 tracking-[0.4em] uppercase">順位</div>
+                            <div id="user-season-rank" class="text-[1.35rem] font-black text-white mt-2">--/--</div>
+                            <div id="promotion-border-rank" class="text-[12px] text-gray-500 mt-2">昇格圏: --</div>
                         </div>
                         <div class="bg-black/40 border border-white/10 p-4 text-center">
-                            <div class="text-[9px] text-gray-500 tracking-[0.4em] uppercase">収支</div>
-                            <div id="current-profit" class="text-lg font-black text-white mt-2">--</div>
-                            <div id="promotion-border-profit" class="text-[10px] text-gray-500 mt-2">昇格圏: --</div>
+                            <div class="text-[11px] text-gray-500 tracking-[0.4em] uppercase">収支</div>
+                            <div id="current-profit" class="text-[1.35rem] font-black text-white mt-2">--</div>
+                            <div id="promotion-border-profit" class="text-[12px] text-gray-500 mt-2">昇格圏: --</div>
                         </div>
                         <div class="bg-black/40 border border-white/10 p-4 text-center">
-                            <div class="text-[9px] text-gray-500 tracking-[0.4em] uppercase">ハンド数</div>
-                            <div id="current-hands" class="text-lg font-black text-white mt-2">--</div>
-                            <div class="text-[10px] text-gray-500 mt-2">規定数: 400h</div>
+                            <div class="text-[11px] text-gray-500 tracking-[0.4em] uppercase">ハンド数</div>
+                            <div id="current-hands" class="text-[1.35rem] font-black text-white mt-2">--</div>
+                            <div class="text-[12px] text-gray-500 mt-2">規定数: 400h</div>
                         </div>
                     </div>
                 </div>
@@ -105,18 +105,18 @@
                 </div>
                 <div id="season-chart-wrapper" class="bg-black/40 border border-white/10 p-4">
                     <canvas id="season-chart" height="140"></canvas>
-                    <div id="season-chart-empty" class="hidden text-center text-sm text-gray-500 py-6">データ未入力</div>
+                    <div id="season-chart-empty" class="hidden text-center text-[1.05rem] text-gray-500 py-6">データ未入力</div>
                 </div>
                 <div class="mt-4 flex justify-end">
-                    <div class="flex items-center gap-2 text-[9px] text-gray-500 uppercase tracking-[0.4em]">
+                    <div class="flex items-center gap-2 text-[11px] text-gray-500 uppercase tracking-[0.4em]">
                         <span>戦績を共有する</span>
-                        <a id="share-season-x" href="#" target="_blank" rel="noopener" class="border border-gold/40 text-gold px-2 py-1 text-[9px] font-black tracking-widest uppercase nav-button-glow">
+                        <a id="share-season-x" href="#" target="_blank" rel="noopener" class="border border-gold/40 text-gold px-2 py-1 text-[11px] font-black tracking-widest uppercase nav-button-glow">
                             X
                         </a>
-                        <button id="share-season-copy" type="button" class="border border-white/20 text-white/70 px-2 py-1 text-[9px] font-black tracking-widest uppercase nav-button-glow">
+                        <button id="share-season-copy" type="button" class="border border-white/20 text-white/70 px-2 py-1 text-[11px] font-black tracking-widest uppercase nav-button-glow">
                             URL
                         </button>
-                        <span id="share-season-status" class="text-[9px] text-gray-500 normal-case tracking-normal"></span>
+                        <span id="share-season-status" class="text-[11px] text-gray-500 normal-case tracking-normal"></span>
                     </div>
                 </div>
             </div>
@@ -131,15 +131,15 @@
                     <!-- JSで挿入 -->
                 </div>
                 <div class="mt-4 flex justify-end">
-                    <div class="flex items-center gap-2 text-[9px] text-gray-500 uppercase tracking-[0.4em]">
+                    <div class="flex items-center gap-2 text-[11px] text-gray-500 uppercase tracking-[0.4em]">
                         <span>スタッツを共有する</span>
-                        <a id="share-season-stats-x" href="#" target="_blank" rel="noopener" class="border border-gold/40 text-gold px-2 py-1 text-[9px] font-black tracking-widest uppercase nav-button-glow">
+                        <a id="share-season-stats-x" href="#" target="_blank" rel="noopener" class="border border-gold/40 text-gold px-2 py-1 text-[11px] font-black tracking-widest uppercase nav-button-glow">
                             X
                         </a>
-                        <button id="share-season-stats-copy" type="button" class="border border-white/20 text-white/70 px-2 py-1 text-[9px] font-black tracking-widest uppercase nav-button-glow">
+                        <button id="share-season-stats-copy" type="button" class="border border-white/20 text-white/70 px-2 py-1 text-[11px] font-black tracking-widest uppercase nav-button-glow">
                             URL
                         </button>
-                        <span id="share-season-stats-status" class="text-[9px] text-gray-500 normal-case tracking-normal"></span>
+                        <span id="share-season-stats-status" class="text-[11px] text-gray-500 normal-case tracking-normal"></span>
                     </div>
                 </div>
             </div>
@@ -158,30 +158,30 @@
             <div class="jp-card p-6 md:p-8 corner-deco mb-10">
                 <div class="flex flex-col md:flex-row md:items-stretch md:justify-between gap-6">
                     <div class="flex flex-col justify-center">
-                        <div id="cumulative-league" class="text-gold text-xs font-bold tracking-[0.4em] uppercase mb-2">LEAGUE --</div>
+                        <div id="cumulative-league" class="text-gold text-[0.9rem] font-bold tracking-[0.4em] uppercase mb-2">LEAGUE --</div>
                         <div class="flex flex-wrap items-center gap-3">
                             <div id="cumulative-name" class="text-2xl md:text-3xl font-serif font-black text-white">--</div>
                         </div>
                     </div>
                     <div class="grid grid-cols-1 sm:grid-cols-4 gap-4">
                         <div class="bg-black/40 border border-white/10 p-4 text-center">
-                            <div class="text-[9px] text-gray-500 tracking-[0.4em] uppercase">参加節数</div>
-                            <div id="cumulative-sessions" class="text-lg font-black text-white mt-2">--</div>
+                            <div class="text-[11px] text-gray-500 tracking-[0.4em] uppercase">参加節数</div>
+                            <div id="cumulative-sessions" class="text-[1.35rem] font-black text-white mt-2">--</div>
                         </div>
                         <div class="bg-black/40 border border-white/10 p-4 text-center">
-                            <div class="text-[9px] text-gray-500 tracking-[0.4em] uppercase">順位</div>
-                            <div id="cumulative-rank" class="text-lg font-black text-white mt-2">--/--</div>
-                            <div id="cumulative-rank-sub" class="text-[10px] text-gray-500 mt-2">累計順位</div>
+                            <div class="text-[11px] text-gray-500 tracking-[0.4em] uppercase">順位</div>
+                            <div id="cumulative-rank" class="text-[1.35rem] font-black text-white mt-2">--/--</div>
+                            <div id="cumulative-rank-sub" class="text-[12px] text-gray-500 mt-2">累計順位</div>
                         </div>
                         <div class="bg-black/40 border border-white/10 p-4 text-center">
-                            <div class="text-[9px] text-gray-500 tracking-[0.4em] uppercase">収支</div>
-                            <div id="cumulative-profit" class="text-lg font-black text-white mt-2">--</div>
-                            <div id="cumulative-profit-sub" class="text-[10px] text-gray-500 mt-2">累計収支</div>
+                            <div class="text-[11px] text-gray-500 tracking-[0.4em] uppercase">収支</div>
+                            <div id="cumulative-profit" class="text-[1.35rem] font-black text-white mt-2">--</div>
+                            <div id="cumulative-profit-sub" class="text-[12px] text-gray-500 mt-2">累計収支</div>
                         </div>
                         <div class="bg-black/40 border border-white/10 p-4 text-center">
-                            <div class="text-[9px] text-gray-500 tracking-[0.4em] uppercase">ハンド数</div>
-                            <div id="cumulative-hands" class="text-lg font-black text-white mt-2">--</div>
-                            <div id="cumulative-hands-sub" class="text-[10px] text-gray-500 mt-2">累計ハンド</div>
+                            <div class="text-[11px] text-gray-500 tracking-[0.4em] uppercase">ハンド数</div>
+                            <div id="cumulative-hands" class="text-[1.35rem] font-black text-white mt-2">--</div>
+                            <div id="cumulative-hands-sub" class="text-[12px] text-gray-500 mt-2">累計ハンド</div>
                         </div>
                     </div>
                 </div>
@@ -197,15 +197,15 @@
                     <canvas id="cumulative-chart" height="140"></canvas>
                 </div>
                 <div class="mt-4 flex justify-end">
-                    <div class="flex items-center gap-2 text-[9px] text-gray-500 uppercase tracking-[0.4em]">
+                    <div class="flex items-center gap-2 text-[11px] text-gray-500 uppercase tracking-[0.4em]">
                         <span>戦績を共有する</span>
-                        <a id="share-cumulative-x" href="#" target="_blank" rel="noopener" class="border border-gold/40 text-gold px-2 py-1 text-[9px] font-black tracking-widest uppercase nav-button-glow">
+                        <a id="share-cumulative-x" href="#" target="_blank" rel="noopener" class="border border-gold/40 text-gold px-2 py-1 text-[11px] font-black tracking-widest uppercase nav-button-glow">
                             X
                         </a>
-                        <button id="share-cumulative-copy" type="button" class="border border-white/20 text-white/70 px-2 py-1 text-[9px] font-black tracking-widest uppercase nav-button-glow">
+                        <button id="share-cumulative-copy" type="button" class="border border-white/20 text-white/70 px-2 py-1 text-[11px] font-black tracking-widest uppercase nav-button-glow">
                             URL
                         </button>
-                        <span id="share-cumulative-status" class="text-[9px] text-gray-500 normal-case tracking-normal"></span>
+                        <span id="share-cumulative-status" class="text-[11px] text-gray-500 normal-case tracking-normal"></span>
                     </div>
                 </div>
             </div>
@@ -220,15 +220,15 @@
                     <!-- JSで挿入 -->
                 </div>
                 <div class="mt-4 flex justify-end">
-                    <div class="flex items-center gap-2 text-[9px] text-gray-500 uppercase tracking-[0.4em]">
+                    <div class="flex items-center gap-2 text-[11px] text-gray-500 uppercase tracking-[0.4em]">
                         <span>スタッツを共有する</span>
-                        <a id="share-cumulative-stats-x" href="#" target="_blank" rel="noopener" class="border border-gold/40 text-gold px-2 py-1 text-[9px] font-black tracking-widest uppercase nav-button-glow">
+                        <a id="share-cumulative-stats-x" href="#" target="_blank" rel="noopener" class="border border-gold/40 text-gold px-2 py-1 text-[11px] font-black tracking-widest uppercase nav-button-glow">
                             X
                         </a>
-                        <button id="share-cumulative-stats-copy" type="button" class="border border-white/20 text-white/70 px-2 py-1 text-[9px] font-black tracking-widest uppercase nav-button-glow">
+                        <button id="share-cumulative-stats-copy" type="button" class="border border-white/20 text-white/70 px-2 py-1 text-[11px] font-black tracking-widest uppercase nav-button-glow">
                             URL
                         </button>
-                        <span id="share-cumulative-stats-status" class="text-[9px] text-gray-500 normal-case tracking-normal"></span>
+                        <span id="share-cumulative-stats-status" class="text-[11px] text-gray-500 normal-case tracking-normal"></span>
                     </div>
                 </div>
             </div>
@@ -243,10 +243,10 @@
                     <table class="w-full min-w-[500px]">
                         <thead>
                             <tr class="border-b border-gold/20">
-                                <th class="text-left py-3 px-3 text-gold text-xs font-bold tracking-wider uppercase">Season</th>
-                                <th class="text-center py-3 px-3 text-gold text-xs font-bold tracking-wider uppercase">League</th>
-                                <th class="text-right py-3 px-3 text-gold text-xs font-bold tracking-wider uppercase">収支BB</th>
-                                <th class="text-right py-3 px-3 text-gold text-xs font-bold tracking-wider uppercase">ハンド数</th>
+                                <th class="text-left py-3 px-3 text-gold text-[0.9rem] font-bold tracking-wider uppercase">Season</th>
+                                <th class="text-center py-3 px-3 text-gold text-[0.9rem] font-bold tracking-wider uppercase">League</th>
+                                <th class="text-right py-3 px-3 text-gold text-[0.9rem] font-bold tracking-wider uppercase">収支BB</th>
+                                <th class="text-right py-3 px-3 text-gold text-[0.9rem] font-bold tracking-wider uppercase">ハンド数</th>
                             </tr>
                         </thead>
                         <tbody id="season-history-body" class="divide-y divide-white/5">
@@ -265,12 +265,12 @@
         <div class="container mx-auto px-6 text-center">
             <div class="flex items-center justify-center gap-4 mb-6">
                 <img src="images/SeekerStart_logo.png" alt="Logo" class="h-6 w-auto" onerror="this.src='https://via.placeholder.com/80x30/111/d4af37?text=Logo'">
-                <span class="text-base font-serif font-black tracking-[0.2em] text-white">ポーカー鳳凰戦</span>
+                <span class="text-[1.2rem] font-serif font-black tracking-[0.2em] text-white">ポーカー鳳凰戦</span>
             </div>
-            <p class="text-gray-600 text-[10px] mb-6">
+            <p class="text-gray-600 text-[12px] mb-6">
                 協賛に関するお問い合わせはXのDMまでお願い致します。
             </p>
-            <div class="text-[9px] text-gray-700 font-bold uppercase tracking-[0.4em]">
+            <div class="text-[11px] text-gray-700 font-bold uppercase tracking-[0.4em]">
                 © 2026 POKER HOUOU LEAGUE. ALL RIGHTS RESERVED.
             </div>
         </div>
