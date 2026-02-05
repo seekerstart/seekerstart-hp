@@ -162,7 +162,8 @@ class StatsAggregator:
             # canonical_id に変換して一貫したIDを使用
             canonical_id = self.registry.get_canonical_id(raw_player_id)
             stats.player_id = canonical_id
-            stats.display_name = player_name
+            registered_name = self.registry.get_display_name(canonical_id)
+            stats.display_name = registered_name if registered_name else player_name
 
             # リーグを設定
             if session.season_id:
