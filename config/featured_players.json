@@ -1,0 +1,76 @@
+{
+  "seasons": [
+    {
+      "id": "season1",
+      "label": "Season 1",
+      "featured": [
+        {
+          "name": "sigma",
+          "alias": "シースタ研究員",
+          "tag": "著名人",
+          "quote": "鳳凰戦に向けてPokerNowの自動卓やwaitingシステムの開発を行いました。鳳凰戦がポーカーの上達と情熱を加速させる場になることを願っています。",
+          "image": "images/sigma.jpg",
+          "achievements": [
+            "ポーカーアドベントカレンダー2025主催",
+            "基礎理論記事執筆(Multiway AKQ、QRE等)",
+            "ポーカー部分ツイート解説記事"
+          ],
+          "social": {
+            "x": "https://x.com/seekerstart",
+            "youtube": "https://www.youtube.com/@seekerstartjapan",
+            "instagram": "https://www.instagram.com/seekerstart/",
+            "tiktok": "https://www.tiktok.com/@seekerstart",
+            "note": "https://note.com/seekerstart",
+            "website": "https://seekerstart-hp.vercel.app/index.html"
+          }
+        },
+        {
+          "name": "やましー",
+          "alias": "永遠のスマイル",
+          "tag": "著名人",
+          "quote": "それっておかしいじゃないですか？",
+          "image": "images/yamashy.jpg",
+          "achievements": [
+            "鳳凰戦データ管理システム作成",
+            "会社同期へのポーカー普及40/50",
+            "24時間耐久スマイル"
+          ],
+          "social": {
+            "x": "https://x.com/ymshy_poker",
+            "youtube": "https://www.youtube.com/@seekerstartjapan",
+            "instagram": "https://www.instagram.com/seekerstart/",
+            "tiktok": "https://www.tiktok.com/@seekerstart",
+            "note": null,
+            "website": "https://seekerstart-hp.vercel.app/index.html"
+          }
+        }
+      ]
+    },
+    {
+      "id": "season2",
+      "label": "Season 2",
+      "featured": [
+        {
+          "name": "sigma",
+          "alias": "シースタ研究員",
+          "tag": "著名人",
+          "quote": "鳳凰戦に向けてPokerNowの自動卓やwaitingシステムの開発を行いました。鳳凰戦がポーカーの上達と情熱を加速させる場になることを願っています。",
+          "image": "images/sigma.jpg",
+          "achievements": [
+            "ポーカーアドベントカレンダー2025主催",
+            "基礎理論記事執筆(Multiway AKQ、QRE等)",
+            "ポーカー部分ツイート解説記事"
+          ],
+          "social": {
+            "x": "https://x.com/seekerstart",
+            "youtube": "https://www.youtube.com/@seekerstartjapan",
+            "instagram": "https://www.instagram.com/seekerstart/",
+            "tiktok": "https://www.tiktok.com/@seekerstart",
+            "note": "https://note.com/seekerstart",
+            "website": "https://seekerstart-hp.vercel.app/index.html"
+          }
+        }
+      ]
+    }
+  ]
+}
