@@ -16,6 +16,13 @@
                                                   "*"
                                               ]
                                     },
+                        "rules":  {
+                                      "rank_scope":  "season",
+                                      "promotion_rate":  0.4,
+                                      "relegation_rate":  0.0,
+                                      "required_hands":  400
+                                  },
+                        "display_status":  "暫定",
                         "status":  "active"
                     },
                     {
@@ -34,6 +41,13 @@
 
                                               ]
                                     },
+                        "rules":  {
+                                      "rank_scope":  "season",
+                                      "promotion_rate":  0.4,
+                                      "relegation_rate":  0.0,
+                                      "required_hands":  400
+                                  },
+                        "display_status":  "暫定",
                         "status":  "upcoming"
                     }
                 ],

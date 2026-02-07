@@ -9,6 +9,7 @@
     playerSeasons: [],
     seasonIds: [],
     currentSeasonIndex: 0,
+    currentSeasonId: null,
     seasonChartInstance: null,
     cumulativeChartInstance: null,
     shareState: null,
@@ -35,6 +36,7 @@
 
             this.setupSeasonNavigator();
             this.setupShareButtons();
+            this.setupImageButtons();
             this.renderSeasonHistory(this.playerSeasons);
             if (this.seasonIds.length) {
                 await this.renderForSeason(this.seasonIds[this.currentSeasonIndex]);
@@ -122,14 +124,58 @@
         return index >= 0 ? index : 0;
     },
 
-    getSeasonName(seasonId) {
+    getSeasonMeta(seasonId) {
         const seasons = (this.seasonsConfig && this.seasonsConfig.seasons) ? this.seasonsConfig.seasons : [];
-        const season = seasons.find(item => item.id === seasonId);
+        return seasons.find(item => item.id === seasonId) || null;
+    },
+
+    getSeasonName(seasonId) {
+        const season = this.getSeasonMeta(seasonId);
         let name = season ? season.name : `Season ${seasonId}`;
         if (name.includes('シーズン')) {
             name = name.replace('シーズン', 'Season').replace(/\s+/g, ' ');
         }
         return name;
+    },
+
+    getSeasonShortName(seasonId) {
+        const numericId = Number(seasonId);
+        if (Number.isFinite(numericId)) {
+            return `Season${numericId}`;
+        }
+        const name = this.getSeasonName(seasonId);
+        const match = name.match(/(\d+)/);
+        return match ? `Season${match[1]}` : name.replace(/\s+/g, '');
+    },
+
+    getSeasonStatusLabel(seasonId) {
+        const season = this.getSeasonMeta(seasonId);
+        if (!season) return '暫定';
+        if (season.display_status) return season.display_status;
+        if (season.status === 'final' || season.status === 'confirmed' || season.status === 'closed') {
+            return '確定';
+        }
+        if (season.status === 'upcoming') return '暫定';
+        return '暫定';
+    },
+
+    getSeasonRules(seasonId, league) {
+        const seasons = (this.seasonsConfig && this.seasonsConfig.seasons) ? this.seasonsConfig.seasons : [];
+        const season = seasons.find(item => item.id === seasonId);
+        const rules = season && season.rules ? season.rules : {};
+        const leagueRules = (rules.league_rules && league && rules.league_rules[league]) ? rules.league_rules[league] : null;
+        const merged = { ...rules };
+        if (merged.league_rules) delete merged.league_rules;
+        if (leagueRules && typeof leagueRules === 'object') {
+            Object.assign(merged, leagueRules);
+        }
+        return merged;
+    },
+
+    getRuleValue(rules, key, fallback) {
+        if (!rules || rules[key] === undefined || rules[key] === null) return fallback;
+        if (Number.isNaN(rules[key])) return fallback;
+        return rules[key];
     },
 
     setupSeasonNavigator() {
@@ -150,26 +196,43 @@
     },
 
     async renderForSeason(seasonId) {
+        this.currentSeasonId = seasonId;
         const seasonRow = this.playerSeasons.find(item => item.seasonId === seasonId) || null;
         const currentSeasonData = seasonId ? await this.loadSeasonStats(seasonId) : [];
         const currentSeasonRank = seasonId
             ? this.getSeasonRank(currentSeasonData, this.playerId, this.playerName)
             : null;
         const currentSeasonTotal = currentSeasonData.length || null;
-        const promotionBorder = currentSeasonTotal ? Math.ceil(currentSeasonTotal * 0.4) : null;
-        const promotionRow = promotionBorder ? this.getPromotionBorderRow(currentSeasonData, promotionBorder) : null;
-        const promotionProfit = promotionRow ? this.formatProfitBB(promotionRow) : null;
 
         const nameFallback = this.playerSeasons[0]?.row?.['プレイヤー'] || '--';
         const rowData = seasonRow ? seasonRow.row : { 'プレイヤー': nameFallback, 'リーグ': '--', '収支': '', 'ハンド数': '' };
+        const league = rowData['リーグ'] || '--';
+        const rules = this.getSeasonRules(seasonId, league);
+        const leagueRankInfo = this.getLeagueRankInfo(currentSeasonData, league, this.playerId, this.playerName);
+        const promotionRate = this.getRuleValue(rules, 'promotion_rate', 0.4);
+        const promotionBorder = (currentSeasonTotal && promotionRate && promotionRate > 0)
+            ? Math.min(currentSeasonTotal, Math.max(1, Math.ceil(currentSeasonTotal * promotionRate)))
+            : null;
+        const promotionRow = promotionBorder ? this.getPromotionBorderRow(currentSeasonData, promotionBorder) : null;
+        const promotionProfit = promotionRow ? this.formatProfitBB(promotionRow) : null;
+
         const seasonName = this.getSeasonName(seasonId);
 
-        this.renderSummary(rowData, currentSeasonRank, currentSeasonTotal, promotionBorder, promotionProfit, seasonId);
+        this.renderSummary({
+            row: rowData,
+            rank: currentSeasonRank,
+            total: currentSeasonTotal,
+            leagueRank: leagueRankInfo.rank,
+            leagueTotal: leagueRankInfo.total,
+            seasonId,
+            rules
+        });
+        this.renderLeagueConditions({ row: rowData, seasonData: currentSeasonData, rank: currentSeasonRank, rules });
         this.renderStats(rowData);
         this.renderSeasonChart(rowData);
         this.renderChart(this.playerSeasons, seasonId);
         this.renderCumulativeStats(this.playerSeasons, seasonId);
-        await this.renderCumulativeSummary(seasonId, rowData);
+        const cumulativeSummary = await this.renderCumulativeSummary(seasonId, rowData);
 
         this.updateShareState({
             seasonId,
@@ -177,9 +240,13 @@
             row: rowData,
             rank: currentSeasonRank,
             total: currentSeasonTotal,
+            leagueRank: leagueRankInfo.rank,
+            leagueTotal: leagueRankInfo.total,
+            seasonData: currentSeasonData,
             promotionRank: promotionBorder,
             promotionProfit,
-            cumulative: this.getCumulativeTotals(this.playerSeasons, seasonId)
+            cumulativeSummary,
+            rules
         });
     },
 
@@ -277,62 +344,179 @@
         values.push(current);
         return values;
     },
-    renderSummary(row, rank, total, promotionRank, promotionProfit, seasonId) {
-        const seasonName = this.getSeasonName(seasonId);
-        const summaryText = document.getElementById('season-summary-text');
-        if (summaryText) summaryText.textContent = `${seasonName} 戦績`;
+    renderSummary({ row, rank, total, leagueRank, leagueTotal, seasonId, rules }) {
+        const seasonLabel = this.getSeasonShortName(seasonId);
+        const statusLabel = this.getSeasonStatusLabel(seasonId);
+
+        const seasonLabelEl = document.getElementById('season-current-label');
+        if (seasonLabelEl) seasonLabelEl.textContent = seasonLabel;
+
+        const statusEl = document.getElementById('season-status-label');
+        if (statusEl) statusEl.textContent = statusLabel;
 
         const league = row['リーグ'] || '--';
         const name = row['プレイヤー'] || '--';
         const sessions = this.getSessionCount(row);
-        const hands = this.formatCount(row['ハンド数']);
+        const hands = this.formatCount(row['ハンド数'], false);
         const profit = this.formatProfitBB(row);
+        const leagueLabel = this.formatLeagueLabel(league);
+        const rankText = this.formatRankText(rank, total);
+        const leagueRankText = this.formatRankText(leagueRank, leagueTotal);
 
-        const leagueEl = document.getElementById('user-league');
-        if (leagueEl) leagueEl.textContent = `LEAGUE ${league}`;
         const nameEl = document.getElementById('user-name');
         if (nameEl) nameEl.textContent = name;
 
-        const sessionEl = document.getElementById('season-sessions');
-        if (sessionEl) sessionEl.textContent = sessions ? sessions : '--';
+        const badgeEl = document.getElementById('user-league-badge');
+        if (badgeEl) {
+            const normalizedLeague = this.normalizeLeague(league);
+            badgeEl.textContent = normalizedLeague || '--';
+            badgeEl.classList.remove('league-a', 'league-b', 'league-c');
+            if (normalizedLeague === 'A') badgeEl.classList.add('league-a');
+            if (normalizedLeague === 'B') badgeEl.classList.add('league-b');
+            if (normalizedLeague === 'C') badgeEl.classList.add('league-c');
+        }
 
-        const rankEl = document.getElementById('user-season-rank');
-        if (rankEl) rankEl.textContent = `${rank || '--'}/${total || '--'}`;
+        const summaryLeagueRankEl = document.getElementById('summary-season-league-rank');
+        if (summaryLeagueRankEl) summaryLeagueRankEl.textContent = leagueRankText;
+        const summaryRankEl = document.getElementById('summary-season-rank');
+        if (summaryRankEl) summaryRankEl.textContent = rankText;
+        const summaryProfitEl = document.getElementById('summary-season-profit');
+        if (summaryProfitEl) summaryProfitEl.textContent = profit;
+        const summaryHandsEl = document.getElementById('summary-season-hands');
+        if (summaryHandsEl) summaryHandsEl.textContent = hands;
+        const summarySessionsEl = document.getElementById('summary-season-sessions');
+        if (summarySessionsEl) summarySessionsEl.textContent = sessions ? sessions : '--';
+        const summaryLeagueEl = document.getElementById('summary-season-league');
+        if (summaryLeagueEl) summaryLeagueEl.textContent = leagueLabel;
+    },
 
-        const rankSub = document.getElementById('promotion-border-rank');
-        if (rankSub) rankSub.textContent = `昇格圏: ${promotionRank ? `${promotionRank}位` : '--'}`;
+    renderLeagueConditions({ row, seasonData, rank, rules }) {
+        const promotionEl = document.getElementById('league-condition-promotion');
+        const retentionEl = document.getElementById('league-condition-retention');
+        const relegationEl = document.getElementById('league-condition-relegation');
+        const handsEl = document.getElementById('league-condition-hands');
+        if (!promotionEl && !retentionEl && !relegationEl && !handsEl) return;
 
-        const profitEl = document.getElementById('current-profit');
-        if (profitEl) profitEl.textContent = profit;
+        const conditions = this.computeLeagueConditions({ row, seasonData, rank, rules });
 
-        const profitSub = document.getElementById('promotion-border-profit');
-        if (profitSub) profitSub.textContent = `昇格圏: ${promotionProfit || '--'}`;
+        if (promotionEl) promotionEl.textContent = conditions.promotion;
+        if (retentionEl) retentionEl.textContent = conditions.retention;
+        if (relegationEl) relegationEl.textContent = conditions.relegation;
+        if (handsEl) handsEl.textContent = conditions.handsText;
 
-        const handsEl = document.getElementById('current-hands');
-        if (handsEl) handsEl.textContent = hands;
+        const handsBar = document.getElementById('league-condition-hands-bar');
+        if (handsBar) {
+            const progress = conditions.handsProgress ?? 0;
+            handsBar.style.width = `${Math.max(0, Math.min(100, Math.round(progress * 100)))}%`;
+        }
+    },
+
+    computeLeagueConditions({ row, seasonData, rank, rules }) {
+        const result = {
+            promotion: '昇格まであと--BB',
+            retention: '残留まであと--BB',
+            relegation: '降格まであと--BB',
+            handsText: '残り--hand',
+            handsProgress: 0
+        };
+
+        const handsInfo = this.getRequiredHandsInfo(row, rules);
+        result.handsText = handsInfo.remainingText;
+        result.handsProgress = handsInfo.progress ?? 0;
+
+        const promotionRate = this.getRuleValue(rules, 'promotion_rate', null);
+        const relegationRate = this.getRuleValue(rules, 'relegation_rate', 0);
+
+        if (!seasonData || !seasonData.length) {
+            if (!promotionRate || promotionRate <= 0) {
+                result.promotion = '昇格なし';
+            }
+            if (!relegationRate || relegationRate <= 0) {
+                result.retention = '残留まであと∞BB';
+                result.relegation = '降格なし';
+            }
+            return result;
+        }
+
+        const sorted = this.getSortedByProfit(seasonData);
+        const currentBB = this.getProfitBBValue(row);
+
+        if (promotionRate && promotionRate > 0) {
+            const promotionCount = Math.min(sorted.length, Math.max(1, Math.ceil(sorted.length * promotionRate)));
+            const promotionBorderRow = sorted[promotionCount - 1] || null;
+            const promotionBorderBB = promotionBorderRow ? this.getProfitBBValue(promotionBorderRow) : null;
+            if (promotionBorderBB === null) {
+                result.promotion = '昇格まであと--BB';
+            } else {
+                const buffer = currentBB - promotionBorderBB;
+                const gapText = this.formatBBGapValue(buffer);
+                if (buffer >= 0) {
+                    result.promotion = `昇格圏内（昇格ボーダー+${gapText}BB）`;
+                } else {
+                    result.promotion = `昇格まであと${gapText}BB`;
+                }
+            }
+        } else {
+            result.promotion = '昇格なし';
+        }
+
+        if (!relegationRate || relegationRate <= 0) {
+            result.retention = '残留まであと∞BB';
+            result.relegation = '降格なし';
+        } else {
+            const relegationCount = Math.min(sorted.length, Math.max(1, Math.ceil(sorted.length * relegationRate)));
+            const relegationStartRank = Math.max(1, sorted.length - relegationCount + 1);
+            const relegationBorderRow = sorted[relegationStartRank - 1] || null;
+            const safeBorderRow = sorted[relegationStartRank - 2] || null;
+            const safeBorderBB = safeBorderRow ? this.getProfitBBValue(safeBorderRow) : null;
+            const relegationBorderBB = relegationBorderRow ? this.getProfitBBValue(relegationBorderRow) : null;
+            const safeGap = safeBorderBB !== null ? currentBB - safeBorderBB : null;
+            const relegationGap = relegationBorderBB !== null ? currentBB - relegationBorderBB : null;
+            const inRelegation = rank ? rank >= relegationStartRank : (safeGap !== null ? safeGap < 0 : false);
+            if (inRelegation) {
+                const neededText = this.formatBBGapValue(safeGap);
+                result.retention = neededText !== '--' ? `残留まであと${neededText}BB` : '残留まであと--BB';
+                result.relegation = neededText !== '--' ? `降格圏外まであと${neededText}BB` : '降格圏外まであと--BB';
+            } else {
+                const cushionText = this.formatBBGapValue(safeGap);
+                result.retention = cushionText !== '--' ? `残留圏内（あと${cushionText}BBの余裕）` : '残留圏内';
+                const relegationText = this.formatBBGapValue(relegationGap);
+                result.relegation = relegationText !== '--' ? `降格まであと${relegationText}BB` : '降格まであと--BB';
+            }
+        }
+
+        return result;
     },
 
     renderStats(row) {
-        const statsGrid = document.getElementById('stats-grid');
-        if (!statsGrid) return;
-
-        const stats = [
-            { label: 'VPIP', value: row['VPIP'] },
-            { label: 'PFR', value: row['PFR'] },
-            { label: '3bet', value: row['3bet'] },
-            { label: 'Fold to 3bet', value: row['Fold to 3bet'] },
-            { label: 'CB', value: row['CB'] },
-            { label: 'WTSD', value: row['WTSD'] },
-            { label: 'W$SD', value: row['W$SD'] }
+        const preflopStats = [
+            { label: 'VPIP', value: this.formatStatValue(this.parseNumber(row['VPIP'])) },
+            { label: 'PFR', value: this.formatStatValue(this.parseNumber(row['PFR'])) },
+            { label: '3bet', value: this.formatStatValue(this.parseNumber(row['3bet'])) },
+            { label: 'Fold to 3bet', value: this.formatStatValue(this.parseNumber(row['Fold to 3bet'])) }
         ];
 
-        statsGrid.innerHTML = stats.map(stat => {
-            const value = this.formatStatValue(this.parseNumber(stat.value));
+        const postflopStats = [
+            { label: 'CB', value: this.formatStatValue(this.parseNumber(row['CB'])) },
+            { label: 'WTSD', value: this.formatStatValue(this.parseNumber(row['WTSD'])) },
+            { label: 'W$SD', value: this.formatStatValue(this.parseNumber(row['W$SD'])) }
+        ];
+
+        this.renderStatsTable('season-stats-preflop', preflopStats);
+        this.renderStatsTable('season-stats-postflop', postflopStats);
+    },
+
+    renderStatsTable(targetId, stats) {
+        const tbody = document.getElementById(targetId);
+        if (!tbody) return;
+
+        tbody.innerHTML = stats.map(stat => {
+            const value = stat.value !== '--' ? `${stat.value}%` : '--';
             return `
-                <div class="bg-black/40 border border-white/10 p-4 text-center">
-                    <div class="text-[11px] text-gray-500 tracking-[0.4em] uppercase">${this.escapeHtml(stat.label)}</div>
-                    <div class="text-[1.35rem] font-black text-white mt-2">${value !== '--' ? `${value}%` : '--'}</div>
-                </div>
+                <tr class="text-gray-300">
+                    <td class="py-2 text-left">${this.escapeHtml(stat.label)}</td>
+                    <td class="py-2 text-right font-black text-white">${value}</td>
+                </tr>
             `;
         }).join('');
     },
@@ -480,33 +664,27 @@
     },
 
     renderCumulativeStats(playerSeasons, seasonId) {
-        const grid = document.getElementById('cumulative-stats-grid');
-        if (!grid) return;
-
-        const stats = [
-            { label: 'VPIP', key: 'VPIP', handsKey: 'VPIP_hands' },
-            { label: 'PFR', key: 'PFR', handsKey: 'PFR_hands' },
-            { label: '3bet', key: '3bet', handsKey: '3bet_hands' },
-            { label: 'Fold to 3bet', key: 'Fold to 3bet', handsKey: 'Fold to 3bet_hands' },
-            { label: 'CB', key: 'CB', handsKey: 'CB_hands' },
-            { label: 'WTSD', key: 'WTSD', handsKey: 'WTSD_hands' },
-            { label: 'W$SD', key: 'W$SD', handsKey: 'W$SD_hands' }
-        ];
-
         const filtered = seasonId
             ? playerSeasons.filter(item => item.seasonId <= seasonId)
             : playerSeasons;
 
-        grid.innerHTML = stats.map(stat => {
-            const weighted = this.getWeightedStat(filtered, stat.key, stat.handsKey);
-            const value = this.formatStatValue(weighted.value);
-            return `
-                <div class="bg-black/40 border border-white/10 p-4 text-center">
-                    <div class="text-[11px] text-gray-500 tracking-[0.4em] uppercase">${this.escapeHtml(stat.label)}</div>
-                    <div class="text-[1.35rem] font-black text-white mt-2">${value !== '--' ? `${value}%` : '--'}</div>
-                </div>
-            `;
-        }).join('');
+        const weighted = (key, handsKey) => this.getWeightedStat(filtered, key, handsKey).value;
+
+        const preflopStats = [
+            { label: 'VPIP', value: this.formatStatValue(weighted('VPIP', 'VPIP_hands')) },
+            { label: 'PFR', value: this.formatStatValue(weighted('PFR', 'PFR_hands')) },
+            { label: '3bet', value: this.formatStatValue(weighted('3bet', '3bet_hands')) },
+            { label: 'Fold to 3bet', value: this.formatStatValue(weighted('Fold to 3bet', 'Fold to 3bet_hands')) }
+        ];
+
+        const postflopStats = [
+            { label: 'CB', value: this.formatStatValue(weighted('CB', 'CB_hands')) },
+            { label: 'WTSD', value: this.formatStatValue(weighted('WTSD', 'WTSD_hands')) },
+            { label: 'W$SD', value: this.formatStatValue(weighted('W$SD', 'W$SD_hands')) }
+        ];
+
+        this.renderStatsTable('cumulative-stats-preflop', preflopStats);
+        this.renderStatsTable('cumulative-stats-postflop', postflopStats);
     },
     async renderCumulativeSummary(seasonId, rowData) {
         const leaderboard = await this.buildCumulativeLeaderboard(seasonId);
@@ -524,25 +702,40 @@
             rank = leaderboard.indexOf(entry) + 1;
         }
 
+        const filteredSeasons = seasonId
+            ? this.playerSeasons.filter(item => item.seasonId <= seasonId)
+            : this.playerSeasons;
         const cumulativeTotals = this.getCumulativeTotals(this.playerSeasons, seasonId);
-        const league = rowData['リーグ'] || entry?.league || '--';
-        const name = rowData['プレイヤー'] || entry?.name || '--';
         const sessions = entry ? entry.sessions : cumulativeTotals.sessions;
         const profit = entry ? this.formatBBValue(entry.profit) : this.formatBBValue(cumulativeTotals.bb);
-        const hands = entry ? this.formatCount(entry.hands, true) : this.formatCount(cumulativeTotals.hands, true);
+        const hands = entry ? this.formatCount(entry.hands, false) : this.formatCount(cumulativeTotals.hands, false);
+        const rankText = this.formatRankText(rank, total);
+        const rankDisplay = rankText === '--' ? '--' : `#${rankText}`;
+        const highestLeague = this.getHighestLeague(filteredSeasons);
+        const highestLeagueLabel = this.formatLeagueLabel(highestLeague);
 
-        const leagueEl = document.getElementById('cumulative-league');
-        if (leagueEl) leagueEl.textContent = `LEAGUE ${league}`;
-        const nameEl = document.getElementById('cumulative-name');
-        if (nameEl) nameEl.textContent = name;
-        const sessionEl = document.getElementById('cumulative-sessions');
-        if (sessionEl) sessionEl.textContent = sessions ? sessions : '--';
-        const rankEl = document.getElementById('cumulative-rank');
-        if (rankEl) rankEl.textContent = `${rank || '--'}/${total || '--'}`;
-        const profitEl = document.getElementById('cumulative-profit');
-        if (profitEl) profitEl.textContent = profit;
-        const handsEl = document.getElementById('cumulative-hands');
-        if (handsEl) handsEl.textContent = hands;
+        const summaryLeagueEl = document.getElementById('cumulative-summary-league');
+        if (summaryLeagueEl) summaryLeagueEl.textContent = highestLeagueLabel;
+        const summaryRankEl = document.getElementById('cumulative-summary-rank');
+        if (summaryRankEl) summaryRankEl.textContent = rankText;
+        const summaryProfitEl = document.getElementById('cumulative-summary-profit');
+        if (summaryProfitEl) summaryProfitEl.textContent = profit;
+        const summaryHandsEl = document.getElementById('cumulative-summary-hands');
+        if (summaryHandsEl) summaryHandsEl.textContent = hands;
+        const summarySessionsEl = document.getElementById('cumulative-summary-sessions');
+        if (summarySessionsEl) summarySessionsEl.textContent = sessions ? sessions : '--';
+
+        const cumulativeRankInline = document.getElementById('cumulative-rank-inline');
+        if (cumulativeRankInline) cumulativeRankInline.textContent = `累計順位 ${rankDisplay}`;
+
+        const summaryState = {
+            rank,
+            total,
+            totals: cumulativeTotals,
+            highestLeague
+        };
+        this.cumulativeSummaryState = summaryState;
+        return summaryState;
     },
 
     renderSeasonHistory(playerSeasons) {
@@ -562,13 +755,13 @@
             .sort((a, b) => a.seasonId - b.seasonId)
             .map(item => {
                 const seasonName = this.getSeasonName(item.seasonId);
-                const league = this.escapeHtml(item.row['リーグ'] || '--');
+                const leagueBadge = this.renderLeagueBadgeHtml(item.row['リーグ'] || '--');
                 const profit = this.escapeHtml(this.formatProfitBB(item.row));
                 const hands = this.escapeHtml(this.formatCount(item.row['ハンド数'], false));
                 return `
                     <tr class="hover:bg-white/5 transition-colors">
                         <td class="py-4 px-3 text-left text-white">${this.escapeHtml(seasonName)}</td>
-                        <td class="py-4 px-3 text-center text-gray-300">${league}</td>
+                        <td class="py-4 px-3 text-center text-gray-300">${leagueBadge}</td>
                         <td class="py-4 px-3 text-right text-gray-300">${profit}</td>
                         <td class="py-4 px-3 text-right text-gray-300">${hands}</td>
                     </tr>
@@ -638,6 +831,16 @@
         return index >= 0 ? index + 1 : null;
     },
 
+    getLeagueRankInfo(seasonData, league, playerId, playerName) {
+        if (!seasonData || seasonData.length === 0 || !league || league === '--') {
+            return { rank: null, total: null };
+        }
+        const filtered = seasonData.filter(item => (item['リーグ'] || '').trim() === String(league).trim());
+        const total = filtered.length || null;
+        const rank = this.getSeasonRank(filtered, playerId, playerName);
+        return { rank, total };
+    },
+
     getPromotionBorderRow(seasonData, promotionRank) {
         if (!seasonData || seasonData.length === 0) return null;
         const sorted = this.getSortedByProfit(seasonData);
@@ -660,6 +863,54 @@
             }, 0);
         }
         return this.parseNumber(row['参加節数']);
+    },
+
+    renderLeagueBadgeHtml(league) {
+        const normalized = this.normalizeLeague(league);
+        const label = normalized || '--';
+        let className = 'league-badge';
+        if (normalized === 'A') className += ' league-a';
+        if (normalized === 'B') className += ' league-b';
+        if (normalized === 'C') className += ' league-c';
+        return `<span class="${className}">${this.escapeHtml(label)}</span>`;
+    },
+
+    normalizeLeague(value) {
+        if (!value) return '';
+        const str = String(value).trim();
+        const match = str.match(/[A-Za-z]/);
+        if (match) return match[0].toUpperCase();
+        return str.replace(/\s+/g, '');
+    },
+
+    formatLeagueLabel(league) {
+        if (!league || league === '--') return '--';
+        const str = String(league).trim();
+        if (!str) return '--';
+        if (str.includes('リーグ')) return str;
+        return `${str}リーグ`;
+    },
+
+    getHighestLeague(playerSeasons) {
+        if (!playerSeasons || !playerSeasons.length) return '--';
+        const leagueOrder = ['S', 'A', 'B', 'C', 'D', 'E'];
+        let best = null;
+        let bestRank = Infinity;
+        let fallback = null;
+
+        playerSeasons.forEach(item => {
+            const leagueRaw = item?.row?.['リーグ'] || item?.league || '';
+            const normalized = this.normalizeLeague(leagueRaw);
+            if (!normalized) return;
+            if (!fallback) fallback = normalized;
+            const idx = leagueOrder.indexOf(normalized);
+            if (idx >= 0 && idx < bestRank) {
+                best = normalized;
+                bestRank = idx;
+            }
+        });
+
+        return best || fallback || '--';
     },
 
     formatProfitBB(row) {
@@ -693,10 +944,63 @@
         return withUnit ? `${formatted} hands` : formatted;
     },
 
+    formatShareValue(value) {
+        if (value === null || value === undefined) return '未入力';
+        const str = String(value).trim();
+        if (!str || str === '--') return '未入力';
+        if (str.includes('--')) return '未入力';
+        return str;
+    },
+
+    formatHandText(value) {
+        const count = this.formatCount(value, false);
+        return count === '--' ? '未入力' : `${count}H`;
+    },
+
+    formatSessionsText(value) {
+        const count = this.parseNumber(value);
+        return count ? `${count}節` : '未入力';
+    },
+
+    formatRankText(rank, total) {
+        if (!rank) return '--';
+        if (total) return `${rank}/${total}`;
+        return String(rank);
+    },
+
+    getRequiredHandsInfo(row, rules) {
+        const requiredHands = this.getRuleValue(rules, 'required_hands', 0);
+        const currentHands = this.parseNumber(row?.['ハンド数']);
+        if (!requiredHands || requiredHands <= 0) {
+            return { requiredHands: null, remaining: null, remainingText: '--', progress: 0, achieved: false };
+        }
+        const remaining = Math.max(0, Math.ceil(requiredHands - currentHands));
+        const achieved = currentHands >= requiredHands;
+        const remainingText = achieved ? '達成済' : `残り${remaining.toLocaleString()}hand`;
+        const progress = Math.min(1, currentHands / requiredHands);
+        return { requiredHands, remaining, remainingText, progress, achieved };
+    },
+
     formatBBValue(value) {
         if (value === null || value === undefined || Number.isNaN(value)) return '--';
         const sign = value >= 0 ? '+' : '';
         return `${sign}${Number(value).toFixed(1)} BB`;
+    },
+
+    formatBBGapValue(value) {
+        if (value === null || value === undefined || Number.isNaN(value)) return '--';
+        if (value === Infinity || value === -Infinity) return '∞';
+        const absValue = Math.abs(Number(value));
+        return absValue.toFixed(1);
+    },
+
+    formatBBBuffer(value) {
+        if (value === null || value === undefined || Number.isNaN(value)) return 'Buffer：--';
+        if (value === Infinity) return 'Buffer：+∞';
+        if (value === -Infinity) return 'Buffer：-∞';
+        const sign = value >= 0 ? '+' : '-';
+        const absValue = Math.abs(Number(value));
+        return `Buffer：${sign}${absValue.toFixed(1)} BB`;
     },
 
     formatStatValue(value) {
@@ -767,30 +1071,78 @@
 
         return series;
     },
-    updateShareState({ seasonId, seasonName, row, rank, total, promotionRank, promotionProfit, cumulative }) {
-        const playerName = row['プレイヤー'] || '--';
-        const league = row['リーグ'] || '--';
-        const profitBB = this.formatProfitBB(row);
-        const hands = this.formatCount(row['ハンド数']);
-        const promotionRankText = promotionRank ? `${promotionRank}位` : '--';
-        const promotionProfitText = promotionProfit || '--';
-        const requiredHands = '400h';
+    updateShareState({ seasonId, seasonName, row, rank, total, leagueRank, leagueTotal, seasonData, promotionRank, promotionProfit, cumulativeSummary, rules }) {
+        const playerName = this.formatShareValue(row['プレイヤー'] || '--');
+        const leagueLabel = this.formatShareValue(this.formatLeagueLabel(row['リーグ'] || '--'));
+        const profitBB = this.formatShareValue(this.formatProfitBB(row));
+        const handsText = this.formatHandText(row['ハンド数']);
+        const sessionsText = this.formatSessionsText(this.getSessionCount(row));
+        const rankText = this.formatShareValue(this.formatRankText(rank, total));
+        const leagueRankText = this.formatShareValue(this.formatRankText(leagueRank, leagueTotal));
+        const promotionRankText = promotionRank ? `${promotionRank}位` : '未入力';
+        const promotionProfitText = promotionProfit || '未入力';
+        const requiredHandsValue = this.getRuleValue(rules, 'required_hands', 400);
+        const requiredHands = `${requiredHandsValue}h`;
 
         const seasonUrl = this.buildShareUrl({ seasonId });
         const cumulativeUrl = this.buildShareUrl({ seasonId: null });
 
-        const seasonText = [
-            `【鳳凰戦 ${seasonName}】${playerName}`,
-            `リーグ：${league}`,
-            `順位：${rank || '--'}/${total || '--'}（昇格圏：${promotionRankText} / ${promotionProfitText}）`,
-            `収支：${profitBB} / ハンド数：${hands}（規定数：${requiredHands}）`,
+        const seasonSummaryText = [
+            `【鳳凰戦 ${seasonName} サマリー】${playerName}`,
+            `所属リーグ：${leagueLabel}`,
+            `シーズン順位(全体)：${rankText}`,
+            `シーズン順位(リーグ)：${leagueRankText}`,
+            `収支：${profitBB} / ハンド数：${handsText} / 参加節数：${sessionsText}`,
             seasonUrl,
             '#ポーカー鳳凰戦'
         ].join('\n');
 
-        const cumulativeText = [
-            `【鳳凰戦 累計】${playerName}`,
-            `累計収支：${this.formatBBValue(cumulative.bb)} / 累計ハンド数：${this.formatCount(cumulative.hands)}`,
+        const conditions = this.computeLeagueConditions({ row, seasonData, rank, rules });
+        const leagueConditionsText = [
+            `【鳳凰戦 ${seasonName} リーグ条件】${playerName}`,
+            `昇格：${this.formatShareValue(conditions.promotion)}`,
+            `降格：${this.formatShareValue(conditions.relegation)}`,
+            `規定hand数：${this.formatShareValue(conditions.handsText)}`,
+            seasonUrl,
+            '#ポーカー鳳凰戦'
+        ].join('\n');
+
+        const seasonGraphText = [
+            `【鳳凰戦 ${seasonName} 収支グラフ】${playerName}`,
+            `累計収支：${profitBB} / ハンド数：${handsText}`,
+            seasonUrl,
+            '#ポーカー鳳凰戦'
+        ].join('\n');
+
+        const seasonText = [
+            `【鳳凰戦 ${seasonName}】${playerName}`,
+            `リーグ：${leagueLabel}`,
+            `順位：${rank || '--'}/${total || '--'}（昇格圏：${promotionRankText} / ${promotionProfitText}）`,
+            `収支：${profitBB} / ハンド数：${handsText}（規定数：${requiredHands}）`,
+            seasonUrl,
+            '#ポーカー鳳凰戦'
+        ].join('\n');
+
+        const cumulativeInfo = cumulativeSummary || this.cumulativeSummaryState || { rank: null, total: null, totals: { bb: 0, hands: 0, sessions: 0 }, highestLeague: '--' };
+        const cumulativeRankText = this.formatShareValue(this.formatRankText(cumulativeInfo.rank, cumulativeInfo.total));
+        const cumulativeProfitText = this.formatShareValue(this.formatBBValue(cumulativeInfo.totals.bb));
+        const cumulativeHandsText = this.formatHandText(cumulativeInfo.totals.hands);
+        const cumulativeSessionsText = this.formatSessionsText(cumulativeInfo.totals.sessions);
+        const highestLeagueText = this.formatShareValue(this.formatLeagueLabel(cumulativeInfo.highestLeague));
+
+        const cumulativeSummaryText = [
+            `【鳳凰戦 累計サマリー】${playerName}`,
+            `最高到達リーグ：${highestLeagueText}`,
+            `累計順位：${cumulativeRankText}`,
+            `累計収支：${cumulativeProfitText}`,
+            `累計ハンド数：${cumulativeHandsText} / 累計参加節数：${cumulativeSessionsText}`,
+            cumulativeUrl,
+            '#ポーカー鳳凰戦'
+        ].join('\n');
+
+        const cumulativeGraphText = [
+            `【鳳凰戦 累計グラフ】${playerName}`,
+            `累計収支：${cumulativeProfitText} / 累計ハンド数：${cumulativeHandsText}`,
             cumulativeUrl,
             '#ポーカー鳳凰戦'
         ].join('\n');
@@ -807,24 +1159,43 @@
             url: cumulativeUrl
         });
 
+        const seasonHistoryText = this.buildSeasonHistoryShareText({
+            seasonId,
+            playerName
+        });
+
         this.shareState = {
             seasonId,
             seasonUrl,
             cumulativeUrl,
             seasonText,
-            cumulativeText,
+            seasonSummaryText,
+            leagueConditionsText,
+            seasonGraphText,
             seasonStatsText,
-            cumulativeStatsText
+            cumulativeSummaryText,
+            cumulativeGraphText,
+            cumulativeStatsText,
+            seasonHistoryText
         };
 
-        const seasonX = document.getElementById('share-season-x');
-        const cumulativeX = document.getElementById('share-cumulative-x');
+        const seasonSummaryX = document.getElementById('share-season-summary-x');
+        const leagueConditionsX = document.getElementById('share-league-conditions-x');
+        const seasonGraphX = document.getElementById('share-season-graph-x');
         const seasonStatsX = document.getElementById('share-season-stats-x');
+        const cumulativeSummaryX = document.getElementById('share-cumulative-summary-x');
+        const cumulativeX = document.getElementById('share-cumulative-x');
         const cumulativeStatsX = document.getElementById('share-cumulative-stats-x');
-        if (seasonX) seasonX.href = this.buildXShareUrl(seasonText);
-        if (cumulativeX) cumulativeX.href = this.buildXShareUrl(cumulativeText);
+        const seasonHistoryX = document.getElementById('share-season-history-x');
+
+        if (seasonSummaryX) seasonSummaryX.href = this.buildXShareUrl(seasonSummaryText);
+        if (leagueConditionsX) leagueConditionsX.href = this.buildXShareUrl(leagueConditionsText);
+        if (seasonGraphX) seasonGraphX.href = this.buildXShareUrl(seasonGraphText);
         if (seasonStatsX) seasonStatsX.href = this.buildXShareUrl(seasonStatsText);
+        if (cumulativeSummaryX) cumulativeSummaryX.href = this.buildXShareUrl(cumulativeSummaryText);
+        if (cumulativeX) cumulativeX.href = this.buildXShareUrl(cumulativeGraphText);
         if (cumulativeStatsX) cumulativeStatsX.href = this.buildXShareUrl(cumulativeStatsText);
+        if (seasonHistoryX) seasonHistoryX.href = this.buildXShareUrl(seasonHistoryText);
     },
 
     buildShareUrl({ seasonId }) {
@@ -853,6 +1224,63 @@
         lines.push(url);
         lines.push('#ポーカー鳳凰戦');
         return lines.join('\n');
+    },
+
+    buildSeasonHistoryShareText({ seasonId, playerName }) {
+        const history = (this.playerSeasons || [])
+            .filter(item => !seasonId || item.seasonId < seasonId)
+            .sort((a, b) => b.seasonId - a.seasonId);
+
+        const lines = [`【鳳凰戦 過去シーズン】${playerName}`];
+
+        if (!history.length) {
+            lines.push('過去シーズン：なし');
+            lines.push(this.buildShareUrl({ seasonId: null }));
+            lines.push('#ポーカー鳳凰戦');
+            return lines.join('\n');
+        }
+
+        const display = history.slice(0, 3);
+        display.forEach(item => {
+            const seasonName = this.getSeasonName(item.seasonId);
+            const league = this.formatShareValue(this.formatLeagueLabel(item.row['リーグ'] || '--'));
+            const profit = this.formatShareValue(this.formatProfitBB(item.row));
+            const hands = this.formatHandText(item.row['ハンド数']);
+            lines.push(`${seasonName}：${league} / ${profit} / ${hands}`);
+        });
+
+        if (history.length > display.length) {
+            lines.push(`他${history.length - display.length}シーズン`);
+        }
+
+        lines.push(this.buildShareUrl({ seasonId: null }));
+        lines.push('#ポーカー鳳凰戦');
+        return lines.join('\n');
+    },
+
+    buildImageFilename(nameKey) {
+        const playerName = this.playerSeasons[0]?.row?.['プレイヤー'] || this.playerName || 'player';
+        const seasonLabel = this.getSeasonShortName(this.currentSeasonId ?? this.getCurrentSeasonId());
+        const safePlayer = this.sanitizeFilename(playerName);
+        const safeKey = this.sanitizeFilename(nameKey);
+        const safeSeason = this.sanitizeFilename(seasonLabel || 'season');
+        return `${safeSeason}_${safeKey}_${safePlayer}.png`;
+    },
+
+    sanitizeFilename(value) {
+        return String(value)
+            .replace(/[\\/:*?"<>|]/g, '')
+            .replace(/\s+/g, '_')
+            .trim();
+    },
+
+    downloadDataUrl(dataUrl, filename) {
+        const link = document.createElement('a');
+        link.href = dataUrl;
+        link.download = filename;
+        document.body.appendChild(link);
+        link.click();
+        link.remove();
     },
 
     getSeasonStatsForShare(row) {
@@ -886,33 +1314,113 @@
     },
 
     setupShareButtons() {
-        const seasonCopy = document.getElementById('share-season-copy');
-        const cumulativeCopy = document.getElementById('share-cumulative-copy');
-        const seasonStatsCopy = document.getElementById('share-season-stats-copy');
-        const cumulativeStatsCopy = document.getElementById('share-cumulative-stats-copy');
-        if (seasonCopy) {
-            seasonCopy.addEventListener('click', () => this.copyShareLink('season'));
+        const bindings = [
+            { id: 'share-season-summary-copy', mode: 'seasonSummary' },
+            { id: 'share-league-conditions-copy', mode: 'leagueConditions' },
+            { id: 'share-season-graph-copy', mode: 'seasonGraph' },
+            { id: 'share-season-stats-copy', mode: 'seasonStats' },
+            { id: 'share-cumulative-summary-copy', mode: 'cumulativeSummary' },
+            { id: 'share-cumulative-copy', mode: 'cumulativeGraph' },
+            { id: 'share-cumulative-stats-copy', mode: 'cumulativeStats' },
+            { id: 'share-season-history-copy', mode: 'seasonHistory' }
+        ];
+
+        bindings.forEach(binding => {
+            const button = document.getElementById(binding.id);
+            if (button) {
+                button.addEventListener('click', () => this.copyShareLink(binding.mode));
+            }
+        });
+    },
+
+    setupImageButtons() {
+        const buttons = document.querySelectorAll('[data-image-target]');
+        buttons.forEach(button => {
+            button.addEventListener('click', () => this.downloadCardImage(button));
+        });
+    },
+
+    async downloadCardImage(button) {
+        const targetId = button?.dataset?.imageTarget;
+        const statusId = button?.dataset?.statusTarget;
+        const nameKey = button?.dataset?.imageName || 'card';
+        const statusEl = statusId ? document.getElementById(statusId) : null;
+        const target = targetId ? document.getElementById(targetId) : null;
+
+        if (!target || !window.htmlToImage) {
+            if (statusEl) statusEl.textContent = '画像保存に失敗しました';
+            if (statusEl) {
+                setTimeout(() => {
+                    statusEl.textContent = '';
+                }, 2000);
+            }
+            return;
         }
-        if (cumulativeCopy) {
-            cumulativeCopy.addEventListener('click', () => this.copyShareLink('cumulative'));
+
+        try {
+            if (statusEl) statusEl.textContent = '画像生成中...';
+            const filter = node => {
+                if (node && node.dataset && node.dataset.captureExclude === 'true') {
+                    return false;
+                }
+                return true;
+            };
+            const sourceCanvas = await window.htmlToImage.toCanvas(target, {
+                backgroundColor: '#050505',
+                pixelRatio: 2,
+                filter
+            });
+
+            const outputWidth = 1600;
+            const outputHeight = 900;
+            const outputCanvas = document.createElement('canvas');
+            outputCanvas.width = outputWidth;
+            outputCanvas.height = outputHeight;
+
+            const ctx = outputCanvas.getContext('2d');
+            ctx.fillStyle = '#050505';
+            ctx.fillRect(0, 0, outputWidth, outputHeight);
+
+            const padding = 60;
+            const maxWidth = outputWidth - padding * 2;
+            const maxHeight = outputHeight - padding * 2;
+            const scale = Math.min(maxWidth / sourceCanvas.width, maxHeight / sourceCanvas.height);
+            const drawWidth = sourceCanvas.width * scale;
+            const drawHeight = sourceCanvas.height * scale;
+            const dx = (outputWidth - drawWidth) / 2;
+            const dy = (outputHeight - drawHeight) / 2;
+            ctx.drawImage(sourceCanvas, dx, dy, drawWidth, drawHeight);
+
+            const dataUrl = outputCanvas.toDataURL('image/png');
+            const filename = this.buildImageFilename(nameKey);
+            this.downloadDataUrl(dataUrl, filename);
+
+            if (statusEl) statusEl.textContent = '画像保存しました';
+        } catch (error) {
+            console.error('画像の生成に失敗しました:', error);
+            if (statusEl) statusEl.textContent = '画像保存に失敗しました';
         }
-        if (seasonStatsCopy) {
-            seasonStatsCopy.addEventListener('click', () => this.copyShareLink('seasonStats'));
-        }
-        if (cumulativeStatsCopy) {
-            cumulativeStatsCopy.addEventListener('click', () => this.copyShareLink('cumulativeStats'));
+
+        if (statusEl) {
+            setTimeout(() => {
+                statusEl.textContent = '';
+            }, 2000);
         }
     },
 
     async copyShareLink(mode) {
         if (!this.shareState) return;
         const mapping = {
-            season: { url: this.shareState.seasonUrl, statusId: 'share-season-status' },
-            cumulative: { url: this.shareState.cumulativeUrl, statusId: 'share-cumulative-status' },
+            seasonSummary: { url: this.shareState.seasonUrl, statusId: 'share-season-summary-status' },
+            leagueConditions: { url: this.shareState.seasonUrl, statusId: 'share-league-conditions-status' },
+            seasonGraph: { url: this.shareState.seasonUrl, statusId: 'share-season-graph-status' },
             seasonStats: { url: this.shareState.seasonUrl, statusId: 'share-season-stats-status' },
-            cumulativeStats: { url: this.shareState.cumulativeUrl, statusId: 'share-cumulative-stats-status' }
+            cumulativeSummary: { url: this.shareState.cumulativeUrl, statusId: 'share-cumulative-summary-status' },
+            cumulativeGraph: { url: this.shareState.cumulativeUrl, statusId: 'share-cumulative-status' },
+            cumulativeStats: { url: this.shareState.cumulativeUrl, statusId: 'share-cumulative-stats-status' },
+            seasonHistory: { url: this.shareState.cumulativeUrl, statusId: 'share-season-history-status' }
         };
-        const entry = mapping[mode] || mapping.season;
+        const entry = mapping[mode] || mapping.seasonSummary;
         const statusEl = document.getElementById(entry.statusId);
         try {
             await navigator.clipboard.writeText(entry.url);
@@ -931,8 +1439,8 @@
         const nameEl = document.getElementById('user-name');
         if (nameEl) nameEl.textContent = message;
 
-        const leagueEl = document.getElementById('user-league');
-        if (leagueEl) leagueEl.textContent = '';
+        const badgeEl = document.getElementById('user-league-badge');
+        if (badgeEl) badgeEl.textContent = '';
     },
 
     escapeHtml(str) {

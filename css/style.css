@@ -74,6 +74,55 @@ h1, h2, h3, .font-serif {
     text-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
 }
 
+.season-switcher {
+    color: var(--gold-light);
+    text-shadow: 0 0 8px rgba(212, 175, 55, 0.5), 0 0 18px rgba(212, 175, 55, 0.35);
+}
+
+.season-switcher__button {
+    border: 1px solid rgba(212, 175, 55, 0.5);
+    color: var(--gold-light);
+    padding: 0.2rem 0.75rem;
+    min-width: 36px;
+    text-align: center;
+    background: rgba(212, 175, 55, 0.08);
+    box-shadow: 0 0 12px rgba(212, 175, 55, 0.35);
+}
+
+.season-switcher__icon {
+    border: 1px solid rgba(212, 175, 55, 0.4);
+    color: var(--gold-light);
+    padding: 0.2rem 0.75rem;
+    min-width: 36px;
+    text-align: center;
+    background: rgba(212, 175, 55, 0.06);
+    box-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
+}
+
+.season-switcher__feather {
+    font-size: 1rem;
+    transform: scale(0.65, 1.35);
+}
+
+.season-switcher__feather--left {
+    transform: scale(0.65, 1.35) rotate(-12deg);
+}
+
+.season-switcher__feather--right {
+    transform: scale(-0.65, 1.35) rotate(-12deg);
+}
+
+.season-switcher__label {
+    font-size: 1.15rem;
+    letter-spacing: 0.2em;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(212, 175, 55, 0.6), 0 0 20px rgba(212, 175, 55, 0.35);
+}
+
+.season-switcher__sep {
+    color: rgba(212, 175, 55, 0.8);
+}
+
 .jp-title {
     position: relative;
     padding-bottom: 2rem;
@@ -250,6 +299,77 @@ h1, h2, h3, .font-serif {
 
 .bg-cta-rays {
     background: repeating-conic-gradient(from 0deg at 50% 50%, transparent 0deg, transparent 2deg, rgba(212, 175, 55, 0.1) 2deg, rgba(212, 175, 55, 0.1) 4deg);
+}
+
+/* ============================================
+   Player Hero Banner
+   ============================================ */
+
+.player-hero {
+    position: relative;
+    min-height: 220px;
+    display: flex;
+    align-items: center;
+    background-image: url('/images/houoh_kaimaku.png');
+    background-size: cover;
+    background-position: center;
+    border-top: 1px solid rgba(212, 175, 55, 0.2);
+    border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+    overflow: hidden;
+}
+
+.player-hero__overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.65) 40%, rgba(0, 0, 0, 0.3) 100%);
+}
+
+.player-hero__inner {
+    position: relative;
+    z-index: 1;
+    width: min(1100px, 100%);
+    margin: 0 auto;
+    padding: 32px 24px;
+    color: #fff;
+}
+
+.player-hero__label {
+    display: inline-block;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    padding: 6px 14px;
+    font-size: 10px;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    color: var(--gold-light);
+    background: rgba(0, 0, 0, 0.45);
+    margin-bottom: 16px;
+}
+
+.player-hero__title {
+    font-family: 'Noto Serif JP', serif;
+    font-size: clamp(2rem, 4vw, 3.4rem);
+    font-weight: 900;
+    letter-spacing: 0.2em;
+    margin-bottom: 12px;
+}
+
+.player-hero__desc {
+    max-width: 520px;
+    font-size: 0.95rem;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgba(0, 0, 0, 0.35);
+    padding: 12px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+@media (min-width: 768px) {
+    .player-hero {
+        min-height: 320px;
+    }
+    .player-hero__inner {
+        padding: 48px 40px;
+    }
 }
 
 /* ============================================
