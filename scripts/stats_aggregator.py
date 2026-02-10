@@ -48,6 +48,9 @@ class StatsAggregator:
         # ユニークハンド数の追跡
         self.total_unique_hands: int = 0
         self.unique_hands_by_season: Dict[int, int] = {}
+        # セッション数の追跡（開催回数）
+        self.total_session_count: int = 0
+        self.session_counts_by_season: Dict[int, int] = {}
 
     def discover_sessions(self) -> List[SessionInfo]:
         """
@@ -195,6 +198,22 @@ class StatsAggregator:
 
     def aggregate(self, sessions: List[SessionInfo]) -> None:
         """全セッションを集計"""
+        # 開催回数をカウント（ユニークな日付ごと）
+        unique_dates: set = set()
+        unique_dates_by_season: Dict[int, set] = {}
+
+        for session in sessions:
+            date_str = session.date.strftime("%Y%m%d")
+            unique_dates.add(date_str)
+            if session.season_id:
+                if session.season_id not in unique_dates_by_season:
+                    unique_dates_by_season[session.season_id] = set()
+                unique_dates_by_season[session.season_id].add(date_str)
+
+        self.total_session_count = len(unique_dates)
+        for season_id, dates in unique_dates_by_season.items():
+            self.session_counts_by_season[season_id] = len(dates)
+
         for session in sessions:
             session_stats, unique_hands = self.process_session(session)
 

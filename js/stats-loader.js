@@ -429,13 +429,20 @@ const StatsLoader = {
             totalHands.textContent = sum.toLocaleString();
         }
 
-        // 開催回数（シーズン数として表示）
+        // 開催回数（セッション数）
         const totalSessions = document.getElementById('total-sessions');
         if (totalSessions && this.seasonsConfig) {
-            const activeSeasons = this.seasonsConfig.seasons.filter(
-                s => s.status === 'active'
-            ).length;
-            totalSessions.textContent = activeSeasons || '--';
+            let sessionCount = 0;
+            if (this.currentView === 'all') {
+                // 全期間表示：total_session_count を使用
+                sessionCount = this.seasonsConfig.total_session_count || 0;
+            } else {
+                // シーズン別表示：該当シーズンの session_count を使用
+                const seasonId = parseInt(this.currentView);
+                const season = this.seasonsConfig.seasons.find(s => s.id === seasonId);
+                sessionCount = season?.session_count || 0;
+            }
+            totalSessions.textContent = sessionCount || '--';
         }
     },
 

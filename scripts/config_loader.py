@@ -45,6 +45,31 @@ class ConfigLoader:
             json.dump(data, f, ensure_ascii=False, indent=2)
         self._players_data = data
 
+    def save_seasons(self, data: dict = None) -> None:
+        """seasons.json を保存する"""
+        if data is None:
+            data = self._seasons_data
+        if data is None:
+            return
+        with open(self.seasons_path, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        self._seasons_data = data
+
+    def update_session_counts(self, session_counts: dict, total_count: int) -> None:
+        """
+        シーズンごとのセッション数を更新する
+
+        Args:
+            session_counts: {season_id: count} のマッピング
+            total_count: 全セッション数
+        """
+        seasons_data = self.load_seasons()
+        for season in seasons_data["seasons"]:
+            season_id = season["id"]
+            season["session_count"] = session_counts.get(season_id, 0)
+        seasons_data["total_session_count"] = total_count
+        self.save_seasons(seasons_data)
+
     def get_season_by_date(self, date: datetime) -> Optional[dict]:
         """指定日付が属するシーズンを取得する"""
         seasons_data = self.load_seasons()

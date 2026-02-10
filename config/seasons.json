@@ -8,10 +8,14 @@
       "leagues": {
         "A": [],
         "B": [],
-        "C": ["*"]
+        "C": [
+          "*"
+        ]
       },
-      "status": "active"
+      "status": "active",
+      "session_count": 2
     }
   ],
-  "current_season_id": 1
+  "current_season_id": 1,
+  "total_session_count": 2
 }
