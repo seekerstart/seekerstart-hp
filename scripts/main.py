@@ -124,6 +124,13 @@ def main():
         registry.save()
         print(f"  - {config.players_path}")
 
+        # セッション数（開催回数）を更新
+        config.update_session_counts(
+            aggregator.session_counts_by_season,
+            aggregator.total_session_count
+        )
+        print(f"  - {config.seasons_path} (session counts updated)")
+
     print("\nDone!")
 
 
