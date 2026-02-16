@@ -90,6 +90,22 @@ python scripts/merge_duplicate_players.py
 3. 全ての `aliases` を1つの配列に統合
 4. `players.json` を更新
 
+### weekly_report.py - 週次レポート生成
+
+週ごとの詳細統計を計算してレポートを出力します。
+
+```bash
+python scripts/weekly_report.py
+```
+
+**出力内容:**
+- 週ごとの卓数、参加者数、新規参加者数
+- シーズン累計参加者数
+- 400ハンド以上プレイしたプレイヤー数
+- 直近2回の参加者分析（リピート率、両方参加した人など）
+- シーズン別スタッツランキング（100ハンド以上対象）
+  - VPIP, PFR, 3bet, CB, WTSD, W$SD の上位10名と平均値
+
 ---
 
 ## モジュール
