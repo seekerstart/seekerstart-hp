@@ -5,6 +5,26 @@
       "label": "Season 1",
       "featured": [
         {
+          "name": "スーカンツ",
+          "alias": "ポーカー界の役満",
+          "tag": "配信者",
+          "quote": "1日ひとつだけ強くなりたい",
+          "image": "images/sukantsu.jpg",
+          "achievements": [
+            "GTOWizard アンバサダー",
+            "ポーカールーム実況解説出演",
+            "youtubeチャンネル登録者5000人"
+          ],
+          "social": {
+            "x": "https://x.com/su_kantu",
+            "youtube": "https://www.youtube.com/@%E3%82%B9%E3%83%BC%E3%82%AB%E3%83%B3%E3%83%84",
+            "instagram": null,
+            "tiktok": null,
+            "note": null,
+            "website": null
+          }
+        },
+        {
           "name": "sigma",
           "alias": "シースタ研究員",
           "tag": "著名人",
