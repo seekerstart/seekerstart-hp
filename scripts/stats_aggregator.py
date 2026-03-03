@@ -177,7 +177,12 @@ class StatsAggregator:
             # プレイヤーを登録（raw_player_id も登録してエイリアス追加の機会を与える）
             self.registry.register_player(raw_player_id, player_name)
 
-            session_stats[canonical_id] = stats
+            # 同一セッション内で同じcanonical_idが既に存在する場合はマージ
+            # （プレイヤーがセッション中に表示名を変更した場合に発生）
+            if canonical_id in session_stats:
+                session_stats[canonical_id].merge(stats)
+            else:
+                session_stats[canonical_id] = stats
 
         # Ledgerから収支を取得
         if session.ledger_path and session.ledger_path.exists():
