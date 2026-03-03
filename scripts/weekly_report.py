@@ -238,6 +238,15 @@ def main():
     total_tables = sum(d['table_count'] for d in weekly_data.values())
     print(f"総卓数: {total_tables} 卓")
 
+    # シーズンごとの総ハンド数（延べ）
+    for season_id in sorted(seasons_hands.keys()):
+        if season_id is None:
+            continue
+        season = config.get_season_by_id(season_id)
+        season_name = season['name'] if season else f"シーズン {season_id}"
+        total_hands = sum(seasons_hands[season_id].values())
+        print(f"総ハンド数（{season_name}）: {total_hands:,}")
+
     # === 2. 週次レポート ===
     print("\n" + "=" * 70)
     print("週次レポート")
