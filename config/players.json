@@ -237,6 +237,7 @@
         "F5iP24qWOL",
         "NfjopgdY_L",
         "Oc04ITRF7i",
+        "OcsVCT66P_",
         "SnN6w1bdXE"
       ]
     },
@@ -536,6 +537,7 @@
       "display_name": "カイン",
       "aliases": [
         "HKvsgPDyw6",
+        "IQmWjBAy3z",
         "QK8nAFN9E2",
         "fcHKjLeyz-",
         "urcoVI7Q6p"
@@ -567,6 +569,7 @@
     "afwX5VdcTj": {
       "display_name": "はやと",
       "aliases": [
+        "FVa3nV5RVl",
         "afwX5VdcTj"
       ]
     },
@@ -769,7 +772,8 @@
         "Q0mo0HjOtt",
         "S-FU51xBnT",
         "THqB8MWLad",
-        "X6ROcg9MTK"
+        "X6ROcg9MTK",
+        "9o1jneL_Ei"
       ]
     },
     "vacC8okcYQ": {
@@ -1210,12 +1214,6 @@
         "yEOnuJcBZo"
       ]
     },
-    "9o1jneL_Ei": {
-      "display_name": "Shingo2",
-      "aliases": [
-        "9o1jneL_Ei"
-      ]
-    },
     "WABAdHmLRW": {
       "display_name": "たりくまる",
       "aliases": [
@@ -1615,7 +1613,8 @@
     "Bvxa5VV39S": {
       "display_name": "piro",
       "aliases": [
-        "Bvxa5VV39S"
+        "Bvxa5VV39S",
+        "S7w-gVAZS7"
       ]
     },
     "WCz-o4BU-5": {
@@ -1665,6 +1664,30 @@
       "display_name": "takatobi",
       "aliases": [
         "4GTkR8PieQ"
+      ]
+    },
+    "4WtCZIPG2x": {
+      "display_name": "タナカ",
+      "aliases": [
+        "4WtCZIPG2x"
+      ]
+    },
+    "-qEZ1CRvSu": {
+      "display_name": "miki",
+      "aliases": [
+        "-qEZ1CRvSu"
+      ]
+    },
+    "QWB-qkCzDu": {
+      "display_name": "Testes",
+      "aliases": [
+        "QWB-qkCzDu"
+      ]
+    },
+    "EI0h9NvLRP": {
+      "display_name": "いっせ",
+      "aliases": [
+        "EI0h9NvLRP"
       ]
     }
   },
