@@ -29,7 +29,15 @@ class StatsAggregator:
     """スタッツを集計するクラス"""
 
     CSV_HEADERS = [
-        "player_id", "プレイヤー", "リーグ", "収支", "bb_size", "ハンド数",
+        "player_id", "プレイヤー", "リーグ", "収支", "bb_size", "ハンド数", "参加節数",
+        "VPIP", "VPIP_hands", "PFR", "PFR_hands", "3bet", "3bet_hands",
+        "Fold to 3bet", "Fold to 3bet_hands", "CB", "CB_hands",
+        "WTSD", "WTSD_hands", "W$SD", "W$SD_hands"
+    ]
+
+    SESSION_STATS_HEADERS = [
+        "session_date", "season_id", "player_id", "プレイヤー", "リーグ",
+        "収支", "bb_size", "ハンド数",
         "VPIP", "VPIP_hands", "PFR", "PFR_hands", "3bet", "3bet_hands",
         "Fold to 3bet", "Fold to 3bet_hands", "CB", "CB_hands",
         "WTSD", "WTSD_hands", "W$SD", "W$SD_hands"
@@ -51,6 +59,16 @@ class StatsAggregator:
         # セッション数の追跡（開催回数）
         self.total_session_count: int = 0
         self.session_counts_by_season: Dict[int, int] = {}
+        # 節別スタッツ: date_str -> player_id -> PlayerStats
+        self.stats_by_session: Dict[str, Dict[str, PlayerStats]] = {}
+        # セッション→シーズンIDマッピング: date_str -> season_id
+        self.session_season_map: Dict[str, int] = {}
+        # プレイヤーの参加日セット: player_id -> set of date_str
+        self.player_session_dates: Dict[str, set] = {}
+        # シーズン別の参加日セット: season_id -> player_id -> set of date_str
+        self.player_session_dates_by_season: Dict[int, Dict[str, set]] = {}
+        # シーズン別のセッション日付: season_id -> set of date_str
+        self.session_dates_by_season: Dict[int, set] = {}
 
     def discover_sessions(self) -> List[SessionInfo]:
         """
@@ -221,6 +239,7 @@ class StatsAggregator:
 
         for session in sessions:
             session_stats, unique_hands = self.process_session(session)
+            date_str = session.date.strftime("%Y%m%d")
 
             # ユニークハンド数を加算
             self.total_unique_hands += unique_hands
@@ -228,8 +247,40 @@ class StatsAggregator:
                 if session.season_id not in self.unique_hands_by_season:
                     self.unique_hands_by_season[session.season_id] = 0
                 self.unique_hands_by_season[session.season_id] += unique_hands
+                # セッション日付を記録
+                if session.season_id not in self.session_dates_by_season:
+                    self.session_dates_by_season[session.season_id] = set()
+                self.session_dates_by_season[session.season_id].add(date_str)
+                # セッション→シーズンIDマッピング
+                self.session_season_map[date_str] = session.season_id
 
             for player_id, stats in session_stats.items():
+                # 節別スタッツを蓄積（同日の複数テーブルはマージ）
+                if date_str not in self.stats_by_session:
+                    self.stats_by_session[date_str] = {}
+                if player_id in self.stats_by_session[date_str]:
+                    self.stats_by_session[date_str][player_id].merge(stats)
+                else:
+                    self.stats_by_session[date_str][player_id] = PlayerStats(
+                        player_id=stats.player_id,
+                        display_name=stats.display_name,
+                        league=stats.league,
+                    )
+                    self.stats_by_session[date_str][player_id].merge(stats)
+
+                # プレイヤーの参加日を記録
+                if player_id not in self.player_session_dates:
+                    self.player_session_dates[player_id] = set()
+                self.player_session_dates[player_id].add(date_str)
+
+                # シーズン別の参加日を記録
+                if session.season_id:
+                    if session.season_id not in self.player_session_dates_by_season:
+                        self.player_session_dates_by_season[session.season_id] = {}
+                    if player_id not in self.player_session_dates_by_season[session.season_id]:
+                        self.player_session_dates_by_season[session.season_id][player_id] = set()
+                    self.player_session_dates_by_season[session.season_id][player_id].add(date_str)
+
                 # シーズン別集計
                 if session.season_id:
                     if session.season_id not in self.stats_by_season:
@@ -263,7 +314,8 @@ class StatsAggregator:
             return f"+{net}"
         return str(net)
 
-    def _write_csv(self, stats_dict: Dict[str, PlayerStats], output_path: Path) -> None:
+    def _write_csv(self, stats_dict: Dict[str, PlayerStats], output_path: Path,
+                   session_counts: Optional[Dict[str, int]] = None) -> None:
         """スタッツをCSVに出力"""
         with open(output_path, "w", encoding="utf-8", newline="") as f:
             writer = csv.writer(f)
@@ -277,6 +329,11 @@ class StatsAggregator:
             )
 
             for stats in sorted_stats:
+                # 参加節数を取得
+                player_sessions = 0
+                if session_counts and stats.player_id in session_counts:
+                    player_sessions = session_counts[stats.player_id]
+
                 row = [
                     stats.player_id,
                     stats.display_name,
@@ -284,6 +341,7 @@ class StatsAggregator:
                     self._format_net(stats.net),
                     20,  # bb_size（現時点のデフォルト値）
                     stats.hands,
+                    player_sessions,
                     stats.vpip,
                     stats.vpip_hands,
                     stats.pfr,
@@ -304,7 +362,11 @@ class StatsAggregator:
     def output_all_stats(self) -> Path:
         """全期間スタッツをCSV出力"""
         output_path = self.data_dir / "all_stats.csv"
-        self._write_csv(self.all_stats, output_path)
+        # 全期間の参加節数
+        all_session_counts = {
+            pid: len(dates) for pid, dates in self.player_session_dates.items()
+        }
+        self._write_csv(self.all_stats, output_path, session_counts=all_session_counts)
         if self.verbose:
             print(f"Wrote all_stats.csv with {len(self.all_stats)} players")
         return output_path
@@ -314,11 +376,68 @@ class StatsAggregator:
         output_paths = []
         for season_id, stats_dict in self.stats_by_season.items():
             output_path = self.data_dir / f"season_{season_id}_stats.csv"
-            self._write_csv(stats_dict, output_path)
+            # シーズン別の参加節数
+            season_session_counts = {}
+            if season_id in self.player_session_dates_by_season:
+                season_session_counts = {
+                    pid: len(dates)
+                    for pid, dates in self.player_session_dates_by_season[season_id].items()
+                }
+            self._write_csv(stats_dict, output_path, session_counts=season_session_counts)
             output_paths.append(output_path)
             if self.verbose:
                 print(f"Wrote season_{season_id}_stats.csv with {len(stats_dict)} players")
         return output_paths
+
+    def output_session_stats(self) -> Path:
+        """節ごとの個人成績をCSV出力"""
+        output_path = self.data_dir / "session_stats.csv"
+        with open(output_path, "w", encoding="utf-8", newline="") as f:
+            writer = csv.writer(f)
+            writer.writerow(self.SESSION_STATS_HEADERS)
+
+            for date_str in sorted(self.stats_by_session.keys()):
+                season_id = self.session_season_map.get(date_str, "")
+                players = self.stats_by_session[date_str]
+
+                # ハンド数でソート
+                sorted_players = sorted(
+                    players.values(),
+                    key=lambda s: s.hands,
+                    reverse=True
+                )
+
+                for stats in sorted_players:
+                    row = [
+                        date_str,
+                        season_id,
+                        stats.player_id,
+                        stats.display_name,
+                        stats.league,
+                        self._format_net(stats.net),
+                        20,  # bb_size
+                        stats.hands,
+                        stats.vpip,
+                        stats.vpip_hands,
+                        stats.pfr,
+                        stats.pfr_hands,
+                        stats.three_bet,
+                        stats.three_bet_hands,
+                        stats.fold_to_3bet,
+                        stats.fold_to_3bet_hands,
+                        stats.cb,
+                        stats.cb_hands,
+                        stats.wtsd,
+                        stats.wtsd_hands,
+                        stats.wdsd,
+                        stats.wtsd_count,
+                    ]
+                    writer.writerow(row)
+
+        if self.verbose:
+            total_rows = sum(len(p) for p in self.stats_by_session.values())
+            print(f"Wrote session_stats.csv with {total_rows} rows across {len(self.stats_by_session)} sessions")
+        return output_path
 
 
 if __name__ == "__main__":

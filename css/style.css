@@ -324,3 +324,104 @@ h1, h2, h3, .font-serif {
     border-color: var(--bronze);
     text-shadow: 0 0 8px rgba(205, 127, 50, 0.5);
 }
+
+/* ============================================
+   User Page
+   ============================================ */
+
+/* Stat Horizontal Bar */
+.stat-bar {
+    height: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 9999px;
+    overflow: hidden;
+}
+
+.stat-bar-fill {
+    height: 100%;
+    border-radius: 9999px;
+    background: linear-gradient(90deg, var(--gold), var(--gold-light));
+    transition: width 0.8s ease;
+}
+
+/* Player Rank Badge (user page header) */
+.player-rank-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    font-weight: 900;
+    border-radius: 50%;
+    border: 2px solid var(--gold);
+    color: var(--gold);
+    background: rgba(212, 175, 55, 0.1);
+    font-family: 'Noto Serif JP', serif;
+}
+
+/* Share Buttons */
+.share-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.625rem 1.25rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #d1d1d1;
+    background: rgba(255, 255, 255, 0.05);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    letter-spacing: 0.05em;
+}
+
+.share-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.4);
+    color: #fff;
+}
+
+.share-btn-x {
+    border-color: rgba(255, 255, 255, 0.3);
+    color: #fff;
+}
+
+.share-btn-x:hover {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: #fff;
+}
+
+/* Chart.js Dark Theme Container */
+.chart-container {
+    position: relative;
+    background: rgba(10, 10, 10, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 4px;
+    padding: 1rem;
+}
+
+/* Progress Bar (league conditions) */
+.progress-bar {
+    height: 0.375rem;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 9999px;
+    overflow: hidden;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    border-radius: 9999px;
+    transition: width 0.8s ease;
+}
+
+/* Player name link in ranking table */
+.player-name-link {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.player-name-link:hover {
+    color: var(--gold);
+}

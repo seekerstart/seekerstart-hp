@@ -55,18 +55,25 @@ class ConfigLoader:
             json.dump(data, f, ensure_ascii=False, indent=2)
         self._seasons_data = data
 
-    def update_session_counts(self, session_counts: dict, total_count: int) -> None:
+    def update_session_counts(self, session_counts: dict, total_count: int,
+                              session_dates_by_season: dict = None) -> None:
         """
         シーズンごとのセッション数を更新する
 
         Args:
             session_counts: {season_id: count} のマッピング
             total_count: 全セッション数
+            session_dates_by_season: {season_id: set of date_str} のマッピング
         """
         seasons_data = self.load_seasons()
         for season in seasons_data["seasons"]:
             season_id = season["id"]
             season["session_count"] = session_counts.get(season_id, 0)
+            # session_dates を更新（ソート済みリスト）
+            if session_dates_by_season and season_id in session_dates_by_season:
+                season["session_dates"] = sorted(session_dates_by_season[season_id])
+            elif "session_dates" not in season:
+                season["session_dates"] = []
         seasons_data["total_session_count"] = total_count
         self.save_seasons(seasons_data)
 

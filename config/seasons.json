@@ -13,7 +13,23 @@
         ]
       },
       "status": "active",
-      "session_count": 5
+      "session_count": 5,
+      "session_dates": [
+        "20260202",
+        "20260209",
+        "20260216",
+        "20260223",
+        "20260302"
+      ],
+      "league_rules": {
+        "required_hands": 400,
+        "promotion": {
+          "C_to_B": {
+            "top_percent": 0.4
+          }
+        },
+        "relegation": {}
+      }
     }
   ],
   "current_season_id": 1,
