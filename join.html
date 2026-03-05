@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ja" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>鳳凰戦に参加する | 鳳凰戦HP</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="antialiased">
+
+    <!-- Header (Sticky CTA) -->
+    <header id="nav" class="fixed w-full z-[100] bg-black/90 backdrop-blur-md border-b border-white/5">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-10 py-4 flex justify-between items-center gap-4">
+            <a href="index.html" class="flex items-center gap-3 sm:gap-4 md:gap-5">
+                <div class="bg-white/10 p-1 rounded shrink-0">
+                    <img src="images/SeekerStart_logo.png" alt="Logo" class="h-7 sm:h-8 md:h-9 w-auto" onerror="this.src='https://via.placeholder.com/100x40/111/d4af37?text=SS'">
+                </div>
+                <div class="h-5 sm:h-6 w-[1px] bg-white/20 hidden xs:block"></div>
+                <span class="text-sm sm:text-base md:text-lg lg:text-xl font-serif font-black tracking-[0.15em] sm:tracking-[0.2em] text-white whitespace-nowrap uppercase">
+                    鳳凰戦
+                </span>
+            </a>
+
+            <a data-dm-link target="_blank" rel="noopener" class="border border-gold/40 text-gold px-4 sm:px-6 py-2.5 text-[10px] sm:text-xs font-black tracking-widest nav-button-glow whitespace-nowrap uppercase">
+                Xで参加DMを送る
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section class="relative h-screen flex items-center justify-center overflow-hidden bg-black">
+            <div class="absolute inset-0 z-0">
+                <div class="w-full h-full bg-cover bg-center opacity-25 animate-zoom" style="background-image: url('images/join.png');"></div>
+                <div class="absolute inset-0 bg-gradient-to-b from-black/40 via-black/60 to-black"></div>
+                <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_0%,black_85%)]"></div>
+            </div>
+
+            <div class="container mx-auto px-6 max-w-5xl relative z-10 text-center">
+                <h1 class="text-3xl md:text-5xl lg:text-6xl font-serif font-black text-white tracking-widest reveal">
+                    鳳凰戦に参加する
+                </h1>
+
+            </div>
+        </section>
+
+        <!-- 3 Steps (below hero) -->
+        <section id="steps" class="py-12 md:py-16 bg-[#080808] border-t border-white/5">
+            <div class="container mx-auto px-6 max-w-5xl">
+                <div class="text-center mb-8 reveal">
+                    <div class="text-gold text-[9px] font-bold tracking-[0.5em] uppercase">3 Steps</div>
+                    <h2 class="text-lg md:text-2xl font-serif font-black text-white tracking-widest mt-3">3ステップ案内</h2>
+                </div>
+                <p class="text-gray-400 text-sm md:text-base max-w-2xl mx-auto text-center leading-loose reveal">
+                    参加は無料です。XでDMを送信すると、Discord参加の案内が届きます。<br>
+                    参加までの流れはシンプルな3ステップです。
+                </p>
+                <div class="mt-8 mb-10 flex flex-col sm:flex-row gap-6 justify-center items-center reveal">
+                    <div class="flex flex-col items-center">
+                        <a data-dm-link target="_blank" rel="noopener" class="group relative px-4 py-4 w-64 text-center">
+                            <div class="absolute inset-0 border border-gold/50 group-hover:scale-105 transition duration-500"></div>
+                            <span class="relative z-10 text-gold text-xs font-black tracking-[0.4em] uppercase">Xで参加DMを送る</span>
+                        </a>
+                        <p class="mt-2 text-[11px] text-gold/80 tracking-[0.15em]">
+                            DM送信後、Discordへの案内があります。
+                        </p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
+                    <div class="jp-card p-6 corner-deco reveal">
+                        <div class="text-gold text-[10px] font-black tracking-[0.4em] mb-4">STEP 1</div>
+                        <h3 class="text-white font-serif font-black text-base mb-3 tracking-wider">
+                            Xで「鳳凰戦参加」とDM
+                        </h3>
+                        <p class="text-gray-500 text-xs leading-loose">
+                            DM文はテンプレをそのまま送るだけでOKです。
+                        </p>
+                    </div>
+                    <div class="jp-card p-6 corner-deco reveal delay-100">
+                        <div class="text-gold text-[10px] font-black tracking-[0.4em] mb-4">STEP 2</div>
+                        <h3 class="text-white font-serif font-black text-base mb-3 tracking-wider">
+                            Discordに参加（案内が届きます）
+                        </h3>
+                        <p class="text-gray-500 text-xs leading-loose">
+                            DMで届く案内からDiscordへ。#お知らせを確認してください。
+                        </p>
+                    </div>
+                    <div class="jp-card p-6 corner-deco reveal delay-200">
+                        <div class="text-gold text-[10px] font-black tracking-[0.4em] mb-4">STEP 3</div>
+                        <h3 class="text-white font-serif font-black text-base mb-3 tracking-wider">
+                            Discordの案内から卓に参加
+                        </h3>
+                        <p class="text-gray-500 text-xs leading-loose">
+                            参加案内に従って当日合流。途中参加/遅刻も可能です。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section id="faq" class="py-20 md:py-28 bg-[#080808] border-t border-white/5">
+            <div class="container mx-auto px-6 max-w-3xl">
+                <div class="text-center mb-14 reveal">
+                    <h2 class="jp-title text-2xl md:text-4xl font-serif font-black text-white uppercase tracking-widest" data-sub="Q&A">Q&A</h2>
+                </div>
+                <div class="space-y-6">
+                    <div class="faq-item reveal bg-white/5 border border-white/10 rounded overflow-hidden">
+                        <button class="w-full p-6 md:p-8 flex justify-between items-center text-left focus:outline-none transition-colors hover:bg-white/10" onclick="toggleFaq(this)">
+                            <span class="font-serif font-bold text-white text-sm md:text-base tracking-wider">DMを送った後は？</span>
+                            <i class="fas fa-chevron-down text-gold transition-transform duration-300"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="px-8 pb-8 text-gray-400 text-xs md:text-sm leading-loose">
+                                DM送信後、数日以内にDiscordへの案内があります。そのままお待ちください。
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item reveal bg-white/5 border border-white/10 rounded overflow-hidden delay-100">
+                        <button class="w-full p-6 md:p-8 flex justify-between items-center text-left focus:outline-none transition-colors hover:bg-white/10" onclick="toggleFaq(this)">
+                            <span class="font-serif font-bold text-white text-sm md:text-base tracking-wider">Discordはどこ？</span>
+                            <i class="fas fa-chevron-down text-gold transition-transform duration-300"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="px-8 pb-8 text-gray-400 text-xs md:text-sm leading-loose">
+                                DiscordはXのDMから招待リンクを送付させて頂きます。まずは、XからDMをお願い致します。
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item reveal bg-white/5 border border-white/10 rounded overflow-hidden delay-200">
+                        <button class="w-full p-6 md:p-8 flex justify-between items-center text-left focus:outline-none transition-colors hover:bg-white/10" onclick="toggleFaq(this)">
+                            <span class="font-serif font-bold text-white text-sm md:text-base tracking-wider">途中参加/遅刻は？</span>
+                            <i class="fas fa-chevron-down text-gold transition-transform duration-300"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="px-8 pb-8 text-gray-400 text-xs md:text-sm leading-loose">
+                                可能です。鳳凰戦開催中の参加、一時退室などは自由に行うことが可能です。
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final CTA -->
+        <section id="cta" class="py-24 md:py-32 bg-black text-center relative overflow-hidden">
+            <div class="absolute inset-0 pointer-events-none opacity-20 bg-cta-rays"></div>
+            <div class="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_center,black_30%,transparent_100%)]"></div>
+            <div class="container mx-auto px-6 relative z-10 reveal">
+                <h2 class="text-2xl md:text-4xl font-serif font-black text-white mb-8 tracking-[0.2em] leading-tight">
+                    今すぐ参加DMを送ろう
+                </h2>
+                <a data-dm-link target="_blank" rel="noopener" class="inline-block group relative">
+                    <div class="absolute inset-0 bg-gold translate-x-1 translate-y-1 group-hover:translate-x-0 group-hover:translate-y-0 transition duration-300"></div>
+                    <div class="relative bg-white text-black px-12 md:px-16 py-4 md:py-5 font-black tracking-[0.4em] text-xs md:text-sm border border-black uppercase">
+                        Xで参加DMを送る
+                    </div>
+                </a>
+                <p class="text-[10px] text-gray-500 mt-6 tracking-widest">
+                    DM送信後、Discordへの案内があります。
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#050505] py-12 border-t border-white/5">
+        <div class="container mx-auto px-6 text-center">
+            <div class="flex items-center justify-center gap-4 mb-6">
+                <img src="images/SeekerStart_logo.png" alt="Logo" class="h-6 w-auto" onerror="this.src='https://via.placeholder.com/80x30/111/d4af37?text=Logo'">
+                <span class="text-base font-serif font-black tracking-[0.2em] text-white">鳳凰戦</span>
+            </div>
+            <p class="text-gray-600 text-[10px] mb-6">
+                Seeker Start・鳳凰戦 公式サイト
+            </p>
+            <div class="text-[9px] text-gray-700 font-bold uppercase tracking-[0.4em]">
+                ﾂｩ 2026 POKER HOUOU LEAGUE. ALL RIGHTS RESERVED.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        (function () {
+            const REF_PATTERN = /^[A-Za-z0-9_-]{1,32}$/;
+            const joinBase = '/join';
+            const joinRefPrefix = '/join/r/';
+
+            const search = new URLSearchParams(window.location.search);
+            if (search.has('ref')) {
+                const ref = (search.get('ref') || '').trim();
+                if (REF_PATTERN.test(ref)) {
+                    window.location.replace(joinRefPrefix + ref);
+                    return;
+                }
+                window.location.replace(joinBase);
+                return;
+            }
+
+            let path = window.location.pathname;
+            if (path.length > 1) {
+                path = path.replace(/\/+$/, '');
+            }
+            if (path.startsWith(joinRefPrefix)) {
+                const ref = path.slice(joinRefPrefix.length);
+                if (!REF_PATTERN.test(ref)) {
+                    window.location.replace(joinBase);
+                    return;
+                }
+                window.JOIN_REF = ref;
+            } else {
+                window.JOIN_REF = null;
+            }
+
+            const DM_TEXT = '鳳凰戦参加';
+            const X_PROFILE_URL = 'https://x.com/seekerstart';
+            const X_RECIPIENT_ID = '';
+            const dmLink = X_RECIPIENT_ID
+                ? `https://x.com/messages/compose?recipient_id=${encodeURIComponent(X_RECIPIENT_ID)}&text=${encodeURIComponent(DM_TEXT)}`
+                : X_PROFILE_URL;
+
+            document.querySelectorAll('[data-dm-link]').forEach((el) => {
+                el.setAttribute('href', dmLink);
+            });
+
+            function toggleFaq(button) {
+                const item = button.parentElement;
+                if (!item) return;
+                item.classList.toggle('open');
+            }
+            window.toggleFaq = toggleFaq;
+
+            const observerOptions = { threshold: 0.12, rootMargin: '0px' };
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                    }
+                });
+            }, observerOptions);
+            document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+        })();
+    </script>
+</body>
+</html>
