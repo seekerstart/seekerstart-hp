@@ -602,6 +602,20 @@ const UserLoader = {
     },
 
     /**
+     * dataURL を同期的に Blob に変換する（ユーザージェスチャー連鎖を維持）
+     */
+    dataURLtoBlob(dataURL) {
+        const parts = dataURL.split(',');
+        const mime = parts[0].match(/:(.*?);/)[1];
+        const binary = atob(parts[1]);
+        const array = new Uint8Array(binary.length);
+        for (let i = 0; i < binary.length; i++) {
+            array[i] = binary.charCodeAt(i);
+        }
+        return new Blob([array], { type: mime });
+    },
+
+    /**
      * チャート画像をXで共有するボタンのセットアップ
      */
     setupChartShare(player) {
@@ -612,7 +626,7 @@ const UserLoader = {
         const newBtn = btn.cloneNode(true);
         btn.parentNode.replaceChild(newBtn, btn);
 
-        newBtn.addEventListener('click', async () => {
+        newBtn.addEventListener('click', () => {
             if (!this.chartInstance) return;
 
             const name = player['プレイヤー'];
@@ -626,36 +640,44 @@ const UserLoader = {
             const shareText = `${name} のポーカー鳳凰戦 成績推移\n順位: ${rank || '--'}位 | 累計収支: ${sign}${profitBB.toFixed(1)} BB`;
             const shareUrl = window.location.href;
 
-            // canvasから画像を生成してBlobに変換
-            const canvas = document.getElementById('weekly-chart');
-            try {
-                const blob = await new Promise(resolve => canvas.toBlob(resolve, 'image/png'));
+            // canvasから同期的に画像を生成（ユーザージェスチャー連鎖を切らない）
+            // ダーク背景を敷いたオフスクリーンcanvasに合成して書き出す
+            const chartCanvas = document.getElementById('weekly-chart');
+            const exportCanvas = document.createElement('canvas');
+            exportCanvas.width = chartCanvas.width;
+            exportCanvas.height = chartCanvas.height;
+            const exportCtx = exportCanvas.getContext('2d');
+            // ダーク背景を描画
+            exportCtx.fillStyle = '#0a0a0a';
+            exportCtx.fillRect(0, 0, exportCanvas.width, exportCanvas.height);
+            // チャートを上に描画
+            exportCtx.drawImage(chartCanvas, 0, 0);
+            const dataURL = exportCanvas.toDataURL('image/png');
+            const blob = this.dataURLtoBlob(dataURL);
+            const file = new File([blob], 'houou_chart.png', { type: 'image/png' });
 
-                // Web Share API（画像付き）が使えるか確認
-                if (navigator.canShare && navigator.canShare({ files: [new File([blob], 'chart.png', { type: 'image/png' })] })) {
-                    const file = new File([blob], 'houou_chart.png', { type: 'image/png' });
-                    await navigator.share({
-                        text: shareText + '\n' + shareUrl,
-                        files: [file],
-                    });
-                } else {
-                    // Web Share API非対応: 画像をダウンロードしてXの投稿画面を開く
-                    const link = document.createElement('a');
-                    link.download = `houou_${name}_chart.png`;
-                    link.href = canvas.toDataURL('image/png');
-                    link.click();
+            // Web Share API（画像付き）が使えるか確認
+            if (navigator.canShare && navigator.canShare({ files: [file] })) {
+                // iOS Safari / Android: ネイティブ共有シートが開く
+                // → X アプリを選択すると画像付きで投稿画面が開く
+                navigator.share({
+                    text: shareText + '\n' + shareUrl,
+                    files: [file],
+                }).catch(() => {
+                    // ユーザーが共有をキャンセルした場合は何もしない
+                });
+            } else {
+                // PC等: 画像をダウンロードしてXの投稿画面を開く
+                const link = document.createElement('a');
+                link.download = `houou_${name}_chart.png`;
+                link.href = dataURL;
+                link.click();
 
-                    // 少し待ってからX投稿画面を開く
-                    setTimeout(() => {
-                        const tweetText = shareText + '\n（画像を添付してください）';
-                        const twitterUrl = `https://x.com/intent/tweet?text=${encodeURIComponent(tweetText)}&url=${encodeURIComponent(shareUrl)}`;
-                        window.open(twitterUrl, '_blank', 'width=550,height=420');
-                    }, 500);
-                }
-            } catch (e) {
-                // フォールバック: テキストのみでX共有
-                const twitterUrl = `https://x.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}`;
-                window.open(twitterUrl, '_blank', 'width=550,height=420');
+                setTimeout(() => {
+                    const tweetText = shareText + '\n（ダウンロードした画像を添付してください）';
+                    const twitterUrl = `https://x.com/intent/tweet?text=${encodeURIComponent(tweetText)}&url=${encodeURIComponent(shareUrl)}`;
+                    window.open(twitterUrl, '_blank', 'width=550,height=420');
+                }, 500);
             }
         });
     },
