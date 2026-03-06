@@ -374,6 +374,9 @@ const UserLoader = {
                         borderWidth: 1,
                         borderRadius: 3,
                         order: 2,
+                        // 凡例は黄色の四角で統一表示
+                        legendBackgroundColor: 'rgba(212, 175, 55, 0.6)',
+                        legendBorderColor: 'rgba(212, 175, 55, 1)',
                     },
                     {
                         label: '累計収支 (BB)',
@@ -415,7 +418,42 @@ const UserLoader = {
                 },
                 plugins: {
                     legend: {
-                        labels: { color: '#9ca3af', font: { size: 11 } }
+                        labels: {
+                            color: '#9ca3af',
+                            font: { size: 11 },
+                            usePointStyle: true,
+                            generateLabels: function(chart) {
+                                const datasets = chart.data.datasets;
+                                return datasets.map((ds, i) => {
+                                    if (ds.type === 'line') {
+                                        // 累計収支: 黄色の短い直線
+                                        return {
+                                            text: ds.label,
+                                            fontColor: '#9ca3af',
+                                            fillStyle: 'transparent',
+                                            strokeStyle: ds.borderColor,
+                                            lineWidth: ds.borderWidth,
+                                            lineDash: [],
+                                            hidden: !chart.isDatasetVisible(i),
+                                            datasetIndex: i,
+                                            pointStyle: 'line',
+                                        };
+                                    } else {
+                                        // 節ごと収支: 黄色の四角
+                                        return {
+                                            text: ds.label,
+                                            fontColor: '#9ca3af',
+                                            fillStyle: 'rgba(212, 175, 55, 0.6)',
+                                            strokeStyle: 'rgba(212, 175, 55, 1)',
+                                            lineWidth: 1,
+                                            hidden: !chart.isDatasetVisible(i),
+                                            datasetIndex: i,
+                                            pointStyle: 'rect',
+                                        };
+                                    }
+                                });
+                            },
+                        },
                     },
                     tooltip: {
                         backgroundColor: 'rgba(0,0,0,0.9)',
