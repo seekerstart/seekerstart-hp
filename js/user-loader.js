@@ -69,6 +69,7 @@ const UserLoader = {
             this.renderPokerStats(player);
             this.renderLeagueConditions(player);
             this.setupShareButtons(player);
+            this.setupChartShare(player);
 
         } catch (error) {
             console.error('ユーザーデータの読み込みに失敗しました:', error);
@@ -279,6 +280,7 @@ const UserLoader = {
         this.renderWeeklyChart();
         this.renderPokerStats(player);
         this.renderLeagueConditions(player);
+        this.setupChartShare(player);
     },
 
     /**
@@ -384,7 +386,7 @@ const UserLoader = {
                         pointBorderColor: '#000',
                         pointBorderWidth: 1,
                         pointRadius: 4,
-                        tension: 0.3,
+                        tension: 0,
                         fill: true,
                         order: 1,
                     }
@@ -392,8 +394,7 @@ const UserLoader = {
             },
             options: {
                 responsive: true,
-                maintainAspectRatio: true,
-                aspectRatio: 2,
+                maintainAspectRatio: false,
                 interaction: {
                     intersect: false,
                     mode: 'index',
@@ -444,19 +445,19 @@ const UserLoader = {
         const container = document.getElementById('poker-stats-bars');
 
         const stats = [
-            { name: 'VPIP', value: player['VPIP'], hands: player['VPIP_hands'], max: 60 },
-            { name: 'PFR', value: player['PFR'], hands: player['PFR_hands'], max: 40 },
-            { name: '3bet', value: player['3bet'], hands: player['3bet_hands'], max: 20 },
-            { name: 'Fold to 3bet', value: player['Fold to 3bet'], hands: player['Fold to 3bet_hands'], max: 100 },
-            { name: 'CB', value: player['CB'], hands: player['CB_hands'], max: 100 },
-            { name: 'WTSD', value: player['WTSD'], hands: player['WTSD_hands'], max: 60 },
-            { name: 'W$SD', value: player['W$SD'], hands: player['W$SD_hands'], max: 100 },
+            { name: 'VPIP', value: player['VPIP'], hands: player['VPIP_hands'] },
+            { name: 'PFR', value: player['PFR'], hands: player['PFR_hands'] },
+            { name: '3bet', value: player['3bet'], hands: player['3bet_hands'] },
+            { name: 'Fold to 3bet', value: player['Fold to 3bet'], hands: player['Fold to 3bet_hands'] },
+            { name: 'CB', value: player['CB'], hands: player['CB_hands'] },
+            { name: 'WTSD', value: player['WTSD'], hands: player['WTSD_hands'] },
+            { name: 'W$SD', value: player['W$SD'], hands: player['W$SD_hands'] },
         ];
 
         let html = '';
         stats.forEach(stat => {
             const val = parseFloat(stat.value) || 0;
-            const width = Math.min((val / stat.max) * 100, 100);
+            const width = Math.min(val, 100);
             const hands = stat.hands || '0';
 
             html += `
@@ -569,8 +570,9 @@ const UserLoader = {
         const chipsNum = parseInt(profitChips.replace(/[+,]/g, '')) || 0;
         const profitBB = chipsNum / bbSize;
         const sign = chipsNum >= 0 ? '+' : '';
+        const rank = this.getPlayerRank(this.currentSeasonId);
 
-        const shareText = `${name} のポーカー鳳凰戦 戦績\n収支: ${sign}${profitBB.toFixed(1)} BB | ハンド数: ${player['ハンド数']}`;
+        const shareText = `${name} のポーカー鳳凰戦 戦績\n順位: ${rank || '--'}位 | 収支: ${sign}${profitBB.toFixed(1)} BB | ハンド数: ${player['ハンド数']}`;
         const shareUrl = window.location.href;
 
         // X共有
@@ -595,6 +597,65 @@ const UserLoader = {
                 input.select();
                 document.execCommand('copy');
                 document.body.removeChild(input);
+            }
+        });
+    },
+
+    /**
+     * チャート画像をXで共有するボタンのセットアップ
+     */
+    setupChartShare(player) {
+        const btn = document.getElementById('share-chart-x');
+        if (!btn) return;
+
+        // 既存リスナーを除去するためにcloneで置換
+        const newBtn = btn.cloneNode(true);
+        btn.parentNode.replaceChild(newBtn, btn);
+
+        newBtn.addEventListener('click', async () => {
+            if (!this.chartInstance) return;
+
+            const name = player['プレイヤー'];
+            const rank = this.getPlayerRank(this.currentSeasonId);
+            const profitChips = player['収支'] || '0';
+            const bbSize = parseInt(player['bb_size']) || 20;
+            const chipsNum = parseInt(profitChips.replace(/[+,]/g, '')) || 0;
+            const profitBB = chipsNum / bbSize;
+            const sign = chipsNum >= 0 ? '+' : '';
+
+            const shareText = `${name} のポーカー鳳凰戦 成績推移\n順位: ${rank || '--'}位 | 累計収支: ${sign}${profitBB.toFixed(1)} BB`;
+            const shareUrl = window.location.href;
+
+            // canvasから画像を生成してBlobに変換
+            const canvas = document.getElementById('weekly-chart');
+            try {
+                const blob = await new Promise(resolve => canvas.toBlob(resolve, 'image/png'));
+
+                // Web Share API（画像付き）が使えるか確認
+                if (navigator.canShare && navigator.canShare({ files: [new File([blob], 'chart.png', { type: 'image/png' })] })) {
+                    const file = new File([blob], 'houou_chart.png', { type: 'image/png' });
+                    await navigator.share({
+                        text: shareText + '\n' + shareUrl,
+                        files: [file],
+                    });
+                } else {
+                    // Web Share API非対応: 画像をダウンロードしてXの投稿画面を開く
+                    const link = document.createElement('a');
+                    link.download = `houou_${name}_chart.png`;
+                    link.href = canvas.toDataURL('image/png');
+                    link.click();
+
+                    // 少し待ってからX投稿画面を開く
+                    setTimeout(() => {
+                        const tweetText = shareText + '\n（画像を添付してください）';
+                        const twitterUrl = `https://x.com/intent/tweet?text=${encodeURIComponent(tweetText)}&url=${encodeURIComponent(shareUrl)}`;
+                        window.open(twitterUrl, '_blank', 'width=550,height=420');
+                    }, 500);
+                }
+            } catch (e) {
+                // フォールバック: テキストのみでX共有
+                const twitterUrl = `https://x.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}`;
+                window.open(twitterUrl, '_blank', 'width=550,height=420');
             }
         });
     },
