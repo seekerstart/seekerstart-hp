@@ -317,7 +317,7 @@ def main():
     print("シーズン別スタッツランキング（100ハンド以上対象）")
     print("=" * 70)
 
-    stat_columns = ['VPIP', 'PFR', '3bet', 'CB', 'WTSD', 'W$SD']
+    stat_columns = ['VPIP', 'PFR', '3bet', 'Fold to 3bet', 'CB', 'WTSD', 'W$SD']
 
     for season_id in sorted(seasons_cumulative.keys()):
         if season_id is None:
