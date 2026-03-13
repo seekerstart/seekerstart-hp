@@ -120,16 +120,21 @@ def main():
         for path in season_paths:
             print(f"  - {path}")
 
+        # 節ごとの個人成績を出力
+        session_stats_path = aggregator.output_session_stats()
+        print(f"  - {session_stats_path}")
+
         # プレイヤー登録情報を保存
         registry.save()
         print(f"  - {config.players_path}")
 
-        # セッション数（開催回数）を更新
+        # セッション数（開催回数）を更新（session_dates も含む）
         config.update_session_counts(
             aggregator.session_counts_by_season,
-            aggregator.total_session_count
+            aggregator.total_session_count,
+            session_dates_by_season=aggregator.session_dates_by_season
         )
-        print(f"  - {config.seasons_path} (session counts updated)")
+        print(f"  - {config.seasons_path} (session counts & dates updated)")
 
     print("\nDone!")
 

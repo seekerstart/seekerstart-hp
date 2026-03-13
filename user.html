@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ja" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プレイヤー戦績 | ポーカー鳳凰戦</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="antialiased">
+
+    <!-- Header -->
+    <header id="nav" class="fixed w-full z-[100] bg-black/90 backdrop-blur-md border-b border-white/5">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-10 py-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center gap-3 sm:gap-4 md:gap-5">
+                <div class="bg-white/10 p-1 rounded shrink-0">
+                    <img src="images/SeekerStart_logo.png" alt="Logo" class="h-7 sm:h-8 md:h-9 w-auto" onerror="this.src='https://via.placeholder.com/100x40/111/d4af37?text=SS'">
+                </div>
+                <div class="h-5 sm:h-6 w-[1px] bg-white/20 hidden xs:block"></div>
+                <span class="text-sm sm:text-base md:text-lg lg:text-xl font-serif font-black tracking-[0.15em] sm:tracking-[0.2em] text-white whitespace-nowrap uppercase">
+                    ポーカー鳳凰戦
+                </span>
+            </a>
+            <a href="season_stats.html" class="border border-gold/40 text-gold px-5 md:px-6 py-2.5 text-xs font-black tracking-widest nav-button-glow whitespace-nowrap uppercase">
+                ランキングへ戻る
+            </a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="pt-28 pb-24 min-h-screen">
+        <div class="container mx-auto px-6 max-w-4xl">
+
+            <!-- Player Header -->
+            <div id="player-header" class="mb-10">
+                <!-- Populated by JS -->
+                <div class="py-12 text-center text-gray-500">
+                    <i class="fas fa-spinner fa-spin text-2xl mb-4 block text-gold/50"></i>
+                    データを読み込んでいます...
+                </div>
+            </div>
+
+            <!-- Season Tabs -->
+            <div id="user-season-tabs" class="mb-8 hidden">
+                <div class="flex flex-wrap gap-2"></div>
+            </div>
+
+            <!-- Season Summary Cards -->
+            <div id="season-summary" class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10 hidden">
+                <div class="bg-white/5 p-5 border border-white/10 rounded text-center">
+                    <div id="summary-rank" class="text-gold text-2xl font-serif font-black mb-1">--</div>
+                    <div class="text-gray-500 text-[10px] uppercase tracking-widest">順位</div>
+                </div>
+                <div class="bg-white/5 p-5 border border-white/10 rounded text-center">
+                    <div id="summary-profit" class="text-2xl font-serif font-black mb-1">--</div>
+                    <div class="text-gray-500 text-[10px] uppercase tracking-widest">収支 (BB)</div>
+                </div>
+                <div class="bg-white/5 p-5 border border-white/10 rounded text-center">
+                    <div id="summary-hands" class="text-gold text-2xl font-serif font-black mb-1">--</div>
+                    <div class="text-gray-500 text-[10px] uppercase tracking-widest">ハンド数</div>
+                </div>
+                <div class="bg-white/5 p-5 border border-white/10 rounded text-center">
+                    <div id="summary-sessions" class="text-gold text-2xl font-serif font-black mb-1">--</div>
+                    <div class="text-gray-500 text-[10px] uppercase tracking-widest">参加節数</div>
+                </div>
+            </div>
+
+            <!-- Weekly Chart -->
+            <div id="weekly-chart-section" class="mb-10 hidden">
+                <div class="jp-card p-6 md:p-8 corner-deco">
+                    <div class="flex items-center justify-between mb-6">
+                        <div class="flex items-center gap-3">
+                            <i class="fas fa-chart-line text-gold text-lg"></i>
+                            <h2 class="text-lg font-serif font-bold text-white">節ごとの成績推移</h2>
+                        </div>
+                        <button id="share-chart-x" class="share-btn share-btn-x text-[11px] py-1.5 px-3">
+                            <i class="fab fa-x-twitter"></i> Xで共有
+                        </button>
+                    </div>
+                    <div class="chart-container" style="height: 350px; min-height: 300px;">
+                        <canvas id="weekly-chart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Poker Stats -->
+            <div id="poker-stats-section" class="mb-10 hidden">
+                <div class="jp-card p-6 md:p-8 corner-deco">
+                    <div class="flex items-center gap-3 mb-6">
+                        <i class="fas fa-chart-bar text-gold text-lg"></i>
+                        <h2 class="text-lg font-serif font-bold text-white">ポーカースタッツ</h2>
+                    </div>
+                    <div id="poker-stats-bars" class="space-y-5">
+                        <!-- Populated by JS -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- League Conditions -->
+            <div id="league-conditions-section" class="mb-10 hidden">
+                <div class="jp-card p-6 md:p-8 corner-deco">
+                    <div class="flex items-center gap-3 mb-6">
+                        <i class="fas fa-trophy text-gold text-lg"></i>
+                        <h2 class="text-lg font-serif font-bold text-white">リーグ条件</h2>
+                    </div>
+                    <div id="league-conditions-content">
+                        <!-- Populated by JS -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Share -->
+            <div id="share-section" class="hidden">
+                <div class="flex flex-wrap gap-3 justify-center">
+                    <button id="share-x" class="share-btn share-btn-x">
+                        <i class="fab fa-x-twitter"></i> Xで共有
+                    </button>
+                    <button id="share-url" class="share-btn">
+                        <i class="fas fa-link"></i> URLをコピー
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#050505] py-12 border-t border-white/5">
+        <div class="container mx-auto px-6 text-center">
+            <div class="flex items-center justify-center gap-4 mb-6">
+                <img src="images/SeekerStart_logo.png" alt="Logo" class="h-6 w-auto" onerror="this.src='https://via.placeholder.com/80x30/111/d4af37?text=Logo'">
+                <span class="text-base font-serif font-black tracking-[0.2em] text-white">ポーカー鳳凰戦</span>
+            </div>
+            <p class="text-gray-600 text-[10px] mb-6">
+                運営主体：Seeker Start（ポーカー学習コミュニティ）
+            </p>
+            <div class="text-[9px] text-gray-700 font-bold uppercase tracking-[0.4em]">
+                &copy; 2026 POKER HOUOU LEAGUE. ALL RIGHTS RESERVED.
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/user-loader.js"></script>
+</body>
+</html>
