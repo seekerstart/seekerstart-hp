@@ -3,6 +3,7 @@
     {
       "source": "/:path(.*)",
       "has": [{ "type": "host", "value": "seekerstart-hp.vercel.app" }],
+      "missing": [{ "type": "header", "key": "x-forwarded-host" }],
       "destination": "https://www.seekerstart.com/houou/:path",
       "permanent": true
     }
