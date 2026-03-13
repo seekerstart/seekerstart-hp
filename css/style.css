@@ -234,10 +234,6 @@ h1, h2, h3, .font-serif {
 }
 
 /* Background Patterns */
-.bg-hero {
-    background-image: url('/images/houoh_kaimaku.png');
-}
-
 .bg-dots-gold {
     background-image: radial-gradient(#d4af37 1px, transparent 0);
     background-size: 40px 40px;
