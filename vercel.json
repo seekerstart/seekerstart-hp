@@ -1,0 +1,10 @@
+{
+  "redirects": [
+    {
+      "source": "/:path(.*)",
+      "has": [{ "type": "host", "value": "seekerstart-hp.vercel.app" }],
+      "destination": "https://www.seekerstart.com/houou/:path",
+      "permanent": true
+    }
+  ]
+}
