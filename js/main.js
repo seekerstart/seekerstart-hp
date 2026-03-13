@@ -1,15 +1,3 @@
-// Scroll Management (Header shrink)
-window.addEventListener('scroll', () => {
-    const nav = document.getElementById('nav');
-    if (window.scrollY > 100) {
-        nav.classList.add('bg-black/90', 'backdrop-blur-md', 'border-b', 'border-white/5', 'py-3');
-        nav.classList.remove('py-5');
-    } else {
-        nav.classList.remove('bg-black/90', 'backdrop-blur-md', 'border-b', 'border-white/5', 'py-3');
-        nav.classList.add('py-5');
-    }
-});
-
 // Intersection Observer for Reveal Animations
 const observerOptions = {
     threshold: 0.1,
@@ -58,29 +46,6 @@ function createFeather() {
 
 // Start feather animation loop
 setInterval(createFeather, 2000); // 生成頻度を少し上げる
-
-// Mobile Menu Toggle Logic
-const menuToggle = document.getElementById('menu-toggle');
-const menuClose = document.getElementById('menu-close');
-const mobileMenu = document.getElementById('mobile-menu');
-
-menuToggle.addEventListener('click', () => {
-    mobileMenu.classList.add('open');
-    document.body.style.overflow = 'hidden';
-});
-
-menuClose.addEventListener('click', () => {
-    mobileMenu.classList.remove('open');
-    document.body.style.overflow = '';
-});
-
-// Close menu on link click
-mobileMenu.querySelectorAll('a').forEach(link => {
-    link.addEventListener('click', () => {
-        mobileMenu.classList.remove('open');
-        document.body.style.overflow = '';
-    });
-});
 
 // FAQ Toggle Logic
 function toggleFaq(button) {
