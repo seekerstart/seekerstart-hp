@@ -1,2 +1,11 @@
 {
+  "headers": [
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "seekerstart-hp.vercel.app" }],
+      "headers": [
+        { "key": "X-Robots-Tag", "value": "noindex, nofollow" }
+      ]
+    }
+  ]
 }
