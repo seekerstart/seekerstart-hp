@@ -539,6 +539,7 @@
         "HKvsgPDyw6",
         "IQmWjBAy3z",
         "QK8nAFN9E2",
+        "SWAxv0e77m",
         "fcHKjLeyz-",
         "urcoVI7Q6p"
       ]
@@ -769,11 +770,11 @@
     "Q0mo0HjOtt": {
       "display_name": "Shingo",
       "aliases": [
+        "9o1jneL_Ei",
         "Q0mo0HjOtt",
         "S-FU51xBnT",
         "THqB8MWLad",
-        "X6ROcg9MTK",
-        "9o1jneL_Ei"
+        "X6ROcg9MTK"
       ]
     },
     "vacC8okcYQ": {
@@ -820,7 +821,8 @@
       "display_name": "NABO",
       "aliases": [
         "0c3gLD4eiE",
-        "HJCe0qCFpd"
+        "HJCe0qCFpd",
+        "Wak6kXNI-F"
       ]
     },
     "CsHt4-HRYF": {
@@ -867,7 +869,8 @@
       "aliases": [
         "-R7k1ogPyi",
         "BRDCChrSqf",
-        "CETSUom4mb"
+        "CETSUom4mb",
+        "LHwO8ZCjMj"
       ]
     },
     "Sc5KlYAPzP": {
@@ -1299,7 +1302,8 @@
     "SrJdWlcNBY": {
       "display_name": "RYOTA",
       "aliases": [
-        "SrJdWlcNBY"
+        "SrJdWlcNBY",
+        "vrcil_Rw-o"
       ]
     },
     "2GlUDrVHSg": {
@@ -1337,6 +1341,7 @@
       "display_name": "揚げもち",
       "aliases": [
         "3liBhfdN10",
+        "A1Lle4BZq2",
         "W-RKDO9y97"
       ]
     },
@@ -1426,6 +1431,7 @@
       "display_name": "Mazzo",
       "aliases": [
         "5s6_8QwAyE",
+        "VXlXQYiJUo",
         "sYruTEJ8Uw"
       ]
     },
@@ -1551,6 +1557,7 @@
     "mXg0a8r7as": {
       "display_name": "Fuku",
       "aliases": [
+        "4Yga_zmdmi",
         "mXg0a8r7as"
       ]
     },
@@ -1626,6 +1633,7 @@
     "ZzPjBrJeSm": {
       "display_name": "roi",
       "aliases": [
+        "5WrLc1IxEE",
         "ZzPjBrJeSm",
         "nipvI-vlJZ"
       ]
@@ -1781,6 +1789,16 @@
       "old_id": "JFCbqD6UJB",
       "new_id": "M4pyIQvfB9",
       "display_name": "すとふぁ"
+    },
+    {
+      "old_id": "IQmWjBAy3z",
+      "new_id": "SWAxv0e77m",
+      "display_name": "カイン"
+    },
+    {
+      "old_id": "A1Lle4BZq2",
+      "new_id": "3liBhfdN10",
+      "display_name": "揚げもち"
     }
   ]
 }
