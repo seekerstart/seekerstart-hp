@@ -13,14 +13,15 @@
         ]
       },
       "status": "active",
-      "session_count": 6,
+      "session_count": 7,
       "session_dates": [
         "20260202",
         "20260209",
         "20260216",
         "20260223",
         "20260302",
-        "20260309"
+        "20260309",
+        "20260316"
       ],
       "league_rules": {
         "required_hands": 400,
@@ -34,5 +35,5 @@
     }
   ],
   "current_season_id": 1,
-  "total_session_count": 6
+  "total_session_count": 7
 }
