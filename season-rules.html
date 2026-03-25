@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>シーズン制度一覧 | ポーカー鳳凰戦</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="canonical" href="https://www.seekerstart.com/houou/season-rules.html">
+    <meta name="description" content="ポーカー鳳凰戦の各シーズン制度をまとめた一覧ページです。現在シーズンの昇格・降格条件と、制度アーカイブへアクセスできます。">
+    <script>if(location.hostname==='seekerstart-hp.vercel.app')location.replace('https://www.seekerstart.com/houou/'+location.pathname.slice(1)+location.search+location.hash);</script>
+</head>
+<body class="antialiased" data-page-mode="season-rules-index">
+
+    <div id="site-header"></div>
+
+    <main class="pt-32 pb-24 min-h-screen">
+        <div class="container mx-auto px-6 max-w-6xl">
+            <section class="text-center mb-14 md:mb-16">
+                <div class="inline-block px-4 py-1 border border-gold/30 mb-6">
+                    <span class="text-gold text-[9px] font-bold tracking-[0.5em] uppercase">Season Rules</span>
+                </div>
+                <h1 class="text-3xl md:text-5xl font-serif font-black text-white mb-6 tracking-widest">
+                    シーズン制度<span class="gold-gradient">一覧</span>
+                </h1>
+                <p class="text-sm text-gray-400 max-w-3xl mx-auto leading-loose">
+                    各シーズンの昇格・降格・認定条件をまとめた公式ガイドです。
+                    今シーズンの制度を最優先で確認でき、過去シーズンの制度ページもアーカイブとして積み上げていきます。
+                </p>
+            </section>
+
+            <section class="mb-16">
+                <div id="season-rules-current"></div>
+            </section>
+
+            <section class="mb-16">
+                <div class="jp-card p-6 md:p-8 corner-deco">
+                    <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+                        <div>
+                            <div class="text-[10px] font-black tracking-[0.45em] uppercase text-gold/60 mb-3">Live Data</div>
+                            <h2 class="text-2xl font-serif font-black text-white mb-3">ランキングページとあわせて確認</h2>
+                            <p class="text-sm text-gray-400 leading-loose max-w-2xl">
+                                制度ページはルールの原本、ランキングページはシーズンの実績確認用です。
+                                昇格ラインや認定条件を把握したうえで、現在の順位やスタッツを確認できます。
+                            </p>
+                        </div>
+                        <a href="season_stats.html" class="inline-flex items-center justify-center gap-3 border border-gold/40 px-6 py-3 text-xs font-black tracking-[0.3em] uppercase text-gold hover:text-white hover:border-gold transition-all duration-300">
+                            ランキングを見る <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="flex items-center justify-between gap-4 mb-6">
+                    <div>
+                        <div class="text-[10px] font-black tracking-[0.45em] uppercase text-white/35 mb-2">Archive</div>
+                        <h2 class="text-2xl md:text-3xl font-serif font-black text-white">制度アーカイブ</h2>
+                    </div>
+                    <div class="text-[10px] font-black tracking-[0.35em] uppercase text-gray-500">Season by Season</div>
+                </div>
+                <div id="season-rules-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-5"></div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="bg-[#050505] py-12 border-t border-white/5">
+        <div class="container mx-auto px-6 text-center">
+            <div class="flex items-center justify-center gap-4 mb-6">
+                <img src="images/SeekerStart_logo.png" alt="Logo" class="h-6 w-auto" onerror="this.src='https://via.placeholder.com/80x30/111/d4af37?text=Logo'">
+                <span class="text-base font-serif font-black tracking-[0.2em] text-white">ポーカー鳳凰戦</span>
+            </div>
+            <p class="text-gray-600 text-[10px] mb-6">
+                Seeker Start 運営による公式シーズン制度ページ
+            </p>
+            <div class="text-[9px] text-gray-700 font-bold uppercase tracking-[0.4em]">
+                &copy; 2026 POKER HOUOU LEAGUE. ALL RIGHTS RESERVED.
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/header.js"></script>
+    <script src="js/season-rules.js"></script>
+</body>
+</html>

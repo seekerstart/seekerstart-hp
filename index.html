@@ -116,17 +116,19 @@
                 
                 <div class="bg-white/5 p-6 border-l-4 border-white/20 rounded-r-sm flex flex-col justify-center">
                     <h4 class="text-white font-serif font-black text-lg mb-3 flex items-center gap-3">
-                        <i class="fas fa-trophy text-gold text-sm"></i> 昇格条件
+                        <i class="fas fa-book-open text-gold text-sm"></i> シーズン制度ページ
                     </h4>
-                    <div class="space-y-3">
-                        <div class="flex justify-between items-center border-b border-white/5 pb-2">
-                            <span class="text-xs text-gray-500 font-bold">上位 40%</span>
-                            <span class="text-gold font-black text-xs tracking-widest uppercase">Bリーグへ昇格</span>
-                        </div>
-                        <div class="flex justify-between items-center border-b border-white/5 pb-2">
-                            <span class="text-xs text-gray-500 font-bold">下位 60%</span>
-                            <span class="text-white/40 font-black text-xs tracking-widest uppercase">Cリーグ継続</span>
-                        </div>
+                    <p class="text-sm text-gray-400 leading-loose mb-5">
+                        昇格・降格・認定条件はシーズンごとに更新されます。
+                        最新制度と過去シーズンの条件差分は、専用の制度ページで確認できます。
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-3">
+                        <a href="season-rules-s1.html" class="inline-flex items-center justify-center gap-2 border border-gold/40 px-4 py-3 text-[11px] font-black tracking-[0.2em] uppercase text-gold hover:text-white hover:border-gold transition-all duration-300">
+                            今季の制度を見る <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="season-rules.html" class="inline-flex items-center justify-center gap-2 border border-white/10 px-4 py-3 text-[11px] font-black tracking-[0.2em] uppercase text-white/80 hover:text-white hover:border-white/40 transition-all duration-300">
+                            制度一覧へ
+                        </a>
                     </div>
                 </div>
             </div>
@@ -404,17 +406,26 @@
 
             <!-- Certification Section -->
             <div class="mt-16 reveal bg-gradient-to-r from-transparent via-white/5 to-transparent p-8 text-center border-y border-white/5 delay-300">
-                <h4 class="text-white font-serif font-bold text-sm mb-4 tracking-widest text-gold uppercase italic">リーグ認定基準</h4>
+                <h4 class="text-white font-serif font-bold text-sm mb-4 tracking-widest text-gold uppercase italic">制度確認ガイド</h4>
                 <div class="max-w-3xl mx-auto space-y-4">
                     <p class="text-xs md:text-sm text-gray-300 leading-loose">
-                        各プレイヤーはシーズン中に <span class="text-white font-bold border-b border-gold/50">400ハンド以上の対戦</span> が義務付けられます。
+                        参加要件、昇格・降格条件、公式記録の認定基準は
+                        <span class="text-white font-bold border-b border-gold/50">シーズンごとに定義された制度ページ</span>
+                        を正本として案内します。
                     </p>
-                    <div class="bg-red-950/20 border border-red-900/30 p-4 inline-block">
-                        <p class="text-[11px] text-red-400 leading-relaxed">
-                            <i class="fas fa-exclamation-circle mr-2"></i>
-                            ハンド数が400に満たない場合、そのシーズンの公式記録は認められず、<br class="hidden md:block">
-                            <span class="text-white font-bold underline underline-offset-4 decoration-red-900">次シーズンの所属ランクは「1ランク降格」となります。</span>
+                    <div class="bg-white/5 border border-white/10 p-4 inline-block">
+                        <p class="text-[11px] text-gray-400 leading-relaxed">
+                            <i class="fas fa-circle-info mr-2 text-gold"></i>
+                            今シーズンの条件確認は個別ページから、全体の見取り図は制度一覧ページから確認できます。
                         </p>
+                    </div>
+                    <div class="flex flex-col sm:flex-row justify-center gap-3 pt-2">
+                        <a href="season-rules-s1.html" class="inline-flex items-center justify-center gap-2 border border-gold/40 px-5 py-3 text-[11px] font-black tracking-[0.2em] uppercase text-gold hover:text-white hover:border-gold transition-all duration-300">
+                            今季の制度ページ <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="season-rules.html" class="inline-flex items-center justify-center gap-2 border border-white/10 px-5 py-3 text-[11px] font-black tracking-[0.2em] uppercase text-white/80 hover:text-white hover:border-white/40 transition-all duration-300">
+                            制度一覧を見る
+                        </a>
                     </div>
                 </div>
             </div>

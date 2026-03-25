@@ -3,6 +3,7 @@
     const NAV_ITEMS = [
         { label: 'トップ', href: 'index.html' },
         { label: 'ランキング', href: 'season_stats.html' },
+        { label: 'シーズン制度', href: 'season-rules.html' },
         { label: '注目選手', href: 'pickup.html' },
         { label: '協賛一覧', href: 'sponsor.html' },
     ];
