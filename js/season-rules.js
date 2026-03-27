@@ -112,6 +112,44 @@
         return `<a href="${escapeHtml(href)}" class="${baseClass}">${content}</a>`;
     }
 
+    function renderSeasonSwitchButton(options) {
+        const {
+            label,
+            title,
+            description,
+            href,
+            iconClass,
+            muted
+        } = options;
+
+        const content = `
+            <div class="flex items-center justify-between gap-4">
+                <div class="min-w-0">
+                    <div class="text-[10px] font-black tracking-[0.35em] uppercase text-gold/60 mb-2">${escapeHtml(label)}</div>
+                    <div class="text-xl md:text-2xl font-serif font-black text-white mb-2">${escapeHtml(title)}</div>
+                    <p class="text-sm text-gray-400 leading-loose">${escapeHtml(description)}</p>
+                </div>
+                <div class="w-12 h-12 md:w-14 md:h-14 shrink-0 rounded-full border border-white/10 bg-white/5 flex items-center justify-center text-gold">
+                    <i class="${escapeHtml(iconClass)}"></i>
+                </div>
+            </div>
+        `;
+
+        const baseClass = muted
+            ? 'block jp-card p-6 md:p-7 corner-deco opacity-55'
+            : 'group block jp-card p-6 md:p-7 corner-deco hover:border-gold/40 transition-all duration-300';
+
+        if (muted || !href) {
+            return `<div class="${baseClass}">${content}</div>`;
+        }
+
+        return `
+            <a href="${escapeHtml(href)}" class="${baseClass}">
+                ${content}
+            </a>
+        `;
+    }
+
     function renderScheduleTable(page) {
         const schedule = Array.isArray(page.schedule) ? page.schedule : [];
 
@@ -152,6 +190,42 @@
         `;
     }
 
+    function renderSponsorshipSection(page) {
+        const sponsorship = page.sponsorship;
+
+        if (!sponsorship || !sponsorship.image) {
+            return `
+                <div class="jp-card p-5 md:p-6 corner-deco">
+                    <p class="text-sm text-gray-400 leading-loose">本シーズンへの協賛はありません。</p>
+                </div>
+            `;
+        }
+
+        const imageMarkup = imageTag(
+            sponsorship.image,
+            sponsorship.alt || `${page.title} の協賛画像`,
+            'w-full h-auto object-contain transition duration-500 group-hover:scale-[1.01]'
+        );
+
+        if (!sponsorship.href) {
+            return `
+                <figure class="jp-card p-4 md:p-6 corner-deco">
+                    <div class="overflow-hidden rounded-sm border border-white/10 bg-black">
+                        ${imageMarkup}
+                    </div>
+                </figure>
+            `;
+        }
+
+        return `
+            <a href="${escapeHtml(sponsorship.href)}" class="group block jp-card p-4 md:p-6 corner-deco hover:border-gold/40 transition-all duration-300">
+                <div class="overflow-hidden rounded-sm border border-white/10 bg-black">
+                    ${imageMarkup}
+                </div>
+            </a>
+        `;
+    }
+
     function renderCurrentFeature(page, isCurrent) {
         return `
             <article class="relative overflow-hidden rounded-sm border border-gold/30 bg-black">
@@ -171,7 +245,7 @@
                         <p class="text-sm md:text-base text-gray-300 leading-loose mb-8">${escapeHtml(page.summary)}</p>
                         <div class="flex flex-col sm:flex-row gap-4">
                             <a href="${detailUrl(page.slug)}" class="inline-flex items-center justify-center gap-3 border border-gold/40 px-6 py-3 text-xs font-black tracking-[0.3em] uppercase text-gold hover:text-white hover:border-gold transition-all duration-300">
-                                制度詳細を見る <i class="fas fa-arrow-right"></i>
+                                シーズン条件を見る <i class="fas fa-arrow-right"></i>
                             </a>
                             <a href="${escapeHtml(page.stats_link || 'season_stats.html')}" class="inline-flex items-center justify-center gap-3 border border-white/10 px-6 py-3 text-xs font-black tracking-[0.25em] uppercase text-white/80 hover:text-white hover:border-white/40 transition-all duration-300">
                                 ランキングを見る <i class="fas fa-chart-line"></i>
@@ -223,7 +297,7 @@
                         </div>
                         <p class="text-xs text-gray-400 leading-relaxed">${escapeHtml(page.summary)}</p>
                         <div class="pt-1 flex items-center justify-between text-[11px] font-black tracking-[0.2em] uppercase text-gold">
-                            <span>詳細を見る</span>
+                            <span>条件を見る</span>
                             <i class="fas fa-arrow-right transition-transform duration-300 group-hover:translate-x-1"></i>
                         </div>
                     </div>
@@ -240,7 +314,7 @@
         const pageIndex = pages.findIndex((item) => item.slug === slug);
         const page = pageIndex >= 0 ? pages[pageIndex] : null;
         if (!page) {
-            target.innerHTML = errorMarkup('指定されたシーズン制度ページが見つかりませんでした。');
+            target.innerHTML = errorMarkup('指定されたシーズン条件ページが見つかりませんでした。');
             return;
         }
 
@@ -272,6 +346,9 @@
             : errorMarkup('補足ルールの記載はまだありません。');
         const promotionHeading = page.promotion_heading || '昇格条件';
         const relegationHeading = page.relegation_heading || '降格条件';
+        const descriptionMarkup = page.description
+            ? `<p>${textToHtml(page.description)}</p>`
+            : '';
 
         target.innerHTML = `
             <section class="mb-12 md:mb-16">
@@ -291,7 +368,7 @@
                             <p class="text-sm md:text-base text-gray-300 leading-loose mb-8">${escapeHtml(page.summary)}</p>
                             <div class="flex flex-col sm:flex-row gap-4">
                                 <a href="season-rules.html" class="inline-flex items-center justify-center gap-3 border border-white/10 px-6 py-3 text-xs font-black tracking-[0.25em] uppercase text-white/80 hover:text-white hover:border-white/40 transition-all duration-300">
-                                    制度一覧へ戻る <i class="fas fa-layer-group"></i>
+                                    シーズン条件一覧へ戻る <i class="fas fa-layer-group"></i>
                                 </a>
                                 <a href="${escapeHtml(page.stats_link || 'season_stats.html')}" class="inline-flex items-center justify-center gap-3 border border-gold/40 px-6 py-3 text-xs font-black tracking-[0.25em] uppercase text-gold hover:text-white hover:border-gold transition-all duration-300">
                                     ランキングを見る <i class="fas fa-chart-line"></i>
@@ -310,7 +387,7 @@
                     </div>
                     <div class="space-y-5 text-sm md:text-base text-gray-300 leading-loose">
                         <p>${textToHtml(page.overview || page.summary)}</p>
-                        <p>${textToHtml(page.description)}</p>
+                        ${descriptionMarkup}
                     </div>
                 </div>
             </section>
@@ -366,37 +443,54 @@
                 ${renderScheduleTable(page)}
             </section>
 
+            <section class="mb-12 md:mb-16">
+                <div class="flex items-center gap-3 mb-6">
+                    <i class="fas fa-handshake text-gold"></i>
+                    <h2 class="text-lg md:text-xl font-serif font-bold text-white">協賛内容</h2>
+                </div>
+                ${renderSponsorshipSection(page)}
+            </section>
+
+            <section class="mb-12 md:mb-16">
+                <div class="flex items-center gap-3 mb-6">
+                    <i class="fas fa-arrow-right-arrow-left text-gold"></i>
+                    <h2 class="text-lg md:text-xl font-serif font-bold text-white">season切り替え</h2>
+                </div>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+                    ${renderSeasonSwitchButton({
+                        label: 'Prev Season',
+                        title: previousSeasonPage ? previousSeasonPage.season_label : '前シーズンなし',
+                        description: previousSeasonPage
+                            ? `${previousSeasonPage.season_label} のシーズン条件へ移動します。`
+                            : 'このページより前のシーズン条件ページはありません。',
+                        href: previousSeasonPage ? detailUrl(previousSeasonPage.slug) : null,
+                        iconClass: 'fas fa-arrow-left',
+                        muted: !previousSeasonPage
+                    })}
+                    ${renderSeasonSwitchButton({
+                        label: 'Next Season',
+                        title: nextSeasonPage ? nextSeasonPage.season_label : '次シーズンなし',
+                        description: nextSeasonPage
+                            ? `${nextSeasonPage.season_label} のシーズン条件へ移動します。`
+                            : 'このページより次のシーズン条件ページはありません。',
+                        href: nextSeasonPage ? detailUrl(nextSeasonPage.slug) : null,
+                        iconClass: 'fas fa-arrow-right',
+                        muted: !nextSeasonPage
+                    })}
+                </div>
+            </section>
+
             <section>
                 <div class="jp-card p-6 md:p-8 corner-deco">
                     <div class="flex items-center gap-3 mb-6">
                         <i class="fas fa-link text-gold"></i>
                         <h2 class="text-lg font-serif font-bold text-white">関連リンク</h2>
                     </div>
-                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-                        ${renderRelatedLinkCard({
-                            eyebrow: 'Prev',
-                            title: previousSeasonPage ? '前シーズンガイド' : '前シーズンなし',
-                            description: previousSeasonPage
-                                ? `${previousSeasonPage.season_label} の制度ガイドへ移動します。`
-                                : 'このページより前のシーズンガイドはありません。',
-                            href: previousSeasonPage ? detailUrl(previousSeasonPage.slug) : null,
-                            iconClass: 'fas fa-arrow-left',
-                            muted: !previousSeasonPage
-                        })}
-                        ${renderRelatedLinkCard({
-                            eyebrow: 'Next',
-                            title: nextSeasonPage ? '次シーズンガイド' : '次シーズンなし',
-                            description: nextSeasonPage
-                                ? `${nextSeasonPage.season_label} の制度ガイドへ移動します。`
-                                : 'このページより次のシーズンガイドはありません。',
-                            href: nextSeasonPage ? detailUrl(nextSeasonPage.slug) : null,
-                            iconClass: 'fas fa-arrow-right',
-                            muted: !nextSeasonPage
-                        })}
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                         ${renderRelatedLinkCard({
                             eyebrow: 'Hub',
-                            title: '制度一覧ページ',
-                            description: '全シーズンの制度ページと現在シーズンの導線をまとめて確認できます。',
+                            title: 'シーズン条件一覧',
+                            description: '全シーズンの条件ページと現在シーズンの導線をまとめて確認できます。',
                             href: 'season-rules.html',
                             iconClass: 'fas fa-layer-group'
                         })}

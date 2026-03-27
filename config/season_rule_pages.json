@@ -4,29 +4,29 @@
     {
       "slug": "s2",
       "season_label": "Season 02",
-      "title": "シーズン2制度ガイド",
-      "description": "ポーカー鳳凰戦シーズン2の仮条件ページです。昇格・降格・認定条件の表示イメージを確認できます。",
+      "title": "シーズン2条件",
+      "description": "",
       "period_label": "2026.04.13 - 2026.06.01",
       "hero_image": "images/jopt_season1.jpg",
-      "thumbnail_image": "images/jopt_season1.jpg",
-      "summary": "シーズン2の仮データです。規定ハンド数は400ハンドを維持し、Bリーグは上下25%、Cリーグは上位40%を基準にリーグ変更を行う想定です。",
-      "overview": "シーズン2では、規定ハンド数400ハンドを維持したまま、各リーグの昇格・降格条件をより明確に設定します。\nBリーグは上位・下位それぞれ25%をリーグ変更対象とし、上位6名はAリーグ昇格圏となります。\nCリーグは上位40%をリーグ変更対象とし、次シーズンのBリーグ昇格を目指す構造です。\nシーズン1よりも、各リーグで「どこを目指せばよいか」が分かりやすい制度へ整理したシーズンです。",
+      "thumbnail_image": "images/season2-guide.png",
+      "summary": "規定ハンド数は400ハンドを維持し、Bリーグは上下25%、Cリーグは上位40%を基準にリーグ変更を行う想定です。",
+      "overview": "シーズン2では、規定ハンド数400ハンドを維持したまま、各リーグの昇格・降格条件をより明確に設定します。\nBリーグは上位・下位それぞれ25%をリーグ変更対象とし、Aリーグ昇格とCリーグ降格の判定を行います。\nCリーグは上位40%をリーグ変更対象とし、次シーズンのBリーグ昇格を目指す構造です。\nシーズン1よりも、各リーグで「どこを目指せばよいか」が分かりやすい制度へ整理したシーズンです。",
       "promotion_heading": "昇格条件（B・Cリーグ）",
       "relegation_heading": "降格条件（Bリーグ）",
       "promotion_blocks": [
         {
           "title": "BリーグからAリーグへ昇格",
-          "accent": "上位25% / 上位6名がAリーグへ昇格"
+          "accent": "上位25% / Aリーグへ昇格"
         },
         {
           "title": "CリーグからBリーグへ昇格",
-          "accent": "上位40% / 想定22名がBリーグへ昇格"
+          "accent": "上位40% / Bリーグへ昇格"
         }
       ],
       "relegation_blocks": [
         {
           "title": "Bリーグ下位帯の扱い",
-          "accent": "下位25% / 下位6名がリーグ変更対象"
+          "accent": "下位25% / Cリーグへ降格"
         }
       ],
       "extra_rules": [
@@ -45,15 +45,15 @@
         { "week_label": "第7週", "date_label": "2026/05/25", "time_label": "20:00 - 23:00" },
         { "week_label": "第8週", "date_label": "2026/06/01", "time_label": "20:00 - 23:00" }
       ],
-      "diagram_image": "images/jopt_season1.jpg",
-      "diagram_caption": "シーズン2制度の仮プレビュー",
+      "diagram_image": "images/season2-guide.png",
+      "diagram_caption": "",
       "stats_link": "season_stats.html"
     },
     {
       "slug": "s1",
       "season_label": "Season 01",
-      "title": "シーズン1制度ガイド",
-      "description": "ポーカー鳳凰戦シーズン1の昇格・降格・認定条件をまとめた制度ガイドです。",
+      "title": "シーズン1条件",
+      "description": "ポーカー鳳凰戦シーズン1の昇格・降格・認定条件をまとめたページです。",
       "period_label": "2026.02.02 - 2026.03.30",
       "hero_image": "images/houoh_season.png",
       "thumbnail_image": "images/houoh_season.png",
@@ -90,6 +90,11 @@
       ],
       "diagram_image": "images/houoh_season.png",
       "diagram_caption": "シーズン1のリーグ制度イメージ",
+      "sponsorship": {
+        "image": "images/jopt_season1.jpg",
+        "alt": "JOPT協賛決定 鳳凰戦 Season 1 Cリーグ賞品",
+        "href": "sponsor.html"
+      },
       "stats_link": "season_stats.html"
     }
   ]
