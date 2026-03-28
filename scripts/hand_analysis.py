@@ -389,6 +389,13 @@ def calculate_fold_to_three_bet(histories: list, player: str):
         waiting_for_hero_action = False
 
         for actor, act in all_actions:
+            # 3bet後、4bet前に自分にアクションが回ってきた場合
+            if waiting_for_hero_action and actor == player:
+                hands += 1
+                if "folds" in act:
+                    fold_to_three_bet += 1
+                break  # このハンドの処理は終了
+
             if "raises" in act:
                 raise_count += 1
                 if raise_count == 2:
@@ -397,13 +404,6 @@ def calculate_fold_to_three_bet(histories: list, player: str):
                 elif raise_count >= 3:
                     # 4bet以上が発生、3betに対するアクション機会は終了
                     waiting_for_hero_action = False
-
-            # 3bet後、4bet前に自分にアクションが回ってきた場合
-            if waiting_for_hero_action and actor == player:
-                hands += 1
-                if "folds" in act:
-                    fold_to_three_bet += 1
-                break  # このハンドの処理は終了
 
     if hands == 0:
         return 0, 0, 0
