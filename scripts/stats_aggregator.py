@@ -308,6 +308,14 @@ class StatsAggregator:
                     )
                     self.all_stats[player_id].merge(stats)
 
+    def _update_all_stats_league(self) -> None:
+        """全期間スタッツのリーグを最新シーズンの情報で更新する"""
+        current_season = self.config.get_current_season()
+        if not current_season:
+            return
+        for player_id, stats in self.all_stats.items():
+            stats.league = self.config.get_player_league(player_id, current_season)
+
     def _format_net(self, net: int) -> str:
         """収支をフォーマット（+/-付き）"""
         if net > 0:
@@ -362,6 +370,8 @@ class StatsAggregator:
     def output_all_stats(self) -> Path:
         """全期間スタッツをCSV出力"""
         output_path = self.data_dir / "all_stats.csv"
+        # リーグを最新シーズンの情報で更新
+        self._update_all_stats_league()
         # 全期間の参加節数
         all_session_counts = {
             pid: len(dates) for pid, dates in self.player_session_dates.items()
@@ -440,6 +450,72 @@ class StatsAggregator:
         return output_path
 
 
+    def output_league_stats(self) -> List[Path]:
+        """シーズン別・リーグ別スタッツをCSV出力（収支順にランク付き）"""
+        output_paths = []
+        league_headers = ["順位"] + self.CSV_HEADERS
+
+        for season_id, stats_dict in self.stats_by_season.items():
+            # リーグごとにグルーピング
+            league_groups: Dict[str, List[PlayerStats]] = {}
+            for player_id, stats in stats_dict.items():
+                league = stats.league
+                if league not in league_groups:
+                    league_groups[league] = []
+                league_groups[league].append(stats)
+
+            # シーズン別の参加節数
+            season_session_counts = {}
+            if season_id in self.player_session_dates_by_season:
+                season_session_counts = {
+                    pid: len(dates)
+                    for pid, dates in self.player_session_dates_by_season[season_id].items()
+                }
+
+            for league_name, players in league_groups.items():
+                # 収支降順でソート
+                sorted_players = sorted(players, key=lambda s: s.net, reverse=True)
+
+                output_path = self.data_dir / f"season_{season_id}_{league_name}_stats.csv"
+                with open(output_path, "w", encoding="utf-8", newline="") as f:
+                    writer = csv.writer(f)
+                    writer.writerow(league_headers)
+
+                    for rank, stats in enumerate(sorted_players, start=1):
+                        player_sessions = season_session_counts.get(stats.player_id, 0)
+                        row = [
+                            rank,
+                            stats.player_id,
+                            stats.display_name,
+                            stats.league,
+                            self._format_net(stats.net),
+                            20,  # bb_size
+                            stats.hands,
+                            player_sessions,
+                            stats.vpip,
+                            stats.vpip_hands,
+                            stats.pfr,
+                            stats.pfr_hands,
+                            stats.three_bet,
+                            stats.three_bet_hands,
+                            stats.fold_to_3bet,
+                            stats.fold_to_3bet_hands,
+                            stats.cb,
+                            stats.cb_hands,
+                            stats.wtsd,
+                            stats.wtsd_hands,
+                            stats.wdsd,
+                            stats.wtsd_count,
+                        ]
+                        writer.writerow(row)
+
+                output_paths.append(output_path)
+                if self.verbose:
+                    print(f"Wrote season_{season_id}_{league_name}_stats.csv with {len(sorted_players)} players")
+
+        return output_paths
+
+
 if __name__ == "__main__":
     # テスト用
     config = ConfigLoader()
@@ -453,4 +529,6 @@ if __name__ == "__main__":
         aggregator.aggregate(sessions)
         aggregator.output_all_stats()
         aggregator.output_season_stats()
+        aggregator.output_league_stats()
+        aggregator.output_session_stats()
         registry.save()

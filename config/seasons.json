@@ -12,7 +12,7 @@
           "*"
         ]
       },
-      "status": "active",
+      "status": "completed",
       "session_count": 9,
       "session_dates": [
         "20260202",
@@ -34,8 +34,67 @@
         },
         "relegation": {}
       }
+    },
+    {
+      "id": 2,
+      "name": "シーズン 2",
+      "start_date": "2026-04-01",
+      "end_date": "2026-05-31",
+      "leagues": {
+        "A": [],
+        "B": [
+          "yokMVzYG_q",
+          "WeOKnoOueQ",
+          "vVo9VdBVBm",
+          "yEOnuJcBZo",
+          "DXrWVNkdav",
+          "byYrvu0Qdy",
+          "DZezvMNAJy",
+          "-R7k1ogPyi",
+          "Xa_1dhYEV4",
+          "b7sgMo_M-5",
+          "m6qcHTxJhX",
+          "-qEZ1CRvSu",
+          "EI0h9NvLRP",
+          "g0yui9LXM4",
+          "D0RgrTLvZk",
+          "nPiUhQEVMi",
+          "kVKTrcl3ld",
+          "j2dIJuodA7",
+          "j_3joKfzS9",
+          "Yg9-tEe5QH",
+          "uNHIhLxU5W",
+          "WjqaCs8A5o",
+          "rhUBwDuHCf",
+          "XaClitYV1x",
+          "Q0mo0HjOtt",
+          "k5rEzFp2MR",
+          "r1CBe6Qe79",
+          "QBTw2JRIw5",
+          "mXg0a8r7as"
+        ],
+        "C": [
+          "*"
+        ]
+      },
+      "status": "active",
+      "session_count": 0,
+      "session_dates": [],
+      "league_rules": {
+        "required_hands": 400,
+        "promotion": {
+          "C_to_B": {
+            "top_percent": 0.4
+          }
+        },
+        "relegation": {
+          "B_to_C": {
+            "bottom_percent": 0.3
+          }
+        }
+      }
     }
   ],
-  "current_season_id": 1,
+  "current_season_id": 2,
   "total_session_count": 9
 }

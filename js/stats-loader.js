@@ -49,12 +49,19 @@ const StatsLoader = {
                 // 最初のシーズンまたは現在のシーズンを表示
                 const firstSeasonId = this.getDefaultSeasonId();
                 if (firstSeasonId) {
-                    const data = await this.loadSeasonStats(firstSeasonId);
-                    this.currentView = firstSeasonId;
-                    this.renderTable(data);
-                    this.updateSummary(data);
+                    try {
+                        const data = await this.loadSeasonStats(firstSeasonId);
+                        this.currentView = firstSeasonId;
+                        this.renderTable(data);
+                        this.updateSummary(data);
+                    } catch (e) {
+                        this.currentView = firstSeasonId;
+                        this.showNoSeasonMessage();
+                        this.updateSummary([]);
+                    }
                 } else {
                     this.showNoSeasonMessage();
+                    this.updateSummary([]);
                 }
                 this.setupTabEvents();
             } else {
@@ -293,7 +300,8 @@ const StatsLoader = {
                     this.updateSummary(data);
                 } catch (error) {
                     console.error('データの読み込みに失敗:', error);
-                    this.showError();
+                    this.showNoSeasonMessage();
+                    this.updateSummary([]);
                 }
             });
         });

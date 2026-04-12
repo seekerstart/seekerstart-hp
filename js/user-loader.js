@@ -48,11 +48,34 @@ const UserLoader = {
                 return;
             }
 
-            // シーズンデータをロード
-            await this.loadSeasonStats(this.currentSeasonId);
+            // シーズンデータをロード（失敗時はフォールバック）
+            let player = null;
+            try {
+                await this.loadSeasonStats(this.currentSeasonId);
+                player = this.findPlayer(this.currentSeasonId);
+            } catch (e) {
+                // 現在シーズンのCSVがない場合
+            }
 
-            // プレイヤーを検索
-            const player = this.findPlayer(this.currentSeasonId);
+            // プレイヤーが見つからない場合、他のシーズンを逆順に試す
+            if (!player) {
+                const seasons = [...this.seasonsConfig.seasons].reverse();
+                for (const season of seasons) {
+                    if (season.id === this.currentSeasonId) continue;
+                    try {
+                        await this.loadSeasonStats(season.id);
+                        const found = this.findPlayer(season.id);
+                        if (found) {
+                            this.currentSeasonId = season.id;
+                            player = found;
+                            break;
+                        }
+                    } catch (e) {
+                        // このシーズンもCSVがない場合、次へ
+                    }
+                }
+            }
+
             if (!player) {
                 this.showError('プレイヤーが見つかりませんでした。');
                 return;
@@ -267,12 +290,16 @@ const UserLoader = {
      */
     async switchSeason(seasonId) {
         this.currentSeasonId = seasonId;
-        await this.loadSeasonStats(seasonId);
 
-        const player = this.findPlayer(seasonId);
+        try {
+            await this.loadSeasonStats(seasonId);
+        } catch (e) {
+            // CSVが存在しない場合、空データとして扱う
+        }
+
+        let player = this.findPlayer(seasonId);
         if (!player) {
-            this.showError('このシーズンのデータが見つかりませんでした。');
-            return;
+            player = this.createEmptyPlayer(seasonId);
         }
 
         this.renderPlayerHeader(player);
@@ -281,6 +308,52 @@ const UserLoader = {
         this.renderPokerStats(player);
         this.renderLeagueConditions(player);
         this.setupChartShare(player);
+    },
+
+    /**
+     * データがないシーズン用の空プレイヤーデータを生成
+     */
+    createEmptyPlayer(seasonId) {
+        // seasons.jsonからリーグ情報を取得
+        const season = this.seasonsConfig.seasons.find(s => s.id === seasonId);
+        let league = 'C';
+        if (season && season.leagues) {
+            for (const [leagueName, members] of Object.entries(season.leagues)) {
+                if (members.includes(this.playerId)) {
+                    league = leagueName;
+                    break;
+                }
+            }
+        }
+
+        // allStatsまたは他シーズンからプレイヤー名を取得
+        let displayName = this.playerId;
+        if (this.allStatsData) {
+            const allPlayer = this.allStatsData.find(row => row['player_id'] === this.playerId);
+            if (allPlayer) displayName = allPlayer['プレイヤー'];
+        } else {
+            for (const data of Object.values(this.seasonStatsData)) {
+                const found = data.find(row => row['player_id'] === this.playerId);
+                if (found) { displayName = found['プレイヤー']; break; }
+            }
+        }
+
+        return {
+            'player_id': this.playerId,
+            'プレイヤー': displayName,
+            'リーグ': league,
+            '収支': '0',
+            'bb_size': '20',
+            'ハンド数': '0',
+            '参加節数': '0',
+            'VPIP': '0', 'VPIP_hands': '0',
+            'PFR': '0', 'PFR_hands': '0',
+            '3bet': '0', '3bet_hands': '0',
+            'Fold to 3bet': '0', 'Fold to 3bet_hands': '0',
+            'CB': '0', 'CB_hands': '0',
+            'WTSD': '0', 'WTSD_hands': '0',
+            'W$SD': '0', 'W$SD_hands': '0',
+        };
     },
 
     /**
