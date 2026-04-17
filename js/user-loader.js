@@ -3,12 +3,14 @@
  * StatsLoaderと同じ設計パターン（モジュールオブジェクト）を踏襲
  */
 
+const site = window.SiteConfig;
+
 const UserLoader = {
     // パス設定
-    seasonsConfigPath: 'config/seasons.json',
-    sessionStatsPath: 'data/session_stats.csv',
-    seasonStatsPathTemplate: 'data/season_{id}_stats.csv',
-    allStatsPath: 'data/all_stats.csv',
+    seasonsConfigPath: site.assetUrl('config/seasons.json'),
+    sessionStatsPath: site.assetUrl('data/session_stats.csv'),
+    seasonStatsPathTemplate: site.assetUrl('data/season_{id}_stats.csv'),
+    allStatsPath: site.assetUrl('data/all_stats.csv'),
 
     // データキャッシュ
     seasonsConfig: null,
@@ -28,7 +30,7 @@ const UserLoader = {
         try {
             // URLパラメータからplayer_idを取得
             const params = new URLSearchParams(window.location.search);
-            this.playerId = params.get('id');
+            this.playerId = document.body.dataset.playerId || params.get('id');
 
             if (!this.playerId) {
                 this.showError('プレイヤーIDが指定されていません。');
@@ -82,7 +84,7 @@ const UserLoader = {
             }
 
             // ページタイトルを更新
-            document.title = `${player['プレイヤー']} の戦績 | ポーカー鳳凰戦`;
+            this.updateSeo(player);
 
             // 描画
             this.renderPlayerHeader(player);
@@ -210,6 +212,39 @@ const UserLoader = {
         const div = document.createElement('div');
         div.textContent = str;
         return div.innerHTML;
+    },
+
+    /**
+     * SEOメタデータを更新
+     */
+    updateSeo(player) {
+        const name = player['プレイヤー'] || this.playerId;
+        const title = `${name} の戦績 | ポーカー鳳凰戦`;
+        const description = `${name} のポーカー鳳凰戦プレイヤーページ。シーズン別の成績、収支推移、ポーカースタッツを確認できます。`;
+        const canonicalUrl = site.playerAbsoluteUrl(this.playerId);
+
+        document.title = title;
+
+        const canonicalLink = document.querySelector('link[rel="canonical"]');
+        if (canonicalLink) canonicalLink.href = canonicalUrl;
+
+        const descriptionMeta = document.querySelector('meta[name="description"]');
+        if (descriptionMeta) descriptionMeta.content = description;
+
+        const ogTitle = document.querySelector('meta[property="og:title"]');
+        if (ogTitle) ogTitle.content = title;
+
+        const ogDescription = document.querySelector('meta[property="og:description"]');
+        if (ogDescription) ogDescription.content = description;
+
+        const ogUrl = document.querySelector('meta[property="og:url"]');
+        if (ogUrl) ogUrl.content = canonicalUrl;
+
+        const twitterTitle = document.querySelector('meta[name="twitter:title"]');
+        if (twitterTitle) twitterTitle.content = title;
+
+        const twitterDescription = document.querySelector('meta[name="twitter:description"]');
+        if (twitterDescription) twitterDescription.content = description;
     },
 
     /**
@@ -684,7 +719,7 @@ const UserLoader = {
         const rank = this.getPlayerRank(this.currentSeasonId);
 
         const shareText = `${name} のポーカー鳳凰戦 戦績\n順位: ${rank || '--'}位 | 収支: ${sign}${profitBB.toFixed(1)} BB | ハンド数: ${player['ハンド数']}`;
-        const shareUrl = window.location.href;
+        const shareUrl = site.playerAbsoluteUrl(this.playerId);
 
         // X共有
         document.getElementById('share-x').addEventListener('click', () => {
@@ -749,7 +784,7 @@ const UserLoader = {
             const sign = chipsNum >= 0 ? '+' : '';
 
             const shareText = `${name} のポーカー鳳凰戦 成績推移\n順位: ${rank || '--'}位 | 累計収支: ${sign}${profitBB.toFixed(1)} BB`;
-            const shareUrl = window.location.href;
+            const shareUrl = site.playerAbsoluteUrl(this.playerId);
 
             // canvasから同期的に画像を生成（ユーザージェスチャー連鎖を切らない）
             // ダーク背景を敷いたオフスクリーンcanvasに合成して書き出す
@@ -802,7 +837,7 @@ const UserLoader = {
             <div class="py-12 text-center">
                 <i class="fas fa-exclamation-triangle text-2xl mb-4 block text-red-400/50"></i>
                 <p class="text-gray-500">${this.escapeHtml(message)}</p>
-                <a href="season_stats.html" class="inline-block mt-4 text-gold text-sm hover:underline">
+                <a href="${site.pageUrl('season_stats.html')}" class="inline-block mt-4 text-gold text-sm hover:underline">
                     ランキングページに戻る
                 </a>
             </div>

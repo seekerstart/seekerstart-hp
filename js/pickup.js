@@ -9,7 +9,7 @@
 const CONFIG = {
     MAX_FEATURED: 5,
     PLAYER_ICON_SIZE: 218,
-    DATA_PATH: 'config/featured_players.json'
+    DATA_PATH: window.SiteConfig.assetUrl('config/featured_players.json')
 };
 
 const CSS_CLASSES = {
@@ -31,6 +31,10 @@ function isEnabledLink(url) {
     return url && url !== '#' && url !== null;
 }
 
+function resolveUrl(url) {
+    return window.SiteConfig.resolveInternalUrl(url);
+}
+
 /**
  * ソーシャルアイコンのHTMLを生成
  */
@@ -50,7 +54,7 @@ function buildSocialIcons(player) {
         const color = enabled ? item.color : '#6b7280';
         const border = enabled ? (item.gradient ? item.gradient[0] : item.color) : '#374151';
         const tag = enabled ? 'a' : 'span';
-        const hrefAttr = enabled ? `href="${item.url}" target="_blank" rel="noopener"` : '';
+        const hrefAttr = enabled ? `href="${resolveUrl(item.url)}" target="_blank" rel="noopener"` : '';
         const gradientStops = item.gradient ? item.gradient.join(', ') : '';
         const iconStyle = enabled && item.gradient
             ? `style="background: linear-gradient(135deg, ${gradientStops}); -webkit-background-clip: text; background-clip: text; color: transparent; -webkit-text-fill-color: transparent;"`
@@ -142,6 +146,8 @@ function createPlayerCard(player, extraClass = '') {
     const cardClass = `${CSS_CLASSES.PLAYER_CARD} ${extraClass}`;
     const achievementsClass = `space-y-1 ${CSS_CLASSES.CONTENT_TEXT}`;
 
+    const imageUrl = resolveUrl(player.image);
+
     return `
         <div class="${cardClass}">
             ${badge}
@@ -149,7 +155,7 @@ function createPlayerCard(player, extraClass = '') {
                 <div class="flex flex-col items-center gap-5 lg:w-[45%]">
                     <div class="relative shrink-0 z-10" style="width:${CONFIG.PLAYER_ICON_SIZE}px;height:${CONFIG.PLAYER_ICON_SIZE}px;">
                         <div class="rounded-lg overflow-hidden border border-white/10 bg-white/5 w-full h-full">
-                            <img src="${player.image}" alt="${player.name}" class="w-full h-full object-cover object-center" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;160&quot; height=&quot;160&quot; viewBox=&quot;0 0 160 160&quot;><rect width=&quot;160&quot; height=&quot;160&quot; fill=&quot;#111&quot;/><text x=&quot;50%&quot; y=&quot;52%&quot; dominant-baseline=&quot;middle&quot; text-anchor=&quot;middle&quot; fill=&quot;#d4af37&quot; font-size=&quot;16&quot; font-family=&quot;Arial&quot;>Player</text></svg>'">
+                            <img src="${imageUrl}" alt="${player.name}" class="w-full h-full object-cover object-center" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;160&quot; height=&quot;160&quot; viewBox=&quot;0 0 160 160&quot;><rect width=&quot;160&quot; height=&quot;160&quot; fill=&quot;#111&quot;/><text x=&quot;50%&quot; y=&quot;52%&quot; dominant-baseline=&quot;middle&quot; text-anchor=&quot;middle&quot; fill=&quot;#d4af37&quot; font-size=&quot;16&quot; font-family=&quot;Arial&quot;>Player</text></svg>'">
                         </div>
                     </div>
                     <div class="text-center">

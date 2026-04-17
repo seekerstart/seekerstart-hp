@@ -25,6 +25,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -47,6 +52,13 @@ jobs:
           fi
           python scripts/main.py $ARGS
 
+      - name: Regenerate player pages and sitemap
+        if: inputs.dry_run != 'true'
+        run: node scripts/generate-site-assets.mjs
+
+      - name: Run site audit
+        run: node scripts/audit-site.mjs
+
       - name: Check for changes
         id: git-check
         run: |
@@ -57,6 +69,6 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/*.csv config/players.json
+          git add data/*.csv config/players.json players/*.html sitemap*.xml robots.txt
           git commit -m "Update poker stats [skip ci]"
           git push

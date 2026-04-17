@@ -1,5 +1,6 @@
 (function () {
-    const CONFIG_PATH = 'config/season_rule_pages.json';
+    const site = window.SiteConfig;
+    const CONFIG_PATH = site.assetUrl('config/season_rule_pages.json');
 
     function escapeHtml(value) {
         return String(value ?? '')
@@ -14,12 +15,16 @@
         return escapeHtml(value).replace(/\n/g, '<br>');
     }
 
+    function resolveHref(href) {
+        return href ? site.resolveInternalUrl(href) : href;
+    }
+
     function detailUrl(slug) {
-        return `season-rules-${slug}.html`;
+        return site.pageUrl(`season-rules-${slug}.html`);
     }
 
     function imageTag(src, alt, className) {
-        return `<img src="${escapeHtml(src)}" alt="${escapeHtml(alt)}" class="${className}" onerror="this.src='https://images.unsplash.com/photo-1518893063132-36e46dbe2428?auto=format&fit=crop&q=80&w=1200'">`;
+        return `<img src="${escapeHtml(resolveHref(src))}" alt="${escapeHtml(alt)}" class="${className}" onerror="this.src='https://images.unsplash.com/photo-1518893063132-36e46dbe2428?auto=format&fit=crop&q=80&w=1200'">`;
     }
 
     function loadingMarkup() {
@@ -105,11 +110,13 @@
             <p class="text-sm text-gray-400 leading-loose">${escapeHtml(description)}</p>
         `;
 
-        if (muted || !href) {
+        const normalizedHref = resolveHref(href);
+
+        if (muted || !normalizedHref) {
             return `<div class="${baseClass}">${content}</div>`;
         }
 
-        return `<a href="${escapeHtml(href)}" class="${baseClass}">${content}</a>`;
+        return `<a href="${escapeHtml(normalizedHref)}" class="${baseClass}">${content}</a>`;
     }
 
     function renderSeasonSwitchButton(options) {
@@ -139,12 +146,14 @@
             ? 'block jp-card p-6 md:p-7 corner-deco opacity-55'
             : 'group block jp-card p-6 md:p-7 corner-deco hover:border-gold/40 transition-all duration-300';
 
-        if (muted || !href) {
+        const normalizedHref = resolveHref(href);
+
+        if (muted || !normalizedHref) {
             return `<div class="${baseClass}">${content}</div>`;
         }
 
         return `
-            <a href="${escapeHtml(href)}" class="${baseClass}">
+            <a href="${escapeHtml(normalizedHref)}" class="${baseClass}">
                 ${content}
             </a>
         `;
@@ -207,7 +216,9 @@
             'w-full h-auto object-contain transition duration-500 group-hover:scale-[1.01]'
         );
 
-        if (!sponsorship.href) {
+        const normalizedHref = resolveHref(sponsorship.href);
+
+        if (!normalizedHref) {
             return `
                 <figure class="jp-card p-4 md:p-6 corner-deco">
                     <div class="overflow-hidden rounded-sm border border-white/10 bg-black">
@@ -218,7 +229,7 @@
         }
 
         return `
-            <a href="${escapeHtml(sponsorship.href)}" class="group block jp-card p-4 md:p-6 corner-deco hover:border-gold/40 transition-all duration-300">
+            <a href="${escapeHtml(normalizedHref)}" class="group block jp-card p-4 md:p-6 corner-deco hover:border-gold/40 transition-all duration-300">
                 <div class="overflow-hidden rounded-sm border border-white/10 bg-black">
                     ${imageMarkup}
                 </div>
@@ -247,7 +258,7 @@
                             <a href="${detailUrl(page.slug)}" class="inline-flex items-center justify-center gap-3 border border-gold/40 px-6 py-3 text-xs font-black tracking-[0.3em] uppercase text-gold hover:text-white hover:border-gold transition-all duration-300">
                                 シーズン条件を見る <i class="fas fa-arrow-right"></i>
                             </a>
-                            <a href="${escapeHtml(page.stats_link || 'season_stats.html')}" class="inline-flex items-center justify-center gap-3 border border-white/10 px-6 py-3 text-xs font-black tracking-[0.25em] uppercase text-white/80 hover:text-white hover:border-white/40 transition-all duration-300">
+                            <a href="${escapeHtml(resolveHref(page.stats_link || site.pageUrl('season_stats.html')))}" class="inline-flex items-center justify-center gap-3 border border-white/10 px-6 py-3 text-xs font-black tracking-[0.25em] uppercase text-white/80 hover:text-white hover:border-white/40 transition-all duration-300">
                                 ランキングを見る <i class="fas fa-chart-line"></i>
                             </a>
                         </div>
@@ -367,10 +378,10 @@
                             <h1 class="text-3xl md:text-5xl font-serif font-black text-white tracking-widest leading-tight mb-6">${escapeHtml(page.title)}</h1>
                             <p class="text-sm md:text-base text-gray-300 leading-loose mb-8">${escapeHtml(page.summary)}</p>
                             <div class="flex flex-col sm:flex-row gap-4">
-                                <a href="season-rules.html" class="inline-flex items-center justify-center gap-3 border border-white/10 px-6 py-3 text-xs font-black tracking-[0.25em] uppercase text-white/80 hover:text-white hover:border-white/40 transition-all duration-300">
+                                <a href="${site.pageUrl('season-rules.html')}" class="inline-flex items-center justify-center gap-3 border border-white/10 px-6 py-3 text-xs font-black tracking-[0.25em] uppercase text-white/80 hover:text-white hover:border-white/40 transition-all duration-300">
                                     シーズン条件一覧へ戻る <i class="fas fa-layer-group"></i>
                                 </a>
-                                <a href="${escapeHtml(page.stats_link || 'season_stats.html')}" class="inline-flex items-center justify-center gap-3 border border-gold/40 px-6 py-3 text-xs font-black tracking-[0.25em] uppercase text-gold hover:text-white hover:border-gold transition-all duration-300">
+                                <a href="${escapeHtml(resolveHref(page.stats_link || site.pageUrl('season_stats.html')))}" class="inline-flex items-center justify-center gap-3 border border-gold/40 px-6 py-3 text-xs font-black tracking-[0.25em] uppercase text-gold hover:text-white hover:border-gold transition-all duration-300">
                                     ランキングを見る <i class="fas fa-chart-line"></i>
                                 </a>
                             </div>
@@ -491,14 +502,14 @@
                             eyebrow: 'Hub',
                             title: 'シーズン条件一覧',
                             description: '全シーズンの条件ページと現在シーズンの導線をまとめて確認できます。',
-                            href: 'season-rules.html',
+                            href: site.pageUrl('season-rules.html'),
                             iconClass: 'fas fa-layer-group'
                         })}
                         ${renderRelatedLinkCard({
                             eyebrow: 'Stats',
                             title: 'シーズンランキング',
                             description: '実際の順位とスタッツを見ながら制度条件を確認できます。',
-                            href: page.stats_link || 'season_stats.html',
+                            href: resolveHref(page.stats_link) || site.pageUrl('season_stats.html'),
                             iconClass: 'fas fa-chart-line'
                         })}
                     </div>

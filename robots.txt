@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /houou/user.html
+Disallow: /houou/all_stats_internal.html
+Disallow: /houou/season-rules-s2.html
+
+Sitemap: https://www.seekerstart.com/houou/sitemap.xml

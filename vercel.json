@@ -1,7 +1,20 @@
 {
+  "trailingSlash": true,
   "headers": [
     {
-      "source": "/(.*)",
+      "source": "/user.html",
+      "headers": [
+        { "key": "X-Robots-Tag", "value": "noindex, nofollow" }
+      ]
+    },
+    {
+      "source": "/all_stats_internal.html",
+      "headers": [
+        { "key": "X-Robots-Tag", "value": "noindex, nofollow" }
+      ]
+    },
+    {
+      "source": "/season-rules-s2.html",
       "headers": [
         { "key": "X-Robots-Tag", "value": "noindex, nofollow" }
       ]

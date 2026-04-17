@@ -3,11 +3,13 @@
  * シーズン切り替え機能とリーグ表示に対応
  */
 
+const site = window.SiteConfig;
+
 const StatsLoader = {
     // CSVパス設定
-    allStatsPath: 'data/all_stats.csv',
-    seasonStatsPathTemplate: 'data/season_{id}_stats.csv',
-    seasonsConfigPath: 'config/seasons.json',
+    allStatsPath: site.assetUrl('data/all_stats.csv'),
+    seasonStatsPathTemplate: site.assetUrl('data/season_{id}_stats.csv'),
+    seasonsConfigPath: site.assetUrl('config/seasons.json'),
 
     // データキャッシュ
     seasonsConfig: null,
@@ -389,7 +391,7 @@ const StatsLoader = {
 
             row.innerHTML = `
                 <td class="py-4 px-3 text-center text-gold font-bold text-sm">${rank}</td>
-                <td class="py-4 px-3 text-white font-bold text-sm whitespace-nowrap"><a href="user.html?id=${encodeURIComponent(player['player_id'])}" class="player-name-link">${this.escapeHtml(player['プレイヤー'])}</a></td>
+                <td class="py-4 px-3 text-white font-bold text-sm whitespace-nowrap"><a href="${site.playerUrl(player['player_id'])}" class="player-name-link">${this.escapeHtml(player['プレイヤー'])}</a></td>
                 <td class="py-4 px-3 text-center">${leagueBadge}</td>
                 <td class="py-4 px-3 text-right text-sm font-mono ${profitClass}">${this.escapeHtml(profitBBStr)}</td>
                 <td class="py-4 px-3 text-right text-gray-300 text-sm font-mono">${this.escapeHtml(player['ハンド数'])}</td>
