@@ -4,6 +4,7 @@
  */
 
 const UserLoader = {
+    internalBasePath: '/houou/',
     // パス設定
     seasonsConfigPath: 'config/seasons.json',
     sessionStatsPath: 'data/session_stats.csv',
@@ -20,6 +21,10 @@ const UserLoader = {
     playerId: null,
     currentSeasonId: null,
     chartInstance: null,
+
+    pageHref(path) {
+        return `${this.internalBasePath}${String(path).replace(/^\/+/, '')}`;
+    },
 
     /**
      * 初期化
@@ -802,7 +807,7 @@ const UserLoader = {
             <div class="py-12 text-center">
                 <i class="fas fa-exclamation-triangle text-2xl mb-4 block text-red-400/50"></i>
                 <p class="text-gray-500">${this.escapeHtml(message)}</p>
-                <a href="season_stats.html" class="inline-block mt-4 text-gold text-sm hover:underline">
+                <a href="${this.pageHref('season_stats.html')}" class="inline-block mt-4 text-gold text-sm hover:underline">
                     ランキングページに戻る
                 </a>
             </div>

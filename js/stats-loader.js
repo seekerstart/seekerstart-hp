@@ -4,6 +4,7 @@
  */
 
 const StatsLoader = {
+    internalBasePath: '/houou/',
     // CSVパス設定
     allStatsPath: 'data/all_stats.csv',
     seasonStatsPathTemplate: 'data/season_{id}_stats.csv',
@@ -19,6 +20,10 @@ const StatsLoader = {
     // ソート設定
     currentSortColumn: '収支',  // デフォルトは収支でソート
     currentSortOrder: 'desc',  // desc: 降順, asc: 昇順
+
+    pageHref(path) {
+        return `${this.internalBasePath}${String(path).replace(/^\/+/, '')}`;
+    },
 
     /**
      * 初期化
@@ -389,7 +394,7 @@ const StatsLoader = {
 
             row.innerHTML = `
                 <td class="py-4 px-3 text-center text-gold font-bold text-sm">${rank}</td>
-                <td class="py-4 px-3 text-white font-bold text-sm whitespace-nowrap"><a href="user.html?id=${encodeURIComponent(player['player_id'])}" class="player-name-link">${this.escapeHtml(player['プレイヤー'])}</a></td>
+                <td class="py-4 px-3 text-white font-bold text-sm whitespace-nowrap"><a href="${this.pageHref('user.html')}?id=${encodeURIComponent(player['player_id'])}" class="player-name-link">${this.escapeHtml(player['プレイヤー'])}</a></td>
                 <td class="py-4 px-3 text-center">${leagueBadge}</td>
                 <td class="py-4 px-3 text-right text-sm font-mono ${profitClass}">${this.escapeHtml(profitBBStr)}</td>
                 <td class="py-4 px-3 text-right text-gray-300 text-sm font-mono">${this.escapeHtml(player['ハンド数'])}</td>

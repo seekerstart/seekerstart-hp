@@ -1,11 +1,14 @@
-// Shared Header — single source of truth for all pages
+// Shared Header - single source of truth for all pages
 (function () {
+    const INTERNAL_BASE_PATH = '/houou/';
+    const pageHref = (path) => `${INTERNAL_BASE_PATH}${String(path).replace(/^\/+/, '')}`;
+
     const NAV_ITEMS = [
-        { label: 'トップ', href: 'index.html' },
-        { label: 'ランキング', href: 'season_stats.html' },
-        { label: 'シーズン制度', href: 'season-rules.html' },
-        { label: '注目選手', href: 'pickup.html' },
-        { label: '協賛一覧', href: 'sponsor.html' },
+        { label: 'トップ', href: pageHref('index.html') },
+        { label: 'ランキング', href: pageHref('season_stats.html') },
+        { label: 'シーズン制度', href: pageHref('season-rules.html') },
+        { label: '注目選手', href: pageHref('pickup.html') },
+        { label: '協賛一覧', href: pageHref('sponsor.html') },
     ];
 
     const CTA = { label: '参戦申込', href: 'https://x.com/seekerstart' };
@@ -30,7 +33,7 @@
         <header id="nav" class="fixed w-full z-[100] bg-black/90 backdrop-blur-md border-b border-white/5 transition-all duration-500">
             <div class="container mx-auto px-4 sm:px-6 lg:px-10 py-4 flex justify-between items-center">
                 <!-- Logo -->
-                <a href="index.html" class="flex items-center gap-3 sm:gap-4 md:gap-5">
+                <a href="${pageHref('index.html')}" class="flex items-center gap-3 sm:gap-4 md:gap-5">
                     <div class="bg-white/10 p-1 rounded shrink-0">
                         <img src="images/SeekerStart_logo.png" alt="Logo" class="h-7 sm:h-8 md:h-9 w-auto" onerror="this.src='https://via.placeholder.com/100x40/111/d4af37?text=SS'">
                     </div>
