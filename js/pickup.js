@@ -24,6 +24,16 @@ const CSS_CLASSES = {
 let seasonTabs = null;
 let featuredList = null;
 
+function normalizeSocialUrl(url) {
+    if (!url) return url;
+
+    if (url === 'https://seekerstart-hp.vercel.app/index.html' || url === 'https://seekerstart-hp.vercel.app/') {
+        return 'https://www.seekerstart.com/houou/';
+    }
+
+    return url;
+}
+
 /**
  * リンクが有効かどうかを判定
  */
@@ -37,12 +47,12 @@ function isEnabledLink(url) {
 function buildSocialIcons(player) {
     const social = player.social || {};
     const items = [
-        { label: 'X', icon: 'fa-brands fa-twitter', url: social.x, color: '#38bdf8' },
-        { label: 'YouTube', icon: 'fa-brands fa-youtube', url: social.youtube, color: '#ff0000' },
-        { label: 'Instagram', icon: 'fa-brands fa-instagram', url: social.instagram, color: '#e1306c', gradient: ['#f58529', '#feda77', '#dd2a7b', '#8134af', '#515bd4'] },
-        { label: 'TikTok', icon: 'fa-brands fa-tiktok', url: social.tiktok, color: '#25F4EE', gradient: ['#25F4EE', '#FE2C55'] },
-        { label: 'note', icon: 'fa-solid fa-note-sticky', url: social.note, color: '#00c300' },
-        { label: 'Website', icon: 'fa-solid fa-globe', url: social.website, color: '#d4af37' }
+        { label: 'X', icon: 'fa-brands fa-twitter', url: normalizeSocialUrl(social.x), color: '#38bdf8' },
+        { label: 'YouTube', icon: 'fa-brands fa-youtube', url: normalizeSocialUrl(social.youtube), color: '#ff0000' },
+        { label: 'Instagram', icon: 'fa-brands fa-instagram', url: normalizeSocialUrl(social.instagram), color: '#e1306c', gradient: ['#f58529', '#feda77', '#dd2a7b', '#8134af', '#515bd4'] },
+        { label: 'TikTok', icon: 'fa-brands fa-tiktok', url: normalizeSocialUrl(social.tiktok), color: '#25F4EE', gradient: ['#25F4EE', '#FE2C55'] },
+        { label: 'note', icon: 'fa-solid fa-note-sticky', url: normalizeSocialUrl(social.note), color: '#00c300' },
+        { label: 'Website', icon: 'fa-solid fa-globe', url: normalizeSocialUrl(social.website), color: '#d4af37' }
     ];
 
     return items.map((item) => {

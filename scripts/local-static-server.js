@@ -5,6 +5,7 @@ const path = require('path');
 const root = process.cwd();
 const port = Number(process.env.PORT || 8000);
 const host = process.env.HOST || '0.0.0.0';
+const basePath = '/houou';
 
 const mimeTypes = {
   '.html': 'text/html; charset=utf-8',
@@ -23,7 +24,16 @@ const mimeTypes = {
 http
   .createServer((req, res) => {
     const requestPath = decodeURIComponent((req.url || '/').split('?')[0]);
-    const relativePath = requestPath === '/' ? '/index.html' : requestPath;
+    let relativePath = requestPath;
+
+    if (requestPath === basePath || requestPath === `${basePath}/`) {
+      relativePath = '/index.html';
+    } else if (requestPath.startsWith(`${basePath}/`)) {
+      relativePath = requestPath.slice(basePath.length);
+    } else if (requestPath === '/') {
+      relativePath = '/index.html';
+    }
+
     const filePath = path.normalize(path.join(root, relativePath));
 
     if (!filePath.startsWith(root)) {
