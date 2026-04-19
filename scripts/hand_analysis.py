@@ -14,7 +14,7 @@ class PlayerStats:
     player_id: str = ""
     display_name: str = ""
     league: str = "C"
-    net: int = 0
+    net: float = 0
     hands: int = 0
     vpip_hands: int = 0
     vpip_count: int = 0
