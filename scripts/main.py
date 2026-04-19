@@ -78,15 +78,22 @@ def main():
     # セッション検出
     sessions = aggregator.discover_sessions()
     if args.verbose:
-        print(f"\nFound {len(sessions)} sessions")
+        print(f"\nFound {len(sessions)} active sessions")
         for session in sessions:
-            print(f"  - {session.session_dir.name} (Season: {session.season_id})")
+            session_type = "precalc" if session.is_precalculated else "csv"
+            print(f"  - {session.session_dir.name} (Season: {session.season_id}, Type: {session_type})")
 
-    if not sessions:
+    # 凍結シーズンの有無を確認
+    has_frozen = any(
+        s.get("frozen") for s in config.get_all_seasons()
+    )
+
+    if not sessions and not has_frozen:
         print("No sessions found. Please add hand histories to data/hand_histories/")
         print("\nExpected directory structure:")
         print("  data/hand_histories/")
         print("    └── {YYYYMMDD}/")
+        print("        ├── player-stats-all-time-*.json  (precalculated)")
         print("        └── table{N}/ (or {YYYYMMDD}_table{N}/)")
         print("            ├── poker_now_log_*.csv")
         print("            └── ledger_*.csv")
@@ -120,9 +127,18 @@ def main():
         for path in season_paths:
             print(f"  - {path}")
 
+        # シーズン別 raw counts CSV を出力
+        raw_season_paths = aggregator.output_raw_season_stats()
+        for path in raw_season_paths:
+            print(f"  - {path}")
+
         # 節ごとの個人成績を出力
         session_stats_path = aggregator.output_session_stats()
         print(f"  - {session_stats_path}")
+
+        # 節ごとの raw counts CSV を出力
+        raw_session_stats_path = aggregator.output_raw_session_stats()
+        print(f"  - {raw_session_stats_path}")
 
         # プレイヤー登録情報を保存
         registry.save()

@@ -40,7 +40,8 @@ python scripts/main.py --data-dir data --config-dir config
 ```
 data/hand_histories/
 └── {YYYYMMDD}/
-    └── table{N}/
+    ├── player-stats-all-time-*.json   (計算済みスタッツ / シーズン2以降)
+    └── table{N}/                       (ハンド履歴 / シーズン1)
         ├── poker_now_log_*.csv
         └── ledger_*.csv
 ```
@@ -48,6 +49,10 @@ data/hand_histories/
 **出力:**
 - `data/all_stats.csv` - 全期間スタッツ
 - `data/season_{N}_stats.csv` - シーズン別スタッツ
+- `data/season_{N}_{league}_stats.csv` - リーグ別スタッツ（順位付き）
+- `data/session_stats.csv` - 節ごとの個人成績
+- `data/season_{N}_stats_raw.csv` - シーズン別スタッツ（分子/分母付き、凍結用）
+- `data/season_{N}_session_stats_raw.csv` - 節別スタッツ（凍結用）
 
 ---
 
@@ -117,6 +122,19 @@ python scripts/weekly_report.py
 | `csv_formatter.py` | Poker Now CSV のパース、PokerStars 形式への変換 |
 | `hand_analysis.py` | スタッツ計算（VPIP, PFR, 3bet, CB, WTSD 等） |
 | `stats_aggregator.py` | セッション集計、CSV 出力 |
+| `precalc_importer.py` | Poker Now の計算済み JSON を取り込み |
+
+---
+
+## データソースの種類
+
+| 方式 | 対象 | 入力ファイル | 説明 |
+|------|------|-------------|------|
+| ハンド履歴 | シーズン1 | `poker_now_log_*.csv` + `ledger_*.csv` | ログから全スタッツを再計算 |
+| 計算済み JSON | シーズン2以降 | `player-stats-all-time-*.json` | Poker Now のスタッツを取り込み |
+| 凍結 CSV | 完了シーズン | `season_{N}_stats_raw.csv` | 再計算せず CSV から復元 |
+
+シーズンの `data_source` と `frozen` フラグは `config/seasons.json` で管理します。
 
 ---
 
@@ -134,15 +152,28 @@ python scripts/weekly_report.py
       "name": "シーズン 1",
       "start_date": "2026-02-01",
       "end_date": "2026-03-31",
-      "leagues": {
-        "A": [],
-        "B": [],
-        "C": ["*"]
-      },
-      "status": "active"
+      "leagues": { "A": [], "B": [], "C": ["*"] },
+      "status": "completed",
+      "frozen": true,
+      "data_source": "hand_histories",
+      "session_count": 9,
+      "session_dates": ["20260202", "20260209", "..."]
+    },
+    {
+      "id": 2,
+      "name": "シーズン 2",
+      "start_date": "2026-04-01",
+      "end_date": "2026-05-31",
+      "leagues": { "A": [], "B": ["..."], "C": ["*"] },
+      "status": "active",
+      "frozen": false,
+      "data_source": "precalculated",
+      "session_count": 1,
+      "session_dates": ["20260413"]
     }
   ],
-  "current_season_id": 1
+  "current_season_id": 2,
+  "total_session_count": 10
 }
 ```
 
@@ -166,6 +197,38 @@ python scripts/weekly_report.py
 
 ## 典型的なワークフロー
 
+### シーズン2以降: 新しいセッションを追加する
+
+1. **Poker Now から JSON をエクスポート**
+
+   セッション終了後、Poker Now の管理画面から `player-stats-all-time-*.json` をダウンロードします。
+
+2. **日付ディレクトリに配置**
+   ```
+   data/hand_histories/{YYYYMMDD}/
+       player-stats-all-time-YYYY-MM-DDTHH-MM-SS-XXXZ.json
+   ```
+   例: 4/20 のセッション → `data/hand_histories/20260420/` に配置
+
+3. **`config/seasons.json` を更新**
+   - `session_count` を +1
+   - `session_dates` に日付を追加
+   - `total_session_count` を +1
+
+4. **スタッツ計算を実行**
+   ```bash
+   python scripts/main.py --verbose
+   ```
+
+5. **生成された CSV を確認**
+   - `data/season_2_stats.csv`
+   - `data/all_stats.csv`
+
+> **仕組み**: Poker Now の JSON は累積データ（all-time）です。システムは日付順にソートして前回との差分を自動計算し、セッション別データを生成します。
+> 例: 第1節の JSON（累積）→ そのまま第1節データ、第2節の JSON（累積）→ 第2節 − 第1節 = 第2節データ
+
+### シーズン1（従来方式）: ハンド履歴から計算
+
 1. **ハンド履歴を配置**
    ```
    data/hand_histories/20260211/table1/
@@ -178,13 +241,23 @@ python scripts/weekly_report.py
    python scripts/main.py --verbose
    ```
 
-3. **重複プレイヤーを確認・統合**（必要に応じて）
-   ```bash
-   python scripts/find_duplicate_players.py
-   python scripts/merge_duplicate_players.py --dry-run
-   python scripts/merge_duplicate_players.py
-   ```
+### 重複プレイヤーの確認・統合（必要に応じて）
 
-4. **生成された CSV を確認**
-   - `data/all_stats.csv`
-   - `data/season_1_stats.csv`
+```bash
+python scripts/find_duplicate_players.py
+python scripts/merge_duplicate_players.py --dry-run
+python scripts/merge_duplicate_players.py
+```
+
+### シーズンの凍結
+
+シーズンが完了したら `config/seasons.json` で凍結できます。凍結すると raw CSV から復元するようになり、再計算が不要になります。
+
+```json
+{
+  "status": "completed",
+  "frozen": true
+}
+```
+
+凍結前に `main.py` を1回実行して `season_{N}_stats_raw.csv` と `season_{N}_session_stats_raw.csv` が生成されていることを確認してください。

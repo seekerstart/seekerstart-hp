@@ -122,6 +122,27 @@ class PlayerRegistry:
             )
         return changes
 
+    def find_by_display_name(self, name: str, case_insensitive: bool = True) -> Optional[str]:
+        """display_nameからカノニカルIDを検索する"""
+        data = self._load()
+        for pid, info in data["players"].items():
+            display_name = info.get("display_name", "")
+            if case_insensitive:
+                if display_name.lower() == name.lower():
+                    return pid
+            else:
+                if display_name == name:
+                    return pid
+        return None
+
+    def add_alias(self, canonical_id: str, alias_id: str) -> None:
+        """プレイヤーにエイリアスを追加する"""
+        data = self._load()
+        if canonical_id in data["players"]:
+            if alias_id not in data["players"][canonical_id]["aliases"]:
+                data["players"][canonical_id]["aliases"].append(alias_id)
+                self._modified = True
+
     def get_all_player_ids(self) -> list:
         """全プレイヤーのカノニカルIDリストを取得"""
         data = self._load()
