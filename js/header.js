@@ -1,11 +1,12 @@
 // Shared Header — single source of truth for all pages
 (function () {
+    const site = window.SiteConfig;
     const NAV_ITEMS = [
-        { label: 'トップ', href: 'index.html' },
-        { label: 'ランキング', href: 'season_stats.html' },
-        { label: 'シーズン制度', href: 'season-rules.html' },
-        { label: '注目選手', href: 'pickup.html' },
-        { label: '協賛一覧', href: 'sponsor.html' },
+        { label: 'トップ', href: site.pageUrl('') },
+        { label: 'ランキング', href: site.pageUrl('season_stats.html') },
+        { label: 'シーズン制度', href: site.pageUrl('season-rules.html') },
+        { label: '注目選手', href: site.pageUrl('pickup.html') },
+        { label: '協賛一覧', href: site.pageUrl('sponsor.html') },
     ];
 
     const CTA = { label: '参戦申込', href: 'https://x.com/seekerstart' };
@@ -30,9 +31,9 @@
         <header id="nav" class="fixed w-full z-[100] bg-black/90 backdrop-blur-md border-b border-white/5 transition-all duration-500">
             <div class="container mx-auto px-4 sm:px-6 lg:px-10 py-4 flex justify-between items-center">
                 <!-- Logo -->
-                <a href="index.html" class="flex items-center gap-3 sm:gap-4 md:gap-5">
+                <a href="${site.pageUrl('')}" class="flex items-center gap-3 sm:gap-4 md:gap-5">
                     <div class="bg-white/10 p-1 rounded shrink-0">
-                        <img src="images/SeekerStart_logo.png" alt="Logo" class="h-7 sm:h-8 md:h-9 w-auto" onerror="this.src='https://via.placeholder.com/100x40/111/d4af37?text=SS'">
+                        <img src="${site.assetUrl('images/SeekerStart_logo.png')}" alt="Logo" class="h-7 sm:h-8 md:h-9 w-auto" onerror="this.src='https://via.placeholder.com/100x40/111/d4af37?text=SS'">
                     </div>
                     <div class="h-5 sm:h-6 w-[1px] bg-white/20 hidden xs:block"></div>
                     <span class="text-sm sm:text-base md:text-lg lg:text-xl font-serif font-black tracking-[0.15em] sm:tracking-[0.2em] text-white whitespace-nowrap uppercase">

@@ -7,4 +7,9 @@ data/hand_histories/**
 __pycache__/
 *.pyc
 
+.chrome-headless/
+.chrome-headless-test/
+local-server.err.log
+local-server.out.log
+
 .DS_Store

@@ -47,7 +47,7 @@
       ],
       "diagram_image": "images/season2-guide.png",
       "diagram_caption": "",
-      "stats_link": "season_stats.html"
+      "stats_link": "/houou/season_stats.html"
     },
     {
       "slug": "s1",
@@ -93,9 +93,9 @@
       "sponsorship": {
         "image": "images/jopt_season1.jpg",
         "alt": "JOPT協賛決定 鳳凰戦 Season 1 Cリーグ賞品",
-        "href": "sponsor.html"
+        "href": "/houou/sponsor.html"
       },
-      "stats_link": "season_stats.html"
+      "stats_link": "/houou/season_stats.html"
     }
   ]
 }

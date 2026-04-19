@@ -2,14 +2,15 @@
 <html lang="ja" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="icon" href="/houou/images/favicon.png" type="image/png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>全期間累計ランキング | ポーカー鳳凰戦</title>
+    <meta name="description" content="Seeker Start 内部向けの全期間累計ランキングです。">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/houou/css/style.css">
     <meta name="robots" content="noindex, nofollow">
-    <script>if(location.hostname==='seekerstart-hp.vercel.app')location.replace('https://www.seekerstart.com/houou/'+location.pathname.slice(1)+location.search+location.hash);</script>
+    <script src="/houou/js/site-config.js"></script>
 </head>
 <body class="antialiased">
 
@@ -112,9 +113,9 @@
         window.STATS_PAGE_MODE = 'all';
 
         // preseason_all_stats.csvを読み込むように設定
-        window.CUSTOM_STATS_PATH = 'data/preseason_all_stats.csv';
+        window.CUSTOM_STATS_PATH = '/houou/data/preseason_all_stats.csv';
     </script>
-    <script src="js/header.js"></script>
-    <script src="js/stats-loader.js"></script>
+    <script src="/houou/js/header.js"></script>
+    <script src="/houou/js/stats-loader.js"></script>
 </body>
 </html>
