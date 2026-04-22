@@ -534,6 +534,32 @@ class StatsAggregator:
             })
             print(f"  Loaded {row_count} rows across {sessions_loaded} sessions")
 
+    def _scan_session_dates(self) -> None:
+        """data/hand_histories/ 内の日付ディレクトリを走査してセッション数を計算する
+
+        frozen/active 問わず全ディレクトリを対象とし、
+        session_dates_by_season と session_counts_by_season を設定する。
+        """
+        hand_histories_dir = self.data_dir / "hand_histories"
+        if not hand_histories_dir.exists():
+            return
+
+        for date_dir in sorted(hand_histories_dir.iterdir()):
+            if not date_dir.is_dir():
+                continue
+            date_str = date_dir.name
+            try:
+                date = datetime.strptime(date_str, "%Y%m%d")
+            except ValueError:
+                continue
+            season_config = self.config.get_season_by_date(date)
+            if season_config:
+                season_id = season_config["id"]
+                self.session_dates_by_season.setdefault(season_id, set()).add(date_str)
+
+        for season_id, dates in self.session_dates_by_season.items():
+            self.session_counts_by_season[season_id] = len(dates)
+
     def aggregate(self, sessions: List[SessionInfo]) -> None:
         """全セッションを集計"""
         # 1. 凍結シーズンを読み込み（集計 + 節別）
@@ -542,27 +568,13 @@ class StatsAggregator:
                 sid = season_config["id"]
                 self.load_frozen_season(sid)
                 self._load_frozen_session_stats(sid)
-                # 凍結シーズンのセッション情報を記録
-                self.session_counts_by_season[sid] = season_config.get("session_count", 0)
-                frozen_dates = set(season_config.get("session_dates", []))
-                self.session_dates_by_season[sid] = frozen_dates
 
         # 2. セッションを計算済みと通常に分離
         precalc_sessions = [s for s in sessions if s.is_precalculated]
         regular_sessions = [s for s in sessions if not s.is_precalculated]
 
-        # 3. アクティブセッションの開催回数をカウント
-        unique_dates: set = set()
-        unique_dates_by_season: Dict[int, set] = {}
-
-        for session in sessions:
-            date_str = session.date.strftime("%Y%m%d")
-            unique_dates.add(date_str)
-            if session.season_id:
-                unique_dates_by_season.setdefault(session.season_id, set()).add(date_str)
-
-        for season_id, dates in unique_dates_by_season.items():
-            self.session_counts_by_season[season_id] = len(dates)
+        # 3. 日付ディレクトリを走査してセッション数を計算
+        self._scan_session_dates()
 
         # 4. 計算済みセッションを処理
         self._process_precalculated_sessions(precalc_sessions)
@@ -573,7 +585,7 @@ class StatsAggregator:
             date_str = session.date.strftime("%Y%m%d")
             self._accumulate_session(session_stats, date_str, session.season_id, unique_hands)
 
-        # 6. 全体のセッション数を更新
+        # 6. 全体のセッション数を更新（_scan_session_dates で設定済みの値から算出）
         all_dates = set()
         for dates in self.session_dates_by_season.values():
             all_dates.update(dates)
