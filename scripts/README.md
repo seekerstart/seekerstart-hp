@@ -98,18 +98,22 @@ python scripts/merge_duplicate_players.py
 ### weekly_report.py - 週次レポート生成
 
 週ごとの詳細統計を計算してレポートを出力します。
+`main.py` で生成された CSV を参照するため、**必ず `main.py` を先に実行してください**。
 
 ```bash
+# 1. まずスタッツを計算
+python scripts/main.py --verbose
+
+# 2. 週次レポートを生成
 python scripts/weekly_report.py
 ```
 
 **出力内容:**
-- 週ごとの卓数、参加者数、新規参加者数
-- シーズン累計参加者数
-- 400ハンド以上プレイしたプレイヤー数
-- 直近2回の参加者分析（リピート率、両方参加した人など）
-- シーズン別スタッツランキング（100ハンド以上対象）
-  - VPIP, PFR, 3bet, CB, WTSD, W$SD の上位10名と平均値
+1. **全体サマリー** - 総開催回数、総参加者数（ユニーク）、総卓数、シーズンごとの総ハンド数
+2. **週次レポート** - 各開催日ごとの参加者数、新規参加者、シーズン累計参加者数、400ハンド以上のプレイヤー数
+3. **直近2回の参加者分析** - リピート率、両方/片方のみ参加したプレイヤー一覧
+4. **シーズン別スタッツランキング**（100ハンド以上対象）
+   - VPIP, PFR, 3bet, Fold to 3bet, CB, WTSD, W$SD の上位10名と平均値
 
 ---
 
@@ -168,14 +172,16 @@ python scripts/weekly_report.py
       "status": "active",
       "frozen": false,
       "data_source": "precalculated",
-      "session_count": 1,
-      "session_dates": ["20260413"]
+      "session_count": 2,
+      "session_dates": ["20260413", "20260420"]
     }
   ],
   "current_season_id": 2,
-  "total_session_count": 10
+  "total_session_count": 11
 }
 ```
+
+> **注意**: `session_count`、`session_dates`、`total_session_count` は `main.py` 実行時に自動更新されます。手動で編集する必要はありません。
 
 ### config/players.json
 
@@ -210,19 +216,23 @@ python scripts/weekly_report.py
    ```
    例: 4/20 のセッション → `data/hand_histories/20260420/` に配置
 
-3. **`config/seasons.json` を更新**
-   - `session_count` を +1
-   - `session_dates` に日付を追加
-   - `total_session_count` を +1
-
-4. **スタッツ計算を実行**
+3. **スタッツ計算を実行**
    ```bash
    python scripts/main.py --verbose
    ```
+   `config/seasons.json` の `session_count`・`session_dates`・`total_session_count` は
+   `data/hand_histories/` 内のディレクトリを走査して自動的に計算・更新されるため、手動編集は不要です。
 
-5. **生成された CSV を確認**
+4. **生成された CSV を確認**
    - `data/season_2_stats.csv`
    - `data/all_stats.csv`
+
+5. **週次レポートを確認（任意）**
+   ```bash
+   python scripts/weekly_report.py
+   ```
+   参加者数、新規参加者、リピート率、スタッツランキングなどが表示されます。
+   ※ `main.py` の実行後に使用してください（出力 CSV に依存します）。
 
 > **仕組み**: Poker Now の JSON は累積データ（all-time）です。システムは日付順にソートして前回との差分を自動計算し、セッション別データを生成します。
 > 例: 第1節の JSON（累積）→ そのまま第1節データ、第2節の JSON（累積）→ 第2節 − 第1節 = 第2節データ
