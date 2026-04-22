@@ -28,14 +28,14 @@ class ConfigLoader:
     def load_seasons(self) -> dict:
         """seasons.json を読み込む"""
         if self._seasons_data is None:
-            with open(self.seasons_path, "r", encoding="utf-8") as f:
+            with open(self.seasons_path, "r", encoding="utf-8-sig") as f:
                 self._seasons_data = json.load(f)
         return self._seasons_data
 
     def load_players(self) -> dict:
         """players.json を読み込む"""
         if self._players_data is None:
-            with open(self.players_path, "r", encoding="utf-8") as f:
+            with open(self.players_path, "r", encoding="utf-8-sig") as f:
                 self._players_data = json.load(f)
         return self._players_data
 
