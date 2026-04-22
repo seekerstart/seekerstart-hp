@@ -24,6 +24,26 @@ from csv_formatter import PokerNowParser, extract_player_id_map
 from hand_analysis import StatsCalculator
 
 
+def _load_session_stats_data(data_dir: Path) -> dict:
+    """session_stats_raw.csv からセッション別プレイヤーデータを読み込む"""
+    path = data_dir / "session_stats_raw.csv"
+    if not path.exists():
+        return {}
+
+    result = {}
+    with open(path, 'r', encoding='utf-8') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            date_str = row['session_date']
+            if date_str not in result:
+                result[date_str] = {'players': set(), 'player_hands': {}}
+            pid = row['player_id']
+            result[date_str]['players'].add(pid)
+            result[date_str]['player_hands'][pid] = int(row['ハンド数'])
+
+    return result
+
+
 def get_weekly_data(data_dir: Path, config: ConfigLoader, registry: PlayerRegistry) -> dict:
     """
     週（日付）ごとのデータを収集
@@ -43,6 +63,9 @@ def get_weekly_data(data_dir: Path, config: ConfigLoader, registry: PlayerRegist
 
     if not hand_histories_dir.exists():
         return weekly_data
+
+    # session_stats_raw.csv からセッション別データを事前読み込み
+    session_stats_data = _load_session_stats_data(data_dir)
 
     for date_dir in sorted(hand_histories_dir.iterdir()):
         if not date_dir.is_dir():
@@ -98,11 +121,17 @@ def get_weekly_data(data_dir: Path, config: ConfigLoader, registry: PlayerRegist
                 print(f"Warning: Failed to parse {table_dir}: {e}")
                 continue
 
+        # テーブルディレクトリから取得できなかった場合、session_stats_raw.csv から補完
+        if not players and date_str in session_stats_data:
+            ssd = session_stats_data[date_str]
+            players = ssd['players']
+            player_hands = ssd['player_hands']
+
         weekly_data[date_str] = {
             'season_id': season_id,
             'table_count': table_count,
             'players': players,
-            'player_hands': dict(player_hands)
+            'player_hands': dict(player_hands) if isinstance(player_hands, defaultdict) else player_hands
         }
 
     return weekly_data
