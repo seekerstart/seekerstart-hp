@@ -82,9 +82,10 @@
       "status": "active",
       "frozen": false,
       "data_source": "precalculated",
-      "session_count": 1,
+      "session_count": 2,
       "session_dates": [
-        "20260413"
+        "20260413",
+        "20260420"
       ],
       "league_rules": {
         "required_hands": 400,
@@ -102,5 +103,5 @@
     }
   ],
   "current_season_id": 2,
-  "total_session_count": 10
+  "total_session_count": 11
 }
