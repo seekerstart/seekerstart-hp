@@ -88,7 +88,7 @@
         "20260420"
       ],
       "league_rules": {
-        "required_hands": 400,
+        "required_hands": 1000,
         "promotion": {
           "C_to_B": {
             "top_percent": 0.4
