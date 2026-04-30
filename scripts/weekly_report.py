@@ -216,6 +216,12 @@ def main():
         print("データが見つかりませんでした。")
         return
 
+    # シーズンごとの required_hands を取得
+    required_hands_by_season: Dict[int, int] = {}
+    for season_config in config.get_all_seasons():
+        sid = season_config["id"]
+        required_hands_by_season[sid] = season_config.get("league_rules", {}).get("required_hands", 400)
+
     # シーズンごとに集計
     seasons_cumulative: Dict[int, Set[str]] = defaultdict(set)  # シーズンごとの累計参加者
     seasons_hands: Dict[int, Dict[str, int]] = defaultdict(lambda: defaultdict(int))  # シーズンごとのハンド数
@@ -245,8 +251,12 @@ def main():
 
         all_time_players.update(players)
 
-        # 400ハンド以上のプレイヤー数
-        players_400_plus = sum(1 for h in seasons_hands[season_id].values() if h >= 400) if season_id else 0
+        # required_hands 以上のプレイヤー数
+        if season_id:
+            req = required_hands_by_season.get(season_id, 400)
+            players_400_plus = sum(1 for h in seasons_hands[season_id].values() if h >= req)
+        else:
+            players_400_plus = 0
 
         weekly_results.append({
             'date_str': date_str,
@@ -292,7 +302,8 @@ def main():
         print(f"  新規参加者: {len(result['new_players'])} 人")
         if result['season_id']:
             print(f"  シーズン累計参加者: {result['cumulative']} 人")
-            print(f"  シーズン400ハンド以上: {result['players_400_plus']} 人")
+            req = required_hands_by_season.get(result['season_id'], 400)
+            print(f"  シーズン{req}ハンド以上: {result['players_400_plus']} 人")
 
         # 新規参加者の名前を表示
         if result['new_players']:
@@ -363,9 +374,10 @@ def main():
             print("  スタッツデータがありません")
             continue
 
-        # 400ハンド以上のプレイヤー数（CSVから）
-        players_400_plus = sum(1 for s in stats if int(s.get('ハンド数', 0)) >= 400)
-        print(f"\n400ハンド以上のプレイヤー: {players_400_plus} 人")
+        # required_hands 以上のプレイヤー数（CSVから）
+        req = required_hands_by_season.get(season_id, 400)
+        players_req_plus = sum(1 for s in stats if int(s.get('ハンド数', 0)) >= req)
+        print(f"\n{req}ハンド以上のプレイヤー: {players_req_plus} 人")
 
         for stat_name in stat_columns:
             top_players, avg = calculate_stat_rankings(stats, stat_name)
