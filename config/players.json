@@ -1087,7 +1087,8 @@
     "iOgb92C-Hi": {
       "display_name": "sasakure",
       "aliases": [
-        "iOgb92C-Hi"
+        "iOgb92C-Hi",
+        "803a3710-a81f-4578-b09e-1a14b9c1e8fa"
       ]
     },
     "Rk-wT97oiz": {
@@ -1792,6 +1793,18 @@
       "display_name": "レモン",
       "aliases": [
         "605b96e3-56ed-49d6-aef9-361b116cb682"
+      ]
+    },
+    "3f54ee51-69b1-4678-8ba5-516769dc6286": {
+      "display_name": "SEIHO",
+      "aliases": [
+        "3f54ee51-69b1-4678-8ba5-516769dc6286"
+      ]
+    },
+    "dc6da8ae-2813-4d48-87c7-b7fa103edeb3": {
+      "display_name": "Shingo2",
+      "aliases": [
+        "dc6da8ae-2813-4d48-87c7-b7fa103edeb3"
       ]
     }
   },
