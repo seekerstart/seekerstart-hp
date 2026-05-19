@@ -1,8 +1,3 @@
-# hand_histories 内のファイルを無視（.gitkeep を除く）
-data/hand_histories/**
-!data/hand_histories/
-!data/hand_histories/.gitkeep
-
 # Python
 __pycache__/
 *.pyc

@@ -1,0 +1,1295 @@
+entry,at,order
+"The player ""Guest @ fXxZKORuuu"" passed the room ownership to ""UMAUMA @ iKNrGrbUkg"".",2026-02-09T14:04:33.969Z,177064587396900
+"The player ""北ふくろー @ nxKtWVcmeY"" quits the game with a stack of 2000.",2026-02-09T14:01:35.790Z,177064569579000
+"The player ""ころり @ n0s1KAOIRL"" quits the game with a stack of 3485.",2026-02-09T14:01:33.925Z,177064569392500
+"The player ""SetsunaTrip @ O2b7zy1-XM"" quits the game with a stack of 2000.",2026-02-09T14:01:16.573Z,177064567657300
+"The player ""hanzo @ DKe5W54dl3"" quits the game with a stack of 2000.",2026-02-09T14:01:09.708Z,177064566970803
+"The player ""Lemon @ Xa_1dhYEV4"" quits the game with a stack of 3756.",2026-02-09T14:01:09.708Z,177064566970802
+"The admin updated the player ""SetsunaTrip @ O2b7zy1-XM"" stack from 2100 to 2000.",2026-02-09T14:01:09.708Z,177064566970801
+"The admin updated the player ""北ふくろー @ nxKtWVcmeY"" stack from 1405 to 2000.",2026-02-09T14:01:09.708Z,177064566970800
+"-- ending hand #69 --",2026-02-09T14:01:03.700Z,177064566370003
+"""SetsunaTrip @ O2b7zy1-XM"" collected 200 from pot with Pair, K's (combination: 9♣, 10♦, A♥, K♣, K♥)",2026-02-09T14:01:03.700Z,177064566370002
+"""SetsunaTrip @ O2b7zy1-XM"" shows a K♣, 9♣.",2026-02-09T14:01:03.700Z,177064566370001
+"""UMAUMA @ iKNrGrbUkg"" shows a Q♠, 8♦.",2026-02-09T14:01:03.700Z,177064566370000
+"""SetsunaTrip @ O2b7zy1-XM"" calls 40",2026-02-09T14:01:02.839Z,177064566283900
+"""UMAUMA @ iKNrGrbUkg"" bets 40",2026-02-09T14:01:00.309Z,177064566030900
+"River: 10♦, A♥, 5♣, K♥ [7♣]",2026-02-09T14:00:50.313Z,177064565031300
+"""SetsunaTrip @ O2b7zy1-XM"" checks",2026-02-09T14:00:49.492Z,177064564949200
+"""UMAUMA @ iKNrGrbUkg"" checks",2026-02-09T14:00:46.682Z,177064564668200
+"Turn: 10♦, A♥, 5♣ [K♥]",2026-02-09T14:00:31.197Z,177064563119700
+"""SetsunaTrip @ O2b7zy1-XM"" checks",2026-02-09T14:00:30.394Z,177064563039400
+"""UMAUMA @ iKNrGrbUkg"" checks",2026-02-09T14:00:26.528Z,177064562652800
+"The admin ""Guest @ fXxZKORuuu"" enqueued the game stop on next hand.",2026-02-09T14:00:25.953Z,177064562595300
+"Flop:  [10♦, A♥, 5♣]",2026-02-09T14:00:21.253Z,177064562125300
+"""SetsunaTrip @ O2b7zy1-XM"" calls 60",2026-02-09T14:00:20.408Z,177064562040800
+"""UMAUMA @ iKNrGrbUkg"" raises to 60",2026-02-09T14:00:16.613Z,177064561661300
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T14:00:12.753Z,177064561275300
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T14:00:11.741Z,177064561174100
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T14:00:10.690Z,177064561069000
+"WARNING: the admin queued the stack change for the player ""SetsunaTrip @ O2b7zy1-XM"" reseting to 2000 chips in the next hand.",2026-02-09T14:00:09.384Z,177064560938400
+"WARNING: the admin queued the stack change for the player ""北ふくろー @ nxKtWVcmeY"" reseting to 2000 chips in the next hand.",2026-02-09T14:00:07.635Z,177064560763500
+"""ころり @ n0s1KAOIRL"" folds",2026-02-09T14:00:07.350Z,177064560735000
+"""SetsunaTrip @ O2b7zy1-XM"" posts a big blind of 20",2026-02-09T14:00:03.749Z,177064560374910
+"""UMAUMA @ iKNrGrbUkg"" posts a small blind of 10",2026-02-09T14:00:03.749Z,177064560374909
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3756) | #2 ""北ふくろー @ nxKtWVcmeY"" (1405) | #3 ""UMAUMA @ iKNrGrbUkg"" (2228) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2000) | #5 ""ころり @ n0s1KAOIRL"" (3485) | #10 ""hanzo @ DKe5W54dl3"" (2000)",2026-02-09T14:00:03.749Z,177064560374902
+"-- starting hand #69 (id: 5jwrjbhqjzg1)  No Limit Texas Hold'em (dealer: ""北ふくろー @ nxKtWVcmeY"") --",2026-02-09T14:00:03.749Z,177064560374901
+"The admin updated the player ""SetsunaTrip @ O2b7zy1-XM"" stack from 1960 to 2000.",2026-02-09T14:00:03.749Z,177064560374900
+"-- ending hand #68 --",2026-02-09T14:00:00.764Z,177064560076402
+"""ころり @ n0s1KAOIRL"" collected 1800 from pot",2026-02-09T14:00:00.764Z,177064560076401
+"Uncalled bet of 1685 returned to ""ころり @ n0s1KAOIRL""",2026-02-09T14:00:00.764Z,177064560076400
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:59:59.943Z,177064559994300
+"""ころり @ n0s1KAOIRL"" raises to 2285 and go all in",2026-02-09T13:59:56.775Z,177064559677500
+"""北ふくろー @ nxKtWVcmeY"" bets 600",2026-02-09T13:59:05.496Z,177064554549600
+"River: J♣, 10♦, Q♦, 7♣ [J♠]",2026-02-09T13:58:57.991Z,177064553799100
+"""ころり @ n0s1KAOIRL"" calls 210",2026-02-09T13:58:57.157Z,177064553715700
+"""北ふくろー @ nxKtWVcmeY"" raises to 210",2026-02-09T13:58:48.863Z,177064552886300
+"""ころり @ n0s1KAOIRL"" bets 70",2026-02-09T13:58:37.056Z,177064551705600
+"""北ふくろー @ nxKtWVcmeY"" checks",2026-02-09T13:58:21.024Z,177064550102400
+"Turn: J♣, 10♦, Q♦ [7♣]",2026-02-09T13:58:18.755Z,177064549875500
+"""北ふくろー @ nxKtWVcmeY"" calls 40",2026-02-09T13:58:17.944Z,177064549794400
+"""ころり @ n0s1KAOIRL"" bets 40",2026-02-09T13:58:02.284Z,177064548228400
+"""北ふくろー @ nxKtWVcmeY"" checks",2026-02-09T13:57:41.634Z,177064546163400
+"Flop:  [J♣, 10♦, Q♦]",2026-02-09T13:57:37.176Z,177064545717600
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:57:36.365Z,177064545636500
+"""北ふくろー @ nxKtWVcmeY"" calls 40",2026-02-09T13:57:35.361Z,177064545536100
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:57:15.806Z,177064543580600
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:57:14.802Z,177064543480200
+"""ころり @ n0s1KAOIRL"" raises to 40",2026-02-09T13:57:13.767Z,177064543376700
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:57:08.846Z,177064542884600
+"WARNING: the admin queued the stack change for the player ""SetsunaTrip @ O2b7zy1-XM"" reseting to 2000 chips in the next hand.",2026-02-09T13:57:05.267Z,177064542526700
+"""UMAUMA @ iKNrGrbUkg"" posts a big blind of 20",2026-02-09T13:57:03.463Z,177064542346309
+"""北ふくろー @ nxKtWVcmeY"" posts a small blind of 10",2026-02-09T13:57:03.463Z,177064542346308
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3756) | #2 ""北ふくろー @ nxKtWVcmeY"" (2295) | #3 ""UMAUMA @ iKNrGrbUkg"" (2248) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (1960) | #5 ""ころり @ n0s1KAOIRL"" (2575) | #10 ""hanzo @ DKe5W54dl3"" (2000)",2026-02-09T13:57:03.463Z,177064542346301
+"-- starting hand #68 (id: szfykz5ztn1v)  No Limit Texas Hold'em (dealer: ""Lemon @ Xa_1dhYEV4"") --",2026-02-09T13:57:03.463Z,177064542346300
+"-- ending hand #67 --",2026-02-09T13:57:00.512Z,177064542051202
+"""ころり @ n0s1KAOIRL"" collected 250 from pot",2026-02-09T13:57:00.512Z,177064542051201
+"Uncalled bet of 125 returned to ""ころり @ n0s1KAOIRL""",2026-02-09T13:57:00.512Z,177064542051200
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:56:59.698Z,177064541969800
+"""ころり @ n0s1KAOIRL"" bets 125",2026-02-09T13:56:56.532Z,177064541653200
+"""北ふくろー @ nxKtWVcmeY"" checks",2026-02-09T13:56:26.456Z,177064538645600
+"River: A♦, J♦, 4♣, A♥ [10♦]",2026-02-09T13:56:08.313Z,177064536831300
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:56:07.446Z,177064536744600
+"""北ふくろー @ nxKtWVcmeY"" calls 60",2026-02-09T13:55:44.917Z,177064534491700
+"""ころり @ n0s1KAOIRL"" bets 60",2026-02-09T13:55:39.688Z,177064533968800
+"""SetsunaTrip @ O2b7zy1-XM"" checks",2026-02-09T13:55:20.663Z,177064532066300
+"""北ふくろー @ nxKtWVcmeY"" checks",2026-02-09T13:55:18.400Z,177064531840000
+"Turn: A♦, J♦, 4♣ [A♥]",2026-02-09T13:55:08.455Z,177064530845500
+"""ころり @ n0s1KAOIRL"" checks",2026-02-09T13:55:07.629Z,177064530762900
+"""SetsunaTrip @ O2b7zy1-XM"" checks",2026-02-09T13:55:02.347Z,177064530234700
+"""北ふくろー @ nxKtWVcmeY"" checks",2026-02-09T13:55:00.292Z,177064530029200
+"Flop:  [A♦, J♦, 4♣]",2026-02-09T13:54:57.999Z,177064529799900
+"""北ふくろー @ nxKtWVcmeY"" calls 40",2026-02-09T13:54:57.185Z,177064529718500
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:54:53.927Z,177064529392700
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:54:52.925Z,177064529292500
+"""ころり @ n0s1KAOIRL"" calls 40",2026-02-09T13:54:51.877Z,177064529187700
+"""SetsunaTrip @ O2b7zy1-XM"" raises to 40",2026-02-09T13:54:49.672Z,177064528967200
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:54:41.146Z,177064528114600
+"""北ふくろー @ nxKtWVcmeY"" posts a big blind of 20",2026-02-09T13:54:39.434Z,177064527943410
+"""Lemon @ Xa_1dhYEV4"" posts a small blind of 10",2026-02-09T13:54:39.434Z,177064527943409
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3766) | #2 ""北ふくろー @ nxKtWVcmeY"" (2395) | #3 ""UMAUMA @ iKNrGrbUkg"" (2248) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2000) | #5 ""ころり @ n0s1KAOIRL"" (2425) | #10 ""hanzo @ DKe5W54dl3"" (2000)",2026-02-09T13:54:39.434Z,177064527943402
+"-- starting hand #67 (id: 7hx1txgytjcx)  No Limit Texas Hold'em (dealer: ""hanzo @ DKe5W54dl3"") --",2026-02-09T13:54:39.434Z,177064527943401
+"The admin updated the player ""hanzo @ DKe5W54dl3"" stack from 1990 to 2000.",2026-02-09T13:54:39.434Z,177064527943400
+"-- ending hand #66 --",2026-02-09T13:54:36.472Z,177064527647202
+"""ころり @ n0s1KAOIRL"" collected 160 from pot",2026-02-09T13:54:36.472Z,177064527647201
+"Uncalled bet of 40 returned to ""ころり @ n0s1KAOIRL""",2026-02-09T13:54:36.472Z,177064527647200
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:54:35.633Z,177064527563300
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:54:34.624Z,177064527462400
+"""ころり @ n0s1KAOIRL"" bets 40",2026-02-09T13:54:32.991Z,177064527299100
+"""北ふくろー @ nxKtWVcmeY"" checks",2026-02-09T13:54:25.146Z,177064526514600
+"""Lemon @ Xa_1dhYEV4"" checks",2026-02-09T13:54:21.793Z,177064526179300
+"Flop:  [4♣, 3♠, K♥]",2026-02-09T13:54:19.827Z,177064525982700
+"""Lemon @ Xa_1dhYEV4"" calls 50",2026-02-09T13:54:18.910Z,177064525891000
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:54:17.761Z,177064525776100
+"""ころり @ n0s1KAOIRL"" calls 50",2026-02-09T13:54:16.685Z,177064525668500
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:54:14.911Z,177064525491100
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:54:10.413Z,177064525041300
+"WARNING: the admin queued the stack change for the player ""hanzo @ DKe5W54dl3"" reseting to 2000 chips in the next hand.",2026-02-09T13:54:09.681Z,177064524968100
+"""北ふくろー @ nxKtWVcmeY"" raises to 50",2026-02-09T13:54:09.322Z,177064524932200
+"""Lemon @ Xa_1dhYEV4"" posts a big blind of 20",2026-02-09T13:54:06.217Z,177064524621710
+"""hanzo @ DKe5W54dl3"" posts a small blind of 10",2026-02-09T13:54:06.217Z,177064524621709
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3816) | #2 ""北ふくろー @ nxKtWVcmeY"" (2445) | #3 ""UMAUMA @ iKNrGrbUkg"" (2248) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2000) | #5 ""ころり @ n0s1KAOIRL"" (2315) | #10 ""hanzo @ DKe5W54dl3"" (2000)",2026-02-09T13:54:06.217Z,177064524621702
+"-- starting hand #66 (id: pbfhzccvvk3c)  No Limit Texas Hold'em (dealer: ""ころり @ n0s1KAOIRL"") --",2026-02-09T13:54:06.217Z,177064524621701
+"The admin updated the player ""hanzo @ DKe5W54dl3"" stack from 1951 to 2000.",2026-02-09T13:54:06.217Z,177064524621700
+"-- ending hand #65 --",2026-02-09T13:54:03.218Z,177064524321802
+"""北ふくろー @ nxKtWVcmeY"" collected 110 from pot",2026-02-09T13:54:03.218Z,177064524321801
+"Uncalled bet of 60 returned to ""北ふくろー @ nxKtWVcmeY""",2026-02-09T13:54:03.218Z,177064524321800
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:54:02.287Z,177064524228700
+"""北ふくろー @ nxKtWVcmeY"" bets 60",2026-02-09T13:53:53.868Z,177064523386800
+"""hanzo @ DKe5W54dl3"" checks",2026-02-09T13:53:47.271Z,177064522727100
+"Flop:  [9♠, 8♦, 3♠]",2026-02-09T13:53:45.206Z,177064522520600
+"""hanzo @ DKe5W54dl3"" calls 50",2026-02-09T13:53:44.397Z,177064522439700
+"""ころり @ n0s1KAOIRL"" folds",2026-02-09T13:53:40.825Z,177064522082500
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:53:39.780Z,177064521978000
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:53:38.756Z,177064521875600
+"""北ふくろー @ nxKtWVcmeY"" raises to 50",2026-02-09T13:53:37.758Z,177064521775800
+"WARNING: the admin queued the stack change for the player ""hanzo @ DKe5W54dl3"" reseting to 2000 chips in the next hand.",2026-02-09T13:53:34.196Z,177064521419600
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:53:32.461Z,177064521246100
+"""hanzo @ DKe5W54dl3"" posts a big blind of 20",2026-02-09T13:53:30.807Z,177064521080710
+"""ころり @ n0s1KAOIRL"" posts a small blind of 10",2026-02-09T13:53:30.807Z,177064521080709
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3816) | #2 ""北ふくろー @ nxKtWVcmeY"" (2385) | #3 ""UMAUMA @ iKNrGrbUkg"" (2248) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2000) | #5 ""ころり @ n0s1KAOIRL"" (2325) | #10 ""hanzo @ DKe5W54dl3"" (2001)",2026-02-09T13:53:30.807Z,177064521080702
+"-- starting hand #65 (id: ozeavnvppcbr)  No Limit Texas Hold'em (dealer: ""SetsunaTrip @ O2b7zy1-XM"") --",2026-02-09T13:53:30.807Z,177064521080701
+"The admin updated the player ""SetsunaTrip @ O2b7zy1-XM"" stack from 1990 to 2000.",2026-02-09T13:53:30.807Z,177064521080700
+"-- ending hand #64 --",2026-02-09T13:53:27.878Z,177064520787802
+"""北ふくろー @ nxKtWVcmeY"" collected 50 from pot",2026-02-09T13:53:27.878Z,177064520787801
+"Uncalled bet of 30 returned to ""北ふくろー @ nxKtWVcmeY""",2026-02-09T13:53:27.878Z,177064520787800
+"""ころり @ n0s1KAOIRL"" folds",2026-02-09T13:53:27.015Z,177064520701500
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:53:25.876Z,177064520587600
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:53:23.458Z,177064520345800
+"""北ふくろー @ nxKtWVcmeY"" raises to 50",2026-02-09T13:53:22.427Z,177064520242700
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:53:16.157Z,177064519615700
+"WARNING: the admin queued the stack change for the player ""SetsunaTrip @ O2b7zy1-XM"" reseting to 2000 chips in the next hand.",2026-02-09T13:53:15.312Z,177064519531200
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:53:14.181Z,177064519418100
+"""ころり @ n0s1KAOIRL"" posts a big blind of 20",2026-02-09T13:53:12.893Z,177064519289310
+"""SetsunaTrip @ O2b7zy1-XM"" posts a small blind of 10",2026-02-09T13:53:12.893Z,177064519289309
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3816) | #2 ""北ふくろー @ nxKtWVcmeY"" (2355) | #3 ""UMAUMA @ iKNrGrbUkg"" (2248) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2000) | #5 ""ころり @ n0s1KAOIRL"" (2345) | #10 ""hanzo @ DKe5W54dl3"" (2001)",2026-02-09T13:53:12.893Z,177064519289302
+"-- starting hand #64 (id: dlwxsh0kirxk)  No Limit Texas Hold'em (dealer: ""UMAUMA @ iKNrGrbUkg"") --",2026-02-09T13:53:12.893Z,177064519289301
+"The admin updated the player ""SetsunaTrip @ O2b7zy1-XM"" stack from 1725 to 2000.",2026-02-09T13:53:12.893Z,177064519289300
+"-- ending hand #63 --",2026-02-09T13:53:09.959Z,177064518995902
+"""ころり @ n0s1KAOIRL"" collected 50 from pot",2026-02-09T13:53:09.959Z,177064518995901
+"Uncalled bet of 20 returned to ""ころり @ n0s1KAOIRL""",2026-02-09T13:53:09.959Z,177064518995900
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:53:09.157Z,177064518915700
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:53:08.144Z,177064518814400
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:53:07.149Z,177064518714900
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:53:06.144Z,177064518614400
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:53:05.117Z,177064518511700
+"""ころり @ n0s1KAOIRL"" raises to 40",2026-02-09T13:53:01.568Z,177064518156800
+"WARNING: the admin queued the stack change for the player ""SetsunaTrip @ O2b7zy1-XM"" reseting to 2000 chips in the next hand.",2026-02-09T13:52:49.303Z,177064516930300
+"""SetsunaTrip @ O2b7zy1-XM"" posts a big blind of 20",2026-02-09T13:52:46.860Z,177064516686009
+"""UMAUMA @ iKNrGrbUkg"" posts a small blind of 10",2026-02-09T13:52:46.860Z,177064516686008
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3816) | #2 ""北ふくろー @ nxKtWVcmeY"" (2355) | #3 ""UMAUMA @ iKNrGrbUkg"" (2258) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (1745) | #5 ""ころり @ n0s1KAOIRL"" (2315) | #10 ""hanzo @ DKe5W54dl3"" (2001)",2026-02-09T13:52:46.860Z,177064516686001
+"-- starting hand #63 (id: vmawask7pnj3)  No Limit Texas Hold'em (dealer: ""北ふくろー @ nxKtWVcmeY"") --",2026-02-09T13:52:46.860Z,177064516686000
+"-- ending hand #62 --",2026-02-09T13:52:40.857Z,177064516085703
+"""ころり @ n0s1KAOIRL"" collected 540 from pot with Pair, 10's (combination: 8♥, J♦, K♣, 10♥, 10♦)",2026-02-09T13:52:40.857Z,177064516085702
+"""ころり @ n0s1KAOIRL"" shows a 10♥, 10♦.",2026-02-09T13:52:40.857Z,177064516085701
+"""SetsunaTrip @ O2b7zy1-XM"" shows a 9♠, 9♥.",2026-02-09T13:52:40.857Z,177064516085700
+"""ころり @ n0s1KAOIRL"" checks",2026-02-09T13:52:40.007Z,177064516000700
+"""SetsunaTrip @ O2b7zy1-XM"" checks",2026-02-09T13:52:37.492Z,177064515749200
+"River: K♣, 3♦, 8♥, J♦ [4♣]",2026-02-09T13:52:34.751Z,177064515475100
+"""ころり @ n0s1KAOIRL"" checks",2026-02-09T13:52:33.916Z,177064515391600
+"""SetsunaTrip @ O2b7zy1-XM"" checks",2026-02-09T13:52:28.457Z,177064514845700
+"Turn: K♣, 3♦, 8♥ [J♦]",2026-02-09T13:52:27.051Z,177064514705100
+"""SetsunaTrip @ O2b7zy1-XM"" calls 115",2026-02-09T13:52:26.207Z,177064514620700
+"""ころり @ n0s1KAOIRL"" bets 115",2026-02-09T13:52:21.521Z,177064514152100
+"""SetsunaTrip @ O2b7zy1-XM"" checks",2026-02-09T13:52:01.537Z,177064512153700
+"Flop:  [K♣, 3♦, 8♥]",2026-02-09T13:51:59.733Z,177064511973300
+"""SetsunaTrip @ O2b7zy1-XM"" calls 140",2026-02-09T13:51:58.879Z,177064511887900
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:51:55.625Z,177064511562500
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:51:54.617Z,177064511461700
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:51:53.613Z,177064511361300
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:51:52.591Z,177064511259100
+"""ころり @ n0s1KAOIRL"" raises to 140",2026-02-09T13:51:51.552Z,177064511155200
+"""SetsunaTrip @ O2b7zy1-XM"" raises to 40",2026-02-09T13:51:36.673Z,177064509667300
+"""UMAUMA @ iKNrGrbUkg"" posts a big blind of 20",2026-02-09T13:51:33.304Z,177064509330410
+"""北ふくろー @ nxKtWVcmeY"" posts a small blind of 10",2026-02-09T13:51:33.304Z,177064509330409
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3816) | #2 ""北ふくろー @ nxKtWVcmeY"" (2365) | #3 ""UMAUMA @ iKNrGrbUkg"" (2278) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2000) | #5 ""ころり @ n0s1KAOIRL"" (2030) | #10 ""hanzo @ DKe5W54dl3"" (2001)",2026-02-09T13:51:33.304Z,177064509330402
+"-- starting hand #62 (id: bjzq9lte20qt)  No Limit Texas Hold'em (dealer: ""Lemon @ Xa_1dhYEV4"") --",2026-02-09T13:51:33.304Z,177064509330401
+"The admin updated the player ""SetsunaTrip @ O2b7zy1-XM"" stack from 1950 to 2000.",2026-02-09T13:51:33.304Z,177064509330400
+"-- ending hand #61 --",2026-02-09T13:51:30.376Z,177064509037602
+"""ころり @ n0s1KAOIRL"" collected 50 from pot",2026-02-09T13:51:30.376Z,177064509037601
+"Uncalled bet of 20 returned to ""ころり @ n0s1KAOIRL""",2026-02-09T13:51:30.376Z,177064509037600
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:51:29.541Z,177064508954100
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:51:22.951Z,177064508295100
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:51:21.911Z,177064508191100
+"""ころり @ n0s1KAOIRL"" raises to 40",2026-02-09T13:51:20.315Z,177064508031500
+"WARNING: the admin queued the stack change for the player ""SetsunaTrip @ O2b7zy1-XM"" reseting to 2000 chips in the next hand.",2026-02-09T13:51:16.115Z,177064507611500
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:51:15.969Z,177064507596900
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:51:14.164Z,177064507416400
+"""北ふくろー @ nxKtWVcmeY"" posts a big blind of 20",2026-02-09T13:51:12.696Z,177064507269610
+"""Lemon @ Xa_1dhYEV4"" posts a small blind of 10",2026-02-09T13:51:12.696Z,177064507269609
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3826) | #2 ""北ふくろー @ nxKtWVcmeY"" (2385) | #3 ""UMAUMA @ iKNrGrbUkg"" (2278) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (1950) | #5 ""ころり @ n0s1KAOIRL"" (2000) | #10 ""hanzo @ DKe5W54dl3"" (2001)",2026-02-09T13:51:12.696Z,177064507269602
+"-- starting hand #61 (id: okz1gm4abn0j)  No Limit Texas Hold'em (dealer: ""hanzo @ DKe5W54dl3"") --",2026-02-09T13:51:12.696Z,177064507269601
+"The player ""ころり @ n0s1KAOIRL"" joined the game with a stack of 2000.",2026-02-09T13:51:12.696Z,177064507269600
+"-- ending hand #60 --",2026-02-09T13:51:09.752Z,177064506975202
+"""Lemon @ Xa_1dhYEV4"" collected 320 from pot",2026-02-09T13:51:09.752Z,177064506975201
+"Uncalled bet of 320 returned to ""Lemon @ Xa_1dhYEV4""",2026-02-09T13:51:09.752Z,177064506975200
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:51:08.895Z,177064506889500
+"""Lemon @ Xa_1dhYEV4"" bets 320",2026-02-09T13:51:07.441Z,177064506744100
+"River: 9♠, A♦, 5♥, Q♠ [6♣]",2026-02-09T13:50:52.633Z,177064505263300
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:50:51.765Z,177064505176500
+"""北ふくろー @ nxKtWVcmeY"" calls 80",2026-02-09T13:50:50.053Z,177064505005300
+"""Lemon @ Xa_1dhYEV4"" bets 80",2026-02-09T13:50:45.958Z,177064504595800
+"Turn: 9♠, A♦, 5♥ [Q♠]",2026-02-09T13:50:41.149Z,177064504114900
+"""SetsunaTrip @ O2b7zy1-XM"" checks",2026-02-09T13:50:40.332Z,177064504033200
+"""北ふくろー @ nxKtWVcmeY"" checks",2026-02-09T13:50:37.919Z,177064503791900
+"""Lemon @ Xa_1dhYEV4"" checks",2026-02-09T13:50:35.117Z,177064503511700
+"Flop:  [9♠, A♦, 5♥]",2026-02-09T13:50:32.917Z,177064503291700
+"""Lemon @ Xa_1dhYEV4"" calls 50",2026-02-09T13:50:32.108Z,177064503210800
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:50:25.205Z,177064502520500
+"""SetsunaTrip @ O2b7zy1-XM"" calls 50",2026-02-09T13:50:22.660Z,177064502266000
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:50:19.399Z,177064501939900
+"""北ふくろー @ nxKtWVcmeY"" raises to 50",2026-02-09T13:50:18.410Z,177064501841000
+"""Lemon @ Xa_1dhYEV4"" posts a big blind of 20",2026-02-09T13:50:10.610Z,177064501061009
+"""hanzo @ DKe5W54dl3"" posts a small blind of 10",2026-02-09T13:50:10.610Z,177064501061008
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3636) | #2 ""北ふくろー @ nxKtWVcmeY"" (2515) | #3 ""UMAUMA @ iKNrGrbUkg"" (2278) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2000) | #10 ""hanzo @ DKe5W54dl3"" (2011)",2026-02-09T13:50:10.610Z,177064501061002
+"-- starting hand #60 (id: 2mhyjnafsc4v)  No Limit Texas Hold'em (dealer: ""SetsunaTrip @ O2b7zy1-XM"") --",2026-02-09T13:50:10.610Z,177064501061001
+"The admin updated the player ""SetsunaTrip @ O2b7zy1-XM"" stack from 1990 to 2000.",2026-02-09T13:50:10.610Z,177064501061000
+"-- ending hand #59 --",2026-02-09T13:50:07.607Z,177064500760702
+"""北ふくろー @ nxKtWVcmeY"" collected 110 from pot",2026-02-09T13:50:07.607Z,177064500760701
+"Uncalled bet of 35 returned to ""北ふくろー @ nxKtWVcmeY""",2026-02-09T13:50:07.607Z,177064500760700
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:50:06.706Z,177064500670600
+"""北ふくろー @ nxKtWVcmeY"" bets 35",2026-02-09T13:50:02.232Z,177064500223200
+"""hanzo @ DKe5W54dl3"" checks",2026-02-09T13:49:54.204Z,177064499420400
+"Flop:  [2♥, K♠, 6♣]",2026-02-09T13:49:52.331Z,177064499233100
+"""hanzo @ DKe5W54dl3"" calls 50",2026-02-09T13:49:51.463Z,177064499146300
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:49:49.062Z,177064498906200
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:49:46.583Z,177064498658300
+"""北ふくろー @ nxKtWVcmeY"" raises to 50",2026-02-09T13:49:45.587Z,177064498558700
+"The admin approved the player ""ころり @ n0s1KAOIRL"" participation with a stack of 2000.",2026-02-09T13:49:45.111Z,177064498511100
+"The player ""ころり @ n0s1KAOIRL"" requested a seat.",2026-02-09T13:49:44.317Z,177064498431700
+"WARNING: the admin queued the stack change for the player ""SetsunaTrip @ O2b7zy1-XM"" reseting to 2000 chips in the next hand.",2026-02-09T13:49:38.407Z,177064497840700
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:49:37.165Z,177064497716500
+"""hanzo @ DKe5W54dl3"" posts a big blind of 20",2026-02-09T13:49:34.719Z,177064497471909
+"""SetsunaTrip @ O2b7zy1-XM"" posts a small blind of 10",2026-02-09T13:49:34.719Z,177064497471908
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3636) | #2 ""北ふくろー @ nxKtWVcmeY"" (2455) | #3 ""UMAUMA @ iKNrGrbUkg"" (2278) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2000) | #10 ""hanzo @ DKe5W54dl3"" (2061)",2026-02-09T13:49:34.719Z,177064497471902
+"-- starting hand #59 (id: ccppkmrvglpo)  No Limit Texas Hold'em (dealer: ""UMAUMA @ iKNrGrbUkg"") --",2026-02-09T13:49:34.719Z,177064497471901
+"The admin updated the player ""SetsunaTrip @ O2b7zy1-XM"" stack from 1980 to 2000.",2026-02-09T13:49:34.719Z,177064497471900
+"-- ending hand #58 --",2026-02-09T13:49:31.745Z,177064497174502
+"""hanzo @ DKe5W54dl3"" collected 50 from pot",2026-02-09T13:49:31.745Z,177064497174501
+"Uncalled bet of 30 returned to ""hanzo @ DKe5W54dl3""",2026-02-09T13:49:31.745Z,177064497174500
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:49:30.928Z,177064497092800
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:49:29.926Z,177064496992600
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:49:28.931Z,177064496893100
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:49:27.844Z,177064496784400
+"""hanzo @ DKe5W54dl3"" raises to 50",2026-02-09T13:49:24.041Z,177064496404100
+"WARNING: the admin queued the stack change for the player ""SetsunaTrip @ O2b7zy1-XM"" reseting to 2000 chips in the next hand.",2026-02-09T13:49:21.585Z,177064496158500
+"""SetsunaTrip @ O2b7zy1-XM"" posts a big blind of 20",2026-02-09T13:49:17.955Z,177064495795508
+"""UMAUMA @ iKNrGrbUkg"" posts a small blind of 10",2026-02-09T13:49:17.955Z,177064495795507
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3636) | #2 ""北ふくろー @ nxKtWVcmeY"" (2455) | #3 ""UMAUMA @ iKNrGrbUkg"" (2288) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2000) | #10 ""hanzo @ DKe5W54dl3"" (2031)",2026-02-09T13:49:17.955Z,177064495795501
+"-- starting hand #58 (id: tphcnb84wam6)  No Limit Texas Hold'em (dealer: ""北ふくろー @ nxKtWVcmeY"") --",2026-02-09T13:49:17.955Z,177064495795500
+"-- ending hand #57 --",2026-02-09T13:49:11.935Z,177064495193502
+"""UMAUMA @ iKNrGrbUkg"" collected 124 from pot with A High (combination: 5♥, 10♥, Q♣, K♥, A♠)",2026-02-09T13:49:11.935Z,177064495193501
+"""UMAUMA @ iKNrGrbUkg"" shows a Q♣, A♠.",2026-02-09T13:49:11.935Z,177064495193500
+"""Lemon @ Xa_1dhYEV4"" checks",2026-02-09T13:49:11.085Z,177064495108500
+"""UMAUMA @ iKNrGrbUkg"" checks",2026-02-09T13:49:09.791Z,177064494979100
+"River: K♥, 5♥, 10♥, 2♠ [3♠]",2026-02-09T13:49:02.281Z,177064494228100
+"""Lemon @ Xa_1dhYEV4"" checks",2026-02-09T13:49:01.462Z,177064494146200
+"""UMAUMA @ iKNrGrbUkg"" checks",2026-02-09T13:48:57.531Z,177064493753100
+"Turn: K♥, 5♥, 10♥ [2♠]",2026-02-09T13:48:45.642Z,177064492564200
+"""Lemon @ Xa_1dhYEV4"" checks",2026-02-09T13:48:44.829Z,177064492482900
+"""UMAUMA @ iKNrGrbUkg"" checks",2026-02-09T13:48:42.941Z,177064492294100
+"Flop:  [K♥, 5♥, 10♥]",2026-02-09T13:48:37.240Z,177064491724000
+"""UMAUMA @ iKNrGrbUkg"" calls 57",2026-02-09T13:48:36.334Z,177064491633400
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:48:28.579Z,177064490857900
+"""Lemon @ Xa_1dhYEV4"" raises to 57",2026-02-09T13:48:26.846Z,177064490684600
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:48:21.086Z,177064490108600
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:48:20.069Z,177064490006900
+"""UMAUMA @ iKNrGrbUkg"" posts a big blind of 20",2026-02-09T13:48:17.430Z,177064489743009
+"""北ふくろー @ nxKtWVcmeY"" posts a small blind of 10",2026-02-09T13:48:17.430Z,177064489743008
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3693) | #2 ""北ふくろー @ nxKtWVcmeY"" (2465) | #3 ""UMAUMA @ iKNrGrbUkg"" (2221) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2000) | #10 ""hanzo @ DKe5W54dl3"" (2031)",2026-02-09T13:48:17.430Z,177064489743002
+"-- starting hand #57 (id: amvqoriecquq)  No Limit Texas Hold'em (dealer: ""Lemon @ Xa_1dhYEV4"") --",2026-02-09T13:48:17.430Z,177064489743001
+"The admin updated the player ""SetsunaTrip @ O2b7zy1-XM"" stack from 1865 to 2000.",2026-02-09T13:48:17.430Z,177064489743000
+"-- ending hand #56 --",2026-02-09T13:48:14.441Z,177064489444102
+"""hanzo @ DKe5W54dl3"" collected 50 from pot",2026-02-09T13:48:14.441Z,177064489444101
+"Uncalled bet of 30 returned to ""hanzo @ DKe5W54dl3""",2026-02-09T13:48:14.441Z,177064489444100
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:48:13.629Z,177064489362900
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:48:12.603Z,177064489260300
+"""hanzo @ DKe5W54dl3"" raises to 50",2026-02-09T13:48:10.153Z,177064489015300
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:48:05.464Z,177064488546400
+"WARNING: the admin queued the stack change for the player ""SetsunaTrip @ O2b7zy1-XM"" reseting to 2000 chips in the next hand.",2026-02-09T13:48:05.021Z,177064488502100
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:48:04.473Z,177064488447300
+"""北ふくろー @ nxKtWVcmeY"" posts a big blind of 20",2026-02-09T13:48:01.918Z,177064488191808
+"""Lemon @ Xa_1dhYEV4"" posts a small blind of 10",2026-02-09T13:48:01.918Z,177064488191807
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3703) | #2 ""北ふくろー @ nxKtWVcmeY"" (2485) | #3 ""UMAUMA @ iKNrGrbUkg"" (2221) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (1865) | #10 ""hanzo @ DKe5W54dl3"" (2001)",2026-02-09T13:48:01.918Z,177064488191801
+"-- starting hand #56 (id: 4ofjraepvu3o)  No Limit Texas Hold'em (dealer: ""hanzo @ DKe5W54dl3"") --",2026-02-09T13:48:01.918Z,177064488191800
+"-- ending hand #55 --",2026-02-09T13:47:58.968Z,177064487896802
+"""北ふくろー @ nxKtWVcmeY"" collected 350 from pot",2026-02-09T13:47:58.968Z,177064487896801
+"Uncalled bet of 440 returned to ""北ふくろー @ nxKtWVcmeY""",2026-02-09T13:47:58.968Z,177064487896800
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:47:58.163Z,177064487816300
+"""北ふくろー @ nxKtWVcmeY"" raises to 600",2026-02-09T13:47:55.009Z,177064487500900
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:47:40.694Z,177064486069400
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:47:39.694Z,177064485969400
+"""SetsunaTrip @ O2b7zy1-XM"" raises to 160",2026-02-09T13:47:38.701Z,177064485870100
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:47:29.894Z,177064484989400
+"""北ふくろー @ nxKtWVcmeY"" raises to 50",2026-02-09T13:47:27.371Z,177064484737100
+"""Lemon @ Xa_1dhYEV4"" posts a big blind of 20",2026-02-09T13:47:20.938Z,177064484093808
+"""hanzo @ DKe5W54dl3"" posts a small blind of 10",2026-02-09T13:47:20.938Z,177064484093807
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3723) | #2 ""北ふくろー @ nxKtWVcmeY"" (2295) | #3 ""UMAUMA @ iKNrGrbUkg"" (2221) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2025) | #10 ""hanzo @ DKe5W54dl3"" (2011)",2026-02-09T13:47:20.938Z,177064484093801
+"-- starting hand #55 (id: ipetb5ubgaza)  No Limit Texas Hold'em (dealer: ""SetsunaTrip @ O2b7zy1-XM"") --",2026-02-09T13:47:20.938Z,177064484093800
+"-- ending hand #54 --",2026-02-09T13:47:17.989Z,177064483798902
+"""UMAUMA @ iKNrGrbUkg"" collected 210 from pot",2026-02-09T13:47:17.989Z,177064483798901
+"Uncalled bet of 80 returned to ""UMAUMA @ iKNrGrbUkg""",2026-02-09T13:47:17.989Z,177064483798900
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:47:17.165Z,177064483716500
+"""UMAUMA @ iKNrGrbUkg"" raises to 120",2026-02-09T13:47:15.008Z,177064483500800
+"""北ふくろー @ nxKtWVcmeY"" bets 40",2026-02-09T13:47:06.080Z,177064482608000
+"Flop:  [5♣, 10♠, J♠]",2026-02-09T13:46:57.910Z,177064481791000
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:46:57.075Z,177064481707500
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:46:54.231Z,177064481423100
+"""UMAUMA @ iKNrGrbUkg"" calls 50",2026-02-09T13:46:53.195Z,177064481319500
+"""北ふくろー @ nxKtWVcmeY"" raises to 50",2026-02-09T13:46:49.214Z,177064480921400
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:46:41.780Z,177064480178000
+"""hanzo @ DKe5W54dl3"" posts a big blind of 20",2026-02-09T13:46:39.834Z,177064479983408
+"""SetsunaTrip @ O2b7zy1-XM"" posts a small blind of 10",2026-02-09T13:46:39.834Z,177064479983407
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3723) | #2 ""北ふくろー @ nxKtWVcmeY"" (2385) | #3 ""UMAUMA @ iKNrGrbUkg"" (2101) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2035) | #10 ""hanzo @ DKe5W54dl3"" (2031)",2026-02-09T13:46:39.834Z,177064479983401
+"-- starting hand #54 (id: oypeixj9hg8w)  No Limit Texas Hold'em (dealer: ""UMAUMA @ iKNrGrbUkg"") --",2026-02-09T13:46:39.834Z,177064479983400
+"-- ending hand #53 --",2026-02-09T13:46:33.830Z,177064479383003
+"""北ふくろー @ nxKtWVcmeY"" collected 160 from pot with Pair, 7's (combination: 6♥, 10♠, A♥, 7♠, 7♣)",2026-02-09T13:46:33.830Z,177064479383002
+"""北ふくろー @ nxKtWVcmeY"" shows a 10♠, 7♠.",2026-02-09T13:46:33.830Z,177064479383001
+"""SetsunaTrip @ O2b7zy1-XM"" shows a K♦, 10♥.",2026-02-09T13:46:33.830Z,177064479383000
+"""北ふくろー @ nxKtWVcmeY"" checks",2026-02-09T13:46:33.008Z,177064479300800
+"""hanzo @ DKe5W54dl3"" checks",2026-02-09T13:46:31.694Z,177064479169400
+"""SetsunaTrip @ O2b7zy1-XM"" checks",2026-02-09T13:46:30.568Z,177064479056800
+"River: 6♥, A♥, 2♦, 4♣ [7♣]",2026-02-09T13:46:27.735Z,177064478773500
+"""北ふくろー @ nxKtWVcmeY"" checks",2026-02-09T13:46:26.899Z,177064478689900
+"""hanzo @ DKe5W54dl3"" checks",2026-02-09T13:46:23.031Z,177064478303100
+"""SetsunaTrip @ O2b7zy1-XM"" checks",2026-02-09T13:46:21.239Z,177064478123900
+"Turn: 6♥, A♥, 2♦ [4♣]",2026-02-09T13:46:19.081Z,177064477908100
+"""北ふくろー @ nxKtWVcmeY"" checks",2026-02-09T13:46:18.249Z,177064477824900
+"""hanzo @ DKe5W54dl3"" checks",2026-02-09T13:46:11.630Z,177064477163000
+"""SetsunaTrip @ O2b7zy1-XM"" checks",2026-02-09T13:46:09.941Z,177064476994100
+"Flop:  [6♥, A♥, 2♦]",2026-02-09T13:46:08.266Z,177064476826600
+"""SetsunaTrip @ O2b7zy1-XM"" calls 50",2026-02-09T13:46:07.462Z,177064476746200
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:46:03.658Z,177064476365800
+"""北ふくろー @ nxKtWVcmeY"" calls 50",2026-02-09T13:46:02.592Z,177064476259200
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:45:56.906Z,177064475690600
+"""hanzo @ DKe5W54dl3"" raises to 50",2026-02-09T13:45:55.907Z,177064475590700
+"""SetsunaTrip @ O2b7zy1-XM"" posts a big blind of 20",2026-02-09T13:45:50.626Z,177064475062608
+"""UMAUMA @ iKNrGrbUkg"" posts a small blind of 10",2026-02-09T13:45:50.626Z,177064475062607
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3723) | #2 ""北ふくろー @ nxKtWVcmeY"" (2275) | #3 ""UMAUMA @ iKNrGrbUkg"" (2111) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2085) | #10 ""hanzo @ DKe5W54dl3"" (2081)",2026-02-09T13:45:50.626Z,177064475062601
+"-- starting hand #53 (id: adkkqh8v3feu)  No Limit Texas Hold'em (dealer: ""北ふくろー @ nxKtWVcmeY"") --",2026-02-09T13:45:50.626Z,177064475062600
+"-- ending hand #52 --",2026-02-09T13:45:47.679Z,177064474767902
+"""北ふくろー @ nxKtWVcmeY"" collected 40 from pot",2026-02-09T13:45:47.679Z,177064474767901
+"Uncalled bet of 40 returned to ""北ふくろー @ nxKtWVcmeY""",2026-02-09T13:45:47.679Z,177064474767900
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:45:46.860Z,177064474686000
+"""北ふくろー @ nxKtWVcmeY"" raises to 60",2026-02-09T13:45:45.850Z,177064474585000
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:45:41.172Z,177064474117200
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:45:37.527Z,177064473752700
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:45:35.342Z,177064473534200
+"""UMAUMA @ iKNrGrbUkg"" posts a big blind of 20",2026-02-09T13:45:30.123Z,177064473012308
+"""北ふくろー @ nxKtWVcmeY"" posts a small blind of 10",2026-02-09T13:45:30.123Z,177064473012307
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3723) | #2 ""北ふくろー @ nxKtWVcmeY"" (2255) | #3 ""UMAUMA @ iKNrGrbUkg"" (2131) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2085) | #10 ""hanzo @ DKe5W54dl3"" (2081)",2026-02-09T13:45:30.123Z,177064473012301
+"-- starting hand #52 (id: imjvvozlwmx7)  No Limit Texas Hold'em (dealer: ""Lemon @ Xa_1dhYEV4"") --",2026-02-09T13:45:30.123Z,177064473012300
+"-- ending hand #51 --",2026-02-09T13:45:27.199Z,177064472719902
+"""北ふくろー @ nxKtWVcmeY"" collected 20 from pot",2026-02-09T13:45:27.199Z,177064472719901
+"Uncalled bet of 10 returned to ""北ふくろー @ nxKtWVcmeY""",2026-02-09T13:45:27.199Z,177064472719900
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:45:26.339Z,177064472633900
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:45:22.490Z,177064472249000
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:45:21.420Z,177064472142000
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:45:20.427Z,177064472042700
+"""北ふくろー @ nxKtWVcmeY"" posts a big blind of 20",2026-02-09T13:45:18.319Z,177064471831908
+"""Lemon @ Xa_1dhYEV4"" posts a small blind of 10",2026-02-09T13:45:18.319Z,177064471831907
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3733) | #2 ""北ふくろー @ nxKtWVcmeY"" (2245) | #3 ""UMAUMA @ iKNrGrbUkg"" (2131) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2085) | #10 ""hanzo @ DKe5W54dl3"" (2081)",2026-02-09T13:45:18.319Z,177064471831901
+"-- starting hand #51 (id: yl51mzkesvxt)  No Limit Texas Hold'em (dealer: ""hanzo @ DKe5W54dl3"") --",2026-02-09T13:45:18.319Z,177064471831900
+"-- ending hand #50 --",2026-02-09T13:45:15.412Z,177064471541202
+"""SetsunaTrip @ O2b7zy1-XM"" collected 50 from pot",2026-02-09T13:45:15.412Z,177064471541201
+"Uncalled bet of 30 returned to ""SetsunaTrip @ O2b7zy1-XM""",2026-02-09T13:45:15.412Z,177064471541200
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:45:14.586Z,177064471458600
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:45:08.473Z,177064470847300
+"""SetsunaTrip @ O2b7zy1-XM"" raises to 50",2026-02-09T13:45:05.972Z,177064470597200
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:44:59.770Z,177064469977000
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:44:55.391Z,177064469539100
+"""Lemon @ Xa_1dhYEV4"" posts a big blind of 20",2026-02-09T13:44:46.278Z,177064468627808
+"""hanzo @ DKe5W54dl3"" posts a small blind of 10",2026-02-09T13:44:46.278Z,177064468627807
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3753) | #2 ""北ふくろー @ nxKtWVcmeY"" (2245) | #3 ""UMAUMA @ iKNrGrbUkg"" (2131) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2055) | #10 ""hanzo @ DKe5W54dl3"" (2091)",2026-02-09T13:44:46.278Z,177064468627801
+"-- starting hand #50 (id: bzjiuiqa3x4m)  No Limit Texas Hold'em (dealer: ""SetsunaTrip @ O2b7zy1-XM"") --",2026-02-09T13:44:46.278Z,177064468627800
+"-- ending hand #49 --",2026-02-09T13:44:43.350Z,177064468335002
+"""北ふくろー @ nxKtWVcmeY"" collected 190 from pot",2026-02-09T13:44:43.350Z,177064468335001
+"Uncalled bet of 150 returned to ""北ふくろー @ nxKtWVcmeY""",2026-02-09T13:44:43.350Z,177064468335000
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:44:42.521Z,177064468252100
+"""北ふくろー @ nxKtWVcmeY"" bets 150",2026-02-09T13:44:39.287Z,177064467928700
+"""hanzo @ DKe5W54dl3"" checks",2026-02-09T13:44:23.874Z,177064466387400
+"River: 8♣, 5♠, 5♥, 4♠ [A♣]",2026-02-09T13:44:05.331Z,177064464533100
+"""北ふくろー @ nxKtWVcmeY"" calls 40",2026-02-09T13:44:04.514Z,177064464451400
+"""hanzo @ DKe5W54dl3"" bets 40",2026-02-09T13:43:47.652Z,177064462765200
+"Turn: 8♣, 5♠, 5♥ [4♠]",2026-02-09T13:43:29.252Z,177064460925200
+"""北ふくろー @ nxKtWVcmeY"" checks",2026-02-09T13:43:28.431Z,177064460843100
+"""hanzo @ DKe5W54dl3"" checks",2026-02-09T13:43:21.224Z,177064460122400
+"Flop:  [8♣, 5♠, 5♥]",2026-02-09T13:43:19.448Z,177064459944800
+"""hanzo @ DKe5W54dl3"" calls 50",2026-02-09T13:43:18.603Z,177064459860300
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:43:14.448Z,177064459444800
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:43:13.428Z,177064459342800
+"""北ふくろー @ nxKtWVcmeY"" raises to 50",2026-02-09T13:43:12.394Z,177064459239400
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:43:03.348Z,177064458334800
+"""hanzo @ DKe5W54dl3"" posts a big blind of 20",2026-02-09T13:43:00.948Z,177064458094808
+"""SetsunaTrip @ O2b7zy1-XM"" posts a small blind of 10",2026-02-09T13:43:00.948Z,177064458094807
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3753) | #2 ""北ふくろー @ nxKtWVcmeY"" (2145) | #3 ""UMAUMA @ iKNrGrbUkg"" (2131) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2065) | #10 ""hanzo @ DKe5W54dl3"" (2181)",2026-02-09T13:43:00.948Z,177064458094801
+"-- starting hand #49 (id: 8hunnrypaucm)  No Limit Texas Hold'em (dealer: ""UMAUMA @ iKNrGrbUkg"") --",2026-02-09T13:43:00.948Z,177064458094800
+"-- ending hand #48 --",2026-02-09T13:42:58.023Z,177064457802302
+"""SetsunaTrip @ O2b7zy1-XM"" collected 20 from pot",2026-02-09T13:42:58.023Z,177064457802301
+"Uncalled bet of 10 returned to ""SetsunaTrip @ O2b7zy1-XM""",2026-02-09T13:42:58.023Z,177064457802300
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:42:57.206Z,177064457720600
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:42:56.145Z,177064457614500
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:42:55.117Z,177064457511700
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:42:52.894Z,177064457289400
+"""SetsunaTrip @ O2b7zy1-XM"" posts a big blind of 20",2026-02-09T13:42:50.943Z,177064457094308
+"""UMAUMA @ iKNrGrbUkg"" posts a small blind of 10",2026-02-09T13:42:50.943Z,177064457094307
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3753) | #2 ""北ふくろー @ nxKtWVcmeY"" (2145) | #3 ""UMAUMA @ iKNrGrbUkg"" (2141) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2055) | #10 ""hanzo @ DKe5W54dl3"" (2181)",2026-02-09T13:42:50.943Z,177064457094301
+"-- starting hand #48 (id: zh9a56styve1)  No Limit Texas Hold'em (dealer: ""北ふくろー @ nxKtWVcmeY"") --",2026-02-09T13:42:50.943Z,177064457094300
+"-- ending hand #47 --",2026-02-09T13:42:48.011Z,177064456801101
+"""北ふくろー @ nxKtWVcmeY"" collected 40 from pot",2026-02-09T13:42:48.011Z,177064456801100
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:42:47.192Z,177064456719200
+"""北ふくろー @ nxKtWVcmeY"" calls 20",2026-02-09T13:42:46.140Z,177064456614000
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:42:40.384Z,177064456038400
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:42:39.389Z,177064455938900
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:42:38.323Z,177064455832300
+"""UMAUMA @ iKNrGrbUkg"" posts a big blind of 20",2026-02-09T13:42:35.595Z,177064455559508
+"""北ふくろー @ nxKtWVcmeY"" posts a small blind of 10",2026-02-09T13:42:35.595Z,177064455559507
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3753) | #2 ""北ふくろー @ nxKtWVcmeY"" (2125) | #3 ""UMAUMA @ iKNrGrbUkg"" (2161) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2055) | #10 ""hanzo @ DKe5W54dl3"" (2181)",2026-02-09T13:42:35.595Z,177064455559501
+"-- starting hand #47 (id: iljmnot6kil7)  No Limit Texas Hold'em (dealer: ""Lemon @ Xa_1dhYEV4"") --",2026-02-09T13:42:35.595Z,177064455559500
+"-- ending hand #46 --",2026-02-09T13:42:29.589Z,177064454958903
+"""SetsunaTrip @ O2b7zy1-XM"" collected 100 from pot with Two Pair, 6's & 5's (combination: 9♦, 5♠, 5♦, 6♦, 6♣)",2026-02-09T13:42:29.589Z,177064454958902
+"""SetsunaTrip @ O2b7zy1-XM"" shows a 5♠, 5♦.",2026-02-09T13:42:29.589Z,177064454958901
+"""北ふくろー @ nxKtWVcmeY"" shows a 10♦, K♠.",2026-02-09T13:42:29.589Z,177064454958900
+"""SetsunaTrip @ O2b7zy1-XM"" checks",2026-02-09T13:42:28.753Z,177064454875300
+"""北ふくろー @ nxKtWVcmeY"" checks",2026-02-09T13:42:27.312Z,177064454731200
+"River: 3♠, 8♥, 6♦, 6♣ [9♦]",2026-02-09T13:42:20.103Z,177064454010300
+"""SetsunaTrip @ O2b7zy1-XM"" checks",2026-02-09T13:42:19.285Z,177064453928500
+"""北ふくろー @ nxKtWVcmeY"" checks",2026-02-09T13:42:14.646Z,177064453464600
+"Turn: 3♠, 8♥, 6♦ [6♣]",2026-02-09T13:42:07.296Z,177064452729600
+"""SetsunaTrip @ O2b7zy1-XM"" checks",2026-02-09T13:42:06.441Z,177064452644100
+"""北ふくろー @ nxKtWVcmeY"" checks",2026-02-09T13:41:59.277Z,177064451927700
+"Flop:  [3♠, 8♥, 6♦]",2026-02-09T13:41:55.692Z,177064451569200
+"""北ふくろー @ nxKtWVcmeY"" calls 45",2026-02-09T13:41:54.836Z,177064451483600
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:41:47.439Z,177064450743900
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:41:46.427Z,177064450642700
+"""SetsunaTrip @ O2b7zy1-XM"" raises to 45",2026-02-09T13:41:45.401Z,177064450540100
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:41:39.012Z,177064449901200
+"""北ふくろー @ nxKtWVcmeY"" posts a big blind of 20",2026-02-09T13:41:37.596Z,177064449759608
+"""Lemon @ Xa_1dhYEV4"" posts a small blind of 10",2026-02-09T13:41:37.596Z,177064449759607
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3763) | #2 ""北ふくろー @ nxKtWVcmeY"" (2170) | #3 ""UMAUMA @ iKNrGrbUkg"" (2161) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2000) | #10 ""hanzo @ DKe5W54dl3"" (2181)",2026-02-09T13:41:37.596Z,177064449759601
+"-- starting hand #46 (id: o6hpvprqzcby)  No Limit Texas Hold'em (dealer: ""hanzo @ DKe5W54dl3"") --",2026-02-09T13:41:37.596Z,177064449759600
+"-- ending hand #45 --",2026-02-09T13:41:34.624Z,177064449462402
+"""Lemon @ Xa_1dhYEV4"" collected 120 from pot",2026-02-09T13:41:34.624Z,177064449462401
+"Uncalled bet of 60 returned to ""Lemon @ Xa_1dhYEV4""",2026-02-09T13:41:34.624Z,177064449462400
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:41:33.811Z,177064449381100
+"""Lemon @ Xa_1dhYEV4"" bets 60",2026-02-09T13:41:29.441Z,177064448944100
+"""hanzo @ DKe5W54dl3"" checks",2026-02-09T13:41:25.115Z,177064448511500
+"Turn: 7♠, 8♦, Q♥ [9♠]",2026-02-09T13:41:22.073Z,177064448207300
+"""Lemon @ Xa_1dhYEV4"" checks",2026-02-09T13:41:21.237Z,177064448123700
+"""hanzo @ DKe5W54dl3"" checks",2026-02-09T13:41:20.225Z,177064448022500
+"Flop:  [7♠, 8♦, Q♥]",2026-02-09T13:41:18.313Z,177064447831300
+"""Lemon @ Xa_1dhYEV4"" calls 60",2026-02-09T13:41:17.474Z,177064447747400
+"""hanzo @ DKe5W54dl3"" raises to 60",2026-02-09T13:41:15.437Z,177064447543700
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:41:10.441Z,177064447044100
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:41:09.327Z,177064446932700
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:41:05.950Z,177064446595000
+"""Lemon @ Xa_1dhYEV4"" posts a big blind of 20",2026-02-09T13:41:04.602Z,177064446460209
+"""hanzo @ DKe5W54dl3"" posts a small blind of 10",2026-02-09T13:41:04.602Z,177064446460208
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3703) | #2 ""北ふくろー @ nxKtWVcmeY"" (2170) | #3 ""UMAUMA @ iKNrGrbUkg"" (2161) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2000) | #10 ""hanzo @ DKe5W54dl3"" (2241)",2026-02-09T13:41:04.602Z,177064446460202
+"-- starting hand #45 (id: oqcu7x5bzspf)  No Limit Texas Hold'em (dealer: ""SetsunaTrip @ O2b7zy1-XM"") --",2026-02-09T13:41:04.602Z,177064446460201
+"The admin updated the player ""SetsunaTrip @ O2b7zy1-XM"" stack from 1800 to 2000.",2026-02-09T13:41:04.602Z,177064446460200
+"-- ending hand #44 --",2026-02-09T13:41:01.700Z,177064446170002
+"""Lemon @ Xa_1dhYEV4"" collected 420 from pot",2026-02-09T13:41:01.700Z,177064446170001
+"Uncalled bet of 210 returned to ""Lemon @ Xa_1dhYEV4""",2026-02-09T13:41:01.700Z,177064446170000
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:41:00.868Z,177064446086800
+"""Lemon @ Xa_1dhYEV4"" bets 210",2026-02-09T13:40:54.808Z,177064445480800
+"""SetsunaTrip @ O2b7zy1-XM"" checks",2026-02-09T13:40:47.009Z,177064444700900
+"Flop:  [5♣, 2♦, 3♥]",2026-02-09T13:40:39.497Z,177064443949700
+"""Lemon @ Xa_1dhYEV4"" calls 200",2026-02-09T13:40:38.666Z,177064443866600
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:40:33.586Z,177064443358600
+"""SetsunaTrip @ O2b7zy1-XM"" raises to 200",2026-02-09T13:40:31.485Z,177064443148500
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:40:25.241Z,177064442524100
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:40:24.232Z,177064442423200
+"""Lemon @ Xa_1dhYEV4"" raises to 45",2026-02-09T13:40:22.033Z,177064442203300
+"WARNING: the admin queued the stack change for the player ""SetsunaTrip @ O2b7zy1-XM"" reseting to 2000 chips in the next hand.",2026-02-09T13:40:20.588Z,177064442058800
+"""hanzo @ DKe5W54dl3"" posts a big blind of 20",2026-02-09T13:40:17.465Z,177064441746509
+"""SetsunaTrip @ O2b7zy1-XM"" posts a small blind of 10",2026-02-09T13:40:17.465Z,177064441746508
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3483) | #2 ""北ふくろー @ nxKtWVcmeY"" (2170) | #3 ""UMAUMA @ iKNrGrbUkg"" (2161) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2000) | #10 ""hanzo @ DKe5W54dl3"" (2261)",2026-02-09T13:40:17.465Z,177064441746502
+"-- starting hand #44 (id: l6ctvamhkf0a)  No Limit Texas Hold'em (dealer: ""UMAUMA @ iKNrGrbUkg"") --",2026-02-09T13:40:17.465Z,177064441746501
+"The admin updated the player ""SetsunaTrip @ O2b7zy1-XM"" stack from 1980 to 2000.",2026-02-09T13:40:17.465Z,177064441746500
+"-- ending hand #43 --",2026-02-09T13:40:14.562Z,177064441456202
+"""hanzo @ DKe5W54dl3"" collected 50 from pot",2026-02-09T13:40:14.562Z,177064441456201
+"Uncalled bet of 30 returned to ""hanzo @ DKe5W54dl3""",2026-02-09T13:40:14.562Z,177064441456200
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:40:13.702Z,177064441370200
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:40:12.116Z,177064441211600
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:40:09.270Z,177064440927000
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:40:08.193Z,177064440819300
+"""hanzo @ DKe5W54dl3"" raises to 50",2026-02-09T13:40:07.180Z,177064440718000
+"WARNING: the admin queued the stack change for the player ""SetsunaTrip @ O2b7zy1-XM"" reseting to 2000 chips in the next hand.",2026-02-09T13:40:05.605Z,177064440560500
+"""SetsunaTrip @ O2b7zy1-XM"" posts a big blind of 20",2026-02-09T13:40:02.558Z,177064440255808
+"""UMAUMA @ iKNrGrbUkg"" posts a small blind of 10",2026-02-09T13:40:02.558Z,177064440255807
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3483) | #2 ""北ふくろー @ nxKtWVcmeY"" (2170) | #3 ""UMAUMA @ iKNrGrbUkg"" (2171) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2000) | #10 ""hanzo @ DKe5W54dl3"" (2231)",2026-02-09T13:40:02.558Z,177064440255801
+"-- starting hand #43 (id: emnf73xomh2f)  No Limit Texas Hold'em (dealer: ""北ふくろー @ nxKtWVcmeY"") --",2026-02-09T13:40:02.558Z,177064440255800
+"-- ending hand #42 --",2026-02-09T13:39:59.639Z,177064439963902
+"""UMAUMA @ iKNrGrbUkg"" collected 230 from pot",2026-02-09T13:39:59.639Z,177064439963901
+"Uncalled bet of 120 returned to ""UMAUMA @ iKNrGrbUkg""",2026-02-09T13:39:59.639Z,177064439963900
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:39:58.759Z,177064439875900
+"""UMAUMA @ iKNrGrbUkg"" raises to 180",2026-02-09T13:39:45.187Z,177064438518700
+"""hanzo @ DKe5W54dl3"" bets 60",2026-02-09T13:39:29.262Z,177064436926200
+"""UMAUMA @ iKNrGrbUkg"" checks",2026-02-09T13:39:05.256Z,177064434525600
+"Turn: 4♦, 5♣, 3♦ [3♠]",2026-02-09T13:39:00.122Z,177064434012200
+"""hanzo @ DKe5W54dl3"" checks",2026-02-09T13:38:59.258Z,177064433925800
+"""UMAUMA @ iKNrGrbUkg"" checks",2026-02-09T13:38:57.087Z,177064433708700
+"Flop:  [4♦, 5♣, 3♦]",2026-02-09T13:38:49.721Z,177064432972100
+"""UMAUMA @ iKNrGrbUkg"" calls 50",2026-02-09T13:38:48.883Z,177064432888300
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:38:45.873Z,177064432587300
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:38:44.857Z,177064432485700
+"""hanzo @ DKe5W54dl3"" raises to 50",2026-02-09T13:38:38.088Z,177064431808800
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:38:31.612Z,177064431161200
+"""UMAUMA @ iKNrGrbUkg"" posts a big blind of 20",2026-02-09T13:38:29.945Z,177064430994508
+"""北ふくろー @ nxKtWVcmeY"" posts a small blind of 10",2026-02-09T13:38:29.945Z,177064430994507
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3483) | #2 ""北ふくろー @ nxKtWVcmeY"" (2180) | #3 ""UMAUMA @ iKNrGrbUkg"" (2051) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2000) | #10 ""hanzo @ DKe5W54dl3"" (2341)",2026-02-09T13:38:29.945Z,177064430994501
+"-- starting hand #42 (id: tjfffatmkwiq)  No Limit Texas Hold'em (dealer: ""Lemon @ Xa_1dhYEV4"") --",2026-02-09T13:38:29.945Z,177064430994500
+"-- ending hand #41 --",2026-02-09T13:38:27.036Z,177064430703602
+"""Lemon @ Xa_1dhYEV4"" collected 100 from pot",2026-02-09T13:38:27.036Z,177064430703601
+"Uncalled bet of 120 returned to ""Lemon @ Xa_1dhYEV4""",2026-02-09T13:38:27.036Z,177064430703600
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:38:26.153Z,177064430615300
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:38:21.021Z,177064430102100
+"""Lemon @ Xa_1dhYEV4"" raises to 160",2026-02-09T13:38:19.959Z,177064429995900
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:38:10.404Z,177064429040400
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:38:09.388Z,177064428938800
+"""UMAUMA @ iKNrGrbUkg"" raises to 40",2026-02-09T13:38:07.867Z,177064428786700
+"""北ふくろー @ nxKtWVcmeY"" posts a big blind of 20",2026-02-09T13:37:57.702Z,177064427770208
+"""Lemon @ Xa_1dhYEV4"" posts a small blind of 10",2026-02-09T13:37:57.702Z,177064427770207
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3423) | #2 ""北ふくろー @ nxKtWVcmeY"" (2200) | #3 ""UMAUMA @ iKNrGrbUkg"" (2091) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2000) | #10 ""hanzo @ DKe5W54dl3"" (2341)",2026-02-09T13:37:57.702Z,177064427770201
+"-- starting hand #41 (id: vde002euw6km)  No Limit Texas Hold'em (dealer: ""hanzo @ DKe5W54dl3"") --",2026-02-09T13:37:57.702Z,177064427770200
+"-- ending hand #40 --",2026-02-09T13:37:54.788Z,177064427478802
+"""Lemon @ Xa_1dhYEV4"" collected 20 from pot",2026-02-09T13:37:54.788Z,177064427478801
+"Uncalled bet of 10 returned to ""Lemon @ Xa_1dhYEV4""",2026-02-09T13:37:54.788Z,177064427478800
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:37:53.974Z,177064427397400
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:37:52.960Z,177064427296000
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:37:51.077Z,177064427107700
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:37:50.084Z,177064427008400
+"""Lemon @ Xa_1dhYEV4"" posts a big blind of 20",2026-02-09T13:37:47.694Z,177064426769409
+"""hanzo @ DKe5W54dl3"" posts a small blind of 10",2026-02-09T13:37:47.694Z,177064426769408
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3413) | #2 ""北ふくろー @ nxKtWVcmeY"" (2200) | #3 ""UMAUMA @ iKNrGrbUkg"" (2091) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2000) | #10 ""hanzo @ DKe5W54dl3"" (2351)",2026-02-09T13:37:47.694Z,177064426769402
+"-- starting hand #40 (id: 8ssu0vq5l1v3)  No Limit Texas Hold'em (dealer: ""SetsunaTrip @ O2b7zy1-XM"") --",2026-02-09T13:37:47.694Z,177064426769401
+"The admin updated the player ""SetsunaTrip @ O2b7zy1-XM"" stack from 2100 to 2000.",2026-02-09T13:37:47.694Z,177064426769400
+"-- ending hand #39 --",2026-02-09T13:37:44.777Z,177064426477702
+"""SetsunaTrip @ O2b7zy1-XM"" collected 280 from pot",2026-02-09T13:37:44.777Z,177064426477701
+"Uncalled bet of 140 returned to ""SetsunaTrip @ O2b7zy1-XM""",2026-02-09T13:37:44.777Z,177064426477700
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:37:43.957Z,177064426395700
+"""SetsunaTrip @ O2b7zy1-XM"" raises to 220",2026-02-09T13:37:35.335Z,177064425533500
+"""hanzo @ DKe5W54dl3"" bets 80",2026-02-09T13:36:53.973Z,177064421397300
+"""SetsunaTrip @ O2b7zy1-XM"" checks",2026-02-09T13:36:44.347Z,177064420434700
+"Flop:  [9♠, 6♥, 2♠]",2026-02-09T13:36:39.423Z,177064419942300
+"""hanzo @ DKe5W54dl3"" calls 60",2026-02-09T13:36:38.604Z,177064419860400
+"""SetsunaTrip @ O2b7zy1-XM"" raises to 60",2026-02-09T13:36:35.452Z,177064419545200
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:36:30.399Z,177064419039900
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:36:29.409Z,177064418940900
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:36:28.360Z,177064418836000
+"WARNING: the admin queued the stack change for the player ""SetsunaTrip @ O2b7zy1-XM"" reseting to 2000 chips in the next hand.",2026-02-09T13:36:26.663Z,177064418666300
+"""hanzo @ DKe5W54dl3"" posts a big blind of 20",2026-02-09T13:36:23.403Z,177064418340308
+"""SetsunaTrip @ O2b7zy1-XM"" posts a small blind of 10",2026-02-09T13:36:23.403Z,177064418340307
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3413) | #2 ""北ふくろー @ nxKtWVcmeY"" (2200) | #3 ""UMAUMA @ iKNrGrbUkg"" (2091) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (1960) | #10 ""hanzo @ DKe5W54dl3"" (2491)",2026-02-09T13:36:23.403Z,177064418340301
+"-- starting hand #39 (id: aqcodcbzypja)  No Limit Texas Hold'em (dealer: ""UMAUMA @ iKNrGrbUkg"") --",2026-02-09T13:36:23.403Z,177064418340300
+"-- ending hand #38 --",2026-02-09T13:36:20.474Z,177064418047402
+"""北ふくろー @ nxKtWVcmeY"" collected 350 from pot",2026-02-09T13:36:20.474Z,177064418047401
+"Uncalled bet of 250 returned to ""北ふくろー @ nxKtWVcmeY""",2026-02-09T13:36:20.474Z,177064418047400
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:36:19.670Z,177064417967000
+"""北ふくろー @ nxKtWVcmeY"" bets 250",2026-02-09T13:35:57.691Z,177064415769100
+"""SetsunaTrip @ O2b7zy1-XM"" checks",2026-02-09T13:35:52.107Z,177064415210700
+"Turn: K♣, A♣, Q♦ [3♥]",2026-02-09T13:35:50.643Z,177064415064300
+"""SetsunaTrip @ O2b7zy1-XM"" calls 100",2026-02-09T13:35:49.796Z,177064414979600
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:35:46.049Z,177064414604900
+"""北ふくろー @ nxKtWVcmeY"" bets 100",2026-02-09T13:35:44.576Z,177064414457600
+"""SetsunaTrip @ O2b7zy1-XM"" checks",2026-02-09T13:35:39.487Z,177064413948700
+"""UMAUMA @ iKNrGrbUkg"" checks",2026-02-09T13:35:38.446Z,177064413844600
+"Flop:  [K♣, A♣, Q♦]",2026-02-09T13:35:35.633Z,177064413563300
+"""SetsunaTrip @ O2b7zy1-XM"" calls 50",2026-02-09T13:35:34.827Z,177064413482700
+"""UMAUMA @ iKNrGrbUkg"" calls 50",2026-02-09T13:35:18.990Z,177064411899000
+"""北ふくろー @ nxKtWVcmeY"" raises to 50",2026-02-09T13:35:17.199Z,177064411719900
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:35:12.272Z,177064411227200
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:35:11.242Z,177064411124200
+"""SetsunaTrip @ O2b7zy1-XM"" posts a big blind of 20",2026-02-09T13:35:09.660Z,177064410966009
+"""UMAUMA @ iKNrGrbUkg"" posts a small blind of 10",2026-02-09T13:35:09.660Z,177064410966008
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3413) | #2 ""北ふくろー @ nxKtWVcmeY"" (2000) | #3 ""UMAUMA @ iKNrGrbUkg"" (2141) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2110) | #10 ""hanzo @ DKe5W54dl3"" (2491)",2026-02-09T13:35:09.660Z,177064410966002
+"-- starting hand #38 (id: wl2hecueaafd)  No Limit Texas Hold'em (dealer: ""北ふくろー @ nxKtWVcmeY"") --",2026-02-09T13:35:09.660Z,177064410966001
+"The admin updated the player ""北ふくろー @ nxKtWVcmeY"" stack from 2020 to 2000.",2026-02-09T13:35:09.660Z,177064410966000
+"-- ending hand #37 --",2026-02-09T13:35:06.747Z,177064410674701
+"""北ふくろー @ nxKtWVcmeY"" collected 40 from pot",2026-02-09T13:35:06.747Z,177064410674700
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:35:05.929Z,177064410592900
+"""北ふくろー @ nxKtWVcmeY"" calls 20",2026-02-09T13:35:04.889Z,177064410488900
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:34:59.301Z,177064409930100
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:34:56.660Z,177064409666000
+"WARNING: the admin queued the stack change for the player ""北ふくろー @ nxKtWVcmeY"" reseting to 2000 chips in the next hand.",2026-02-09T13:34:55.928Z,177064409592800
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:34:54.265Z,177064409426500
+"""UMAUMA @ iKNrGrbUkg"" posts a big blind of 20",2026-02-09T13:34:52.504Z,177064409250409
+"""北ふくろー @ nxKtWVcmeY"" posts a small blind of 10",2026-02-09T13:34:52.504Z,177064409250408
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3413) | #2 ""北ふくろー @ nxKtWVcmeY"" (2000) | #3 ""UMAUMA @ iKNrGrbUkg"" (2161) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2110) | #10 ""hanzo @ DKe5W54dl3"" (2491)",2026-02-09T13:34:52.504Z,177064409250402
+"-- starting hand #37 (id: wl0vhtfk5deo)  No Limit Texas Hold'em (dealer: ""Lemon @ Xa_1dhYEV4"") --",2026-02-09T13:34:52.504Z,177064409250401
+"The admin updated the player ""北ふくろー @ nxKtWVcmeY"" stack from 1980 to 2000.",2026-02-09T13:34:52.504Z,177064409250400
+"-- ending hand #36 --",2026-02-09T13:34:49.557Z,177064408955702
+"""Lemon @ Xa_1dhYEV4"" collected 40 from pot",2026-02-09T13:34:49.557Z,177064408955701
+"Uncalled bet of 40 returned to ""Lemon @ Xa_1dhYEV4""",2026-02-09T13:34:49.557Z,177064408955700
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:34:48.754Z,177064408875400
+"""Lemon @ Xa_1dhYEV4"" raises to 60",2026-02-09T13:34:47.754Z,177064408775400
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:34:44.822Z,177064408482200
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:34:43.812Z,177064408381200
+"WARNING: the admin queued the stack change for the player ""北ふくろー @ nxKtWVcmeY"" reseting to 2000 chips in the next hand.",2026-02-09T13:34:43.359Z,177064408335900
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:34:42.229Z,177064408222900
+"""北ふくろー @ nxKtWVcmeY"" posts a big blind of 20",2026-02-09T13:34:40.149Z,177064408014908
+"""Lemon @ Xa_1dhYEV4"" posts a small blind of 10",2026-02-09T13:34:40.149Z,177064408014907
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3393) | #2 ""北ふくろー @ nxKtWVcmeY"" (2000) | #3 ""UMAUMA @ iKNrGrbUkg"" (2161) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2110) | #10 ""hanzo @ DKe5W54dl3"" (2491)",2026-02-09T13:34:40.149Z,177064408014901
+"-- starting hand #36 (id: pctzmbadquif)  No Limit Texas Hold'em (dealer: ""hanzo @ DKe5W54dl3"") --",2026-02-09T13:34:40.149Z,177064408014900
+"-- ending hand #35 --",2026-02-09T13:34:34.145Z,177064407414502
+"""hanzo @ DKe5W54dl3"" collected 120 from pot with Two Pair, 7's & 3's (combination: K♣, 3♠, 3♣, 7♦, 7♣)",2026-02-09T13:34:34.145Z,177064407414501
+"""hanzo @ DKe5W54dl3"" shows a K♣, 3♠.",2026-02-09T13:34:34.145Z,177064407414500
+"""Lemon @ Xa_1dhYEV4"" checks",2026-02-09T13:34:33.334Z,177064407333400
+"""hanzo @ DKe5W54dl3"" checks",2026-02-09T13:34:29.413Z,177064406941300
+"River: 9♣, 6♠, 3♣, 7♦ [7♣]",2026-02-09T13:34:25.390Z,177064406539000
+"""Lemon @ Xa_1dhYEV4"" checks",2026-02-09T13:34:24.560Z,177064406456000
+"""hanzo @ DKe5W54dl3"" checks",2026-02-09T13:34:11.426Z,177064405142600
+"Turn: 9♣, 6♠, 3♣ [7♦]",2026-02-09T13:34:08.514Z,177064404851400
+"""Lemon @ Xa_1dhYEV4"" checks",2026-02-09T13:34:07.654Z,177064404765400
+"""hanzo @ DKe5W54dl3"" checks",2026-02-09T13:34:04.314Z,177064404431400
+"Flop:  [9♣, 6♠, 3♣]",2026-02-09T13:34:02.183Z,177064404218300
+"""Lemon @ Xa_1dhYEV4"" calls 60",2026-02-09T13:34:01.328Z,177064404132800
+"""hanzo @ DKe5W54dl3"" raises to 60",2026-02-09T13:33:55.751Z,177064403575100
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:33:49.978Z,177064402997800
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:33:46.168Z,177064402616800
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:33:45.155Z,177064402515500
+"""Lemon @ Xa_1dhYEV4"" posts a big blind of 20",2026-02-09T13:33:42.880Z,177064402288008
+"""hanzo @ DKe5W54dl3"" posts a small blind of 10",2026-02-09T13:33:42.880Z,177064402288007
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3453) | #2 ""北ふくろー @ nxKtWVcmeY"" (2000) | #3 ""UMAUMA @ iKNrGrbUkg"" (2161) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2110) | #10 ""hanzo @ DKe5W54dl3"" (2431)",2026-02-09T13:33:42.880Z,177064402288001
+"-- starting hand #35 (id: cpdy6gqxufrx)  No Limit Texas Hold'em (dead button) --",2026-02-09T13:33:42.880Z,177064402288000
+"-- ending hand #34 --",2026-02-09T13:33:36.864Z,177064401686402
+"""Lemon @ Xa_1dhYEV4"" collected 332 from pot with Pair, K's (combination: 6♣, 10♥, A♥, K♣, K♠)",2026-02-09T13:33:36.864Z,177064401686401
+"""Lemon @ Xa_1dhYEV4"" shows a K♣, A♥.",2026-02-09T13:33:36.864Z,177064401686400
+"""hanzo @ DKe5W54dl3"" calls 83",2026-02-09T13:33:35.999Z,177064401599900
+"""Lemon @ Xa_1dhYEV4"" bets 83",2026-02-09T13:33:26.583Z,177064400658300
+"""hanzo @ DKe5W54dl3"" checks",2026-02-09T13:33:20.345Z,177064400034500
+"River: 3♠, 2♦, 6♣, K♠ [10♥]",2026-02-09T13:33:18.784Z,177064399878400
+"""hanzo @ DKe5W54dl3"" calls 33",2026-02-09T13:33:17.966Z,177064399796600
+"""Lemon @ Xa_1dhYEV4"" bets 33",2026-02-09T13:33:11.432Z,177064399143200
+"""hanzo @ DKe5W54dl3"" checks",2026-02-09T13:33:05.052Z,177064398505200
+"Turn: 3♠, 2♦, 6♣ [K♠]",2026-02-09T13:32:58.908Z,177064397890800
+"""Lemon @ Xa_1dhYEV4"" checks",2026-02-09T13:32:58.102Z,177064397810200
+"""hanzo @ DKe5W54dl3"" checks",2026-02-09T13:32:50.445Z,177064397044500
+"Flop:  [3♠, 2♦, 6♣]",2026-02-09T13:32:47.939Z,177064396793900
+"""hanzo @ DKe5W54dl3"" calls 50",2026-02-09T13:32:47.118Z,177064396711800
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:32:44.733Z,177064396473300
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:32:43.701Z,177064396370100
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:32:32.893Z,177064395289300
+"""Lemon @ Xa_1dhYEV4"" raises to 50",2026-02-09T13:32:31.878Z,177064395187800
+"""hanzo @ DKe5W54dl3"" posts a big blind of 20",2026-02-09T13:32:20.229Z,177064394022909
+"Dead Small Blind",2026-02-09T13:32:20.229Z,177064394022908
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3287) | #2 ""北ふくろー @ nxKtWVcmeY"" (2000) | #3 ""UMAUMA @ iKNrGrbUkg"" (2161) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2110) | #10 ""hanzo @ DKe5W54dl3"" (2597)",2026-02-09T13:32:20.229Z,177064394022902
+"-- starting hand #34 (id: gl0b6fu62tab)  No Limit Texas Hold'em (dealer: ""SetsunaTrip @ O2b7zy1-XM"") --",2026-02-09T13:32:20.229Z,177064394022901
+"The player ""それいゆ るな @ s_7Utr4tDi"" quits the game with a stack of 2310.",2026-02-09T13:32:20.229Z,177064394022900
+"-- ending hand #33 --",2026-02-09T13:32:17.322Z,177064393732202
+"""SetsunaTrip @ O2b7zy1-XM"" collected 40 from pot",2026-02-09T13:32:17.322Z,177064393732201
+"Uncalled bet of 40 returned to ""SetsunaTrip @ O2b7zy1-XM""",2026-02-09T13:32:17.322Z,177064393732200
+"""それいゆ るな @ s_7Utr4tDi"" folds",2026-02-09T13:32:16.489Z,177064393648900
+"""SetsunaTrip @ O2b7zy1-XM"" raises to 60",2026-02-09T13:32:10.567Z,177064393056700
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:32:05.523Z,177064392552300
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:32:02.515Z,177064392251500
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:32:01.407Z,177064392140700
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:31:58.822Z,177064391882200
+"""それいゆ るな @ s_7Utr4tDi"" posts a big blind of 20",2026-02-09T13:31:56.894Z,177064391689409
+"""SetsunaTrip @ O2b7zy1-XM"" posts a small blind of 10",2026-02-09T13:31:56.894Z,177064391689408
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3287) | #2 ""北ふくろー @ nxKtWVcmeY"" (2000) | #3 ""UMAUMA @ iKNrGrbUkg"" (2161) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2090) | #7 ""それいゆ るな @ s_7Utr4tDi"" (2330) | #10 ""hanzo @ DKe5W54dl3"" (2597)",2026-02-09T13:31:56.894Z,177064391689401
+"-- starting hand #33 (id: fvnfi9d56vtl)  No Limit Texas Hold'em (dealer: ""UMAUMA @ iKNrGrbUkg"") --",2026-02-09T13:31:56.894Z,177064391689400
+"-- ending hand #32 --",2026-02-09T13:31:53.936Z,177064391393602
+"""SetsunaTrip @ O2b7zy1-XM"" collected 120 from pot",2026-02-09T13:31:53.936Z,177064391393601
+"Uncalled bet of 140 returned to ""SetsunaTrip @ O2b7zy1-XM""",2026-02-09T13:31:53.936Z,177064391393600
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:31:53.093Z,177064391309300
+"""SetsunaTrip @ O2b7zy1-XM"" raises to 200",2026-02-09T13:31:39.306Z,177064389930600
+"""UMAUMA @ iKNrGrbUkg"" raises to 60",2026-02-09T13:31:31.947Z,177064389194700
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:31:24.331Z,177064388433100
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:31:23.248Z,177064388324800
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:31:22.245Z,177064388224500
+"""それいゆ るな @ s_7Utr4tDi"" folds",2026-02-09T13:31:17.165Z,177064387716500
+"""SetsunaTrip @ O2b7zy1-XM"" posts a big blind of 20",2026-02-09T13:31:15.445Z,177064387544510
+"""UMAUMA @ iKNrGrbUkg"" posts a small blind of 10",2026-02-09T13:31:15.445Z,177064387544509
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3287) | #2 ""北ふくろー @ nxKtWVcmeY"" (2000) | #3 ""UMAUMA @ iKNrGrbUkg"" (2221) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2030) | #7 ""それいゆ るな @ s_7Utr4tDi"" (2330) | #10 ""hanzo @ DKe5W54dl3"" (2597)",2026-02-09T13:31:15.445Z,177064387544502
+"-- starting hand #32 (id: 1myhciudmzrp)  No Limit Texas Hold'em (dealer: ""北ふくろー @ nxKtWVcmeY"") --",2026-02-09T13:31:15.445Z,177064387544501
+"The admin updated the player ""北ふくろー @ nxKtWVcmeY"" stack from 1990 to 2000.",2026-02-09T13:31:15.445Z,177064387544500
+"-- ending hand #31 --",2026-02-09T13:31:12.530Z,177064387253002
+"""それいゆ るな @ s_7Utr4tDi"" collected 50 from pot",2026-02-09T13:31:12.530Z,177064387253001
+"Uncalled bet of 60 returned to ""それいゆ るな @ s_7Utr4tDi""",2026-02-09T13:31:12.530Z,177064387253000
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:31:11.726Z,177064387172600
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:31:10.732Z,177064387073200
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:31:09.712Z,177064386971200
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:31:08.647Z,177064386864700
+"""それいゆ るな @ s_7Utr4tDi"" raises to 80",2026-02-09T13:30:59.193Z,177064385919300
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:30:55.844Z,177064385584400
+"WARNING: the admin queued the stack change for the player ""北ふくろー @ nxKtWVcmeY"" reseting to 2000 chips in the next hand.",2026-02-09T13:30:55.562Z,177064385556200
+"""UMAUMA @ iKNrGrbUkg"" posts a big blind of 20",2026-02-09T13:30:53.616Z,177064385361610
+"""北ふくろー @ nxKtWVcmeY"" posts a small blind of 10",2026-02-09T13:30:53.616Z,177064385361609
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3287) | #2 ""北ふくろー @ nxKtWVcmeY"" (2000) | #3 ""UMAUMA @ iKNrGrbUkg"" (2241) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2030) | #7 ""それいゆ るな @ s_7Utr4tDi"" (2300) | #10 ""hanzo @ DKe5W54dl3"" (2597)",2026-02-09T13:30:53.616Z,177064385361602
+"-- starting hand #31 (id: p18ubqpchyay)  No Limit Texas Hold'em (dealer: ""Lemon @ Xa_1dhYEV4"") --",2026-02-09T13:30:53.616Z,177064385361601
+"The admin updated the player ""北ふくろー @ nxKtWVcmeY"" stack from 2010 to 2000.",2026-02-09T13:30:53.616Z,177064385361600
+"-- ending hand #30 --",2026-02-09T13:30:50.650Z,177064385065002
+"""北ふくろー @ nxKtWVcmeY"" collected 20 from pot",2026-02-09T13:30:50.650Z,177064385065001
+"Uncalled bet of 10 returned to ""北ふくろー @ nxKtWVcmeY""",2026-02-09T13:30:50.650Z,177064385065000
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:30:49.815Z,177064384981500
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:30:48.812Z,177064384881200
+"""それいゆ るな @ s_7Utr4tDi"" folds",2026-02-09T13:30:47.763Z,177064384776300
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:30:35.638Z,177064383563800
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:30:34.631Z,177064383463100
+"WARNING: the admin queued the stack change for the player ""北ふくろー @ nxKtWVcmeY"" reseting to 2000 chips in the next hand.",2026-02-09T13:30:34.369Z,177064383436900
+"""北ふくろー @ nxKtWVcmeY"" posts a big blind of 20",2026-02-09T13:30:31.196Z,177064383119609
+"""Lemon @ Xa_1dhYEV4"" posts a small blind of 10",2026-02-09T13:30:31.196Z,177064383119608
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3297) | #2 ""北ふくろー @ nxKtWVcmeY"" (2000) | #3 ""UMAUMA @ iKNrGrbUkg"" (2241) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2030) | #7 ""それいゆ るな @ s_7Utr4tDi"" (2300) | #10 ""hanzo @ DKe5W54dl3"" (2597)",2026-02-09T13:30:31.196Z,177064383119601
+"-- starting hand #30 (id: pmf4qjg9gmms)  No Limit Texas Hold'em (dealer: ""hanzo @ DKe5W54dl3"") --",2026-02-09T13:30:31.196Z,177064383119600
+"-- ending hand #29 --",2026-02-09T13:30:28.231Z,177064382823102
+"""Lemon @ Xa_1dhYEV4"" collected 170 from pot",2026-02-09T13:30:28.231Z,177064382823101
+"Uncalled bet of 55 returned to ""Lemon @ Xa_1dhYEV4""",2026-02-09T13:30:28.231Z,177064382823100
+"""それいゆ るな @ s_7Utr4tDi"" folds",2026-02-09T13:30:27.405Z,177064382740500
+"""Lemon @ Xa_1dhYEV4"" bets 55",2026-02-09T13:30:25.025Z,177064382502500
+"River: 2♠, 2♥, 9♦, Q♦ [10♠]",2026-02-09T13:30:12.481Z,177064381248100
+"""それいゆ るな @ s_7Utr4tDi"" checks",2026-02-09T13:30:11.671Z,177064381167100
+"""Lemon @ Xa_1dhYEV4"" checks",2026-02-09T13:30:08.789Z,177064380878900
+"Turn: 2♠, 2♥, 9♦ [Q♦]",2026-02-09T13:30:00.142Z,177064380014200
+"""それいゆ るな @ s_7Utr4tDi"" checks",2026-02-09T13:29:59.270Z,177064379927000
+"""Lemon @ Xa_1dhYEV4"" checks",2026-02-09T13:29:51.958Z,177064379195800
+"Flop:  [2♠, 2♥, 9♦]",2026-02-09T13:29:49.430Z,177064378943000
+"""Lemon @ Xa_1dhYEV4"" calls 80",2026-02-09T13:29:48.559Z,177064378855900
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:29:42.563Z,177064378256300
+"""それいゆ るな @ s_7Utr4tDi"" raises to 80",2026-02-09T13:29:38.722Z,177064377872200
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:29:33.764Z,177064377376400
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:29:30.405Z,177064377040500
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:29:29.401Z,177064376940100
+"""Lemon @ Xa_1dhYEV4"" posts a big blind of 20",2026-02-09T13:29:25.419Z,177064376541910
+"""hanzo @ DKe5W54dl3"" posts a small blind of 10",2026-02-09T13:29:25.419Z,177064376541909
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3207) | #2 ""北ふくろー @ nxKtWVcmeY"" (2000) | #3 ""UMAUMA @ iKNrGrbUkg"" (2241) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2030) | #7 ""それいゆ るな @ s_7Utr4tDi"" (2380) | #10 ""hanzo @ DKe5W54dl3"" (2607)",2026-02-09T13:29:25.419Z,177064376541902
+"-- starting hand #29 (id: t6kodexmiego)  No Limit Texas Hold'em (dealer: ""それいゆ るな @ s_7Utr4tDi"") --",2026-02-09T13:29:25.419Z,177064376541901
+"The admin updated the player ""北ふくろー @ nxKtWVcmeY"" stack from 1820 to 2000.",2026-02-09T13:29:25.419Z,177064376541900
+"-- ending hand #28 --",2026-02-09T13:29:22.457Z,177064376245702
+"""Lemon @ Xa_1dhYEV4"" collected 50 from pot",2026-02-09T13:29:22.457Z,177064376245701
+"Uncalled bet of 25 returned to ""Lemon @ Xa_1dhYEV4""",2026-02-09T13:29:22.457Z,177064376245700
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:29:21.650Z,177064376165000
+"""それいゆ るな @ s_7Utr4tDi"" folds",2026-02-09T13:29:20.645Z,177064376064500
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:29:19.468Z,177064375946800
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:29:18.433Z,177064375843300
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:29:17.427Z,177064375742700
+"""Lemon @ Xa_1dhYEV4"" raises to 45",2026-02-09T13:29:04.302Z,177064374430200
+"WARNING: the admin queued the stack change for the player ""北ふくろー @ nxKtWVcmeY"" reseting to 2000 chips in the next hand.",2026-02-09T13:29:00.756Z,177064374075600
+"""hanzo @ DKe5W54dl3"" posts a big blind of 20",2026-02-09T13:28:58.594Z,177064373859409
+"""それいゆ るな @ s_7Utr4tDi"" posts a small blind of 10",2026-02-09T13:28:58.594Z,177064373859408
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3177) | #2 ""北ふくろー @ nxKtWVcmeY"" (1820) | #3 ""UMAUMA @ iKNrGrbUkg"" (2241) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2030) | #7 ""それいゆ るな @ s_7Utr4tDi"" (2390) | #10 ""hanzo @ DKe5W54dl3"" (2627)",2026-02-09T13:28:58.594Z,177064373859401
+"-- starting hand #28 (id: 5nlpms39m2oo)  No Limit Texas Hold'em (dealer: ""SetsunaTrip @ O2b7zy1-XM"") --",2026-02-09T13:28:58.594Z,177064373859400
+"-- ending hand #27 --",2026-02-09T13:28:52.588Z,177064373258802
+"""それいゆ るな @ s_7Utr4tDi"" collected 370 from pot with Two Pair, 9's & 7's (combination: 5♦, 7♣, 7♠, 9♥, 9♣)",2026-02-09T13:28:52.588Z,177064373258801
+"""それいゆ るな @ s_7Utr4tDi"" shows a 7♣, 4♥.",2026-02-09T13:28:52.588Z,177064373258800
+"""北ふくろー @ nxKtWVcmeY"" checks",2026-02-09T13:28:51.759Z,177064373175900
+"""それいゆ るな @ s_7Utr4tDi"" checks",2026-02-09T13:28:50.733Z,177064373073300
+"River: 9♥, 2♦, 9♣, 7♠ [5♦]",2026-02-09T13:28:46.429Z,177064372642900
+"""それいゆ るな @ s_7Utr4tDi"" calls 100",2026-02-09T13:28:45.623Z,177064372562300
+"""北ふくろー @ nxKtWVcmeY"" bets 100",2026-02-09T13:28:42.637Z,177064372263700
+"""それいゆ るな @ s_7Utr4tDi"" checks",2026-02-09T13:28:33.963Z,177064371396300
+"Turn: 9♥, 2♦, 9♣ [7♠]",2026-02-09T13:28:32.204Z,177064371220400
+"""それいゆ るな @ s_7Utr4tDi"" calls 30",2026-02-09T13:28:31.373Z,177064371137300
+"""北ふくろー @ nxKtWVcmeY"" bets 30",2026-02-09T13:28:28.637Z,177064370863700
+"""それいゆ るな @ s_7Utr4tDi"" checks",2026-02-09T13:28:22.783Z,177064370278300
+"Flop:  [9♥, 2♦, 9♣]",2026-02-09T13:28:18.006Z,177064369800600
+"""それいゆ るな @ s_7Utr4tDi"" calls 50",2026-02-09T13:28:17.182Z,177064369718200
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:28:14.797Z,177064369479700
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:28:13.796Z,177064369379600
+"""北ふくろー @ nxKtWVcmeY"" raises to 50",2026-02-09T13:28:12.767Z,177064369276700
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:28:04.837Z,177064368483700
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:28:00.932Z,177064368093200
+"""それいゆ るな @ s_7Utr4tDi"" posts a big blind of 20",2026-02-09T13:27:59.510Z,177064367951010
+"""SetsunaTrip @ O2b7zy1-XM"" posts a small blind of 10",2026-02-09T13:27:59.510Z,177064367951009
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3177) | #2 ""北ふくろー @ nxKtWVcmeY"" (2000) | #3 ""UMAUMA @ iKNrGrbUkg"" (2241) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2040) | #7 ""それいゆ るな @ s_7Utr4tDi"" (2200) | #10 ""hanzo @ DKe5W54dl3"" (2627)",2026-02-09T13:27:59.510Z,177064367951002
+"-- starting hand #27 (id: ahlijwwz2jmm)  No Limit Texas Hold'em (dealer: ""UMAUMA @ iKNrGrbUkg"") --",2026-02-09T13:27:59.510Z,177064367951001
+"The admin updated the player ""北ふくろー @ nxKtWVcmeY"" stack from 1990 to 2000.",2026-02-09T13:27:59.510Z,177064367951000
+"-- ending hand #26 --",2026-02-09T13:27:53.444Z,177064367344403
+"""hanzo @ DKe5W54dl3"" collected 110 from pot with Pair, 5's (combination: J♦, Q♠, A♠, 5♦, 5♥)",2026-02-09T13:27:53.444Z,177064367344402
+"""hanzo @ DKe5W54dl3"" shows a A♠, 5♦.",2026-02-09T13:27:53.444Z,177064367344401
+"""SetsunaTrip @ O2b7zy1-XM"" shows a A♣, 10♠.",2026-02-09T13:27:53.444Z,177064367344400
+"""hanzo @ DKe5W54dl3"" checks",2026-02-09T13:27:52.614Z,177064367261400
+"""SetsunaTrip @ O2b7zy1-XM"" checks",2026-02-09T13:27:50.230Z,177064367023000
+"River: Q♠, 5♥, 6♥, J♦ [2♦]",2026-02-09T13:27:47.815Z,177064366781500
+"""hanzo @ DKe5W54dl3"" checks",2026-02-09T13:27:47.010Z,177064366701000
+"""SetsunaTrip @ O2b7zy1-XM"" checks",2026-02-09T13:27:45.502Z,177064366550200
+"Turn: Q♠, 5♥, 6♥ [J♦]",2026-02-09T13:27:43.140Z,177064366314000
+"""hanzo @ DKe5W54dl3"" checks",2026-02-09T13:27:42.320Z,177064366232000
+"""SetsunaTrip @ O2b7zy1-XM"" checks",2026-02-09T13:27:40.374Z,177064366037400
+"Flop:  [Q♠, 5♥, 6♥]",2026-02-09T13:27:38.693Z,177064365869300
+"""SetsunaTrip @ O2b7zy1-XM"" calls 50",2026-02-09T13:27:37.850Z,177064365785000
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:27:35.116Z,177064365511600
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:27:34.100Z,177064365410000
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:27:33.084Z,177064365308400
+"""hanzo @ DKe5W54dl3"" raises to 50",2026-02-09T13:27:32.060Z,177064365206000
+"""それいゆ るな @ s_7Utr4tDi"" folds",2026-02-09T13:27:23.633Z,177064364363300
+"WARNING: the admin queued the stack change for the player ""北ふくろー @ nxKtWVcmeY"" reseting to 2000 chips in the next hand.",2026-02-09T13:27:17.018Z,177064363701800
+"""SetsunaTrip @ O2b7zy1-XM"" posts a big blind of 20",2026-02-09T13:27:14.779Z,177064363477909
+"""UMAUMA @ iKNrGrbUkg"" posts a small blind of 10",2026-02-09T13:27:14.779Z,177064363477908
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3177) | #2 ""北ふくろー @ nxKtWVcmeY"" (1990) | #3 ""UMAUMA @ iKNrGrbUkg"" (2251) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2090) | #7 ""それいゆ るな @ s_7Utr4tDi"" (2200) | #10 ""hanzo @ DKe5W54dl3"" (2567)",2026-02-09T13:27:14.779Z,177064363477901
+"-- starting hand #26 (id: ikuppycvawpl)  No Limit Texas Hold'em (dealer: ""北ふくろー @ nxKtWVcmeY"") --",2026-02-09T13:27:14.779Z,177064363477900
+"-- ending hand #25 --",2026-02-09T13:27:11.780Z,177064363178002
+"""それいゆ るな @ s_7Utr4tDi"" collected 360 from pot",2026-02-09T13:27:11.780Z,177064363178001
+"Uncalled bet of 140 returned to ""それいゆ るな @ s_7Utr4tDi""",2026-02-09T13:27:11.780Z,177064363178000
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:27:10.942Z,177064363094200
+"""それいゆ るな @ s_7Utr4tDi"" bets 140",2026-02-09T13:26:54.883Z,177064361488300
+"Turn: 9♣, 8♥, 2♠ [K♣]",2026-02-09T13:26:47.269Z,177064360726900
+"""hanzo @ DKe5W54dl3"" calls 80",2026-02-09T13:26:46.451Z,177064360645100
+"""それいゆ るな @ s_7Utr4tDi"" bets 80",2026-02-09T13:26:38.913Z,177064359891300
+"Flop:  [9♣, 8♥, 2♠]",2026-02-09T13:26:27.302Z,177064358730200
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:26:26.492Z,177064358649200
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:26:25.500Z,177064358550000
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:26:24.493Z,177064358449300
+"""hanzo @ DKe5W54dl3"" calls 80",2026-02-09T13:26:23.475Z,177064358347500
+"""それいゆ るな @ s_7Utr4tDi"" raises to 80",2026-02-09T13:26:19.358Z,177064357935800
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:26:11.350Z,177064357135000
+"""それいゆ るな @ s_7Utr4tDi"" posts a missed big blind of 20",2026-02-09T13:26:08.368Z,177064356836813
+"""それいゆ るな @ s_7Utr4tDi"" posts a missing small blind of 10",2026-02-09T13:26:08.368Z,177064356836812
+"""UMAUMA @ iKNrGrbUkg"" posts a big blind of 20",2026-02-09T13:26:08.368Z,177064356836811
+"""北ふくろー @ nxKtWVcmeY"" posts a small blind of 10",2026-02-09T13:26:08.368Z,177064356836810
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3177) | #2 ""北ふくろー @ nxKtWVcmeY"" (2000) | #3 ""UMAUMA @ iKNrGrbUkg"" (2271) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2090) | #7 ""それいゆ るな @ s_7Utr4tDi"" (2010) | #10 ""hanzo @ DKe5W54dl3"" (2727)",2026-02-09T13:26:08.368Z,177064356836803
+"-- starting hand #25 (id: ubfblvltffhv)  No Limit Texas Hold'em (dealer: ""Lemon @ Xa_1dhYEV4"") --",2026-02-09T13:26:08.368Z,177064356836802
+"The player ""それいゆ るな @ s_7Utr4tDi"" joined the game with a stack of 2010.",2026-02-09T13:26:08.368Z,177064356836801
+"The admin updated the player ""北ふくろー @ nxKtWVcmeY"" stack from 2650 to 2000.",2026-02-09T13:26:08.368Z,177064356836800
+"-- ending hand #24 --",2026-02-09T13:26:05.431Z,177064356543102
+"""北ふくろー @ nxKtWVcmeY"" collected 1290 from pot",2026-02-09T13:26:05.431Z,177064356543101
+"Uncalled bet of 400 returned to ""北ふくろー @ nxKtWVcmeY""",2026-02-09T13:26:05.431Z,177064356543100
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:26:04.617Z,177064356461700
+"""北ふくろー @ nxKtWVcmeY"" bets 400",2026-02-09T13:25:30.179Z,177064353017900
+"River: 8♦, 6♠, 6♦, 5♦ [2♣]",2026-02-09T13:25:18.467Z,177064351846700
+"""UMAUMA @ iKNrGrbUkg"" calls 200",2026-02-09T13:25:17.659Z,177064351765900
+"""北ふくろー @ nxKtWVcmeY"" bets 200",2026-02-09T13:24:52.445Z,177064349244500
+"Turn: 8♦, 6♠, 6♦ [5♦]",2026-02-09T13:24:42.153Z,177064348215300
+"""北ふくろー @ nxKtWVcmeY"" calls 400",2026-02-09T13:24:41.323Z,177064348132300
+"""UMAUMA @ iKNrGrbUkg"" raises to 400",2026-02-09T13:24:32.831Z,177064347283100
+"The player ""それいゆ るな @ s_7Utr4tDi"" sit back with the stack of 2010.",2026-02-09T13:24:27.795Z,177064346779500
+"""北ふくろー @ nxKtWVcmeY"" raises to 135",2026-02-09T13:24:17.704Z,177064345770400
+"""UMAUMA @ iKNrGrbUkg"" bets 45",2026-02-09T13:23:53.604Z,177064343360400
+"""北ふくろー @ nxKtWVcmeY"" checks",2026-02-09T13:23:43.881Z,177064342388100
+"Flop:  [8♦, 6♠, 6♦]",2026-02-09T13:23:40.754Z,177064342075400
+"""北ふくろー @ nxKtWVcmeY"" calls 40",2026-02-09T13:23:39.912Z,177064341991200
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:23:34.828Z,177064341482800
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:23:32.842Z,177064341284200
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:23:31.823Z,177064341182300
+"""UMAUMA @ iKNrGrbUkg"" raises to 40",2026-02-09T13:23:30.779Z,177064341077900
+"WARNING: the admin queued the stack change for the player ""北ふくろー @ nxKtWVcmeY"" reseting to 2000 chips in the next hand.",2026-02-09T13:23:30.425Z,177064341042500
+"""北ふくろー @ nxKtWVcmeY"" posts a big blind of 20",2026-02-09T13:23:26.887Z,177064340688708
+"""Lemon @ Xa_1dhYEV4"" posts a small blind of 10",2026-02-09T13:23:26.887Z,177064340688707
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3187) | #2 ""北ふくろー @ nxKtWVcmeY"" (2000) | #3 ""UMAUMA @ iKNrGrbUkg"" (2911) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2090) | #10 ""hanzo @ DKe5W54dl3"" (2727)",2026-02-09T13:23:26.887Z,177064340688701
+"-- starting hand #24 (id: bxxsturv7a8a)  No Limit Texas Hold'em (dealer: ""hanzo @ DKe5W54dl3"") --",2026-02-09T13:23:26.887Z,177064340688700
+"-- ending hand #23 --",2026-02-09T13:23:20.882Z,177064340088203
+"""Lemon @ Xa_1dhYEV4"" collected 120 from pot with Pair, 4's (combination: 9♥, K♣, A♦, 4♦, 4♠)",2026-02-09T13:23:20.882Z,177064340088202
+"""Lemon @ Xa_1dhYEV4"" shows a 3♣, K♣.",2026-02-09T13:23:20.882Z,177064340088201
+"""hanzo @ DKe5W54dl3"" shows a Q♣, J♣.",2026-02-09T13:23:20.882Z,177064340088200
+"""Lemon @ Xa_1dhYEV4"" checks",2026-02-09T13:23:20.079Z,177064340007900
+"""hanzo @ DKe5W54dl3"" checks",2026-02-09T13:23:19.063Z,177064339906300
+"River: 7♠, A♦, 4♦, 4♠ [9♥]",2026-02-09T13:23:15.330Z,177064339533000
+"""Lemon @ Xa_1dhYEV4"" checks",2026-02-09T13:23:14.491Z,177064339449100
+"""hanzo @ DKe5W54dl3"" checks",2026-02-09T13:23:10.010Z,177064339001000
+"Turn: 7♠, A♦, 4♦ [4♠]",2026-02-09T13:23:06.665Z,177064338666500
+"""Lemon @ Xa_1dhYEV4"" checks",2026-02-09T13:23:05.858Z,177064338585800
+"""hanzo @ DKe5W54dl3"" checks",2026-02-09T13:23:04.824Z,177064338482400
+"Flop:  [7♠, A♦, 4♦]",2026-02-09T13:23:02.342Z,177064338234200
+"""Lemon @ Xa_1dhYEV4"" calls 60",2026-02-09T13:23:01.502Z,177064338150200
+"""hanzo @ DKe5W54dl3"" raises to 60",2026-02-09T13:22:59.584Z,177064337958400
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:22:55.050Z,177064337505000
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:22:54.045Z,177064337404500
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:22:53.030Z,177064337303000
+"""Lemon @ Xa_1dhYEV4"" posts a big blind of 20",2026-02-09T13:22:47.580Z,177064336758008
+"""hanzo @ DKe5W54dl3"" posts a small blind of 10",2026-02-09T13:22:47.580Z,177064336758007
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3127) | #2 ""北ふくろー @ nxKtWVcmeY"" (2000) | #3 ""UMAUMA @ iKNrGrbUkg"" (2911) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2090) | #10 ""hanzo @ DKe5W54dl3"" (2787)",2026-02-09T13:22:47.580Z,177064336758001
+"-- starting hand #23 (id: 6o0ik36b4reh)  No Limit Texas Hold'em (dealer: ""SetsunaTrip @ O2b7zy1-XM"") --",2026-02-09T13:22:47.580Z,177064336758000
+"-- ending hand #22 --",2026-02-09T13:22:44.652Z,177064336465202
+"""UMAUMA @ iKNrGrbUkg"" collected 110 from pot",2026-02-09T13:22:44.652Z,177064336465201
+"Uncalled bet of 55 returned to ""UMAUMA @ iKNrGrbUkg""",2026-02-09T13:22:44.652Z,177064336465200
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:22:43.811Z,177064336381100
+"""UMAUMA @ iKNrGrbUkg"" bets 55",2026-02-09T13:22:30.866Z,177064335086600
+"""hanzo @ DKe5W54dl3"" checks",2026-02-09T13:22:19.206Z,177064333920600
+"Turn: 10♥, 6♣, 2♣ [9♠]",2026-02-09T13:22:16.439Z,177064333643900
+"""UMAUMA @ iKNrGrbUkg"" checks",2026-02-09T13:22:15.615Z,177064333561500
+"""hanzo @ DKe5W54dl3"" checks",2026-02-09T13:22:09.426Z,177064332942600
+"Flop:  [10♥, 6♣, 2♣]",2026-02-09T13:22:07.304Z,177064332730400
+"""hanzo @ DKe5W54dl3"" calls 50",2026-02-09T13:22:06.492Z,177064332649200
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:22:03.080Z,177064332308000
+"""UMAUMA @ iKNrGrbUkg"" raises to 50",2026-02-09T13:22:01.491Z,177064332149100
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:21:55.486Z,177064331548600
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:21:54.473Z,177064331447300
+"""hanzo @ DKe5W54dl3"" posts a big blind of 20",2026-02-09T13:21:44.631Z,177064330463108
+"""SetsunaTrip @ O2b7zy1-XM"" posts a small blind of 10",2026-02-09T13:21:44.631Z,177064330463107
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3127) | #2 ""北ふくろー @ nxKtWVcmeY"" (2000) | #3 ""UMAUMA @ iKNrGrbUkg"" (2851) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2100) | #10 ""hanzo @ DKe5W54dl3"" (2837)",2026-02-09T13:21:44.631Z,177064330463101
+"-- starting hand #22 (id: imhuymafzx61)  No Limit Texas Hold'em (dealer: ""UMAUMA @ iKNrGrbUkg"") --",2026-02-09T13:21:44.631Z,177064330463100
+"-- ending hand #21 --",2026-02-09T13:21:41.724Z,177064330172402
+"""UMAUMA @ iKNrGrbUkg"" collected 40 from pot",2026-02-09T13:21:41.724Z,177064330172401
+"Uncalled bet of 40 returned to ""UMAUMA @ iKNrGrbUkg""",2026-02-09T13:21:41.724Z,177064330172400
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:21:40.895Z,177064330089500
+"""UMAUMA @ iKNrGrbUkg"" raises to 60",2026-02-09T13:21:38.500Z,177064329850000
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:21:34.585Z,177064329458500
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:21:33.569Z,177064329356900
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:21:28.978Z,177064328897800
+"""SetsunaTrip @ O2b7zy1-XM"" posts a big blind of 20",2026-02-09T13:21:27.012Z,177064328701209
+"""UMAUMA @ iKNrGrbUkg"" posts a small blind of 10",2026-02-09T13:21:27.012Z,177064328701208
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3127) | #2 ""北ふくろー @ nxKtWVcmeY"" (2000) | #3 ""UMAUMA @ iKNrGrbUkg"" (2831) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2120) | #10 ""hanzo @ DKe5W54dl3"" (2837)",2026-02-09T13:21:27.012Z,177064328701202
+"-- starting hand #21 (id: 7wxqaijfffvs)  No Limit Texas Hold'em (dealer: ""北ふくろー @ nxKtWVcmeY"") --",2026-02-09T13:21:27.012Z,177064328701201
+"The admin updated the player ""北ふくろー @ nxKtWVcmeY"" stack from 1990 to 2000.",2026-02-09T13:21:27.012Z,177064328701200
+"-- ending hand #20 --",2026-02-09T13:21:24.067Z,177064328406702
+"""hanzo @ DKe5W54dl3"" collected 724 from pot",2026-02-09T13:21:24.067Z,177064328406701
+"Uncalled bet of 533 returned to ""hanzo @ DKe5W54dl3""",2026-02-09T13:21:24.067Z,177064328406700
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:21:23.254Z,177064328325400
+"""hanzo @ DKe5W54dl3"" raises to 750",2026-02-09T13:21:15.757Z,177064327575700
+"""UMAUMA @ iKNrGrbUkg"" bets 217",2026-02-09T13:20:37.460Z,177064323746000
+"River: 4♦, 4♣, 6♣, 2♠ [A♠]",2026-02-09T13:20:25.345Z,177064322534500
+"""hanzo @ DKe5W54dl3"" checks",2026-02-09T13:20:24.528Z,177064322452800
+"""UMAUMA @ iKNrGrbUkg"" checks",2026-02-09T13:20:16.798Z,177064321679800
+"Turn: 4♦, 4♣, 6♣ [2♠]",2026-02-09T13:20:07.073Z,177064320707300
+"""hanzo @ DKe5W54dl3"" calls 90",2026-02-09T13:20:06.250Z,177064320625000
+"""UMAUMA @ iKNrGrbUkg"" raises to 90",2026-02-09T13:19:52.233Z,177064319223300
+"""hanzo @ DKe5W54dl3"" bets 30",2026-02-09T13:19:42.980Z,177064318298000
+"""UMAUMA @ iKNrGrbUkg"" checks",2026-02-09T13:19:32.722Z,177064317272200
+"Flop:  [4♦, 4♣, 6♣]",2026-02-09T13:19:30.875Z,177064317087500
+"""UMAUMA @ iKNrGrbUkg"" calls 50",2026-02-09T13:19:30.039Z,177064317003900
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:19:27.556Z,177064316755600
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:19:25.604Z,177064316560400
+"""hanzo @ DKe5W54dl3"" raises to 50",2026-02-09T13:19:24.534Z,177064316453400
+"WARNING: the admin queued the stack change for the player ""北ふくろー @ nxKtWVcmeY"" reseting to 2000 chips in the next hand.",2026-02-09T13:19:21.124Z,177064316112400
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:19:20.327Z,177064316032700
+"""UMAUMA @ iKNrGrbUkg"" posts a big blind of 20",2026-02-09T13:19:18.169Z,177064315816908
+"""北ふくろー @ nxKtWVcmeY"" posts a small blind of 10",2026-02-09T13:19:18.169Z,177064315816907
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3127) | #2 ""北ふくろー @ nxKtWVcmeY"" (2000) | #3 ""UMAUMA @ iKNrGrbUkg"" (3188) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2120) | #10 ""hanzo @ DKe5W54dl3"" (2470)",2026-02-09T13:19:18.169Z,177064315816901
+"-- starting hand #20 (id: hqfwqdyzejgx)  No Limit Texas Hold'em (dealer: ""Lemon @ Xa_1dhYEV4"") --",2026-02-09T13:19:18.169Z,177064315816900
+"-- ending hand #19 --",2026-02-09T13:19:15.220Z,177064315522002
+"""hanzo @ DKe5W54dl3"" collected 50 from pot",2026-02-09T13:19:15.220Z,177064315522001
+"Uncalled bet of 30 returned to ""hanzo @ DKe5W54dl3""",2026-02-09T13:19:15.220Z,177064315522000
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:19:14.370Z,177064315437000
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:19:13.298Z,177064315329800
+"""hanzo @ DKe5W54dl3"" raises to 50",2026-02-09T13:19:11.604Z,177064315160400
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:19:03.397Z,177064314339700
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:19:00.848Z,177064314084800
+"""北ふくろー @ nxKtWVcmeY"" posts a big blind of 20",2026-02-09T13:18:59.665Z,177064313966508
+"""Lemon @ Xa_1dhYEV4"" posts a small blind of 10",2026-02-09T13:18:59.665Z,177064313966507
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3137) | #2 ""北ふくろー @ nxKtWVcmeY"" (2020) | #3 ""UMAUMA @ iKNrGrbUkg"" (3188) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2120) | #10 ""hanzo @ DKe5W54dl3"" (2440)",2026-02-09T13:18:59.665Z,177064313966501
+"-- starting hand #19 (id: ogmtdgtpkjad)  No Limit Texas Hold'em (dealer: ""hanzo @ DKe5W54dl3"") --",2026-02-09T13:18:59.665Z,177064313966500
+"-- ending hand #18 --",2026-02-09T13:18:56.747Z,177064313674702
+"""UMAUMA @ iKNrGrbUkg"" collected 90 from pot",2026-02-09T13:18:56.747Z,177064313674701
+"Uncalled bet of 30 returned to ""UMAUMA @ iKNrGrbUkg""",2026-02-09T13:18:56.747Z,177064313674700
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:18:55.882Z,177064313588200
+"""UMAUMA @ iKNrGrbUkg"" bets 30",2026-02-09T13:18:53.506Z,177064313350600
+"""Lemon @ Xa_1dhYEV4"" checks",2026-02-09T13:18:48.594Z,177064312859400
+"Flop:  [J♥, 10♦, 10♥]",2026-02-09T13:18:46.255Z,177064312625500
+"""Lemon @ Xa_1dhYEV4"" calls 40",2026-02-09T13:18:45.449Z,177064312544900
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:18:41.515Z,177064312151500
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:18:39.932Z,177064311993200
+"""UMAUMA @ iKNrGrbUkg"" raises to 40",2026-02-09T13:18:38.876Z,177064311887600
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:18:36.247Z,177064311624700
+"""Lemon @ Xa_1dhYEV4"" posts a big blind of 20",2026-02-09T13:18:34.739Z,177064311473908
+"""hanzo @ DKe5W54dl3"" posts a small blind of 10",2026-02-09T13:18:34.739Z,177064311473907
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3177) | #2 ""北ふくろー @ nxKtWVcmeY"" (2020) | #3 ""UMAUMA @ iKNrGrbUkg"" (3138) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2120) | #10 ""hanzo @ DKe5W54dl3"" (2450)",2026-02-09T13:18:34.739Z,177064311473901
+"-- starting hand #18 (id: pncog57eh9ug)  No Limit Texas Hold'em (dealer: ""SetsunaTrip @ O2b7zy1-XM"") --",2026-02-09T13:18:34.739Z,177064311473900
+"-- ending hand #17 --",2026-02-09T13:18:31.742Z,177064311174202
+"""SetsunaTrip @ O2b7zy1-XM"" collected 120 from pot",2026-02-09T13:18:31.742Z,177064311174201
+"Uncalled bet of 180 returned to ""SetsunaTrip @ O2b7zy1-XM""",2026-02-09T13:18:31.742Z,177064311174200
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:18:30.934Z,177064311093400
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:18:29.823Z,177064310982300
+"""SetsunaTrip @ O2b7zy1-XM"" raises to 230",2026-02-09T13:18:28.135Z,177064310813500
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:18:14.952Z,177064309495200
+"""北ふくろー @ nxKtWVcmeY"" raises to 50",2026-02-09T13:18:12.117Z,177064309211700
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:18:04.553Z,177064308455300
+"""hanzo @ DKe5W54dl3"" posts a big blind of 20",2026-02-09T13:18:02.729Z,177064308272908
+"""SetsunaTrip @ O2b7zy1-XM"" posts a small blind of 10",2026-02-09T13:18:02.729Z,177064308272907
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3177) | #2 ""北ふくろー @ nxKtWVcmeY"" (2070) | #3 ""UMAUMA @ iKNrGrbUkg"" (3138) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2050) | #10 ""hanzo @ DKe5W54dl3"" (2470)",2026-02-09T13:18:02.729Z,177064308272901
+"-- starting hand #17 (id: lzofnwexeg96)  No Limit Texas Hold'em (dealer: ""UMAUMA @ iKNrGrbUkg"") --",2026-02-09T13:18:02.729Z,177064308272900
+"-- ending hand #16 --",2026-02-09T13:17:59.762Z,177064307976202
+"""北ふくろー @ nxKtWVcmeY"" collected 120 from pot",2026-02-09T13:17:59.762Z,177064307976201
+"Uncalled bet of 60 returned to ""北ふくろー @ nxKtWVcmeY""",2026-02-09T13:17:59.762Z,177064307976200
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:17:58.957Z,177064307895700
+"""北ふくろー @ nxKtWVcmeY"" bets 60",2026-02-09T13:17:53.500Z,177064307350000
+"""UMAUMA @ iKNrGrbUkg"" checks",2026-02-09T13:17:48.900Z,177064306890000
+"Turn: K♠, A♥, 7♦ [6♠]",2026-02-09T13:17:45.502Z,177064306550200
+"""北ふくろー @ nxKtWVcmeY"" checks",2026-02-09T13:17:44.665Z,177064306466500
+"""UMAUMA @ iKNrGrbUkg"" checks",2026-02-09T13:17:41.008Z,177064306100800
+"Flop:  [K♠, A♥, 7♦]",2026-02-09T13:17:36.108Z,177064305610800
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:17:35.298Z,177064305529800
+"""UMAUMA @ iKNrGrbUkg"" calls 50",2026-02-09T13:17:34.280Z,177064305428000
+"""北ふくろー @ nxKtWVcmeY"" raises to 50",2026-02-09T13:17:31.186Z,177064305118600
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:17:20.206Z,177064304020600
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:17:19.209Z,177064303920900
+"""SetsunaTrip @ O2b7zy1-XM"" posts a big blind of 20",2026-02-09T13:17:17.812Z,177064303781209
+"""UMAUMA @ iKNrGrbUkg"" posts a small blind of 10",2026-02-09T13:17:17.812Z,177064303781208
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3177) | #2 ""北ふくろー @ nxKtWVcmeY"" (2000) | #3 ""UMAUMA @ iKNrGrbUkg"" (3188) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2070) | #10 ""hanzo @ DKe5W54dl3"" (2470)",2026-02-09T13:17:17.812Z,177064303781202
+"-- starting hand #16 (id: jeb5fgu6t4xv)  No Limit Texas Hold'em (dealer: ""北ふくろー @ nxKtWVcmeY"") --",2026-02-09T13:17:17.812Z,177064303781201
+"The admin updated the player ""北ふくろー @ nxKtWVcmeY"" stack from 1990 to 2000.",2026-02-09T13:17:17.812Z,177064303781200
+"""Lemon @ Xa_1dhYEV4"" shows a K♣, A♣.",2026-02-09T13:17:15.032Z,177064303503200
+"-- ending hand #15 --",2026-02-09T13:17:14.176Z,177064303417602
+"""Lemon @ Xa_1dhYEV4"" collected 130 from pot",2026-02-09T13:17:14.176Z,177064303417601
+"Uncalled bet of 100 returned to ""Lemon @ Xa_1dhYEV4""",2026-02-09T13:17:14.176Z,177064303417600
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:17:13.350Z,177064303335000
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:17:10.875Z,177064303087500
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:17:09.890Z,177064302989000
+"""Lemon @ Xa_1dhYEV4"" raises to 150",2026-02-09T13:17:03.331Z,177064302333100
+"""hanzo @ DKe5W54dl3"" raises to 50",2026-02-09T13:16:55.080Z,177064301508000
+"WARNING: the admin queued the stack change for the player ""北ふくろー @ nxKtWVcmeY"" reseting to 2000 chips in the next hand.",2026-02-09T13:16:51.161Z,177064301116100
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:16:49.581Z,177064300958100
+"""UMAUMA @ iKNrGrbUkg"" posts a big blind of 20",2026-02-09T13:16:47.870Z,177064300787009
+"""北ふくろー @ nxKtWVcmeY"" posts a small blind of 10",2026-02-09T13:16:47.870Z,177064300787008
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3097) | #2 ""北ふくろー @ nxKtWVcmeY"" (2000) | #3 ""UMAUMA @ iKNrGrbUkg"" (3208) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2070) | #10 ""hanzo @ DKe5W54dl3"" (2520)",2026-02-09T13:16:47.870Z,177064300787002
+"-- starting hand #15 (id: ecktl2ssq1dl)  No Limit Texas Hold'em (dealer: ""Lemon @ Xa_1dhYEV4"") --",2026-02-09T13:16:47.870Z,177064300787001
+"The admin updated the player ""北ふくろー @ nxKtWVcmeY"" stack from 1760 to 2000.",2026-02-09T13:16:47.870Z,177064300787000
+"-- ending hand #14 --",2026-02-09T13:16:41.839Z,177064300183902
+"""Lemon @ Xa_1dhYEV4"" collected 480 from pot with Two Pair, 10's & 3's (combination: A♠, 3♥, 3♦, 10♥, 10♠)",2026-02-09T13:16:41.839Z,177064300183901
+"""Lemon @ Xa_1dhYEV4"" shows a A♠, 10♥.",2026-02-09T13:16:41.839Z,177064300183900
+"""北ふくろー @ nxKtWVcmeY"" checks",2026-02-09T13:16:41.037Z,177064300103700
+"""Lemon @ Xa_1dhYEV4"" checks",2026-02-09T13:16:39.975Z,177064299997500
+"River: 5♦, 8♣, 10♠, 3♥ [3♦]",2026-02-09T13:16:37.371Z,177064299737100
+"""Lemon @ Xa_1dhYEV4"" calls 120",2026-02-09T13:16:36.552Z,177064299655200
+"""北ふくろー @ nxKtWVcmeY"" bets 120",2026-02-09T13:16:31.738Z,177064299173800
+"""Lemon @ Xa_1dhYEV4"" checks",2026-02-09T13:16:14.953Z,177064297495300
+"Turn: 5♦, 8♣, 10♠ [3♥]",2026-02-09T13:16:06.594Z,177064296659400
+"""北ふくろー @ nxKtWVcmeY"" calls 60",2026-02-09T13:16:05.757Z,177064296575700
+"""Lemon @ Xa_1dhYEV4"" bets 60",2026-02-09T13:15:51.006Z,177064295100600
+"Flop:  [5♦, 8♣, 10♠]",2026-02-09T13:15:46.592Z,177064294659200
+"""北ふくろー @ nxKtWVcmeY"" calls 60",2026-02-09T13:15:45.784Z,177064294578400
+"""Lemon @ Xa_1dhYEV4"" raises to 60",2026-02-09T13:15:36.927Z,177064293692700
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:15:32.776Z,177064293277600
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:15:31.763Z,177064293176300
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:15:30.664Z,177064293066400
+"WARNING: the admin queued the stack change for the player ""北ふくろー @ nxKtWVcmeY"" reseting to 2000 chips in the next hand.",2026-02-09T13:15:28.851Z,177064292885100
+"""北ふくろー @ nxKtWVcmeY"" posts a big blind of 20",2026-02-09T13:15:26.250Z,177064292625010
+"""Lemon @ Xa_1dhYEV4"" posts a small blind of 10",2026-02-09T13:15:26.250Z,177064292625009
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (2857) | #2 ""北ふくろー @ nxKtWVcmeY"" (2000) | #3 ""UMAUMA @ iKNrGrbUkg"" (3208) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2070) | #10 ""hanzo @ DKe5W54dl3"" (2520)",2026-02-09T13:15:26.250Z,177064292625003
+"-- starting hand #14 (id: rgtgwvzmqmg8)  No Limit Texas Hold'em (dealer: ""hanzo @ DKe5W54dl3"") --",2026-02-09T13:15:26.250Z,177064292625002
+"The player ""UMAUMA @ iKNrGrbUkg"" joined the game with a stack of 3208.",2026-02-09T13:15:26.250Z,177064292625001
+"The player ""それいゆ るな @ s_7Utr4tDi"" stand up with the stack of 2010.",2026-02-09T13:15:26.250Z,177064292625000
+"-- ending hand #13 --",2026-02-09T13:15:23.287Z,177064292328702
+"""hanzo @ DKe5W54dl3"" collected 780 from pot",2026-02-09T13:15:23.287Z,177064292328701
+"Uncalled bet of 500 returned to ""hanzo @ DKe5W54dl3""",2026-02-09T13:15:23.287Z,177064292328700
+"""それいゆ るな @ s_7Utr4tDi"" folds",2026-02-09T13:15:22.473Z,177064292247300
+"""hanzo @ DKe5W54dl3"" bets 500",2026-02-09T13:15:20.051Z,177064292005100
+"Turn: 9♣, 9♠, 2♦ [10♠]",2026-02-09T13:15:05.562Z,177064290556200
+"""それいゆ るな @ s_7Utr4tDi"" calls 200",2026-02-09T13:15:04.737Z,177064290473700
+"""hanzo @ DKe5W54dl3"" bets 200",2026-02-09T13:14:49.303Z,177064288930300
+"Flop:  [9♣, 9♠, 2♦]",2026-02-09T13:14:42.551Z,177064288255100
+"""それいゆ るな @ s_7Utr4tDi"" calls 180",2026-02-09T13:14:41.700Z,177064288170000
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:14:38.681Z,177064287868100
+"""hanzo @ DKe5W54dl3"" raises to 180",2026-02-09T13:14:34.387Z,177064287438700
+"The player ""UMAUMA @ iKNrGrbUkg"" sit back with the stack of 3208.",2026-02-09T13:14:31.781Z,177064287178100
+"""それいゆ るな @ s_7Utr4tDi"" raises to 80",2026-02-09T13:14:15.183Z,177064285518300
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:14:09.745Z,177064284974500
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:14:08.668Z,177064284866800
+"""Lemon @ Xa_1dhYEV4"" posts a big blind of 20",2026-02-09T13:14:05.834Z,177064284583408
+"""hanzo @ DKe5W54dl3"" posts a small blind of 10",2026-02-09T13:14:05.834Z,177064284583407
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (2877) | #2 ""北ふくろー @ nxKtWVcmeY"" (2000) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2070) | #7 ""それいゆ るな @ s_7Utr4tDi"" (2390) | #10 ""hanzo @ DKe5W54dl3"" (2120)",2026-02-09T13:14:05.834Z,177064284583401
+"-- starting hand #13 (id: ebmsjidnwlwv)  No Limit Texas Hold'em (dealer: ""それいゆ るな @ s_7Utr4tDi"") --",2026-02-09T13:14:05.834Z,177064284583400
+"-- ending hand #12 --",2026-02-09T13:14:02.927Z,177064284292701
+"""SetsunaTrip @ O2b7zy1-XM"" collected 120 from pot",2026-02-09T13:14:02.927Z,177064284292700
+"""それいゆ るな @ s_7Utr4tDi"" folds",2026-02-09T13:14:02.037Z,177064284203700
+"Turn: K♣, 5♦, 10♣ [7♥]",2026-02-09T13:13:33.664Z,177064281366400
+"""SetsunaTrip @ O2b7zy1-XM"" checks",2026-02-09T13:13:32.817Z,177064281281700
+"""それいゆ るな @ s_7Utr4tDi"" checks",2026-02-09T13:13:27.823Z,177064280782300
+"Flop:  [K♣, 5♦, 10♣]",2026-02-09T13:13:24.655Z,177064280465500
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:13:23.808Z,177064280380800
+"""それいゆ るな @ s_7Utr4tDi"" calls 50",2026-02-09T13:13:20.293Z,177064280029300
+"""SetsunaTrip @ O2b7zy1-XM"" raises to 50",2026-02-09T13:13:17.969Z,177064279796900
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:13:08.842Z,177064278884200
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:13:07.159Z,177064278715900
+"""hanzo @ DKe5W54dl3"" posts a big blind of 20",2026-02-09T13:13:02.646Z,177064278264610
+"""それいゆ るな @ s_7Utr4tDi"" posts a small blind of 10",2026-02-09T13:13:02.646Z,177064278264609
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (2877) | #2 ""北ふくろー @ nxKtWVcmeY"" (2000) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2000) | #7 ""それいゆ るな @ s_7Utr4tDi"" (2440) | #10 ""hanzo @ DKe5W54dl3"" (2140)",2026-02-09T13:13:02.646Z,177064278264603
+"-- starting hand #12 (id: pqgd2bztdnhv)  No Limit Texas Hold'em (dealer: ""SetsunaTrip @ O2b7zy1-XM"") --",2026-02-09T13:13:02.646Z,177064278264602
+"The player ""UMAUMA @ iKNrGrbUkg"" stand up with the stack of 3208.",2026-02-09T13:13:02.646Z,177064278264601
+"The admin updated the player ""SetsunaTrip @ O2b7zy1-XM"" stack from 1990 to 2000.",2026-02-09T13:13:02.646Z,177064278264600
+"-- ending hand #11 --",2026-02-09T13:12:59.658Z,177064277965802
+"""それいゆ るな @ s_7Utr4tDi"" collected 20 from pot",2026-02-09T13:12:59.658Z,177064277965801
+"Uncalled bet of 10 returned to ""それいゆ るな @ s_7Utr4tDi""",2026-02-09T13:12:59.658Z,177064277965800
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:12:58.852Z,177064277885200
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:12:57.502Z,177064277750200
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:12:56.678Z,177064277667800
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:12:50.456Z,177064277045600
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:12:49.420Z,177064276942000
+"WARNING: the admin queued the stack change for the player ""SetsunaTrip @ O2b7zy1-XM"" reseting to 2000 chips in the next hand.",2026-02-09T13:12:48.360Z,177064276836000
+"""それいゆ るな @ s_7Utr4tDi"" posts a big blind of 20",2026-02-09T13:12:46.480Z,177064276648010
+"""SetsunaTrip @ O2b7zy1-XM"" posts a small blind of 10",2026-02-09T13:12:46.480Z,177064276648009
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (2877) | #2 ""北ふくろー @ nxKtWVcmeY"" (2000) | #3 ""UMAUMA @ iKNrGrbUkg"" (3208) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2000) | #7 ""それいゆ るな @ s_7Utr4tDi"" (2430) | #10 ""hanzo @ DKe5W54dl3"" (2140)",2026-02-09T13:12:46.480Z,177064276648002
+"-- starting hand #11 (id: hguyzdpsgl1j)  No Limit Texas Hold'em (dealer: ""UMAUMA @ iKNrGrbUkg"") --",2026-02-09T13:12:46.480Z,177064276648001
+"The admin updated the player ""SetsunaTrip @ O2b7zy1-XM"" stack from 2430 to 2000.",2026-02-09T13:12:46.480Z,177064276648000
+"""SetsunaTrip @ O2b7zy1-XM"" shows a A♣, A♥.",2026-02-09T13:12:44.856Z,177064276485600
+"-- ending hand #10 --",2026-02-09T13:12:42.877Z,177064276287702
+"""SetsunaTrip @ O2b7zy1-XM"" collected 850 from pot",2026-02-09T13:12:42.877Z,177064276287701
+"Uncalled bet of 440 returned to ""SetsunaTrip @ O2b7zy1-XM""",2026-02-09T13:12:42.877Z,177064276287700
+"""それいゆ るな @ s_7Utr4tDi"" folds",2026-02-09T13:12:42.065Z,177064276206500
+"""SetsunaTrip @ O2b7zy1-XM"" bets 440",2026-02-09T13:12:40.174Z,177064276017400
+"Flop:  [2♠, 7♠, 10♥]",2026-02-09T13:12:30.280Z,177064275028000
+"""それいゆ るな @ s_7Utr4tDi"" calls 420",2026-02-09T13:12:29.464Z,177064274946400
+"""SetsunaTrip @ O2b7zy1-XM"" raises to 420",2026-02-09T13:12:22.157Z,177064274215700
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:12:17.361Z,177064273736100
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:12:15.277Z,177064273527700
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:12:12.915Z,177064273291500
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:12:11.875Z,177064273187500
+"""それいゆ るな @ s_7Utr4tDi"" raises to 80",2026-02-09T13:12:10.865Z,177064273086500
+"WARNING: the admin queued the stack change for the player ""SetsunaTrip @ O2b7zy1-XM"" reseting to 2000 chips in the next hand.",2026-02-09T13:12:08.748Z,177064272874800
+"""SetsunaTrip @ O2b7zy1-XM"" posts a big blind of 20",2026-02-09T13:12:06.591Z,177064272659110
+"""UMAUMA @ iKNrGrbUkg"" posts a small blind of 10",2026-02-09T13:12:06.591Z,177064272659109
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (2877) | #2 ""北ふくろー @ nxKtWVcmeY"" (2000) | #3 ""UMAUMA @ iKNrGrbUkg"" (3218) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2000) | #7 ""それいゆ るな @ s_7Utr4tDi"" (2850) | #10 ""hanzo @ DKe5W54dl3"" (2140)",2026-02-09T13:12:06.591Z,177064272659102
+"-- starting hand #10 (id: 6of6tdscsjur)  No Limit Texas Hold'em (dealer: ""北ふくろー @ nxKtWVcmeY"") --",2026-02-09T13:12:06.591Z,177064272659101
+"The admin updated the player ""北ふくろー @ nxKtWVcmeY"" stack from 1990 to 2000.",2026-02-09T13:12:06.591Z,177064272659100
+"-- ending hand #9 --",2026-02-09T13:12:03.642Z,177064272364202
+"""Lemon @ Xa_1dhYEV4"" collected 124 from pot",2026-02-09T13:12:03.642Z,177064272364201
+"Uncalled bet of 40 returned to ""Lemon @ Xa_1dhYEV4""",2026-02-09T13:12:03.642Z,177064272364200
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:12:02.827Z,177064272282700
+"""Lemon @ Xa_1dhYEV4"" bets 40",2026-02-09T13:11:51.762Z,177064271176200
+"""UMAUMA @ iKNrGrbUkg"" checks",2026-02-09T13:11:45.049Z,177064270504900
+"Flop:  [5♣, 2♠, K♠]",2026-02-09T13:11:43.322Z,177064270332200
+"""UMAUMA @ iKNrGrbUkg"" calls 57",2026-02-09T13:11:42.509Z,177064270250900
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:11:39.123Z,177064269912300
+"""Lemon @ Xa_1dhYEV4"" raises to 57",2026-02-09T13:11:35.072Z,177064269507200
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:11:31.211Z,177064269121100
+"""それいゆ るな @ s_7Utr4tDi"" folds",2026-02-09T13:11:28.493Z,177064268849300
+"WARNING: the admin queued the stack change for the player ""北ふくろー @ nxKtWVcmeY"" reseting to 2000 chips in the next hand.",2026-02-09T13:11:11.720Z,177064267172000
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:11:11.080Z,177064267108000
+"""UMAUMA @ iKNrGrbUkg"" posts a big blind of 20",2026-02-09T13:11:08.628Z,177064266862810
+"""北ふくろー @ nxKtWVcmeY"" posts a small blind of 10",2026-02-09T13:11:08.628Z,177064266862809
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (2810) | #2 ""北ふくろー @ nxKtWVcmeY"" (2000) | #3 ""UMAUMA @ iKNrGrbUkg"" (3275) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2000) | #7 ""それいゆ るな @ s_7Utr4tDi"" (2850) | #10 ""hanzo @ DKe5W54dl3"" (2140)",2026-02-09T13:11:08.628Z,177064266862802
+"-- starting hand #9 (id: tcckqohv6umz)  No Limit Texas Hold'em (dealer: ""Lemon @ Xa_1dhYEV4"") --",2026-02-09T13:11:08.628Z,177064266862801
+"The admin updated the player ""北ふくろー @ nxKtWVcmeY"" stack from 1940 to 2000.",2026-02-09T13:11:08.628Z,177064266862800
+"-- ending hand #8 --",2026-02-09T13:11:05.693Z,177064266569302
+"""Lemon @ Xa_1dhYEV4"" collected 120 from pot",2026-02-09T13:11:05.693Z,177064266569301
+"Uncalled bet of 60 returned to ""Lemon @ Xa_1dhYEV4""",2026-02-09T13:11:05.693Z,177064266569300
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:11:04.881Z,177064266488100
+"""Lemon @ Xa_1dhYEV4"" bets 60",2026-02-09T13:10:46.754Z,177064264675400
+"Flop:  [Q♥, 10♠, 4♣]",2026-02-09T13:10:42.790Z,177064264279000
+"""北ふくろー @ nxKtWVcmeY"" calls 60",2026-02-09T13:10:41.978Z,177064264197800
+"""Lemon @ Xa_1dhYEV4"" raises to 60",2026-02-09T13:10:30.470Z,177064263047000
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:10:27.167Z,177064262716700
+"""それいゆ るな @ s_7Utr4tDi"" folds",2026-02-09T13:10:25.364Z,177064262536400
+"WARNING: the admin queued the stack change for the player ""北ふくろー @ nxKtWVcmeY"" reseting to 2000 chips in the next hand.",2026-02-09T13:10:20.065Z,177064262006500
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:10:19.236Z,177064261923600
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:10:18.237Z,177064261823700
+"""北ふくろー @ nxKtWVcmeY"" posts a big blind of 20",2026-02-09T13:10:16.637Z,177064261663710
+"""Lemon @ Xa_1dhYEV4"" posts a small blind of 10",2026-02-09T13:10:16.637Z,177064261663709
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (2750) | #2 ""北ふくろー @ nxKtWVcmeY"" (2000) | #3 ""UMAUMA @ iKNrGrbUkg"" (3275) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2000) | #7 ""それいゆ るな @ s_7Utr4tDi"" (2850) | #10 ""hanzo @ DKe5W54dl3"" (2140)",2026-02-09T13:10:16.637Z,177064261663702
+"-- starting hand #8 (id: yrd6tc7jc0pe)  No Limit Texas Hold'em (dealer: ""hanzo @ DKe5W54dl3"") --",2026-02-09T13:10:16.637Z,177064261663701
+"The admin updated the player ""SetsunaTrip @ O2b7zy1-XM"" stack from 1950 to 2000.",2026-02-09T13:10:16.637Z,177064261663700
+"-- ending hand #7 --",2026-02-09T13:10:10.631Z,177064261063102
+"""UMAUMA @ iKNrGrbUkg"" collected 450 from pot with Two Pair, Q's & 5's (combination: J♥, 5♥, 5♠, Q♦, Q♠)",2026-02-09T13:10:10.631Z,177064261063101
+"""UMAUMA @ iKNrGrbUkg"" shows a J♥, Q♦.",2026-02-09T13:10:10.631Z,177064261063100
+"""Lemon @ Xa_1dhYEV4"" calls 135",2026-02-09T13:10:09.759Z,177064260975900
+"""UMAUMA @ iKNrGrbUkg"" bets 135",2026-02-09T13:10:07.239Z,177064260723900
+"""Lemon @ Xa_1dhYEV4"" checks",2026-02-09T13:09:52.758Z,177064259275800
+"River: 5♥, 4♥, Q♠, 5♠ [10♦]",2026-02-09T13:09:50.349Z,177064259034900
+"""UMAUMA @ iKNrGrbUkg"" calls 45",2026-02-09T13:09:49.530Z,177064258953000
+"""Lemon @ Xa_1dhYEV4"" bets 45",2026-02-09T13:09:37.446Z,177064257744600
+"Turn: 5♥, 4♥, Q♠ [5♠]",2026-02-09T13:09:31.244Z,177064257124400
+"""UMAUMA @ iKNrGrbUkg"" checks",2026-02-09T13:09:30.418Z,177064257041800
+"""Lemon @ Xa_1dhYEV4"" checks",2026-02-09T13:09:23.397Z,177064256339700
+"Flop:  [5♥, 4♥, Q♠]",2026-02-09T13:09:21.317Z,177064256131700
+"""Lemon @ Xa_1dhYEV4"" calls 40",2026-02-09T13:09:20.516Z,177064256051600
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:09:18.830Z,177064255883000
+"""それいゆ るな @ s_7Utr4tDi"" folds",2026-02-09T13:09:16.907Z,177064255690700
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:09:15.890Z,177064255589000
+"""UMAUMA @ iKNrGrbUkg"" raises to 40",2026-02-09T13:09:14.849Z,177064255484900
+"WARNING: the admin queued the stack change for the player ""SetsunaTrip @ O2b7zy1-XM"" reseting to 2000 chips in the next hand.",2026-02-09T13:09:10.376Z,177064255037600
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:09:09.721Z,177064254972100
+"""Lemon @ Xa_1dhYEV4"" posts a big blind of 20",2026-02-09T13:09:07.183Z,177064254718309
+"""hanzo @ DKe5W54dl3"" posts a small blind of 10",2026-02-09T13:09:07.183Z,177064254718308
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (2970) | #2 ""北ふくろー @ nxKtWVcmeY"" (2000) | #3 ""UMAUMA @ iKNrGrbUkg"" (3045) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (1950) | #7 ""それいゆ るな @ s_7Utr4tDi"" (2850) | #10 ""hanzo @ DKe5W54dl3"" (2150)",2026-02-09T13:09:07.183Z,177064254718301
+"-- starting hand #7 (id: vjwkjyzlfrrl)  No Limit Texas Hold'em (dealer: ""それいゆ るな @ s_7Utr4tDi"") --",2026-02-09T13:09:07.183Z,177064254718300
+"-- ending hand #6 --",2026-02-09T13:09:04.273Z,177064254427302
+"""それいゆ るな @ s_7Utr4tDi"" collected 120 from pot",2026-02-09T13:09:04.273Z,177064254427301
+"Uncalled bet of 60 returned to ""それいゆ るな @ s_7Utr4tDi""",2026-02-09T13:09:04.273Z,177064254427300
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:09:03.430Z,177064254343000
+"""それいゆ るな @ s_7Utr4tDi"" bets 60",2026-02-09T13:09:00.361Z,177064254036100
+"River: J♦, 6♥, 7♠, Q♥ [10♣]",2026-02-09T13:08:51.390Z,177064253139000
+"""SetsunaTrip @ O2b7zy1-XM"" checks",2026-02-09T13:08:50.551Z,177064253055100
+"""それいゆ るな @ s_7Utr4tDi"" checks",2026-02-09T13:08:47.107Z,177064252710700
+"Turn: J♦, 6♥, 7♠ [Q♥]",2026-02-09T13:08:44.183Z,177064252418300
+"""SetsunaTrip @ O2b7zy1-XM"" checks",2026-02-09T13:08:43.370Z,177064252337000
+"""それいゆ るな @ s_7Utr4tDi"" checks",2026-02-09T13:08:38.130Z,177064251813000
+"Flop:  [J♦, 6♥, 7♠]",2026-02-09T13:08:33.224Z,177064251322400
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:08:32.380Z,177064251238000
+"""それいゆ るな @ s_7Utr4tDi"" calls 50",2026-02-09T13:08:27.708Z,177064250770800
+"""SetsunaTrip @ O2b7zy1-XM"" raises to 50",2026-02-09T13:08:25.731Z,177064250573100
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:08:21.599Z,177064250159900
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:08:20.578Z,177064250057800
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:08:16.038Z,177064249603800
+"""hanzo @ DKe5W54dl3"" posts a big blind of 20",2026-02-09T13:08:13.816Z,177064249381610
+"""それいゆ るな @ s_7Utr4tDi"" posts a small blind of 10",2026-02-09T13:08:13.816Z,177064249381609
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (2970) | #2 ""北ふくろー @ nxKtWVcmeY"" (2000) | #3 ""UMAUMA @ iKNrGrbUkg"" (3045) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2000) | #7 ""それいゆ るな @ s_7Utr4tDi"" (2780) | #10 ""hanzo @ DKe5W54dl3"" (2170)",2026-02-09T13:08:13.816Z,177064249381602
+"-- starting hand #6 (id: 7hjbwjeltt6o)  No Limit Texas Hold'em (dealer: ""SetsunaTrip @ O2b7zy1-XM"") --",2026-02-09T13:08:13.816Z,177064249381601
+"The admin updated the player ""SetsunaTrip @ O2b7zy1-XM"" stack from 1990 to 2000.",2026-02-09T13:08:13.816Z,177064249381600
+"-- ending hand #5 --",2026-02-09T13:08:10.911Z,177064249091102
+"""hanzo @ DKe5W54dl3"" collected 330 from pot",2026-02-09T13:08:10.911Z,177064249091101
+"Uncalled bet of 120 returned to ""hanzo @ DKe5W54dl3""",2026-02-09T13:08:10.911Z,177064249091100
+"""それいゆ るな @ s_7Utr4tDi"" folds",2026-02-09T13:08:10.017Z,177064249001700
+"""hanzo @ DKe5W54dl3"" bets 120",2026-02-09T13:08:03.182Z,177064248318200
+"""それいゆ るな @ s_7Utr4tDi"" checks",2026-02-09T13:07:44.007Z,177064246400700
+"Flop:  [4♦, 8♦, 4♠]",2026-02-09T13:07:41.786Z,177064246178600
+"""それいゆ るな @ s_7Utr4tDi"" calls 160",2026-02-09T13:07:40.927Z,177064246092700
+"""hanzo @ DKe5W54dl3"" raises to 160",2026-02-09T13:07:38.080Z,177064245808000
+"""それいゆ るな @ s_7Utr4tDi"" raises to 80",2026-02-09T13:07:26.797Z,177064244679700
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:07:20.050Z,177064244005000
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:07:19.045Z,177064243904500
+"""北ふくろー @ nxKtWVcmeY"" folds",2026-02-09T13:07:17.963Z,177064243796300
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:07:16.924Z,177064243692400
+"""hanzo @ DKe5W54dl3"" raises to 40",2026-02-09T13:07:15.693Z,177064243569300
+"WARNING: the admin queued the stack change for the player ""SetsunaTrip @ O2b7zy1-XM"" reseting to 2000 chips in the next hand.",2026-02-09T13:07:15.616Z,177064243561600
+"""それいゆ るな @ s_7Utr4tDi"" posts a big blind of 20",2026-02-09T13:07:11.959Z,177064243195911
+"""SetsunaTrip @ O2b7zy1-XM"" posts a small blind of 10",2026-02-09T13:07:11.959Z,177064243195910
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (2970) | #2 ""北ふくろー @ nxKtWVcmeY"" (2000) | #3 ""UMAUMA @ iKNrGrbUkg"" (3045) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2000) | #7 ""それいゆ るな @ s_7Utr4tDi"" (2940) | #10 ""hanzo @ DKe5W54dl3"" (2000)",2026-02-09T13:07:11.959Z,177064243195903
+"-- starting hand #5 (id: gwwnsvrjgkm1)  No Limit Texas Hold'em (dealer: ""UMAUMA @ iKNrGrbUkg"") --",2026-02-09T13:07:11.959Z,177064243195902
+"The player ""北ふくろー @ nxKtWVcmeY"" joined the game with a stack of 2000.",2026-02-09T13:07:11.959Z,177064243195901
+"The admin updated the player ""SetsunaTrip @ O2b7zy1-XM"" stack from 1965 to 2000.",2026-02-09T13:07:11.959Z,177064243195900
+"The admin ""Guest @ fXxZKORuuu"" rejected the seat request from the player ""TNT @ 8nHT7nz2_A"".",2026-02-09T13:07:09.293Z,177064242929300
+"-- ending hand #4 --",2026-02-09T13:07:09.054Z,177064242905402
+"""SetsunaTrip @ O2b7zy1-XM"" collected 20 from pot",2026-02-09T13:07:09.054Z,177064242905401
+"Uncalled bet of 10 returned to ""SetsunaTrip @ O2b7zy1-XM""",2026-02-09T13:07:09.054Z,177064242905400
+"The player ""TNT @ 8nHT7nz2_A"" requested a seat.",2026-02-09T13:07:08.384Z,177064242838400
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:07:08.241Z,177064242824100
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:07:07.199Z,177064242719900
+"The admin ""Guest @ fXxZKORuuu"" rejected the seat request from the player ""Fuku @ mXg0a8r7as"".",2026-02-09T13:07:06.433Z,177064242643300
+"""hanzo @ DKe5W54dl3"" folds",2026-02-09T13:07:06.138Z,177064242613800
+"The player ""Fuku @ mXg0a8r7as"" requested a seat.",2026-02-09T13:07:05.458Z,177064242545800
+"""それいゆ るな @ s_7Utr4tDi"" folds",2026-02-09T13:07:02.502Z,177064242250200
+"The admin ""Guest @ fXxZKORuuu"" rejected the seat request from the player ""だいすけ @ 9kBl9X8tEm"".",2026-02-09T13:07:02.452Z,177064242245200
+"The player ""だいすけ @ 9kBl9X8tEm"" requested a seat.",2026-02-09T13:07:01.507Z,177064242150700
+"WARNING: the admin queued the stack change for the player ""SetsunaTrip @ O2b7zy1-XM"" reseting to 2000 chips in the next hand.",2026-02-09T13:06:58.226Z,177064241822600
+"""SetsunaTrip @ O2b7zy1-XM"" posts a big blind of 20",2026-02-09T13:06:56.273Z,177064241627309
+"""UMAUMA @ iKNrGrbUkg"" posts a small blind of 10",2026-02-09T13:06:56.273Z,177064241627308
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (2970) | #3 ""UMAUMA @ iKNrGrbUkg"" (3055) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (1955) | #7 ""それいゆ るな @ s_7Utr4tDi"" (2940) | #10 ""hanzo @ DKe5W54dl3"" (2000)",2026-02-09T13:06:56.273Z,177064241627302
+"-- starting hand #4 (id: a8yucrj2fihh)  No Limit Texas Hold'em (dealer: ""Lemon @ Xa_1dhYEV4"") --",2026-02-09T13:06:56.273Z,177064241627301
+"The player ""hanzo @ DKe5W54dl3"" joined the game with a stack of 2000.",2026-02-09T13:06:56.273Z,177064241627300
+"The admin approved the player ""北ふくろー @ nxKtWVcmeY"" participation with a stack of 2000.",2026-02-09T13:06:56.253Z,177064241625300
+"The player ""北ふくろー @ nxKtWVcmeY"" requested a seat.",2026-02-09T13:06:55.294Z,177064241529400
+"-- ending hand #3 --",2026-02-09T13:06:53.327Z,177064241332702
+"""UMAUMA @ iKNrGrbUkg"" collected 100 from pot",2026-02-09T13:06:53.327Z,177064241332701
+"Uncalled bet of 215 returned to ""UMAUMA @ iKNrGrbUkg""",2026-02-09T13:06:53.327Z,177064241332700
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:06:52.479Z,177064241247900
+"""UMAUMA @ iKNrGrbUkg"" raises to 260",2026-02-09T13:06:50.055Z,177064241005500
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:06:39.804Z,177064239980400
+"""それいゆ るな @ s_7Utr4tDi"" folds",2026-02-09T13:06:36.221Z,177064239622100
+"""SetsunaTrip @ O2b7zy1-XM"" raises to 45",2026-02-09T13:06:35.095Z,177064239509500
+"""UMAUMA @ iKNrGrbUkg"" posts a big blind of 20",2026-02-09T13:06:27.512Z,177064238751207
+"""Lemon @ Xa_1dhYEV4"" posts a small blind of 10",2026-02-09T13:06:27.512Z,177064238751206
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (2980) | #3 ""UMAUMA @ iKNrGrbUkg"" (3000) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2000) | #7 ""それいゆ るな @ s_7Utr4tDi"" (2940)",2026-02-09T13:06:27.512Z,177064238751201
+"-- starting hand #3 (id: gupegaf1oyt2)  No Limit Texas Hold'em (dealer: ""それいゆ るな @ s_7Utr4tDi"") --",2026-02-09T13:06:27.512Z,177064238751200
+"""Lemon @ Xa_1dhYEV4"" shows a 5♥, 3♣.",2026-02-09T13:06:24.709Z,177064238470900
+"-- ending hand #2 --",2026-02-09T13:06:23.903Z,177064238390302
+"""それいゆ るな @ s_7Utr4tDi"" collected 40 from pot",2026-02-09T13:06:23.903Z,177064238390301
+"Uncalled bet of 40 returned to ""それいゆ るな @ s_7Utr4tDi""",2026-02-09T13:06:23.903Z,177064238390300
+"The admin approved the player ""hanzo @ DKe5W54dl3"" participation with a stack of 2000.",2026-02-09T13:06:23.751Z,177064238375100
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:06:23.086Z,177064238308600
+"The player ""hanzo @ DKe5W54dl3"" requested a seat.",2026-02-09T13:06:22.867Z,177064238286700
+"""それいゆ るな @ s_7Utr4tDi"" raises to 60",2026-02-09T13:06:20.798Z,177064238079800
+"""SetsunaTrip @ O2b7zy1-XM"" folds",2026-02-09T13:06:15.726Z,177064237572600
+"""UMAUMA @ iKNrGrbUkg"" folds",2026-02-09T13:06:14.589Z,177064237458900
+"""Lemon @ Xa_1dhYEV4"" posts a big blind of 20",2026-02-09T13:06:12.238Z,177064237223809
+"""それいゆ るな @ s_7Utr4tDi"" posts a small blind of 10",2026-02-09T13:06:12.238Z,177064237223808
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3000) | #3 ""UMAUMA @ iKNrGrbUkg"" (3000) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2000) | #7 ""それいゆ るな @ s_7Utr4tDi"" (2920)",2026-02-09T13:06:12.238Z,177064237223803
+"-- starting hand #2 (id: bdyjh1xfvdgw)  No Limit Texas Hold'em (dealer: ""SetsunaTrip @ O2b7zy1-XM"") --",2026-02-09T13:06:12.238Z,177064237223802
+"The player ""UMAUMA @ iKNrGrbUkg"" joined the game with a stack of 3000.",2026-02-09T13:06:12.238Z,177064237223801
+"The admin updated the player ""SetsunaTrip @ O2b7zy1-XM"" stack from 2080 to 2000.",2026-02-09T13:06:12.238Z,177064237223800
+"-- ending hand #1 --",2026-02-09T13:06:06.224Z,177064236622402
+"""SetsunaTrip @ O2b7zy1-XM"" collected 160 from pot with Two Pair, 9's & 4's (combination: A♣, 4♦, 4♣, 9♠, 9♦)",2026-02-09T13:06:06.224Z,177064236622401
+"""SetsunaTrip @ O2b7zy1-XM"" shows a A♣, 4♦.",2026-02-09T13:06:06.224Z,177064236622400
+"""それいゆ るな @ s_7Utr4tDi"" checks",2026-02-09T13:06:05.411Z,177064236541100
+"The admin approved the player ""UMAUMA @ iKNrGrbUkg"" participation with a stack of 3000.",2026-02-09T13:06:04.464Z,177064236446400
+"The player ""UMAUMA @ iKNrGrbUkg"" requested a seat.",2026-02-09T13:06:03.930Z,177064236393000
+"""SetsunaTrip @ O2b7zy1-XM"" checks",2026-02-09T13:06:02.457Z,177064236245700
+"River: 9♠, 9♦, 4♣, 2♥ [8♣]",2026-02-09T13:06:00.362Z,177064236036200
+"""それいゆ るな @ s_7Utr4tDi"" checks",2026-02-09T13:05:59.488Z,177064235948800
+"""SetsunaTrip @ O2b7zy1-XM"" checks",2026-02-09T13:05:57.753Z,177064235775300
+"Turn: 9♠, 9♦, 4♣ [2♥]",2026-02-09T13:05:56.411Z,177064235641100
+"""SetsunaTrip @ O2b7zy1-XM"" calls 20",2026-02-09T13:05:55.588Z,177064235558800
+"""それいゆ るな @ s_7Utr4tDi"" bets 20",2026-02-09T13:05:52.503Z,177064235250300
+"""SetsunaTrip @ O2b7zy1-XM"" checks",2026-02-09T13:05:46.295Z,177064234629500
+"Flop:  [9♠, 9♦, 4♣]",2026-02-09T13:05:38.969Z,177064233896900
+"""それいゆ るな @ s_7Utr4tDi"" calls 60",2026-02-09T13:05:38.158Z,177064233815800
+"""SetsunaTrip @ O2b7zy1-XM"" raises to 60",2026-02-09T13:05:34.555Z,177064233455500
+"""Lemon @ Xa_1dhYEV4"" folds",2026-02-09T13:05:28.580Z,177064232858000
+"WARNING: the admin queued the stack change for the player ""SetsunaTrip @ O2b7zy1-XM"" reseting to 2000 chips in the next hand.",2026-02-09T13:05:28.381Z,177064232838100
+"""それいゆ るな @ s_7Utr4tDi"" posts a big blind of 20",2026-02-09T13:05:24.837Z,177064232483709
+"""SetsunaTrip @ O2b7zy1-XM"" posts a small blind of 10",2026-02-09T13:05:24.837Z,177064232483708
+"Player stacks: #1 ""Lemon @ Xa_1dhYEV4"" (3000) | #4 ""SetsunaTrip @ O2b7zy1-XM"" (2000) | #7 ""それいゆ るな @ s_7Utr4tDi"" (3000)",2026-02-09T13:05:24.837Z,177064232483704
+"The player ""それいゆ るな @ s_7Utr4tDi"" joined the game with a stack of 3000.",2026-02-09T13:05:24.837Z,177064232483703
+"The player ""SetsunaTrip @ O2b7zy1-XM"" joined the game with a stack of 2000.",2026-02-09T13:05:24.837Z,177064232483702
+"The player ""Lemon @ Xa_1dhYEV4"" joined the game with a stack of 3000.",2026-02-09T13:05:24.837Z,177064232483701
+"-- starting hand #1 (id: a3sgioeqjs0z)  No Limit Texas Hold'em (dealer: ""Lemon @ Xa_1dhYEV4"") --",2026-02-09T13:05:24.837Z,177064232483700
+"The admin approved the player ""それいゆ るな @ s_7Utr4tDi"" participation with a stack of 3000.",2026-02-09T13:05:24.119Z,177064232411900
+"The admin approved the player ""SetsunaTrip @ O2b7zy1-XM"" participation with a stack of 2000.",2026-02-09T13:05:22.813Z,177064232281300
+"The player ""それいゆ るな @ s_7Utr4tDi"" requested a seat.",2026-02-09T13:05:22.634Z,177064232263400
+"The player ""SetsunaTrip @ O2b7zy1-XM"" requested a seat.",2026-02-09T13:05:22.216Z,177064232221600
+"The admin approved the player ""Lemon @ Xa_1dhYEV4"" participation with a stack of 3000.",2026-02-09T13:05:13.602Z,177064231360200
+"The player ""Lemon @ Xa_1dhYEV4"" requested a seat.",2026-02-09T13:05:12.713Z,177064231271300
+"Game Config Changes
+* Decision Limit Time: 20s » 100s
+* Max Time Bank: 10s » 50s
+* Allow Run it Twice: no » always
+* Restart Blind Schedule at Level: none » 1",2026-02-09T13:04:54.492Z,177064229449200
+"The player ""ノガード @ GgfRhPuspx"" passed the room ownership to ""Guest @ fXxZKORuuu"".",2026-02-09T13:04:52.823Z,177064229282300
