@@ -1,6 +1,9 @@
 name: Update Poker Stats
 
 on:
+  schedule:
+    # 毎週月曜 23:30 JST = 14:30 UTC
+    - cron: '30 14 * * 1'
   workflow_dispatch:
     inputs:
       dry_run:
@@ -13,6 +16,11 @@ on:
         required: false
         default: 'true'
         type: boolean
+      skip_fetch:
+        description: 'Skip DB fetch (use existing JSON)'
+        required: false
+        default: 'false'
+        type: boolean
 
 jobs:
   update-stats:
@@ -20,6 +28,7 @@ jobs:
 
     permissions:
       contents: write
+      pull-requests: write
 
     steps:
       - name: Checkout repository
@@ -33,13 +42,28 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pandas
+          pip install pandas psycopg2-binary
+
+      - name: Fetch stats from Neon DB
+        if: inputs.skip_fetch != 'true'
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: |
+          cd ${{ github.workspace }}
+          FETCH_ARGS="--data-dir data"
+          if [ "${{ inputs.verbose }}" = "true" ] || [ "${{ github.event_name }}" = "schedule" ]; then
+            FETCH_ARGS="$FETCH_ARGS --verbose"
+          fi
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            FETCH_ARGS="$FETCH_ARGS --dry-run"
+          fi
+          python scripts/fetch_stats.py $FETCH_ARGS
 
       - name: Run stats calculation
         run: |
           cd ${{ github.workspace }}
           ARGS="--data-dir data --config-dir config"
-          if [ "${{ inputs.verbose }}" = "true" ]; then
+          if [ "${{ inputs.verbose }}" = "true" ] || [ "${{ github.event_name }}" = "schedule" ]; then
             ARGS="$ARGS --verbose"
           fi
           if [ "${{ inputs.dry_run }}" = "true" ]; then
@@ -50,13 +74,23 @@ jobs:
       - name: Check for changes
         id: git-check
         run: |
-          git diff --exit-code || echo "changes=true" >> $GITHUB_OUTPUT
+          git add -A
+          git diff --cached --exit-code || echo "changes=true" >> $GITHUB_OUTPUT
 
-      - name: Commit and push changes
+      - name: Create branch, commit, and open PR
         if: steps.git-check.outputs.changes == 'true' && inputs.dry_run != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
+          DATE=$(date -u +%y%m%d)
+          BRANCH="ranking/${DATE}"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/*.csv config/players.json
-          git commit -m "Update poker stats [skip ci]"
-          git push
+          git checkout -b "$BRANCH"
+          git commit -m "ranking/${DATE}"
+          git push -u origin "$BRANCH"
+          gh pr create \
+            --title "ranking/${DATE}" \
+            --body "GitHub Actions による自動更新" \
+            --base main \
+            --head "$BRANCH"
