@@ -1,0 +1,3052 @@
+{
+  "generatedAt": "2026-02-02T12:32:10.240Z",
+  "playerId": "GgfRhPuspx",
+  "gameId": "pglks32NuPpvovBNIm5XAXWx2",
+  "hands": [{
+    "id": "v7tkbu0zmwd4",
+    "handVersion": 2,
+    "number": "1",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 1,
+    "startedAt": 1770034187924,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "gG60J3OV2j",
+        "seat": 1,
+        "name": "Hibari",
+        "stack": 2000
+      },
+      {
+        "id": "Oc04ITRF7i",
+        "seat": 5,
+        "name": "waho",
+        "stack": 3000
+      },
+      {
+        "id": "r1CBe6Qe79",
+        "seat": 10,
+        "name": "なんでやねん",
+        "stack": 2000
+      }
+    ],
+    "events": [
+      {
+        "at": 1770034187924,
+        "payload": {
+          "type": 3,
+          "seat": 5,
+          "value": 10
+        }
+      },
+      {
+        "at": 1770034187925,
+        "payload": {
+          "type": 2,
+          "seat": 10,
+          "value": 20
+        }
+      },
+      {
+        "at": 1770034202712,
+        "payload": {
+          "type": 8,
+          "seat": 1,
+          "value": 50
+        }
+      },
+      {
+        "at": 1770034207656,
+        "payload": {
+          "type": 11,
+          "seat": 5
+        }
+      },
+      {
+        "at": 1770034212113,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1770034213001,
+        "payload": {
+          "type": 16,
+          "value": 30,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1770034213002,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1770034213003,
+        "payload": {
+          "type": 10,
+          "seat": 1,
+          "value": 50,
+          "pot": 50,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "h9pdxnaq9ucd",
+    "handVersion": 2,
+    "number": "2",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 5,
+    "startedAt": 1770034215909,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "gG60J3OV2j",
+        "seat": 1,
+        "name": "Hibari",
+        "stack": 2030
+      },
+      {
+        "id": "Oc04ITRF7i",
+        "seat": 5,
+        "name": "waho",
+        "stack": 2990
+      },
+      {
+        "id": "r1CBe6Qe79",
+        "seat": 10,
+        "name": "なんでやねん",
+        "stack": 2000
+      }
+    ],
+    "events": [
+      {
+        "at": 1770034215909,
+        "payload": {
+          "type": 3,
+          "seat": 10,
+          "value": 10
+        }
+      },
+      {
+        "at": 1770034215910,
+        "payload": {
+          "type": 2,
+          "seat": 1,
+          "value": 20
+        }
+      },
+      {
+        "at": 1770034219157,
+        "payload": {
+          "type": 11,
+          "seat": 5
+        }
+      },
+      {
+        "at": 1770034225080,
+        "payload": {
+          "type": 8,
+          "seat": 10,
+          "value": 60
+        }
+      },
+      {
+        "at": 1770034227171,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1770034228017,
+        "payload": {
+          "type": 16,
+          "value": 40,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1770034228018,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1770034228019,
+        "payload": {
+          "type": 10,
+          "seat": 10,
+          "value": 40,
+          "pot": 40,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "m4vb2jm2w3aa",
+    "handVersion": 2,
+    "number": "3",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 10,
+    "startedAt": 1770034230919,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "gG60J3OV2j",
+        "seat": 1,
+        "name": "Hibari",
+        "stack": 2010
+      },
+      {
+        "id": "Oc04ITRF7i",
+        "seat": 5,
+        "name": "waho",
+        "stack": 2990
+      },
+      {
+        "id": "r1CBe6Qe79",
+        "seat": 10,
+        "name": "なんでやねん",
+        "stack": 2000
+      }
+    ],
+    "events": [
+      {
+        "at": 1770034230919,
+        "payload": {
+          "type": 3,
+          "seat": 1,
+          "value": 10
+        }
+      },
+      {
+        "at": 1770034230920,
+        "payload": {
+          "type": 2,
+          "seat": 5,
+          "value": 20
+        }
+      },
+      {
+        "at": 1770034232151,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1770034235255,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1770034236065,
+        "payload": {
+          "type": 16,
+          "value": 10,
+          "seat": 5
+        }
+      },
+      {
+        "at": 1770034236066,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1770034236067,
+        "payload": {
+          "type": 10,
+          "seat": 5,
+          "value": 20,
+          "pot": 20,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "5kidy2eruke4",
+    "handVersion": 2,
+    "number": "4",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 1,
+    "startedAt": 1770034239022,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "gG60J3OV2j",
+        "seat": 1,
+        "name": "Hibari",
+        "stack": 2000
+      },
+      {
+        "id": "Oc04ITRF7i",
+        "seat": 5,
+        "name": "waho",
+        "stack": 3000,
+        "hand": [
+          "4s",
+          "4d"
+        ]
+      },
+      {
+        "id": "r1CBe6Qe79",
+        "seat": 10,
+        "name": "なんでやねん",
+        "stack": 2000
+      }
+    ],
+    "events": [
+      {
+        "at": 1770034239022,
+        "payload": {
+          "type": 3,
+          "seat": 5,
+          "value": 10
+        }
+      },
+      {
+        "at": 1770034239023,
+        "payload": {
+          "type": 2,
+          "seat": 10,
+          "value": 20
+        }
+      },
+      {
+        "at": 1770034241109,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1770034246662,
+        "payload": {
+          "type": 8,
+          "seat": 5,
+          "value": 60
+        }
+      },
+      {
+        "at": 1770034258434,
+        "payload": {
+          "type": 7,
+          "seat": 10,
+          "value": 60
+        }
+      },
+      {
+        "at": 1770034259274,
+        "payload": {
+          "type": 9,
+          "turn": 1,
+          "run": 1,
+          "cards": [
+            "9c",
+            "8c",
+            "4c"
+          ],
+          "handsLabels": {
+            "5": [
+              {
+                "c": 7
+              }
+            ]
+          }
+        }
+      },
+      {
+        "at": 1770034274880,
+        "payload": {
+          "type": 8,
+          "seat": 5,
+          "value": 40
+        }
+      },
+      {
+        "at": 1770034282275,
+        "payload": {
+          "type": 7,
+          "seat": 10,
+          "value": 40
+        }
+      },
+      {
+        "at": 1770034283108,
+        "payload": {
+          "type": 9,
+          "turn": 2,
+          "run": 1,
+          "cards": [
+            "3c"
+          ],
+          "handsLabels": {
+            "5": [
+              {
+                "c": 7
+              }
+            ]
+          }
+        }
+      },
+      {
+        "at": 1770034303699,
+        "payload": {
+          "type": 8,
+          "seat": 5,
+          "value": 120
+        }
+      },
+      {
+        "at": 1770034320936,
+        "payload": {
+          "type": 7,
+          "seat": 10,
+          "value": 120
+        }
+      },
+      {
+        "at": 1770034321844,
+        "payload": {
+          "type": 9,
+          "turn": 3,
+          "run": 1,
+          "cards": [
+            "6c"
+          ],
+          "handsLabels": {
+            "5": [
+              {
+                "c": 5
+              }
+            ]
+          }
+        }
+      },
+      {
+        "at": 1770034334443,
+        "payload": {
+          "type": 0,
+          "seat": 5
+        }
+      },
+      {
+        "at": 1770034367918,
+        "payload": {
+          "type": 8,
+          "seat": 10,
+          "value": 440
+        }
+      },
+      {
+        "at": 1770034372907,
+        "payload": {
+          "type": 11,
+          "seat": 5
+        }
+      },
+      {
+        "at": 1770034373727,
+        "payload": {
+          "type": 16,
+          "value": 440,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1770034373728,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1770034373729,
+        "payload": {
+          "type": 10,
+          "seat": 10,
+          "value": 440,
+          "pot": 440,
+          "position": 1
+        }
+      },
+      {
+        "at": 1770034374571,
+        "payload": {
+          "type": 12,
+          "seat": 5,
+          "cards": [
+            "4s",
+            "4d"
+          ]
+        }
+      }
+    ]
+  },{
+    "id": "pdk0ybucuiy5",
+    "handVersion": 2,
+    "number": "5",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 5,
+    "startedAt": 1770034377329,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "gG60J3OV2j",
+        "seat": 1,
+        "name": "Hibari",
+        "stack": 2000
+      },
+      {
+        "id": "Oc04ITRF7i",
+        "seat": 5,
+        "name": "waho",
+        "stack": 2780
+      },
+      {
+        "id": "r1CBe6Qe79",
+        "seat": 10,
+        "name": "なんでやねん",
+        "stack": 2000
+      }
+    ],
+    "events": [
+      {
+        "at": 1770034377329,
+        "payload": {
+          "type": 3,
+          "seat": 10,
+          "value": 10
+        }
+      },
+      {
+        "at": 1770034377330,
+        "payload": {
+          "type": 2,
+          "seat": 1,
+          "value": 20
+        }
+      },
+      {
+        "at": 1770034382542,
+        "payload": {
+          "type": 8,
+          "seat": 5,
+          "value": 50
+        }
+      },
+      {
+        "at": 1770034393151,
+        "payload": {
+          "type": 8,
+          "seat": 10,
+          "value": 240
+        }
+      },
+      {
+        "at": 1770034394260,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1770034401552,
+        "payload": {
+          "type": 11,
+          "seat": 5
+        }
+      },
+      {
+        "at": 1770034402466,
+        "payload": {
+          "type": 16,
+          "value": 190,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1770034402467,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1770034402468,
+        "payload": {
+          "type": 10,
+          "seat": 10,
+          "value": 120,
+          "pot": 120,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "6g9n13dyu7ma",
+    "handVersion": 2,
+    "number": "6",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 10,
+    "startedAt": 1770034405467,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "gG60J3OV2j",
+        "seat": 1,
+        "name": "Hibari",
+        "stack": 1980
+      },
+      {
+        "id": "Oc04ITRF7i",
+        "seat": 5,
+        "name": "waho",
+        "stack": 2730
+      },
+      {
+        "id": "r1CBe6Qe79",
+        "seat": 10,
+        "name": "なんでやねん",
+        "stack": 2070
+      }
+    ],
+    "events": [
+      {
+        "at": 1770034405467,
+        "payload": {
+          "type": 3,
+          "seat": 1,
+          "value": 10
+        }
+      },
+      {
+        "at": 1770034405468,
+        "payload": {
+          "type": 2,
+          "seat": 5,
+          "value": 20
+        }
+      },
+      {
+        "at": 1770034408728,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1770034409742,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1770034410550,
+        "payload": {
+          "type": 16,
+          "value": 10,
+          "seat": 5
+        }
+      },
+      {
+        "at": 1770034410551,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1770034410552,
+        "payload": {
+          "type": 10,
+          "seat": 5,
+          "value": 20,
+          "pot": 20,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "jfb9mhfnmfcq",
+    "handVersion": 2,
+    "number": "7",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 1,
+    "startedAt": 1770034413475,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "gG60J3OV2j",
+        "seat": 1,
+        "name": "Hibari",
+        "stack": 1970
+      },
+      {
+        "id": "Oc04ITRF7i",
+        "seat": 5,
+        "name": "waho",
+        "stack": 2740
+      },
+      {
+        "id": "r1CBe6Qe79",
+        "seat": 10,
+        "name": "なんでやねん",
+        "stack": 2070
+      }
+    ],
+    "events": [
+      {
+        "at": 1770034413475,
+        "payload": {
+          "type": 3,
+          "seat": 5,
+          "value": 10
+        }
+      },
+      {
+        "at": 1770034413476,
+        "payload": {
+          "type": 2,
+          "seat": 10,
+          "value": 20
+        }
+      },
+      {
+        "at": 1770034415208,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1770034424907,
+        "payload": {
+          "type": 8,
+          "seat": 5,
+          "value": 60
+        }
+      },
+      {
+        "at": 1770034429209,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1770034430085,
+        "payload": {
+          "type": 16,
+          "value": 40,
+          "seat": 5
+        }
+      },
+      {
+        "at": 1770034430086,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1770034430087,
+        "payload": {
+          "type": 10,
+          "seat": 5,
+          "value": 40,
+          "pot": 40,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "aulrxco0zzjp",
+    "handVersion": 2,
+    "number": "8",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 5,
+    "startedAt": 1770034432989,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "gG60J3OV2j",
+        "seat": 1,
+        "name": "Hibari",
+        "stack": 1970
+      },
+      {
+        "id": "Oc04ITRF7i",
+        "seat": 5,
+        "name": "waho",
+        "stack": 2760
+      },
+      {
+        "id": "r1CBe6Qe79",
+        "seat": 10,
+        "name": "なんでやねん",
+        "stack": 2050
+      }
+    ],
+    "events": [
+      {
+        "at": 1770034432989,
+        "payload": {
+          "type": 3,
+          "seat": 10,
+          "value": 10
+        }
+      },
+      {
+        "at": 1770034432990,
+        "payload": {
+          "type": 2,
+          "seat": 1,
+          "value": 20
+        }
+      },
+      {
+        "at": 1770034438488,
+        "payload": {
+          "type": 8,
+          "seat": 5,
+          "value": 50
+        }
+      },
+      {
+        "at": 1770034439503,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1770034448261,
+        "payload": {
+          "type": 7,
+          "seat": 1,
+          "value": 50
+        }
+      },
+      {
+        "at": 1770034449082,
+        "payload": {
+          "type": 9,
+          "turn": 1,
+          "run": 1,
+          "cards": [
+            "7d",
+            "Qs",
+            "Jd"
+          ],
+          "handsLabels": {}
+        }
+      },
+      {
+        "at": 1770034452188,
+        "payload": {
+          "type": 0,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1770034475190,
+        "payload": {
+          "type": 8,
+          "seat": 5,
+          "value": 80
+        }
+      },
+      {
+        "at": 1770034512090,
+        "payload": {
+          "type": 7,
+          "seat": 1,
+          "value": 80
+        }
+      },
+      {
+        "at": 1770034512904,
+        "payload": {
+          "type": 9,
+          "turn": 2,
+          "run": 1,
+          "cards": [
+            "5h"
+          ],
+          "handsLabels": {}
+        }
+      },
+      {
+        "at": 1770034517385,
+        "payload": {
+          "type": 0,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1770034579579,
+        "payload": {
+          "type": 8,
+          "seat": 5,
+          "value": 400
+        }
+      },
+      {
+        "at": 1770034607380,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1770034608212,
+        "payload": {
+          "type": 16,
+          "value": 400,
+          "seat": 5
+        }
+      },
+      {
+        "at": 1770034608213,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1770034608214,
+        "payload": {
+          "type": 10,
+          "seat": 5,
+          "value": 270,
+          "pot": 270,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "zbnwdpvv22bw",
+    "handVersion": 2,
+    "number": "9",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 10,
+    "startedAt": 1770034611130,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "gG60J3OV2j",
+        "seat": 1,
+        "name": "Hibari",
+        "stack": 1840
+      },
+      {
+        "id": "Oc04ITRF7i",
+        "seat": 5,
+        "name": "waho",
+        "stack": 2900
+      },
+      {
+        "id": "r1CBe6Qe79",
+        "seat": 10,
+        "name": "なんでやねん",
+        "stack": 2040
+      }
+    ],
+    "events": [
+      {
+        "at": 1770034611130,
+        "payload": {
+          "type": 3,
+          "seat": 1,
+          "value": 10
+        }
+      },
+      {
+        "at": 1770034611131,
+        "payload": {
+          "type": 2,
+          "seat": 5,
+          "value": 20
+        }
+      },
+      {
+        "at": 1770034614026,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1770034615058,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1770034615929,
+        "payload": {
+          "type": 16,
+          "value": 10,
+          "seat": 5
+        }
+      },
+      {
+        "at": 1770034615930,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1770034615931,
+        "payload": {
+          "type": 10,
+          "seat": 5,
+          "value": 20,
+          "pot": 20,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "tl40jag4y8ab",
+    "handVersion": 2,
+    "number": "10",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 1,
+    "startedAt": 1770034618860,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "gG60J3OV2j",
+        "seat": 1,
+        "name": "Hibari",
+        "stack": 1830
+      },
+      {
+        "id": "Oc04ITRF7i",
+        "seat": 5,
+        "name": "waho",
+        "stack": 2910
+      },
+      {
+        "id": "r1CBe6Qe79",
+        "seat": 10,
+        "name": "なんでやねん",
+        "stack": 2040
+      }
+    ],
+    "events": [
+      {
+        "at": 1770034618860,
+        "payload": {
+          "type": 3,
+          "seat": 5,
+          "value": 10
+        }
+      },
+      {
+        "at": 1770034618861,
+        "payload": {
+          "type": 2,
+          "seat": 10,
+          "value": 20
+        }
+      },
+      {
+        "at": 1770034620798,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1770034628361,
+        "payload": {
+          "type": 8,
+          "seat": 5,
+          "value": 60
+        }
+      },
+      {
+        "at": 1770034634698,
+        "payload": {
+          "type": 8,
+          "seat": 10,
+          "value": 260
+        }
+      },
+      {
+        "at": 1770034636333,
+        "payload": {
+          "type": 11,
+          "seat": 5
+        }
+      },
+      {
+        "at": 1770034637168,
+        "payload": {
+          "type": 16,
+          "value": 200,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1770034637169,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1770034637170,
+        "payload": {
+          "type": 10,
+          "seat": 10,
+          "value": 120,
+          "pot": 120,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "ainrbrepsvop",
+    "handVersion": 2,
+    "number": "11",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 5,
+    "startedAt": 1770034640101,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "gG60J3OV2j",
+        "seat": 1,
+        "name": "Hibari",
+        "stack": 1830
+      },
+      {
+        "id": "Oc04ITRF7i",
+        "seat": 5,
+        "name": "waho",
+        "stack": 2850
+      },
+      {
+        "id": "r1CBe6Qe79",
+        "seat": 10,
+        "name": "なんでやねん",
+        "stack": 2100
+      }
+    ],
+    "events": [
+      {
+        "at": 1770034640101,
+        "payload": {
+          "type": 3,
+          "seat": 10,
+          "value": 10
+        }
+      },
+      {
+        "at": 1770034640102,
+        "payload": {
+          "type": 2,
+          "seat": 1,
+          "value": 20
+        }
+      },
+      {
+        "at": 1770034641510,
+        "payload": {
+          "type": 11,
+          "seat": 5
+        }
+      },
+      {
+        "at": 1770034642589,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1770034643425,
+        "payload": {
+          "type": 16,
+          "value": 10,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1770034643426,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1770034643427,
+        "payload": {
+          "type": 10,
+          "seat": 1,
+          "value": 20,
+          "pot": 20,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "cx2rw1dp501i",
+    "handVersion": 2,
+    "number": "12",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 10,
+    "startedAt": 1770034646374,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "gG60J3OV2j",
+        "seat": 1,
+        "name": "Hibari",
+        "stack": 1840
+      },
+      {
+        "id": "Oc04ITRF7i",
+        "seat": 5,
+        "name": "waho",
+        "stack": 2850
+      },
+      {
+        "id": "r1CBe6Qe79",
+        "seat": 10,
+        "name": "なんでやねん",
+        "stack": 2090
+      }
+    ],
+    "events": [
+      {
+        "at": 1770034646374,
+        "payload": {
+          "type": 3,
+          "seat": 1,
+          "value": 10
+        }
+      },
+      {
+        "at": 1770034646375,
+        "payload": {
+          "type": 2,
+          "seat": 5,
+          "value": 20
+        }
+      },
+      {
+        "at": 1770034652924,
+        "payload": {
+          "type": 8,
+          "seat": 10,
+          "value": 50
+        }
+      },
+      {
+        "at": 1770034665234,
+        "payload": {
+          "type": 8,
+          "seat": 1,
+          "value": 230
+        }
+      },
+      {
+        "at": 1770034667890,
+        "payload": {
+          "type": 11,
+          "seat": 5
+        }
+      },
+      {
+        "at": 1770034676034,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1770034676857,
+        "payload": {
+          "type": 16,
+          "value": 180,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1770034676858,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1770034676859,
+        "payload": {
+          "type": 10,
+          "seat": 1,
+          "value": 120,
+          "pot": 120,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "e0ygs6ald9g6",
+    "handVersion": 2,
+    "number": "13",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 1,
+    "startedAt": 1770034679838,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "gG60J3OV2j",
+        "seat": 1,
+        "name": "Hibari",
+        "stack": 1910
+      },
+      {
+        "id": "Oc04ITRF7i",
+        "seat": 5,
+        "name": "waho",
+        "stack": 2830
+      },
+      {
+        "id": "r1CBe6Qe79",
+        "seat": 10,
+        "name": "なんでやねん",
+        "stack": 2040
+      }
+    ],
+    "events": [
+      {
+        "at": 1770034679838,
+        "payload": {
+          "type": 3,
+          "seat": 5,
+          "value": 10
+        }
+      },
+      {
+        "at": 1770034679839,
+        "payload": {
+          "type": 2,
+          "seat": 10,
+          "value": 20
+        }
+      },
+      {
+        "at": 1770034684966,
+        "payload": {
+          "type": 8,
+          "seat": 1,
+          "value": 50
+        }
+      },
+      {
+        "at": 1770034689929,
+        "payload": {
+          "type": 11,
+          "seat": 5
+        }
+      },
+      {
+        "at": 1770034691617,
+        "payload": {
+          "type": 7,
+          "seat": 10,
+          "value": 50
+        }
+      },
+      {
+        "at": 1770034692422,
+        "payload": {
+          "type": 9,
+          "turn": 1,
+          "run": 1,
+          "cards": [
+            "7c",
+            "6s",
+            "4s"
+          ],
+          "handsLabels": {}
+        }
+      },
+      {
+        "at": 1770034695642,
+        "payload": {
+          "type": 0,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1770034708233,
+        "payload": {
+          "type": 0,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1770034709093,
+        "payload": {
+          "type": 9,
+          "turn": 2,
+          "run": 1,
+          "cards": [
+            "Qh"
+          ],
+          "handsLabels": {}
+        }
+      },
+      {
+        "at": 1770034713412,
+        "payload": {
+          "type": 0,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1770034752293,
+        "payload": {
+          "type": 0,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1770034753108,
+        "payload": {
+          "type": 9,
+          "turn": 3,
+          "run": 1,
+          "cards": [
+            "As"
+          ],
+          "handsLabels": {}
+        }
+      },
+      {
+        "at": 1770034783708,
+        "payload": {
+          "type": 8,
+          "seat": 10,
+          "value": 40
+        }
+      },
+      {
+        "at": 1770034803011,
+        "payload": {
+          "type": 8,
+          "seat": 1,
+          "value": 190
+        }
+      },
+      {
+        "at": 1770034804826,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1770034805651,
+        "payload": {
+          "type": 16,
+          "value": 150,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1770034805652,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1770034805653,
+        "payload": {
+          "type": 10,
+          "seat": 1,
+          "value": 190,
+          "pot": 190,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "nonjxbdpqijg",
+    "handVersion": 2,
+    "number": "14",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 5,
+    "startedAt": 1770034808578,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "gG60J3OV2j",
+        "seat": 1,
+        "name": "Hibari",
+        "stack": 2010
+      },
+      {
+        "id": "Oc04ITRF7i",
+        "seat": 5,
+        "name": "waho",
+        "stack": 2820
+      },
+      {
+        "id": "r1CBe6Qe79",
+        "seat": 10,
+        "name": "なんでやねん",
+        "stack": 1950
+      }
+    ],
+    "events": [
+      {
+        "at": 1770034808578,
+        "payload": {
+          "type": 3,
+          "seat": 10,
+          "value": 10
+        }
+      },
+      {
+        "at": 1770034808579,
+        "payload": {
+          "type": 2,
+          "seat": 1,
+          "value": 20
+        }
+      },
+      {
+        "at": 1770034812676,
+        "payload": {
+          "type": 11,
+          "seat": 5
+        }
+      },
+      {
+        "at": 1770034813732,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1770034814584,
+        "payload": {
+          "type": 16,
+          "value": 10,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1770034814585,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1770034814586,
+        "payload": {
+          "type": 10,
+          "seat": 1,
+          "value": 20,
+          "pot": 20,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "edulcurqjobo",
+    "handVersion": 2,
+    "number": "15",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 10,
+    "startedAt": 1770034817519,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "gG60J3OV2j",
+        "seat": 1,
+        "name": "Hibari",
+        "stack": 2020
+      },
+      {
+        "id": "Oc04ITRF7i",
+        "seat": 5,
+        "name": "waho",
+        "stack": 2820
+      },
+      {
+        "id": "r1CBe6Qe79",
+        "seat": 10,
+        "name": "なんでやねん",
+        "stack": 1940
+      }
+    ],
+    "events": [
+      {
+        "at": 1770034817519,
+        "payload": {
+          "type": 3,
+          "seat": 1,
+          "value": 10
+        }
+      },
+      {
+        "at": 1770034817520,
+        "payload": {
+          "type": 2,
+          "seat": 5,
+          "value": 20
+        }
+      },
+      {
+        "at": 1770034825943,
+        "payload": {
+          "type": 8,
+          "seat": 10,
+          "value": 50
+        }
+      },
+      {
+        "at": 1770034827704,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1770034842875,
+        "payload": {
+          "type": 8,
+          "seat": 5,
+          "value": 240
+        }
+      },
+      {
+        "at": 1770034850492,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1770034851308,
+        "payload": {
+          "type": 16,
+          "value": 190,
+          "seat": 5
+        }
+      },
+      {
+        "at": 1770034851309,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1770034851310,
+        "payload": {
+          "type": 10,
+          "seat": 5,
+          "value": 110,
+          "pot": 110,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "jed1nwr5ptdn",
+    "handVersion": 2,
+    "number": "16",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 1,
+    "startedAt": 1770034854217,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "gG60J3OV2j",
+        "seat": 1,
+        "name": "Hibari",
+        "stack": 2010
+      },
+      {
+        "id": "Oc04ITRF7i",
+        "seat": 5,
+        "name": "waho",
+        "stack": 2880
+      },
+      {
+        "id": "r1CBe6Qe79",
+        "seat": 10,
+        "name": "なんでやねん",
+        "stack": 1890
+      }
+    ],
+    "events": [
+      {
+        "at": 1770034854217,
+        "payload": {
+          "type": 3,
+          "seat": 5,
+          "value": 10
+        }
+      },
+      {
+        "at": 1770034854218,
+        "payload": {
+          "type": 2,
+          "seat": 10,
+          "value": 20
+        }
+      },
+      {
+        "at": 1770034856857,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1770034863643,
+        "payload": {
+          "type": 8,
+          "seat": 5,
+          "value": 60
+        }
+      },
+      {
+        "at": 1770034870925,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1770034871731,
+        "payload": {
+          "type": 16,
+          "value": 40,
+          "seat": 5
+        }
+      },
+      {
+        "at": 1770034871732,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1770034871733,
+        "payload": {
+          "type": 10,
+          "seat": 5,
+          "value": 40,
+          "pot": 40,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "mbx6wamdi6lx",
+    "handVersion": 2,
+    "number": "17",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 5,
+    "startedAt": 1770034874650,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "gG60J3OV2j",
+        "seat": 1,
+        "name": "Hibari",
+        "stack": 2010
+      },
+      {
+        "id": "Oc04ITRF7i",
+        "seat": 5,
+        "name": "waho",
+        "stack": 2900
+      },
+      {
+        "id": "r1CBe6Qe79",
+        "seat": 10,
+        "name": "なんでやねん",
+        "stack": 1870
+      }
+    ],
+    "events": [
+      {
+        "at": 1770034874650,
+        "payload": {
+          "type": 3,
+          "seat": 10,
+          "value": 10
+        }
+      },
+      {
+        "at": 1770034874651,
+        "payload": {
+          "type": 2,
+          "seat": 1,
+          "value": 20
+        }
+      },
+      {
+        "at": 1770034876996,
+        "payload": {
+          "type": 11,
+          "seat": 5
+        }
+      },
+      {
+        "at": 1770034879966,
+        "payload": {
+          "type": 8,
+          "seat": 10,
+          "value": 60
+        }
+      },
+      {
+        "at": 1770034882545,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1770034883412,
+        "payload": {
+          "type": 16,
+          "value": 40,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1770034883413,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1770034883414,
+        "payload": {
+          "type": 10,
+          "seat": 10,
+          "value": 40,
+          "pot": 40,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "p5dhzcb7klyf",
+    "handVersion": 2,
+    "number": "18",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 10,
+    "startedAt": 1770034886344,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "gG60J3OV2j",
+        "seat": 1,
+        "name": "Hibari",
+        "stack": 1990
+      },
+      {
+        "id": "Oc04ITRF7i",
+        "seat": 5,
+        "name": "waho",
+        "stack": 2900
+      },
+      {
+        "id": "r1CBe6Qe79",
+        "seat": 10,
+        "name": "なんでやねん",
+        "stack": 1890
+      }
+    ],
+    "events": [
+      {
+        "at": 1770034886344,
+        "payload": {
+          "type": 3,
+          "seat": 1,
+          "value": 10
+        }
+      },
+      {
+        "at": 1770034886345,
+        "payload": {
+          "type": 2,
+          "seat": 5,
+          "value": 20
+        }
+      },
+      {
+        "at": 1770034888918,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1770034892840,
+        "payload": {
+          "type": 8,
+          "seat": 1,
+          "value": 60
+        }
+      },
+      {
+        "at": 1770034903651,
+        "payload": {
+          "type": 7,
+          "seat": 5,
+          "value": 60
+        }
+      },
+      {
+        "at": 1770034904483,
+        "payload": {
+          "type": 9,
+          "turn": 1,
+          "run": 1,
+          "cards": [
+            "6s",
+            "2h",
+            "7h"
+          ],
+          "handsLabels": {}
+        }
+      },
+      {
+        "at": 1770034919474,
+        "payload": {
+          "type": 0,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1770034945627,
+        "payload": {
+          "type": 0,
+          "seat": 5
+        }
+      },
+      {
+        "at": 1770034946441,
+        "payload": {
+          "type": 9,
+          "turn": 2,
+          "run": 1,
+          "cards": [
+            "3c"
+          ],
+          "handsLabels": {}
+        }
+      },
+      {
+        "at": 1770034975769,
+        "payload": {
+          "type": 8,
+          "seat": 1,
+          "value": 40
+        }
+      },
+      {
+        "at": 1770035034041,
+        "payload": {
+          "type": 11,
+          "seat": 5
+        }
+      },
+      {
+        "at": 1770035034887,
+        "payload": {
+          "type": 16,
+          "value": 40,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1770035034888,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1770035034889,
+        "payload": {
+          "type": 10,
+          "seat": 1,
+          "value": 120,
+          "pot": 120,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "tcmrghlwlif9",
+    "handVersion": 2,
+    "number": "19",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 1,
+    "startedAt": 1770035037840,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "gG60J3OV2j",
+        "seat": 1,
+        "name": "Hibari",
+        "stack": 2050
+      },
+      {
+        "id": "Oc04ITRF7i",
+        "seat": 5,
+        "name": "waho",
+        "stack": 2840
+      },
+      {
+        "id": "r1CBe6Qe79",
+        "seat": 10,
+        "name": "なんでやねん",
+        "stack": 1890
+      }
+    ],
+    "events": [
+      {
+        "at": 1770035037840,
+        "payload": {
+          "type": 3,
+          "seat": 5,
+          "value": 10
+        }
+      },
+      {
+        "at": 1770035037841,
+        "payload": {
+          "type": 2,
+          "seat": 10,
+          "value": 20
+        }
+      },
+      {
+        "at": 1770035039743,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1770035042027,
+        "payload": {
+          "type": 11,
+          "seat": 5
+        }
+      },
+      {
+        "at": 1770035042865,
+        "payload": {
+          "type": 16,
+          "value": 10,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1770035042866,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1770035042867,
+        "payload": {
+          "type": 10,
+          "seat": 10,
+          "value": 20,
+          "pot": 20,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "eersxctdxl7i",
+    "handVersion": 2,
+    "number": "20",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 5,
+    "startedAt": 1770035045812,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "gG60J3OV2j",
+        "seat": 1,
+        "name": "Hibari",
+        "stack": 2050
+      },
+      {
+        "id": "Oc04ITRF7i",
+        "seat": 5,
+        "name": "waho",
+        "stack": 2830
+      },
+      {
+        "id": "r1CBe6Qe79",
+        "seat": 10,
+        "name": "なんでやねん",
+        "stack": 1900
+      }
+    ],
+    "events": [
+      {
+        "at": 1770035045812,
+        "payload": {
+          "type": 3,
+          "seat": 10,
+          "value": 10
+        }
+      },
+      {
+        "at": 1770035045813,
+        "payload": {
+          "type": 2,
+          "seat": 1,
+          "value": 20
+        }
+      },
+      {
+        "at": 1770035052733,
+        "payload": {
+          "type": 8,
+          "seat": 5,
+          "value": 50
+        }
+      },
+      {
+        "at": 1770035055107,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1770035065263,
+        "payload": {
+          "type": 8,
+          "seat": 1,
+          "value": 260
+        }
+      },
+      {
+        "at": 1770035071594,
+        "payload": {
+          "type": 11,
+          "seat": 5
+        }
+      },
+      {
+        "at": 1770035072435,
+        "payload": {
+          "type": 16,
+          "value": 210,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1770035072436,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1770035072437,
+        "payload": {
+          "type": 10,
+          "seat": 1,
+          "value": 110,
+          "pot": 110,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "arbmjm0drva7",
+    "handVersion": 2,
+    "number": "21",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 10,
+    "startedAt": 1770035075346,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "gG60J3OV2j",
+        "seat": 1,
+        "name": "Hibari",
+        "stack": 2110
+      },
+      {
+        "id": "Oc04ITRF7i",
+        "seat": 5,
+        "name": "waho",
+        "stack": 2780
+      },
+      {
+        "id": "r1CBe6Qe79",
+        "seat": 10,
+        "name": "なんでやねん",
+        "stack": 1890
+      }
+    ],
+    "events": [
+      {
+        "at": 1770035075346,
+        "payload": {
+          "type": 3,
+          "seat": 1,
+          "value": 10
+        }
+      },
+      {
+        "at": 1770035075347,
+        "payload": {
+          "type": 2,
+          "seat": 5,
+          "value": 20
+        }
+      },
+      {
+        "at": 1770035080617,
+        "payload": {
+          "type": 8,
+          "seat": 10,
+          "value": 50
+        }
+      },
+      {
+        "at": 1770035081636,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1770035106288,
+        "payload": {
+          "type": 11,
+          "seat": 5
+        }
+      },
+      {
+        "at": 1770035107115,
+        "payload": {
+          "type": 16,
+          "value": 30,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1770035107116,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1770035107117,
+        "payload": {
+          "type": 10,
+          "seat": 10,
+          "value": 50,
+          "pot": 50,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "ih7h6dsqqnbe",
+    "handVersion": 2,
+    "number": "22",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 1,
+    "startedAt": 1770035110031,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "gG60J3OV2j",
+        "seat": 1,
+        "name": "Hibari",
+        "stack": 2100
+      },
+      {
+        "id": "Oc04ITRF7i",
+        "seat": 5,
+        "name": "waho",
+        "stack": 2760
+      },
+      {
+        "id": "r1CBe6Qe79",
+        "seat": 10,
+        "name": "なんでやねん",
+        "stack": 1920
+      }
+    ],
+    "events": [
+      {
+        "at": 1770035110031,
+        "payload": {
+          "type": 3,
+          "seat": 5,
+          "value": 10
+        }
+      },
+      {
+        "at": 1770035110032,
+        "payload": {
+          "type": 2,
+          "seat": 10,
+          "value": 20
+        }
+      },
+      {
+        "at": 1770035112582,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1770035119506,
+        "payload": {
+          "type": 8,
+          "seat": 5,
+          "value": 60
+        }
+      },
+      {
+        "at": 1770035126423,
+        "payload": {
+          "type": 8,
+          "seat": 10,
+          "value": 260
+        }
+      },
+      {
+        "at": 1770035138748,
+        "payload": {
+          "type": 7,
+          "seat": 5,
+          "value": 260
+        }
+      },
+      {
+        "at": 1770035139624,
+        "payload": {
+          "type": 9,
+          "turn": 1,
+          "run": 1,
+          "cards": [
+            "6c",
+            "Jh",
+            "7d"
+          ],
+          "handsLabels": {}
+        }
+      },
+      {
+        "at": 1770035145101,
+        "payload": {
+          "type": 0,
+          "seat": 5
+        }
+      },
+      {
+        "at": 1770035186286,
+        "payload": {
+          "type": 8,
+          "seat": 10,
+          "value": 130
+        }
+      },
+      {
+        "at": 1770035241791,
+        "payload": {
+          "type": 8,
+          "seat": 5,
+          "value": 360
+        }
+      },
+      {
+        "at": 1770035274688,
+        "payload": {
+          "type": 7,
+          "seat": 10,
+          "value": 360
+        }
+      },
+      {
+        "at": 1770035275514,
+        "payload": {
+          "type": 9,
+          "turn": 2,
+          "run": 1,
+          "cards": [
+            "4c"
+          ],
+          "handsLabels": {}
+        }
+      },
+      {
+        "at": 1770035323972,
+        "payload": {
+          "type": 8,
+          "seat": 5,
+          "value": 2140,
+          "allIn": true
+        }
+      },
+      {
+        "at": 1770035330367,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1770035331171,
+        "payload": {
+          "type": 16,
+          "value": 2140,
+          "seat": 5
+        }
+      },
+      {
+        "at": 1770035331172,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1770035331173,
+        "payload": {
+          "type": 10,
+          "seat": 5,
+          "value": 1240,
+          "pot": 1240,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "xuhopgpwijmg",
+    "handVersion": 2,
+    "number": "23",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 5,
+    "startedAt": 1770035334099,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "gG60J3OV2j",
+        "seat": 1,
+        "name": "Hibari",
+        "stack": 2100
+      },
+      {
+        "id": "Oc04ITRF7i",
+        "seat": 5,
+        "name": "waho",
+        "stack": 3380
+      },
+      {
+        "id": "r1CBe6Qe79",
+        "seat": 10,
+        "name": "なんでやねん",
+        "stack": 1300
+      }
+    ],
+    "events": [
+      {
+        "at": 1770035334099,
+        "payload": {
+          "type": 3,
+          "seat": 10,
+          "value": 10
+        }
+      },
+      {
+        "at": 1770035334100,
+        "payload": {
+          "type": 2,
+          "seat": 1,
+          "value": 20
+        }
+      },
+      {
+        "at": 1770035336888,
+        "payload": {
+          "type": 11,
+          "seat": 5
+        }
+      },
+      {
+        "at": 1770035337919,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1770035338757,
+        "payload": {
+          "type": 16,
+          "value": 10,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1770035338758,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1770035338759,
+        "payload": {
+          "type": 10,
+          "seat": 1,
+          "value": 20,
+          "pot": 20,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "emzxl0xahrqo",
+    "handVersion": 2,
+    "number": "24",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 10,
+    "startedAt": 1770035341676,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "gG60J3OV2j",
+        "seat": 1,
+        "name": "Hibari",
+        "stack": 2110
+      },
+      {
+        "id": "Oc04ITRF7i",
+        "seat": 5,
+        "name": "waho",
+        "stack": 3380
+      },
+      {
+        "id": "r1CBe6Qe79",
+        "seat": 10,
+        "name": "なんでやねん",
+        "stack": 1290
+      }
+    ],
+    "events": [
+      {
+        "at": 1770035341676,
+        "payload": {
+          "type": 3,
+          "seat": 1,
+          "value": 10
+        }
+      },
+      {
+        "at": 1770035341677,
+        "payload": {
+          "type": 2,
+          "seat": 5,
+          "value": 20
+        }
+      },
+      {
+        "at": 1770035343430,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1770035348064,
+        "payload": {
+          "type": 8,
+          "seat": 1,
+          "value": 60
+        }
+      },
+      {
+        "at": 1770035356098,
+        "payload": {
+          "type": 11,
+          "seat": 5
+        }
+      },
+      {
+        "at": 1770035356914,
+        "payload": {
+          "type": 16,
+          "value": 40,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1770035356915,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1770035356916,
+        "payload": {
+          "type": 10,
+          "seat": 1,
+          "value": 40,
+          "pot": 40,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "myuzwfondihz",
+    "handVersion": 2,
+    "number": "25",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 1,
+    "startedAt": 1770035359855,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "gG60J3OV2j",
+        "seat": 1,
+        "name": "Hibari",
+        "stack": 2130
+      },
+      {
+        "id": "Oc04ITRF7i",
+        "seat": 5,
+        "name": "waho",
+        "stack": 3360
+      },
+      {
+        "id": "r1CBe6Qe79",
+        "seat": 10,
+        "name": "なんでやねん",
+        "stack": 1290
+      }
+    ],
+    "events": [
+      {
+        "at": 1770035359855,
+        "payload": {
+          "type": 3,
+          "seat": 5,
+          "value": 10
+        }
+      },
+      {
+        "at": 1770035359856,
+        "payload": {
+          "type": 2,
+          "seat": 10,
+          "value": 20
+        }
+      },
+      {
+        "at": 1770035361961,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1770035368879,
+        "payload": {
+          "type": 11,
+          "seat": 5
+        }
+      },
+      {
+        "at": 1770035369702,
+        "payload": {
+          "type": 16,
+          "value": 10,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1770035369703,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1770035369704,
+        "payload": {
+          "type": 10,
+          "seat": 10,
+          "value": 20,
+          "pot": 20,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "jj245vwy6e9u",
+    "handVersion": 2,
+    "number": "26",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 5,
+    "startedAt": 1770035372667,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "gG60J3OV2j",
+        "seat": 1,
+        "name": "Hibari",
+        "stack": 2130
+      },
+      {
+        "id": "Oc04ITRF7i",
+        "seat": 5,
+        "name": "waho",
+        "stack": 3350
+      },
+      {
+        "id": "r1CBe6Qe79",
+        "seat": 10,
+        "name": "なんでやねん",
+        "stack": 1300
+      }
+    ],
+    "events": [
+      {
+        "at": 1770035372667,
+        "payload": {
+          "type": 3,
+          "seat": 10,
+          "value": 10
+        }
+      },
+      {
+        "at": 1770035372668,
+        "payload": {
+          "type": 2,
+          "seat": 1,
+          "value": 20
+        }
+      },
+      {
+        "at": 1770035375878,
+        "payload": {
+          "type": 11,
+          "seat": 5
+        }
+      },
+      {
+        "at": 1770035376917,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1770035377763,
+        "payload": {
+          "type": 16,
+          "value": 10,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1770035377764,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1770035377765,
+        "payload": {
+          "type": 10,
+          "seat": 1,
+          "value": 20,
+          "pot": 20,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "lddit2alvan8",
+    "handVersion": 2,
+    "number": "27",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 10,
+    "startedAt": 1770035380672,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "gG60J3OV2j",
+        "seat": 1,
+        "name": "Hibari",
+        "stack": 2140
+      },
+      {
+        "id": "r1CBe6Qe79",
+        "seat": 10,
+        "name": "なんでやねん",
+        "stack": 1290
+      }
+    ],
+    "events": [
+      {
+        "at": 1770035380672,
+        "payload": {
+          "type": 3,
+          "seat": 10,
+          "value": 10
+        }
+      },
+      {
+        "at": 1770035380673,
+        "payload": {
+          "type": 2,
+          "seat": 1,
+          "value": 20
+        }
+      },
+      {
+        "at": 1770035382117,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1770035382967,
+        "payload": {
+          "type": 16,
+          "value": 10,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1770035382968,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1770035382969,
+        "payload": {
+          "type": 10,
+          "seat": 1,
+          "value": 20,
+          "pot": 20,
+          "position": 1
+        }
+      }
+    ]
+  }
+]}

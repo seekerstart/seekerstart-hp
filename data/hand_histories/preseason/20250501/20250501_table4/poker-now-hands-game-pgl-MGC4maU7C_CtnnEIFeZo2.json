@@ -1,0 +1,8421 @@
+{
+  "generatedAt": "2025-05-01T14:11:12.458Z",
+  "playerId": "3XxnU4oJw0",
+  "gameId": "pgl-MGC4maU7C_CtnnEIFeZo2",
+  "hands": [{
+    "id": "xmqxrcado4oz",
+    "handVersion": 2,
+    "number": "1",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 9,
+    "startedAt": 1746105436750,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "4kHSZklLpK",
+        "seat": 1,
+        "name": "teish",
+        "stack": 2400,
+        "hand": [
+          "9c",
+          "Kc"
+        ]
+      },
+      {
+        "id": "gjmiQ4-uAW",
+        "seat": 2,
+        "name": "IAMB",
+        "stack": 2400
+      },
+      {
+        "id": "Zp6HGuC8yK",
+        "seat": 3,
+        "name": "shiozuka1121",
+        "stack": 2000
+      },
+      {
+        "id": "CsHt4-HRYF",
+        "seat": 4,
+        "name": "chiffon1468",
+        "stack": 2400
+      },
+      {
+        "id": "7kPHYByVxS",
+        "seat": 6,
+        "name": "Ene",
+        "stack": 2400,
+        "hand": [
+          "Qh",
+          "As"
+        ]
+      },
+      {
+        "id": "HJCe0qCFpd",
+        "seat": 7,
+        "name": "NABO",
+        "stack": 2000
+      },
+      {
+        "id": "hig4fvwo_m",
+        "seat": 9,
+        "name": "とーち",
+        "stack": 2000
+      },
+      {
+        "id": "XaClitYV1x",
+        "seat": 10,
+        "name": "らねおか",
+        "stack": 2400
+      }
+    ],
+    "events": [
+      {
+        "at": 1746105436750,
+        "payload": {
+          "type": 3,
+          "seat": 10,
+          "value": 10
+        }
+      },
+      {
+        "at": 1746105436751,
+        "payload": {
+          "type": 2,
+          "seat": 1,
+          "value": 20
+        }
+      },
+      {
+        "at": 1746105440686,
+        "payload": {
+          "type": 8,
+          "seat": 2,
+          "value": 40
+        }
+      },
+      {
+        "at": 1746105441709,
+        "payload": {
+          "type": 11,
+          "seat": 3
+        }
+      },
+      {
+        "at": 1746105442818,
+        "payload": {
+          "type": 11,
+          "seat": 4
+        }
+      },
+      {
+        "at": 1746105443948,
+        "payload": {
+          "type": 7,
+          "seat": 6,
+          "value": 40
+        }
+      },
+      {
+        "at": 1746105445056,
+        "payload": {
+          "type": 11,
+          "seat": 7
+        }
+      },
+      {
+        "at": 1746105449149,
+        "payload": {
+          "type": 11,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746105450840,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1746105455288,
+        "payload": {
+          "type": 7,
+          "seat": 1,
+          "value": 40
+        }
+      },
+      {
+        "at": 1746105456116,
+        "payload": {
+          "type": 9,
+          "turn": 1,
+          "run": 1,
+          "cards": [
+            "7s",
+            "Ts",
+            "Tc"
+          ],
+          "handsLabels": {
+            "1": [
+              {
+                "c": 9,
+                "d": [
+                  "10"
+                ]
+              }
+            ],
+            "6": [
+              {
+                "c": 9,
+                "d": [
+                  "10"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "at": 1746105458746,
+        "payload": {
+          "type": 0,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1746105459745,
+        "payload": {
+          "type": 0,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746105461014,
+        "payload": {
+          "type": 0,
+          "seat": 6
+        }
+      },
+      {
+        "at": 1746105461831,
+        "payload": {
+          "type": 9,
+          "turn": 2,
+          "run": 1,
+          "cards": [
+            "8s"
+          ],
+          "handsLabels": {
+            "1": [
+              {
+                "c": 9,
+                "d": [
+                  "10"
+                ]
+              }
+            ],
+            "6": [
+              {
+                "c": 9,
+                "d": [
+                  "10"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "at": 1746105464513,
+        "payload": {
+          "type": 0,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1746105466355,
+        "payload": {
+          "type": 0,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746105472195,
+        "payload": {
+          "type": 8,
+          "seat": 6,
+          "value": 97
+        }
+      },
+      {
+        "at": 1746105483311,
+        "payload": {
+          "type": 7,
+          "seat": 1,
+          "value": 97
+        }
+      },
+      {
+        "at": 1746105484378,
+        "payload": {
+          "type": 11,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746105485262,
+        "payload": {
+          "type": 9,
+          "turn": 3,
+          "run": 1,
+          "cards": [
+            "9s"
+          ],
+          "handsLabels": {
+            "1": [
+              {
+                "c": 8,
+                "d": [
+                  "10",
+                  "9"
+                ]
+              }
+            ],
+            "6": [
+              {
+                "c": 5
+              }
+            ]
+          }
+        }
+      },
+      {
+        "at": 1746105493414,
+        "payload": {
+          "type": 0,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1746105495410,
+        "payload": {
+          "type": 0,
+          "seat": 6
+        }
+      },
+      {
+        "at": 1746105496275,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1746105496276,
+        "payload": {
+          "type": 12,
+          "seat": 1,
+          "cards": [
+            "9c",
+            "Kc"
+          ]
+        }
+      },
+      {
+        "at": 1746105496277,
+        "payload": {
+          "type": 12,
+          "seat": 6,
+          "cards": [
+            "Qh",
+            "As"
+          ]
+        }
+      },
+      {
+        "at": 1746105496278,
+        "payload": {
+          "type": 10,
+          "seat": 6,
+          "value": 324,
+          "cards": [
+            "Qh",
+            "As"
+          ],
+          "combination": [
+            "As",
+            "Ts",
+            "9s",
+            "8s",
+            "7s"
+          ],
+          "handDescription": "Flush, As High",
+          "position": 1,
+          "runNumber": "1",
+          "hiLo": "h"
+        }
+      }
+    ]
+  },{
+    "id": "cytxexo5ekhq",
+    "handVersion": 2,
+    "number": "2",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 10,
+    "startedAt": 1746105502309,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "4kHSZklLpK",
+        "seat": 1,
+        "name": "teish",
+        "stack": 2263
+      },
+      {
+        "id": "gjmiQ4-uAW",
+        "seat": 2,
+        "name": "IAMB",
+        "stack": 2360
+      },
+      {
+        "id": "Zp6HGuC8yK",
+        "seat": 3,
+        "name": "shiozuka1121",
+        "stack": 2000
+      },
+      {
+        "id": "CsHt4-HRYF",
+        "seat": 4,
+        "name": "chiffon1468",
+        "stack": 2400
+      },
+      {
+        "id": "7kPHYByVxS",
+        "seat": 6,
+        "name": "Ene",
+        "stack": 2587
+      },
+      {
+        "id": "HJCe0qCFpd",
+        "seat": 7,
+        "name": "NABO",
+        "stack": 2000
+      },
+      {
+        "id": "hig4fvwo_m",
+        "seat": 9,
+        "name": "とーち",
+        "stack": 2000
+      },
+      {
+        "id": "XaClitYV1x",
+        "seat": 10,
+        "name": "らねおか",
+        "stack": 2390,
+        "hand": [
+          "Th",
+          "8d"
+        ]
+      }
+    ],
+    "events": [
+      {
+        "at": 1746105502309,
+        "payload": {
+          "type": 3,
+          "seat": 1,
+          "value": 10
+        }
+      },
+      {
+        "at": 1746105502310,
+        "payload": {
+          "type": 2,
+          "seat": 2,
+          "value": 20
+        }
+      },
+      {
+        "at": 1746105506406,
+        "payload": {
+          "type": 11,
+          "seat": 3
+        }
+      },
+      {
+        "at": 1746105507551,
+        "payload": {
+          "type": 11,
+          "seat": 4
+        }
+      },
+      {
+        "at": 1746105508626,
+        "payload": {
+          "type": 11,
+          "seat": 6
+        }
+      },
+      {
+        "at": 1746105509711,
+        "payload": {
+          "type": 11,
+          "seat": 7
+        }
+      },
+      {
+        "at": 1746105510773,
+        "payload": {
+          "type": 11,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746105516880,
+        "payload": {
+          "type": 8,
+          "seat": 10,
+          "value": 50
+        }
+      },
+      {
+        "at": 1746105517888,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1746105521277,
+        "payload": {
+          "type": 7,
+          "seat": 2,
+          "value": 50
+        }
+      },
+      {
+        "at": 1746105522095,
+        "payload": {
+          "type": 9,
+          "turn": 1,
+          "run": 1,
+          "cards": [
+            "Jh",
+            "9c",
+            "Js"
+          ],
+          "handsLabels": {
+            "10": [
+              {
+                "c": 9,
+                "d": [
+                  "J"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "at": 1746105524571,
+        "payload": {
+          "type": 0,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746105533191,
+        "payload": {
+          "type": 8,
+          "seat": 10,
+          "value": 36
+        }
+      },
+      {
+        "at": 1746105539390,
+        "payload": {
+          "type": 8,
+          "seat": 2,
+          "value": 127
+        }
+      },
+      {
+        "at": 1746105562115,
+        "payload": {
+          "type": 7,
+          "seat": 10,
+          "value": 127
+        }
+      },
+      {
+        "at": 1746105562924,
+        "payload": {
+          "type": 9,
+          "turn": 2,
+          "run": 1,
+          "cards": [
+            "Kc"
+          ],
+          "handsLabels": {
+            "10": [
+              {
+                "c": 9,
+                "d": [
+                  "J"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "at": 1746105573304,
+        "payload": {
+          "type": 8,
+          "seat": 2,
+          "value": 122
+        }
+      },
+      {
+        "at": 1746105592222,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1746105593027,
+        "payload": {
+          "type": 16,
+          "value": 122,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746105593028,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1746105593029,
+        "payload": {
+          "type": 10,
+          "seat": 2,
+          "value": 364,
+          "pot": 364,
+          "position": 1
+        }
+      },
+      {
+        "at": 1746105593533,
+        "payload": {
+          "type": 12,
+          "seat": 10,
+          "cards": [
+            "Th",
+            "8d"
+          ]
+        }
+      }
+    ]
+  },{
+    "id": "rmultmsmqpwv",
+    "handVersion": 2,
+    "number": "3",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 1,
+    "startedAt": 1746105596632,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "4kHSZklLpK",
+        "seat": 1,
+        "name": "teish",
+        "stack": 2253
+      },
+      {
+        "id": "gjmiQ4-uAW",
+        "seat": 2,
+        "name": "IAMB",
+        "stack": 2547
+      },
+      {
+        "id": "Zp6HGuC8yK",
+        "seat": 3,
+        "name": "shiozuka1121",
+        "stack": 2000,
+        "hand": [
+          "Jc",
+          "2c"
+        ]
+      },
+      {
+        "id": "CsHt4-HRYF",
+        "seat": 4,
+        "name": "chiffon1468",
+        "stack": 2400,
+        "hand": [
+          "Qs",
+          "Qh"
+        ]
+      },
+      {
+        "id": "7kPHYByVxS",
+        "seat": 6,
+        "name": "Ene",
+        "stack": 2587,
+        "hand": [
+          "Jh",
+          "7c"
+        ]
+      },
+      {
+        "id": "HJCe0qCFpd",
+        "seat": 7,
+        "name": "NABO",
+        "stack": 2000
+      },
+      {
+        "id": "hig4fvwo_m",
+        "seat": 9,
+        "name": "とーち",
+        "stack": 2000
+      },
+      {
+        "id": "XaClitYV1x",
+        "seat": 10,
+        "name": "らねおか",
+        "stack": 2213
+      }
+    ],
+    "events": [
+      {
+        "at": 1746105596632,
+        "payload": {
+          "type": 3,
+          "seat": 2,
+          "value": 10
+        }
+      },
+      {
+        "at": 1746105596633,
+        "payload": {
+          "type": 2,
+          "seat": 3,
+          "value": 20
+        }
+      },
+      {
+        "at": 1746105604315,
+        "payload": {
+          "type": 8,
+          "seat": 4,
+          "value": 50
+        }
+      },
+      {
+        "at": 1746105605549,
+        "payload": {
+          "type": 11,
+          "seat": 6
+        }
+      },
+      {
+        "at": 1746105606584,
+        "payload": {
+          "type": 11,
+          "seat": 7
+        }
+      },
+      {
+        "at": 1746105607671,
+        "payload": {
+          "type": 11,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746105608693,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1746105610041,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1746105611052,
+        "payload": {
+          "type": 11,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746105614578,
+        "payload": {
+          "type": 7,
+          "seat": 3,
+          "value": 50
+        }
+      },
+      {
+        "at": 1746105615391,
+        "payload": {
+          "type": 9,
+          "turn": 1,
+          "run": 1,
+          "cards": [
+            "3d",
+            "As",
+            "3h"
+          ],
+          "handsLabels": {
+            "3": [
+              {
+                "c": 9,
+                "d": [
+                  "3"
+                ]
+              }
+            ],
+            "4": [
+              {
+                "c": 8,
+                "d": [
+                  "Q",
+                  "3"
+                ]
+              }
+            ],
+            "6": [
+              {
+                "c": 9,
+                "d": [
+                  "3"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "at": 1746105618559,
+        "payload": {
+          "type": 0,
+          "seat": 3
+        }
+      },
+      {
+        "at": 1746105624942,
+        "payload": {
+          "type": 0,
+          "seat": 4
+        }
+      },
+      {
+        "at": 1746105625774,
+        "payload": {
+          "type": 9,
+          "turn": 2,
+          "run": 1,
+          "cards": [
+            "8d"
+          ],
+          "handsLabels": {
+            "3": [
+              {
+                "c": 9,
+                "d": [
+                  "3"
+                ]
+              }
+            ],
+            "4": [
+              {
+                "c": 8,
+                "d": [
+                  "Q",
+                  "3"
+                ]
+              }
+            ],
+            "6": [
+              {
+                "c": 9,
+                "d": [
+                  "3"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "at": 1746105636862,
+        "payload": {
+          "type": 8,
+          "seat": 3,
+          "value": 40
+        }
+      },
+      {
+        "at": 1746105643981,
+        "payload": {
+          "type": 7,
+          "seat": 4,
+          "value": 40
+        }
+      },
+      {
+        "at": 1746105644792,
+        "payload": {
+          "type": 9,
+          "turn": 3,
+          "run": 1,
+          "cards": [
+            "2h"
+          ],
+          "handsLabels": {
+            "3": [
+              {
+                "c": 8,
+                "d": [
+                  "3",
+                  "2"
+                ]
+              }
+            ],
+            "4": [
+              {
+                "c": 8,
+                "d": [
+                  "Q",
+                  "3"
+                ]
+              }
+            ],
+            "6": [
+              {
+                "c": 9,
+                "d": [
+                  "3"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "at": 1746105656448,
+        "payload": {
+          "type": 0,
+          "seat": 3
+        }
+      },
+      {
+        "at": 1746105682512,
+        "payload": {
+          "type": 0,
+          "seat": 4
+        }
+      },
+      {
+        "at": 1746105683351,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1746105683352,
+        "payload": {
+          "type": 12,
+          "seat": 3,
+          "cards": [
+            "Jc",
+            "2c"
+          ]
+        }
+      },
+      {
+        "at": 1746105683353,
+        "payload": {
+          "type": 12,
+          "seat": 4,
+          "cards": [
+            "Qs",
+            "Qh"
+          ]
+        }
+      },
+      {
+        "at": 1746105683354,
+        "payload": {
+          "type": 10,
+          "seat": 4,
+          "value": 190,
+          "cards": [
+            "Qs",
+            "Qh"
+          ],
+          "combination": [
+            "Qs",
+            "Qh",
+            "3d",
+            "3h",
+            "As"
+          ],
+          "handDescription": "Two Pair, Q's & 3's",
+          "position": 1,
+          "runNumber": "1",
+          "hiLo": "h"
+        }
+      },
+      {
+        "at": 1746105687395,
+        "payload": {
+          "type": 12,
+          "seat": 6,
+          "cards": [
+            "Jh",
+            "7c"
+          ]
+        }
+      }
+    ]
+  },{
+    "id": "meavspfphnj8",
+    "handVersion": 2,
+    "number": "4",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 2,
+    "startedAt": 1746105689860,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "4kHSZklLpK",
+        "seat": 1,
+        "name": "teish",
+        "stack": 2253
+      },
+      {
+        "id": "gjmiQ4-uAW",
+        "seat": 2,
+        "name": "IAMB",
+        "stack": 2537
+      },
+      {
+        "id": "Zp6HGuC8yK",
+        "seat": 3,
+        "name": "shiozuka1121",
+        "stack": 1910
+      },
+      {
+        "id": "CsHt4-HRYF",
+        "seat": 4,
+        "name": "chiffon1468",
+        "stack": 2500
+      },
+      {
+        "id": "7kPHYByVxS",
+        "seat": 6,
+        "name": "Ene",
+        "stack": 2587,
+        "hand": [
+          "Th",
+          "Jd"
+        ]
+      },
+      {
+        "id": "HJCe0qCFpd",
+        "seat": 7,
+        "name": "NABO",
+        "stack": 2000,
+        "hand": [
+          "Ts",
+          "As"
+        ]
+      },
+      {
+        "id": "hig4fvwo_m",
+        "seat": 9,
+        "name": "とーち",
+        "stack": 2000
+      },
+      {
+        "id": "XaClitYV1x",
+        "seat": 10,
+        "name": "らねおか",
+        "stack": 2213
+      }
+    ],
+    "events": [
+      {
+        "at": 1746105689860,
+        "payload": {
+          "type": 3,
+          "seat": 3,
+          "value": 10
+        }
+      },
+      {
+        "at": 1746105689861,
+        "payload": {
+          "type": 2,
+          "seat": 4,
+          "value": 20
+        }
+      },
+      {
+        "at": 1746105691891,
+        "payload": {
+          "type": 11,
+          "seat": 6
+        }
+      },
+      {
+        "at": 1746105695216,
+        "payload": {
+          "type": 8,
+          "seat": 7,
+          "value": 50
+        }
+      },
+      {
+        "at": 1746105698237,
+        "payload": {
+          "type": 11,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746105699283,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1746105700326,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1746105703628,
+        "payload": {
+          "type": 8,
+          "seat": 2,
+          "value": 147
+        }
+      },
+      {
+        "at": 1746105704687,
+        "payload": {
+          "type": 11,
+          "seat": 3
+        }
+      },
+      {
+        "at": 1746105706341,
+        "payload": {
+          "type": 11,
+          "seat": 4
+        }
+      },
+      {
+        "at": 1746105723370,
+        "payload": {
+          "type": 7,
+          "seat": 7,
+          "value": 147
+        }
+      },
+      {
+        "at": 1746105724187,
+        "payload": {
+          "type": 9,
+          "turn": 1,
+          "run": 1,
+          "cards": [
+            "Ks",
+            "Jc",
+            "Td"
+          ],
+          "handsLabels": {
+            "6": [
+              {
+                "c": 8,
+                "d": [
+                  "J",
+                  "10"
+                ]
+              }
+            ],
+            "7": [
+              {
+                "c": 9,
+                "d": [
+                  "10"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "at": 1746105726947,
+        "payload": {
+          "type": 0,
+          "seat": 7
+        }
+      },
+      {
+        "at": 1746105734496,
+        "payload": {
+          "type": 8,
+          "seat": 2,
+          "value": 80
+        }
+      },
+      {
+        "at": 1746105751100,
+        "payload": {
+          "type": 7,
+          "seat": 7,
+          "value": 80
+        }
+      },
+      {
+        "at": 1746105751916,
+        "payload": {
+          "type": 9,
+          "turn": 2,
+          "run": 1,
+          "cards": [
+            "Ah"
+          ],
+          "handsLabels": {
+            "6": [
+              {
+                "c": 8,
+                "d": [
+                  "J",
+                  "10"
+                ]
+              }
+            ],
+            "7": [
+              {
+                "c": 8,
+                "d": [
+                  "A",
+                  "10"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "at": 1746105754017,
+        "payload": {
+          "type": 0,
+          "seat": 7
+        }
+      },
+      {
+        "at": 1746105760542,
+        "payload": {
+          "type": 0,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746105761354,
+        "payload": {
+          "type": 9,
+          "turn": 3,
+          "run": 1,
+          "cards": [
+            "4d"
+          ],
+          "handsLabels": {
+            "6": [
+              {
+                "c": 8,
+                "d": [
+                  "J",
+                  "10"
+                ]
+              }
+            ],
+            "7": [
+              {
+                "c": 8,
+                "d": [
+                  "A",
+                  "10"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "at": 1746105775650,
+        "payload": {
+          "type": 0,
+          "seat": 7
+        }
+      },
+      {
+        "at": 1746105798075,
+        "payload": {
+          "type": 8,
+          "seat": 2,
+          "value": 725
+        }
+      },
+      {
+        "at": 1746105850358,
+        "payload": {
+          "type": 11,
+          "seat": 7
+        }
+      },
+      {
+        "at": 1746105851201,
+        "payload": {
+          "type": 16,
+          "value": 725,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746105851202,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1746105851203,
+        "payload": {
+          "type": 10,
+          "seat": 2,
+          "value": 484,
+          "pot": 484,
+          "position": 1
+        }
+      },
+      {
+        "at": 1746105852263,
+        "payload": {
+          "type": 12,
+          "seat": 7,
+          "cards": [
+            "Ts",
+            "As"
+          ]
+        }
+      },
+      {
+        "at": 1746105852407,
+        "payload": {
+          "type": 12,
+          "seat": 6,
+          "cards": [
+            "Th",
+            "Jd"
+          ]
+        }
+      },
+      {
+        "at": 1746105854359,
+        "payload": {
+          "type": 12,
+          "seat": 2,
+          "cards": [
+            null,
+            "Qs"
+          ]
+        }
+      }
+    ]
+  },{
+    "id": "ybzwltccropv",
+    "handVersion": 2,
+    "number": "5",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 3,
+    "startedAt": 1746105856205,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "4kHSZklLpK",
+        "seat": 1,
+        "name": "teish",
+        "stack": 2253
+      },
+      {
+        "id": "gjmiQ4-uAW",
+        "seat": 2,
+        "name": "IAMB",
+        "stack": 2794
+      },
+      {
+        "id": "Zp6HGuC8yK",
+        "seat": 3,
+        "name": "shiozuka1121",
+        "stack": 1900
+      },
+      {
+        "id": "CsHt4-HRYF",
+        "seat": 4,
+        "name": "chiffon1468",
+        "stack": 2480
+      },
+      {
+        "id": "7kPHYByVxS",
+        "seat": 6,
+        "name": "Ene",
+        "stack": 2587
+      },
+      {
+        "id": "HJCe0qCFpd",
+        "seat": 7,
+        "name": "NABO",
+        "stack": 1773
+      },
+      {
+        "id": "hig4fvwo_m",
+        "seat": 9,
+        "name": "とーち",
+        "stack": 2000
+      },
+      {
+        "id": "XaClitYV1x",
+        "seat": 10,
+        "name": "らねおか",
+        "stack": 2213
+      }
+    ],
+    "events": [
+      {
+        "at": 1746105856205,
+        "payload": {
+          "type": 3,
+          "seat": 4,
+          "value": 10
+        }
+      },
+      {
+        "at": 1746105856206,
+        "payload": {
+          "type": 2,
+          "seat": 6,
+          "value": 20
+        }
+      },
+      {
+        "at": 1746105858412,
+        "payload": {
+          "type": 11,
+          "seat": 7
+        }
+      },
+      {
+        "at": 1746105859473,
+        "payload": {
+          "type": 11,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746105861619,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1746105862658,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1746105863669,
+        "payload": {
+          "type": 11,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746105864700,
+        "payload": {
+          "type": 11,
+          "seat": 3
+        }
+      },
+      {
+        "at": 1746105865796,
+        "payload": {
+          "type": 11,
+          "seat": 4
+        }
+      },
+      {
+        "at": 1746105866611,
+        "payload": {
+          "type": 16,
+          "value": 10,
+          "seat": 6
+        }
+      },
+      {
+        "at": 1746105866612,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1746105866613,
+        "payload": {
+          "type": 10,
+          "seat": 6,
+          "value": 20,
+          "pot": 20,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "44luq6pwobwu",
+    "handVersion": 2,
+    "number": "6",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 4,
+    "startedAt": 1746105869552,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "4kHSZklLpK",
+        "seat": 1,
+        "name": "teish",
+        "stack": 2253
+      },
+      {
+        "id": "gjmiQ4-uAW",
+        "seat": 2,
+        "name": "IAMB",
+        "stack": 2794
+      },
+      {
+        "id": "Zp6HGuC8yK",
+        "seat": 3,
+        "name": "shiozuka1121",
+        "stack": 1900
+      },
+      {
+        "id": "CsHt4-HRYF",
+        "seat": 4,
+        "name": "chiffon1468",
+        "stack": 2470
+      },
+      {
+        "id": "7kPHYByVxS",
+        "seat": 6,
+        "name": "Ene",
+        "stack": 2597
+      },
+      {
+        "id": "HJCe0qCFpd",
+        "seat": 7,
+        "name": "NABO",
+        "stack": 1773
+      },
+      {
+        "id": "hig4fvwo_m",
+        "seat": 9,
+        "name": "とーち",
+        "stack": 2000
+      },
+      {
+        "id": "XaClitYV1x",
+        "seat": 10,
+        "name": "らねおか",
+        "stack": 2213
+      }
+    ],
+    "events": [
+      {
+        "at": 1746105869552,
+        "payload": {
+          "type": 3,
+          "seat": 6,
+          "value": 10
+        }
+      },
+      {
+        "at": 1746105869553,
+        "payload": {
+          "type": 2,
+          "seat": 7,
+          "value": 20
+        }
+      },
+      {
+        "at": 1746105871279,
+        "payload": {
+          "type": 11,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746105912453,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1746105913539,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1746105914558,
+        "payload": {
+          "type": 11,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746105915572,
+        "payload": {
+          "type": 11,
+          "seat": 3
+        }
+      },
+      {
+        "at": 1746105918512,
+        "payload": {
+          "type": 8,
+          "seat": 4,
+          "value": 60
+        }
+      },
+      {
+        "at": 1746105919623,
+        "payload": {
+          "type": 11,
+          "seat": 6
+        }
+      },
+      {
+        "at": 1746105935688,
+        "payload": {
+          "type": 8,
+          "seat": 7,
+          "value": 250
+        }
+      },
+      {
+        "at": 1746105937041,
+        "payload": {
+          "type": 11,
+          "seat": 4
+        }
+      },
+      {
+        "at": 1746105937851,
+        "payload": {
+          "type": 16,
+          "value": 190,
+          "seat": 7
+        }
+      },
+      {
+        "at": 1746105937852,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1746105937853,
+        "payload": {
+          "type": 10,
+          "seat": 7,
+          "value": 130,
+          "pot": 130,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "lply5adw5ugv",
+    "handVersion": 2,
+    "number": "7",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 6,
+    "startedAt": 1746105940778,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "4kHSZklLpK",
+        "seat": 1,
+        "name": "teish",
+        "stack": 2253
+      },
+      {
+        "id": "gjmiQ4-uAW",
+        "seat": 2,
+        "name": "IAMB",
+        "stack": 2794
+      },
+      {
+        "id": "Zp6HGuC8yK",
+        "seat": 3,
+        "name": "shiozuka1121",
+        "stack": 1900
+      },
+      {
+        "id": "CsHt4-HRYF",
+        "seat": 4,
+        "name": "chiffon1468",
+        "stack": 2410
+      },
+      {
+        "id": "7kPHYByVxS",
+        "seat": 6,
+        "name": "Ene",
+        "stack": 2587
+      },
+      {
+        "id": "HJCe0qCFpd",
+        "seat": 7,
+        "name": "NABO",
+        "stack": 1843
+      },
+      {
+        "id": "hig4fvwo_m",
+        "seat": 9,
+        "name": "とーち",
+        "stack": 2000
+      },
+      {
+        "id": "XaClitYV1x",
+        "seat": 10,
+        "name": "らねおか",
+        "stack": 2213
+      }
+    ],
+    "events": [
+      {
+        "at": 1746105940778,
+        "payload": {
+          "type": 3,
+          "seat": 7,
+          "value": 10
+        }
+      },
+      {
+        "at": 1746105940779,
+        "payload": {
+          "type": 2,
+          "seat": 9,
+          "value": 20
+        }
+      },
+      {
+        "at": 1746105942383,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1746105946190,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1746105947214,
+        "payload": {
+          "type": 11,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746105950345,
+        "payload": {
+          "type": 11,
+          "seat": 3
+        }
+      },
+      {
+        "at": 1746105953302,
+        "payload": {
+          "type": 8,
+          "seat": 4,
+          "value": 60
+        }
+      },
+      {
+        "at": 1746105954422,
+        "payload": {
+          "type": 11,
+          "seat": 6
+        }
+      },
+      {
+        "at": 1746105955450,
+        "payload": {
+          "type": 11,
+          "seat": 7
+        }
+      },
+      {
+        "at": 1746105958661,
+        "payload": {
+          "type": 7,
+          "seat": 9,
+          "value": 60
+        }
+      },
+      {
+        "at": 1746105959468,
+        "payload": {
+          "type": 9,
+          "turn": 1,
+          "run": 1,
+          "cards": [
+            "8c",
+            "Ad",
+            "9c"
+          ],
+          "handsLabels": {}
+        }
+      },
+      {
+        "at": 1746105961877,
+        "payload": {
+          "type": 0,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746105969181,
+        "payload": {
+          "type": 8,
+          "seat": 4,
+          "value": 40
+        }
+      },
+      {
+        "at": 1746105980204,
+        "payload": {
+          "type": 8,
+          "seat": 9,
+          "value": 140
+        }
+      },
+      {
+        "at": 1746105983231,
+        "payload": {
+          "type": 11,
+          "seat": 4
+        }
+      },
+      {
+        "at": 1746105984052,
+        "payload": {
+          "type": 16,
+          "value": 100,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746105984053,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1746105984054,
+        "payload": {
+          "type": 10,
+          "seat": 9,
+          "value": 210,
+          "pot": 210,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "zjgsuviuejts",
+    "handVersion": 2,
+    "number": "8",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 7,
+    "startedAt": 1746105987016,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "4kHSZklLpK",
+        "seat": 1,
+        "name": "teish",
+        "stack": 2253
+      },
+      {
+        "id": "gjmiQ4-uAW",
+        "seat": 2,
+        "name": "IAMB",
+        "stack": 2794
+      },
+      {
+        "id": "Zp6HGuC8yK",
+        "seat": 3,
+        "name": "shiozuka1121",
+        "stack": 1900
+      },
+      {
+        "id": "CsHt4-HRYF",
+        "seat": 4,
+        "name": "chiffon1468",
+        "stack": 2310
+      },
+      {
+        "id": "7kPHYByVxS",
+        "seat": 6,
+        "name": "Ene",
+        "stack": 2587
+      },
+      {
+        "id": "HJCe0qCFpd",
+        "seat": 7,
+        "name": "NABO",
+        "stack": 1833
+      },
+      {
+        "id": "hig4fvwo_m",
+        "seat": 9,
+        "name": "とーち",
+        "stack": 2110
+      },
+      {
+        "id": "XaClitYV1x",
+        "seat": 10,
+        "name": "らねおか",
+        "stack": 2213
+      }
+    ],
+    "events": [
+      {
+        "at": 1746105987016,
+        "payload": {
+          "type": 3,
+          "seat": 9,
+          "value": 10
+        }
+      },
+      {
+        "at": 1746105987017,
+        "payload": {
+          "type": 2,
+          "seat": 10,
+          "value": 20
+        }
+      },
+      {
+        "at": 1746105997043,
+        "payload": {
+          "type": 8,
+          "seat": 1,
+          "value": 40
+        }
+      },
+      {
+        "at": 1746105998071,
+        "payload": {
+          "type": 11,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746106000569,
+        "payload": {
+          "type": 11,
+          "seat": 3
+        }
+      },
+      {
+        "at": 1746106001709,
+        "payload": {
+          "type": 11,
+          "seat": 4
+        }
+      },
+      {
+        "at": 1746106002766,
+        "payload": {
+          "type": 11,
+          "seat": 6
+        }
+      },
+      {
+        "at": 1746106004232,
+        "payload": {
+          "type": 11,
+          "seat": 7
+        }
+      },
+      {
+        "at": 1746106006096,
+        "payload": {
+          "type": 11,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746106007104,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1746106007912,
+        "payload": {
+          "type": 16,
+          "value": 20,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1746106007913,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1746106007914,
+        "payload": {
+          "type": 10,
+          "seat": 1,
+          "value": 50,
+          "pot": 50,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "h3nw67tvq2du",
+    "handVersion": 2,
+    "number": "9",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 9,
+    "startedAt": 1746106010832,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "4kHSZklLpK",
+        "seat": 1,
+        "name": "teish",
+        "stack": 2283
+      },
+      {
+        "id": "gjmiQ4-uAW",
+        "seat": 2,
+        "name": "IAMB",
+        "stack": 2794,
+        "hand": [
+          "Ah",
+          "As"
+        ]
+      },
+      {
+        "id": "Zp6HGuC8yK",
+        "seat": 3,
+        "name": "shiozuka1121",
+        "stack": 1900
+      },
+      {
+        "id": "CsHt4-HRYF",
+        "seat": 4,
+        "name": "chiffon1468",
+        "stack": 2310
+      },
+      {
+        "id": "7kPHYByVxS",
+        "seat": 6,
+        "name": "Ene",
+        "stack": 2587
+      },
+      {
+        "id": "HJCe0qCFpd",
+        "seat": 7,
+        "name": "NABO",
+        "stack": 1833
+      },
+      {
+        "id": "hig4fvwo_m",
+        "seat": 9,
+        "name": "とーち",
+        "stack": 2100
+      },
+      {
+        "id": "XaClitYV1x",
+        "seat": 10,
+        "name": "らねおか",
+        "stack": 2193
+      }
+    ],
+    "events": [
+      {
+        "at": 1746106010832,
+        "payload": {
+          "type": 3,
+          "seat": 10,
+          "value": 10
+        }
+      },
+      {
+        "at": 1746106010833,
+        "payload": {
+          "type": 2,
+          "seat": 1,
+          "value": 20
+        }
+      },
+      {
+        "at": 1746106013256,
+        "payload": {
+          "type": 8,
+          "seat": 2,
+          "value": 40
+        }
+      },
+      {
+        "at": 1746106015631,
+        "payload": {
+          "type": 11,
+          "seat": 3
+        }
+      },
+      {
+        "at": 1746106016723,
+        "payload": {
+          "type": 11,
+          "seat": 4
+        }
+      },
+      {
+        "at": 1746106017801,
+        "payload": {
+          "type": 11,
+          "seat": 6
+        }
+      },
+      {
+        "at": 1746106018857,
+        "payload": {
+          "type": 11,
+          "seat": 7
+        }
+      },
+      {
+        "at": 1746106019938,
+        "payload": {
+          "type": 11,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746106020940,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1746106021963,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1746106022846,
+        "payload": {
+          "type": 16,
+          "value": 20,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746106022847,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1746106022848,
+        "payload": {
+          "type": 10,
+          "seat": 2,
+          "value": 50,
+          "pot": 50,
+          "position": 1
+        }
+      },
+      {
+        "at": 1746106024094,
+        "payload": {
+          "type": 12,
+          "seat": 2,
+          "cards": [
+            "Ah",
+            "As"
+          ]
+        }
+      }
+    ]
+  },{
+    "id": "hftc6htjnyxx",
+    "handVersion": 2,
+    "number": "10",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 10,
+    "startedAt": 1746106026502,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "4kHSZklLpK",
+        "seat": 1,
+        "name": "teish",
+        "stack": 2263
+      },
+      {
+        "id": "gjmiQ4-uAW",
+        "seat": 2,
+        "name": "IAMB",
+        "stack": 2824
+      },
+      {
+        "id": "Zp6HGuC8yK",
+        "seat": 3,
+        "name": "shiozuka1121",
+        "stack": 1900
+      },
+      {
+        "id": "CsHt4-HRYF",
+        "seat": 4,
+        "name": "chiffon1468",
+        "stack": 2310,
+        "hand": [
+          "9s",
+          "Ts"
+        ]
+      },
+      {
+        "id": "7kPHYByVxS",
+        "seat": 6,
+        "name": "Ene",
+        "stack": 2587
+      },
+      {
+        "id": "HJCe0qCFpd",
+        "seat": 7,
+        "name": "NABO",
+        "stack": 1833
+      },
+      {
+        "id": "hig4fvwo_m",
+        "seat": 9,
+        "name": "とーち",
+        "stack": 2100,
+        "hand": [
+          "6c",
+          "6d"
+        ]
+      },
+      {
+        "id": "XaClitYV1x",
+        "seat": 10,
+        "name": "らねおか",
+        "stack": 2183
+      }
+    ],
+    "events": [
+      {
+        "at": 1746106026502,
+        "payload": {
+          "type": 3,
+          "seat": 1,
+          "value": 10
+        }
+      },
+      {
+        "at": 1746106026503,
+        "payload": {
+          "type": 2,
+          "seat": 2,
+          "value": 20
+        }
+      },
+      {
+        "at": 1746106028637,
+        "payload": {
+          "type": 11,
+          "seat": 3
+        }
+      },
+      {
+        "at": 1746106034552,
+        "payload": {
+          "type": 8,
+          "seat": 4,
+          "value": 50
+        }
+      },
+      {
+        "at": 1746106035680,
+        "payload": {
+          "type": 11,
+          "seat": 6
+        }
+      },
+      {
+        "at": 1746106036731,
+        "payload": {
+          "type": 11,
+          "seat": 7
+        }
+      },
+      {
+        "at": 1746106044780,
+        "payload": {
+          "type": 8,
+          "seat": 9,
+          "value": 140
+        }
+      },
+      {
+        "at": 1746106045781,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1746106046791,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1746106050006,
+        "payload": {
+          "type": 11,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746106053391,
+        "payload": {
+          "type": 7,
+          "seat": 4,
+          "value": 140
+        }
+      },
+      {
+        "at": 1746106054213,
+        "payload": {
+          "type": 9,
+          "turn": 1,
+          "run": 1,
+          "cards": [
+            "3c",
+            "Qs",
+            "6s"
+          ],
+          "handsLabels": {
+            "4": [
+              {
+                "c": 10
+              }
+            ],
+            "9": [
+              {
+                "c": 7
+              }
+            ]
+          }
+        }
+      },
+      {
+        "at": 1746106056269,
+        "payload": {
+          "type": 0,
+          "seat": 4
+        }
+      },
+      {
+        "at": 1746106075320,
+        "payload": {
+          "type": 8,
+          "seat": 9,
+          "value": 115
+        }
+      },
+      {
+        "at": 1746106081163,
+        "payload": {
+          "type": 7,
+          "seat": 4,
+          "value": 115
+        }
+      },
+      {
+        "at": 1746106082003,
+        "payload": {
+          "type": 9,
+          "turn": 2,
+          "run": 1,
+          "cards": [
+            "8d"
+          ],
+          "handsLabels": {
+            "4": [
+              {
+                "c": 10
+              }
+            ],
+            "9": [
+              {
+                "c": 7
+              }
+            ]
+          }
+        }
+      },
+      {
+        "at": 1746106084185,
+        "payload": {
+          "type": 0,
+          "seat": 4
+        }
+      },
+      {
+        "at": 1746106090154,
+        "payload": {
+          "type": 8,
+          "seat": 9,
+          "value": 540
+        }
+      },
+      {
+        "at": 1746106116142,
+        "payload": {
+          "type": 8,
+          "seat": 4,
+          "value": 1845
+        }
+      },
+      {
+        "at": 1746106147829,
+        "payload": {
+          "type": 7,
+          "seat": 9,
+          "value": 1845,
+          "allIn": true
+        }
+      },
+      {
+        "at": 1746106148667,
+        "payload": {
+          "type": 12,
+          "seat": 4,
+          "cards": [
+            "9s",
+            "Ts"
+          ]
+        }
+      },
+      {
+        "at": 1746106148668,
+        "payload": {
+          "type": 12,
+          "seat": 9,
+          "cards": [
+            "6c",
+            "6d"
+          ]
+        }
+      },
+      {
+        "at": 1746106152685,
+        "payload": {
+          "type": 9,
+          "turn": 3,
+          "run": 1,
+          "cards": [
+            "Kd"
+          ],
+          "handsLabels": {
+            "4": [
+              {
+                "c": 10
+              }
+            ],
+            "9": [
+              {
+                "c": 7
+              }
+            ]
+          }
+        }
+      },
+      {
+        "at": 1746106156742,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1746106156743,
+        "payload": {
+          "type": 10,
+          "seat": 9,
+          "value": 4230,
+          "cards": [
+            "6c",
+            "6d"
+          ],
+          "combination": [
+            "6c",
+            "6d",
+            "6s",
+            "Kd",
+            "Qs"
+          ],
+          "handDescription": "Three of a Kind, 6's",
+          "position": 1,
+          "runNumber": "1",
+          "hiLo": "h"
+        }
+      }
+    ]
+  },{
+    "id": "qgmp3by7mxuq",
+    "handVersion": 2,
+    "number": "11",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 1,
+    "startedAt": 1746106162745,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "4kHSZklLpK",
+        "seat": 1,
+        "name": "teish",
+        "stack": 2253
+      },
+      {
+        "id": "gjmiQ4-uAW",
+        "seat": 2,
+        "name": "IAMB",
+        "stack": 2804
+      },
+      {
+        "id": "Zp6HGuC8yK",
+        "seat": 3,
+        "name": "shiozuka1121",
+        "stack": 1900
+      },
+      {
+        "id": "CsHt4-HRYF",
+        "seat": 4,
+        "name": "chiffon1468",
+        "stack": 210,
+        "hand": [
+          "Jd",
+          "Td"
+        ]
+      },
+      {
+        "id": "7kPHYByVxS",
+        "seat": 6,
+        "name": "Ene",
+        "stack": 2587,
+        "hand": [
+          "4h",
+          "Ac"
+        ]
+      },
+      {
+        "id": "HJCe0qCFpd",
+        "seat": 7,
+        "name": "NABO",
+        "stack": 1833
+      },
+      {
+        "id": "hig4fvwo_m",
+        "seat": 9,
+        "name": "とーち",
+        "stack": 4230,
+        "hand": [
+          "6c",
+          "Ah"
+        ]
+      },
+      {
+        "id": "XaClitYV1x",
+        "seat": 10,
+        "name": "らねおか",
+        "stack": 2183,
+        "hand": [
+          "4s",
+          "Th"
+        ]
+      }
+    ],
+    "events": [
+      {
+        "at": 1746106162745,
+        "payload": {
+          "type": 3,
+          "seat": 2,
+          "value": 10
+        }
+      },
+      {
+        "at": 1746106162746,
+        "payload": {
+          "type": 2,
+          "seat": 3,
+          "value": 20
+        }
+      },
+      {
+        "at": 1746106180481,
+        "payload": {
+          "type": 8,
+          "seat": 4,
+          "value": 210,
+          "allIn": true
+        }
+      },
+      {
+        "at": 1746106186702,
+        "payload": {
+          "type": 8,
+          "seat": 6,
+          "value": 400
+        }
+      },
+      {
+        "at": 1746106187727,
+        "payload": {
+          "type": 11,
+          "seat": 7
+        }
+      },
+      {
+        "at": 1746106188786,
+        "payload": {
+          "type": 11,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746106189791,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1746106190799,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1746106191832,
+        "payload": {
+          "type": 11,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746106192850,
+        "payload": {
+          "type": 11,
+          "seat": 3
+        }
+      },
+      {
+        "at": 1746106193712,
+        "payload": {
+          "type": 16,
+          "value": 190,
+          "seat": 6
+        }
+      },
+      {
+        "at": 1746106193713,
+        "payload": {
+          "type": 12,
+          "seat": 4,
+          "cards": [
+            "Jd",
+            "Td"
+          ]
+        }
+      },
+      {
+        "at": 1746106193714,
+        "payload": {
+          "type": 12,
+          "seat": 6,
+          "cards": [
+            "4h",
+            "Ac"
+          ]
+        }
+      },
+      {
+        "at": 1746106197731,
+        "payload": {
+          "type": 9,
+          "turn": 1,
+          "run": 1,
+          "cards": [
+            "7s",
+            "Ad",
+            "As"
+          ],
+          "handsLabels": {
+            "4": [
+              {
+                "c": 9,
+                "d": [
+                  "A"
+                ]
+              }
+            ],
+            "6": [
+              {
+                "c": 7
+              }
+            ],
+            "9": [
+              {
+                "c": 7
+              }
+            ],
+            "10": [
+              {
+                "c": 9,
+                "d": [
+                  "A"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "at": 1746106201779,
+        "payload": {
+          "type": 9,
+          "turn": 2,
+          "run": 1,
+          "cards": [
+            "Qc"
+          ],
+          "handsLabels": {
+            "4": [
+              {
+                "c": 9,
+                "d": [
+                  "A"
+                ]
+              }
+            ],
+            "6": [
+              {
+                "c": 7
+              }
+            ],
+            "9": [
+              {
+                "c": 7
+              }
+            ],
+            "10": [
+              {
+                "c": 9,
+                "d": [
+                  "A"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "at": 1746106205807,
+        "payload": {
+          "type": 9,
+          "turn": 3,
+          "run": 1,
+          "cards": [
+            "4c"
+          ],
+          "handsLabels": {
+            "4": [
+              {
+                "c": 9,
+                "d": [
+                  "A"
+                ]
+              }
+            ],
+            "6": [
+              {
+                "c": 4
+              }
+            ],
+            "9": [
+              {
+                "c": 7
+              }
+            ],
+            "10": [
+              {
+                "c": 8,
+                "d": [
+                  "A",
+                  "4"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "at": 1746106209855,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1746106209856,
+        "payload": {
+          "type": 10,
+          "seat": 6,
+          "value": 450,
+          "cards": [
+            "4h",
+            "Ac"
+          ],
+          "combination": [
+            "Ac",
+            "Ad",
+            "As",
+            "4h",
+            "4c"
+          ],
+          "handDescription": "Full House, A's over 4's",
+          "position": 1,
+          "runNumber": "1",
+          "hiLo": "h"
+        }
+      },
+      {
+        "at": 1746106210522,
+        "payload": {
+          "type": 12,
+          "seat": 10,
+          "cards": [
+            "4s",
+            "Th"
+          ]
+        }
+      },
+      {
+        "at": 1746106214082,
+        "payload": {
+          "type": 12,
+          "seat": 9,
+          "cards": [
+            "6c",
+            "Ah"
+          ]
+        }
+      }
+    ]
+  },{
+    "id": "ldki7os3zvxu",
+    "handVersion": 2,
+    "number": "12",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 2,
+    "startedAt": 1746106216861,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "4kHSZklLpK",
+        "seat": 1,
+        "name": "teish",
+        "stack": 2253
+      },
+      {
+        "id": "gjmiQ4-uAW",
+        "seat": 2,
+        "name": "IAMB",
+        "stack": 2794
+      },
+      {
+        "id": "Zp6HGuC8yK",
+        "seat": 3,
+        "name": "shiozuka1121",
+        "stack": 1880
+      },
+      {
+        "id": "CsHt4-HRYF",
+        "seat": 4,
+        "name": "chiffon1468",
+        "stack": 2400,
+        "hand": [
+          "As",
+          "Js"
+        ]
+      },
+      {
+        "id": "7kPHYByVxS",
+        "seat": 6,
+        "name": "Ene",
+        "stack": 2827
+      },
+      {
+        "id": "HJCe0qCFpd",
+        "seat": 7,
+        "name": "NABO",
+        "stack": 1833
+      },
+      {
+        "id": "hig4fvwo_m",
+        "seat": 9,
+        "name": "とーち",
+        "stack": 4230
+      },
+      {
+        "id": "XaClitYV1x",
+        "seat": 10,
+        "name": "らねおか",
+        "stack": 2183
+      }
+    ],
+    "events": [
+      {
+        "at": 1746106216861,
+        "payload": {
+          "type": 3,
+          "seat": 3,
+          "value": 10
+        }
+      },
+      {
+        "at": 1746106216862,
+        "payload": {
+          "type": 2,
+          "seat": 4,
+          "value": 20
+        }
+      },
+      {
+        "at": 1746106218188,
+        "payload": {
+          "type": 11,
+          "seat": 6
+        }
+      },
+      {
+        "at": 1746106219440,
+        "payload": {
+          "type": 11,
+          "seat": 7
+        }
+      },
+      {
+        "at": 1746106220477,
+        "payload": {
+          "type": 11,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746106221513,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1746106228084,
+        "payload": {
+          "type": 8,
+          "seat": 1,
+          "value": 45
+        }
+      },
+      {
+        "at": 1746106229138,
+        "payload": {
+          "type": 11,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746106232646,
+        "payload": {
+          "type": 7,
+          "seat": 3,
+          "value": 45
+        }
+      },
+      {
+        "at": 1746106240622,
+        "payload": {
+          "type": 8,
+          "seat": 4,
+          "value": 245
+        }
+      },
+      {
+        "at": 1746106274458,
+        "payload": {
+          "type": 8,
+          "seat": 1,
+          "value": 500
+        }
+      },
+      {
+        "at": 1746106276019,
+        "payload": {
+          "type": 11,
+          "seat": 3
+        }
+      },
+      {
+        "at": 1746106280766,
+        "payload": {
+          "type": 11,
+          "seat": 4
+        }
+      },
+      {
+        "at": 1746106281579,
+        "payload": {
+          "type": 16,
+          "value": 255,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1746106281580,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1746106281581,
+        "payload": {
+          "type": 10,
+          "seat": 1,
+          "value": 535,
+          "pot": 535,
+          "position": 1
+        }
+      },
+      {
+        "at": 1746106282952,
+        "payload": {
+          "type": 12,
+          "seat": 4,
+          "cards": [
+            "As",
+            "Js"
+          ]
+        }
+      }
+    ]
+  },{
+    "id": "n4hqptfvphs1",
+    "handVersion": 2,
+    "number": "13",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 3,
+    "startedAt": 1746106285190,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "4kHSZklLpK",
+        "seat": 1,
+        "name": "teish",
+        "stack": 2543
+      },
+      {
+        "id": "gjmiQ4-uAW",
+        "seat": 2,
+        "name": "IAMB",
+        "stack": 2794,
+        "hand": [
+          "6d",
+          "5d"
+        ]
+      },
+      {
+        "id": "Zp6HGuC8yK",
+        "seat": 3,
+        "name": "shiozuka1121",
+        "stack": 1835,
+        "hand": [
+          "Td",
+          "Kd"
+        ]
+      },
+      {
+        "id": "CsHt4-HRYF",
+        "seat": 4,
+        "name": "chiffon1468",
+        "stack": 2155
+      },
+      {
+        "id": "7kPHYByVxS",
+        "seat": 6,
+        "name": "Ene",
+        "stack": 2827
+      },
+      {
+        "id": "HJCe0qCFpd",
+        "seat": 7,
+        "name": "NABO",
+        "stack": 1833
+      },
+      {
+        "id": "hig4fvwo_m",
+        "seat": 9,
+        "name": "とーち",
+        "stack": 2000
+      },
+      {
+        "id": "XaClitYV1x",
+        "seat": 10,
+        "name": "らねおか",
+        "stack": 2183
+      }
+    ],
+    "events": [
+      {
+        "at": 1746106285190,
+        "payload": {
+          "type": 3,
+          "seat": 4,
+          "value": 10
+        }
+      },
+      {
+        "at": 1746106285191,
+        "payload": {
+          "type": 2,
+          "seat": 6,
+          "value": 20
+        }
+      },
+      {
+        "at": 1746106306585,
+        "payload": {
+          "type": 11,
+          "seat": 7
+        }
+      },
+      {
+        "at": 1746106307622,
+        "payload": {
+          "type": 11,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746106308639,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1746106309648,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1746106313576,
+        "payload": {
+          "type": 8,
+          "seat": 2,
+          "value": 57
+        }
+      },
+      {
+        "at": 1746106321924,
+        "payload": {
+          "type": 8,
+          "seat": 3,
+          "value": 180
+        }
+      },
+      {
+        "at": 1746106323031,
+        "payload": {
+          "type": 11,
+          "seat": 4
+        }
+      },
+      {
+        "at": 1746106324200,
+        "payload": {
+          "type": 11,
+          "seat": 6
+        }
+      },
+      {
+        "at": 1746106329579,
+        "payload": {
+          "type": 7,
+          "seat": 2,
+          "value": 180
+        }
+      },
+      {
+        "at": 1746106330424,
+        "payload": {
+          "type": 9,
+          "turn": 1,
+          "run": 1,
+          "cards": [
+            "As",
+            "8d",
+            "Ad"
+          ],
+          "handsLabels": {
+            "2": [
+              {
+                "c": 9,
+                "d": [
+                  "A"
+                ]
+              }
+            ],
+            "3": [
+              {
+                "c": 9,
+                "d": [
+                  "A"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "at": 1746106333546,
+        "payload": {
+          "type": 0,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746106353353,
+        "payload": {
+          "type": 8,
+          "seat": 3,
+          "value": 195
+        }
+      },
+      {
+        "at": 1746106366801,
+        "payload": {
+          "type": 7,
+          "seat": 2,
+          "value": 195
+        }
+      },
+      {
+        "at": 1746106367650,
+        "payload": {
+          "type": 9,
+          "turn": 2,
+          "run": 1,
+          "cards": [
+            "9d"
+          ],
+          "handsLabels": {
+            "2": [
+              {
+                "c": 5
+              }
+            ],
+            "3": [
+              {
+                "c": 5
+              }
+            ]
+          }
+        }
+      },
+      {
+        "at": 1746106371548,
+        "payload": {
+          "type": 0,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746106407478,
+        "payload": {
+          "type": 8,
+          "seat": 3,
+          "value": 300
+        }
+      },
+      {
+        "at": 1746106455431,
+        "payload": {
+          "type": 7,
+          "seat": 2,
+          "value": 300
+        }
+      },
+      {
+        "at": 1746106456263,
+        "payload": {
+          "type": 9,
+          "turn": 3,
+          "run": 1,
+          "cards": [
+            "3h"
+          ],
+          "handsLabels": {
+            "2": [
+              {
+                "c": 5
+              }
+            ],
+            "3": [
+              {
+                "c": 5
+              }
+            ]
+          }
+        }
+      },
+      {
+        "at": 1746106460721,
+        "payload": {
+          "type": 0,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746106504266,
+        "payload": {
+          "type": 8,
+          "seat": 3,
+          "value": 1160,
+          "allIn": true
+        }
+      },
+      {
+        "at": 1746106512091,
+        "payload": {
+          "type": 7,
+          "seat": 2,
+          "value": 1160
+        }
+      },
+      {
+        "at": 1746106512912,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1746106512913,
+        "payload": {
+          "type": 12,
+          "seat": 3,
+          "cards": [
+            "Td",
+            "Kd"
+          ]
+        }
+      },
+      {
+        "at": 1746106512914,
+        "payload": {
+          "type": 10,
+          "seat": 3,
+          "value": 3700,
+          "cards": [
+            "Td",
+            "Kd"
+          ],
+          "combination": [
+            "Ad",
+            "Kd",
+            "Td",
+            "9d",
+            "8d"
+          ],
+          "handDescription": "Flush, Ad High",
+          "position": 1,
+          "runNumber": "1",
+          "hiLo": "h"
+        }
+      },
+      {
+        "at": 1746106512915,
+        "payload": {
+          "type": 12,
+          "seat": 2,
+          "cards": [
+            "6d",
+            "5d"
+          ]
+        }
+      }
+    ]
+  },{
+    "id": "xlzrfvkm78dz",
+    "handVersion": 2,
+    "number": "14",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 4,
+    "startedAt": 1746106518914,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "4kHSZklLpK",
+        "seat": 1,
+        "name": "teish",
+        "stack": 2543
+      },
+      {
+        "id": "gjmiQ4-uAW",
+        "seat": 2,
+        "name": "IAMB",
+        "stack": 959
+      },
+      {
+        "id": "Zp6HGuC8yK",
+        "seat": 3,
+        "name": "shiozuka1121",
+        "stack": 3700
+      },
+      {
+        "id": "CsHt4-HRYF",
+        "seat": 4,
+        "name": "chiffon1468",
+        "stack": 2145
+      },
+      {
+        "id": "7kPHYByVxS",
+        "seat": 6,
+        "name": "Ene",
+        "stack": 2807
+      },
+      {
+        "id": "HJCe0qCFpd",
+        "seat": 7,
+        "name": "NABO",
+        "stack": 1833
+      },
+      {
+        "id": "hig4fvwo_m",
+        "seat": 9,
+        "name": "とーち",
+        "stack": 2000
+      },
+      {
+        "id": "XaClitYV1x",
+        "seat": 10,
+        "name": "らねおか",
+        "stack": 2183
+      }
+    ],
+    "events": [
+      {
+        "at": 1746106518914,
+        "payload": {
+          "type": 3,
+          "seat": 6,
+          "value": 10
+        }
+      },
+      {
+        "at": 1746106518915,
+        "payload": {
+          "type": 2,
+          "seat": 7,
+          "value": 20
+        }
+      },
+      {
+        "at": 1746106524886,
+        "payload": {
+          "type": 8,
+          "seat": 9,
+          "value": 40
+        }
+      },
+      {
+        "at": 1746106525886,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1746106526931,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1746106529222,
+        "payload": {
+          "type": 11,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746106531251,
+        "payload": {
+          "type": 7,
+          "seat": 3,
+          "value": 40
+        }
+      },
+      {
+        "at": 1746106532357,
+        "payload": {
+          "type": 11,
+          "seat": 4
+        }
+      },
+      {
+        "at": 1746106533502,
+        "payload": {
+          "type": 11,
+          "seat": 6
+        }
+      },
+      {
+        "at": 1746106540285,
+        "payload": {
+          "type": 7,
+          "seat": 7,
+          "value": 40
+        }
+      },
+      {
+        "at": 1746106541094,
+        "payload": {
+          "type": 9,
+          "turn": 1,
+          "run": 1,
+          "cards": [
+            "4s",
+            "Ac",
+            "Th"
+          ],
+          "handsLabels": {}
+        }
+      },
+      {
+        "at": 1746106544181,
+        "payload": {
+          "type": 0,
+          "seat": 7
+        }
+      },
+      {
+        "at": 1746106548656,
+        "payload": {
+          "type": 0,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746106559979,
+        "payload": {
+          "type": 8,
+          "seat": 3,
+          "value": 30
+        }
+      },
+      {
+        "at": 1746106564064,
+        "payload": {
+          "type": 11,
+          "seat": 7
+        }
+      },
+      {
+        "at": 1746106571951,
+        "payload": {
+          "type": 7,
+          "seat": 9,
+          "value": 30
+        }
+      },
+      {
+        "at": 1746106572770,
+        "payload": {
+          "type": 9,
+          "turn": 2,
+          "run": 1,
+          "cards": [
+            "3d"
+          ],
+          "handsLabels": {}
+        }
+      },
+      {
+        "at": 1746106574575,
+        "payload": {
+          "type": 0,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746106584951,
+        "payload": {
+          "type": 8,
+          "seat": 3,
+          "value": 142
+        }
+      },
+      {
+        "at": 1746106587245,
+        "payload": {
+          "type": 11,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746106588064,
+        "payload": {
+          "type": 16,
+          "value": 142,
+          "seat": 3
+        }
+      },
+      {
+        "at": 1746106588065,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1746106588066,
+        "payload": {
+          "type": 10,
+          "seat": 3,
+          "value": 190,
+          "pot": 190,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "ofhuzldqqzcl",
+    "handVersion": 2,
+    "number": "15",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 6,
+    "startedAt": 1746106590991,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "4kHSZklLpK",
+        "seat": 1,
+        "name": "teish",
+        "stack": 2543
+      },
+      {
+        "id": "gjmiQ4-uAW",
+        "seat": 2,
+        "name": "IAMB",
+        "stack": 2400
+      },
+      {
+        "id": "Zp6HGuC8yK",
+        "seat": 3,
+        "name": "shiozuka1121",
+        "stack": 3820
+      },
+      {
+        "id": "CsHt4-HRYF",
+        "seat": 4,
+        "name": "chiffon1468",
+        "stack": 2145
+      },
+      {
+        "id": "7kPHYByVxS",
+        "seat": 6,
+        "name": "Ene",
+        "stack": 2797
+      },
+      {
+        "id": "HJCe0qCFpd",
+        "seat": 7,
+        "name": "NABO",
+        "stack": 1793
+      },
+      {
+        "id": "hig4fvwo_m",
+        "seat": 9,
+        "name": "とーち",
+        "stack": 1930
+      },
+      {
+        "id": "XaClitYV1x",
+        "seat": 10,
+        "name": "らねおか",
+        "stack": 2183,
+        "hand": [
+          "Ts",
+          "As"
+        ]
+      }
+    ],
+    "events": [
+      {
+        "at": 1746106590991,
+        "payload": {
+          "type": 3,
+          "seat": 7,
+          "value": 10
+        }
+      },
+      {
+        "at": 1746106590992,
+        "payload": {
+          "type": 2,
+          "seat": 9,
+          "value": 20
+        }
+      },
+      {
+        "at": 1746106594485,
+        "payload": {
+          "type": 8,
+          "seat": 10,
+          "value": 40
+        }
+      },
+      {
+        "at": 1746106595520,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1746106596565,
+        "payload": {
+          "type": 11,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746106598959,
+        "payload": {
+          "type": 11,
+          "seat": 3
+        }
+      },
+      {
+        "at": 1746106600391,
+        "payload": {
+          "type": 11,
+          "seat": 4
+        }
+      },
+      {
+        "at": 1746106601493,
+        "payload": {
+          "type": 11,
+          "seat": 6
+        }
+      },
+      {
+        "at": 1746106602539,
+        "payload": {
+          "type": 11,
+          "seat": 7
+        }
+      },
+      {
+        "at": 1746106610211,
+        "payload": {
+          "type": 8,
+          "seat": 9,
+          "value": 120
+        }
+      },
+      {
+        "at": 1746106615020,
+        "payload": {
+          "type": 7,
+          "seat": 10,
+          "value": 120
+        }
+      },
+      {
+        "at": 1746106615840,
+        "payload": {
+          "type": 9,
+          "turn": 1,
+          "run": 1,
+          "cards": [
+            "3s",
+            "4s",
+            "4d"
+          ],
+          "handsLabels": {
+            "10": [
+              {
+                "c": 9,
+                "d": [
+                  "4"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "at": 1746106622175,
+        "payload": {
+          "type": 0,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746106643709,
+        "payload": {
+          "type": 8,
+          "seat": 10,
+          "value": 70
+        }
+      },
+      {
+        "at": 1746106647912,
+        "payload": {
+          "type": 7,
+          "seat": 9,
+          "value": 70
+        }
+      },
+      {
+        "at": 1746106648735,
+        "payload": {
+          "type": 9,
+          "turn": 2,
+          "run": 1,
+          "cards": [
+            "5d"
+          ],
+          "handsLabels": {
+            "10": [
+              {
+                "c": 9,
+                "d": [
+                  "4"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "at": 1746106651520,
+        "payload": {
+          "type": 0,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746106694695,
+        "payload": {
+          "type": 0,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1746106695560,
+        "payload": {
+          "type": 9,
+          "turn": 3,
+          "run": 1,
+          "cards": [
+            "9s"
+          ],
+          "handsLabels": {
+            "10": [
+              {
+                "c": 5
+              }
+            ]
+          }
+        }
+      },
+      {
+        "at": 1746106710865,
+        "payload": {
+          "type": 8,
+          "seat": 9,
+          "value": 292
+        }
+      },
+      {
+        "at": 1746106713740,
+        "payload": {
+          "type": 8,
+          "seat": 10,
+          "value": 1740
+        }
+      },
+      {
+        "at": 1746106721468,
+        "payload": {
+          "type": 11,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746106722287,
+        "payload": {
+          "type": 16,
+          "value": 1448,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1746106722288,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1746106722289,
+        "payload": {
+          "type": 10,
+          "seat": 10,
+          "value": 974,
+          "pot": 974,
+          "position": 1
+        }
+      },
+      {
+        "at": 1746106723306,
+        "payload": {
+          "type": 12,
+          "seat": 10,
+          "cards": [
+            "Ts",
+            "As"
+          ]
+        }
+      }
+    ]
+  },{
+    "id": "e7h5yfjtvlve",
+    "handVersion": 2,
+    "number": "16",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 7,
+    "startedAt": 1746106725910,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "4kHSZklLpK",
+        "seat": 1,
+        "name": "teish",
+        "stack": 2543
+      },
+      {
+        "id": "gjmiQ4-uAW",
+        "seat": 2,
+        "name": "IAMB",
+        "stack": 2400
+      },
+      {
+        "id": "Zp6HGuC8yK",
+        "seat": 3,
+        "name": "shiozuka1121",
+        "stack": 3820
+      },
+      {
+        "id": "CsHt4-HRYF",
+        "seat": 4,
+        "name": "chiffon1468",
+        "stack": 2145
+      },
+      {
+        "id": "7kPHYByVxS",
+        "seat": 6,
+        "name": "Ene",
+        "stack": 2797,
+        "hand": [
+          "Qs",
+          "Kh"
+        ]
+      },
+      {
+        "id": "HJCe0qCFpd",
+        "seat": 7,
+        "name": "NABO",
+        "stack": 1783
+      },
+      {
+        "id": "hig4fvwo_m",
+        "seat": 9,
+        "name": "とーち",
+        "stack": 1448
+      },
+      {
+        "id": "XaClitYV1x",
+        "seat": 10,
+        "name": "らねおか",
+        "stack": 2675
+      }
+    ],
+    "events": [
+      {
+        "at": 1746106725910,
+        "payload": {
+          "type": 3,
+          "seat": 9,
+          "value": 10
+        }
+      },
+      {
+        "at": 1746106725911,
+        "payload": {
+          "type": 2,
+          "seat": 10,
+          "value": 20
+        }
+      },
+      {
+        "at": 1746106731611,
+        "payload": {
+          "type": 8,
+          "seat": 1,
+          "value": 40
+        }
+      },
+      {
+        "at": 1746106741939,
+        "payload": {
+          "type": 8,
+          "seat": 2,
+          "value": 120
+        }
+      },
+      {
+        "at": 1746106743021,
+        "payload": {
+          "type": 11,
+          "seat": 3
+        }
+      },
+      {
+        "at": 1746106744181,
+        "payload": {
+          "type": 11,
+          "seat": 4
+        }
+      },
+      {
+        "at": 1746106745313,
+        "payload": {
+          "type": 11,
+          "seat": 6
+        }
+      },
+      {
+        "at": 1746106746358,
+        "payload": {
+          "type": 11,
+          "seat": 7
+        }
+      },
+      {
+        "at": 1746106747467,
+        "payload": {
+          "type": 11,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746106748525,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1746106757941,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1746106758750,
+        "payload": {
+          "type": 16,
+          "value": 80,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746106758751,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1746106758752,
+        "payload": {
+          "type": 10,
+          "seat": 2,
+          "value": 110,
+          "pot": 110,
+          "position": 1
+        }
+      },
+      {
+        "at": 1746106760192,
+        "payload": {
+          "type": 12,
+          "seat": 6,
+          "cards": [
+            "Qs",
+            "Kh"
+          ]
+        }
+      }
+    ]
+  },{
+    "id": "avegn0ts8qxf",
+    "handVersion": 2,
+    "number": "17",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 9,
+    "startedAt": 1746106762422,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "4kHSZklLpK",
+        "seat": 1,
+        "name": "teish",
+        "stack": 2503
+      },
+      {
+        "id": "gjmiQ4-uAW",
+        "seat": 2,
+        "name": "IAMB",
+        "stack": 2470
+      },
+      {
+        "id": "Zp6HGuC8yK",
+        "seat": 3,
+        "name": "shiozuka1121",
+        "stack": 3820
+      },
+      {
+        "id": "CsHt4-HRYF",
+        "seat": 4,
+        "name": "chiffon1468",
+        "stack": 2145
+      },
+      {
+        "id": "7kPHYByVxS",
+        "seat": 6,
+        "name": "Ene",
+        "stack": 2797
+      },
+      {
+        "id": "HJCe0qCFpd",
+        "seat": 7,
+        "name": "NABO",
+        "stack": 1783
+      },
+      {
+        "id": "hig4fvwo_m",
+        "seat": 9,
+        "name": "とーち",
+        "stack": 1438
+      },
+      {
+        "id": "XaClitYV1x",
+        "seat": 10,
+        "name": "らねおか",
+        "stack": 2655
+      }
+    ],
+    "events": [
+      {
+        "at": 1746106762422,
+        "payload": {
+          "type": 3,
+          "seat": 10,
+          "value": 10
+        }
+      },
+      {
+        "at": 1746106762423,
+        "payload": {
+          "type": 2,
+          "seat": 1,
+          "value": 20
+        }
+      },
+      {
+        "at": 1746106763638,
+        "payload": {
+          "type": 11,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746106764662,
+        "payload": {
+          "type": 11,
+          "seat": 3
+        }
+      },
+      {
+        "at": 1746106769593,
+        "payload": {
+          "type": 8,
+          "seat": 4,
+          "value": 50
+        }
+      },
+      {
+        "at": 1746106770725,
+        "payload": {
+          "type": 11,
+          "seat": 6
+        }
+      },
+      {
+        "at": 1746106771767,
+        "payload": {
+          "type": 11,
+          "seat": 7
+        }
+      },
+      {
+        "at": 1746106772864,
+        "payload": {
+          "type": 11,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746106773915,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1746106774942,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1746106775749,
+        "payload": {
+          "type": 16,
+          "value": 30,
+          "seat": 4
+        }
+      },
+      {
+        "at": 1746106775750,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1746106775751,
+        "payload": {
+          "type": 10,
+          "seat": 4,
+          "value": 50,
+          "pot": 50,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "c3ks1azld4h9",
+    "handVersion": 2,
+    "number": "18",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 10,
+    "startedAt": 1746106778660,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "4kHSZklLpK",
+        "seat": 1,
+        "name": "teish",
+        "stack": 2483
+      },
+      {
+        "id": "gjmiQ4-uAW",
+        "seat": 2,
+        "name": "IAMB",
+        "stack": 2470
+      },
+      {
+        "id": "Zp6HGuC8yK",
+        "seat": 3,
+        "name": "shiozuka1121",
+        "stack": 3820
+      },
+      {
+        "id": "CsHt4-HRYF",
+        "seat": 4,
+        "name": "chiffon1468",
+        "stack": 2175
+      },
+      {
+        "id": "7kPHYByVxS",
+        "seat": 6,
+        "name": "Ene",
+        "stack": 2797
+      },
+      {
+        "id": "HJCe0qCFpd",
+        "seat": 7,
+        "name": "NABO",
+        "stack": 1783
+      },
+      {
+        "id": "hig4fvwo_m",
+        "seat": 9,
+        "name": "とーち",
+        "stack": 1438
+      },
+      {
+        "id": "XaClitYV1x",
+        "seat": 10,
+        "name": "らねおか",
+        "stack": 2645
+      }
+    ],
+    "events": [
+      {
+        "at": 1746106778660,
+        "payload": {
+          "type": 3,
+          "seat": 1,
+          "value": 10
+        }
+      },
+      {
+        "at": 1746106778661,
+        "payload": {
+          "type": 2,
+          "seat": 2,
+          "value": 20
+        }
+      },
+      {
+        "at": 1746106781114,
+        "payload": {
+          "type": 11,
+          "seat": 3
+        }
+      },
+      {
+        "at": 1746106782200,
+        "payload": {
+          "type": 11,
+          "seat": 4
+        }
+      },
+      {
+        "at": 1746106783334,
+        "payload": {
+          "type": 11,
+          "seat": 6
+        }
+      },
+      {
+        "at": 1746106784374,
+        "payload": {
+          "type": 11,
+          "seat": 7
+        }
+      },
+      {
+        "at": 1746106785468,
+        "payload": {
+          "type": 11,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746106786516,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1746106792539,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1746106793368,
+        "payload": {
+          "type": 16,
+          "value": 10,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746106793369,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1746106793370,
+        "payload": {
+          "type": 10,
+          "seat": 2,
+          "value": 20,
+          "pot": 20,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "raxykvrcd1rm",
+    "handVersion": 2,
+    "number": "19",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 1,
+    "startedAt": 1746106796273,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "4kHSZklLpK",
+        "seat": 1,
+        "name": "teish",
+        "stack": 2473
+      },
+      {
+        "id": "gjmiQ4-uAW",
+        "seat": 2,
+        "name": "IAMB",
+        "stack": 2480
+      },
+      {
+        "id": "Zp6HGuC8yK",
+        "seat": 3,
+        "name": "shiozuka1121",
+        "stack": 3820
+      },
+      {
+        "id": "CsHt4-HRYF",
+        "seat": 4,
+        "name": "chiffon1468",
+        "stack": 2175
+      },
+      {
+        "id": "7kPHYByVxS",
+        "seat": 6,
+        "name": "Ene",
+        "stack": 2797
+      },
+      {
+        "id": "HJCe0qCFpd",
+        "seat": 7,
+        "name": "NABO",
+        "stack": 1783
+      },
+      {
+        "id": "hig4fvwo_m",
+        "seat": 9,
+        "name": "とーち",
+        "stack": 1438
+      },
+      {
+        "id": "XaClitYV1x",
+        "seat": 10,
+        "name": "らねおか",
+        "stack": 2645
+      }
+    ],
+    "events": [
+      {
+        "at": 1746106796273,
+        "payload": {
+          "type": 3,
+          "seat": 2,
+          "value": 10
+        }
+      },
+      {
+        "at": 1746106796274,
+        "payload": {
+          "type": 2,
+          "seat": 3,
+          "value": 20
+        }
+      },
+      {
+        "at": 1746106799940,
+        "payload": {
+          "type": 11,
+          "seat": 4
+        }
+      },
+      {
+        "at": 1746106803814,
+        "payload": {
+          "type": 8,
+          "seat": 6,
+          "value": 70
+        }
+      },
+      {
+        "at": 1746106805688,
+        "payload": {
+          "type": 11,
+          "seat": 7
+        }
+      },
+      {
+        "at": 1746106806791,
+        "payload": {
+          "type": 11,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746106807793,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1746106808806,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1746106888009,
+        "payload": {
+          "type": 8,
+          "seat": 2,
+          "value": 230
+        }
+      },
+      {
+        "at": 1746106889978,
+        "payload": {
+          "type": 11,
+          "seat": 3
+        }
+      },
+      {
+        "at": 1746106896746,
+        "payload": {
+          "type": 7,
+          "seat": 6,
+          "value": 230
+        }
+      },
+      {
+        "at": 1746106897553,
+        "payload": {
+          "type": 9,
+          "turn": 1,
+          "run": 1,
+          "cards": [
+            "Kc",
+            "Ad",
+            "7c"
+          ],
+          "handsLabels": {}
+        }
+      },
+      {
+        "at": 1746106912727,
+        "payload": {
+          "type": 8,
+          "seat": 2,
+          "value": 160
+        }
+      },
+      {
+        "at": 1746106913864,
+        "payload": {
+          "type": 11,
+          "seat": 6
+        }
+      },
+      {
+        "at": 1746106914684,
+        "payload": {
+          "type": 16,
+          "value": 160,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746106914685,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1746106914686,
+        "payload": {
+          "type": 10,
+          "seat": 2,
+          "value": 480,
+          "pot": 480,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "6kylplvwc9eb",
+    "handVersion": 2,
+    "number": "20",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 2,
+    "startedAt": 1746106917628,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "4kHSZklLpK",
+        "seat": 1,
+        "name": "teish",
+        "stack": 2473
+      },
+      {
+        "id": "gjmiQ4-uAW",
+        "seat": 2,
+        "name": "IAMB",
+        "stack": 2730
+      },
+      {
+        "id": "Zp6HGuC8yK",
+        "seat": 3,
+        "name": "shiozuka1121",
+        "stack": 3800
+      },
+      {
+        "id": "CsHt4-HRYF",
+        "seat": 4,
+        "name": "chiffon1468",
+        "stack": 2175
+      },
+      {
+        "id": "7kPHYByVxS",
+        "seat": 6,
+        "name": "Ene",
+        "stack": 2567
+      },
+      {
+        "id": "HJCe0qCFpd",
+        "seat": 7,
+        "name": "NABO",
+        "stack": 1783
+      },
+      {
+        "id": "hig4fvwo_m",
+        "seat": 9,
+        "name": "とーち",
+        "stack": 1438
+      },
+      {
+        "id": "XaClitYV1x",
+        "seat": 10,
+        "name": "らねおか",
+        "stack": 2645
+      }
+    ],
+    "events": [
+      {
+        "at": 1746106917628,
+        "payload": {
+          "type": 3,
+          "seat": 3,
+          "value": 10
+        }
+      },
+      {
+        "at": 1746106917629,
+        "payload": {
+          "type": 2,
+          "seat": 4,
+          "value": 20
+        }
+      },
+      {
+        "at": 1746106919082,
+        "payload": {
+          "type": 11,
+          "seat": 6
+        }
+      },
+      {
+        "at": 1746106920108,
+        "payload": {
+          "type": 11,
+          "seat": 7
+        }
+      },
+      {
+        "at": 1746106922562,
+        "payload": {
+          "type": 11,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746106923613,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1746106924618,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1746106928362,
+        "payload": {
+          "type": 8,
+          "seat": 2,
+          "value": 57
+        }
+      },
+      {
+        "at": 1746106929960,
+        "payload": {
+          "type": 11,
+          "seat": 3
+        }
+      },
+      {
+        "at": 1746106931180,
+        "payload": {
+          "type": 11,
+          "seat": 4
+        }
+      },
+      {
+        "at": 1746106932019,
+        "payload": {
+          "type": 16,
+          "value": 37,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746106932020,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1746106932021,
+        "payload": {
+          "type": 10,
+          "seat": 2,
+          "value": 50,
+          "pot": 50,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "4idnma0wge4f",
+    "handVersion": 2,
+    "number": "21",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 3,
+    "startedAt": 1746106934973,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "4kHSZklLpK",
+        "seat": 1,
+        "name": "teish",
+        "stack": 2473
+      },
+      {
+        "id": "gjmiQ4-uAW",
+        "seat": 2,
+        "name": "IAMB",
+        "stack": 2760
+      },
+      {
+        "id": "Zp6HGuC8yK",
+        "seat": 3,
+        "name": "shiozuka1121",
+        "stack": 3790
+      },
+      {
+        "id": "CsHt4-HRYF",
+        "seat": 4,
+        "name": "chiffon1468",
+        "stack": 2155
+      },
+      {
+        "id": "7kPHYByVxS",
+        "seat": 6,
+        "name": "Ene",
+        "stack": 2567
+      },
+      {
+        "id": "HJCe0qCFpd",
+        "seat": 7,
+        "name": "NABO",
+        "stack": 1783
+      },
+      {
+        "id": "hig4fvwo_m",
+        "seat": 9,
+        "name": "とーち",
+        "stack": 1438
+      },
+      {
+        "id": "XaClitYV1x",
+        "seat": 10,
+        "name": "らねおか",
+        "stack": 2645
+      }
+    ],
+    "events": [
+      {
+        "at": 1746106934973,
+        "payload": {
+          "type": 3,
+          "seat": 4,
+          "value": 10
+        }
+      },
+      {
+        "at": 1746106934974,
+        "payload": {
+          "type": 2,
+          "seat": 6,
+          "value": 20
+        }
+      },
+      {
+        "at": 1746106942290,
+        "payload": {
+          "type": 8,
+          "seat": 7,
+          "value": 50
+        }
+      },
+      {
+        "at": 1746106943349,
+        "payload": {
+          "type": 11,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746106944373,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1746106945392,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1746106946429,
+        "payload": {
+          "type": 11,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746106947530,
+        "payload": {
+          "type": 11,
+          "seat": 3
+        }
+      },
+      {
+        "at": 1746106948629,
+        "payload": {
+          "type": 11,
+          "seat": 4
+        }
+      },
+      {
+        "at": 1746106951940,
+        "payload": {
+          "type": 11,
+          "seat": 6
+        }
+      },
+      {
+        "at": 1746106952787,
+        "payload": {
+          "type": 16,
+          "value": 30,
+          "seat": 7
+        }
+      },
+      {
+        "at": 1746106952788,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1746106952789,
+        "payload": {
+          "type": 10,
+          "seat": 7,
+          "value": 50,
+          "pot": 50,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "csfb3xooffnz",
+    "handVersion": 2,
+    "number": "22",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 4,
+    "startedAt": 1746106955715,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "4kHSZklLpK",
+        "seat": 1,
+        "name": "teish",
+        "stack": 2473
+      },
+      {
+        "id": "gjmiQ4-uAW",
+        "seat": 2,
+        "name": "IAMB",
+        "stack": 2760
+      },
+      {
+        "id": "Zp6HGuC8yK",
+        "seat": 3,
+        "name": "shiozuka1121",
+        "stack": 3790
+      },
+      {
+        "id": "CsHt4-HRYF",
+        "seat": 4,
+        "name": "chiffon1468",
+        "stack": 2145
+      },
+      {
+        "id": "7kPHYByVxS",
+        "seat": 6,
+        "name": "Ene",
+        "stack": 2547
+      },
+      {
+        "id": "HJCe0qCFpd",
+        "seat": 7,
+        "name": "NABO",
+        "stack": 1813
+      },
+      {
+        "id": "hig4fvwo_m",
+        "seat": 9,
+        "name": "とーち",
+        "stack": 1438
+      },
+      {
+        "id": "XaClitYV1x",
+        "seat": 10,
+        "name": "らねおか",
+        "stack": 2645
+      }
+    ],
+    "events": [
+      {
+        "at": 1746106955715,
+        "payload": {
+          "type": 3,
+          "seat": 6,
+          "value": 10
+        }
+      },
+      {
+        "at": 1746106955716,
+        "payload": {
+          "type": 2,
+          "seat": 7,
+          "value": 20
+        }
+      },
+      {
+        "at": 1746106957502,
+        "payload": {
+          "type": 11,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746106959673,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1746106960721,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1746106961741,
+        "payload": {
+          "type": 11,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746106962763,
+        "payload": {
+          "type": 11,
+          "seat": 3
+        }
+      },
+      {
+        "at": 1746106966140,
+        "payload": {
+          "type": 8,
+          "seat": 4,
+          "value": 60
+        }
+      },
+      {
+        "at": 1746106967307,
+        "payload": {
+          "type": 11,
+          "seat": 6
+        }
+      },
+      {
+        "at": 1746106970933,
+        "payload": {
+          "type": 11,
+          "seat": 7
+        }
+      },
+      {
+        "at": 1746106971752,
+        "payload": {
+          "type": 16,
+          "value": 40,
+          "seat": 4
+        }
+      },
+      {
+        "at": 1746106971753,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1746106971754,
+        "payload": {
+          "type": 10,
+          "seat": 4,
+          "value": 50,
+          "pot": 50,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "70u5doccjxjj",
+    "handVersion": 2,
+    "number": "23",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 6,
+    "startedAt": 1746106974723,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "4kHSZklLpK",
+        "seat": 1,
+        "name": "teish",
+        "stack": 2473
+      },
+      {
+        "id": "gjmiQ4-uAW",
+        "seat": 2,
+        "name": "IAMB",
+        "stack": 2760
+      },
+      {
+        "id": "Zp6HGuC8yK",
+        "seat": 3,
+        "name": "shiozuka1121",
+        "stack": 3790
+      },
+      {
+        "id": "CsHt4-HRYF",
+        "seat": 4,
+        "name": "chiffon1468",
+        "stack": 2175
+      },
+      {
+        "id": "7kPHYByVxS",
+        "seat": 6,
+        "name": "Ene",
+        "stack": 2537
+      },
+      {
+        "id": "HJCe0qCFpd",
+        "seat": 7,
+        "name": "NABO",
+        "stack": 1793
+      },
+      {
+        "id": "hig4fvwo_m",
+        "seat": 9,
+        "name": "とーち",
+        "stack": 1438
+      },
+      {
+        "id": "XaClitYV1x",
+        "seat": 10,
+        "name": "らねおか",
+        "stack": 2645
+      }
+    ],
+    "events": [
+      {
+        "at": 1746106974723,
+        "payload": {
+          "type": 3,
+          "seat": 7,
+          "value": 10
+        }
+      },
+      {
+        "at": 1746106974724,
+        "payload": {
+          "type": 2,
+          "seat": 9,
+          "value": 20
+        }
+      },
+      {
+        "at": 1746106976947,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1746106980673,
+        "payload": {
+          "type": 8,
+          "seat": 1,
+          "value": 40
+        }
+      },
+      {
+        "at": 1746106982909,
+        "payload": {
+          "type": 11,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746106984044,
+        "payload": {
+          "type": 11,
+          "seat": 3
+        }
+      },
+      {
+        "at": 1746106985230,
+        "payload": {
+          "type": 11,
+          "seat": 4
+        }
+      },
+      {
+        "at": 1746106986343,
+        "payload": {
+          "type": 11,
+          "seat": 6
+        }
+      },
+      {
+        "at": 1746106987421,
+        "payload": {
+          "type": 11,
+          "seat": 7
+        }
+      },
+      {
+        "at": 1746106990364,
+        "payload": {
+          "type": 7,
+          "seat": 9,
+          "value": 40
+        }
+      },
+      {
+        "at": 1746106991180,
+        "payload": {
+          "type": 9,
+          "turn": 1,
+          "run": 1,
+          "cards": [
+            "7c",
+            "Ad",
+            "Kh"
+          ],
+          "handsLabels": {}
+        }
+      },
+      {
+        "at": 1746106993540,
+        "payload": {
+          "type": 0,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746107029000,
+        "payload": {
+          "type": 8,
+          "seat": 1,
+          "value": 67
+        }
+      },
+      {
+        "at": 1746107040761,
+        "payload": {
+          "type": 11,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746107041576,
+        "payload": {
+          "type": 16,
+          "value": 67,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1746107041577,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1746107041578,
+        "payload": {
+          "type": 10,
+          "seat": 1,
+          "value": 90,
+          "pot": 90,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "aoknlmrukai8",
+    "handVersion": 2,
+    "number": "24",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 7,
+    "startedAt": 1746107044489,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "4kHSZklLpK",
+        "seat": 1,
+        "name": "teish",
+        "stack": 2523
+      },
+      {
+        "id": "gjmiQ4-uAW",
+        "seat": 2,
+        "name": "IAMB",
+        "stack": 2760,
+        "hand": [
+          "8s",
+          "8h"
+        ]
+      },
+      {
+        "id": "Zp6HGuC8yK",
+        "seat": 3,
+        "name": "shiozuka1121",
+        "stack": 3790
+      },
+      {
+        "id": "CsHt4-HRYF",
+        "seat": 4,
+        "name": "chiffon1468",
+        "stack": 2175
+      },
+      {
+        "id": "7kPHYByVxS",
+        "seat": 6,
+        "name": "Ene",
+        "stack": 2537,
+        "hand": [
+          "Jd",
+          "Kd"
+        ]
+      },
+      {
+        "id": "HJCe0qCFpd",
+        "seat": 7,
+        "name": "NABO",
+        "stack": 1783
+      },
+      {
+        "id": "hig4fvwo_m",
+        "seat": 9,
+        "name": "とーち",
+        "stack": 1398
+      },
+      {
+        "id": "XaClitYV1x",
+        "seat": 10,
+        "name": "らねおか",
+        "stack": 2645
+      }
+    ],
+    "events": [
+      {
+        "at": 1746107044489,
+        "payload": {
+          "type": 3,
+          "seat": 9,
+          "value": 10
+        }
+      },
+      {
+        "at": 1746107044490,
+        "payload": {
+          "type": 2,
+          "seat": 10,
+          "value": 20
+        }
+      },
+      {
+        "at": 1746107046192,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1746107050051,
+        "payload": {
+          "type": 8,
+          "seat": 2,
+          "value": 45
+        }
+      },
+      {
+        "at": 1746107051131,
+        "payload": {
+          "type": 11,
+          "seat": 3
+        }
+      },
+      {
+        "at": 1746107060906,
+        "payload": {
+          "type": 8,
+          "seat": 4,
+          "value": 160
+        }
+      },
+      {
+        "at": 1746107065838,
+        "payload": {
+          "type": 11,
+          "seat": 6
+        }
+      },
+      {
+        "at": 1746107066882,
+        "payload": {
+          "type": 11,
+          "seat": 7
+        }
+      },
+      {
+        "at": 1746107069040,
+        "payload": {
+          "type": 11,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746107070049,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1746107086579,
+        "payload": {
+          "type": 7,
+          "seat": 2,
+          "value": 160
+        }
+      },
+      {
+        "at": 1746107087418,
+        "payload": {
+          "type": 9,
+          "turn": 1,
+          "run": 1,
+          "cards": [
+            "5h",
+            "Ts",
+            "3d"
+          ],
+          "handsLabels": {
+            "2": [
+              {
+                "c": 9,
+                "d": [
+                  "8"
+                ]
+              }
+            ],
+            "6": [
+              {
+                "c": 10
+              }
+            ]
+          }
+        }
+      },
+      {
+        "at": 1746107089445,
+        "payload": {
+          "type": 0,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746107100596,
+        "payload": {
+          "type": 8,
+          "seat": 4,
+          "value": 100
+        }
+      },
+      {
+        "at": 1746107122043,
+        "payload": {
+          "type": 7,
+          "seat": 2,
+          "value": 100
+        }
+      },
+      {
+        "at": 1746107122895,
+        "payload": {
+          "type": 9,
+          "turn": 2,
+          "run": 1,
+          "cards": [
+            "8d"
+          ],
+          "handsLabels": {
+            "2": [
+              {
+                "c": 7
+              }
+            ],
+            "6": [
+              {
+                "c": 10
+              }
+            ]
+          }
+        }
+      },
+      {
+        "at": 1746107125818,
+        "payload": {
+          "type": 0,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746107135906,
+        "payload": {
+          "type": 0,
+          "seat": 4
+        }
+      },
+      {
+        "at": 1746107136710,
+        "payload": {
+          "type": 9,
+          "turn": 3,
+          "run": 1,
+          "cards": [
+            "2d"
+          ],
+          "handsLabels": {
+            "2": [
+              {
+                "c": 7
+              }
+            ],
+            "6": [
+              {
+                "c": 5
+              }
+            ]
+          }
+        }
+      },
+      {
+        "at": 1746107182258,
+        "payload": {
+          "type": 8,
+          "seat": 2,
+          "value": 550
+        }
+      },
+      {
+        "at": 1746107255993,
+        "payload": {
+          "type": 7,
+          "seat": 4,
+          "value": 550
+        }
+      },
+      {
+        "at": 1746107256837,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1746107256838,
+        "payload": {
+          "type": 12,
+          "seat": 2,
+          "cards": [
+            "8s",
+            "8h"
+          ]
+        }
+      },
+      {
+        "at": 1746107256839,
+        "payload": {
+          "type": 10,
+          "seat": 2,
+          "value": 1650,
+          "cards": [
+            "8s",
+            "8h"
+          ],
+          "combination": [
+            "8s",
+            "8h",
+            "8d",
+            "Ts",
+            "5h"
+          ],
+          "handDescription": "Three of a Kind, 8's",
+          "position": 1,
+          "runNumber": "1",
+          "hiLo": "h"
+        }
+      },
+      {
+        "at": 1746107259270,
+        "payload": {
+          "type": 12,
+          "seat": 6,
+          "cards": [
+            "Jd",
+            "Kd"
+          ]
+        }
+      }
+    ]
+  },{
+    "id": "hkg3yeah9aht",
+    "handVersion": 2,
+    "number": "25",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 9,
+    "startedAt": 1746107263393,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "4kHSZklLpK",
+        "seat": 1,
+        "name": "teish",
+        "stack": 2523
+      },
+      {
+        "id": "gjmiQ4-uAW",
+        "seat": 2,
+        "name": "IAMB",
+        "stack": 3600
+      },
+      {
+        "id": "Zp6HGuC8yK",
+        "seat": 3,
+        "name": "shiozuka1121",
+        "stack": 3790
+      },
+      {
+        "id": "CsHt4-HRYF",
+        "seat": 4,
+        "name": "chiffon1468",
+        "stack": 1365
+      },
+      {
+        "id": "7kPHYByVxS",
+        "seat": 6,
+        "name": "Ene",
+        "stack": 2537
+      },
+      {
+        "id": "HJCe0qCFpd",
+        "seat": 7,
+        "name": "NABO",
+        "stack": 1783
+      },
+      {
+        "id": "hig4fvwo_m",
+        "seat": 9,
+        "name": "とーち",
+        "stack": 2000
+      },
+      {
+        "id": "XaClitYV1x",
+        "seat": 10,
+        "name": "らねおか",
+        "stack": 2625
+      }
+    ],
+    "events": [
+      {
+        "at": 1746107263393,
+        "payload": {
+          "type": 3,
+          "seat": 10,
+          "value": 10
+        }
+      },
+      {
+        "at": 1746107263394,
+        "payload": {
+          "type": 2,
+          "seat": 1,
+          "value": 20
+        }
+      },
+      {
+        "at": 1746107265924,
+        "payload": {
+          "type": 11,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746107269035,
+        "payload": {
+          "type": 11,
+          "seat": 3
+        }
+      },
+      {
+        "at": 1746107280271,
+        "payload": {
+          "type": 8,
+          "seat": 4,
+          "value": 50
+        }
+      },
+      {
+        "at": 1746107281479,
+        "payload": {
+          "type": 11,
+          "seat": 6
+        }
+      },
+      {
+        "at": 1746107291103,
+        "payload": {
+          "type": 8,
+          "seat": 7,
+          "value": 160
+        }
+      },
+      {
+        "at": 1746107292185,
+        "payload": {
+          "type": 11,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746107293223,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1746107294264,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1746107299913,
+        "payload": {
+          "type": 11,
+          "seat": 4
+        }
+      },
+      {
+        "at": 1746107300720,
+        "payload": {
+          "type": 16,
+          "value": 110,
+          "seat": 7
+        }
+      },
+      {
+        "at": 1746107300721,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1746107300722,
+        "payload": {
+          "type": 10,
+          "seat": 7,
+          "value": 130,
+          "pot": 130,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "7namqznqnerz",
+    "handVersion": 2,
+    "number": "26",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 10,
+    "startedAt": 1746107303631,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "4kHSZklLpK",
+        "seat": 1,
+        "name": "teish",
+        "stack": 2503
+      },
+      {
+        "id": "gjmiQ4-uAW",
+        "seat": 2,
+        "name": "IAMB",
+        "stack": 3600,
+        "hand": [
+          "Jh",
+          "Td"
+        ]
+      },
+      {
+        "id": "Zp6HGuC8yK",
+        "seat": 3,
+        "name": "shiozuka1121",
+        "stack": 3790,
+        "hand": [
+          "Kd",
+          "9d"
+        ]
+      },
+      {
+        "id": "CsHt4-HRYF",
+        "seat": 4,
+        "name": "chiffon1468",
+        "stack": 2000
+      },
+      {
+        "id": "7kPHYByVxS",
+        "seat": 6,
+        "name": "Ene",
+        "stack": 2537
+      },
+      {
+        "id": "HJCe0qCFpd",
+        "seat": 7,
+        "name": "NABO",
+        "stack": 1863
+      },
+      {
+        "id": "hig4fvwo_m",
+        "seat": 9,
+        "name": "とーち",
+        "stack": 2000
+      },
+      {
+        "id": "XaClitYV1x",
+        "seat": 10,
+        "name": "らねおか",
+        "stack": 2615
+      }
+    ],
+    "events": [
+      {
+        "at": 1746107303631,
+        "payload": {
+          "type": 3,
+          "seat": 1,
+          "value": 10
+        }
+      },
+      {
+        "at": 1746107303632,
+        "payload": {
+          "type": 2,
+          "seat": 2,
+          "value": 20
+        }
+      },
+      {
+        "at": 1746107308725,
+        "payload": {
+          "type": 8,
+          "seat": 3,
+          "value": 40
+        }
+      },
+      {
+        "at": 1746107309851,
+        "payload": {
+          "type": 11,
+          "seat": 4
+        }
+      },
+      {
+        "at": 1746107310976,
+        "payload": {
+          "type": 11,
+          "seat": 6
+        }
+      },
+      {
+        "at": 1746107312017,
+        "payload": {
+          "type": 11,
+          "seat": 7
+        }
+      },
+      {
+        "at": 1746107313086,
+        "payload": {
+          "type": 11,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746107316149,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1746107317185,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1746107324428,
+        "payload": {
+          "type": 7,
+          "seat": 2,
+          "value": 40
+        }
+      },
+      {
+        "at": 1746107325245,
+        "payload": {
+          "type": 9,
+          "turn": 1,
+          "run": 1,
+          "cards": [
+            "9c",
+            "6d",
+            "8s"
+          ],
+          "handsLabels": {
+            "2": [
+              {
+                "c": 10
+              }
+            ],
+            "3": [
+              {
+                "c": 9,
+                "d": [
+                  "9"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "at": 1746107327533,
+        "payload": {
+          "type": 0,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746107335134,
+        "payload": {
+          "type": 8,
+          "seat": 3,
+          "value": 67
+        }
+      },
+      {
+        "at": 1746107358873,
+        "payload": {
+          "type": 7,
+          "seat": 2,
+          "value": 67
+        }
+      },
+      {
+        "at": 1746107359706,
+        "payload": {
+          "type": 9,
+          "turn": 2,
+          "run": 1,
+          "cards": [
+            "Ah"
+          ],
+          "handsLabels": {
+            "2": [
+              {
+                "c": 10
+              }
+            ],
+            "3": [
+              {
+                "c": 9,
+                "d": [
+                  "9"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "at": 1746107368101,
+        "payload": {
+          "type": 0,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746107381190,
+        "payload": {
+          "type": 0,
+          "seat": 3
+        }
+      },
+      {
+        "at": 1746107382011,
+        "payload": {
+          "type": 9,
+          "turn": 3,
+          "run": 1,
+          "cards": [
+            "8c"
+          ],
+          "handsLabels": {
+            "2": [
+              {
+                "c": 9,
+                "d": [
+                  "8"
+                ]
+              }
+            ],
+            "3": [
+              {
+                "c": 8,
+                "d": [
+                  "9",
+                  "8"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "at": 1746107388802,
+        "payload": {
+          "type": 8,
+          "seat": 2,
+          "value": 168
+        }
+      },
+      {
+        "at": 1746107430634,
+        "payload": {
+          "type": 7,
+          "seat": 3,
+          "value": 168
+        }
+      },
+      {
+        "at": 1746107431437,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1746107431438,
+        "payload": {
+          "type": 12,
+          "seat": 2,
+          "cards": [
+            "Jh",
+            "Td"
+          ]
+        }
+      },
+      {
+        "at": 1746107431439,
+        "payload": {
+          "type": 12,
+          "seat": 3,
+          "cards": [
+            "Kd",
+            "9d"
+          ]
+        }
+      },
+      {
+        "at": 1746107431440,
+        "payload": {
+          "type": 10,
+          "seat": 3,
+          "value": 560,
+          "cards": [
+            "Kd",
+            "9d"
+          ],
+          "combination": [
+            "9d",
+            "9c",
+            "8s",
+            "8c",
+            "Ah"
+          ],
+          "handDescription": "Two Pair, 9's & 8's",
+          "position": 1,
+          "runNumber": "1",
+          "hiLo": "h"
+        }
+      }
+    ]
+  },{
+    "id": "sp6tsmjyy7fz",
+    "handVersion": 2,
+    "number": "27",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 1,
+    "startedAt": 1746107437467,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "4kHSZklLpK",
+        "seat": 1,
+        "name": "teish",
+        "stack": 2493
+      },
+      {
+        "id": "gjmiQ4-uAW",
+        "seat": 2,
+        "name": "IAMB",
+        "stack": 3325
+      },
+      {
+        "id": "Zp6HGuC8yK",
+        "seat": 3,
+        "name": "shiozuka1121",
+        "stack": 4075
+      },
+      {
+        "id": "CsHt4-HRYF",
+        "seat": 4,
+        "name": "chiffon1468",
+        "stack": 2000
+      },
+      {
+        "id": "7kPHYByVxS",
+        "seat": 6,
+        "name": "Ene",
+        "stack": 2537
+      },
+      {
+        "id": "HJCe0qCFpd",
+        "seat": 7,
+        "name": "NABO",
+        "stack": 1863
+      },
+      {
+        "id": "hig4fvwo_m",
+        "seat": 9,
+        "name": "とーち",
+        "stack": 2000
+      },
+      {
+        "id": "XaClitYV1x",
+        "seat": 10,
+        "name": "らねおか",
+        "stack": 2615
+      }
+    ],
+    "events": [
+      {
+        "at": 1746107437467,
+        "payload": {
+          "type": 3,
+          "seat": 2,
+          "value": 10
+        }
+      },
+      {
+        "at": 1746107437468,
+        "payload": {
+          "type": 2,
+          "seat": 3,
+          "value": 20
+        }
+      },
+      {
+        "at": 1746107444220,
+        "payload": {
+          "type": 8,
+          "seat": 4,
+          "value": 50
+        }
+      },
+      {
+        "at": 1746107445278,
+        "payload": {
+          "type": 11,
+          "seat": 6
+        }
+      },
+      {
+        "at": 1746107446325,
+        "payload": {
+          "type": 11,
+          "seat": 7
+        }
+      },
+      {
+        "at": 1746107447385,
+        "payload": {
+          "type": 11,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746107450853,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1746107451877,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1746107452898,
+        "payload": {
+          "type": 11,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746107455203,
+        "payload": {
+          "type": 11,
+          "seat": 3
+        }
+      },
+      {
+        "at": 1746107456044,
+        "payload": {
+          "type": 16,
+          "value": 30,
+          "seat": 4
+        }
+      },
+      {
+        "at": 1746107456045,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1746107456046,
+        "payload": {
+          "type": 10,
+          "seat": 4,
+          "value": 50,
+          "pot": 50,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "xvgsluexsgds",
+    "handVersion": 2,
+    "number": "28",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 2,
+    "startedAt": 1746107458966,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "4kHSZklLpK",
+        "seat": 1,
+        "name": "teish",
+        "stack": 2493
+      },
+      {
+        "id": "gjmiQ4-uAW",
+        "seat": 2,
+        "name": "IAMB",
+        "stack": 3315
+      },
+      {
+        "id": "Zp6HGuC8yK",
+        "seat": 3,
+        "name": "shiozuka1121",
+        "stack": 4055
+      },
+      {
+        "id": "CsHt4-HRYF",
+        "seat": 4,
+        "name": "chiffon1468",
+        "stack": 2030
+      },
+      {
+        "id": "7kPHYByVxS",
+        "seat": 6,
+        "name": "Ene",
+        "stack": 2537
+      },
+      {
+        "id": "HJCe0qCFpd",
+        "seat": 7,
+        "name": "NABO",
+        "stack": 1863
+      },
+      {
+        "id": "hig4fvwo_m",
+        "seat": 9,
+        "name": "とーち",
+        "stack": 2000
+      },
+      {
+        "id": "XaClitYV1x",
+        "seat": 10,
+        "name": "らねおか",
+        "stack": 2615
+      }
+    ],
+    "events": [
+      {
+        "at": 1746107458966,
+        "payload": {
+          "type": 3,
+          "seat": 3,
+          "value": 10
+        }
+      },
+      {
+        "at": 1746107458967,
+        "payload": {
+          "type": 2,
+          "seat": 4,
+          "value": 20
+        }
+      },
+      {
+        "at": 1746107465645,
+        "payload": {
+          "type": 11,
+          "seat": 6
+        }
+      },
+      {
+        "at": 1746107466690,
+        "payload": {
+          "type": 11,
+          "seat": 7
+        }
+      },
+      {
+        "at": 1746107473045,
+        "payload": {
+          "type": 8,
+          "seat": 9,
+          "value": 50
+        }
+      },
+      {
+        "at": 1746107474058,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1746107475069,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1746107476108,
+        "payload": {
+          "type": 11,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746107477141,
+        "payload": {
+          "type": 11,
+          "seat": 3
+        }
+      },
+      {
+        "at": 1746107478249,
+        "payload": {
+          "type": 11,
+          "seat": 4
+        }
+      },
+      {
+        "at": 1746107479067,
+        "payload": {
+          "type": 16,
+          "value": 30,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746107479068,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1746107479069,
+        "payload": {
+          "type": 10,
+          "seat": 9,
+          "value": 50,
+          "pot": 50,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "wgvquzz1wpmo",
+    "handVersion": 2,
+    "number": "29",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 3,
+    "startedAt": 1746107481971,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "4kHSZklLpK",
+        "seat": 1,
+        "name": "teish",
+        "stack": 2493
+      },
+      {
+        "id": "gjmiQ4-uAW",
+        "seat": 2,
+        "name": "IAMB",
+        "stack": 3315,
+        "hand": [
+          "Ac",
+          "Ad"
+        ]
+      },
+      {
+        "id": "Zp6HGuC8yK",
+        "seat": 3,
+        "name": "shiozuka1121",
+        "stack": 4045
+      },
+      {
+        "id": "CsHt4-HRYF",
+        "seat": 4,
+        "name": "chiffon1468",
+        "stack": 2010
+      },
+      {
+        "id": "7kPHYByVxS",
+        "seat": 6,
+        "name": "Ene",
+        "stack": 2537
+      },
+      {
+        "id": "HJCe0qCFpd",
+        "seat": 7,
+        "name": "NABO",
+        "stack": 1863,
+        "hand": [
+          "9h",
+          "Kh"
+        ]
+      },
+      {
+        "id": "hig4fvwo_m",
+        "seat": 9,
+        "name": "とーち",
+        "stack": 2030,
+        "hand": [
+          "Tc",
+          "As"
+        ]
+      },
+      {
+        "id": "XaClitYV1x",
+        "seat": 10,
+        "name": "らねおか",
+        "stack": 2615
+      }
+    ],
+    "events": [
+      {
+        "at": 1746107481971,
+        "payload": {
+          "type": 3,
+          "seat": 4,
+          "value": 10
+        }
+      },
+      {
+        "at": 1746107481972,
+        "payload": {
+          "type": 2,
+          "seat": 6,
+          "value": 20
+        }
+      },
+      {
+        "at": 1746107484817,
+        "payload": {
+          "type": 11,
+          "seat": 7
+        }
+      },
+      {
+        "at": 1746107489985,
+        "payload": {
+          "type": 8,
+          "seat": 9,
+          "value": 40
+        }
+      },
+      {
+        "at": 1746107491056,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1746107494635,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1746107498392,
+        "payload": {
+          "type": 8,
+          "seat": 2,
+          "value": 122
+        }
+      },
+      {
+        "at": 1746107502049,
+        "payload": {
+          "type": 11,
+          "seat": 3
+        }
+      },
+      {
+        "at": 1746107503142,
+        "payload": {
+          "type": 11,
+          "seat": 4
+        }
+      },
+      {
+        "at": 1746107504276,
+        "payload": {
+          "type": 11,
+          "seat": 6
+        }
+      },
+      {
+        "at": 1746107508766,
+        "payload": {
+          "type": 7,
+          "seat": 9,
+          "value": 122
+        }
+      },
+      {
+        "at": 1746107509589,
+        "payload": {
+          "type": 9,
+          "turn": 1,
+          "run": 1,
+          "cards": [
+            "Jh",
+            "8h",
+            "7h"
+          ],
+          "handsLabels": {
+            "2": [
+              {
+                "c": 9,
+                "d": [
+                  "A"
+                ]
+              }
+            ],
+            "7": [
+              {
+                "c": 5
+              }
+            ],
+            "9": [
+              {
+                "c": 10
+              }
+            ]
+          }
+        }
+      },
+      {
+        "at": 1746107512991,
+        "payload": {
+          "type": 0,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746107516751,
+        "payload": {
+          "type": 0,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746107517560,
+        "payload": {
+          "type": 9,
+          "turn": 2,
+          "run": 1,
+          "cards": [
+            "Ah"
+          ],
+          "handsLabels": {
+            "2": [
+              {
+                "c": 7
+              }
+            ],
+            "7": [
+              {
+                "c": 5
+              }
+            ],
+            "9": [
+              {
+                "c": 9,
+                "d": [
+                  "A"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "at": 1746107521881,
+        "payload": {
+          "type": 0,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746107525904,
+        "payload": {
+          "type": 0,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746107526735,
+        "payload": {
+          "type": 9,
+          "turn": 3,
+          "run": 1,
+          "cards": [
+            "4h"
+          ],
+          "handsLabels": {
+            "2": [
+              {
+                "c": 5
+              }
+            ],
+            "7": [
+              {
+                "c": 5
+              }
+            ],
+            "9": [
+              {
+                "c": 5
+              }
+            ]
+          }
+        }
+      },
+      {
+        "at": 1746107531626,
+        "payload": {
+          "type": 0,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746107533293,
+        "payload": {
+          "type": 0,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746107534137,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1746107534138,
+        "payload": {
+          "type": 12,
+          "seat": 9,
+          "cards": [
+            "Tc",
+            "As"
+          ]
+        }
+      },
+      {
+        "at": 1746107534139,
+        "payload": {
+          "type": 12,
+          "seat": 2,
+          "cards": [
+            "Ac",
+            "Ad"
+          ]
+        }
+      },
+      {
+        "at": 1746107534140,
+        "payload": {
+          "type": 10,
+          "seat": 2,
+          "value": 137,
+          "cards": [
+            "Ac",
+            "Ad"
+          ],
+          "combination": [
+            "Ah",
+            "Jh",
+            "8h",
+            "7h",
+            "4h"
+          ],
+          "handDescription": "Flush, Ah High",
+          "position": 1,
+          "runNumber": "1",
+          "hiLo": "h"
+        }
+      },
+      {
+        "at": 1746107534141,
+        "payload": {
+          "type": 10,
+          "seat": 9,
+          "value": 137,
+          "cards": [
+            "Tc",
+            "As"
+          ],
+          "combination": [
+            "Ah",
+            "Jh",
+            "8h",
+            "7h",
+            "4h"
+          ],
+          "handDescription": "Flush, Ah High",
+          "position": 1,
+          "runNumber": "1",
+          "hiLo": "h"
+        }
+      },
+      {
+        "at": 1746107535635,
+        "payload": {
+          "type": 12,
+          "seat": 7,
+          "cards": [
+            "9h",
+            "Kh"
+          ]
+        }
+      }
+    ]
+  },{
+    "id": "o0xq6dvmslzl",
+    "handVersion": 2,
+    "number": "30",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 4,
+    "startedAt": 1746107540658,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "4kHSZklLpK",
+        "seat": 1,
+        "name": "teish",
+        "stack": 2493
+      },
+      {
+        "id": "gjmiQ4-uAW",
+        "seat": 2,
+        "name": "IAMB",
+        "stack": 3330
+      },
+      {
+        "id": "Zp6HGuC8yK",
+        "seat": 3,
+        "name": "shiozuka1121",
+        "stack": 4045
+      },
+      {
+        "id": "CsHt4-HRYF",
+        "seat": 4,
+        "name": "chiffon1468",
+        "stack": 2000
+      },
+      {
+        "id": "7kPHYByVxS",
+        "seat": 6,
+        "name": "Ene",
+        "stack": 2517
+      },
+      {
+        "id": "HJCe0qCFpd",
+        "seat": 7,
+        "name": "NABO",
+        "stack": 1863
+      },
+      {
+        "id": "hig4fvwo_m",
+        "seat": 9,
+        "name": "とーち",
+        "stack": 2045
+      },
+      {
+        "id": "XaClitYV1x",
+        "seat": 10,
+        "name": "らねおか",
+        "stack": 2615
+      }
+    ],
+    "events": [
+      {
+        "at": 1746107540658,
+        "payload": {
+          "type": 3,
+          "seat": 6,
+          "value": 10
+        }
+      },
+      {
+        "at": 1746107540659,
+        "payload": {
+          "type": 2,
+          "seat": 7,
+          "value": 20
+        }
+      },
+      {
+        "at": 1746107546857,
+        "payload": {
+          "type": 8,
+          "seat": 9,
+          "value": 40
+        }
+      },
+      {
+        "at": 1746107547855,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1746107548865,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1746107549951,
+        "payload": {
+          "type": 11,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746107552717,
+        "payload": {
+          "type": 11,
+          "seat": 3
+        }
+      },
+      {
+        "at": 1746107553827,
+        "payload": {
+          "type": 11,
+          "seat": 4
+        }
+      },
+      {
+        "at": 1746107558631,
+        "payload": {
+          "type": 11,
+          "seat": 6
+        }
+      },
+      {
+        "at": 1746107559666,
+        "payload": {
+          "type": 11,
+          "seat": 7
+        }
+      },
+      {
+        "at": 1746107560471,
+        "payload": {
+          "type": 16,
+          "value": 20,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746107560472,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1746107560473,
+        "payload": {
+          "type": 10,
+          "seat": 9,
+          "value": 50,
+          "pot": 50,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "xt1wcz5hapt4",
+    "handVersion": 2,
+    "number": "31",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 6,
+    "startedAt": 1746107563420,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "4kHSZklLpK",
+        "seat": 1,
+        "name": "teish",
+        "stack": 2493
+      },
+      {
+        "id": "gjmiQ4-uAW",
+        "seat": 2,
+        "name": "IAMB",
+        "stack": 3330
+      },
+      {
+        "id": "Zp6HGuC8yK",
+        "seat": 3,
+        "name": "shiozuka1121",
+        "stack": 4045
+      },
+      {
+        "id": "CsHt4-HRYF",
+        "seat": 4,
+        "name": "chiffon1468",
+        "stack": 2000
+      },
+      {
+        "id": "7kPHYByVxS",
+        "seat": 6,
+        "name": "Ene",
+        "stack": 2507
+      },
+      {
+        "id": "HJCe0qCFpd",
+        "seat": 7,
+        "name": "NABO",
+        "stack": 1843
+      },
+      {
+        "id": "hig4fvwo_m",
+        "seat": 9,
+        "name": "とーち",
+        "stack": 2075
+      },
+      {
+        "id": "XaClitYV1x",
+        "seat": 10,
+        "name": "らねおか",
+        "stack": 2615
+      }
+    ],
+    "events": [
+      {
+        "at": 1746107563420,
+        "payload": {
+          "type": 3,
+          "seat": 7,
+          "value": 10
+        }
+      },
+      {
+        "at": 1746107563421,
+        "payload": {
+          "type": 2,
+          "seat": 9,
+          "value": 20
+        }
+      },
+      {
+        "at": 1746107565873,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1746107574895,
+        "payload": {
+          "type": 8,
+          "seat": 1,
+          "value": 40
+        }
+      },
+      {
+        "at": 1746107575973,
+        "payload": {
+          "type": 11,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746107577034,
+        "payload": {
+          "type": 11,
+          "seat": 3
+        }
+      },
+      {
+        "at": 1746107578141,
+        "payload": {
+          "type": 11,
+          "seat": 4
+        }
+      },
+      {
+        "at": 1746107579251,
+        "payload": {
+          "type": 11,
+          "seat": 6
+        }
+      },
+      {
+        "at": 1746107580296,
+        "payload": {
+          "type": 11,
+          "seat": 7
+        }
+      },
+      {
+        "at": 1746107581963,
+        "payload": {
+          "type": 7,
+          "seat": 9,
+          "value": 40
+        }
+      },
+      {
+        "at": 1746107582774,
+        "payload": {
+          "type": 9,
+          "turn": 1,
+          "run": 1,
+          "cards": [
+            "4c",
+            "Tc",
+            "5d"
+          ],
+          "handsLabels": {}
+        }
+      },
+      {
+        "at": 1746107585120,
+        "payload": {
+          "type": 0,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746107614550,
+        "payload": {
+          "type": 0,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1746107615353,
+        "payload": {
+          "type": 9,
+          "turn": 2,
+          "run": 1,
+          "cards": [
+            "2h"
+          ],
+          "handsLabels": {}
+        }
+      },
+      {
+        "at": 1746107629996,
+        "payload": {
+          "type": 8,
+          "seat": 9,
+          "value": 45
+        }
+      },
+      {
+        "at": 1746107656020,
+        "payload": {
+          "type": 8,
+          "seat": 1,
+          "value": 225
+        }
+      },
+      {
+        "at": 1746107665350,
+        "payload": {
+          "type": 11,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746107666188,
+        "payload": {
+          "type": 16,
+          "value": 180,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1746107666189,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1746107666190,
+        "payload": {
+          "type": 10,
+          "seat": 1,
+          "value": 180,
+          "pot": 180,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "rgvfl5xz1slg",
+    "handVersion": 2,
+    "number": "32",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 7,
+    "startedAt": 1746107669101,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "4kHSZklLpK",
+        "seat": 1,
+        "name": "teish",
+        "stack": 2588
+      },
+      {
+        "id": "gjmiQ4-uAW",
+        "seat": 2,
+        "name": "IAMB",
+        "stack": 3330
+      },
+      {
+        "id": "Zp6HGuC8yK",
+        "seat": 3,
+        "name": "shiozuka1121",
+        "stack": 2000
+      },
+      {
+        "id": "CsHt4-HRYF",
+        "seat": 4,
+        "name": "chiffon1468",
+        "stack": 2000
+      },
+      {
+        "id": "7kPHYByVxS",
+        "seat": 6,
+        "name": "Ene",
+        "stack": 2507
+      },
+      {
+        "id": "HJCe0qCFpd",
+        "seat": 7,
+        "name": "NABO",
+        "stack": 1833
+      },
+      {
+        "id": "hig4fvwo_m",
+        "seat": 9,
+        "name": "とーち",
+        "stack": 1990
+      },
+      {
+        "id": "XaClitYV1x",
+        "seat": 10,
+        "name": "らねおか",
+        "stack": 2615
+      }
+    ],
+    "events": [
+      {
+        "at": 1746107669101,
+        "payload": {
+          "type": 3,
+          "seat": 9,
+          "value": 10
+        }
+      },
+      {
+        "at": 1746107669102,
+        "payload": {
+          "type": 2,
+          "seat": 10,
+          "value": 20
+        }
+      },
+      {
+        "at": 1746107670919,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1746107672962,
+        "payload": {
+          "type": 11,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746107674019,
+        "payload": {
+          "type": 11,
+          "seat": 3
+        }
+      },
+      {
+        "at": 1746107680632,
+        "payload": {
+          "type": 11,
+          "seat": 4
+        }
+      },
+      {
+        "at": 1746107681796,
+        "payload": {
+          "type": 11,
+          "seat": 6
+        }
+      },
+      {
+        "at": 1746107682831,
+        "payload": {
+          "type": 11,
+          "seat": 7
+        }
+      },
+      {
+        "at": 1746107686620,
+        "payload": {
+          "type": 8,
+          "seat": 9,
+          "value": 60
+        }
+      },
+      {
+        "at": 1746107690199,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1746107691005,
+        "payload": {
+          "type": 16,
+          "value": 40,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746107691006,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1746107691007,
+        "payload": {
+          "type": 10,
+          "seat": 9,
+          "value": 40,
+          "pot": 40,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "qatqq72labk1",
+    "handVersion": 2,
+    "number": "33",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 9,
+    "startedAt": 1746107693964,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "4kHSZklLpK",
+        "seat": 1,
+        "name": "teish",
+        "stack": 2588
+      },
+      {
+        "id": "gjmiQ4-uAW",
+        "seat": 2,
+        "name": "IAMB",
+        "stack": 3330
+      },
+      {
+        "id": "Zp6HGuC8yK",
+        "seat": 3,
+        "name": "shiozuka1121",
+        "stack": 2000
+      },
+      {
+        "id": "CsHt4-HRYF",
+        "seat": 4,
+        "name": "chiffon1468",
+        "stack": 2000
+      },
+      {
+        "id": "7kPHYByVxS",
+        "seat": 6,
+        "name": "Ene",
+        "stack": 2507
+      },
+      {
+        "id": "HJCe0qCFpd",
+        "seat": 7,
+        "name": "NABO",
+        "stack": 1833
+      },
+      {
+        "id": "hig4fvwo_m",
+        "seat": 9,
+        "name": "とーち",
+        "stack": 2010
+      },
+      {
+        "id": "XaClitYV1x",
+        "seat": 10,
+        "name": "らねおか",
+        "stack": 2595
+      }
+    ],
+    "events": [
+      {
+        "at": 1746107693964,
+        "payload": {
+          "type": 3,
+          "seat": 10,
+          "value": 10
+        }
+      },
+      {
+        "at": 1746107693965,
+        "payload": {
+          "type": 2,
+          "seat": 1,
+          "value": 20
+        }
+      },
+      {
+        "at": 1746107697788,
+        "payload": {
+          "type": 8,
+          "seat": 2,
+          "value": 40
+        }
+      },
+      {
+        "at": 1746107699315,
+        "payload": {
+          "type": 11,
+          "seat": 3
+        }
+      },
+      {
+        "at": 1746107702784,
+        "payload": {
+          "type": 11,
+          "seat": 4
+        }
+      },
+      {
+        "at": 1746107703913,
+        "payload": {
+          "type": 11,
+          "seat": 6
+        }
+      },
+      {
+        "at": 1746107705007,
+        "payload": {
+          "type": 11,
+          "seat": 7
+        }
+      },
+      {
+        "at": 1746107706067,
+        "payload": {
+          "type": 11,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746107707112,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1746107708118,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1746107708969,
+        "payload": {
+          "type": 16,
+          "value": 20,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746107708970,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1746107708971,
+        "payload": {
+          "type": 10,
+          "seat": 2,
+          "value": 50,
+          "pot": 50,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "lozyvtl6j2zn",
+    "handVersion": 2,
+    "number": "34",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 10,
+    "startedAt": 1746107711919,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "4kHSZklLpK",
+        "seat": 1,
+        "name": "teish",
+        "stack": 2568
+      },
+      {
+        "id": "gjmiQ4-uAW",
+        "seat": 2,
+        "name": "IAMB",
+        "stack": 3360,
+        "hand": [
+          "Tc",
+          "Qh"
+        ]
+      },
+      {
+        "id": "Zp6HGuC8yK",
+        "seat": 3,
+        "name": "shiozuka1121",
+        "stack": 2000
+      },
+      {
+        "id": "CsHt4-HRYF",
+        "seat": 4,
+        "name": "chiffon1468",
+        "stack": 2000
+      },
+      {
+        "id": "7kPHYByVxS",
+        "seat": 6,
+        "name": "Ene",
+        "stack": 2507
+      },
+      {
+        "id": "HJCe0qCFpd",
+        "seat": 7,
+        "name": "NABO",
+        "stack": 1833
+      },
+      {
+        "id": "hig4fvwo_m",
+        "seat": 9,
+        "name": "とーち",
+        "stack": 2010
+      },
+      {
+        "id": "XaClitYV1x",
+        "seat": 10,
+        "name": "らねおか",
+        "stack": 2585
+      }
+    ],
+    "events": [
+      {
+        "at": 1746107711919,
+        "payload": {
+          "type": 3,
+          "seat": 1,
+          "value": 10
+        }
+      },
+      {
+        "at": 1746107711920,
+        "payload": {
+          "type": 2,
+          "seat": 2,
+          "value": 20
+        }
+      },
+      {
+        "at": 1746107715242,
+        "payload": {
+          "type": 8,
+          "seat": 3,
+          "value": 40
+        }
+      },
+      {
+        "at": 1746107718781,
+        "payload": {
+          "type": 11,
+          "seat": 4
+        }
+      },
+      {
+        "at": 1746107719921,
+        "payload": {
+          "type": 11,
+          "seat": 6
+        }
+      },
+      {
+        "at": 1746107722856,
+        "payload": {
+          "type": 11,
+          "seat": 7
+        }
+      },
+      {
+        "at": 1746107726320,
+        "payload": {
+          "type": 11,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746107727321,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1746107735046,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1746107739778,
+        "payload": {
+          "type": 7,
+          "seat": 2,
+          "value": 40
+        }
+      },
+      {
+        "at": 1746107740588,
+        "payload": {
+          "type": 9,
+          "turn": 1,
+          "run": 1,
+          "cards": [
+            "9c",
+            "Qc",
+            "8h"
+          ],
+          "handsLabels": {
+            "2": [
+              {
+                "c": 9,
+                "d": [
+                  "Q"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "at": 1746107742806,
+        "payload": {
+          "type": 0,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746107746494,
+        "payload": {
+          "type": 0,
+          "seat": 3
+        }
+      },
+      {
+        "at": 1746107747341,
+        "payload": {
+          "type": 9,
+          "turn": 2,
+          "run": 1,
+          "cards": [
+            "8c"
+          ],
+          "handsLabels": {
+            "2": [
+              {
+                "c": 8,
+                "d": [
+                  "Q",
+                  "8"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "at": 1746107756771,
+        "payload": {
+          "type": 0,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746107777520,
+        "payload": {
+          "type": 8,
+          "seat": 3,
+          "value": 40
+        }
+      },
+      {
+        "at": 1746107820548,
+        "payload": {
+          "type": 7,
+          "seat": 2,
+          "value": 40
+        }
+      },
+      {
+        "at": 1746107821352,
+        "payload": {
+          "type": 9,
+          "turn": 3,
+          "run": 1,
+          "cards": [
+            "3c"
+          ],
+          "handsLabels": {
+            "2": [
+              {
+                "c": 5
+              }
+            ]
+          }
+        }
+      },
+      {
+        "at": 1746107826607,
+        "payload": {
+          "type": 0,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746107865736,
+        "payload": {
+          "type": 8,
+          "seat": 3,
+          "value": 85
+        }
+      },
+      {
+        "at": 1746107923726,
+        "payload": {
+          "type": 8,
+          "seat": 2,
+          "value": 240
+        }
+      },
+      {
+        "at": 1746107973647,
+        "payload": {
+          "type": 8,
+          "seat": 3,
+          "value": 727
+        }
+      },
+      {
+        "at": 1746107978621,
+        "payload": {
+          "type": 8,
+          "seat": 2,
+          "value": 1920
+        }
+      },
+      {
+        "at": 1746107981434,
+        "payload": {
+          "type": 11,
+          "seat": 3
+        }
+      },
+      {
+        "at": 1746107982257,
+        "payload": {
+          "type": 16,
+          "value": 1193,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746107982258,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1746107982259,
+        "payload": {
+          "type": 10,
+          "seat": 2,
+          "value": 1624,
+          "pot": 1624,
+          "position": 1
+        }
+      },
+      {
+        "at": 1746107983565,
+        "payload": {
+          "type": 12,
+          "seat": 2,
+          "cards": [
+            "Tc",
+            "Qh"
+          ]
+        }
+      }
+    ]
+  },{
+    "id": "humj5fiffiih",
+    "handVersion": 2,
+    "number": "35",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 1,
+    "startedAt": 1746107985861,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "4kHSZklLpK",
+        "seat": 1,
+        "name": "teish",
+        "stack": 2558
+      },
+      {
+        "id": "gjmiQ4-uAW",
+        "seat": 2,
+        "name": "IAMB",
+        "stack": 4177
+      },
+      {
+        "id": "Zp6HGuC8yK",
+        "seat": 3,
+        "name": "shiozuka1121",
+        "stack": 1193
+      },
+      {
+        "id": "CsHt4-HRYF",
+        "seat": 4,
+        "name": "chiffon1468",
+        "stack": 2000
+      },
+      {
+        "id": "7kPHYByVxS",
+        "seat": 6,
+        "name": "Ene",
+        "stack": 2507
+      },
+      {
+        "id": "HJCe0qCFpd",
+        "seat": 7,
+        "name": "NABO",
+        "stack": 1833
+      },
+      {
+        "id": "hig4fvwo_m",
+        "seat": 9,
+        "name": "とーち",
+        "stack": 2010
+      },
+      {
+        "id": "XaClitYV1x",
+        "seat": 10,
+        "name": "らねおか",
+        "stack": 2585
+      }
+    ],
+    "events": [
+      {
+        "at": 1746107985861,
+        "payload": {
+          "type": 3,
+          "seat": 2,
+          "value": 10
+        }
+      },
+      {
+        "at": 1746107985862,
+        "payload": {
+          "type": 2,
+          "seat": 3,
+          "value": 20
+        }
+      },
+      {
+        "at": 1746107992901,
+        "payload": {
+          "type": 8,
+          "seat": 4,
+          "value": 50
+        }
+      },
+      {
+        "at": 1746107994702,
+        "payload": {
+          "type": 7,
+          "seat": 6,
+          "value": 50
+        }
+      },
+      {
+        "at": 1746107995737,
+        "payload": {
+          "type": 11,
+          "seat": 7
+        }
+      },
+      {
+        "at": 1746107996839,
+        "payload": {
+          "type": 11,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746107998906,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1746107999917,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1746108000939,
+        "payload": {
+          "type": 11,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746108002202,
+        "payload": {
+          "type": 11,
+          "seat": 3
+        }
+      },
+      {
+        "at": 1746108003084,
+        "payload": {
+          "type": 9,
+          "turn": 1,
+          "run": 1,
+          "cards": [
+            "6h",
+            "9h",
+            "Jc"
+          ],
+          "handsLabels": {}
+        }
+      },
+      {
+        "at": 1746108014513,
+        "payload": {
+          "type": 8,
+          "seat": 4,
+          "value": 40
+        }
+      },
+      {
+        "at": 1746108015702,
+        "payload": {
+          "type": 11,
+          "seat": 6
+        }
+      },
+      {
+        "at": 1746108016553,
+        "payload": {
+          "type": 16,
+          "value": 40,
+          "seat": 4
+        }
+      },
+      {
+        "at": 1746108016554,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1746108016555,
+        "payload": {
+          "type": 10,
+          "seat": 4,
+          "value": 130,
+          "pot": 130,
+          "position": 1
+        }
+      }
+    ]
+  },{
+    "id": "kkercbtxqohy",
+    "handVersion": 2,
+    "number": "36",
+    "gameType": "th",
+    "cents": false,
+    "smallBlind": 10,
+    "bigBlind": 20,
+    "ante": null,
+    "straddleSeat": null,
+    "dealerSeat": 2,
+    "startedAt": 1746108019481,
+    "bombPot": false,
+    "sevenDeuceBounty": null,
+    "doubleBoard": null,
+    "players": [
+      {
+        "id": "4kHSZklLpK",
+        "seat": 1,
+        "name": "teish",
+        "stack": 2558
+      },
+      {
+        "id": "gjmiQ4-uAW",
+        "seat": 2,
+        "name": "IAMB",
+        "stack": 4167
+      },
+      {
+        "id": "Zp6HGuC8yK",
+        "seat": 3,
+        "name": "shiozuka1121",
+        "stack": 1173
+      },
+      {
+        "id": "CsHt4-HRYF",
+        "seat": 4,
+        "name": "chiffon1468",
+        "stack": 2080
+      },
+      {
+        "id": "7kPHYByVxS",
+        "seat": 6,
+        "name": "Ene",
+        "stack": 2457
+      },
+      {
+        "id": "HJCe0qCFpd",
+        "seat": 7,
+        "name": "NABO",
+        "stack": 1833
+      },
+      {
+        "id": "hig4fvwo_m",
+        "seat": 9,
+        "name": "とーち",
+        "stack": 2010
+      },
+      {
+        "id": "XaClitYV1x",
+        "seat": 10,
+        "name": "らねおか",
+        "stack": 2585
+      }
+    ],
+    "events": [
+      {
+        "at": 1746108019481,
+        "payload": {
+          "type": 3,
+          "seat": 3,
+          "value": 10
+        }
+      },
+      {
+        "at": 1746108019482,
+        "payload": {
+          "type": 2,
+          "seat": 4,
+          "value": 20
+        }
+      },
+      {
+        "at": 1746108020681,
+        "payload": {
+          "type": 11,
+          "seat": 6
+        }
+      },
+      {
+        "at": 1746108029609,
+        "payload": {
+          "type": 11,
+          "seat": 7
+        }
+      },
+      {
+        "at": 1746108030445,
+        "payload": {
+          "type": 11,
+          "seat": 9
+        }
+      },
+      {
+        "at": 1746108031259,
+        "payload": {
+          "type": 11,
+          "seat": 10
+        }
+      },
+      {
+        "at": 1746108032112,
+        "payload": {
+          "type": 11,
+          "seat": 1
+        }
+      },
+      {
+        "at": 1746108033122,
+        "payload": {
+          "type": 11,
+          "seat": 2
+        }
+      },
+      {
+        "at": 1746108034155,
+        "payload": {
+          "type": 11,
+          "seat": 3
+        }
+      },
+      {
+        "at": 1746108034960,
+        "payload": {
+          "type": 16,
+          "value": 10,
+          "seat": 4
+        }
+      },
+      {
+        "at": 1746108034961,
+        "payload": {
+          "type": 15
+        }
+      },
+      {
+        "at": 1746108034962,
+        "payload": {
+          "type": 10,
+          "seat": 4,
+          "value": 20,
+          "pot": 20,
+          "position": 1
+        }
+      }
+    ]
+  }
+]}
