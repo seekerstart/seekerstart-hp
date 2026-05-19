@@ -15,7 +15,7 @@
       "status": "completed",
       "frozen": true,
       "data_source": "hand_histories",
-      "session_count": 9,
+      "session_count": 0,
       "session_dates": [
         "20260202",
         "20260209",
@@ -82,14 +82,9 @@
       "status": "active",
       "frozen": false,
       "data_source": "precalculated",
-      "session_count": 6,
+      "session_count": 1,
       "session_dates": [
-        "20260413",
-        "20260420",
-        "20260427",
-        "20260504",
-        "20260511",
-        "20260518"
+        "20260519"
       ],
       "league_rules": {
         "required_hands": 1000,
@@ -107,5 +102,5 @@
     }
   ],
   "current_season_id": 2,
-  "total_session_count": 15
+  "total_session_count": 1
 }
