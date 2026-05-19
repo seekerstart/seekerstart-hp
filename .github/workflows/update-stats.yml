@@ -28,6 +28,7 @@ jobs:
 
     permissions:
       contents: write
+      pull-requests: write
 
     steps:
       - name: Checkout repository
@@ -76,10 +77,20 @@ jobs:
           git add -A
           git diff --cached --exit-code || echo "changes=true" >> $GITHUB_OUTPUT
 
-      - name: Commit and push changes
+      - name: Create branch, commit, and open PR
         if: steps.git-check.outputs.changes == 'true' && inputs.dry_run != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
+          DATE=$(date -u +%y%m%d)
+          BRANCH="ranking/${DATE}"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git commit -m "Update poker stats [skip ci]"
-          git push
+          git checkout -b "$BRANCH"
+          git commit -m "ranking/${DATE}"
+          git push -u origin "$BRANCH"
+          gh pr create \
+            --title "ranking/${DATE}" \
+            --body "GitHub Actions による自動更新" \
+            --base main \
+            --head "$BRANCH"
