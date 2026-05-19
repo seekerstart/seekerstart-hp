@@ -1,0 +1,1088 @@
+entry,at,order
+"The player ""Guest @ fXxZKORuuu"" passed the room ownership to ""Ramune @ soKGYfNQsD"".",2026-02-09T14:04:30.428Z,177064587042800
+"The player ""ほたるいか @ 6weTfFBYpF"" quits the game with a stack of 2375.",2026-02-09T14:00:46.311Z,177064564631100
+"-- ending hand #56 --",2026-02-09T14:00:40.301Z,177064564030102
+"""okbokujo @ 7rBUr1jNCU"" collected 950 from pot with Two Pair, Q's & 5's (combination: A♥, 5♣, 5♠, Q♣, Q♦)",2026-02-09T14:00:40.301Z,177064564030101
+"""okbokujo @ 7rBUr1jNCU"" shows a Q♣, A♥.",2026-02-09T14:00:40.301Z,177064564030100
+"""sigma @ yHZrsG6l5j"" checks",2026-02-09T14:00:39.489Z,177064563948900
+"The admin ""Guest @ fXxZKORuuu"" enqueued the game stop on next hand.",2026-02-09T14:00:17.923Z,177064561792300
+"""okbokujo @ 7rBUr1jNCU"" checks",2026-02-09T14:00:16.417Z,177064561641700
+"River: 5♣, 4♠, Q♦, 8♦ [5♠]",2026-02-09T14:00:12.554Z,177064561255400
+"""okbokujo @ 7rBUr1jNCU"" calls 200",2026-02-09T14:00:11.751Z,177064561175100
+"""sigma @ yHZrsG6l5j"" bets 200",2026-02-09T13:59:56.863Z,177064559686300
+"""okbokujo @ 7rBUr1jNCU"" checks",2026-02-09T13:59:28.807Z,177064556880700
+"Turn: 5♣, 4♠, Q♦ [8♦]",2026-02-09T13:59:25.773Z,177064556577300
+"""okbokujo @ 7rBUr1jNCU"" calls 100",2026-02-09T13:59:24.940Z,177064556494000
+"""sigma @ yHZrsG6l5j"" bets 100",2026-02-09T13:59:20.699Z,177064556069900
+"""okbokujo @ 7rBUr1jNCU"" checks",2026-02-09T13:59:02.896Z,177064554289600
+"Flop:  [5♣, 4♠, Q♦]",2026-02-09T13:59:00.792Z,177064554079200
+"""okbokujo @ 7rBUr1jNCU"" calls 160",2026-02-09T13:58:59.960Z,177064553996000
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:58:52.173Z,177064553217300
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:58:50.393Z,177064553039300
+"""sigma @ yHZrsG6l5j"" raises to 160",2026-02-09T13:58:49.344Z,177064552934400
+"""okbokujo @ 7rBUr1jNCU"" raises to 60",2026-02-09T13:58:38.791Z,177064551879100
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:58:33.184Z,177064551318400
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:58:30.945Z,177064551094500
+"""らねおか @ l218j9GUvI"" posts a big blind of 20",2026-02-09T13:58:30.026Z,177064551002609
+"""ほたるいか @ 6weTfFBYpF"" posts a small blind of 10",2026-02-09T13:58:30.026Z,177064551002608
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2385) | #2 ""らねおか @ l218j9GUvI"" (3060) | #4 ""Ramune @ soKGYfNQsD"" (2000) | #7 ""Hinano @ WeOKnoOueQ"" (3235) | #8 ""okbokujo @ 7rBUr1jNCU"" (2000) | #9 ""sigma @ yHZrsG6l5j"" (2260)",2026-02-09T13:58:30.026Z,177064551002601
+"-- starting hand #56 (id: cofyktsqnajv)  No Limit Texas Hold'em (dealer: ""sigma @ yHZrsG6l5j"") --",2026-02-09T13:58:30.026Z,177064551002600
+"-- ending hand #55 --",2026-02-09T13:58:27.123Z,177064550712302
+"""Hinano @ WeOKnoOueQ"" collected 50 from pot",2026-02-09T13:58:27.123Z,177064550712301
+"Uncalled bet of 25 returned to ""Hinano @ WeOKnoOueQ""",2026-02-09T13:58:27.123Z,177064550712300
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:58:26.319Z,177064550631900
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:58:25.269Z,177064550526900
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:58:23.413Z,177064550341300
+"""Hinano @ WeOKnoOueQ"" raises to 45",2026-02-09T13:58:20.641Z,177064550064100
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:58:12.818Z,177064549281800
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:58:08.697Z,177064548869700
+"""ほたるいか @ 6weTfFBYpF"" posts a big blind of 20",2026-02-09T13:58:05.706Z,177064548570610
+"""sigma @ yHZrsG6l5j"" posts a small blind of 10",2026-02-09T13:58:05.706Z,177064548570609
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2405) | #2 ""らねおか @ l218j9GUvI"" (3060) | #4 ""Ramune @ soKGYfNQsD"" (2000) | #7 ""Hinano @ WeOKnoOueQ"" (3205) | #8 ""okbokujo @ 7rBUr1jNCU"" (2000) | #9 ""sigma @ yHZrsG6l5j"" (2270)",2026-02-09T13:58:05.706Z,177064548570602
+"-- starting hand #55 (id: 0p4d1to1fna8)  No Limit Texas Hold'em (dealer: ""okbokujo @ 7rBUr1jNCU"") --",2026-02-09T13:58:05.706Z,177064548570601
+"The admin updated the player ""okbokujo @ 7rBUr1jNCU"" stack from 1990 to 2000.",2026-02-09T13:58:05.706Z,177064548570600
+"-- ending hand #54 --",2026-02-09T13:57:59.672Z,177064547967202
+"""sigma @ yHZrsG6l5j"" collected 530 from pot with Pair, J's (combination: 8♦, 10♠, K♥, J♠, J♦)",2026-02-09T13:57:59.672Z,177064547967201
+"""sigma @ yHZrsG6l5j"" shows a J♠, K♥.",2026-02-09T13:57:59.672Z,177064547967200
+"""ほたるいか @ 6weTfFBYpF"" calls 130",2026-02-09T13:57:58.808Z,177064547880800
+"""sigma @ yHZrsG6l5j"" bets 130",2026-02-09T13:57:30.518Z,177064545051800
+"River: 3♣, J♦, 10♠, 8♦ [2♠]",2026-02-09T13:57:02.519Z,177064542251900
+"""ほたるいか @ 6weTfFBYpF"" calls 90",2026-02-09T13:57:01.674Z,177064542167400
+"""sigma @ yHZrsG6l5j"" raises to 90",2026-02-09T13:56:58.938Z,177064541893800
+"""ほたるいか @ 6weTfFBYpF"" bets 20",2026-02-09T13:56:41.928Z,177064540192800
+"""sigma @ yHZrsG6l5j"" checks",2026-02-09T13:56:37.843Z,177064539784300
+"Turn: 3♣, J♦, 10♠ [8♦]",2026-02-09T13:56:26.131Z,177064538613100
+"""ほたるいか @ 6weTfFBYpF"" checks",2026-02-09T13:56:25.325Z,177064538532500
+"""sigma @ yHZrsG6l5j"" checks",2026-02-09T13:56:14.118Z,177064537411800
+"Flop:  [3♣, J♦, 10♠]",2026-02-09T13:56:07.313Z,177064536731300
+"""sigma @ yHZrsG6l5j"" calls 40",2026-02-09T13:56:06.478Z,177064536647800
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:56:01.679Z,177064536167900
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:56:00.387Z,177064536038700
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:55:59.279Z,177064535927900
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:55:58.200Z,177064535820000
+"""ほたるいか @ 6weTfFBYpF"" raises to 40",2026-02-09T13:55:57.186Z,177064535718600
+"WARNING: the admin queued the stack change for the player ""okbokujo @ 7rBUr1jNCU"" reseting to 2000 chips in the next hand.",2026-02-09T13:55:53.194Z,177064535319400
+"""sigma @ yHZrsG6l5j"" posts a big blind of 20",2026-02-09T13:55:50.394Z,177064535039410
+"""okbokujo @ 7rBUr1jNCU"" posts a small blind of 10",2026-02-09T13:55:50.394Z,177064535039409
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2665) | #2 ""らねおか @ l218j9GUvI"" (3060) | #4 ""Ramune @ soKGYfNQsD"" (2000) | #7 ""Hinano @ WeOKnoOueQ"" (3205) | #8 ""okbokujo @ 7rBUr1jNCU"" (2000) | #9 ""sigma @ yHZrsG6l5j"" (2000)",2026-02-09T13:55:50.394Z,177064535039402
+"-- starting hand #54 (id: ntuyrmxgbqtw)  No Limit Texas Hold'em (dealer: ""Hinano @ WeOKnoOueQ"") --",2026-02-09T13:55:50.394Z,177064535039401
+"The admin updated the player ""okbokujo @ 7rBUr1jNCU"" stack from 1940 to 2000.",2026-02-09T13:55:50.394Z,177064535039400
+"-- ending hand #53 --",2026-02-09T13:55:47.451Z,177064534745102
+"""Hinano @ WeOKnoOueQ"" collected 120 from pot",2026-02-09T13:55:47.451Z,177064534745101
+"Uncalled bet of 60 returned to ""Hinano @ WeOKnoOueQ""",2026-02-09T13:55:47.451Z,177064534745100
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:55:46.605Z,177064534660500
+"""Hinano @ WeOKnoOueQ"" bets 60",2026-02-09T13:55:44.312Z,177064534431200
+"Turn: A♠, 6♥, 2♣ [J♥]",2026-02-09T13:55:35.843Z,177064533584300
+"""okbokujo @ 7rBUr1jNCU"" checks",2026-02-09T13:55:35.032Z,177064533503200
+"""Hinano @ WeOKnoOueQ"" checks",2026-02-09T13:55:32.795Z,177064533279500
+"Flop:  [A♠, 6♥, 2♣]",2026-02-09T13:55:29.837Z,177064532983700
+"""okbokujo @ 7rBUr1jNCU"" calls 60",2026-02-09T13:55:29.028Z,177064532902800
+"""Hinano @ WeOKnoOueQ"" raises to 60",2026-02-09T13:55:26.597Z,177064532659700
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:55:16.880Z,177064531688000
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:55:15.857Z,177064531585700
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:55:14.844Z,177064531484400
+"WARNING: the admin queued the stack change for the player ""okbokujo @ 7rBUr1jNCU"" reseting to 2000 chips in the next hand.",2026-02-09T13:55:12.318Z,177064531231800
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:55:09.800Z,177064530980000
+"""okbokujo @ 7rBUr1jNCU"" posts a big blind of 20",2026-02-09T13:55:07.158Z,177064530715811
+"""Hinano @ WeOKnoOueQ"" posts a small blind of 10",2026-02-09T13:55:07.158Z,177064530715810
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2665) | #2 ""らねおか @ l218j9GUvI"" (3060) | #4 ""Ramune @ soKGYfNQsD"" (2000) | #7 ""Hinano @ WeOKnoOueQ"" (3145) | #8 ""okbokujo @ 7rBUr1jNCU"" (2000) | #9 ""sigma @ yHZrsG6l5j"" (2000)",2026-02-09T13:55:07.158Z,177064530715803
+"-- starting hand #53 (id: 6tkokxydgn5r)  No Limit Texas Hold'em (dealer: ""Ramune @ soKGYfNQsD"") --",2026-02-09T13:55:07.158Z,177064530715802
+"The admin updated the player ""okbokujo @ 7rBUr1jNCU"" stack from 1955 to 2000.",2026-02-09T13:55:07.158Z,177064530715801
+"The admin updated the player ""Ramune @ soKGYfNQsD"" stack from 1990 to 2000.",2026-02-09T13:55:07.158Z,177064530715800
+"-- ending hand #52 --",2026-02-09T13:55:04.248Z,177064530424802
+"""らねおか @ l218j9GUvI"" collected 50 from pot",2026-02-09T13:55:04.248Z,177064530424801
+"Uncalled bet of 30 returned to ""らねおか @ l218j9GUvI""",2026-02-09T13:55:04.248Z,177064530424800
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:55:03.423Z,177064530342300
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:55:02.265Z,177064530226500
+"""らねおか @ l218j9GUvI"" raises to 50",2026-02-09T13:55:01.043Z,177064530104300
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:54:57.706Z,177064529770600
+"WARNING: the admin queued the stack change for the player ""okbokujo @ 7rBUr1jNCU"" reseting to 2000 chips in the next hand.",2026-02-09T13:54:51.625Z,177064529162500
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:54:50.428Z,177064529042800
+"WARNING: the admin queued the stack change for the player ""Ramune @ soKGYfNQsD"" reseting to 2000 chips in the next hand.",2026-02-09T13:54:50.247Z,177064529024700
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:54:49.397Z,177064528939700
+"""Hinano @ WeOKnoOueQ"" posts a big blind of 20",2026-02-09T13:54:46.839Z,177064528683910
+"""Ramune @ soKGYfNQsD"" posts a small blind of 10",2026-02-09T13:54:46.839Z,177064528683909
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2665) | #2 ""らねおか @ l218j9GUvI"" (3030) | #4 ""Ramune @ soKGYfNQsD"" (2000) | #7 ""Hinano @ WeOKnoOueQ"" (3165) | #8 ""okbokujo @ 7rBUr1jNCU"" (1955) | #9 ""sigma @ yHZrsG6l5j"" (2000)",2026-02-09T13:54:46.839Z,177064528683902
+"-- starting hand #52 (id: yjqjdfkcsubb)  No Limit Texas Hold'em (dealer: ""らねおか @ l218j9GUvI"") --",2026-02-09T13:54:46.839Z,177064528683901
+"The admin updated the player ""Ramune @ soKGYfNQsD"" stack from 2200 to 2000.",2026-02-09T13:54:46.839Z,177064528683900
+"-- ending hand #51 --",2026-02-09T13:54:40.834Z,177064528083402
+"""Ramune @ soKGYfNQsD"" collected 390 from pot with Full House, A's over 5's (combination: 5♦, 5♥, A♠, A♦, A♣)",2026-02-09T13:54:40.834Z,177064528083401
+"""Ramune @ soKGYfNQsD"" shows a 8♣, A♠.",2026-02-09T13:54:40.834Z,177064528083400
+"""okbokujo @ 7rBUr1jNCU"" calls 130",2026-02-09T13:54:39.927Z,177064527992700
+"""Ramune @ soKGYfNQsD"" bets 130",2026-02-09T13:54:37.573Z,177064527757300
+"River: 7♠, 5♦, A♦, 5♥ [A♣]",2026-02-09T13:54:30.082Z,177064527008200
+"""okbokujo @ 7rBUr1jNCU"" checks",2026-02-09T13:54:29.275Z,177064526927500
+"""Ramune @ soKGYfNQsD"" checks",2026-02-09T13:54:27.037Z,177064526703700
+"Turn: 7♠, 5♦, A♦ [5♥]",2026-02-09T13:54:22.856Z,177064526285600
+"""okbokujo @ 7rBUr1jNCU"" checks",2026-02-09T13:54:22.034Z,177064526203400
+"""Ramune @ soKGYfNQsD"" checks",2026-02-09T13:54:19.367Z,177064525936700
+"Flop:  [7♠, 5♦, A♦]",2026-02-09T13:54:14.653Z,177064525465300
+"""Ramune @ soKGYfNQsD"" calls 60",2026-02-09T13:54:13.839Z,177064525383900
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:54:08.076Z,177064524807600
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:54:07.065Z,177064524706500
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:54:06.062Z,177064524606200
+"""okbokujo @ 7rBUr1jNCU"" raises to 60",2026-02-09T13:54:00.717Z,177064524071700
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:53:55.666Z,177064523566600
+"WARNING: the admin queued the stack change for the player ""Ramune @ soKGYfNQsD"" reseting to 2000 chips in the next hand.",2026-02-09T13:53:36.785Z,177064521678500
+"""Ramune @ soKGYfNQsD"" posts a big blind of 20",2026-02-09T13:53:34.812Z,177064521481209
+"""らねおか @ l218j9GUvI"" posts a small blind of 10",2026-02-09T13:53:34.812Z,177064521481208
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2665) | #2 ""らねおか @ l218j9GUvI"" (3040) | #4 ""Ramune @ soKGYfNQsD"" (2000) | #7 ""Hinano @ WeOKnoOueQ"" (3165) | #8 ""okbokujo @ 7rBUr1jNCU"" (2145) | #9 ""sigma @ yHZrsG6l5j"" (2000)",2026-02-09T13:53:34.812Z,177064521481201
+"-- starting hand #51 (id: rtjbqfitf6ty)  No Limit Texas Hold'em (dealer: ""ほたるいか @ 6weTfFBYpF"") --",2026-02-09T13:53:34.812Z,177064521481200
+"-- ending hand #50 --",2026-02-09T13:53:31.881Z,177064521188102
+"""Hinano @ WeOKnoOueQ"" collected 200 from pot",2026-02-09T13:53:31.881Z,177064521188101
+"Uncalled bet of 300 returned to ""Hinano @ WeOKnoOueQ""",2026-02-09T13:53:31.881Z,177064521188100
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:53:31.027Z,177064521102700
+"""Hinano @ WeOKnoOueQ"" bets 300",2026-02-09T13:53:29.199Z,177064520919900
+"""らねおか @ l218j9GUvI"" checks",2026-02-09T13:53:12.738Z,177064519273800
+"Turn: 7♦, Q♠, 6♥ [K♣]",2026-02-09T13:53:10.855Z,177064519085500
+"""らねおか @ l218j9GUvI"" calls 50",2026-02-09T13:53:10.018Z,177064519001800
+"""Hinano @ WeOKnoOueQ"" bets 50",2026-02-09T13:52:57.964Z,177064517796400
+"""らねおか @ l218j9GUvI"" checks",2026-02-09T13:52:49.028Z,177064516902800
+"Flop:  [7♦, Q♠, 6♥]",2026-02-09T13:52:46.859Z,177064516685900
+"""らねおか @ l218j9GUvI"" calls 45",2026-02-09T13:52:46.019Z,177064516601900
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:52:41.343Z,177064516134300
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:52:28.967Z,177064514896700
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:52:27.974Z,177064514797400
+"""Hinano @ WeOKnoOueQ"" raises to 45",2026-02-09T13:52:26.031Z,177064514603100
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:52:04.294Z,177064512429400
+"""らねおか @ l218j9GUvI"" posts a big blind of 20",2026-02-09T13:52:00.939Z,177064512093910
+"""ほたるいか @ 6weTfFBYpF"" posts a small blind of 10",2026-02-09T13:52:00.939Z,177064512093909
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2675) | #2 ""らねおか @ l218j9GUvI"" (3135) | #4 ""Ramune @ soKGYfNQsD"" (2000) | #7 ""Hinano @ WeOKnoOueQ"" (3060) | #8 ""okbokujo @ 7rBUr1jNCU"" (2145) | #9 ""sigma @ yHZrsG6l5j"" (2000)",2026-02-09T13:52:00.939Z,177064512093902
+"-- starting hand #50 (id: 0b2ofg6ihzmo)  No Limit Texas Hold'em (dealer: ""sigma @ yHZrsG6l5j"") --",2026-02-09T13:52:00.939Z,177064512093901
+"The admin updated the player ""sigma @ yHZrsG6l5j"" stack from 1910 to 2000.",2026-02-09T13:52:00.939Z,177064512093900
+"-- ending hand #49 --",2026-02-09T13:51:54.923Z,177064511492303
+"""okbokujo @ 7rBUr1jNCU"" collected 240 from pot with Pair, 10's (combination: 7♦, 9♥, K♥, 10♣, 10♥)",2026-02-09T13:51:54.923Z,177064511492302
+"""okbokujo @ 7rBUr1jNCU"" shows a 10♣, 10♥.",2026-02-09T13:51:54.923Z,177064511492301
+"""Hinano @ WeOKnoOueQ"" shows a 6♠, 7♠.",2026-02-09T13:51:54.923Z,177064511492300
+"""okbokujo @ 7rBUr1jNCU"" checks",2026-02-09T13:51:54.106Z,177064511410600
+"""Hinano @ WeOKnoOueQ"" checks",2026-02-09T13:51:52.429Z,177064511242900
+"River: 7♦, 2♥, K♥, 9♥ [3♣]",2026-02-09T13:51:46.386Z,177064510638600
+"""okbokujo @ 7rBUr1jNCU"" checks",2026-02-09T13:51:45.519Z,177064510551900
+"""Hinano @ WeOKnoOueQ"" checks",2026-02-09T13:51:43.249Z,177064510324900
+"Turn: 7♦, 2♥, K♥ [9♥]",2026-02-09T13:51:41.183Z,177064510118300
+"""okbokujo @ 7rBUr1jNCU"" calls 60",2026-02-09T13:51:40.316Z,177064510031600
+"""Hinano @ WeOKnoOueQ"" bets 60",2026-02-09T13:51:37.535Z,177064509753500
+"Flop:  [7♦, 2♥, K♥]",2026-02-09T13:51:32.777Z,177064509277700
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:51:31.909Z,177064509190900
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:51:30.891Z,177064509089100
+"""okbokujo @ 7rBUr1jNCU"" calls 45",2026-02-09T13:51:29.884Z,177064508988400
+"""Hinano @ WeOKnoOueQ"" raises to 45",2026-02-09T13:51:26.010Z,177064508601000
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:51:19.251Z,177064507925100
+"WARNING: the admin queued the stack change for the player ""sigma @ yHZrsG6l5j"" reseting to 2000 chips in the next hand.",2026-02-09T13:51:18.566Z,177064507856600
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:51:17.970Z,177064507797000
+"""ほたるいか @ 6weTfFBYpF"" posts a big blind of 20",2026-02-09T13:51:16.700Z,177064507670009
+"""sigma @ yHZrsG6l5j"" posts a small blind of 10",2026-02-09T13:51:16.700Z,177064507670008
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2695) | #2 ""らねおか @ l218j9GUvI"" (3135) | #4 ""Ramune @ soKGYfNQsD"" (2000) | #7 ""Hinano @ WeOKnoOueQ"" (3165) | #8 ""okbokujo @ 7rBUr1jNCU"" (2010) | #9 ""sigma @ yHZrsG6l5j"" (1920)",2026-02-09T13:51:16.700Z,177064507670001
+"-- starting hand #49 (id: 5m8fkgse6acu)  No Limit Texas Hold'em (dealer: ""okbokujo @ 7rBUr1jNCU"") --",2026-02-09T13:51:16.700Z,177064507670000
+"-- ending hand #48 --",2026-02-09T13:51:10.696Z,177064507069603
+"""ほたるいか @ 6weTfFBYpF"" collected 230 from pot with Straight, 5 High (combination: A♠, 2♦, 3♠, 4♣, 5♣)",2026-02-09T13:51:10.696Z,177064507069602
+"""ほたるいか @ 6weTfFBYpF"" shows a A♠, 3♠.",2026-02-09T13:51:10.696Z,177064507069601
+"""sigma @ yHZrsG6l5j"" shows a 9♠, J♦.",2026-02-09T13:51:10.696Z,177064507069600
+"""ほたるいか @ 6weTfFBYpF"" calls 40",2026-02-09T13:51:09.881Z,177064506988100
+"""sigma @ yHZrsG6l5j"" bets 40",2026-02-09T13:51:06.176Z,177064506617600
+"River: 4♣, 2♦, J♣, 5♣ [J♥]",2026-02-09T13:50:33.471Z,177064503347100
+"""ほたるいか @ 6weTfFBYpF"" checks",2026-02-09T13:50:32.645Z,177064503264500
+"""sigma @ yHZrsG6l5j"" checks",2026-02-09T13:50:29.335Z,177064502933500
+"Turn: 4♣, 2♦, J♣ [5♣]",2026-02-09T13:50:27.419Z,177064502741900
+"""sigma @ yHZrsG6l5j"" calls 30",2026-02-09T13:50:26.553Z,177064502655300
+"""ほたるいか @ 6weTfFBYpF"" bets 30",2026-02-09T13:50:21.049Z,177064502104900
+"""sigma @ yHZrsG6l5j"" checks",2026-02-09T13:50:13.699Z,177064501369900
+"Flop:  [4♣, 2♦, J♣]",2026-02-09T13:50:09.694Z,177064500969400
+"""sigma @ yHZrsG6l5j"" calls 40",2026-02-09T13:50:08.881Z,177064500888100
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:49:58.879Z,177064499887900
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:49:55.816Z,177064499581600
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:49:52.038Z,177064499203800
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:49:49.197Z,177064498919700
+"""ほたるいか @ 6weTfFBYpF"" raises to 40",2026-02-09T13:49:48.181Z,177064498818100
+"""sigma @ yHZrsG6l5j"" posts a big blind of 20",2026-02-09T13:49:41.251Z,177064498125109
+"""okbokujo @ 7rBUr1jNCU"" posts a small blind of 10",2026-02-09T13:49:41.251Z,177064498125108
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2575) | #2 ""らねおか @ l218j9GUvI"" (3135) | #4 ""Ramune @ soKGYfNQsD"" (2000) | #7 ""Hinano @ WeOKnoOueQ"" (3165) | #8 ""okbokujo @ 7rBUr1jNCU"" (2020) | #9 ""sigma @ yHZrsG6l5j"" (2030)",2026-02-09T13:49:41.251Z,177064498125101
+"-- starting hand #48 (id: pctsrhhzfdjf)  No Limit Texas Hold'em (dealer: ""Hinano @ WeOKnoOueQ"") --",2026-02-09T13:49:41.251Z,177064498125100
+"-- ending hand #47 --",2026-02-09T13:49:38.323Z,177064497832302
+"""Hinano @ WeOKnoOueQ"" collected 40 from pot",2026-02-09T13:49:38.323Z,177064497832301
+"Uncalled bet of 40 returned to ""Hinano @ WeOKnoOueQ""",2026-02-09T13:49:38.323Z,177064497832300
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:49:37.463Z,177064497746300
+"""Hinano @ WeOKnoOueQ"" raises to 60",2026-02-09T13:49:35.325Z,177064497532500
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:49:25.770Z,177064496577000
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:49:21.335Z,177064496133500
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:49:18.330Z,177064495833000
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:49:17.322Z,177064495732200
+"""okbokujo @ 7rBUr1jNCU"" posts a big blind of 20",2026-02-09T13:49:14.792Z,177064495479210
+"""Hinano @ WeOKnoOueQ"" posts a small blind of 10",2026-02-09T13:49:14.792Z,177064495479209
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2575) | #2 ""らねおか @ l218j9GUvI"" (3135) | #4 ""Ramune @ soKGYfNQsD"" (2000) | #7 ""Hinano @ WeOKnoOueQ"" (3145) | #8 ""okbokujo @ 7rBUr1jNCU"" (2040) | #9 ""sigma @ yHZrsG6l5j"" (2030)",2026-02-09T13:49:14.792Z,177064495479202
+"-- starting hand #47 (id: v0i7bgowktmk)  No Limit Texas Hold'em (dealer: ""Ramune @ soKGYfNQsD"") --",2026-02-09T13:49:14.792Z,177064495479201
+"The admin updated the player ""Ramune @ soKGYfNQsD"" stack from 1990 to 2000.",2026-02-09T13:49:14.792Z,177064495479200
+"-- ending hand #46 --",2026-02-09T13:49:11.884Z,177064495188402
+"""okbokujo @ 7rBUr1jNCU"" collected 50 from pot",2026-02-09T13:49:11.884Z,177064495188401
+"Uncalled bet of 40 returned to ""okbokujo @ 7rBUr1jNCU""",2026-02-09T13:49:11.884Z,177064495188400
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:49:11.046Z,177064495104600
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:49:00.064Z,177064494006400
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:48:59.043Z,177064493904300
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:48:58.014Z,177064493801400
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:48:53.874Z,177064493387400
+"""okbokujo @ 7rBUr1jNCU"" raises to 60",2026-02-09T13:48:48.412Z,177064492841200
+"WARNING: the admin queued the stack change for the player ""Ramune @ soKGYfNQsD"" reseting to 2000 chips in the next hand.",2026-02-09T13:48:46.068Z,177064492606800
+"""Hinano @ WeOKnoOueQ"" posts a big blind of 20",2026-02-09T13:48:42.843Z,177064492284310
+"""Ramune @ soKGYfNQsD"" posts a small blind of 10",2026-02-09T13:48:42.843Z,177064492284309
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2575) | #2 ""らねおか @ l218j9GUvI"" (3135) | #4 ""Ramune @ soKGYfNQsD"" (2000) | #7 ""Hinano @ WeOKnoOueQ"" (3165) | #8 ""okbokujo @ 7rBUr1jNCU"" (2010) | #9 ""sigma @ yHZrsG6l5j"" (2030)",2026-02-09T13:48:42.843Z,177064492284302
+"-- starting hand #46 (id: dgqou9qfjx1l)  No Limit Texas Hold'em (dealer: ""らねおか @ l218j9GUvI"") --",2026-02-09T13:48:42.843Z,177064492284301
+"The admin updated the player ""Ramune @ soKGYfNQsD"" stack from 1980 to 2000.",2026-02-09T13:48:42.843Z,177064492284300
+"-- ending hand #45 --",2026-02-09T13:48:39.926Z,177064491992602
+"""sigma @ yHZrsG6l5j"" collected 50 from pot",2026-02-09T13:48:39.926Z,177064491992601
+"Uncalled bet of 30 returned to ""sigma @ yHZrsG6l5j""",2026-02-09T13:48:39.926Z,177064491992600
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:48:39.113Z,177064491911300
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:48:38.094Z,177064491809400
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:48:37.045Z,177064491704500
+"""sigma @ yHZrsG6l5j"" raises to 50",2026-02-09T13:48:35.948Z,177064491594800
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:48:27.818Z,177064490781800
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:48:25.595Z,177064490559500
+"WARNING: the admin queued the stack change for the player ""Ramune @ soKGYfNQsD"" reseting to 2000 chips in the next hand.",2026-02-09T13:48:17.366Z,177064489736600
+"""Ramune @ soKGYfNQsD"" posts a big blind of 20",2026-02-09T13:48:13.628Z,177064489362809
+"""らねおか @ l218j9GUvI"" posts a small blind of 10",2026-02-09T13:48:13.628Z,177064489362808
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2575) | #2 ""らねおか @ l218j9GUvI"" (3145) | #4 ""Ramune @ soKGYfNQsD"" (2000) | #7 ""Hinano @ WeOKnoOueQ"" (3165) | #8 ""okbokujo @ 7rBUr1jNCU"" (2010) | #9 ""sigma @ yHZrsG6l5j"" (2000)",2026-02-09T13:48:13.628Z,177064489362801
+"-- starting hand #45 (id: jk8uf8lohyvb)  No Limit Texas Hold'em (dealer: ""ほたるいか @ 6weTfFBYpF"") --",2026-02-09T13:48:13.628Z,177064489362800
+"-- ending hand #44 --",2026-02-09T13:48:10.623Z,177064489062302
+"""Hinano @ WeOKnoOueQ"" collected 100 from pot",2026-02-09T13:48:10.623Z,177064489062301
+"Uncalled bet of 40 returned to ""Hinano @ WeOKnoOueQ""",2026-02-09T13:48:10.623Z,177064489062300
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:48:09.790Z,177064488979000
+"""Hinano @ WeOKnoOueQ"" bets 40",2026-02-09T13:48:07.401Z,177064488740100
+"""らねおか @ l218j9GUvI"" checks",2026-02-09T13:47:59.890Z,177064487989000
+"Flop:  [K♦, K♠, 9♣]",2026-02-09T13:47:58.039Z,177064487803900
+"""らねおか @ l218j9GUvI"" calls 45",2026-02-09T13:47:57.210Z,177064487721000
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:47:55.610Z,177064487561000
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:47:50.959Z,177064487095900
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:47:48.600Z,177064486860000
+"""Hinano @ WeOKnoOueQ"" raises to 45",2026-02-09T13:47:46.773Z,177064486677300
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:47:39.234Z,177064485923400
+"""らねおか @ l218j9GUvI"" posts a big blind of 20",2026-02-09T13:47:38.351Z,177064485835110
+"""ほたるいか @ 6weTfFBYpF"" posts a small blind of 10",2026-02-09T13:47:38.351Z,177064485835109
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2585) | #2 ""らねおか @ l218j9GUvI"" (3190) | #4 ""Ramune @ soKGYfNQsD"" (2000) | #7 ""Hinano @ WeOKnoOueQ"" (3110) | #8 ""okbokujo @ 7rBUr1jNCU"" (2010) | #9 ""sigma @ yHZrsG6l5j"" (2000)",2026-02-09T13:47:38.351Z,177064485835102
+"-- starting hand #44 (id: qmzydose9jiw)  No Limit Texas Hold'em (dealer: ""sigma @ yHZrsG6l5j"") --",2026-02-09T13:47:38.351Z,177064485835101
+"The admin updated the player ""sigma @ yHZrsG6l5j"" stack from 1960 to 2000.",2026-02-09T13:47:38.351Z,177064485835100
+"-- ending hand #43 --",2026-02-09T13:47:32.302Z,177064485230202
+"""ほたるいか @ 6weTfFBYpF"" collected 130 from pot with Pair, 4's (combination: J♠, K♣, A♦, 4♦, 4♠)",2026-02-09T13:47:32.302Z,177064485230201
+"""ほたるいか @ 6weTfFBYpF"" shows a J♠, A♦.",2026-02-09T13:47:32.302Z,177064485230200
+"""okbokujo @ 7rBUr1jNCU"" checks",2026-02-09T13:47:31.473Z,177064485147300
+"""ほたるいか @ 6weTfFBYpF"" checks",2026-02-09T13:47:29.597Z,177064484959700
+"River: 4♦, 10♥, 4♠, K♣ [8♥]",2026-02-09T13:47:22.463Z,177064484246300
+"""okbokujo @ 7rBUr1jNCU"" checks",2026-02-09T13:47:21.638Z,177064484163800
+"""ほたるいか @ 6weTfFBYpF"" checks",2026-02-09T13:47:19.121Z,177064483912100
+"Turn: 4♦, 10♥, 4♠ [K♣]",2026-02-09T13:47:14.387Z,177064483438700
+"""okbokujo @ 7rBUr1jNCU"" checks",2026-02-09T13:47:13.550Z,177064483355000
+"""ほたるいか @ 6weTfFBYpF"" checks",2026-02-09T13:47:11.297Z,177064483129700
+"Flop:  [4♦, 10♥, 4♠]",2026-02-09T13:47:08.785Z,177064482878500
+"""ほたるいか @ 6weTfFBYpF"" calls 60",2026-02-09T13:47:07.927Z,177064482792700
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:46:59.989Z,177064481998900
+"""okbokujo @ 7rBUr1jNCU"" raises to 60",2026-02-09T13:46:58.977Z,177064481897700
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:46:52.745Z,177064481274500
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:46:48.911Z,177064480891100
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:46:45.489Z,177064480548900
+"WARNING: the admin queued the stack change for the player ""sigma @ yHZrsG6l5j"" reseting to 2000 chips in the next hand.",2026-02-09T13:46:41.694Z,177064480169400
+"""ほたるいか @ 6weTfFBYpF"" posts a big blind of 20",2026-02-09T13:46:37.890Z,177064479789009
+"""sigma @ yHZrsG6l5j"" posts a small blind of 10",2026-02-09T13:46:37.890Z,177064479789008
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2515) | #2 ""らねおか @ l218j9GUvI"" (3190) | #4 ""Ramune @ soKGYfNQsD"" (2000) | #7 ""Hinano @ WeOKnoOueQ"" (3110) | #8 ""okbokujo @ 7rBUr1jNCU"" (2070) | #9 ""sigma @ yHZrsG6l5j"" (1970)",2026-02-09T13:46:37.890Z,177064479789001
+"-- starting hand #43 (id: f9oflabx9hci)  No Limit Texas Hold'em (dealer: ""okbokujo @ 7rBUr1jNCU"") --",2026-02-09T13:46:37.890Z,177064479789000
+"-- ending hand #42 --",2026-02-09T13:46:34.942Z,177064479494202
+"""okbokujo @ 7rBUr1jNCU"" collected 120 from pot",2026-02-09T13:46:34.942Z,177064479494201
+"Uncalled bet of 50 returned to ""okbokujo @ 7rBUr1jNCU""",2026-02-09T13:46:34.942Z,177064479494200
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:46:34.117Z,177064479411700
+"""okbokujo @ 7rBUr1jNCU"" bets 50",2026-02-09T13:46:19.937Z,177064477993700
+"Flop:  [J♦, 2♥, 9♥]",2026-02-09T13:46:10.314Z,177064477031400
+"""sigma @ yHZrsG6l5j"" calls 60",2026-02-09T13:46:09.485Z,177064476948500
+"""okbokujo @ 7rBUr1jNCU"" raises to 60",2026-02-09T13:45:58.846Z,177064475884600
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:45:53.431Z,177064475343100
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:45:51.552Z,177064475155200
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:45:50.521Z,177064475052100
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:45:47.629Z,177064474762900
+"""sigma @ yHZrsG6l5j"" posts a big blind of 20",2026-02-09T13:45:44.618Z,177064474461809
+"""okbokujo @ 7rBUr1jNCU"" posts a small blind of 10",2026-02-09T13:45:44.618Z,177064474461808
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2515) | #2 ""らねおか @ l218j9GUvI"" (3190) | #4 ""Ramune @ soKGYfNQsD"" (2000) | #7 ""Hinano @ WeOKnoOueQ"" (3110) | #8 ""okbokujo @ 7rBUr1jNCU"" (2010) | #9 ""sigma @ yHZrsG6l5j"" (2030)",2026-02-09T13:45:44.618Z,177064474461801
+"-- starting hand #42 (id: gkznejgxlixy)  No Limit Texas Hold'em (dealer: ""Hinano @ WeOKnoOueQ"") --",2026-02-09T13:45:44.618Z,177064474461800
+"-- ending hand #41 --",2026-02-09T13:45:41.697Z,177064474169702
+"""sigma @ yHZrsG6l5j"" collected 50 from pot",2026-02-09T13:45:41.697Z,177064474169701
+"Uncalled bet of 30 returned to ""sigma @ yHZrsG6l5j""",2026-02-09T13:45:41.697Z,177064474169700
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:45:40.882Z,177064474088200
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:45:36.620Z,177064473662000
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:45:32.689Z,177064473268900
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:45:31.399Z,177064473139900
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:45:30.326Z,177064473032600
+"""sigma @ yHZrsG6l5j"" raises to 50",2026-02-09T13:45:29.317Z,177064472931700
+"""okbokujo @ 7rBUr1jNCU"" posts a big blind of 20",2026-02-09T13:45:23.720Z,177064472372010
+"""Hinano @ WeOKnoOueQ"" posts a small blind of 10",2026-02-09T13:45:23.720Z,177064472372009
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2515) | #2 ""らねおか @ l218j9GUvI"" (3190) | #4 ""Ramune @ soKGYfNQsD"" (2000) | #7 ""Hinano @ WeOKnoOueQ"" (3120) | #8 ""okbokujo @ 7rBUr1jNCU"" (2030) | #9 ""sigma @ yHZrsG6l5j"" (2000)",2026-02-09T13:45:23.720Z,177064472372002
+"-- starting hand #41 (id: f2xsmlujvgd3)  No Limit Texas Hold'em (dealer: ""Ramune @ soKGYfNQsD"") --",2026-02-09T13:45:23.720Z,177064472372001
+"The admin updated the player ""Ramune @ soKGYfNQsD"" stack from 1990 to 2000.",2026-02-09T13:45:23.720Z,177064472372000
+"-- ending hand #40 --",2026-02-09T13:45:20.789Z,177064472078902
+"""Hinano @ WeOKnoOueQ"" collected 20 from pot",2026-02-09T13:45:20.789Z,177064472078901
+"Uncalled bet of 10 returned to ""Hinano @ WeOKnoOueQ""",2026-02-09T13:45:20.789Z,177064472078900
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:45:19.924Z,177064471992400
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:45:18.861Z,177064471886100
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:45:16.649Z,177064471664900
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:45:13.858Z,177064471385800
+"WARNING: the admin queued the stack change for the player ""Ramune @ soKGYfNQsD"" reseting to 2000 chips in the next hand.",2026-02-09T13:45:12.787Z,177064471278700
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:45:12.094Z,177064471209400
+"""Hinano @ WeOKnoOueQ"" posts a big blind of 20",2026-02-09T13:45:10.422Z,177064471042210
+"""Ramune @ soKGYfNQsD"" posts a small blind of 10",2026-02-09T13:45:10.422Z,177064471042209
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2515) | #2 ""らねおか @ l218j9GUvI"" (3190) | #4 ""Ramune @ soKGYfNQsD"" (2000) | #7 ""Hinano @ WeOKnoOueQ"" (3110) | #8 ""okbokujo @ 7rBUr1jNCU"" (2030) | #9 ""sigma @ yHZrsG6l5j"" (2000)",2026-02-09T13:45:10.422Z,177064471042202
+"-- starting hand #40 (id: ixdklp9eq4jr)  No Limit Texas Hold'em (dealer: ""らねおか @ l218j9GUvI"") --",2026-02-09T13:45:10.422Z,177064471042201
+"The admin updated the player ""Ramune @ soKGYfNQsD"" stack from 2010 to 2000.",2026-02-09T13:45:10.422Z,177064471042200
+"""Ramune @ soKGYfNQsD"" shows a K♦, A♠.",2026-02-09T13:45:07.889Z,177064470788900
+"-- ending hand #39 --",2026-02-09T13:45:06.793Z,177064470679302
+"""Ramune @ soKGYfNQsD"" collected 20 from pot",2026-02-09T13:45:06.793Z,177064470679301
+"Uncalled bet of 10 returned to ""Ramune @ soKGYfNQsD""",2026-02-09T13:45:06.793Z,177064470679300
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:45:05.961Z,177064470596100
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:45:04.903Z,177064470490300
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:45:02.344Z,177064470234400
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:45:01.253Z,177064470125300
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:44:59.350Z,177064469935000
+"WARNING: the admin queued the stack change for the player ""Ramune @ soKGYfNQsD"" reseting to 2000 chips in the next hand.",2026-02-09T13:44:51.349Z,177064469134900
+"""Ramune @ soKGYfNQsD"" posts a big blind of 20",2026-02-09T13:44:47.386Z,177064468738610
+"""らねおか @ l218j9GUvI"" posts a small blind of 10",2026-02-09T13:44:47.386Z,177064468738609
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2515) | #2 ""らねおか @ l218j9GUvI"" (3200) | #4 ""Ramune @ soKGYfNQsD"" (2000) | #7 ""Hinano @ WeOKnoOueQ"" (3110) | #8 ""okbokujo @ 7rBUr1jNCU"" (2030) | #9 ""sigma @ yHZrsG6l5j"" (2000)",2026-02-09T13:44:47.386Z,177064468738602
+"-- starting hand #39 (id: qd7eexeuqslc)  No Limit Texas Hold'em (dealer: ""ほたるいか @ 6weTfFBYpF"") --",2026-02-09T13:44:47.386Z,177064468738601
+"The admin updated the player ""Ramune @ soKGYfNQsD"" stack from 2080 to 2000.",2026-02-09T13:44:47.386Z,177064468738600
+"-- ending hand #38 --",2026-02-09T13:44:44.479Z,177064468447902
+"""Ramune @ soKGYfNQsD"" collected 140 from pot",2026-02-09T13:44:44.479Z,177064468447901
+"Uncalled bet of 70 returned to ""Ramune @ soKGYfNQsD""",2026-02-09T13:44:44.479Z,177064468447900
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:44:43.645Z,177064468364500
+"""Ramune @ soKGYfNQsD"" bets 70",2026-02-09T13:44:38.373Z,177064467837300
+"""ほたるいか @ 6weTfFBYpF"" checks",2026-02-09T13:44:34.017Z,177064467401700
+"Turn: 6♣, J♣, 4♥ [J♠]",2026-02-09T13:44:22.951Z,177064466295100
+"""Ramune @ soKGYfNQsD"" checks",2026-02-09T13:44:22.144Z,177064466214400
+"""ほたるいか @ 6weTfFBYpF"" checks",2026-02-09T13:44:17.971Z,177064465797100
+"Flop:  [6♣, J♣, 4♥]",2026-02-09T13:44:10.760Z,177064465076000
+"""Ramune @ soKGYfNQsD"" calls 60",2026-02-09T13:44:09.937Z,177064464993700
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:44:03.769Z,177064464376900
+"""ほたるいか @ 6weTfFBYpF"" raises to 60",2026-02-09T13:44:00.529Z,177064464052900
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:43:48.753Z,177064462875300
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:43:47.688Z,177064462768800
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:43:45.919Z,177064462591900
+"WARNING: the admin queued the stack change for the player ""Ramune @ soKGYfNQsD"" reseting to 2000 chips in the next hand.",2026-02-09T13:43:41.352Z,177064462135200
+"""Ramune @ soKGYfNQsD"" raises to 40",2026-02-09T13:43:39.777Z,177064461977700
+"""らねおか @ l218j9GUvI"" posts a big blind of 20",2026-02-09T13:43:37.970Z,177064461797011
+"""ほたるいか @ 6weTfFBYpF"" posts a small blind of 10",2026-02-09T13:43:37.970Z,177064461797010
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2575) | #2 ""らねおか @ l218j9GUvI"" (3220) | #4 ""Ramune @ soKGYfNQsD"" (2000) | #7 ""Hinano @ WeOKnoOueQ"" (3110) | #8 ""okbokujo @ 7rBUr1jNCU"" (2030) | #9 ""sigma @ yHZrsG6l5j"" (2000)",2026-02-09T13:43:37.970Z,177064461797003
+"-- starting hand #38 (id: joxxydzm2as7)  No Limit Texas Hold'em (dealer: ""sigma @ yHZrsG6l5j"") --",2026-02-09T13:43:37.970Z,177064461797002
+"The admin updated the player ""sigma @ yHZrsG6l5j"" stack from 1990 to 2000.",2026-02-09T13:43:37.970Z,177064461797001
+"The admin updated the player ""Ramune @ soKGYfNQsD"" stack from 1819 to 2000.",2026-02-09T13:43:37.970Z,177064461797000
+"-- ending hand #37 --",2026-02-09T13:43:35.061Z,177064461506102
+"""okbokujo @ 7rBUr1jNCU"" collected 50 from pot",2026-02-09T13:43:35.061Z,177064461506101
+"Uncalled bet of 40 returned to ""okbokujo @ 7rBUr1jNCU""",2026-02-09T13:43:35.061Z,177064461506100
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:43:34.212Z,177064461421200
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:43:30.126Z,177064461012600
+"""okbokujo @ 7rBUr1jNCU"" raises to 60",2026-02-09T13:43:29.116Z,177064460911600
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:43:23.202Z,177064460320200
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:43:21.845Z,177064460184500
+"WARNING: the admin queued the stack change for the player ""sigma @ yHZrsG6l5j"" reseting to 2000 chips in the next hand.",2026-02-09T13:43:16.848Z,177064459684800
+"WARNING: the admin queued the stack change for the player ""Ramune @ soKGYfNQsD"" reseting to 2000 chips in the next hand.",2026-02-09T13:43:15.284Z,177064459528400
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:43:14.004Z,177064459400400
+"""ほたるいか @ 6weTfFBYpF"" posts a big blind of 20",2026-02-09T13:43:12.682Z,177064459268211
+"""sigma @ yHZrsG6l5j"" posts a small blind of 10",2026-02-09T13:43:12.682Z,177064459268210
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2595) | #2 ""らねおか @ l218j9GUvI"" (3220) | #4 ""Ramune @ soKGYfNQsD"" (1819) | #7 ""Hinano @ WeOKnoOueQ"" (3110) | #8 ""okbokujo @ 7rBUr1jNCU"" (2000) | #9 ""sigma @ yHZrsG6l5j"" (2000)",2026-02-09T13:43:12.682Z,177064459268203
+"-- starting hand #37 (id: osc4j06oklvg)  No Limit Texas Hold'em (dealer: ""okbokujo @ 7rBUr1jNCU"") --",2026-02-09T13:43:12.682Z,177064459268202
+"The admin updated the player ""sigma @ yHZrsG6l5j"" stack from 1980 to 2000.",2026-02-09T13:43:12.682Z,177064459268201
+"The admin updated the player ""okbokujo @ 7rBUr1jNCU"" stack from 1990 to 2000.",2026-02-09T13:43:12.682Z,177064459268200
+"-- ending hand #36 --",2026-02-09T13:43:06.673Z,177064458667302
+"""ほたるいか @ 6weTfFBYpF"" collected 540 from pot with Three of a Kind, 7's (combination: Q♦, A♣, 7♣, 7♦, 7♥)",2026-02-09T13:43:06.673Z,177064458667301
+"""ほたるいか @ 6weTfFBYpF"" shows a A♣, 7♣.",2026-02-09T13:43:06.673Z,177064458667300
+"""Ramune @ soKGYfNQsD"" calls 120",2026-02-09T13:43:05.867Z,177064458586700
+"""ほたるいか @ 6weTfFBYpF"" bets 120",2026-02-09T13:43:01.181Z,177064458118100
+"River: 4♠, 7♦, Q♦, 10♣ [7♥]",2026-02-09T13:42:54.419Z,177064457441900
+"""Ramune @ soKGYfNQsD"" checks",2026-02-09T13:42:53.588Z,177064457358800
+"""ほたるいか @ 6weTfFBYpF"" checks",2026-02-09T13:42:47.782Z,177064456778200
+"Turn: 4♠, 7♦, Q♦ [10♣]",2026-02-09T13:42:45.741Z,177064456574100
+"""ほたるいか @ 6weTfFBYpF"" calls 75",2026-02-09T13:42:44.915Z,177064456491500
+"""Ramune @ soKGYfNQsD"" bets 75",2026-02-09T13:42:41.209Z,177064456120900
+"""ほたるいか @ 6weTfFBYpF"" checks",2026-02-09T13:42:35.847Z,177064455584700
+"Flop:  [4♠, 7♦, Q♦]",2026-02-09T13:42:33.992Z,177064455399200
+"""ほたるいか @ 6weTfFBYpF"" calls 60",2026-02-09T13:42:33.162Z,177064455316200
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:42:28.510Z,177064454851000
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:42:27.461Z,177064454746100
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:42:24.536Z,177064454453600
+"""Ramune @ soKGYfNQsD"" raises to 60",2026-02-09T13:42:22.753Z,177064454275300
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:42:19.099Z,177064453909900
+"""ほたるいか @ 6weTfFBYpF"" raises to 40",2026-02-09T13:42:18.086Z,177064453808600
+"WARNING: the admin queued the stack change for the player ""sigma @ yHZrsG6l5j"" reseting to 2000 chips in the next hand.",2026-02-09T13:42:16.182Z,177064453618200
+"WARNING: the admin queued the stack change for the player ""okbokujo @ 7rBUr1jNCU"" reseting to 2000 chips in the next hand.",2026-02-09T13:42:14.709Z,177064453470900
+"""sigma @ yHZrsG6l5j"" posts a big blind of 20",2026-02-09T13:42:10.097Z,177064453009710
+"""okbokujo @ 7rBUr1jNCU"" posts a small blind of 10",2026-02-09T13:42:10.097Z,177064453009709
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2310) | #2 ""らねおか @ l218j9GUvI"" (3220) | #4 ""Ramune @ soKGYfNQsD"" (2074) | #7 ""Hinano @ WeOKnoOueQ"" (3110) | #8 ""okbokujo @ 7rBUr1jNCU"" (2000) | #9 ""sigma @ yHZrsG6l5j"" (2000)",2026-02-09T13:42:10.097Z,177064453009702
+"-- starting hand #36 (id: sllala5dwxwq)  No Limit Texas Hold'em (dealer: ""Hinano @ WeOKnoOueQ"") --",2026-02-09T13:42:10.097Z,177064453009701
+"The admin updated the player ""okbokujo @ 7rBUr1jNCU"" stack from 2010 to 2000.",2026-02-09T13:42:10.097Z,177064453009700
+"-- ending hand #35 --",2026-02-09T13:42:07.173Z,177064452717302
+"""okbokujo @ 7rBUr1jNCU"" collected 20 from pot",2026-02-09T13:42:07.173Z,177064452717301
+"Uncalled bet of 10 returned to ""okbokujo @ 7rBUr1jNCU""",2026-02-09T13:42:07.173Z,177064452717300
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:42:06.326Z,177064452632600
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:42:05.186Z,177064452518600
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:42:04.173Z,177064452417300
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:42:03.140Z,177064452314000
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:41:52.001Z,177064451200100
+"WARNING: the admin queued the stack change for the player ""okbokujo @ 7rBUr1jNCU"" reseting to 2000 chips in the next hand.",2026-02-09T13:41:51.867Z,177064451186700
+"""okbokujo @ 7rBUr1jNCU"" posts a big blind of 20",2026-02-09T13:41:50.033Z,177064451003309
+"""Hinano @ WeOKnoOueQ"" posts a small blind of 10",2026-02-09T13:41:50.033Z,177064451003308
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2310) | #2 ""らねおか @ l218j9GUvI"" (3220) | #4 ""Ramune @ soKGYfNQsD"" (2074) | #7 ""Hinano @ WeOKnoOueQ"" (3120) | #8 ""okbokujo @ 7rBUr1jNCU"" (2000) | #9 ""sigma @ yHZrsG6l5j"" (2000)",2026-02-09T13:41:50.033Z,177064451003301
+"-- starting hand #35 (id: h6p1nn5x04aw)  No Limit Texas Hold'em (dealer: ""Ramune @ soKGYfNQsD"") --",2026-02-09T13:41:50.033Z,177064451003300
+"-- ending hand #34 --",2026-02-09T13:41:47.126Z,177064450712602
+"""ほたるいか @ 6weTfFBYpF"" collected 50 from pot",2026-02-09T13:41:47.126Z,177064450712601
+"Uncalled bet of 26 returned to ""ほたるいか @ 6weTfFBYpF""",2026-02-09T13:41:47.126Z,177064450712600
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:41:46.321Z,177064450632100
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:41:41.537Z,177064450153700
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:41:40.492Z,177064450049200
+"""ほたるいか @ 6weTfFBYpF"" raises to 46",2026-02-09T13:41:38.896Z,177064449889600
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:41:20.668Z,177064448066800
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:41:19.447Z,177064447944700
+"""Hinano @ WeOKnoOueQ"" posts a big blind of 20",2026-02-09T13:41:17.351Z,177064447735109
+"""Ramune @ soKGYfNQsD"" posts a small blind of 10",2026-02-09T13:41:17.351Z,177064447735108
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2280) | #2 ""らねおか @ l218j9GUvI"" (3220) | #4 ""Ramune @ soKGYfNQsD"" (2084) | #7 ""Hinano @ WeOKnoOueQ"" (3140) | #8 ""okbokujo @ 7rBUr1jNCU"" (2000) | #9 ""sigma @ yHZrsG6l5j"" (2000)",2026-02-09T13:41:17.351Z,177064447735101
+"-- starting hand #34 (id: 9f7utplyotqz)  No Limit Texas Hold'em (dealer: ""らねおか @ l218j9GUvI"") --",2026-02-09T13:41:17.351Z,177064447735100
+"-- ending hand #33 --",2026-02-09T13:41:14.409Z,177064447440902
+"""ほたるいか @ 6weTfFBYpF"" collected 50 from pot",2026-02-09T13:41:14.409Z,177064447440901
+"Uncalled bet of 30 returned to ""ほたるいか @ 6weTfFBYpF""",2026-02-09T13:41:14.409Z,177064447440900
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:41:13.554Z,177064447355400
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:41:11.308Z,177064447130800
+"""ほたるいか @ 6weTfFBYpF"" raises to 50",2026-02-09T13:41:09.795Z,177064446979500
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:40:46.773Z,177064444677300
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:40:45.765Z,177064444576500
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:40:28.004Z,177064442800400
+"""Ramune @ soKGYfNQsD"" posts a big blind of 20",2026-02-09T13:40:23.963Z,177064442396309
+"""らねおか @ l218j9GUvI"" posts a small blind of 10",2026-02-09T13:40:23.963Z,177064442396308
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2250) | #2 ""らねおか @ l218j9GUvI"" (3230) | #4 ""Ramune @ soKGYfNQsD"" (2104) | #7 ""Hinano @ WeOKnoOueQ"" (3140) | #8 ""okbokujo @ 7rBUr1jNCU"" (2000) | #9 ""sigma @ yHZrsG6l5j"" (2000)",2026-02-09T13:40:23.963Z,177064442396301
+"-- starting hand #33 (id: hikvsynmf7ms)  No Limit Texas Hold'em (dealer: ""ほたるいか @ 6weTfFBYpF"") --",2026-02-09T13:40:23.963Z,177064442396300
+"-- ending hand #32 --",2026-02-09T13:40:21.006Z,177064442100602
+"""ほたるいか @ 6weTfFBYpF"" collected 120 from pot",2026-02-09T13:40:21.006Z,177064442100601
+"Uncalled bet of 190 returned to ""ほたるいか @ 6weTfFBYpF""",2026-02-09T13:40:21.006Z,177064442100600
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:40:20.175Z,177064442017500
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:40:16.399Z,177064441639900
+"""ほたるいか @ 6weTfFBYpF"" raises to 240",2026-02-09T13:40:15.383Z,177064441538300
+"""sigma @ yHZrsG6l5j"" raises to 50",2026-02-09T13:40:02.759Z,177064440275900
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:39:56.203Z,177064439620300
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:39:54.642Z,177064439464200
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:39:53.563Z,177064439356300
+"""らねおか @ l218j9GUvI"" posts a big blind of 20",2026-02-09T13:39:52.687Z,177064439268709
+"""ほたるいか @ 6weTfFBYpF"" posts a small blind of 10",2026-02-09T13:39:52.687Z,177064439268708
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2180) | #2 ""らねおか @ l218j9GUvI"" (3250) | #4 ""Ramune @ soKGYfNQsD"" (2104) | #7 ""Hinano @ WeOKnoOueQ"" (3140) | #8 ""okbokujo @ 7rBUr1jNCU"" (2000) | #9 ""sigma @ yHZrsG6l5j"" (2050)",2026-02-09T13:39:52.687Z,177064439268701
+"-- starting hand #32 (id: r3b26zswtoji)  No Limit Texas Hold'em (dealer: ""sigma @ yHZrsG6l5j"") --",2026-02-09T13:39:52.687Z,177064439268700
+"-- ending hand #31 --",2026-02-09T13:39:49.755Z,177064438975502
+"""Ramune @ soKGYfNQsD"" collected 50 from pot",2026-02-09T13:39:49.755Z,177064438975501
+"Uncalled bet of 20 returned to ""Ramune @ soKGYfNQsD""",2026-02-09T13:39:49.755Z,177064438975500
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:39:48.930Z,177064438893000
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:39:46.069Z,177064438606900
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:39:45.035Z,177064438503500
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:39:43.273Z,177064438327300
+"""Ramune @ soKGYfNQsD"" raises to 40",2026-02-09T13:39:42.237Z,177064438223700
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:39:40.161Z,177064438016100
+"""ほたるいか @ 6weTfFBYpF"" posts a big blind of 20",2026-02-09T13:39:35.188Z,177064437518810
+"""sigma @ yHZrsG6l5j"" posts a small blind of 10",2026-02-09T13:39:35.188Z,177064437518809
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2200) | #2 ""らねおか @ l218j9GUvI"" (3250) | #4 ""Ramune @ soKGYfNQsD"" (2074) | #7 ""Hinano @ WeOKnoOueQ"" (3140) | #8 ""okbokujo @ 7rBUr1jNCU"" (2000) | #9 ""sigma @ yHZrsG6l5j"" (2060)",2026-02-09T13:39:35.188Z,177064437518802
+"-- starting hand #31 (id: wzpryjbivpub)  No Limit Texas Hold'em (dealer: ""okbokujo @ 7rBUr1jNCU"") --",2026-02-09T13:39:35.188Z,177064437518801
+"The admin updated the player ""okbokujo @ 7rBUr1jNCU"" stack from 1940 to 2000.",2026-02-09T13:39:35.188Z,177064437518800
+"-- ending hand #30 --",2026-02-09T13:39:32.277Z,177064437227702
+"""sigma @ yHZrsG6l5j"" collected 120 from pot",2026-02-09T13:39:32.277Z,177064437227701
+"Uncalled bet of 40 returned to ""sigma @ yHZrsG6l5j""",2026-02-09T13:39:32.277Z,177064437227700
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:39:31.441Z,177064437144100
+"""sigma @ yHZrsG6l5j"" bets 40",2026-02-09T13:39:25.132Z,177064436513200
+"""okbokujo @ 7rBUr1jNCU"" checks",2026-02-09T13:39:12.082Z,177064435208200
+"Flop:  [K♥, 3♦, 3♠]",2026-02-09T13:39:02.278Z,177064434227800
+"""sigma @ yHZrsG6l5j"" calls 60",2026-02-09T13:39:01.415Z,177064434141500
+"""okbokujo @ 7rBUr1jNCU"" raises to 60",2026-02-09T13:38:57.301Z,177064433730100
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:38:52.338Z,177064433233800
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:38:51.291Z,177064433129100
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:38:50.275Z,177064433027500
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:38:49.241Z,177064432924100
+"WARNING: the admin queued the stack change for the player ""okbokujo @ 7rBUr1jNCU"" reseting to 2000 chips in the next hand.",2026-02-09T13:38:48.798Z,177064432879800
+"""sigma @ yHZrsG6l5j"" posts a big blind of 20",2026-02-09T13:38:46.438Z,177064432643811
+"""okbokujo @ 7rBUr1jNCU"" posts a small blind of 10",2026-02-09T13:38:46.438Z,177064432643810
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2200) | #2 ""らねおか @ l218j9GUvI"" (3250) | #4 ""Ramune @ soKGYfNQsD"" (2074) | #7 ""Hinano @ WeOKnoOueQ"" (3140) | #8 ""okbokujo @ 7rBUr1jNCU"" (2000) | #9 ""sigma @ yHZrsG6l5j"" (2000)",2026-02-09T13:38:46.438Z,177064432643803
+"-- starting hand #30 (id: dzw4mvpcbodm)  No Limit Texas Hold'em (dealer: ""Hinano @ WeOKnoOueQ"") --",2026-02-09T13:38:46.438Z,177064432643802
+"The admin updated the player ""sigma @ yHZrsG6l5j"" stack from 1915 to 2000.",2026-02-09T13:38:46.438Z,177064432643801
+"The admin updated the player ""okbokujo @ 7rBUr1jNCU"" stack from 1780 to 2000.",2026-02-09T13:38:46.438Z,177064432643800
+"-- ending hand #29 --",2026-02-09T13:38:43.517Z,177064432351702
+"""Hinano @ WeOKnoOueQ"" collected 440 from pot",2026-02-09T13:38:43.517Z,177064432351701
+"Uncalled bet of 440 returned to ""Hinano @ WeOKnoOueQ""",2026-02-09T13:38:43.517Z,177064432351700
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:38:42.709Z,177064432270900
+"""Hinano @ WeOKnoOueQ"" raises to 540",2026-02-09T13:38:35.846Z,177064431584600
+"""okbokujo @ 7rBUr1jNCU"" bets 100",2026-02-09T13:38:19.885Z,177064429988500
+"""Hinano @ WeOKnoOueQ"" checks",2026-02-09T13:38:06.361Z,177064428636100
+"River: 3♠, J♠, K♣, 4♣ [10♣]",2026-02-09T13:38:06.208Z,177064428620800
+"""okbokujo @ 7rBUr1jNCU"" checks",2026-02-09T13:38:05.386Z,177064428538600
+"""Hinano @ WeOKnoOueQ"" checks",2026-02-09T13:38:03.084Z,177064428308400
+"Turn: 3♠, J♠, K♣ [4♣]",2026-02-09T13:37:54.586Z,177064427458600
+"""okbokujo @ 7rBUr1jNCU"" calls 60",2026-02-09T13:37:53.748Z,177064427374800
+"""Hinano @ WeOKnoOueQ"" bets 60",2026-02-09T13:37:51.133Z,177064427113300
+"Flop:  [3♠, J♠, K♣]",2026-02-09T13:37:40.975Z,177064426097500
+"""okbokujo @ 7rBUr1jNCU"" calls 60",2026-02-09T13:37:40.159Z,177064426015900
+"""Hinano @ WeOKnoOueQ"" raises to 60",2026-02-09T13:37:38.329Z,177064425832900
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:37:33.042Z,177064425304200
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:37:32.029Z,177064425202900
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:37:30.996Z,177064425099600
+"WARNING: the admin queued the stack change for the player ""sigma @ yHZrsG6l5j"" reseting to 2000 chips in the next hand.",2026-02-09T13:37:24.670Z,177064424467000
+"WARNING: the admin queued the stack change for the player ""okbokujo @ 7rBUr1jNCU"" reseting to 2000 chips in the next hand.",2026-02-09T13:37:23.463Z,177064424346300
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:37:23.250Z,177064424325000
+"""okbokujo @ 7rBUr1jNCU"" posts a big blind of 20",2026-02-09T13:37:21.766Z,177064424176609
+"""Hinano @ WeOKnoOueQ"" posts a small blind of 10",2026-02-09T13:37:21.766Z,177064424176608
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2200) | #2 ""らねおか @ l218j9GUvI"" (3250) | #4 ""Ramune @ soKGYfNQsD"" (2074) | #7 ""Hinano @ WeOKnoOueQ"" (2920) | #8 ""okbokujo @ 7rBUr1jNCU"" (2000) | #9 ""sigma @ yHZrsG6l5j"" (1915)",2026-02-09T13:37:21.766Z,177064424176601
+"-- starting hand #29 (id: dkk7wutbte5r)  No Limit Texas Hold'em (dealer: ""Ramune @ soKGYfNQsD"") --",2026-02-09T13:37:21.766Z,177064424176600
+"-- ending hand #28 --",2026-02-09T13:37:18.853Z,177064423885302
+"""Hinano @ WeOKnoOueQ"" collected 180 from pot",2026-02-09T13:37:18.853Z,177064423885301
+"Uncalled bet of 360 returned to ""Hinano @ WeOKnoOueQ""",2026-02-09T13:37:18.853Z,177064423885300
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:37:18.036Z,177064423803600
+"""Hinano @ WeOKnoOueQ"" bets 360",2026-02-09T13:36:20.823Z,177064418082300
+"River: A♥, 6♥, 7♣, 10♣ [6♠]",2026-02-09T13:36:04.789Z,177064416478900
+"""sigma @ yHZrsG6l5j"" calls 35",2026-02-09T13:36:03.979Z,177064416397900
+"""Hinano @ WeOKnoOueQ"" bets 35",2026-02-09T13:35:38.406Z,177064413840600
+"Turn: A♥, 6♥, 7♣ [10♣]",2026-02-09T13:35:27.162Z,177064412716200
+"""sigma @ yHZrsG6l5j"" checks",2026-02-09T13:35:26.324Z,177064412632400
+"""Hinano @ WeOKnoOueQ"" checks",2026-02-09T13:35:13.441Z,177064411344100
+"Flop:  [A♥, 6♥, 7♣]",2026-02-09T13:35:11.059Z,177064411105900
+"""Hinano @ WeOKnoOueQ"" calls 50",2026-02-09T13:35:10.245Z,177064411024500
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:35:08.555Z,177064410855500
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:35:06.030Z,177064410603000
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:35:05.011Z,177064410501100
+"""sigma @ yHZrsG6l5j"" raises to 50",2026-02-09T13:35:03.953Z,177064410395300
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:34:55.671Z,177064409567100
+"""Hinano @ WeOKnoOueQ"" posts a big blind of 20",2026-02-09T13:34:50.770Z,177064409077009
+"""Ramune @ soKGYfNQsD"" posts a small blind of 10",2026-02-09T13:34:50.770Z,177064409077008
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2200) | #2 ""らねおか @ l218j9GUvI"" (3250) | #4 ""Ramune @ soKGYfNQsD"" (2084) | #7 ""Hinano @ WeOKnoOueQ"" (2825) | #8 ""okbokujo @ 7rBUr1jNCU"" (2000) | #9 ""sigma @ yHZrsG6l5j"" (2000)",2026-02-09T13:34:50.770Z,177064409077001
+"-- starting hand #28 (id: bwtiduxlwtsp)  No Limit Texas Hold'em (dealer: ""らねおか @ l218j9GUvI"") --",2026-02-09T13:34:50.770Z,177064409077000
+"-- ending hand #27 --",2026-02-09T13:34:44.755Z,177064408475502
+"""らねおか @ l218j9GUvI"" collected 200 from pot with Pair, A's (combination: 8♥, 9♥, Q♣, A♥, A♠)",2026-02-09T13:34:44.755Z,177064408475501
+"""らねおか @ l218j9GUvI"" shows a 3♦, A♥.",2026-02-09T13:34:44.755Z,177064408475500
+"""Ramune @ soKGYfNQsD"" calls 40",2026-02-09T13:34:43.933Z,177064408393300
+"""らねおか @ l218j9GUvI"" bets 40",2026-02-09T13:34:22.074Z,177064406207400
+"River: 2♣, 9♥, Q♣, A♠ [8♥]",2026-02-09T13:34:14.785Z,177064405478500
+"""Ramune @ soKGYfNQsD"" checks",2026-02-09T13:34:13.938Z,177064405393800
+"""らねおか @ l218j9GUvI"" checks",2026-02-09T13:34:10.454Z,177064405045400
+"Turn: 2♣, 9♥, Q♣ [A♠]",2026-02-09T13:34:06.714Z,177064404671400
+"""Ramune @ soKGYfNQsD"" checks",2026-02-09T13:34:05.890Z,177064404589000
+"""らねおか @ l218j9GUvI"" checks",2026-02-09T13:34:02.650Z,177064404265000
+"Flop:  [2♣, 9♥, Q♣]",2026-02-09T13:33:59.169Z,177064403916900
+"""Ramune @ soKGYfNQsD"" calls 60",2026-02-09T13:33:58.345Z,177064403834500
+"""らねおか @ l218j9GUvI"" raises to 60",2026-02-09T13:33:54.436Z,177064403443600
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:33:46.487Z,177064402648700
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:33:45.361Z,177064402536100
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:33:44.339Z,177064402433900
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:33:38.508Z,177064401850800
+"""Ramune @ soKGYfNQsD"" posts a big blind of 20",2026-02-09T13:33:34.772Z,177064401477209
+"""らねおか @ l218j9GUvI"" posts a small blind of 10",2026-02-09T13:33:34.772Z,177064401477208
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2200) | #2 ""らねおか @ l218j9GUvI"" (3150) | #4 ""Ramune @ soKGYfNQsD"" (2184) | #7 ""Hinano @ WeOKnoOueQ"" (2825) | #8 ""okbokujo @ 7rBUr1jNCU"" (2000) | #9 ""sigma @ yHZrsG6l5j"" (2000)",2026-02-09T13:33:34.772Z,177064401477201
+"-- starting hand #27 (id: 6bjumamr3tcz)  No Limit Texas Hold'em (dealer: ""ほたるいか @ 6weTfFBYpF"") --",2026-02-09T13:33:34.772Z,177064401477200
+"-- ending hand #26 --",2026-02-09T13:33:31.860Z,177064401186002
+"""らねおか @ l218j9GUvI"" collected 20 from pot",2026-02-09T13:33:31.860Z,177064401186001
+"Uncalled bet of 10 returned to ""らねおか @ l218j9GUvI""",2026-02-09T13:33:31.860Z,177064401186000
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:33:31.017Z,177064401101700
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:33:26.876Z,177064400687600
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:33:25.414Z,177064400541400
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:33:21.478Z,177064400147800
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:33:20.069Z,177064400006900
+"""らねおか @ l218j9GUvI"" posts a big blind of 20",2026-02-09T13:33:17.948Z,177064399794810
+"""ほたるいか @ 6weTfFBYpF"" posts a small blind of 10",2026-02-09T13:33:17.948Z,177064399794809
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2210) | #2 ""らねおか @ l218j9GUvI"" (3140) | #4 ""Ramune @ soKGYfNQsD"" (2184) | #7 ""Hinano @ WeOKnoOueQ"" (2825) | #8 ""okbokujo @ 7rBUr1jNCU"" (2000) | #9 ""sigma @ yHZrsG6l5j"" (2000)",2026-02-09T13:33:17.948Z,177064399794802
+"-- starting hand #26 (id: cbvxmigydrhj)  No Limit Texas Hold'em (dealer: ""sigma @ yHZrsG6l5j"") --",2026-02-09T13:33:17.948Z,177064399794801
+"The admin updated the player ""sigma @ yHZrsG6l5j"" stack from 1970 to 2000.",2026-02-09T13:33:17.948Z,177064399794800
+"-- ending hand #25 --",2026-02-09T13:33:15.024Z,177064399502402
+"""ほたるいか @ 6weTfFBYpF"" collected 20 from pot",2026-02-09T13:33:15.024Z,177064399502401
+"Uncalled bet of 10 returned to ""ほたるいか @ 6weTfFBYpF""",2026-02-09T13:33:15.024Z,177064399502400
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:33:14.220Z,177064399422000
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:33:13.221Z,177064399322100
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:33:11.245Z,177064399124500
+"WARNING: the admin queued the stack change for the player ""sigma @ yHZrsG6l5j"" reseting to 2000 chips in the next hand.",2026-02-09T13:33:07.754Z,177064398775400
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:33:07.630Z,177064398763000
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:33:06.615Z,177064398661500
+"""ほたるいか @ 6weTfFBYpF"" posts a big blind of 20",2026-02-09T13:33:05.341Z,177064398534110
+"""sigma @ yHZrsG6l5j"" posts a small blind of 10",2026-02-09T13:33:05.341Z,177064398534109
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2200) | #2 ""らねおか @ l218j9GUvI"" (3140) | #4 ""Ramune @ soKGYfNQsD"" (2184) | #7 ""Hinano @ WeOKnoOueQ"" (2825) | #8 ""okbokujo @ 7rBUr1jNCU"" (2000) | #9 ""sigma @ yHZrsG6l5j"" (1980)",2026-02-09T13:33:05.341Z,177064398534102
+"-- starting hand #25 (id: 8n8uekiqkpsn)  No Limit Texas Hold'em (dealer: ""okbokujo @ 7rBUr1jNCU"") --",2026-02-09T13:33:05.341Z,177064398534101
+"The admin updated the player ""okbokujo @ 7rBUr1jNCU"" stack from 1960 to 2000.",2026-02-09T13:33:05.341Z,177064398534100
+"-- ending hand #24 --",2026-02-09T13:33:02.366Z,177064398236602
+"""Hinano @ WeOKnoOueQ"" collected 350 from pot",2026-02-09T13:33:02.366Z,177064398236601
+"Uncalled bet of 270 returned to ""Hinano @ WeOKnoOueQ""",2026-02-09T13:33:02.366Z,177064398236600
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:33:01.560Z,177064398156000
+"""Hinano @ WeOKnoOueQ"" bets 270",2026-02-09T13:32:38.362Z,177064395836200
+"""Ramune @ soKGYfNQsD"" checks",2026-02-09T13:32:28.471Z,177064394847100
+"River: 3♦, 2♣, 2♥, K♣ [A♣]",2026-02-09T13:32:27.488Z,177064394748800
+"""Ramune @ soKGYfNQsD"" calls 105",2026-02-09T13:32:26.653Z,177064394665300
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:32:20.188Z,177064394018800
+"""Hinano @ WeOKnoOueQ"" bets 105",2026-02-09T13:32:16.982Z,177064393698200
+"""Ramune @ soKGYfNQsD"" checks",2026-02-09T13:31:58.298Z,177064391829800
+"""okbokujo @ 7rBUr1jNCU"" checks",2026-02-09T13:31:55.723Z,177064391572300
+"Turn: 3♦, 2♣, 2♥ [K♣]",2026-02-09T13:31:53.894Z,177064391389400
+"""Hinano @ WeOKnoOueQ"" checks",2026-02-09T13:31:53.000Z,177064391300000
+"""Ramune @ soKGYfNQsD"" checks",2026-02-09T13:31:50.981Z,177064391098100
+"""okbokujo @ 7rBUr1jNCU"" checks",2026-02-09T13:31:49.020Z,177064390902000
+"Flop:  [3♦, 2♣, 2♥]",2026-02-09T13:31:46.864Z,177064390686400
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:31:46.057Z,177064390605700
+"""okbokujo @ 7rBUr1jNCU"" calls 40",2026-02-09T13:31:45.021Z,177064390502100
+"""Hinano @ WeOKnoOueQ"" calls 40",2026-02-09T13:31:42.250Z,177064390225000
+"""Ramune @ soKGYfNQsD"" raises to 40",2026-02-09T13:31:34.288Z,177064389428800
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:31:30.049Z,177064389004900
+"WARNING: the admin queued the stack change for the player ""okbokujo @ 7rBUr1jNCU"" reseting to 2000 chips in the next hand.",2026-02-09T13:31:29.733Z,177064388973300
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:31:29.001Z,177064388900100
+"""sigma @ yHZrsG6l5j"" posts a big blind of 20",2026-02-09T13:31:26.756Z,177064388675610
+"""okbokujo @ 7rBUr1jNCU"" posts a small blind of 10",2026-02-09T13:31:26.756Z,177064388675609
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2200) | #2 ""らねおか @ l218j9GUvI"" (3140) | #4 ""Ramune @ soKGYfNQsD"" (2329) | #7 ""Hinano @ WeOKnoOueQ"" (2620) | #8 ""okbokujo @ 7rBUr1jNCU"" (2000) | #9 ""sigma @ yHZrsG6l5j"" (2000)",2026-02-09T13:31:26.756Z,177064388675602
+"-- starting hand #24 (id: bvb4cmkfiawq)  No Limit Texas Hold'em (dealer: ""Hinano @ WeOKnoOueQ"") --",2026-02-09T13:31:26.756Z,177064388675601
+"The admin updated the player ""okbokujo @ 7rBUr1jNCU"" stack from 2010 to 2000.",2026-02-09T13:31:26.756Z,177064388675600
+"-- ending hand #23 --",2026-02-09T13:31:23.848Z,177064388384802
+"""okbokujo @ 7rBUr1jNCU"" collected 20 from pot",2026-02-09T13:31:23.848Z,177064388384801
+"Uncalled bet of 10 returned to ""okbokujo @ 7rBUr1jNCU""",2026-02-09T13:31:23.848Z,177064388384800
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:31:22.999Z,177064388299900
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:31:19.839Z,177064387983900
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:31:17.540Z,177064387754000
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:31:14.616Z,177064387461600
+"WARNING: the admin queued the stack change for the player ""okbokujo @ 7rBUr1jNCU"" reseting to 2000 chips in the next hand.",2026-02-09T13:31:14.587Z,177064387458700
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:31:13.109Z,177064387310900
+"""okbokujo @ 7rBUr1jNCU"" posts a big blind of 20",2026-02-09T13:31:11.146Z,177064387114609
+"""Hinano @ WeOKnoOueQ"" posts a small blind of 10",2026-02-09T13:31:11.146Z,177064387114608
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2200) | #2 ""らねおか @ l218j9GUvI"" (3140) | #4 ""Ramune @ soKGYfNQsD"" (2329) | #7 ""Hinano @ WeOKnoOueQ"" (2630) | #8 ""okbokujo @ 7rBUr1jNCU"" (2000) | #9 ""sigma @ yHZrsG6l5j"" (2000)",2026-02-09T13:31:11.146Z,177064387114601
+"-- starting hand #23 (id: unww9llsjp0d)  No Limit Texas Hold'em (dealer: ""Ramune @ soKGYfNQsD"") --",2026-02-09T13:31:11.146Z,177064387114600
+"-- ending hand #22 --",2026-02-09T13:31:08.243Z,177064386824302
+"""Ramune @ soKGYfNQsD"" collected 120 from pot",2026-02-09T13:31:08.243Z,177064386824301
+"Uncalled bet of 150 returned to ""Ramune @ soKGYfNQsD""",2026-02-09T13:31:08.243Z,177064386824300
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:31:07.400Z,177064386740000
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:31:04.900Z,177064386490000
+"""Ramune @ soKGYfNQsD"" raises to 200",2026-02-09T13:31:03.750Z,177064386375000
+"""らねおか @ l218j9GUvI"" raises to 50",2026-02-09T13:30:52.818Z,177064385281800
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:30:49.797Z,177064384979700
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:30:47.890Z,177064384789000
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:30:46.878Z,177064384687800
+"""Hinano @ WeOKnoOueQ"" posts a big blind of 20",2026-02-09T13:30:44.803Z,177064384480309
+"""Ramune @ soKGYfNQsD"" posts a small blind of 10",2026-02-09T13:30:44.803Z,177064384480308
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2200) | #2 ""らねおか @ l218j9GUvI"" (3190) | #4 ""Ramune @ soKGYfNQsD"" (2259) | #7 ""Hinano @ WeOKnoOueQ"" (2650) | #8 ""okbokujo @ 7rBUr1jNCU"" (2000) | #9 ""sigma @ yHZrsG6l5j"" (2000)",2026-02-09T13:30:44.803Z,177064384480301
+"-- starting hand #22 (id: vkacodww7iy7)  No Limit Texas Hold'em (dealer: ""らねおか @ l218j9GUvI"") --",2026-02-09T13:30:44.803Z,177064384480300
+"-- ending hand #21 --",2026-02-09T13:30:41.841Z,177064384184102
+"""Ramune @ soKGYfNQsD"" collected 20 from pot",2026-02-09T13:30:41.841Z,177064384184101
+"Uncalled bet of 10 returned to ""Ramune @ soKGYfNQsD""",2026-02-09T13:30:41.841Z,177064384184100
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:30:41.011Z,177064384101100
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:30:39.936Z,177064383993600
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:30:35.576Z,177064383557600
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:30:33.503Z,177064383350300
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:30:31.116Z,177064383111600
+"""Ramune @ soKGYfNQsD"" posts a big blind of 20",2026-02-09T13:30:28.191Z,177064382819109
+"""らねおか @ l218j9GUvI"" posts a small blind of 10",2026-02-09T13:30:28.191Z,177064382819108
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2200) | #2 ""らねおか @ l218j9GUvI"" (3200) | #4 ""Ramune @ soKGYfNQsD"" (2249) | #7 ""Hinano @ WeOKnoOueQ"" (2650) | #8 ""okbokujo @ 7rBUr1jNCU"" (2000) | #9 ""sigma @ yHZrsG6l5j"" (2000)",2026-02-09T13:30:28.191Z,177064382819101
+"-- starting hand #21 (id: 3hsbdjyeq0k6)  No Limit Texas Hold'em (dealer: ""ほたるいか @ 6weTfFBYpF"") --",2026-02-09T13:30:28.191Z,177064382819100
+"-- ending hand #20 --",2026-02-09T13:30:25.191Z,177064382519102
+"""Ramune @ soKGYfNQsD"" collected 90 from pot",2026-02-09T13:30:25.191Z,177064382519101
+"Uncalled bet of 50 returned to ""Ramune @ soKGYfNQsD""",2026-02-09T13:30:25.191Z,177064382519100
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:30:24.354Z,177064382435400
+"""Ramune @ soKGYfNQsD"" bets 50",2026-02-09T13:30:23.077Z,177064382307700
+"""らねおか @ l218j9GUvI"" checks",2026-02-09T13:30:13.085Z,177064381308500
+"River: 5♦, Q♦, 8♦, K♦ [J♣]",2026-02-09T13:30:02.554Z,177064380255400
+"""Ramune @ soKGYfNQsD"" checks",2026-02-09T13:30:01.647Z,177064380164700
+"""らねおか @ l218j9GUvI"" checks",2026-02-09T13:29:59.180Z,177064379918000
+"Turn: 5♦, Q♦, 8♦ [K♦]",2026-02-09T13:29:57.237Z,177064379723700
+"""Ramune @ soKGYfNQsD"" checks",2026-02-09T13:29:56.365Z,177064379636500
+"""らねおか @ l218j9GUvI"" checks",2026-02-09T13:29:52.439Z,177064379243900
+"Flop:  [5♦, Q♦, 8♦]",2026-02-09T13:29:50.892Z,177064379089200
+"""らねおか @ l218j9GUvI"" calls 40",2026-02-09T13:29:50.081Z,177064379008100
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:29:46.032Z,177064378603200
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:29:19.605Z,177064375960500
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:29:18.535Z,177064375853500
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:29:16.738Z,177064375673800
+"""Ramune @ soKGYfNQsD"" raises to 40",2026-02-09T13:29:12.929Z,177064375292900
+"""らねおか @ l218j9GUvI"" posts a big blind of 20",2026-02-09T13:29:10.383Z,177064375038310
+"""ほたるいか @ 6weTfFBYpF"" posts a small blind of 10",2026-02-09T13:29:10.383Z,177064375038309
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2210) | #2 ""らねおか @ l218j9GUvI"" (3240) | #4 ""Ramune @ soKGYfNQsD"" (2199) | #7 ""Hinano @ WeOKnoOueQ"" (2650) | #8 ""okbokujo @ 7rBUr1jNCU"" (2000) | #9 ""sigma @ yHZrsG6l5j"" (2000)",2026-02-09T13:29:10.383Z,177064375038302
+"-- starting hand #20 (id: kwzssd23ld2s)  No Limit Texas Hold'em (dealer: ""sigma @ yHZrsG6l5j"") --",2026-02-09T13:29:10.383Z,177064375038301
+"The admin updated the player ""sigma @ yHZrsG6l5j"" stack from 1990 to 2000.",2026-02-09T13:29:10.383Z,177064375038300
+"-- ending hand #19 --",2026-02-09T13:29:07.416Z,177064374741602
+"""らねおか @ l218j9GUvI"" collected 90 from pot",2026-02-09T13:29:07.416Z,177064374741601
+"Uncalled bet of 60 returned to ""らねおか @ l218j9GUvI""",2026-02-09T13:29:07.416Z,177064374741600
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:29:06.597Z,177064374659700
+"""らねおか @ l218j9GUvI"" bets 60",2026-02-09T13:28:50.189Z,177064373018900
+"""ほたるいか @ 6weTfFBYpF"" checks",2026-02-09T13:28:25.637Z,177064370563700
+"River: 7♥, 9♠, A♣, K♦ [6♦]",2026-02-09T13:28:22.907Z,177064370290700
+"""らねおか @ l218j9GUvI"" checks",2026-02-09T13:28:22.070Z,177064370207000
+"""ほたるいか @ 6weTfFBYpF"" checks",2026-02-09T13:28:20.882Z,177064370088200
+"Turn: 7♥, 9♠, A♣ [K♦]",2026-02-09T13:28:18.180Z,177064369818000
+"""らねおか @ l218j9GUvI"" checks",2026-02-09T13:28:17.365Z,177064369736500
+"""ほたるいか @ 6weTfFBYpF"" checks",2026-02-09T13:28:15.179Z,177064369517900
+"Flop:  [7♥, 9♠, A♣]",2026-02-09T13:28:13.095Z,177064369309500
+"""ほたるいか @ 6weTfFBYpF"" calls 40",2026-02-09T13:28:12.265Z,177064369226500
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:28:10.086Z,177064369008600
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:28:09.026Z,177064368902600
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:28:07.418Z,177064368741800
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:28:06.309Z,177064368630900
+"WARNING: the admin queued the stack change for the player ""sigma @ yHZrsG6l5j"" reseting to 2000 chips in the next hand.",2026-02-09T13:28:05.966Z,177064368596600
+"""らねおか @ l218j9GUvI"" raises to 40",2026-02-09T13:28:05.245Z,177064368524500
+"""ほたるいか @ 6weTfFBYpF"" posts a big blind of 20",2026-02-09T13:28:02.934Z,177064368293411
+"""sigma @ yHZrsG6l5j"" posts a small blind of 10",2026-02-09T13:28:02.934Z,177064368293410
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2250) | #2 ""らねおか @ l218j9GUvI"" (3190) | #4 ""Ramune @ soKGYfNQsD"" (2199) | #7 ""Hinano @ WeOKnoOueQ"" (2650) | #8 ""okbokujo @ 7rBUr1jNCU"" (2000) | #9 ""sigma @ yHZrsG6l5j"" (2000)",2026-02-09T13:28:02.934Z,177064368293403
+"-- starting hand #19 (id: kx8pxq2udh3e)  No Limit Texas Hold'em (dealer: ""okbokujo @ 7rBUr1jNCU"") --",2026-02-09T13:28:02.934Z,177064368293402
+"The admin updated the player ""sigma @ yHZrsG6l5j"" stack from 2140 to 2000.",2026-02-09T13:28:02.934Z,177064368293401
+"The admin updated the player ""okbokujo @ 7rBUr1jNCU"" stack from 1990 to 2000.",2026-02-09T13:28:02.934Z,177064368293400
+"-- ending hand #18 --",2026-02-09T13:27:56.909Z,177064367690902
+"""sigma @ yHZrsG6l5j"" collected 270 from pot with Pair, 10's (combination: 5♥, J♦, K♥, 10♠, 10♦)",2026-02-09T13:27:56.909Z,177064367690901
+"""sigma @ yHZrsG6l5j"" shows a J♦, 10♠.",2026-02-09T13:27:56.909Z,177064367690900
+"""Ramune @ soKGYfNQsD"" calls 60",2026-02-09T13:27:56.062Z,177064367606200
+"""sigma @ yHZrsG6l5j"" bets 60",2026-02-09T13:27:31.048Z,177064365104800
+"River: 3♣, 10♦, K♥, 5♥ [2♣]",2026-02-09T13:27:01.918Z,177064362191800
+"""Ramune @ soKGYfNQsD"" checks",2026-02-09T13:27:01.074Z,177064362107400
+"""sigma @ yHZrsG6l5j"" checks",2026-02-09T13:26:51.429Z,177064361142900
+"Turn: 3♣, 10♦, K♥ [5♥]",2026-02-09T13:26:48.355Z,177064360835500
+"""sigma @ yHZrsG6l5j"" calls 30",2026-02-09T13:26:47.522Z,177064360752200
+"""Ramune @ soKGYfNQsD"" bets 30",2026-02-09T13:26:37.305Z,177064359730500
+"""sigma @ yHZrsG6l5j"" checks",2026-02-09T13:26:31.000Z,177064359100000
+"Flop:  [3♣, 10♦, K♥]",2026-02-09T13:26:22.415Z,177064358241500
+"""sigma @ yHZrsG6l5j"" calls 40",2026-02-09T13:26:21.571Z,177064358157100
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:26:15.704Z,177064357570400
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:26:12.923Z,177064357292300
+"""Ramune @ soKGYfNQsD"" raises to 40",2026-02-09T13:26:11.831Z,177064357183100
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:26:06.367Z,177064356636700
+"WARNING: the admin queued the stack change for the player ""sigma @ yHZrsG6l5j"" reseting to 2000 chips in the next hand.",2026-02-09T13:26:05.912Z,177064356591200
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:26:05.348Z,177064356534800
+"WARNING: the admin queued the stack change for the player ""okbokujo @ 7rBUr1jNCU"" reseting to 2000 chips in the next hand.",2026-02-09T13:26:04.660Z,177064356466000
+"""sigma @ yHZrsG6l5j"" posts a big blind of 20",2026-02-09T13:26:01.705Z,177064356170510
+"""okbokujo @ 7rBUr1jNCU"" posts a small blind of 10",2026-02-09T13:26:01.705Z,177064356170509
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2250) | #2 ""らねおか @ l218j9GUvI"" (3190) | #4 ""Ramune @ soKGYfNQsD"" (2329) | #7 ""Hinano @ WeOKnoOueQ"" (2650) | #8 ""okbokujo @ 7rBUr1jNCU"" (2000) | #9 ""sigma @ yHZrsG6l5j"" (2000)",2026-02-09T13:26:01.705Z,177064356170502
+"-- starting hand #18 (id: nryt6ffbkrjt)  No Limit Texas Hold'em (dealer: ""Hinano @ WeOKnoOueQ"") --",2026-02-09T13:26:01.705Z,177064356170501
+"The admin updated the player ""okbokujo @ 7rBUr1jNCU"" stack from 2060 to 2000.",2026-02-09T13:26:01.705Z,177064356170500
+"-- ending hand #17 --",2026-02-09T13:25:58.786Z,177064355878602
+"""okbokujo @ 7rBUr1jNCU"" collected 230 from pot",2026-02-09T13:25:58.786Z,177064355878601
+"Uncalled bet of 180 returned to ""okbokujo @ 7rBUr1jNCU""",2026-02-09T13:25:58.786Z,177064355878600
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:25:57.980Z,177064355798000
+"""okbokujo @ 7rBUr1jNCU"" bets 180",2026-02-09T13:25:56.551Z,177064355655100
+"River: 10♠, 4♦, 6♠, 8♠ [J♠]",2026-02-09T13:25:48.979Z,177064354897900
+"""Ramune @ soKGYfNQsD"" calls 60",2026-02-09T13:25:48.162Z,177064354816200
+"""okbokujo @ 7rBUr1jNCU"" bets 60",2026-02-09T13:25:42.735Z,177064354273500
+"Turn: 10♠, 4♦, 6♠ [8♠]",2026-02-09T13:25:30.934Z,177064353093400
+"""Ramune @ soKGYfNQsD"" checks",2026-02-09T13:25:30.076Z,177064353007600
+"""okbokujo @ 7rBUr1jNCU"" checks",2026-02-09T13:25:25.792Z,177064352579200
+"Flop:  [10♠, 4♦, 6♠]",2026-02-09T13:25:23.064Z,177064352306400
+"""okbokujo @ 7rBUr1jNCU"" calls 50",2026-02-09T13:25:22.248Z,177064352224800
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:25:19.894Z,177064351989400
+"""Ramune @ soKGYfNQsD"" raises to 50",2026-02-09T13:25:18.775Z,177064351877500
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:25:15.937Z,177064351593700
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:25:14.881Z,177064351488100
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:25:13.861Z,177064351386100
+"WARNING: the admin queued the stack change for the player ""okbokujo @ 7rBUr1jNCU"" reseting to 2000 chips in the next hand.",2026-02-09T13:25:02.923Z,177064350292300
+"""okbokujo @ 7rBUr1jNCU"" posts a big blind of 20",2026-02-09T13:25:00.106Z,177064350010609
+"""Hinano @ WeOKnoOueQ"" posts a small blind of 10",2026-02-09T13:25:00.106Z,177064350010608
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2250) | #2 ""らねおか @ l218j9GUvI"" (3190) | #4 ""Ramune @ soKGYfNQsD"" (2439) | #7 ""Hinano @ WeOKnoOueQ"" (2660) | #8 ""okbokujo @ 7rBUr1jNCU"" (1940) | #9 ""sigma @ yHZrsG6l5j"" (2000)",2026-02-09T13:25:00.106Z,177064350010601
+"-- starting hand #17 (id: 51mp8lsyhghk)  No Limit Texas Hold'em (dealer: ""Ramune @ soKGYfNQsD"") --",2026-02-09T13:25:00.106Z,177064350010600
+"-- ending hand #16 --",2026-02-09T13:24:57.189Z,177064349718902
+"""Ramune @ soKGYfNQsD"" collected 140 from pot",2026-02-09T13:24:57.189Z,177064349718901
+"Uncalled bet of 180 returned to ""Ramune @ soKGYfNQsD""",2026-02-09T13:24:57.189Z,177064349718900
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:24:56.369Z,177064349636900
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:24:54.285Z,177064349428500
+"""Ramune @ soKGYfNQsD"" raises to 240",2026-02-09T13:24:47.666Z,177064348766600
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:24:43.121Z,177064348312100
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:24:40.697Z,177064348069700
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:24:39.615Z,177064347961500
+"""okbokujo @ 7rBUr1jNCU"" raises to 60",2026-02-09T13:24:38.384Z,177064347838400
+"""Hinano @ WeOKnoOueQ"" posts a big blind of 20",2026-02-09T13:24:33.113Z,177064347311310
+"""Ramune @ soKGYfNQsD"" posts a small blind of 10",2026-02-09T13:24:33.113Z,177064347311309
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2250) | #2 ""らねおか @ l218j9GUvI"" (3190) | #4 ""Ramune @ soKGYfNQsD"" (2359) | #7 ""Hinano @ WeOKnoOueQ"" (2680) | #8 ""okbokujo @ 7rBUr1jNCU"" (2000) | #9 ""sigma @ yHZrsG6l5j"" (2000)",2026-02-09T13:24:33.113Z,177064347311302
+"-- starting hand #16 (id: 7o2fsdsjqwko)  No Limit Texas Hold'em (dealer: ""らねおか @ l218j9GUvI"") --",2026-02-09T13:24:33.113Z,177064347311301
+"The admin updated the player ""sigma @ yHZrsG6l5j"" stack from 1950 to 2000.",2026-02-09T13:24:33.113Z,177064347311300
+"-- ending hand #15 --",2026-02-09T13:24:27.109Z,177064346710902
+"""らねおか @ l218j9GUvI"" collected 40 from pot with Two Pair, K's & J's (combination: 10♠, J♣, J♥, K♠, K♣)",2026-02-09T13:24:27.109Z,177064346710901
+"""らねおか @ l218j9GUvI"" shows a 10♠, 3♠.",2026-02-09T13:24:27.109Z,177064346710900
+"""Ramune @ soKGYfNQsD"" checks",2026-02-09T13:24:26.289Z,177064346628900
+"""らねおか @ l218j9GUvI"" checks",2026-02-09T13:24:24.681Z,177064346468100
+"River: J♣, 6♥, J♥, K♠ [K♣]",2026-02-09T13:24:22.228Z,177064346222800
+"""Ramune @ soKGYfNQsD"" checks",2026-02-09T13:24:21.426Z,177064346142600
+"""らねおか @ l218j9GUvI"" checks",2026-02-09T13:24:17.462Z,177064345746200
+"Turn: J♣, 6♥, J♥ [K♠]",2026-02-09T13:24:15.357Z,177064345535700
+"""Ramune @ soKGYfNQsD"" checks",2026-02-09T13:24:14.517Z,177064345451700
+"""らねおか @ l218j9GUvI"" checks",2026-02-09T13:24:10.441Z,177064345044100
+"Flop:  [J♣, 6♥, J♥]",2026-02-09T13:24:08.794Z,177064344879400
+"""Ramune @ soKGYfNQsD"" checks",2026-02-09T13:24:07.957Z,177064344795700
+"""らねおか @ l218j9GUvI"" calls 20",2026-02-09T13:24:06.903Z,177064344690300
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:24:04.615Z,177064344461500
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:24:03.602Z,177064344360200
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:24:02.575Z,177064344257500
+"WARNING: the admin queued the stack change for the player ""sigma @ yHZrsG6l5j"" reseting to 2000 chips in the next hand.",2026-02-09T13:24:00.564Z,177064344056400
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:24:00.094Z,177064344009400
+"""Ramune @ soKGYfNQsD"" posts a big blind of 20",2026-02-09T13:23:58.108Z,177064343810809
+"""らねおか @ l218j9GUvI"" posts a small blind of 10",2026-02-09T13:23:58.108Z,177064343810808
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2250) | #2 ""らねおか @ l218j9GUvI"" (3170) | #4 ""Ramune @ soKGYfNQsD"" (2379) | #7 ""Hinano @ WeOKnoOueQ"" (2680) | #8 ""okbokujo @ 7rBUr1jNCU"" (2000) | #9 ""sigma @ yHZrsG6l5j"" (1950)",2026-02-09T13:23:58.108Z,177064343810801
+"-- starting hand #15 (id: b3nfq73jftpc)  No Limit Texas Hold'em (dealer: ""ほたるいか @ 6weTfFBYpF"") --",2026-02-09T13:23:58.108Z,177064343810800
+"-- ending hand #14 --",2026-02-09T13:23:55.163Z,177064343516302
+"""ほたるいか @ 6weTfFBYpF"" collected 120 from pot",2026-02-09T13:23:55.163Z,177064343516301
+"Uncalled bet of 190 returned to ""ほたるいか @ 6weTfFBYpF""",2026-02-09T13:23:55.163Z,177064343516300
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:23:54.356Z,177064343435600
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:23:53.324Z,177064343332400
+"""ほたるいか @ 6weTfFBYpF"" raises to 240",2026-02-09T13:23:51.231Z,177064343123100
+"""sigma @ yHZrsG6l5j"" raises to 50",2026-02-09T13:23:29.471Z,177064340947100
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:23:25.335Z,177064340533500
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:23:23.245Z,177064340324500
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:23:21.867Z,177064340186700
+"""らねおか @ l218j9GUvI"" posts a big blind of 20",2026-02-09T13:23:19.076Z,177064339907610
+"""ほたるいか @ 6weTfFBYpF"" posts a small blind of 10",2026-02-09T13:23:19.076Z,177064339907609
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2180) | #2 ""らねおか @ l218j9GUvI"" (3190) | #4 ""Ramune @ soKGYfNQsD"" (2379) | #7 ""Hinano @ WeOKnoOueQ"" (2680) | #8 ""okbokujo @ 7rBUr1jNCU"" (2000) | #9 ""sigma @ yHZrsG6l5j"" (2000)",2026-02-09T13:23:19.076Z,177064339907602
+"-- starting hand #14 (id: dp7tllx3o80s)  No Limit Texas Hold'em (dealer: ""sigma @ yHZrsG6l5j"") --",2026-02-09T13:23:19.076Z,177064339907601
+"The admin updated the player ""sigma @ yHZrsG6l5j"" stack from 1990 to 2000.",2026-02-09T13:23:19.076Z,177064339907600
+"-- ending hand #13 --",2026-02-09T13:23:16.131Z,177064339613102
+"""ほたるいか @ 6weTfFBYpF"" collected 20 from pot",2026-02-09T13:23:16.131Z,177064339613101
+"Uncalled bet of 10 returned to ""ほたるいか @ 6weTfFBYpF""",2026-02-09T13:23:16.131Z,177064339613100
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:23:15.319Z,177064339531900
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:23:14.281Z,177064339428100
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:23:12.388Z,177064339238800
+"WARNING: the admin queued the stack change for the player ""sigma @ yHZrsG6l5j"" reseting to 2000 chips in the next hand.",2026-02-09T13:22:49.526Z,177064336952600
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:22:47.685Z,177064336768500
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:22:46.668Z,177064336666800
+"""ほたるいか @ 6weTfFBYpF"" posts a big blind of 20",2026-02-09T13:22:45.453Z,177064336545311
+"""sigma @ yHZrsG6l5j"" posts a small blind of 10",2026-02-09T13:22:45.453Z,177064336545310
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2170) | #2 ""らねおか @ l218j9GUvI"" (3190) | #4 ""Ramune @ soKGYfNQsD"" (2379) | #7 ""Hinano @ WeOKnoOueQ"" (2680) | #8 ""okbokujo @ 7rBUr1jNCU"" (2000) | #9 ""sigma @ yHZrsG6l5j"" (2000)",2026-02-09T13:22:45.453Z,177064336545303
+"-- starting hand #13 (id: dqonupbczmr9)  No Limit Texas Hold'em (dealer: ""okbokujo @ 7rBUr1jNCU"") --",2026-02-09T13:22:45.453Z,177064336545302
+"The admin updated the player ""sigma @ yHZrsG6l5j"" stack from 1875 to 2000.",2026-02-09T13:22:45.453Z,177064336545301
+"The admin updated the player ""okbokujo @ 7rBUr1jNCU"" stack from 1990 to 2000.",2026-02-09T13:22:45.453Z,177064336545300
+"-- ending hand #12 --",2026-02-09T13:22:39.451Z,177064335945103
+"""ほたるいか @ 6weTfFBYpF"" collected 270 from pot with A High (combination: 5♥, 8♦, J♠, Q♦, A♦)",2026-02-09T13:22:39.451Z,177064335945102
+"""ほたるいか @ 6weTfFBYpF"" shows a J♠, A♦.",2026-02-09T13:22:39.451Z,177064335945101
+"""sigma @ yHZrsG6l5j"" shows a 9♠, K♠.",2026-02-09T13:22:39.451Z,177064335945100
+"""ほたるいか @ 6weTfFBYpF"" calls 90",2026-02-09T13:22:38.614Z,177064335861400
+"""sigma @ yHZrsG6l5j"" bets 90",2026-02-09T13:22:32.364Z,177064335236400
+"River: Q♦, 5♥, 8♦, 2♦ [3♥]",2026-02-09T13:21:54.016Z,177064331401600
+"""ほたるいか @ 6weTfFBYpF"" checks",2026-02-09T13:21:53.167Z,177064331316700
+"""sigma @ yHZrsG6l5j"" checks",2026-02-09T13:21:50.494Z,177064331049400
+"Turn: Q♦, 5♥, 8♦ [2♦]",2026-02-09T13:21:33.980Z,177064329398000
+"""ほたるいか @ 6weTfFBYpF"" checks",2026-02-09T13:21:33.147Z,177064329314700
+"""sigma @ yHZrsG6l5j"" checks",2026-02-09T13:21:12.730Z,177064327273000
+"Flop:  [Q♦, 5♥, 8♦]",2026-02-09T13:20:56.736Z,177064325673600
+"""sigma @ yHZrsG6l5j"" calls 40",2026-02-09T13:20:55.852Z,177064325585200
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:20:49.896Z,177064324989600
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:20:47.821Z,177064324782100
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:20:46.772Z,177064324677200
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:20:45.742Z,177064324574200
+"""ほたるいか @ 6weTfFBYpF"" raises to 40",2026-02-09T13:20:42.713Z,177064324271300
+"WARNING: the admin queued the stack change for the player ""sigma @ yHZrsG6l5j"" reseting to 2000 chips in the next hand.",2026-02-09T13:20:37.194Z,177064323719400
+"WARNING: the admin queued the stack change for the player ""okbokujo @ 7rBUr1jNCU"" reseting to 2000 chips in the next hand.",2026-02-09T13:20:34.167Z,177064323416700
+"""sigma @ yHZrsG6l5j"" posts a big blind of 20",2026-02-09T13:20:31.921Z,177064323192110
+"""okbokujo @ 7rBUr1jNCU"" posts a small blind of 10",2026-02-09T13:20:31.921Z,177064323192109
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2030) | #2 ""らねおか @ l218j9GUvI"" (3190) | #4 ""Ramune @ soKGYfNQsD"" (2379) | #7 ""Hinano @ WeOKnoOueQ"" (2680) | #8 ""okbokujo @ 7rBUr1jNCU"" (2000) | #9 ""sigma @ yHZrsG6l5j"" (2005)",2026-02-09T13:20:31.921Z,177064323192102
+"-- starting hand #12 (id: ssvhkafm2ovq)  No Limit Texas Hold'em (dealer: ""Hinano @ WeOKnoOueQ"") --",2026-02-09T13:20:31.921Z,177064323192101
+"The admin updated the player ""okbokujo @ 7rBUr1jNCU"" stack from 2096 to 2000.",2026-02-09T13:20:31.921Z,177064323192100
+"-- ending hand #11 --",2026-02-09T13:20:28.953Z,177064322895302
+"""okbokujo @ 7rBUr1jNCU"" collected 182 from pot",2026-02-09T13:20:28.953Z,177064322895301
+"Uncalled bet of 200 returned to ""okbokujo @ 7rBUr1jNCU""",2026-02-09T13:20:28.953Z,177064322895300
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:20:28.149Z,177064322814900
+"""okbokujo @ 7rBUr1jNCU"" bets 200",2026-02-09T13:20:23.876Z,177064322387600
+"River: 2♦, 7♣, 9♦, 6♣ [5♠]",2026-02-09T13:20:16.712Z,177064321671200
+"""Ramune @ soKGYfNQsD"" checks",2026-02-09T13:20:15.805Z,177064321580500
+"""okbokujo @ 7rBUr1jNCU"" checks",2026-02-09T13:20:09.763Z,177064320976300
+"Turn: 2♦, 7♣, 9♦ [6♣]",2026-02-09T13:20:07.365Z,177064320736500
+"""okbokujo @ 7rBUr1jNCU"" calls 36",2026-02-09T13:20:06.560Z,177064320656000
+"""Ramune @ soKGYfNQsD"" bets 36",2026-02-09T13:20:03.884Z,177064320388400
+"""okbokujo @ 7rBUr1jNCU"" checks",2026-02-09T13:19:58.209Z,177064319820900
+"Flop:  [2♦, 7♣, 9♦]",2026-02-09T13:19:55.521Z,177064319552100
+"""okbokujo @ 7rBUr1jNCU"" calls 50",2026-02-09T13:19:54.714Z,177064319471400
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:19:52.092Z,177064319209200
+"""Ramune @ soKGYfNQsD"" raises to 50",2026-02-09T13:19:49.118Z,177064318911800
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:19:39.905Z,177064317990500
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:19:38.905Z,177064317890500
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:19:33.904Z,177064317390400
+"WARNING: the admin queued the stack change for the player ""okbokujo @ 7rBUr1jNCU"" reseting to 2000 chips in the next hand.",2026-02-09T13:19:27.795Z,177064316779500
+"""okbokujo @ 7rBUr1jNCU"" posts a big blind of 20",2026-02-09T13:19:25.091Z,177064316509109
+"""Hinano @ WeOKnoOueQ"" posts a small blind of 10",2026-02-09T13:19:25.091Z,177064316509108
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2030) | #2 ""らねおか @ l218j9GUvI"" (3190) | #4 ""Ramune @ soKGYfNQsD"" (2465) | #7 ""Hinano @ WeOKnoOueQ"" (2690) | #8 ""okbokujo @ 7rBUr1jNCU"" (2000) | #9 ""sigma @ yHZrsG6l5j"" (2005)",2026-02-09T13:19:25.091Z,177064316509101
+"-- starting hand #11 (id: 4cdb5k89ryr7)  No Limit Texas Hold'em (dealer: ""Ramune @ soKGYfNQsD"") --",2026-02-09T13:19:25.091Z,177064316509100
+"-- ending hand #10 --",2026-02-09T13:19:22.174Z,177064316217402
+"""ほたるいか @ 6weTfFBYpF"" collected 50 from pot",2026-02-09T13:19:22.174Z,177064316217401
+"Uncalled bet of 26 returned to ""ほたるいか @ 6weTfFBYpF""",2026-02-09T13:19:22.174Z,177064316217400
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:19:21.370Z,177064316137000
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:19:18.490Z,177064315849000
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:19:17.474Z,177064315747400
+"""ほたるいか @ 6weTfFBYpF"" raises to 46",2026-02-09T13:19:16.465Z,177064315646500
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:19:08.952Z,177064314895200
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:19:07.910Z,177064314791000
+"""Hinano @ WeOKnoOueQ"" posts a big blind of 20",2026-02-09T13:19:04.215Z,177064314421509
+"""Ramune @ soKGYfNQsD"" posts a small blind of 10",2026-02-09T13:19:04.215Z,177064314421508
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2000) | #2 ""らねおか @ l218j9GUvI"" (3190) | #4 ""Ramune @ soKGYfNQsD"" (2475) | #7 ""Hinano @ WeOKnoOueQ"" (2710) | #8 ""okbokujo @ 7rBUr1jNCU"" (2000) | #9 ""sigma @ yHZrsG6l5j"" (2005)",2026-02-09T13:19:04.215Z,177064314421501
+"-- starting hand #10 (id: or9qp3pues8m)  No Limit Texas Hold'em (dealer: ""らねおか @ l218j9GUvI"") --",2026-02-09T13:19:04.215Z,177064314421500
+"-- ending hand #9 --",2026-02-09T13:19:01.265Z,177064314126502
+"""Ramune @ soKGYfNQsD"" collected 20 from pot",2026-02-09T13:19:01.265Z,177064314126501
+"Uncalled bet of 10 returned to ""Ramune @ soKGYfNQsD""",2026-02-09T13:19:01.265Z,177064314126500
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:19:00.440Z,177064314044000
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:18:59.386Z,177064313938600
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:18:58.336Z,177064313833600
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:18:57.317Z,177064313731700
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:18:55.462Z,177064313546200
+"""Ramune @ soKGYfNQsD"" posts a big blind of 20",2026-02-09T13:18:46.606Z,177064312660610
+"""らねおか @ l218j9GUvI"" posts a small blind of 10",2026-02-09T13:18:46.606Z,177064312660609
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2000) | #2 ""らねおか @ l218j9GUvI"" (3200) | #4 ""Ramune @ soKGYfNQsD"" (2465) | #7 ""Hinano @ WeOKnoOueQ"" (2710) | #8 ""okbokujo @ 7rBUr1jNCU"" (2000) | #9 ""sigma @ yHZrsG6l5j"" (2005)",2026-02-09T13:18:46.606Z,177064312660602
+"-- starting hand #9 (id: wzv02llv7afp)  No Limit Texas Hold'em (dealer: ""ほたるいか @ 6weTfFBYpF"") --",2026-02-09T13:18:46.606Z,177064312660601
+"The admin updated the player ""ほたるいか @ 6weTfFBYpF"" stack from 1990 to 2000.",2026-02-09T13:18:46.606Z,177064312660600
+"-- ending hand #8 --",2026-02-09T13:18:40.595Z,177064312059504
+"""sigma @ yHZrsG6l5j"" collected 55 from pot with Pair, 4's (combination: J♥, K♦, A♣, 4♣, 4♠)",2026-02-09T13:18:40.595Z,177064312059503
+"""らねおか @ l218j9GUvI"" collected 55 from pot with Pair, 4's (combination: J♥, K♦, A♦, 4♣, 4♠)",2026-02-09T13:18:40.595Z,177064312059502
+"""sigma @ yHZrsG6l5j"" shows a A♣, 8♥.",2026-02-09T13:18:40.595Z,177064312059501
+"""らねおか @ l218j9GUvI"" shows a 3♦, A♦.",2026-02-09T13:18:40.595Z,177064312059500
+"""sigma @ yHZrsG6l5j"" checks",2026-02-09T13:18:39.790Z,177064311979000
+"""らねおか @ l218j9GUvI"" checks",2026-02-09T13:18:34.512Z,177064311451200
+"River: 4♣, 9♥, 4♠, J♥ [K♦]",2026-02-09T13:18:32.226Z,177064311222600
+"""sigma @ yHZrsG6l5j"" checks",2026-02-09T13:18:31.395Z,177064311139500
+"""らねおか @ l218j9GUvI"" checks",2026-02-09T13:18:17.159Z,177064309715900
+"Turn: 4♣, 9♥, 4♠ [J♥]",2026-02-09T13:18:14.124Z,177064309412400
+"""sigma @ yHZrsG6l5j"" checks",2026-02-09T13:18:13.284Z,177064309328400
+"""らねおか @ l218j9GUvI"" checks",2026-02-09T13:18:02.734Z,177064308273400
+"Flop:  [4♣, 9♥, 4♠]",2026-02-09T13:18:01.064Z,177064308106400
+"""らねおか @ l218j9GUvI"" calls 50",2026-02-09T13:18:00.184Z,177064308018400
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:17:56.864Z,177064307686400
+"""sigma @ yHZrsG6l5j"" raises to 50",2026-02-09T13:17:52.991Z,177064307299100
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:17:47.599Z,177064306759900
+"WARNING: the admin queued the stack change for the player ""ほたるいか @ 6weTfFBYpF"" reseting to 2000 chips in the next hand.",2026-02-09T13:17:45.856Z,177064306585600
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:17:45.531Z,177064306553100
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:17:44.409Z,177064306440900
+"""らねおか @ l218j9GUvI"" posts a big blind of 20",2026-02-09T13:17:43.155Z,177064306315511
+"""ほたるいか @ 6weTfFBYpF"" posts a small blind of 10",2026-02-09T13:17:43.155Z,177064306315510
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2000) | #2 ""らねおか @ l218j9GUvI"" (3195) | #4 ""Ramune @ soKGYfNQsD"" (2465) | #7 ""Hinano @ WeOKnoOueQ"" (2710) | #8 ""okbokujo @ 7rBUr1jNCU"" (2000) | #9 ""sigma @ yHZrsG6l5j"" (2000)",2026-02-09T13:17:43.155Z,177064306315503
+"-- starting hand #8 (id: ixunhhncbwkm)  No Limit Texas Hold'em (dealer: ""sigma @ yHZrsG6l5j"") --",2026-02-09T13:17:43.155Z,177064306315502
+"The admin updated the player ""sigma @ yHZrsG6l5j"" stack from 1990 to 2000.",2026-02-09T13:17:43.155Z,177064306315501
+"The admin updated the player ""ほたるいか @ 6weTfFBYpF"" stack from 2010 to 2000.",2026-02-09T13:17:43.155Z,177064306315500
+"-- ending hand #7 --",2026-02-09T13:17:40.243Z,177064306024302
+"""ほたるいか @ 6weTfFBYpF"" collected 20 from pot",2026-02-09T13:17:40.243Z,177064306024301
+"Uncalled bet of 10 returned to ""ほたるいか @ 6weTfFBYpF""",2026-02-09T13:17:40.243Z,177064306024300
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:17:39.430Z,177064305943000
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:17:38.364Z,177064305836400
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:17:36.121Z,177064305612100
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:17:35.086Z,177064305508600
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:17:34.065Z,177064305406500
+"WARNING: the admin queued the stack change for the player ""sigma @ yHZrsG6l5j"" reseting to 2000 chips in the next hand.",2026-02-09T13:17:33.683Z,177064305368300
+"WARNING: the admin queued the stack change for the player ""ほたるいか @ 6weTfFBYpF"" reseting to 2000 chips in the next hand.",2026-02-09T13:17:32.424Z,177064305242400
+"""ほたるいか @ 6weTfFBYpF"" posts a big blind of 20",2026-02-09T13:17:29.744Z,177064304974411
+"""sigma @ yHZrsG6l5j"" posts a small blind of 10",2026-02-09T13:17:29.744Z,177064304974410
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2000) | #2 ""らねおか @ l218j9GUvI"" (3195) | #4 ""Ramune @ soKGYfNQsD"" (2465) | #7 ""Hinano @ WeOKnoOueQ"" (2710) | #8 ""okbokujo @ 7rBUr1jNCU"" (2000) | #9 ""sigma @ yHZrsG6l5j"" (2000)",2026-02-09T13:17:29.744Z,177064304974403
+"-- starting hand #7 (id: r3tdmlbyf9gi)  No Limit Texas Hold'em (dealer: ""okbokujo @ 7rBUr1jNCU"") --",2026-02-09T13:17:29.744Z,177064304974402
+"The admin updated the player ""sigma @ yHZrsG6l5j"" stack from 1990 to 2000.",2026-02-09T13:17:29.744Z,177064304974401
+"The admin updated the player ""okbokujo @ 7rBUr1jNCU"" stack from 1990 to 2000.",2026-02-09T13:17:29.744Z,177064304974400
+"-- ending hand #6 --",2026-02-09T13:17:26.818Z,177064304681802
+"""sigma @ yHZrsG6l5j"" collected 20 from pot",2026-02-09T13:17:26.818Z,177064304681801
+"Uncalled bet of 10 returned to ""sigma @ yHZrsG6l5j""",2026-02-09T13:17:26.818Z,177064304681800
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:17:25.946Z,177064304594600
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:17:23.838Z,177064304383800
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:17:22.750Z,177064304275000
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:17:21.731Z,177064304173100
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:17:20.705Z,177064304070500
+"WARNING: the admin queued the stack change for the player ""sigma @ yHZrsG6l5j"" reseting to 2000 chips in the next hand.",2026-02-09T13:17:17.835Z,177064303783500
+"WARNING: the admin queued the stack change for the player ""okbokujo @ 7rBUr1jNCU"" reseting to 2000 chips in the next hand.",2026-02-09T13:17:16.551Z,177064303655100
+"""sigma @ yHZrsG6l5j"" posts a big blind of 20",2026-02-09T13:17:14.177Z,177064303417710
+"""okbokujo @ 7rBUr1jNCU"" posts a small blind of 10",2026-02-09T13:17:14.177Z,177064303417709
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2000) | #2 ""らねおか @ l218j9GUvI"" (3195) | #4 ""Ramune @ soKGYfNQsD"" (2465) | #7 ""Hinano @ WeOKnoOueQ"" (2710) | #8 ""okbokujo @ 7rBUr1jNCU"" (2000) | #9 ""sigma @ yHZrsG6l5j"" (1980)",2026-02-09T13:17:14.177Z,177064303417702
+"-- starting hand #6 (id: ri6ry7pozpqr)  No Limit Texas Hold'em (dealer: ""Hinano @ WeOKnoOueQ"") --",2026-02-09T13:17:14.177Z,177064303417701
+"The admin updated the player ""okbokujo @ 7rBUr1jNCU"" stack from 1980 to 2000.",2026-02-09T13:17:14.177Z,177064303417700
+"-- ending hand #5 --",2026-02-09T13:17:11.242Z,177064303124202
+"""Ramune @ soKGYfNQsD"" collected 860 from pot",2026-02-09T13:17:11.242Z,177064303124201
+"Uncalled bet of 290 returned to ""Ramune @ soKGYfNQsD""",2026-02-09T13:17:11.242Z,177064303124200
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:17:10.430Z,177064303043000
+"""Ramune @ soKGYfNQsD"" bets 290",2026-02-09T13:17:06.541Z,177064302654100
+"""Hinano @ WeOKnoOueQ"" checks",2026-02-09T13:16:25.675Z,177064298567500
+"Turn: Q♣, J♦, 4♥ [6♥]",2026-02-09T13:16:18.121Z,177064297812100
+"""Ramune @ soKGYfNQsD"" calls 175",2026-02-09T13:16:17.292Z,177064297729200
+"The admin ""Guest @ fXxZKORuuu"" rejected the seat request from the player ""UMAUMA @ iKNrGrbUkg"".",2026-02-09T13:16:10.671Z,177064297067100
+"The player ""UMAUMA @ iKNrGrbUkg"" requested a seat.",2026-02-09T13:16:09.951Z,177064296995100
+"""Hinano @ WeOKnoOueQ"" bets 175",2026-02-09T13:16:03.839Z,177064296383900
+"Flop:  [Q♣, J♦, 4♥]",2026-02-09T13:15:53.714Z,177064295371400
+"""Ramune @ soKGYfNQsD"" calls 220",2026-02-09T13:15:52.886Z,177064295288600
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:15:43.548Z,177064294354800
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:15:42.556Z,177064294255600
+"""Hinano @ WeOKnoOueQ"" raises to 220",2026-02-09T13:15:40.595Z,177064294059500
+"""Ramune @ soKGYfNQsD"" calls 50",2026-02-09T13:15:33.070Z,177064293307000
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:15:28.090Z,177064292809000
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:15:27.052Z,177064292705200
+"""sigma @ yHZrsG6l5j"" raises to 50",2026-02-09T13:15:26.036Z,177064292603600
+"WARNING: the admin queued the stack change for the player ""okbokujo @ 7rBUr1jNCU"" reseting to 2000 chips in the next hand.",2026-02-09T13:15:23.784Z,177064292378400
+"""okbokujo @ 7rBUr1jNCU"" posts a big blind of 20",2026-02-09T13:15:21.049Z,177064292104911
+"""Hinano @ WeOKnoOueQ"" posts a small blind of 10",2026-02-09T13:15:21.049Z,177064292104910
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2000) | #2 ""らねおか @ l218j9GUvI"" (3195) | #4 ""Ramune @ soKGYfNQsD"" (2000) | #7 ""Hinano @ WeOKnoOueQ"" (3105) | #8 ""okbokujo @ 7rBUr1jNCU"" (2000) | #9 ""sigma @ yHZrsG6l5j"" (2030)",2026-02-09T13:15:21.049Z,177064292104903
+"-- starting hand #5 (id: hf5bdwikaoxe)  No Limit Texas Hold'em (dealer: ""Ramune @ soKGYfNQsD"") --",2026-02-09T13:15:21.049Z,177064292104902
+"The admin updated the player ""Ramune @ soKGYfNQsD"" stack from 1990 to 2000.",2026-02-09T13:15:21.049Z,177064292104901
+"The admin updated the player ""ほたるいか @ 6weTfFBYpF"" stack from 1760 to 2000.",2026-02-09T13:15:21.049Z,177064292104900
+"-- ending hand #4 --",2026-02-09T13:15:18.094Z,177064291809402
+"""sigma @ yHZrsG6l5j"" collected 50 from pot",2026-02-09T13:15:18.094Z,177064291809401
+"Uncalled bet of 30 returned to ""sigma @ yHZrsG6l5j""",2026-02-09T13:15:18.094Z,177064291809400
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:15:17.284Z,177064291728400
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:15:08.104Z,177064290810400
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:15:07.076Z,177064290707600
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:15:06.062Z,177064290606200
+"""sigma @ yHZrsG6l5j"" raises to 50",2026-02-09T13:14:58.855Z,177064289885500
+"WARNING: the admin queued the stack change for the player ""Ramune @ soKGYfNQsD"" reseting to 2000 chips in the next hand.",2026-02-09T13:14:51.597Z,177064289159700
+"WARNING: the admin queued the stack change for the player ""ほたるいか @ 6weTfFBYpF"" reseting to 2000 chips in the next hand.",2026-02-09T13:14:50.322Z,177064289032200
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:14:49.765Z,177064288976500
+"""Hinano @ WeOKnoOueQ"" posts a big blind of 20",2026-02-09T13:14:47.070Z,177064288707010
+"""Ramune @ soKGYfNQsD"" posts a small blind of 10",2026-02-09T13:14:47.070Z,177064288707009
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (1760) | #2 ""らねおか @ l218j9GUvI"" (3195) | #4 ""Ramune @ soKGYfNQsD"" (2000) | #7 ""Hinano @ WeOKnoOueQ"" (3125) | #8 ""okbokujo @ 7rBUr1jNCU"" (2000) | #9 ""sigma @ yHZrsG6l5j"" (2000)",2026-02-09T13:14:47.070Z,177064288707002
+"-- starting hand #4 (id: ycwfktshhwkc)  No Limit Texas Hold'em (dealer: ""らねおか @ l218j9GUvI"") --",2026-02-09T13:14:47.070Z,177064288707001
+"The admin updated the player ""Ramune @ soKGYfNQsD"" stack from 1980 to 2000.",2026-02-09T13:14:47.070Z,177064288707000
+"-- ending hand #3 --",2026-02-09T13:14:44.153Z,177064288415302
+"""らねおか @ l218j9GUvI"" collected 500 from pot",2026-02-09T13:14:44.153Z,177064288415301
+"Uncalled bet of 375 returned to ""らねおか @ l218j9GUvI""",2026-02-09T13:14:44.153Z,177064288415300
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:14:43.282Z,177064288328200
+"""らねおか @ l218j9GUvI"" bets 375",2026-02-09T13:14:30.773Z,177064287077300
+"Flop:  [2♣, 8♦, 8♥]",2026-02-09T13:14:22.430Z,177064286243000
+"""ほたるいか @ 6weTfFBYpF"" calls 240",2026-02-09T13:14:21.583Z,177064286158300
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:14:17.741Z,177064285774100
+"""らねおか @ l218j9GUvI"" raises to 240",2026-02-09T13:14:16.699Z,177064285669900
+"""ほたるいか @ 6weTfFBYpF"" raises to 50",2026-02-09T13:14:07.048Z,177064284704800
+"""sigma @ yHZrsG6l5j"" folds",2026-02-09T13:13:58.214Z,177064283821400
+"""okbokujo @ 7rBUr1jNCU"" folds",2026-02-09T13:13:57.206Z,177064283720600
+"WARNING: the admin queued the stack change for the player ""Ramune @ soKGYfNQsD"" reseting to 2000 chips in the next hand.",2026-02-09T13:13:56.364Z,177064283636400
+"""Hinano @ WeOKnoOueQ"" folds",2026-02-09T13:13:55.328Z,177064283532800
+"""Ramune @ soKGYfNQsD"" posts a big blind of 20",2026-02-09T13:13:53.329Z,177064283332912
+"""らねおか @ l218j9GUvI"" posts a small blind of 10",2026-02-09T13:13:53.329Z,177064283332911
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2000) | #2 ""らねおか @ l218j9GUvI"" (2935) | #4 ""Ramune @ soKGYfNQsD"" (2000) | #7 ""Hinano @ WeOKnoOueQ"" (3125) | #8 ""okbokujo @ 7rBUr1jNCU"" (2000) | #9 ""sigma @ yHZrsG6l5j"" (2000)",2026-02-09T13:13:53.329Z,177064283332904
+"-- starting hand #3 (id: mw4kdmdgvtnw)  No Limit Texas Hold'em (dealer: ""ほたるいか @ 6weTfFBYpF"") --",2026-02-09T13:13:53.329Z,177064283332903
+"The player ""sigma @ yHZrsG6l5j"" joined the game with a stack of 2000.",2026-02-09T13:13:53.329Z,177064283332902
+"The player ""okbokujo @ 7rBUr1jNCU"" joined the game with a stack of 2000.",2026-02-09T13:13:53.329Z,177064283332901
+"The admin updated the player ""ほたるいか @ 6weTfFBYpF"" stack from 1990 to 2000.",2026-02-09T13:13:53.329Z,177064283332900
+"-- ending hand #2 --",2026-02-09T13:13:50.414Z,177064283041402
+"""Hinano @ WeOKnoOueQ"" collected 140 from pot",2026-02-09T13:13:50.414Z,177064283041401
+"Uncalled bet of 200 returned to ""Hinano @ WeOKnoOueQ""",2026-02-09T13:13:50.414Z,177064283041400
+"""らねおか @ l218j9GUvI"" folds",2026-02-09T13:13:49.562Z,177064282956200
+"""Hinano @ WeOKnoOueQ"" bets 200",2026-02-09T13:13:48.197Z,177064282819700
+"""らねおか @ l218j9GUvI"" checks",2026-02-09T13:13:37.619Z,177064281761900
+"Turn: 7♦, 6♦, Q♦ [2♠]",2026-02-09T13:13:36.406Z,177064281640600
+"""らねおか @ l218j9GUvI"" calls 20",2026-02-09T13:13:35.593Z,177064281559300
+"""Hinano @ WeOKnoOueQ"" bets 20",2026-02-09T13:13:30.953Z,177064281095300
+"""らねおか @ l218j9GUvI"" checks",2026-02-09T13:13:21.893Z,177064280189300
+"Flop:  [7♦, 6♦, Q♦]",2026-02-09T13:13:20.427Z,177064280042700
+"""らねおか @ l218j9GUvI"" calls 45",2026-02-09T13:13:19.531Z,177064279953100
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:13:17.171Z,177064279717100
+"""Hinano @ WeOKnoOueQ"" raises to 45",2026-02-09T13:13:14.094Z,177064279409400
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:13:05.404Z,177064278540400
+"WARNING: the admin queued the stack change for the player ""ほたるいか @ 6weTfFBYpF"" reseting to 2000 chips in the next hand.",2026-02-09T13:13:04.911Z,177064278491100
+"""らねおか @ l218j9GUvI"" posts a big blind of 20",2026-02-09T13:13:00.931Z,177064278093109
+"""ほたるいか @ 6weTfFBYpF"" posts a small blind of 10",2026-02-09T13:13:00.931Z,177064278093108
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2000) | #2 ""らねおか @ l218j9GUvI"" (3000) | #4 ""Ramune @ soKGYfNQsD"" (2000) | #7 ""Hinano @ WeOKnoOueQ"" (3050)",2026-02-09T13:13:00.931Z,177064278093103
+"-- starting hand #2 (id: r2mhxkf85y1o)  No Limit Texas Hold'em (dealer: ""Hinano @ WeOKnoOueQ"") --",2026-02-09T13:13:00.931Z,177064278093102
+"The player ""らねおか @ l218j9GUvI"" joined the game with a stack of 3000.",2026-02-09T13:13:00.931Z,177064278093101
+"The admin updated the player ""ほたるいか @ 6weTfFBYpF"" stack from 1950 to 2000.",2026-02-09T13:13:00.931Z,177064278093100
+"-- ending hand #1 --",2026-02-09T13:12:58.015Z,177064277801502
+"""Hinano @ WeOKnoOueQ"" collected 100 from pot",2026-02-09T13:12:58.015Z,177064277801501
+"Uncalled bet of 100 returned to ""Hinano @ WeOKnoOueQ""",2026-02-09T13:12:58.015Z,177064277801500
+"""ほたるいか @ 6weTfFBYpF"" folds",2026-02-09T13:12:57.165Z,177064277716500
+"""Hinano @ WeOKnoOueQ"" bets 100",2026-02-09T13:12:55.160Z,177064277516000
+"Turn: 9♣, 2♣, 10♥ [3♠]",2026-02-09T13:12:44.557Z,177064276455700
+"""ほたるいか @ 6weTfFBYpF"" checks",2026-02-09T13:12:43.753Z,177064276375300
+"""Hinano @ WeOKnoOueQ"" checks",2026-02-09T13:12:36.786Z,177064275678600
+"Flop:  [9♣, 2♣, 10♥]",2026-02-09T13:12:33.637Z,177064275363700
+"""ほたるいか @ 6weTfFBYpF"" calls 50",2026-02-09T13:12:32.815Z,177064275281500
+"""Hinano @ WeOKnoOueQ"" raises to 50",2026-02-09T13:12:29.973Z,177064274997300
+"The admin approved the player ""sigma @ yHZrsG6l5j"" participation with a stack of 2000.",2026-02-09T13:12:06.100Z,177064272610000
+"The player ""sigma @ yHZrsG6l5j"" requested a seat.",2026-02-09T13:12:05.170Z,177064272517000
+"The admin approved the player ""okbokujo @ 7rBUr1jNCU"" participation with a stack of 2000.",2026-02-09T13:11:59.970Z,177064271997000
+"The admin approved the player ""らねおか @ l218j9GUvI"" participation with a stack of 3000.",2026-02-09T13:11:58.872Z,177064271887200
+"The player ""okbokujo @ 7rBUr1jNCU"" requested a seat.",2026-02-09T13:11:58.856Z,177064271885600
+"The player ""らねおか @ l218j9GUvI"" requested a seat.",2026-02-09T13:11:57.080Z,177064271708000
+"WARNING: the admin queued the stack change for the player ""ほたるいか @ 6weTfFBYpF"" reseting to 2000 chips in the next hand.",2026-02-09T13:11:54.764Z,177064271476400
+"""Ramune @ soKGYfNQsD"" folds",2026-02-09T13:11:54.505Z,177064271450500
+"""ほたるいか @ 6weTfFBYpF"" posts a big blind of 20",2026-02-09T13:11:52.876Z,177064271287609
+"""Hinano @ WeOKnoOueQ"" posts a small blind of 10",2026-02-09T13:11:52.876Z,177064271287608
+"Player stacks: #1 ""ほたるいか @ 6weTfFBYpF"" (2000) | #4 ""Ramune @ soKGYfNQsD"" (2000) | #7 ""Hinano @ WeOKnoOueQ"" (3000)",2026-02-09T13:11:52.876Z,177064271287604
+"The player ""Hinano @ WeOKnoOueQ"" joined the game with a stack of 3000.",2026-02-09T13:11:52.876Z,177064271287603
+"The player ""Ramune @ soKGYfNQsD"" joined the game with a stack of 2000.",2026-02-09T13:11:52.876Z,177064271287602
+"The player ""ほたるいか @ 6weTfFBYpF"" joined the game with a stack of 2000.",2026-02-09T13:11:52.876Z,177064271287601
+"-- starting hand #1 (id: vi1n0orrmgrc)  No Limit Texas Hold'em (dealer: ""Ramune @ soKGYfNQsD"") --",2026-02-09T13:11:52.876Z,177064271287600
+"The admin approved the player ""Hinano @ WeOKnoOueQ"" participation with a stack of 3000.",2026-02-09T13:11:52.104Z,177064271210400
+"The player ""Hinano @ WeOKnoOueQ"" requested a seat.",2026-02-09T13:11:51.543Z,177064271154300
+"The admin approved the player ""ほたるいか @ 6weTfFBYpF"" participation with a stack of 2000.",2026-02-09T13:11:39.199Z,177064269919900
+"The player ""ほたるいか @ 6weTfFBYpF"" requested a seat.",2026-02-09T13:11:38.620Z,177064269862000
+"The admin approved the player ""Ramune @ soKGYfNQsD"" participation with a stack of 2000.",2026-02-09T13:11:38.350Z,177064269835000
+"The player ""Ramune @ soKGYfNQsD"" requested a seat.",2026-02-09T13:11:37.134Z,177064269713400
+"Game Config Changes
+* Decision Limit Time: 20s » 100s
+* Max Time Bank: 10s » 50s
+* Allow Run it Twice: no » always
+* Restart Blind Schedule at Level: none » 1",2026-02-09T13:11:16.320Z,177064267632000
+"The player ""ノガード @ GgfRhPuspx"" passed the room ownership to ""Guest @ fXxZKORuuu"".",2026-02-09T13:11:14.007Z,177064267400700

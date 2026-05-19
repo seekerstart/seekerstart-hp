@@ -1,0 +1,1265 @@
+entry,at,order
+"The player ""Miharu @ AAC7lMsXCu"" quits the game with a stack of 3438.",2025-10-20T14:00:51.627Z,176096885162700
+"The player ""Miharu @ AAC7lMsXCu"" stand up with the stack of 3438.",2025-10-20T14:00:49.833Z,176096884983300
+"The player ""カイン @ QK8nAFN9E2"" quits the game with a stack of 2225.",2025-10-20T14:00:27.181Z,176096882718100
+"The player ""Ene @ 7kPHYByVxS"" quits the game with a stack of 2137.",2025-10-20T14:00:24.577Z,176096882457700
+"The admin ""goto-neo @ 3uy3Mlil7r"" enqueued the game stop on next hand.",2025-10-20T14:00:20.543Z,176096882054300
+"-- ending hand #80 --",2025-10-20T14:00:18.573Z,176096881857302
+"""Miharu @ AAC7lMsXCu"" collected 450 from pot with Straight, 5 High (combination: 5♣, 4♣, 3♦, 2♥, A♥)",2025-10-20T14:00:18.573Z,176096881857301
+"""Miharu @ AAC7lMsXCu"" shows a 4♣, 5♣.",2025-10-20T14:00:18.573Z,176096881857300
+"""カイン @ QK8nAFN9E2"" calls 120",2025-10-20T14:00:17.757Z,176096881775700
+"""Miharu @ AAC7lMsXCu"" bets 120",2025-10-20T14:00:13.798Z,176096881379800
+"""カイン @ QK8nAFN9E2"" checks",2025-10-20T13:59:51.245Z,176096879124500
+"River: 3♦, J♣, 4♠, 2♥ [A♥]",2025-10-20T13:59:48.205Z,176096878820500
+"""カイン @ QK8nAFN9E2"" calls 40",2025-10-20T13:59:47.321Z,176096878732100
+"""Miharu @ AAC7lMsXCu"" bets 40",2025-10-20T13:59:41.622Z,176096878162200
+"""カイン @ QK8nAFN9E2"" checks",2025-10-20T13:59:24.817Z,176096876481700
+"Turn: 3♦, J♣, 4♠ [2♥]",2025-10-20T13:59:21.854Z,176096876185400
+"""Miharu @ AAC7lMsXCu"" checks",2025-10-20T13:59:21.018Z,176096876101800
+"""カイン @ QK8nAFN9E2"" checks",2025-10-20T13:59:15.999Z,176096875599900
+"Flop:  [3♦, J♣, 4♠]",2025-10-20T13:59:13.450Z,176096875345000
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:59:12.638Z,176096875263800
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:59:11.474Z,176096875147400
+"""Miharu @ AAC7lMsXCu"" calls 50",2025-10-20T13:59:10.447Z,176096875044700
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:58:58.026Z,176096873802600
+"""カイン @ QK8nAFN9E2"" raises to 50",2025-10-20T13:58:53.655Z,176096873365500
+"""Ene @ 7kPHYByVxS"" posts a big blind of 20",2025-10-20T13:58:46.376Z,176096872637608
+"""goto-neo @ 3uy3Mlil7r"" posts a small blind of 10",2025-10-20T13:58:46.376Z,176096872637607
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3198) | #3 ""goto-neo @ 3uy3Mlil7r"" (3035) | #6 ""Ene @ 7kPHYByVxS"" (2157) | #7 ""カイン @ QK8nAFN9E2"" (2435) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2370)",2025-10-20T13:58:46.376Z,176096872637601
+"-- starting hand #80 (id: u8kormkebsix)  (No Limit Texas Hold'em) (dealer: ""Miharu @ AAC7lMsXCu"") --",2025-10-20T13:58:46.376Z,176096872637600
+"""ナカヤマ @ Na5oN7lbKH"" shows a 8♥, 6♦.",2025-10-20T13:58:45.257Z,176096872525700
+"""カイン @ QK8nAFN9E2"" shows a 7♦, 7♥.",2025-10-20T13:58:43.256Z,176096872325600
+"-- ending hand #79 --",2025-10-20T13:58:42.057Z,176096872205702
+"""カイン @ QK8nAFN9E2"" collected 50 from pot",2025-10-20T13:58:42.057Z,176096872205701
+"Uncalled bet of 20 returned to ""カイン @ QK8nAFN9E2""",2025-10-20T13:58:42.057Z,176096872205700
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:58:41.235Z,176096872123500
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:58:40.193Z,176096872019300
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:58:33.397Z,176096871339700
+"""カイン @ QK8nAFN9E2"" raises to 40",2025-10-20T13:58:31.172Z,176096871117200
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:58:27.059Z,176096870705900
+"""goto-neo @ 3uy3Mlil7r"" posts a big blind of 20",2025-10-20T13:58:23.759Z,176096870375908
+"""Miharu @ AAC7lMsXCu"" posts a small blind of 10",2025-10-20T13:58:23.759Z,176096870375907
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3208) | #3 ""goto-neo @ 3uy3Mlil7r"" (3055) | #6 ""Ene @ 7kPHYByVxS"" (2157) | #7 ""カイン @ QK8nAFN9E2"" (2405) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2370)",2025-10-20T13:58:23.759Z,176096870375901
+"-- starting hand #79 (id: qvmnrd58vfkg)  (No Limit Texas Hold'em) (dealer: ""ナカヤマ @ Na5oN7lbKH"") --",2025-10-20T13:58:23.759Z,176096870375900
+"-- ending hand #78 --",2025-10-20T13:58:20.802Z,176096870080202
+"""Miharu @ AAC7lMsXCu"" collected 90 from pot",2025-10-20T13:58:20.802Z,176096870080201
+"Uncalled bet of 120 returned to ""Miharu @ AAC7lMsXCu""",2025-10-20T13:58:20.802Z,176096870080200
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:58:19.991Z,176096869999100
+"""Miharu @ AAC7lMsXCu"" raises to 160",2025-10-20T13:58:17.509Z,176096869750900
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:58:10.777Z,176096869077700
+"""カイン @ QK8nAFN9E2"" raises to 40",2025-10-20T13:58:09.721Z,176096868972100
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:58:04.200Z,176096868420000
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:58:03.021Z,176096868302100
+"""Miharu @ AAC7lMsXCu"" posts a big blind of 20",2025-10-20T13:58:00.914Z,176096868091408
+"""ナカヤマ @ Na5oN7lbKH"" posts a small blind of 10",2025-10-20T13:58:00.914Z,176096868091407
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3158) | #3 ""goto-neo @ 3uy3Mlil7r"" (3055) | #6 ""Ene @ 7kPHYByVxS"" (2157) | #7 ""カイン @ QK8nAFN9E2"" (2445) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2380)",2025-10-20T13:58:00.914Z,176096868091401
+"-- starting hand #78 (id: tr8hhr2cpazf)  (No Limit Texas Hold'em) (dealer: ""カイン @ QK8nAFN9E2"") --",2025-10-20T13:58:00.914Z,176096868091400
+"-- ending hand #77 --",2025-10-20T13:57:57.933Z,176096867793302
+"""goto-neo @ 3uy3Mlil7r"" collected 110 from pot",2025-10-20T13:57:57.933Z,176096867793301
+"Uncalled bet of 82 returned to ""goto-neo @ 3uy3Mlil7r""",2025-10-20T13:57:57.933Z,176096867793300
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:57:57.124Z,176096867712400
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:57:55.992Z,176096867599200
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:57:54.896Z,176096867489600
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:57:53.856Z,176096867385600
+"""goto-neo @ 3uy3Mlil7r"" raises to 122",2025-10-20T13:57:45.637Z,176096866563700
+"""Miharu @ AAC7lMsXCu"" raises to 40",2025-10-20T13:57:41.883Z,176096866188300
+"""ナカヤマ @ Na5oN7lbKH"" posts a big blind of 20",2025-10-20T13:57:37.675Z,176096865767508
+"""カイン @ QK8nAFN9E2"" posts a small blind of 10",2025-10-20T13:57:37.675Z,176096865767507
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3198) | #3 ""goto-neo @ 3uy3Mlil7r"" (2985) | #6 ""Ene @ 7kPHYByVxS"" (2157) | #7 ""カイン @ QK8nAFN9E2"" (2455) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2400)",2025-10-20T13:57:37.675Z,176096865767501
+"-- starting hand #77 (id: ajzkrfq1xmaz)  (No Limit Texas Hold'em) (dealer: ""Ene @ 7kPHYByVxS"") --",2025-10-20T13:57:37.675Z,176096865767500
+"-- ending hand #76 --",2025-10-20T13:57:34.738Z,176096865473802
+"""Miharu @ AAC7lMsXCu"" collected 50 from pot",2025-10-20T13:57:34.738Z,176096865473801
+"Uncalled bet of 26 returned to ""Miharu @ AAC7lMsXCu""",2025-10-20T13:57:34.738Z,176096865473800
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:57:33.934Z,176096865393400
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:57:32.115Z,176096865211500
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:57:30.985Z,176096865098500
+"""Miharu @ AAC7lMsXCu"" raises to 46",2025-10-20T13:57:29.935Z,176096864993500
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:57:24.556Z,176096864455600
+"""カイン @ QK8nAFN9E2"" posts a big blind of 20",2025-10-20T13:57:22.564Z,176096864256408
+"""Ene @ 7kPHYByVxS"" posts a small blind of 10",2025-10-20T13:57:22.564Z,176096864256407
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3168) | #3 ""goto-neo @ 3uy3Mlil7r"" (2985) | #6 ""Ene @ 7kPHYByVxS"" (2167) | #7 ""カイン @ QK8nAFN9E2"" (2475) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2400)",2025-10-20T13:57:22.564Z,176096864256401
+"-- starting hand #76 (id: 7yhioxvi9ssn)  (No Limit Texas Hold'em) (dealer: ""goto-neo @ 3uy3Mlil7r"") --",2025-10-20T13:57:22.564Z,176096864256400
+"-- ending hand #75 --",2025-10-20T13:57:19.661Z,176096863966102
+"""Ene @ 7kPHYByVxS"" collected 20 from pot",2025-10-20T13:57:19.661Z,176096863966101
+"Uncalled bet of 10 returned to ""Ene @ 7kPHYByVxS""",2025-10-20T13:57:19.661Z,176096863966100
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:57:18.780Z,176096863878000
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:57:17.741Z,176096863774100
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:57:13.294Z,176096863329400
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:57:11.822Z,176096863182200
+"""Ene @ 7kPHYByVxS"" posts a big blind of 20",2025-10-20T13:57:07.052Z,176096862705209
+"""goto-neo @ 3uy3Mlil7r"" posts a small blind of 10",2025-10-20T13:57:07.052Z,176096862705208
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3168) | #3 ""goto-neo @ 3uy3Mlil7r"" (2995) | #6 ""Ene @ 7kPHYByVxS"" (2157) | #7 ""カイン @ QK8nAFN9E2"" (2475) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2400)",2025-10-20T13:57:07.052Z,176096862705202
+"-- starting hand #75 (id: hh3qvlj80kvj)  (No Limit Texas Hold'em) (dealer: ""Miharu @ AAC7lMsXCu"") --",2025-10-20T13:57:07.052Z,176096862705201
+"The player ""IAMB @ gjmiQ4-uAW"" quits the game with a stack of 2905.",2025-10-20T13:57:07.052Z,176096862705200
+"""Ene @ 7kPHYByVxS"" shows a K♣, J♦.",2025-10-20T13:57:05.673Z,176096862567300
+"""カイン @ QK8nAFN9E2"" shows a K♥, J♥.",2025-10-20T13:57:03.989Z,176096862398900
+"-- ending hand #74 --",2025-10-20T13:57:02.653Z,176096862265302
+"""Ene @ 7kPHYByVxS"" collected 120 from pot",2025-10-20T13:57:02.653Z,176096862265301
+"Uncalled bet of 120 returned to ""Ene @ 7kPHYByVxS""",2025-10-20T13:57:02.653Z,176096862265300
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:57:01.840Z,176096862184000
+"""Ene @ 7kPHYByVxS"" bets 120",2025-10-20T13:56:59.842Z,176096861984200
+"Flop:  [8♥, 8♠, Q♣]",2025-10-20T13:56:54.789Z,176096861478900
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:56:53.965Z,176096861396500
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:56:52.946Z,176096861294600
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:56:51.882Z,176096861188200
+"""カイン @ QK8nAFN9E2"" calls 45",2025-10-20T13:56:48.858Z,176096860885800
+"""Ene @ 7kPHYByVxS"" raises to 45",2025-10-20T13:56:45.041Z,176096860504100
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:56:41.394Z,176096860139400
+"""goto-neo @ 3uy3Mlil7r"" posts a big blind of 20",2025-10-20T13:56:40.268Z,176096860026809
+"""Miharu @ AAC7lMsXCu"" posts a small blind of 10",2025-10-20T13:56:40.268Z,176096860026808
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3178) | #3 ""goto-neo @ 3uy3Mlil7r"" (3015) | #5 ""IAMB @ gjmiQ4-uAW"" (2905) | #6 ""Ene @ 7kPHYByVxS"" (2082) | #7 ""カイン @ QK8nAFN9E2"" (2520) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2400)",2025-10-20T13:56:40.268Z,176096860026801
+"-- starting hand #74 (id: domlh4x52xeb)  (No Limit Texas Hold'em) (dealer: ""ナカヤマ @ Na5oN7lbKH"") --",2025-10-20T13:56:40.268Z,176096860026800
+"""カイン @ QK8nAFN9E2"" shows a 5♥, 5♠.",2025-10-20T13:56:38.111Z,176096859811100
+"-- ending hand #73 --",2025-10-20T13:56:36.641Z,176096859664102
+"""カイン @ QK8nAFN9E2"" collected 410 from pot",2025-10-20T13:56:36.641Z,176096859664101
+"Uncalled bet of 200 returned to ""カイン @ QK8nAFN9E2""",2025-10-20T13:56:36.641Z,176096859664100
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:56:35.815Z,176096859581500
+"""カイン @ QK8nAFN9E2"" raises to 300",2025-10-20T13:56:33.560Z,176096859356000
+"""Miharu @ AAC7lMsXCu"" bets 100",2025-10-20T13:56:20.932Z,176096858093200
+"River: 5♦, 7♦, 10♠, 3♣ [7♠]",2025-10-20T13:56:01.544Z,176096856154400
+"""カイン @ QK8nAFN9E2"" calls 60",2025-10-20T13:56:00.609Z,176096856060900
+"""Miharu @ AAC7lMsXCu"" bets 60",2025-10-20T13:55:57.953Z,176096855795300
+"Turn: 5♦, 7♦, 10♠ [3♣]",2025-10-20T13:55:48.910Z,176096854891000
+"""カイン @ QK8nAFN9E2"" checks",2025-10-20T13:55:48.100Z,176096854810000
+"""Miharu @ AAC7lMsXCu"" checks",2025-10-20T13:55:45.816Z,176096854581600
+"Flop:  [5♦, 7♦, 10♠]",2025-10-20T13:55:43.269Z,176096854326900
+"""Miharu @ AAC7lMsXCu"" calls 40",2025-10-20T13:55:42.364Z,176096854236400
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:55:33.111Z,176096853311100
+"""カイン @ QK8nAFN9E2"" raises to 40",2025-10-20T13:55:30.080Z,176096853008000
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:55:24.603Z,176096852460300
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:55:20.856Z,176096852085600
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:55:19.755Z,176096851975500
+"""Miharu @ AAC7lMsXCu"" posts a big blind of 20",2025-10-20T13:55:17.430Z,176096851743009
+"""ナカヤマ @ Na5oN7lbKH"" posts a small blind of 10",2025-10-20T13:55:17.430Z,176096851743008
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3378) | #3 ""goto-neo @ 3uy3Mlil7r"" (3015) | #5 ""IAMB @ gjmiQ4-uAW"" (2905) | #6 ""Ene @ 7kPHYByVxS"" (2082) | #7 ""カイン @ QK8nAFN9E2"" (2310) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2410)",2025-10-20T13:55:17.430Z,176096851743001
+"-- starting hand #73 (id: z891ejnxqvle)  (No Limit Texas Hold'em) (dealer: ""カイン @ QK8nAFN9E2"") --",2025-10-20T13:55:17.430Z,176096851743000
+"""ナカヤマ @ Na5oN7lbKH"" shows a K♦, J♦.",2025-10-20T13:55:14.251Z,176096851425100
+"""Miharu @ AAC7lMsXCu"" shows a 8♠, 8♣.",2025-10-20T13:55:13.805Z,176096851380500
+"-- ending hand #72 --",2025-10-20T13:55:13.083Z,176096851308302
+"""ナカヤマ @ Na5oN7lbKH"" collected 250 from pot",2025-10-20T13:55:13.083Z,176096851308301
+"Uncalled bet of 125 returned to ""ナカヤマ @ Na5oN7lbKH""",2025-10-20T13:55:13.083Z,176096851308300
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:55:12.260Z,176096851226000
+"""ナカヤマ @ Na5oN7lbKH"" bets 125",2025-10-20T13:55:06.913Z,176096850691300
+"Turn: 7♦, 6♦, 9♦ [K♣]",2025-10-20T13:54:45.927Z,176096848592700
+"""Miharu @ AAC7lMsXCu"" checks",2025-10-20T13:54:45.104Z,176096848510400
+"""ナカヤマ @ Na5oN7lbKH"" checks",2025-10-20T13:54:39.633Z,176096847963300
+"Flop:  [7♦, 6♦, 9♦]",2025-10-20T13:54:12.885Z,176096845288500
+"""Miharu @ AAC7lMsXCu"" calls 120",2025-10-20T13:54:12.042Z,176096845204200
+"""ナカヤマ @ Na5oN7lbKH"" raises to 120",2025-10-20T13:54:07.828Z,176096844782800
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:53:56.834Z,176096843683400
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:53:55.824Z,176096843582400
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:53:54.687Z,176096843468700
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:53:53.675Z,176096843367500
+"""Miharu @ AAC7lMsXCu"" raises to 40",2025-10-20T13:53:52.626Z,176096843262600
+"""ナカヤマ @ Na5oN7lbKH"" posts a big blind of 20",2025-10-20T13:53:47.928Z,176096842792809
+"""カイン @ QK8nAFN9E2"" posts a small blind of 10",2025-10-20T13:53:47.928Z,176096842792808
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3498) | #3 ""goto-neo @ 3uy3Mlil7r"" (3015) | #5 ""IAMB @ gjmiQ4-uAW"" (2905) | #6 ""Ene @ 7kPHYByVxS"" (2082) | #7 ""カイン @ QK8nAFN9E2"" (2320) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2280)",2025-10-20T13:53:47.928Z,176096842792801
+"-- starting hand #72 (id: zx6naf6owvtj)  (No Limit Texas Hold'em) (dealer: ""Ene @ 7kPHYByVxS"") --",2025-10-20T13:53:47.928Z,176096842792800
+"""goto-neo @ 3uy3Mlil7r"" shows a K♦, A♦.",2025-10-20T13:53:45.659Z,176096842565900
+"-- ending hand #71 --",2025-10-20T13:53:44.279Z,176096842427902
+"""goto-neo @ 3uy3Mlil7r"" collected 110 from pot",2025-10-20T13:53:44.279Z,176096842427901
+"Uncalled bet of 82 returned to ""goto-neo @ 3uy3Mlil7r""",2025-10-20T13:53:44.279Z,176096842427900
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:53:43.463Z,176096842346300
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:53:39.062Z,176096841906200
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:53:38.041Z,176096841804100
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:53:23.211Z,176096840321100
+"""goto-neo @ 3uy3Mlil7r"" raises to 122",2025-10-20T13:53:22.128Z,176096840212800
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:53:18.300Z,176096839830000
+"""ナカヤマ @ Na5oN7lbKH"" raises to 40",2025-10-20T13:53:17.251Z,176096839725100
+"""カイン @ QK8nAFN9E2"" posts a big blind of 20",2025-10-20T13:53:06.992Z,176096838699209
+"""Ene @ 7kPHYByVxS"" posts a small blind of 10",2025-10-20T13:53:06.992Z,176096838699208
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3498) | #3 ""goto-neo @ 3uy3Mlil7r"" (2945) | #5 ""IAMB @ gjmiQ4-uAW"" (2905) | #6 ""Ene @ 7kPHYByVxS"" (2092) | #7 ""カイン @ QK8nAFN9E2"" (2340) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2320)",2025-10-20T13:53:06.992Z,176096838699201
+"-- starting hand #71 (id: 9y7f6uufwkez)  (No Limit Texas Hold'em) (dealer: ""IAMB @ gjmiQ4-uAW"") --",2025-10-20T13:53:06.992Z,176096838699200
+"-- ending hand #70 --",2025-10-20T13:53:04.034Z,176096838403402
+"""ナカヤマ @ Na5oN7lbKH"" collected 90 from pot",2025-10-20T13:53:04.034Z,176096838403401
+"Uncalled bet of 40 returned to ""ナカヤマ @ Na5oN7lbKH""",2025-10-20T13:53:04.034Z,176096838403400
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:53:03.223Z,176096838322300
+"""ナカヤマ @ Na5oN7lbKH"" bets 40",2025-10-20T13:52:57.855Z,176096837785500
+"""Ene @ 7kPHYByVxS"" checks",2025-10-20T13:52:46.445Z,176096836644500
+"Flop:  [8♥, 7♥, Q♣]",2025-10-20T13:52:42.142Z,176096836214200
+"""Ene @ 7kPHYByVxS"" calls 40",2025-10-20T13:52:41.264Z,176096836126400
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:52:34.961Z,176096835496100
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:52:33.847Z,176096835384700
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:52:32.832Z,176096835283200
+"""ナカヤマ @ Na5oN7lbKH"" raises to 40",2025-10-20T13:52:31.826Z,176096835182600
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:52:26.778Z,176096834677800
+"""Ene @ 7kPHYByVxS"" posts a big blind of 20",2025-10-20T13:52:24.506Z,176096834450609
+"""IAMB @ gjmiQ4-uAW"" posts a small blind of 10",2025-10-20T13:52:24.506Z,176096834450608
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3498) | #3 ""goto-neo @ 3uy3Mlil7r"" (2945) | #5 ""IAMB @ gjmiQ4-uAW"" (2915) | #6 ""Ene @ 7kPHYByVxS"" (2132) | #7 ""カイン @ QK8nAFN9E2"" (2340) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2270)",2025-10-20T13:52:24.506Z,176096834450601
+"-- starting hand #70 (id: 5egfwfcu1yft)  (No Limit Texas Hold'em) (dealer: ""goto-neo @ 3uy3Mlil7r"") --",2025-10-20T13:52:24.506Z,176096834450600
+"-- ending hand #69 --",2025-10-20T13:52:21.598Z,176096834159802
+"""Miharu @ AAC7lMsXCu"" collected 110 from pot",2025-10-20T13:52:21.598Z,176096834159801
+"Uncalled bet of 140 returned to ""Miharu @ AAC7lMsXCu""",2025-10-20T13:52:21.598Z,176096834159800
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:52:20.715Z,176096834071500
+"""Miharu @ AAC7lMsXCu"" bets 140",2025-10-20T13:52:19.614Z,176096833961400
+"""IAMB @ gjmiQ4-uAW"" checks",2025-10-20T13:52:13.719Z,176096833371900
+"Flop:  [Q♦, 8♠, A♣]",2025-10-20T13:52:11.900Z,176096833190000
+"""IAMB @ gjmiQ4-uAW"" calls 50",2025-10-20T13:52:11.095Z,176096833109500
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:52:03.206Z,176096832320600
+"""Miharu @ AAC7lMsXCu"" raises to 50",2025-10-20T13:52:02.155Z,176096832215500
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:51:56.046Z,176096831604600
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:51:54.215Z,176096831421500
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:51:34.175Z,176096829417500
+"""IAMB @ gjmiQ4-uAW"" posts a big blind of 20",2025-10-20T13:51:32.582Z,176096829258209
+"""goto-neo @ 3uy3Mlil7r"" posts a small blind of 10",2025-10-20T13:51:32.582Z,176096829258208
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3438) | #3 ""goto-neo @ 3uy3Mlil7r"" (2955) | #5 ""IAMB @ gjmiQ4-uAW"" (2965) | #6 ""Ene @ 7kPHYByVxS"" (2132) | #7 ""カイン @ QK8nAFN9E2"" (2340) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2270)",2025-10-20T13:51:32.582Z,176096829258201
+"-- starting hand #69 (id: 9b7m6nwqvqa7)  (No Limit Texas Hold'em) (dealer: ""Miharu @ AAC7lMsXCu"") --",2025-10-20T13:51:32.582Z,176096829258200
+"-- ending hand #68 --",2025-10-20T13:51:29.649Z,176096828964902
+"""ナカヤマ @ Na5oN7lbKH"" collected 50 from pot",2025-10-20T13:51:29.649Z,176096828964901
+"Uncalled bet of 40 returned to ""ナカヤマ @ Na5oN7lbKH""",2025-10-20T13:51:29.649Z,176096828964900
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:51:28.807Z,176096828880700
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:51:27.767Z,176096828776700
+"""ナカヤマ @ Na5oN7lbKH"" raises to 60",2025-10-20T13:51:25.955Z,176096828595500
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:51:21.672Z,176096828167200
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:51:19.218Z,176096827921800
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:51:17.582Z,176096827758200
+"""goto-neo @ 3uy3Mlil7r"" posts a big blind of 20",2025-10-20T13:51:16.645Z,176096827664509
+"""Miharu @ AAC7lMsXCu"" posts a small blind of 10",2025-10-20T13:51:16.645Z,176096827664508
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3448) | #3 ""goto-neo @ 3uy3Mlil7r"" (2975) | #5 ""IAMB @ gjmiQ4-uAW"" (2965) | #6 ""Ene @ 7kPHYByVxS"" (2132) | #7 ""カイン @ QK8nAFN9E2"" (2340) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2240)",2025-10-20T13:51:16.645Z,176096827664501
+"-- starting hand #68 (id: vq0jnbhgcljw)  (No Limit Texas Hold'em) (dealer: ""ナカヤマ @ Na5oN7lbKH"") --",2025-10-20T13:51:16.645Z,176096827664500
+"-- ending hand #67 --",2025-10-20T13:51:13.715Z,176096827371502
+"""IAMB @ gjmiQ4-uAW"" collected 180 from pot",2025-10-20T13:51:13.715Z,176096827371501
+"Uncalled bet of 135 returned to ""IAMB @ gjmiQ4-uAW""",2025-10-20T13:51:13.715Z,176096827371500
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:51:12.902Z,176096827290200
+"""IAMB @ gjmiQ4-uAW"" bets 135",2025-10-20T13:51:10.810Z,176096827081000
+"""Miharu @ AAC7lMsXCu"" checks",2025-10-20T13:51:01.143Z,176096826114300
+"Turn: J♠, 4♥, 5♣ [8♦]",2025-10-20T13:50:59.405Z,176096825940500
+"""Miharu @ AAC7lMsXCu"" calls 45",2025-10-20T13:50:58.535Z,176096825853500
+"""IAMB @ gjmiQ4-uAW"" bets 45",2025-10-20T13:50:52.461Z,176096825246100
+"""Miharu @ AAC7lMsXCu"" checks",2025-10-20T13:50:48.986Z,176096824898600
+"Flop:  [J♠, 4♥, 5♣]",2025-10-20T13:50:46.395Z,176096824639500
+"""Miharu @ AAC7lMsXCu"" calls 40",2025-10-20T13:50:45.515Z,176096824551500
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:50:43.843Z,176096824384300
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:50:41.357Z,176096824135700
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:50:37.899Z,176096823789900
+"""IAMB @ gjmiQ4-uAW"" raises to 40",2025-10-20T13:50:36.807Z,176096823680700
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:50:34.190Z,176096823419000
+"""Miharu @ AAC7lMsXCu"" posts a big blind of 20",2025-10-20T13:50:32.585Z,176096823258509
+"""ナカヤマ @ Na5oN7lbKH"" posts a small blind of 10",2025-10-20T13:50:32.585Z,176096823258508
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3533) | #3 ""goto-neo @ 3uy3Mlil7r"" (2975) | #5 ""IAMB @ gjmiQ4-uAW"" (2870) | #6 ""Ene @ 7kPHYByVxS"" (2132) | #7 ""カイン @ QK8nAFN9E2"" (2340) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2250)",2025-10-20T13:50:32.585Z,176096823258501
+"-- starting hand #67 (id: 1rkndqn04cpz)  (No Limit Texas Hold'em) (dealer: ""カイン @ QK8nAFN9E2"") --",2025-10-20T13:50:32.585Z,176096823258500
+"-- ending hand #66 --",2025-10-20T13:50:29.584Z,176096822958402
+"""Ene @ 7kPHYByVxS"" collected 50 from pot",2025-10-20T13:50:29.584Z,176096822958401
+"Uncalled bet of 37 returned to ""Ene @ 7kPHYByVxS""",2025-10-20T13:50:29.584Z,176096822958400
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:50:28.687Z,176096822868700
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:50:25.413Z,176096822541300
+"""Ene @ 7kPHYByVxS"" raises to 57",2025-10-20T13:50:20.026Z,176096822002600
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:50:17.279Z,176096821727900
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:50:16.254Z,176096821625400
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:50:15.230Z,176096821523000
+"""ナカヤマ @ Na5oN7lbKH"" posts a big blind of 20",2025-10-20T13:50:13.872Z,176096821387209
+"""カイン @ QK8nAFN9E2"" posts a small blind of 10",2025-10-20T13:50:13.872Z,176096821387208
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3533) | #3 ""goto-neo @ 3uy3Mlil7r"" (2975) | #5 ""IAMB @ gjmiQ4-uAW"" (2870) | #6 ""Ene @ 7kPHYByVxS"" (2102) | #7 ""カイン @ QK8nAFN9E2"" (2350) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2270)",2025-10-20T13:50:13.872Z,176096821387201
+"-- starting hand #66 (id: v1fdk80i6kem)  (No Limit Texas Hold'em) (dealer: ""Ene @ 7kPHYByVxS"") --",2025-10-20T13:50:13.872Z,176096821387200
+"-- ending hand #65 --",2025-10-20T13:50:10.970Z,176096821097002
+"""Miharu @ AAC7lMsXCu"" collected 50 from pot",2025-10-20T13:50:10.970Z,176096821097001
+"Uncalled bet of 20 returned to ""Miharu @ AAC7lMsXCu""",2025-10-20T13:50:10.970Z,176096821097000
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:50:10.157Z,176096821015700
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:50:05.071Z,176096820507100
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:50:03.971Z,176096820397100
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:50:02.898Z,176096820289800
+"""Miharu @ AAC7lMsXCu"" raises to 40",2025-10-20T13:50:01.744Z,176096820174400
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:49:54.366Z,176096819436600
+"""カイン @ QK8nAFN9E2"" posts a big blind of 20",2025-10-20T13:49:51.294Z,176096819129409
+"""Ene @ 7kPHYByVxS"" posts a small blind of 10",2025-10-20T13:49:51.294Z,176096819129408
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3503) | #3 ""goto-neo @ 3uy3Mlil7r"" (2975) | #5 ""IAMB @ gjmiQ4-uAW"" (2870) | #6 ""Ene @ 7kPHYByVxS"" (2112) | #7 ""カイン @ QK8nAFN9E2"" (2370) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2270)",2025-10-20T13:49:51.294Z,176096819129401
+"-- starting hand #65 (id: bxjjt7mm7bha)  (No Limit Texas Hold'em) (dealer: ""IAMB @ gjmiQ4-uAW"") --",2025-10-20T13:49:51.294Z,176096819129400
+"-- ending hand #64 --",2025-10-20T13:49:48.357Z,176096818835702
+"""Ene @ 7kPHYByVxS"" collected 20 from pot",2025-10-20T13:49:48.357Z,176096818835701
+"Uncalled bet of 10 returned to ""Ene @ 7kPHYByVxS""",2025-10-20T13:49:48.357Z,176096818835700
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:49:47.539Z,176096818753900
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:49:46.510Z,176096818651000
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:49:45.490Z,176096818549000
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:49:44.407Z,176096818440700
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:49:38.404Z,176096817840400
+"""Ene @ 7kPHYByVxS"" posts a big blind of 20",2025-10-20T13:49:34.381Z,176096817438109
+"""IAMB @ gjmiQ4-uAW"" posts a small blind of 10",2025-10-20T13:49:34.381Z,176096817438108
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3503) | #3 ""goto-neo @ 3uy3Mlil7r"" (2975) | #5 ""IAMB @ gjmiQ4-uAW"" (2880) | #6 ""Ene @ 7kPHYByVxS"" (2102) | #7 ""カイン @ QK8nAFN9E2"" (2370) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2270)",2025-10-20T13:49:34.381Z,176096817438101
+"-- starting hand #64 (id: xyzuyrupjdoq)  (No Limit Texas Hold'em) (dealer: ""goto-neo @ 3uy3Mlil7r"") --",2025-10-20T13:49:34.381Z,176096817438100
+"-- ending hand #63 --",2025-10-20T13:49:31.476Z,176096817147602
+"""Ene @ 7kPHYByVxS"" collected 50 from pot",2025-10-20T13:49:31.476Z,176096817147601
+"Uncalled bet of 20 returned to ""Ene @ 7kPHYByVxS""",2025-10-20T13:49:31.476Z,176096817147600
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:49:30.583Z,176096817058300
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:49:29.562Z,176096816956200
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:49:28.542Z,176096816854200
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:49:27.509Z,176096816750900
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:49:25.477Z,176096816547700
+"""Ene @ 7kPHYByVxS"" raises to 40",2025-10-20T13:49:23.875Z,176096816387500
+"""IAMB @ gjmiQ4-uAW"" posts a big blind of 20",2025-10-20T13:49:21.478Z,176096816147809
+"""goto-neo @ 3uy3Mlil7r"" posts a small blind of 10",2025-10-20T13:49:21.478Z,176096816147808
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3503) | #3 ""goto-neo @ 3uy3Mlil7r"" (2985) | #5 ""IAMB @ gjmiQ4-uAW"" (2900) | #6 ""Ene @ 7kPHYByVxS"" (2072) | #7 ""カイン @ QK8nAFN9E2"" (2370) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2270)",2025-10-20T13:49:21.478Z,176096816147801
+"-- starting hand #63 (id: e1vykbeogqxt)  (No Limit Texas Hold'em) (dealer: ""Miharu @ AAC7lMsXCu"") --",2025-10-20T13:49:21.478Z,176096816147800
+"-- ending hand #62 --",2025-10-20T13:49:18.573Z,176096815857301
+"""Miharu @ AAC7lMsXCu"" collected 40 from pot",2025-10-20T13:49:18.573Z,176096815857300
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:49:17.761Z,176096815776100
+"""Miharu @ AAC7lMsXCu"" calls 20",2025-10-20T13:49:16.696Z,176096815669600
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:49:14.603Z,176096815460300
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:49:11.639Z,176096815163900
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:49:08.539Z,176096814853900
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:49:07.472Z,176096814747200
+"""goto-neo @ 3uy3Mlil7r"" posts a big blind of 20",2025-10-20T13:49:06.058Z,176096814605809
+"""Miharu @ AAC7lMsXCu"" posts a small blind of 10",2025-10-20T13:49:06.058Z,176096814605808
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3483) | #3 ""goto-neo @ 3uy3Mlil7r"" (3005) | #5 ""IAMB @ gjmiQ4-uAW"" (2900) | #6 ""Ene @ 7kPHYByVxS"" (2072) | #7 ""カイン @ QK8nAFN9E2"" (2370) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2270)",2025-10-20T13:49:06.058Z,176096814605801
+"-- starting hand #62 (id: 1vd9nvivdofu)  (No Limit Texas Hold'em) (dealer: ""ナカヤマ @ Na5oN7lbKH"") --",2025-10-20T13:49:06.058Z,176096814605800
+"""goto-neo @ 3uy3Mlil7r"" shows a 6♠, 10♥.",2025-10-20T13:49:01.279Z,176096814127900
+"-- ending hand #61 --",2025-10-20T13:48:59.475Z,176096813947502
+"""Miharu @ AAC7lMsXCu"" collected 930 from pot with Straight, K High (combination: K♠, Q♠, J♥, 10♦, 9♦)",2025-10-20T13:48:59.475Z,176096813947501
+"""Miharu @ AAC7lMsXCu"" shows a 6♥, J♥.",2025-10-20T13:48:59.475Z,176096813947500
+"""カイン @ QK8nAFN9E2"" calls 200",2025-10-20T13:48:58.659Z,176096813865900
+"""Miharu @ AAC7lMsXCu"" bets 200",2025-10-20T13:48:38.690Z,176096811869000
+"River: Q♠, K♠, K♦, 10♦ [9♦]",2025-10-20T13:48:25.366Z,176096810536600
+"""カイン @ QK8nAFN9E2"" checks",2025-10-20T13:48:24.560Z,176096810456000
+"""Miharu @ AAC7lMsXCu"" checks",2025-10-20T13:48:21.161Z,176096810116100
+"Turn: Q♠, K♠, K♦ [10♦]",2025-10-20T13:48:06.154Z,176096808615400
+"""カイン @ QK8nAFN9E2"" calls 100",2025-10-20T13:48:05.283Z,176096808528300
+"""Miharu @ AAC7lMsXCu"" bets 100",2025-10-20T13:48:02.196Z,176096808219600
+"Flop:  [Q♠, K♠, K♦]",2025-10-20T13:47:54.956Z,176096807495600
+"""カイン @ QK8nAFN9E2"" calls 160",2025-10-20T13:47:54.136Z,176096807413600
+"""Miharu @ AAC7lMsXCu"" raises to 160",2025-10-20T13:47:50.432Z,176096807043200
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:47:31.643Z,176096805164300
+"""カイン @ QK8nAFN9E2"" raises to 40",2025-10-20T13:47:25.243Z,176096804524300
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:47:18.881Z,176096803888100
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:47:17.797Z,176096803779700
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:47:16.770Z,176096803677000
+"""Miharu @ AAC7lMsXCu"" posts a big blind of 20",2025-10-20T13:47:13.988Z,176096803398809
+"""ナカヤマ @ Na5oN7lbKH"" posts a small blind of 10",2025-10-20T13:47:13.988Z,176096803398808
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3013) | #3 ""goto-neo @ 3uy3Mlil7r"" (3005) | #5 ""IAMB @ gjmiQ4-uAW"" (2900) | #6 ""Ene @ 7kPHYByVxS"" (2072) | #7 ""カイン @ QK8nAFN9E2"" (2830) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2280)",2025-10-20T13:47:13.988Z,176096803398801
+"-- starting hand #61 (id: y7mxhemcllrw)  (No Limit Texas Hold'em) (dealer: ""カイン @ QK8nAFN9E2"") --",2025-10-20T13:47:13.988Z,176096803398800
+"""カイン @ QK8nAFN9E2"" shows a 9♦, 9♣.",2025-10-20T13:47:12.603Z,176096803260300
+"-- ending hand #60 --",2025-10-20T13:47:10.385Z,176096803038502
+"""カイン @ QK8nAFN9E2"" collected 120 from pot",2025-10-20T13:47:10.385Z,176096803038501
+"Uncalled bet of 140 returned to ""カイン @ QK8nAFN9E2""",2025-10-20T13:47:10.385Z,176096803038500
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:47:09.552Z,176096802955200
+"""カイン @ QK8nAFN9E2"" raises to 200",2025-10-20T13:47:07.626Z,176096802762600
+"""ナカヤマ @ Na5oN7lbKH"" raises to 60",2025-10-20T13:46:58.273Z,176096801827300
+"""カイン @ QK8nAFN9E2"" calls 20",2025-10-20T13:46:44.799Z,176096800479900
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:46:41.956Z,176096800195600
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:46:37.634Z,176096799763400
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:46:35.650Z,176096799565000
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:46:34.568Z,176096799456800
+"""ナカヤマ @ Na5oN7lbKH"" posts a big blind of 20",2025-10-20T13:46:27.339Z,176096798733909
+"""カイン @ QK8nAFN9E2"" posts a small blind of 10",2025-10-20T13:46:27.339Z,176096798733908
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3013) | #3 ""goto-neo @ 3uy3Mlil7r"" (3005) | #5 ""IAMB @ gjmiQ4-uAW"" (2900) | #6 ""Ene @ 7kPHYByVxS"" (2072) | #7 ""カイン @ QK8nAFN9E2"" (2770) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2340)",2025-10-20T13:46:27.339Z,176096798733901
+"-- starting hand #60 (id: 4gnkvwchdnq4)  (No Limit Texas Hold'em) (dealer: ""Ene @ 7kPHYByVxS"") --",2025-10-20T13:46:27.339Z,176096798733900
+"-- ending hand #59 --",2025-10-20T13:46:24.426Z,176096798442602
+"""Ene @ 7kPHYByVxS"" collected 40 from pot",2025-10-20T13:46:24.426Z,176096798442601
+"Uncalled bet of 40 returned to ""Ene @ 7kPHYByVxS""",2025-10-20T13:46:24.426Z,176096798442600
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:46:23.623Z,176096798362300
+"""Ene @ 7kPHYByVxS"" raises to 60",2025-10-20T13:46:22.624Z,176096798262400
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:46:18.148Z,176096797814800
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:46:15.486Z,176096797548600
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:46:14.459Z,176096797445900
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:46:09.066Z,176096796906600
+"""カイン @ QK8nAFN9E2"" posts a big blind of 20",2025-10-20T13:46:03.586Z,176096796358609
+"""Ene @ 7kPHYByVxS"" posts a small blind of 10",2025-10-20T13:46:03.586Z,176096796358608
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3013) | #3 ""goto-neo @ 3uy3Mlil7r"" (3005) | #5 ""IAMB @ gjmiQ4-uAW"" (2900) | #6 ""Ene @ 7kPHYByVxS"" (2052) | #7 ""カイン @ QK8nAFN9E2"" (2790) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2340)",2025-10-20T13:46:03.586Z,176096796358601
+"-- starting hand #59 (id: awwuj4bdjtih)  (No Limit Texas Hold'em) (dealer: ""IAMB @ gjmiQ4-uAW"") --",2025-10-20T13:46:03.586Z,176096796358600
+"-- ending hand #58 --",2025-10-20T13:46:00.619Z,176096796061902
+"""Ene @ 7kPHYByVxS"" collected 20 from pot",2025-10-20T13:46:00.619Z,176096796061901
+"Uncalled bet of 10 returned to ""Ene @ 7kPHYByVxS""",2025-10-20T13:46:00.619Z,176096796061900
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:45:59.775Z,176096795977500
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:45:58.744Z,176096795874400
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:45:57.722Z,176096795772200
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:45:53.064Z,176096795306400
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:45:49.954Z,176096794995400
+"""Ene @ 7kPHYByVxS"" posts a big blind of 20",2025-10-20T13:45:45.129Z,176096794512909
+"""IAMB @ gjmiQ4-uAW"" posts a small blind of 10",2025-10-20T13:45:45.129Z,176096794512908
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3013) | #3 ""goto-neo @ 3uy3Mlil7r"" (3005) | #5 ""IAMB @ gjmiQ4-uAW"" (2910) | #6 ""Ene @ 7kPHYByVxS"" (2042) | #7 ""カイン @ QK8nAFN9E2"" (2790) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2340)",2025-10-20T13:45:45.129Z,176096794512901
+"-- starting hand #58 (id: wl1sipfvvnks)  (No Limit Texas Hold'em) (dealer: ""goto-neo @ 3uy3Mlil7r"") --",2025-10-20T13:45:45.129Z,176096794512900
+"-- ending hand #57 --",2025-10-20T13:45:42.205Z,176096794220502
+"""ナカヤマ @ Na5oN7lbKH"" collected 50 from pot",2025-10-20T13:45:42.205Z,176096794220501
+"Uncalled bet of 30 returned to ""ナカヤマ @ Na5oN7lbKH""",2025-10-20T13:45:42.205Z,176096794220500
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:45:41.362Z,176096794136200
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:45:40.350Z,176096794035000
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:45:39.314Z,176096793931400
+"""ナカヤマ @ Na5oN7lbKH"" raises to 50",2025-10-20T13:45:38.314Z,176096793831400
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:45:28.381Z,176096792838100
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:45:25.012Z,176096792501200
+"""IAMB @ gjmiQ4-uAW"" posts a big blind of 20",2025-10-20T13:45:19.887Z,176096791988709
+"""goto-neo @ 3uy3Mlil7r"" posts a small blind of 10",2025-10-20T13:45:19.887Z,176096791988708
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3013) | #3 ""goto-neo @ 3uy3Mlil7r"" (3015) | #5 ""IAMB @ gjmiQ4-uAW"" (2930) | #6 ""Ene @ 7kPHYByVxS"" (2042) | #7 ""カイン @ QK8nAFN9E2"" (2790) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2310)",2025-10-20T13:45:19.887Z,176096791988701
+"-- starting hand #57 (id: pxatrnvgypas)  (No Limit Texas Hold'em) (dealer: ""Miharu @ AAC7lMsXCu"") --",2025-10-20T13:45:19.887Z,176096791988700
+"-- ending hand #56 --",2025-10-20T13:45:16.951Z,176096791695101
+"""Miharu @ AAC7lMsXCu"" collected 40 from pot",2025-10-20T13:45:16.951Z,176096791695100
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:45:16.127Z,176096791612700
+"""Miharu @ AAC7lMsXCu"" calls 20",2025-10-20T13:45:15.062Z,176096791506200
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:45:13.114Z,176096791311400
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:45:11.345Z,176096791134500
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:45:10.323Z,176096791032300
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:45:06.595Z,176096790659500
+"""goto-neo @ 3uy3Mlil7r"" posts a big blind of 20",2025-10-20T13:45:05.027Z,176096790502709
+"""Miharu @ AAC7lMsXCu"" posts a small blind of 10",2025-10-20T13:45:05.027Z,176096790502708
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (2993) | #3 ""goto-neo @ 3uy3Mlil7r"" (3035) | #5 ""IAMB @ gjmiQ4-uAW"" (2930) | #6 ""Ene @ 7kPHYByVxS"" (2042) | #7 ""カイン @ QK8nAFN9E2"" (2790) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2310)",2025-10-20T13:45:05.027Z,176096790502701
+"-- starting hand #56 (id: qqswfjrm4eg7)  (No Limit Texas Hold'em) (dealer: ""ナカヤマ @ Na5oN7lbKH"") --",2025-10-20T13:45:05.027Z,176096790502700
+"-- ending hand #55 --",2025-10-20T13:45:02.091Z,176096790209102
+"""Ene @ 7kPHYByVxS"" collected 124 from pot",2025-10-20T13:45:02.091Z,176096790209101
+"Uncalled bet of 93 returned to ""Ene @ 7kPHYByVxS""",2025-10-20T13:45:02.091Z,176096790209100
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:45:01.224Z,176096790122400
+"""Ene @ 7kPHYByVxS"" bets 93",2025-10-20T13:44:54.838Z,176096789483800
+"""Miharu @ AAC7lMsXCu"" checks",2025-10-20T13:44:50.959Z,176096789095900
+"Turn: K♦, Q♠, 6♣ [10♥]",2025-10-20T13:44:46.829Z,176096788682900
+"""Ene @ 7kPHYByVxS"" checks",2025-10-20T13:44:45.950Z,176096788595000
+"""Miharu @ AAC7lMsXCu"" checks",2025-10-20T13:44:31.136Z,176096787113600
+"Flop:  [K♦, Q♠, 6♣]",2025-10-20T13:44:28.818Z,176096786881800
+"""Miharu @ AAC7lMsXCu"" calls 57",2025-10-20T13:44:27.961Z,176096786796100
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:44:24.029Z,176096786402900
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:44:19.936Z,176096785993600
+"""Ene @ 7kPHYByVxS"" raises to 57",2025-10-20T13:44:18.892Z,176096785889200
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:44:15.628Z,176096785562800
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:44:14.580Z,176096785458000
+"""Miharu @ AAC7lMsXCu"" posts a big blind of 20",2025-10-20T13:44:10.321Z,176096785032109
+"""ナカヤマ @ Na5oN7lbKH"" posts a small blind of 10",2025-10-20T13:44:10.321Z,176096785032108
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3050) | #3 ""goto-neo @ 3uy3Mlil7r"" (3035) | #5 ""IAMB @ gjmiQ4-uAW"" (2930) | #6 ""Ene @ 7kPHYByVxS"" (1975) | #7 ""カイン @ QK8nAFN9E2"" (2790) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2320)",2025-10-20T13:44:10.321Z,176096785032101
+"-- starting hand #55 (id: i78dr4iizeqz)  (No Limit Texas Hold'em) (dealer: ""カイン @ QK8nAFN9E2"") --",2025-10-20T13:44:10.321Z,176096785032100
+"-- ending hand #54 --",2025-10-20T13:44:07.419Z,176096784741902
+"""ナカヤマ @ Na5oN7lbKH"" collected 110 from pot",2025-10-20T13:44:07.419Z,176096784741901
+"Uncalled bet of 170 returned to ""ナカヤマ @ Na5oN7lbKH""",2025-10-20T13:44:07.419Z,176096784741900
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:44:06.582Z,176096784658200
+"""ナカヤマ @ Na5oN7lbKH"" bets 170",2025-10-20T13:44:01.315Z,176096784131500
+"River: 5♦, 2♠, 3♠, J♠ [A♠]",2025-10-20T13:43:45.826Z,176096782582600
+"""IAMB @ gjmiQ4-uAW"" checks",2025-10-20T13:43:44.982Z,176096782498200
+"""ナカヤマ @ Na5oN7lbKH"" checks",2025-10-20T13:43:40.369Z,176096782036900
+"Turn: 5♦, 2♠, 3♠ [J♠]",2025-10-20T13:43:32.316Z,176096781231600
+"""IAMB @ gjmiQ4-uAW"" checks",2025-10-20T13:43:31.497Z,176096781149700
+"""ナカヤマ @ Na5oN7lbKH"" checks",2025-10-20T13:43:22.538Z,176096780253800
+"Flop:  [5♦, 2♠, 3♠]",2025-10-20T13:43:12.399Z,176096779239900
+"""ナカヤマ @ Na5oN7lbKH"" calls 50",2025-10-20T13:43:11.593Z,176096779159300
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:42:55.454Z,176096777545400
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:42:54.398Z,176096777439800
+"""IAMB @ gjmiQ4-uAW"" raises to 50",2025-10-20T13:42:53.208Z,176096777320800
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:42:49.878Z,176096776987800
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:42:45.039Z,176096776503900
+"""ナカヤマ @ Na5oN7lbKH"" posts a big blind of 20",2025-10-20T13:42:43.468Z,176096776346809
+"""カイン @ QK8nAFN9E2"" posts a small blind of 10",2025-10-20T13:42:43.468Z,176096776346808
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3050) | #3 ""goto-neo @ 3uy3Mlil7r"" (3035) | #5 ""IAMB @ gjmiQ4-uAW"" (2980) | #6 ""Ene @ 7kPHYByVxS"" (1975) | #7 ""カイン @ QK8nAFN9E2"" (2800) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2260)",2025-10-20T13:42:43.468Z,176096776346801
+"-- starting hand #54 (id: 8ho3ccarl29l)  (No Limit Texas Hold'em) (dealer: ""Ene @ 7kPHYByVxS"") --",2025-10-20T13:42:43.468Z,176096776346800
+"-- ending hand #53 --",2025-10-20T13:42:40.545Z,176096776054502
+"""カイン @ QK8nAFN9E2"" collected 20 from pot",2025-10-20T13:42:40.545Z,176096776054501
+"Uncalled bet of 10 returned to ""カイン @ QK8nAFN9E2""",2025-10-20T13:42:40.545Z,176096776054500
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:42:39.711Z,176096775971100
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:42:36.173Z,176096775617300
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:42:35.152Z,176096775515200
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:42:34.087Z,176096775408700
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:42:33.080Z,176096775308000
+"""カイン @ QK8nAFN9E2"" posts a big blind of 20",2025-10-20T13:42:27.137Z,176096774713709
+"""Ene @ 7kPHYByVxS"" posts a small blind of 10",2025-10-20T13:42:27.137Z,176096774713708
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3050) | #3 ""goto-neo @ 3uy3Mlil7r"" (3035) | #5 ""IAMB @ gjmiQ4-uAW"" (2980) | #6 ""Ene @ 7kPHYByVxS"" (1985) | #7 ""カイン @ QK8nAFN9E2"" (2790) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2260)",2025-10-20T13:42:27.137Z,176096774713701
+"-- starting hand #53 (id: 3jziqce5pvxs)  (No Limit Texas Hold'em) (dealer: ""IAMB @ gjmiQ4-uAW"") --",2025-10-20T13:42:27.137Z,176096774713700
+"-- ending hand #52 --",2025-10-20T13:42:24.218Z,176096774421802
+"""Miharu @ AAC7lMsXCu"" collected 50 from pot",2025-10-20T13:42:24.218Z,176096774421801
+"Uncalled bet of 26 returned to ""Miharu @ AAC7lMsXCu""",2025-10-20T13:42:24.218Z,176096774421800
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:42:23.377Z,176096774337700
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:42:22.255Z,176096774225500
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:42:19.127Z,176096773912700
+"""Miharu @ AAC7lMsXCu"" raises to 46",2025-10-20T13:42:18.087Z,176096773808700
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:42:12.627Z,176096773262700
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:42:08.712Z,176096772871200
+"""Ene @ 7kPHYByVxS"" posts a big blind of 20",2025-10-20T13:42:05.706Z,176096772570609
+"""IAMB @ gjmiQ4-uAW"" posts a small blind of 10",2025-10-20T13:42:05.706Z,176096772570608
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3020) | #3 ""goto-neo @ 3uy3Mlil7r"" (3035) | #5 ""IAMB @ gjmiQ4-uAW"" (2990) | #6 ""Ene @ 7kPHYByVxS"" (2005) | #7 ""カイン @ QK8nAFN9E2"" (2790) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2260)",2025-10-20T13:42:05.706Z,176096772570601
+"-- starting hand #52 (id: zbxv7nxqldoe)  (No Limit Texas Hold'em) (dealer: ""goto-neo @ 3uy3Mlil7r"") --",2025-10-20T13:42:05.706Z,176096772570600
+"-- ending hand #51 --",2025-10-20T13:42:02.798Z,176096772279802
+"""Miharu @ AAC7lMsXCu"" collected 50 from pot",2025-10-20T13:42:02.798Z,176096772279801
+"Uncalled bet of 30 returned to ""Miharu @ AAC7lMsXCu""",2025-10-20T13:42:02.798Z,176096772279800
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:42:01.706Z,176096772170600
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:42:00.583Z,176096772058300
+"""Miharu @ AAC7lMsXCu"" raises to 50",2025-10-20T13:41:59.545Z,176096771954500
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:41:55.073Z,176096771507300
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:41:46.126Z,176096770612600
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:41:45.022Z,176096770502200
+"""IAMB @ gjmiQ4-uAW"" posts a big blind of 20",2025-10-20T13:41:35.507Z,176096769550709
+"""goto-neo @ 3uy3Mlil7r"" posts a small blind of 10",2025-10-20T13:41:35.507Z,176096769550708
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (2990) | #3 ""goto-neo @ 3uy3Mlil7r"" (3045) | #5 ""IAMB @ gjmiQ4-uAW"" (3010) | #6 ""Ene @ 7kPHYByVxS"" (2005) | #7 ""カイン @ QK8nAFN9E2"" (2790) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2260)",2025-10-20T13:41:35.507Z,176096769550701
+"-- starting hand #51 (id: pschbff59l3s)  (No Limit Texas Hold'em) (dealer: ""Miharu @ AAC7lMsXCu"") --",2025-10-20T13:41:35.507Z,176096769550700
+"-- ending hand #50 --",2025-10-20T13:41:32.537Z,176096769253701
+"""Miharu @ AAC7lMsXCu"" collected 40 from pot",2025-10-20T13:41:32.537Z,176096769253700
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:41:31.719Z,176096769171900
+"""Miharu @ AAC7lMsXCu"" calls 20",2025-10-20T13:41:30.678Z,176096769067800
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:41:27.742Z,176096768774200
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:41:26.703Z,176096768670300
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:41:25.579Z,176096768557900
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:41:21.386Z,176096768138600
+"""goto-neo @ 3uy3Mlil7r"" posts a big blind of 20",2025-10-20T13:41:18.698Z,176096767869809
+"""Miharu @ AAC7lMsXCu"" posts a small blind of 10",2025-10-20T13:41:18.698Z,176096767869808
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (2970) | #3 ""goto-neo @ 3uy3Mlil7r"" (3065) | #5 ""IAMB @ gjmiQ4-uAW"" (3010) | #6 ""Ene @ 7kPHYByVxS"" (2005) | #7 ""カイン @ QK8nAFN9E2"" (2790) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2260)",2025-10-20T13:41:18.698Z,176096767869801
+"-- starting hand #50 (id: yorzc1rcwgkt)  (No Limit Texas Hold'em) (dealer: ""ナカヤマ @ Na5oN7lbKH"") --",2025-10-20T13:41:18.698Z,176096767869800
+"-- ending hand #49 --",2025-10-20T13:41:15.718Z,176096767571802
+"""ナカヤマ @ Na5oN7lbKH"" collected 40 from pot",2025-10-20T13:41:15.718Z,176096767571801
+"Uncalled bet of 40 returned to ""ナカヤマ @ Na5oN7lbKH""",2025-10-20T13:41:15.718Z,176096767571800
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:41:14.898Z,176096767489800
+"""ナカヤマ @ Na5oN7lbKH"" raises to 60",2025-10-20T13:41:13.091Z,176096767309100
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:41:03.817Z,176096766381700
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:41:01.865Z,176096766186500
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:40:57.914Z,176096765791400
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:40:56.895Z,176096765689500
+"""Miharu @ AAC7lMsXCu"" posts a big blind of 20",2025-10-20T13:40:54.992Z,176096765499209
+"""ナカヤマ @ Na5oN7lbKH"" posts a small blind of 10",2025-10-20T13:40:54.992Z,176096765499208
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (2990) | #3 ""goto-neo @ 3uy3Mlil7r"" (3065) | #5 ""IAMB @ gjmiQ4-uAW"" (3010) | #6 ""Ene @ 7kPHYByVxS"" (2005) | #7 ""カイン @ QK8nAFN9E2"" (2790) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2240)",2025-10-20T13:40:54.992Z,176096765499201
+"-- starting hand #49 (id: ypotpyw8j1lj)  (No Limit Texas Hold'em) (dealer: ""カイン @ QK8nAFN9E2"") --",2025-10-20T13:40:54.992Z,176096765499200
+"-- ending hand #48 --",2025-10-20T13:40:52.070Z,176096765207002
+"""Ene @ 7kPHYByVxS"" collected 50 from pot",2025-10-20T13:40:52.070Z,176096765207001
+"Uncalled bet of 37 returned to ""Ene @ 7kPHYByVxS""",2025-10-20T13:40:52.070Z,176096765207000
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:40:51.267Z,176096765126700
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:40:48.055Z,176096764805500
+"""Ene @ 7kPHYByVxS"" raises to 57",2025-10-20T13:40:45.966Z,176096764596600
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:40:43.252Z,176096764325200
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:40:42.234Z,176096764223400
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:40:41.158Z,176096764115800
+"""ナカヤマ @ Na5oN7lbKH"" posts a big blind of 20",2025-10-20T13:40:38.857Z,176096763885709
+"""カイン @ QK8nAFN9E2"" posts a small blind of 10",2025-10-20T13:40:38.857Z,176096763885708
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (2990) | #3 ""goto-neo @ 3uy3Mlil7r"" (3065) | #5 ""IAMB @ gjmiQ4-uAW"" (3010) | #6 ""Ene @ 7kPHYByVxS"" (1975) | #7 ""カイン @ QK8nAFN9E2"" (2800) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2260)",2025-10-20T13:40:38.857Z,176096763885701
+"-- starting hand #48 (id: znc51jr4vp4i)  (No Limit Texas Hold'em) (dealer: ""Ene @ 7kPHYByVxS"") --",2025-10-20T13:40:38.857Z,176096763885700
+"-- ending hand #47 --",2025-10-20T13:40:35.939Z,176096763593902
+"""Ene @ 7kPHYByVxS"" collected 40 from pot",2025-10-20T13:40:35.939Z,176096763593901
+"Uncalled bet of 40 returned to ""Ene @ 7kPHYByVxS""",2025-10-20T13:40:35.939Z,176096763593900
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:40:35.125Z,176096763512500
+"""Ene @ 7kPHYByVxS"" raises to 60",2025-10-20T13:40:32.660Z,176096763266000
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:40:30.034Z,176096763003400
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:40:29.015Z,176096762901500
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:40:27.976Z,176096762797600
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:40:25.813Z,176096762581300
+"""カイン @ QK8nAFN9E2"" posts a big blind of 20",2025-10-20T13:40:22.529Z,176096762252909
+"""Ene @ 7kPHYByVxS"" posts a small blind of 10",2025-10-20T13:40:22.529Z,176096762252908
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (2990) | #3 ""goto-neo @ 3uy3Mlil7r"" (3065) | #5 ""IAMB @ gjmiQ4-uAW"" (3010) | #6 ""Ene @ 7kPHYByVxS"" (1955) | #7 ""カイン @ QK8nAFN9E2"" (2820) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2260)",2025-10-20T13:40:22.529Z,176096762252901
+"-- starting hand #47 (id: bi6ronils7dh)  (No Limit Texas Hold'em) (dealer: ""IAMB @ gjmiQ4-uAW"") --",2025-10-20T13:40:22.529Z,176096762252900
+"-- ending hand #46 --",2025-10-20T13:40:19.599Z,176096761959902
+"""Ene @ 7kPHYByVxS"" collected 90 from pot",2025-10-20T13:40:19.599Z,176096761959901
+"Uncalled bet of 210 returned to ""Ene @ 7kPHYByVxS""",2025-10-20T13:40:19.599Z,176096761959900
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:40:18.727Z,176096761872700
+"""Ene @ 7kPHYByVxS"" raises to 250",2025-10-20T13:40:11.296Z,176096761129600
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:39:54.549Z,176096759454900
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:39:53.524Z,176096759352400
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:39:52.472Z,176096759247200
+"""ナカヤマ @ Na5oN7lbKH"" raises to 40",2025-10-20T13:39:51.147Z,176096759114700
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:39:46.354Z,176096758635400
+"""Ene @ 7kPHYByVxS"" posts a big blind of 20",2025-10-20T13:39:44.366Z,176096758436609
+"""IAMB @ gjmiQ4-uAW"" posts a small blind of 10",2025-10-20T13:39:44.366Z,176096758436608
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (2990) | #3 ""goto-neo @ 3uy3Mlil7r"" (3065) | #5 ""IAMB @ gjmiQ4-uAW"" (3020) | #6 ""Ene @ 7kPHYByVxS"" (1905) | #7 ""カイン @ QK8nAFN9E2"" (2820) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2300)",2025-10-20T13:39:44.366Z,176096758436601
+"-- starting hand #46 (id: r16oatk95gof)  (No Limit Texas Hold'em) (dealer: ""goto-neo @ 3uy3Mlil7r"") --",2025-10-20T13:39:44.366Z,176096758436600
+"-- ending hand #45 --",2025-10-20T13:39:41.452Z,176096758145202
+"""Miharu @ AAC7lMsXCu"" collected 50 from pot",2025-10-20T13:39:41.452Z,176096758145201
+"Uncalled bet of 30 returned to ""Miharu @ AAC7lMsXCu""",2025-10-20T13:39:41.452Z,176096758145200
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:39:40.615Z,176096758061500
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:39:39.572Z,176096757957200
+"""Miharu @ AAC7lMsXCu"" raises to 50",2025-10-20T13:39:38.554Z,176096757855400
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:39:32.852Z,176096757285200
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:39:30.625Z,176096757062500
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:39:29.096Z,176096756909600
+"""IAMB @ gjmiQ4-uAW"" posts a big blind of 20",2025-10-20T13:39:27.754Z,176096756775409
+"""goto-neo @ 3uy3Mlil7r"" posts a small blind of 10",2025-10-20T13:39:27.754Z,176096756775408
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (2960) | #3 ""goto-neo @ 3uy3Mlil7r"" (3075) | #5 ""IAMB @ gjmiQ4-uAW"" (3040) | #6 ""Ene @ 7kPHYByVxS"" (1905) | #7 ""カイン @ QK8nAFN9E2"" (2820) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2300)",2025-10-20T13:39:27.754Z,176096756775401
+"-- starting hand #45 (id: pdamhc4yinra)  (No Limit Texas Hold'em) (dealer: ""Miharu @ AAC7lMsXCu"") --",2025-10-20T13:39:27.754Z,176096756775400
+"-- ending hand #44 --",2025-10-20T13:39:24.831Z,176096756483101
+"""Miharu @ AAC7lMsXCu"" collected 40 from pot",2025-10-20T13:39:24.831Z,176096756483100
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:39:23.991Z,176096756399100
+"""Miharu @ AAC7lMsXCu"" calls 20",2025-10-20T13:39:22.968Z,176096756296800
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:39:14.289Z,176096755428900
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:39:12.456Z,176096755245600
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:39:11.432Z,176096755143200
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:39:07.886Z,176096754788600
+"""goto-neo @ 3uy3Mlil7r"" posts a big blind of 20",2025-10-20T13:39:06.670Z,176096754667009
+"""Miharu @ AAC7lMsXCu"" posts a small blind of 10",2025-10-20T13:39:06.670Z,176096754667008
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (2940) | #3 ""goto-neo @ 3uy3Mlil7r"" (3095) | #5 ""IAMB @ gjmiQ4-uAW"" (3040) | #6 ""Ene @ 7kPHYByVxS"" (1905) | #7 ""カイン @ QK8nAFN9E2"" (2820) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2300)",2025-10-20T13:39:06.670Z,176096754667001
+"-- starting hand #44 (id: 6fpe4f9y3aca)  (No Limit Texas Hold'em) (dealer: ""ナカヤマ @ Na5oN7lbKH"") --",2025-10-20T13:39:06.670Z,176096754667000
+"-- ending hand #43 --",2025-10-20T13:39:03.762Z,176096754376202
+"""IAMB @ gjmiQ4-uAW"" collected 50 from pot",2025-10-20T13:39:03.762Z,176096754376201
+"Uncalled bet of 30 returned to ""IAMB @ gjmiQ4-uAW""",2025-10-20T13:39:03.762Z,176096754376200
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:39:02.939Z,176096754293900
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:39:01.923Z,176096754192300
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:38:43.888Z,176096752388800
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:38:40.896Z,176096752089600
+"""IAMB @ gjmiQ4-uAW"" raises to 50",2025-10-20T13:38:37.273Z,176096751727300
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:38:34.015Z,176096751401500
+"""Miharu @ AAC7lMsXCu"" posts a big blind of 20",2025-10-20T13:38:32.216Z,176096751221609
+"""ナカヤマ @ Na5oN7lbKH"" posts a small blind of 10",2025-10-20T13:38:32.216Z,176096751221608
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (2960) | #3 ""goto-neo @ 3uy3Mlil7r"" (3095) | #5 ""IAMB @ gjmiQ4-uAW"" (3010) | #6 ""Ene @ 7kPHYByVxS"" (1905) | #7 ""カイン @ QK8nAFN9E2"" (2820) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2310)",2025-10-20T13:38:32.216Z,176096751221601
+"-- starting hand #43 (id: dml0xrfrdbzq)  (No Limit Texas Hold'em) (dealer: ""カイン @ QK8nAFN9E2"") --",2025-10-20T13:38:32.216Z,176096751221600
+"-- ending hand #42 --",2025-10-20T13:38:29.302Z,176096750930202
+"""IAMB @ gjmiQ4-uAW"" collected 50 from pot",2025-10-20T13:38:29.302Z,176096750930201
+"Uncalled bet of 30 returned to ""IAMB @ gjmiQ4-uAW""",2025-10-20T13:38:29.302Z,176096750930200
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:38:28.469Z,176096750846900
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:38:26.533Z,176096750653300
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:38:23.716Z,176096750371600
+"""IAMB @ gjmiQ4-uAW"" raises to 50",2025-10-20T13:38:18.093Z,176096749809300
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:38:13.379Z,176096749337900
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:38:12.310Z,176096749231000
+"""ナカヤマ @ Na5oN7lbKH"" posts a big blind of 20",2025-10-20T13:38:09.964Z,176096748996409
+"""カイン @ QK8nAFN9E2"" posts a small blind of 10",2025-10-20T13:38:09.964Z,176096748996408
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (2960) | #3 ""goto-neo @ 3uy3Mlil7r"" (3095) | #5 ""IAMB @ gjmiQ4-uAW"" (2980) | #6 ""Ene @ 7kPHYByVxS"" (1905) | #7 ""カイン @ QK8nAFN9E2"" (2830) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2330)",2025-10-20T13:38:09.964Z,176096748996401
+"-- starting hand #42 (id: 84ha14fmia8d)  (No Limit Texas Hold'em) (dealer: ""Ene @ 7kPHYByVxS"") --",2025-10-20T13:38:09.964Z,176096748996400
+"-- ending hand #41 --",2025-10-20T13:38:07.056Z,176096748705602
+"""IAMB @ gjmiQ4-uAW"" collected 50 from pot",2025-10-20T13:38:07.056Z,176096748705601
+"Uncalled bet of 30 returned to ""IAMB @ gjmiQ4-uAW""",2025-10-20T13:38:07.056Z,176096748705600
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:38:06.245Z,176096748624500
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:38:03.740Z,176096748374000
+"""IAMB @ gjmiQ4-uAW"" raises to 50",2025-10-20T13:38:02.382Z,176096748238200
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:37:58.425Z,176096747842500
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:37:57.412Z,176096747741200
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:37:56.371Z,176096747637100
+"""カイン @ QK8nAFN9E2"" posts a big blind of 20",2025-10-20T13:37:54.209Z,176096747420909
+"""Ene @ 7kPHYByVxS"" posts a small blind of 10",2025-10-20T13:37:54.209Z,176096747420908
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (2960) | #3 ""goto-neo @ 3uy3Mlil7r"" (3095) | #5 ""IAMB @ gjmiQ4-uAW"" (2950) | #6 ""Ene @ 7kPHYByVxS"" (1915) | #7 ""カイン @ QK8nAFN9E2"" (2850) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2330)",2025-10-20T13:37:54.209Z,176096747420901
+"-- starting hand #41 (id: yiqbltsb2qr2)  (No Limit Texas Hold'em) (dealer: ""IAMB @ gjmiQ4-uAW"") --",2025-10-20T13:37:54.209Z,176096747420900
+"-- ending hand #40 --",2025-10-20T13:37:51.260Z,176096747126002
+"""Ene @ 7kPHYByVxS"" collected 20 from pot",2025-10-20T13:37:51.260Z,176096747126001
+"Uncalled bet of 10 returned to ""Ene @ 7kPHYByVxS""",2025-10-20T13:37:51.260Z,176096747126000
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:37:50.443Z,176096747044300
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:37:28.204Z,176096744820400
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:37:27.191Z,176096744719100
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:37:26.163Z,176096744616300
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:37:23.834Z,176096744383400
+"""Ene @ 7kPHYByVxS"" posts a big blind of 20",2025-10-20T13:37:20.995Z,176096744099509
+"""IAMB @ gjmiQ4-uAW"" posts a small blind of 10",2025-10-20T13:37:20.995Z,176096744099508
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (2960) | #3 ""goto-neo @ 3uy3Mlil7r"" (3095) | #5 ""IAMB @ gjmiQ4-uAW"" (2960) | #6 ""Ene @ 7kPHYByVxS"" (1905) | #7 ""カイン @ QK8nAFN9E2"" (2850) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2330)",2025-10-20T13:37:20.995Z,176096744099501
+"-- starting hand #40 (id: gfaoihybpkls)  (No Limit Texas Hold'em) (dealer: ""goto-neo @ 3uy3Mlil7r"") --",2025-10-20T13:37:20.995Z,176096744099500
+"""ナカヤマ @ Na5oN7lbKH"" shows a 9♣, 8♣.",2025-10-20T13:37:19.558Z,176096743955800
+"""カイン @ QK8nAFN9E2"" shows a A♦, 7♦.",2025-10-20T13:37:18.380Z,176096743838000
+"-- ending hand #39 --",2025-10-20T13:37:16.658Z,176096743665802
+"""カイン @ QK8nAFN9E2"" collected 50 from pot",2025-10-20T13:37:16.658Z,176096743665801
+"Uncalled bet of 30 returned to ""カイン @ QK8nAFN9E2""",2025-10-20T13:37:16.658Z,176096743665800
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:37:15.849Z,176096743584900
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:37:14.743Z,176096743474300
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:37:13.720Z,176096743372000
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:37:10.404Z,176096743040400
+"""カイン @ QK8nAFN9E2"" raises to 50",2025-10-20T13:37:08.343Z,176096742834300
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:37:00.481Z,176096742048100
+"""IAMB @ gjmiQ4-uAW"" posts a big blind of 20",2025-10-20T13:36:54.757Z,176096741475709
+"""goto-neo @ 3uy3Mlil7r"" posts a small blind of 10",2025-10-20T13:36:54.757Z,176096741475708
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (2960) | #3 ""goto-neo @ 3uy3Mlil7r"" (3105) | #5 ""IAMB @ gjmiQ4-uAW"" (2980) | #6 ""Ene @ 7kPHYByVxS"" (1905) | #7 ""カイン @ QK8nAFN9E2"" (2820) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2330)",2025-10-20T13:36:54.757Z,176096741475701
+"-- starting hand #39 (id: ofuefwe1ipka)  (No Limit Texas Hold'em) (dealer: ""Miharu @ AAC7lMsXCu"") --",2025-10-20T13:36:54.757Z,176096741475700
+"-- ending hand #38 --",2025-10-20T13:36:51.826Z,176096741182602
+"""Ene @ 7kPHYByVxS"" collected 50 from pot",2025-10-20T13:36:51.826Z,176096741182601
+"Uncalled bet of 25 returned to ""Ene @ 7kPHYByVxS""",2025-10-20T13:36:51.826Z,176096741182600
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:36:50.998Z,176096741099800
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:36:49.968Z,176096740996800
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:36:48.930Z,176096740893000
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:36:46.582Z,176096740658200
+"""Ene @ 7kPHYByVxS"" raises to 45",2025-10-20T13:36:45.551Z,176096740555100
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:36:42.522Z,176096740252200
+"""goto-neo @ 3uy3Mlil7r"" posts a big blind of 20",2025-10-20T13:36:36.233Z,176096739623309
+"""Miharu @ AAC7lMsXCu"" posts a small blind of 10",2025-10-20T13:36:36.233Z,176096739623308
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (2970) | #3 ""goto-neo @ 3uy3Mlil7r"" (3125) | #5 ""IAMB @ gjmiQ4-uAW"" (2980) | #6 ""Ene @ 7kPHYByVxS"" (1875) | #7 ""カイン @ QK8nAFN9E2"" (2820) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2330)",2025-10-20T13:36:36.233Z,176096739623301
+"-- starting hand #38 (id: wwfwtp8hrm1k)  (No Limit Texas Hold'em) (dealer: ""ナカヤマ @ Na5oN7lbKH"") --",2025-10-20T13:36:36.233Z,176096739623300
+"-- ending hand #37 --",2025-10-20T13:36:33.329Z,176096739332902
+"""Miharu @ AAC7lMsXCu"" collected 20 from pot",2025-10-20T13:36:33.329Z,176096739332901
+"Uncalled bet of 10 returned to ""Miharu @ AAC7lMsXCu""",2025-10-20T13:36:33.329Z,176096739332900
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:36:32.465Z,176096739246500
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:36:30.641Z,176096739064100
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:36:29.625Z,176096738962500
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:36:28.541Z,176096738854100
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:36:18.923Z,176096737892300
+"""Miharu @ AAC7lMsXCu"" posts a big blind of 20",2025-10-20T13:36:16.921Z,176096737692109
+"""ナカヤマ @ Na5oN7lbKH"" posts a small blind of 10",2025-10-20T13:36:16.921Z,176096737692108
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (2960) | #3 ""goto-neo @ 3uy3Mlil7r"" (3125) | #5 ""IAMB @ gjmiQ4-uAW"" (2980) | #6 ""Ene @ 7kPHYByVxS"" (1875) | #7 ""カイン @ QK8nAFN9E2"" (2820) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2340)",2025-10-20T13:36:16.921Z,176096737692101
+"-- starting hand #37 (id: xnodocupsatr)  (No Limit Texas Hold'em) (dealer: ""カイン @ QK8nAFN9E2"") --",2025-10-20T13:36:16.921Z,176096737692100
+"-- ending hand #36 --",2025-10-20T13:36:13.949Z,176096737394902
+"""Ene @ 7kPHYByVxS"" collected 50 from pot",2025-10-20T13:36:13.949Z,176096737394901
+"Uncalled bet of 37 returned to ""Ene @ 7kPHYByVxS""",2025-10-20T13:36:13.949Z,176096737394900
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:36:13.119Z,176096737311900
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:36:11.349Z,176096737134900
+"""Ene @ 7kPHYByVxS"" raises to 57",2025-10-20T13:36:10.351Z,176096737035100
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:36:07.037Z,176096736703700
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:36:06.023Z,176096736602300
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:36:04.995Z,176096736499500
+"""ナカヤマ @ Na5oN7lbKH"" posts a big blind of 20",2025-10-20T13:36:03.432Z,176096736343209
+"""カイン @ QK8nAFN9E2"" posts a small blind of 10",2025-10-20T13:36:03.432Z,176096736343208
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (2960) | #3 ""goto-neo @ 3uy3Mlil7r"" (3125) | #5 ""IAMB @ gjmiQ4-uAW"" (2980) | #6 ""Ene @ 7kPHYByVxS"" (1845) | #7 ""カイン @ QK8nAFN9E2"" (2830) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2360)",2025-10-20T13:36:03.432Z,176096736343201
+"-- starting hand #36 (id: ldyh51wroib7)  (No Limit Texas Hold'em) (dealer: ""Ene @ 7kPHYByVxS"") --",2025-10-20T13:36:03.432Z,176096736343200
+"""カイン @ QK8nAFN9E2"" shows a K♦, A♣.",2025-10-20T13:36:00.987Z,176096736098700
+"-- ending hand #35 --",2025-10-20T13:35:59.812Z,176096735981202
+"""カイン @ QK8nAFN9E2"" collected 320 from pot",2025-10-20T13:35:59.812Z,176096735981201
+"Uncalled bet of 260 returned to ""カイン @ QK8nAFN9E2""",2025-10-20T13:35:59.812Z,176096735981200
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:35:58.989Z,176096735898900
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:35:57.521Z,176096735752100
+"""カイン @ QK8nAFN9E2"" raises to 400",2025-10-20T13:35:56.428Z,176096735642800
+"""Ene @ 7kPHYByVxS"" raises to 140",2025-10-20T13:35:43.015Z,176096734301500
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:35:40.151Z,176096734015100
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:35:39.124Z,176096733912400
+"""Miharu @ AAC7lMsXCu"" raises to 40",2025-10-20T13:35:38.091Z,176096733809100
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:35:32.078Z,176096733207800
+"""カイン @ QK8nAFN9E2"" posts a big blind of 20",2025-10-20T13:35:27.858Z,176096732785809
+"""Ene @ 7kPHYByVxS"" posts a small blind of 10",2025-10-20T13:35:27.858Z,176096732785808
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3000) | #3 ""goto-neo @ 3uy3Mlil7r"" (3125) | #5 ""IAMB @ gjmiQ4-uAW"" (2980) | #6 ""Ene @ 7kPHYByVxS"" (1985) | #7 ""カイン @ QK8nAFN9E2"" (2650) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2360)",2025-10-20T13:35:27.858Z,176096732785801
+"-- starting hand #35 (id: adofrpimxf75)  (No Limit Texas Hold'em) (dealer: ""IAMB @ gjmiQ4-uAW"") --",2025-10-20T13:35:27.858Z,176096732785800
+"-- ending hand #34 --",2025-10-20T13:35:24.920Z,176096732492002
+"""Ene @ 7kPHYByVxS"" collected 20 from pot",2025-10-20T13:35:24.920Z,176096732492001
+"Uncalled bet of 10 returned to ""Ene @ 7kPHYByVxS""",2025-10-20T13:35:24.920Z,176096732492000
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:35:24.107Z,176096732410700
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:35:23.070Z,176096732307000
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:35:22.018Z,176096732201800
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:35:20.053Z,176096732005300
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:35:16.664Z,176096731666400
+"""Ene @ 7kPHYByVxS"" posts a big blind of 20",2025-10-20T13:35:14.848Z,176096731484809
+"""IAMB @ gjmiQ4-uAW"" posts a small blind of 10",2025-10-20T13:35:14.848Z,176096731484808
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3000) | #3 ""goto-neo @ 3uy3Mlil7r"" (3125) | #5 ""IAMB @ gjmiQ4-uAW"" (2990) | #6 ""Ene @ 7kPHYByVxS"" (1975) | #7 ""カイン @ QK8nAFN9E2"" (2650) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2360)",2025-10-20T13:35:14.848Z,176096731484801
+"-- starting hand #34 (id: pw2jmvax7oxl)  (No Limit Texas Hold'em) (dealer: ""goto-neo @ 3uy3Mlil7r"") --",2025-10-20T13:35:14.848Z,176096731484800
+"-- ending hand #33 --",2025-10-20T13:35:11.912Z,176096731191202
+"""IAMB @ gjmiQ4-uAW"" collected 20 from pot",2025-10-20T13:35:11.912Z,176096731191201
+"Uncalled bet of 10 returned to ""IAMB @ gjmiQ4-uAW""",2025-10-20T13:35:11.912Z,176096731191200
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:35:11.093Z,176096731109300
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:35:10.071Z,176096731007100
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:35:09.065Z,176096730906500
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:35:05.721Z,176096730572100
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:35:04.017Z,176096730401700
+"""IAMB @ gjmiQ4-uAW"" posts a big blind of 20",2025-10-20T13:35:01.794Z,176096730179409
+"""goto-neo @ 3uy3Mlil7r"" posts a small blind of 10",2025-10-20T13:35:01.794Z,176096730179408
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3000) | #3 ""goto-neo @ 3uy3Mlil7r"" (3135) | #5 ""IAMB @ gjmiQ4-uAW"" (2980) | #6 ""Ene @ 7kPHYByVxS"" (1975) | #7 ""カイン @ QK8nAFN9E2"" (2650) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2360)",2025-10-20T13:35:01.794Z,176096730179401
+"-- starting hand #33 (id: gblzwdmzbr91)  (No Limit Texas Hold'em) (dealer: ""Miharu @ AAC7lMsXCu"") --",2025-10-20T13:35:01.794Z,176096730179400
+"""ナカヤマ @ Na5oN7lbKH"" shows a 5♥, 5♣.",2025-10-20T13:34:58.891Z,176096729889100
+"""goto-neo @ 3uy3Mlil7r"" shows a J♣, J♦.",2025-10-20T13:34:58.007Z,176096729800700
+"-- ending hand #32 --",2025-10-20T13:34:57.344Z,176096729734402
+"""goto-neo @ 3uy3Mlil7r"" collected 130 from pot",2025-10-20T13:34:57.344Z,176096729734401
+"Uncalled bet of 97 returned to ""goto-neo @ 3uy3Mlil7r""",2025-10-20T13:34:57.344Z,176096729734400
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:34:56.522Z,176096729652200
+"""goto-neo @ 3uy3Mlil7r"" raises to 157",2025-10-20T13:34:49.863Z,176096728986300
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:34:45.987Z,176096728598700
+"""ナカヤマ @ Na5oN7lbKH"" raises to 60",2025-10-20T13:34:39.147Z,176096727914700
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:34:31.629Z,176096727162900
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:34:30.588Z,176096727058800
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:34:29.488Z,176096726948800
+"""goto-neo @ 3uy3Mlil7r"" posts a big blind of 20",2025-10-20T13:34:27.358Z,176096726735809
+"""Miharu @ AAC7lMsXCu"" posts a small blind of 10",2025-10-20T13:34:27.358Z,176096726735808
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3010) | #3 ""goto-neo @ 3uy3Mlil7r"" (3065) | #5 ""IAMB @ gjmiQ4-uAW"" (2980) | #6 ""Ene @ 7kPHYByVxS"" (1975) | #7 ""カイン @ QK8nAFN9E2"" (2650) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2420)",2025-10-20T13:34:27.358Z,176096726735801
+"-- starting hand #32 (id: vjkcj2bznywq)  (No Limit Texas Hold'em) (dealer: ""ナカヤマ @ Na5oN7lbKH"") --",2025-10-20T13:34:27.358Z,176096726735800
+"-- ending hand #31 --",2025-10-20T13:34:21.324Z,176096726132402
+"""ナカヤマ @ Na5oN7lbKH"" collected 240 from pot with Pair, 9's (combination: 9♣, 9♠, A♣, J♣, 7♥)",2025-10-20T13:34:21.324Z,176096726132401
+"""ナカヤマ @ Na5oN7lbKH"" shows a J♣, 9♣.",2025-10-20T13:34:21.324Z,176096726132400
+"""Miharu @ AAC7lMsXCu"" checks",2025-10-20T13:34:20.479Z,176096726047900
+"""ナカヤマ @ Na5oN7lbKH"" checks",2025-10-20T13:34:18.679Z,176096725867900
+"River: 2♣, A♣, 7♥, 5♥ [9♠]",2025-10-20T13:33:58.225Z,176096723822500
+"""Miharu @ AAC7lMsXCu"" checks",2025-10-20T13:33:57.377Z,176096723737700
+"""ナカヤマ @ Na5oN7lbKH"" checks",2025-10-20T13:33:52.893Z,176096723289300
+"Turn: 2♣, A♣, 7♥ [5♥]",2025-10-20T13:33:40.337Z,176096722033700
+"""Miharu @ AAC7lMsXCu"" calls 60",2025-10-20T13:33:39.489Z,176096721948900
+"""ナカヤマ @ Na5oN7lbKH"" bets 60",2025-10-20T13:33:27.625Z,176096720762500
+"Flop:  [2♣, A♣, 7♥]",2025-10-20T13:33:17.470Z,176096719747000
+"""Miharu @ AAC7lMsXCu"" calls 60",2025-10-20T13:33:16.655Z,176096719665500
+"""ナカヤマ @ Na5oN7lbKH"" raises to 60",2025-10-20T13:33:09.636Z,176096718963600
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:33:01.352Z,176096718135200
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:32:59.319Z,176096717931900
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:32:55.892Z,176096717589200
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:32:54.865Z,176096717486500
+"""Miharu @ AAC7lMsXCu"" posts a big blind of 20",2025-10-20T13:32:53.345Z,176096717334509
+"""ナカヤマ @ Na5oN7lbKH"" posts a small blind of 10",2025-10-20T13:32:53.345Z,176096717334508
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3130) | #3 ""goto-neo @ 3uy3Mlil7r"" (3065) | #5 ""IAMB @ gjmiQ4-uAW"" (2980) | #6 ""Ene @ 7kPHYByVxS"" (1975) | #7 ""カイン @ QK8nAFN9E2"" (2650) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2300)",2025-10-20T13:32:53.345Z,176096717334501
+"-- starting hand #31 (id: y3iqi15qqnua)  (No Limit Texas Hold'em) (dealer: ""カイン @ QK8nAFN9E2"") --",2025-10-20T13:32:53.345Z,176096717334500
+"""カイン @ QK8nAFN9E2"" shows a 6♦, 5♦.",2025-10-20T13:32:50.904Z,176096717090400
+"-- ending hand #30 --",2025-10-20T13:32:49.681Z,176096716968102
+"""Miharu @ AAC7lMsXCu"" collected 220 from pot",2025-10-20T13:32:49.681Z,176096716968101
+"Uncalled bet of 110 returned to ""Miharu @ AAC7lMsXCu""",2025-10-20T13:32:49.681Z,176096716968100
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:32:48.850Z,176096716885000
+"""Miharu @ AAC7lMsXCu"" bets 110",2025-10-20T13:32:44.333Z,176096716433300
+"Turn: 5♣, 5♠, 8♣ [10♦]",2025-10-20T13:32:19.399Z,176096713939900
+"""Ene @ 7kPHYByVxS"" checks",2025-10-20T13:32:18.551Z,176096713855100
+"""Miharu @ AAC7lMsXCu"" checks",2025-10-20T13:32:17.122Z,176096713712200
+"Flop:  [5♣, 5♠, 8♣]",2025-10-20T13:32:14.119Z,176096713411900
+"""Miharu @ AAC7lMsXCu"" calls 95",2025-10-20T13:32:13.311Z,176096713331100
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:32:04.942Z,176096712494200
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:31:59.557Z,176096711955700
+"""Ene @ 7kPHYByVxS"" raises to 95",2025-10-20T13:31:56.036Z,176096711603600
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:31:53.027Z,176096711302700
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:31:51.993Z,176096711199300
+"""Miharu @ AAC7lMsXCu"" raises to 40",2025-10-20T13:31:50.913Z,176096711091300
+"""ナカヤマ @ Na5oN7lbKH"" posts a big blind of 20",2025-10-20T13:31:46.822Z,176096710682209
+"""カイン @ QK8nAFN9E2"" posts a small blind of 10",2025-10-20T13:31:46.822Z,176096710682208
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3005) | #3 ""goto-neo @ 3uy3Mlil7r"" (3065) | #5 ""IAMB @ gjmiQ4-uAW"" (2980) | #6 ""Ene @ 7kPHYByVxS"" (2070) | #7 ""カイン @ QK8nAFN9E2"" (2660) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2320)",2025-10-20T13:31:46.822Z,176096710682201
+"-- starting hand #30 (id: lkktfahpvarq)  (No Limit Texas Hold'em) (dealer: ""Ene @ 7kPHYByVxS"") --",2025-10-20T13:31:46.822Z,176096710682200
+"""カイン @ QK8nAFN9E2"" shows a 8♥, 3♥.",2025-10-20T13:31:44.862Z,176096710486200
+"""goto-neo @ 3uy3Mlil7r"" shows a A♠, A♣.",2025-10-20T13:31:43.690Z,176096710369000
+"-- ending hand #29 --",2025-10-20T13:31:42.474Z,176096710247402
+"""goto-neo @ 3uy3Mlil7r"" collected 50 from pot",2025-10-20T13:31:42.474Z,176096710247401
+"Uncalled bet of 25 returned to ""goto-neo @ 3uy3Mlil7r""",2025-10-20T13:31:42.474Z,176096710247400
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:31:41.639Z,176096710163900
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:31:40.125Z,176096710012500
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:31:39.032Z,176096709903200
+"""goto-neo @ 3uy3Mlil7r"" raises to 45",2025-10-20T13:31:38.015Z,176096709801500
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:31:34.358Z,176096709435800
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:31:33.270Z,176096709327000
+"""カイン @ QK8nAFN9E2"" posts a big blind of 20",2025-10-20T13:31:31.547Z,176096709154709
+"""Ene @ 7kPHYByVxS"" posts a small blind of 10",2025-10-20T13:31:31.547Z,176096709154708
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3005) | #3 ""goto-neo @ 3uy3Mlil7r"" (3035) | #5 ""IAMB @ gjmiQ4-uAW"" (2980) | #6 ""Ene @ 7kPHYByVxS"" (2080) | #7 ""カイン @ QK8nAFN9E2"" (2680) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2320)",2025-10-20T13:31:31.547Z,176096709154701
+"-- starting hand #29 (id: 1vnrkpbgrlip)  (No Limit Texas Hold'em) (dealer: ""IAMB @ gjmiQ4-uAW"") --",2025-10-20T13:31:31.547Z,176096709154700
+"""カイン @ QK8nAFN9E2"" shows a K♠, A♥.",2025-10-20T13:31:29.120Z,176096708912000
+"-- ending hand #28 --",2025-10-20T13:31:27.928Z,176096708792802
+"""カイン @ QK8nAFN9E2"" collected 350 from pot",2025-10-20T13:31:27.928Z,176096708792801
+"Uncalled bet of 240 returned to ""カイン @ QK8nAFN9E2""",2025-10-20T13:31:27.928Z,176096708792800
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:31:27.092Z,176096708709200
+"""カイン @ QK8nAFN9E2"" raises to 400",2025-10-20T13:31:24.541Z,176096708454100
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:31:15.797Z,176096707579700
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:31:14.727Z,176096707472700
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:31:13.677Z,176096707367700
+"""Miharu @ AAC7lMsXCu"" raises to 160",2025-10-20T13:31:12.656Z,176096707265600
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:30:58.332Z,176096705833200
+"""カイン @ QK8nAFN9E2"" raises to 50",2025-10-20T13:30:56.068Z,176096705606800
+"""Ene @ 7kPHYByVxS"" posts a big blind of 20",2025-10-20T13:30:46.432Z,176096704643209
+"""IAMB @ gjmiQ4-uAW"" posts a small blind of 10",2025-10-20T13:30:46.432Z,176096704643208
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3165) | #3 ""goto-neo @ 3uy3Mlil7r"" (3035) | #5 ""IAMB @ gjmiQ4-uAW"" (2990) | #6 ""Ene @ 7kPHYByVxS"" (2100) | #7 ""カイン @ QK8nAFN9E2"" (2490) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2320)",2025-10-20T13:30:46.432Z,176096704643201
+"-- starting hand #28 (id: thiq1bupfjdv)  (No Limit Texas Hold'em) (dealer: ""goto-neo @ 3uy3Mlil7r"") --",2025-10-20T13:30:46.432Z,176096704643200
+"-- ending hand #27 --",2025-10-20T13:30:43.524Z,176096704352402
+"""IAMB @ gjmiQ4-uAW"" collected 20 from pot",2025-10-20T13:30:43.524Z,176096704352401
+"Uncalled bet of 10 returned to ""IAMB @ gjmiQ4-uAW""",2025-10-20T13:30:43.524Z,176096704352400
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:30:42.703Z,176096704270300
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:30:41.631Z,176096704163100
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:30:40.565Z,176096704056500
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:30:37.841Z,176096703784100
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:30:36.830Z,176096703683000
+"""IAMB @ gjmiQ4-uAW"" posts a big blind of 20",2025-10-20T13:30:29.264Z,176096702926409
+"""goto-neo @ 3uy3Mlil7r"" posts a small blind of 10",2025-10-20T13:30:29.264Z,176096702926408
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3165) | #3 ""goto-neo @ 3uy3Mlil7r"" (3045) | #5 ""IAMB @ gjmiQ4-uAW"" (2980) | #6 ""Ene @ 7kPHYByVxS"" (2100) | #7 ""カイン @ QK8nAFN9E2"" (2490) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2320)",2025-10-20T13:30:29.264Z,176096702926401
+"-- starting hand #27 (id: oztnluyix8ah)  (No Limit Texas Hold'em) (dealer: ""Miharu @ AAC7lMsXCu"") --",2025-10-20T13:30:29.264Z,176096702926400
+"""カイン @ QK8nAFN9E2"" shows a 5♠, 4♠.",2025-10-20T13:30:27.200Z,176096702720000
+"-- ending hand #26 --",2025-10-20T13:30:25.645Z,176096702564502
+"""カイン @ QK8nAFN9E2"" collected 50 from pot",2025-10-20T13:30:25.645Z,176096702564501
+"Uncalled bet of 20 returned to ""カイン @ QK8nAFN9E2""",2025-10-20T13:30:25.645Z,176096702564500
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:30:24.834Z,176096702483400
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:30:23.760Z,176096702376000
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:30:17.329Z,176096701732900
+"""カイン @ QK8nAFN9E2"" raises to 40",2025-10-20T13:30:13.421Z,176096701342100
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:30:09.698Z,176096700969800
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:30:04.287Z,176096700428700
+"""goto-neo @ 3uy3Mlil7r"" posts a big blind of 20",2025-10-20T13:30:02.229Z,176096700222909
+"""Miharu @ AAC7lMsXCu"" posts a small blind of 10",2025-10-20T13:30:02.229Z,176096700222908
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3175) | #3 ""goto-neo @ 3uy3Mlil7r"" (3065) | #5 ""IAMB @ gjmiQ4-uAW"" (2980) | #6 ""Ene @ 7kPHYByVxS"" (2100) | #7 ""カイン @ QK8nAFN9E2"" (2460) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2320)",2025-10-20T13:30:02.229Z,176096700222901
+"-- starting hand #26 (id: gfyylqq1r2rg)  (No Limit Texas Hold'em) (dealer: ""ナカヤマ @ Na5oN7lbKH"") --",2025-10-20T13:30:02.229Z,176096700222900
+"""ナカヤマ @ Na5oN7lbKH"" shows a K♠, A♦.",2025-10-20T13:29:59.770Z,176096699977000
+"-- ending hand #25 --",2025-10-20T13:29:58.463Z,176096699846302
+"""Miharu @ AAC7lMsXCu"" collected 200 from pot",2025-10-20T13:29:58.463Z,176096699846301
+"Uncalled bet of 160 returned to ""Miharu @ AAC7lMsXCu""",2025-10-20T13:29:58.463Z,176096699846300
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:29:57.647Z,176096699764700
+"""Miharu @ AAC7lMsXCu"" raises to 200",2025-10-20T13:29:41.121Z,176096698112100
+"""ナカヤマ @ Na5oN7lbKH"" bets 40",2025-10-20T13:29:22.452Z,176096696245200
+"Flop:  [5♦, 8♣, 4♠]",2025-10-20T13:28:50.747Z,176096693074700
+"""Miharu @ AAC7lMsXCu"" calls 60",2025-10-20T13:28:49.895Z,176096692989500
+"""ナカヤマ @ Na5oN7lbKH"" raises to 60",2025-10-20T13:28:45.357Z,176096692535700
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:28:35.333Z,176096691533300
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:28:34.336Z,176096691433600
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:28:33.235Z,176096691323500
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:28:32.215Z,176096691221500
+"""Miharu @ AAC7lMsXCu"" posts a big blind of 20",2025-10-20T13:28:30.442Z,176096691044209
+"""ナカヤマ @ Na5oN7lbKH"" posts a small blind of 10",2025-10-20T13:28:30.442Z,176096691044208
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3075) | #3 ""goto-neo @ 3uy3Mlil7r"" (3065) | #5 ""IAMB @ gjmiQ4-uAW"" (2980) | #6 ""Ene @ 7kPHYByVxS"" (2100) | #7 ""カイン @ QK8nAFN9E2"" (2460) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2420)",2025-10-20T13:28:30.442Z,176096691044201
+"-- starting hand #25 (id: 7pe4xal8yudg)  (No Limit Texas Hold'em) (dealer: ""カイン @ QK8nAFN9E2"") --",2025-10-20T13:28:30.442Z,176096691044200
+"-- ending hand #24 --",2025-10-20T13:28:27.533Z,176096690753302
+"""IAMB @ gjmiQ4-uAW"" collected 50 from pot",2025-10-20T13:28:27.533Z,176096690753301
+"Uncalled bet of 30 returned to ""IAMB @ gjmiQ4-uAW""",2025-10-20T13:28:27.533Z,176096690753300
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:28:26.641Z,176096690664100
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:28:24.520Z,176096690452000
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:28:23.487Z,176096690348700
+"""IAMB @ gjmiQ4-uAW"" raises to 50",2025-10-20T13:28:22.402Z,176096690240200
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:28:17.032Z,176096689703200
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:28:16.006Z,176096689600600
+"""ナカヤマ @ Na5oN7lbKH"" posts a big blind of 20",2025-10-20T13:28:12.824Z,176096689282409
+"""カイン @ QK8nAFN9E2"" posts a small blind of 10",2025-10-20T13:28:12.824Z,176096689282408
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3075) | #3 ""goto-neo @ 3uy3Mlil7r"" (3065) | #5 ""IAMB @ gjmiQ4-uAW"" (2950) | #6 ""Ene @ 7kPHYByVxS"" (2100) | #7 ""カイン @ QK8nAFN9E2"" (2470) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2440)",2025-10-20T13:28:12.824Z,176096689282401
+"-- starting hand #24 (id: kumx6gjc2lv8)  (No Limit Texas Hold'em) (dealer: ""Ene @ 7kPHYByVxS"") --",2025-10-20T13:28:12.824Z,176096689282400
+"-- ending hand #23 --",2025-10-20T13:28:09.921Z,176096688992102
+"""Ene @ 7kPHYByVxS"" collected 40 from pot",2025-10-20T13:28:09.921Z,176096688992101
+"Uncalled bet of 40 returned to ""Ene @ 7kPHYByVxS""",2025-10-20T13:28:09.921Z,176096688992100
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:28:09.102Z,176096688910200
+"""Ene @ 7kPHYByVxS"" raises to 60",2025-10-20T13:28:05.933Z,176096688593300
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:28:03.208Z,176096688320800
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:27:54.653Z,176096687465300
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:27:53.614Z,176096687361400
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:27:52.558Z,176096687255800
+"""カイン @ QK8nAFN9E2"" posts a big blind of 20",2025-10-20T13:27:46.807Z,176096686680709
+"""Ene @ 7kPHYByVxS"" posts a small blind of 10",2025-10-20T13:27:46.807Z,176096686680708
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3075) | #3 ""goto-neo @ 3uy3Mlil7r"" (3065) | #5 ""IAMB @ gjmiQ4-uAW"" (2950) | #6 ""Ene @ 7kPHYByVxS"" (2080) | #7 ""カイン @ QK8nAFN9E2"" (2490) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2440)",2025-10-20T13:27:46.807Z,176096686680701
+"-- starting hand #23 (id: shdlwt9lvtrh)  (No Limit Texas Hold'em) (dealer: ""IAMB @ gjmiQ4-uAW"") --",2025-10-20T13:27:46.807Z,176096686680700
+"-- ending hand #22 --",2025-10-20T13:27:43.892Z,176096686389202
+"""Miharu @ AAC7lMsXCu"" collected 50 from pot",2025-10-20T13:27:43.892Z,176096686389201
+"Uncalled bet of 26 returned to ""Miharu @ AAC7lMsXCu""",2025-10-20T13:27:43.892Z,176096686389200
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:27:43.065Z,176096686306500
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:27:41.960Z,176096686196000
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:27:40.904Z,176096686090400
+"""Miharu @ AAC7lMsXCu"" raises to 46",2025-10-20T13:27:39.880Z,176096685988000
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:27:30.698Z,176096685069800
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:27:28.869Z,176096684886900
+"""Ene @ 7kPHYByVxS"" posts a big blind of 20",2025-10-20T13:27:23.342Z,176096684334209
+"""IAMB @ gjmiQ4-uAW"" posts a small blind of 10",2025-10-20T13:27:23.342Z,176096684334208
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3045) | #3 ""goto-neo @ 3uy3Mlil7r"" (3065) | #5 ""IAMB @ gjmiQ4-uAW"" (2960) | #6 ""Ene @ 7kPHYByVxS"" (2100) | #7 ""カイン @ QK8nAFN9E2"" (2490) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2440)",2025-10-20T13:27:23.342Z,176096684334201
+"-- starting hand #22 (id: zeq7co6fjt6t)  (No Limit Texas Hold'em) (dealer: ""goto-neo @ 3uy3Mlil7r"") --",2025-10-20T13:27:23.342Z,176096684334200
+"-- ending hand #21 --",2025-10-20T13:27:20.422Z,176096684042202
+"""Ene @ 7kPHYByVxS"" collected 50 from pot",2025-10-20T13:27:20.422Z,176096684042201
+"Uncalled bet of 20 returned to ""Ene @ 7kPHYByVxS""",2025-10-20T13:27:20.422Z,176096684042200
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:27:19.619Z,176096683961900
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:27:18.604Z,176096683860400
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:27:17.578Z,176096683757800
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:27:16.542Z,176096683654200
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:27:13.468Z,176096683346800
+"""Ene @ 7kPHYByVxS"" raises to 40",2025-10-20T13:27:12.429Z,176096683242900
+"""IAMB @ gjmiQ4-uAW"" posts a big blind of 20",2025-10-20T13:27:06.333Z,176096682633309
+"""goto-neo @ 3uy3Mlil7r"" posts a small blind of 10",2025-10-20T13:27:06.333Z,176096682633308
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3045) | #3 ""goto-neo @ 3uy3Mlil7r"" (3075) | #5 ""IAMB @ gjmiQ4-uAW"" (2980) | #6 ""Ene @ 7kPHYByVxS"" (2070) | #7 ""カイン @ QK8nAFN9E2"" (2490) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2440)",2025-10-20T13:27:06.333Z,176096682633301
+"-- starting hand #21 (id: 0puvkxwoeft5)  (No Limit Texas Hold'em) (dealer: ""Miharu @ AAC7lMsXCu"") --",2025-10-20T13:27:06.333Z,176096682633300
+"-- ending hand #20 --",2025-10-20T13:27:03.371Z,176096682337102
+"""Miharu @ AAC7lMsXCu"" collected 40 from pot",2025-10-20T13:27:03.371Z,176096682337101
+"Uncalled bet of 40 returned to ""Miharu @ AAC7lMsXCu""",2025-10-20T13:27:03.371Z,176096682337100
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:27:02.532Z,176096682253200
+"""Miharu @ AAC7lMsXCu"" raises to 60",2025-10-20T13:27:01.384Z,176096682138400
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:26:48.992Z,176096680899200
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:26:43.635Z,176096680363500
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:26:42.639Z,176096680263900
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:26:34.803Z,176096679480300
+"""goto-neo @ 3uy3Mlil7r"" posts a big blind of 20",2025-10-20T13:26:33.538Z,176096679353809
+"""Miharu @ AAC7lMsXCu"" posts a small blind of 10",2025-10-20T13:26:33.538Z,176096679353808
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3025) | #3 ""goto-neo @ 3uy3Mlil7r"" (3095) | #5 ""IAMB @ gjmiQ4-uAW"" (2980) | #6 ""Ene @ 7kPHYByVxS"" (2070) | #7 ""カイン @ QK8nAFN9E2"" (2490) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2440)",2025-10-20T13:26:33.538Z,176096679353801
+"-- starting hand #20 (id: 6scama4tkmi5)  (No Limit Texas Hold'em) (dealer: ""ナカヤマ @ Na5oN7lbKH"") --",2025-10-20T13:26:33.538Z,176096679353800
+"-- ending hand #19 --",2025-10-20T13:26:30.632Z,176096679063202
+"""Miharu @ AAC7lMsXCu"" collected 150 from pot",2025-10-20T13:26:30.632Z,176096679063201
+"Uncalled bet of 100 returned to ""Miharu @ AAC7lMsXCu""",2025-10-20T13:26:30.632Z,176096679063200
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:26:29.752Z,176096678975200
+"""Miharu @ AAC7lMsXCu"" bets 100",2025-10-20T13:26:27.295Z,176096678729500
+"Turn: 4♦, 5♣, 3♠ [8♥]",2025-10-20T13:26:11.484Z,176096677148400
+"""カイン @ QK8nAFN9E2"" calls 30",2025-10-20T13:26:10.669Z,176096677066900
+"""Miharu @ AAC7lMsXCu"" bets 30",2025-10-20T13:26:05.701Z,176096676570100
+"Flop:  [4♦, 5♣, 3♠]",2025-10-20T13:25:51.247Z,176096675124700
+"""Miharu @ AAC7lMsXCu"" calls 40",2025-10-20T13:25:50.419Z,176096675041900
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:25:46.469Z,176096674646900
+"""カイン @ QK8nAFN9E2"" raises to 40",2025-10-20T13:25:43.733Z,176096674373300
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:25:39.293Z,176096673929300
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:25:38.198Z,176096673819800
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:25:37.175Z,176096673717500
+"""Miharu @ AAC7lMsXCu"" posts a big blind of 20",2025-10-20T13:25:35.460Z,176096673546009
+"""ナカヤマ @ Na5oN7lbKH"" posts a small blind of 10",2025-10-20T13:25:35.460Z,176096673546008
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (2945) | #3 ""goto-neo @ 3uy3Mlil7r"" (3095) | #5 ""IAMB @ gjmiQ4-uAW"" (2980) | #6 ""Ene @ 7kPHYByVxS"" (2070) | #7 ""カイン @ QK8nAFN9E2"" (2560) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2450)",2025-10-20T13:25:35.460Z,176096673546001
+"-- starting hand #19 (id: domyaaxqx15u)  (No Limit Texas Hold'em) (dealer: ""カイン @ QK8nAFN9E2"") --",2025-10-20T13:25:35.460Z,176096673546000
+"-- ending hand #18 --",2025-10-20T13:25:32.555Z,176096673255501
+"""カイン @ QK8nAFN9E2"" collected 40 from pot",2025-10-20T13:25:32.555Z,176096673255500
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:25:31.728Z,176096673172800
+"""カイン @ QK8nAFN9E2"" calls 20",2025-10-20T13:25:28.229Z,176096672822900
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:25:25.024Z,176096672502400
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:25:23.864Z,176096672386400
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:25:22.834Z,176096672283400
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:25:21.817Z,176096672181700
+"""ナカヤマ @ Na5oN7lbKH"" posts a big blind of 20",2025-10-20T13:25:19.747Z,176096671974709
+"""カイン @ QK8nAFN9E2"" posts a small blind of 10",2025-10-20T13:25:19.747Z,176096671974708
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (2945) | #3 ""goto-neo @ 3uy3Mlil7r"" (3095) | #5 ""IAMB @ gjmiQ4-uAW"" (2980) | #6 ""Ene @ 7kPHYByVxS"" (2070) | #7 ""カイン @ QK8nAFN9E2"" (2540) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2470)",2025-10-20T13:25:19.747Z,176096671974701
+"-- starting hand #18 (id: zc0p3zmtwar4)  (No Limit Texas Hold'em) (dealer: ""Ene @ 7kPHYByVxS"") --",2025-10-20T13:25:19.747Z,176096671974700
+"""カイン @ QK8nAFN9E2"" shows a 7♣, 8♠.",2025-10-20T13:25:17.394Z,176096671739400
+"""goto-neo @ 3uy3Mlil7r"" shows a Q♣, A♦.",2025-10-20T13:25:17.018Z,176096671701800
+"-- ending hand #17 --",2025-10-20T13:25:15.419Z,176096671541902
+"""goto-neo @ 3uy3Mlil7r"" collected 100 from pot",2025-10-20T13:25:15.419Z,176096671541901
+"Uncalled bet of 50 returned to ""goto-neo @ 3uy3Mlil7r""",2025-10-20T13:25:15.419Z,176096671541900
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:25:14.586Z,176096671458600
+"""goto-neo @ 3uy3Mlil7r"" bets 50",2025-10-20T13:25:12.210Z,176096671221000
+"""カイン @ QK8nAFN9E2"" checks",2025-10-20T13:25:06.995Z,176096670699500
+"Turn: 10♦, A♠, K♣ [A♣]",2025-10-20T13:25:04.453Z,176096670445300
+"""goto-neo @ 3uy3Mlil7r"" checks",2025-10-20T13:25:03.640Z,176096670364000
+"""カイン @ QK8nAFN9E2"" checks",2025-10-20T13:24:58.030Z,176096669803000
+"Flop:  [10♦, A♠, K♣]",2025-10-20T13:24:55.668Z,176096669566800
+"""カイン @ QK8nAFN9E2"" calls 45",2025-10-20T13:24:54.839Z,176096669483900
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:24:52.661Z,176096669266100
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:24:51.555Z,176096669155500
+"""goto-neo @ 3uy3Mlil7r"" raises to 45",2025-10-20T13:24:50.517Z,176096669051700
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:24:47.122Z,176096668712200
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:24:43.718Z,176096668371800
+"""カイン @ QK8nAFN9E2"" posts a big blind of 20",2025-10-20T13:24:41.908Z,176096668190809
+"""Ene @ 7kPHYByVxS"" posts a small blind of 10",2025-10-20T13:24:41.908Z,176096668190808
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (2945) | #3 ""goto-neo @ 3uy3Mlil7r"" (3040) | #5 ""IAMB @ gjmiQ4-uAW"" (2980) | #6 ""Ene @ 7kPHYByVxS"" (2080) | #7 ""カイン @ QK8nAFN9E2"" (2585) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2470)",2025-10-20T13:24:41.908Z,176096668190801
+"-- starting hand #17 (id: vtdhdbu8qprm)  (No Limit Texas Hold'em) (dealer: ""IAMB @ gjmiQ4-uAW"") --",2025-10-20T13:24:41.908Z,176096668190800
+"-- ending hand #16 --",2025-10-20T13:24:38.998Z,176096667899802
+"""Ene @ 7kPHYByVxS"" collected 20 from pot",2025-10-20T13:24:38.998Z,176096667899801
+"Uncalled bet of 10 returned to ""Ene @ 7kPHYByVxS""",2025-10-20T13:24:38.998Z,176096667899800
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:24:38.190Z,176096667819000
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:24:37.153Z,176096667715300
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:24:36.136Z,176096667613600
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:24:35.131Z,176096667513100
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:24:33.678Z,176096667367800
+"""Ene @ 7kPHYByVxS"" posts a big blind of 20",2025-10-20T13:24:31.582Z,176096667158209
+"""IAMB @ gjmiQ4-uAW"" posts a small blind of 10",2025-10-20T13:24:31.582Z,176096667158208
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (2945) | #3 ""goto-neo @ 3uy3Mlil7r"" (3040) | #5 ""IAMB @ gjmiQ4-uAW"" (2990) | #6 ""Ene @ 7kPHYByVxS"" (2070) | #7 ""カイン @ QK8nAFN9E2"" (2585) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2470)",2025-10-20T13:24:31.582Z,176096667158201
+"-- starting hand #16 (id: dfsllvfwroe4)  (No Limit Texas Hold'em) (dealer: ""goto-neo @ 3uy3Mlil7r"") --",2025-10-20T13:24:31.582Z,176096667158200
+"-- ending hand #15 --",2025-10-20T13:24:28.676Z,176096666867602
+"""カイン @ QK8nAFN9E2"" collected 50 from pot",2025-10-20T13:24:28.676Z,176096666867601
+"Uncalled bet of 30 returned to ""カイン @ QK8nAFN9E2""",2025-10-20T13:24:28.676Z,176096666867600
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:24:27.860Z,176096666786000
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:24:26.799Z,176096666679900
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:24:25.732Z,176096666573200
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:24:24.710Z,176096666471000
+"""カイン @ QK8nAFN9E2"" raises to 50",2025-10-20T13:24:20.623Z,176096666062300
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:24:11.910Z,176096665191000
+"""IAMB @ gjmiQ4-uAW"" posts a big blind of 20",2025-10-20T13:24:05.567Z,176096664556709
+"""goto-neo @ 3uy3Mlil7r"" posts a small blind of 10",2025-10-20T13:24:05.567Z,176096664556708
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (2945) | #3 ""goto-neo @ 3uy3Mlil7r"" (3050) | #5 ""IAMB @ gjmiQ4-uAW"" (3010) | #6 ""Ene @ 7kPHYByVxS"" (2070) | #7 ""カイン @ QK8nAFN9E2"" (2555) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2470)",2025-10-20T13:24:05.567Z,176096664556701
+"-- starting hand #15 (id: qxuql84ccwuj)  (No Limit Texas Hold'em) (dealer: ""Miharu @ AAC7lMsXCu"") --",2025-10-20T13:24:05.567Z,176096664556700
+"-- ending hand #14 --",2025-10-20T13:24:02.652Z,176096664265202
+"""IAMB @ gjmiQ4-uAW"" collected 50 from pot",2025-10-20T13:24:02.652Z,176096664265201
+"Uncalled bet of 20 returned to ""IAMB @ gjmiQ4-uAW""",2025-10-20T13:24:02.652Z,176096664265200
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:24:01.744Z,176096664174400
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:24:00.609Z,176096664060900
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:23:59.577Z,176096663957700
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:23:58.563Z,176096663856300
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:23:57.542Z,176096663754200
+"""IAMB @ gjmiQ4-uAW"" raises to 40",2025-10-20T13:23:52.696Z,176096663269600
+"""goto-neo @ 3uy3Mlil7r"" posts a big blind of 20",2025-10-20T13:23:49.100Z,176096662910009
+"""Miharu @ AAC7lMsXCu"" posts a small blind of 10",2025-10-20T13:23:49.100Z,176096662910008
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (2955) | #3 ""goto-neo @ 3uy3Mlil7r"" (3070) | #5 ""IAMB @ gjmiQ4-uAW"" (2980) | #6 ""Ene @ 7kPHYByVxS"" (2070) | #7 ""カイン @ QK8nAFN9E2"" (2555) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2470)",2025-10-20T13:23:49.100Z,176096662910001
+"-- starting hand #14 (id: cdq9n6y9uajk)  (No Limit Texas Hold'em) (dealer: ""ナカヤマ @ Na5oN7lbKH"") --",2025-10-20T13:23:49.100Z,176096662910000
+"-- ending hand #13 --",2025-10-20T13:23:46.163Z,176096662616302
+"""goto-neo @ 3uy3Mlil7r"" collected 50 from pot",2025-10-20T13:23:46.163Z,176096662616301
+"Uncalled bet of 25 returned to ""goto-neo @ 3uy3Mlil7r""",2025-10-20T13:23:46.163Z,176096662616300
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:23:45.299Z,176096662529900
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:23:42.773Z,176096662277300
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:23:41.749Z,176096662174900
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:23:39.217Z,176096661921700
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:23:38.095Z,176096661809500
+"""goto-neo @ 3uy3Mlil7r"" raises to 45",2025-10-20T13:23:37.036Z,176096661703600
+"""Miharu @ AAC7lMsXCu"" posts a big blind of 20",2025-10-20T13:23:33.691Z,176096661369109
+"""ナカヤマ @ Na5oN7lbKH"" posts a small blind of 10",2025-10-20T13:23:33.691Z,176096661369108
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (2975) | #3 ""goto-neo @ 3uy3Mlil7r"" (3040) | #5 ""IAMB @ gjmiQ4-uAW"" (2980) | #6 ""Ene @ 7kPHYByVxS"" (2070) | #7 ""カイン @ QK8nAFN9E2"" (2555) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2480)",2025-10-20T13:23:33.691Z,176096661369101
+"-- starting hand #13 (id: hzmqenor06rr)  (No Limit Texas Hold'em) (dealer: ""カイン @ QK8nAFN9E2"") --",2025-10-20T13:23:33.691Z,176096661369100
+"-- ending hand #12 --",2025-10-20T13:23:30.743Z,176096661074302
+"""ナカヤマ @ Na5oN7lbKH"" collected 20 from pot",2025-10-20T13:23:30.743Z,176096661074301
+"Uncalled bet of 10 returned to ""ナカヤマ @ Na5oN7lbKH""",2025-10-20T13:23:30.743Z,176096661074300
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:23:29.927Z,176096660992700
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:23:27.290Z,176096660729000
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:23:26.191Z,176096660619100
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:23:25.153Z,176096660515300
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:23:24.125Z,176096660412500
+"""ナカヤマ @ Na5oN7lbKH"" posts a big blind of 20",2025-10-20T13:23:22.810Z,176096660281009
+"""カイン @ QK8nAFN9E2"" posts a small blind of 10",2025-10-20T13:23:22.810Z,176096660281008
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (2975) | #3 ""goto-neo @ 3uy3Mlil7r"" (3040) | #5 ""IAMB @ gjmiQ4-uAW"" (2980) | #6 ""Ene @ 7kPHYByVxS"" (2070) | #7 ""カイン @ QK8nAFN9E2"" (2565) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2470)",2025-10-20T13:23:22.810Z,176096660281001
+"-- starting hand #12 (id: lhie1inkmvvh)  (No Limit Texas Hold'em) (dealer: ""Ene @ 7kPHYByVxS"") --",2025-10-20T13:23:22.810Z,176096660281000
+"-- ending hand #11 --",2025-10-20T13:23:16.806Z,176096659680602
+"""Ene @ 7kPHYByVxS"" collected 120 from pot with Three of a Kind, 5's (combination: 5♣, 5♠, 5♥, Q♦, J♣)",2025-10-20T13:23:16.806Z,176096659680601
+"""Ene @ 7kPHYByVxS"" shows a 6♣, 5♣.",2025-10-20T13:23:16.806Z,176096659680600
+"""カイン @ QK8nAFN9E2"" checks",2025-10-20T13:23:15.999Z,176096659599900
+"""Ene @ 7kPHYByVxS"" checks",2025-10-20T13:23:13.697Z,176096659369700
+"River: 8♥, Q♦, 5♠, J♣ [5♥]",2025-10-20T13:23:12.877Z,176096659287700
+"""カイン @ QK8nAFN9E2"" checks",2025-10-20T13:23:12.039Z,176096659203900
+"""Ene @ 7kPHYByVxS"" checks",2025-10-20T13:23:09.792Z,176096658979200
+"Turn: 8♥, Q♦, 5♠ [J♣]",2025-10-20T13:23:08.571Z,176096658857100
+"""カイン @ QK8nAFN9E2"" checks",2025-10-20T13:23:07.745Z,176096658774500
+"""Ene @ 7kPHYByVxS"" checks",2025-10-20T13:23:05.714Z,176096658571400
+"Flop:  [8♥, Q♦, 5♠]",2025-10-20T13:23:03.671Z,176096658367100
+"""カイン @ QK8nAFN9E2"" calls 60",2025-10-20T13:23:02.854Z,176096658285400
+"""Ene @ 7kPHYByVxS"" raises to 60",2025-10-20T13:22:58.971Z,176096657897100
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:22:56.267Z,176096657626700
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:22:55.237Z,176096657523700
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:22:41.117Z,176096656111700
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:22:40.119Z,176096656011900
+"""カイン @ QK8nAFN9E2"" posts a big blind of 20",2025-10-20T13:22:36.584Z,176096655658409
+"""Ene @ 7kPHYByVxS"" posts a small blind of 10",2025-10-20T13:22:36.584Z,176096655658408
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (2975) | #3 ""goto-neo @ 3uy3Mlil7r"" (3040) | #5 ""IAMB @ gjmiQ4-uAW"" (2980) | #6 ""Ene @ 7kPHYByVxS"" (2010) | #7 ""カイン @ QK8nAFN9E2"" (2625) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2470)",2025-10-20T13:22:36.584Z,176096655658401
+"-- starting hand #11 (id: jjtb5waspxmc)  (No Limit Texas Hold'em) (dealer: ""IAMB @ gjmiQ4-uAW"") --",2025-10-20T13:22:36.584Z,176096655658400
+"-- ending hand #10 --",2025-10-20T13:22:33.658Z,176096655365802
+"""Miharu @ AAC7lMsXCu"" collected 50 from pot",2025-10-20T13:22:33.658Z,176096655365801
+"Uncalled bet of 26 returned to ""Miharu @ AAC7lMsXCu""",2025-10-20T13:22:33.658Z,176096655365800
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:22:32.795Z,176096655279500
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:22:31.723Z,176096655172300
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:22:30.665Z,176096655066500
+"""Miharu @ AAC7lMsXCu"" raises to 46",2025-10-20T13:22:28.386Z,176096654838600
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:22:22.875Z,176096654287500
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:22:21.804Z,176096654180400
+"""Ene @ 7kPHYByVxS"" posts a big blind of 20",2025-10-20T13:22:19.453Z,176096653945309
+"""IAMB @ gjmiQ4-uAW"" posts a small blind of 10",2025-10-20T13:22:19.453Z,176096653945308
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (2945) | #3 ""goto-neo @ 3uy3Mlil7r"" (3040) | #5 ""IAMB @ gjmiQ4-uAW"" (2990) | #6 ""Ene @ 7kPHYByVxS"" (2030) | #7 ""カイン @ QK8nAFN9E2"" (2625) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2470)",2025-10-20T13:22:19.453Z,176096653945301
+"-- starting hand #10 (id: gl6ktieaidjp)  (No Limit Texas Hold'em) (dealer: ""goto-neo @ 3uy3Mlil7r"") --",2025-10-20T13:22:19.453Z,176096653945300
+"""Miharu @ AAC7lMsXCu"" shows a Q♠.",2025-10-20T13:22:17.756Z,176096653775600
+"-- ending hand #9 --",2025-10-20T13:22:15.850Z,176096653585002
+"""IAMB @ gjmiQ4-uAW"" collected 310 from pot",2025-10-20T13:22:15.850Z,176096653585001
+"Uncalled bet of 115 returned to ""IAMB @ gjmiQ4-uAW""",2025-10-20T13:22:15.850Z,176096653585000
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:22:15.044Z,176096653504400
+"""IAMB @ gjmiQ4-uAW"" bets 115",2025-10-20T13:21:56.830Z,176096651683000
+"River: 8♥, 5♣, Q♣, 2♣ [6♣]",2025-10-20T13:21:33.315Z,176096649331500
+"""Miharu @ AAC7lMsXCu"" calls 100",2025-10-20T13:21:32.479Z,176096649247900
+"""IAMB @ gjmiQ4-uAW"" raises to 100",2025-10-20T13:21:23.633Z,176096648363300
+"""Miharu @ AAC7lMsXCu"" bets 40",2025-10-20T13:21:16.155Z,176096647615500
+"""IAMB @ gjmiQ4-uAW"" checks",2025-10-20T13:21:09.281Z,176096646928100
+"Turn: 8♥, 5♣, Q♣ [2♣]",2025-10-20T13:21:00.035Z,176096646003500
+"""Miharu @ AAC7lMsXCu"" checks",2025-10-20T13:20:59.203Z,176096645920300
+"""IAMB @ gjmiQ4-uAW"" checks",2025-10-20T13:20:40.781Z,176096644078100
+"Flop:  [8♥, 5♣, Q♣]",2025-10-20T13:20:38.725Z,176096643872500
+"""IAMB @ gjmiQ4-uAW"" calls 50",2025-10-20T13:20:37.833Z,176096643783300
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:20:35.014Z,176096643501400
+"""Miharu @ AAC7lMsXCu"" raises to 50",2025-10-20T13:20:33.953Z,176096643395300
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:20:29.439Z,176096642943900
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:20:27.928Z,176096642792800
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:20:26.915Z,176096642691500
+"""IAMB @ gjmiQ4-uAW"" posts a big blind of 20",2025-10-20T13:20:22.307Z,176096642230709
+"""goto-neo @ 3uy3Mlil7r"" posts a small blind of 10",2025-10-20T13:20:22.307Z,176096642230708
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3095) | #3 ""goto-neo @ 3uy3Mlil7r"" (3050) | #5 ""IAMB @ gjmiQ4-uAW"" (2830) | #6 ""Ene @ 7kPHYByVxS"" (2030) | #7 ""カイン @ QK8nAFN9E2"" (2625) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2470)",2025-10-20T13:20:22.307Z,176096642230701
+"-- starting hand #9 (id: uix9gpk3txjo)  (No Limit Texas Hold'em) (dealer: ""Miharu @ AAC7lMsXCu"") --",2025-10-20T13:20:22.307Z,176096642230700
+"-- ending hand #8 --",2025-10-20T13:20:16.303Z,176096641630302
+"""IAMB @ gjmiQ4-uAW"" collected 220 from pot with Straight, Q High (combination: Q♠, J♦, 10♠, 9♦, 8♥)",2025-10-20T13:20:16.303Z,176096641630301
+"""IAMB @ gjmiQ4-uAW"" shows a 10♠, A♦.",2025-10-20T13:20:16.303Z,176096641630300
+"""Ene @ 7kPHYByVxS"" checks",2025-10-20T13:20:15.467Z,176096641546700
+"""IAMB @ gjmiQ4-uAW"" checks",2025-10-20T13:20:13.754Z,176096641375400
+"River: 8♥, 8♦, Q♠, J♦ [9♦]",2025-10-20T13:20:10.699Z,176096641069900
+"""Ene @ 7kPHYByVxS"" checks",2025-10-20T13:20:09.888Z,176096640988800
+"""IAMB @ gjmiQ4-uAW"" checks",2025-10-20T13:20:08.254Z,176096640825400
+"Turn: 8♥, 8♦, Q♠ [J♦]",2025-10-20T13:20:04.709Z,176096640470900
+"""Ene @ 7kPHYByVxS"" checks",2025-10-20T13:20:03.901Z,176096640390100
+"""IAMB @ gjmiQ4-uAW"" checks",2025-10-20T13:20:01.437Z,176096640143700
+"Flop:  [8♥, 8♦, Q♠]",2025-10-20T13:19:59.478Z,176096639947800
+"""IAMB @ gjmiQ4-uAW"" calls 95",2025-10-20T13:19:58.672Z,176096639867200
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:19:49.053Z,176096638905300
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:19:48.022Z,176096638802200
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:19:46.924Z,176096638692400
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:19:41.287Z,176096638128700
+"""Ene @ 7kPHYByVxS"" raises to 95",2025-10-20T13:19:40.286Z,176096638028600
+"""IAMB @ gjmiQ4-uAW"" raises to 40",2025-10-20T13:19:37.241Z,176096637724100
+"""goto-neo @ 3uy3Mlil7r"" posts a big blind of 20",2025-10-20T13:19:34.595Z,176096637459509
+"""Miharu @ AAC7lMsXCu"" posts a small blind of 10",2025-10-20T13:19:34.595Z,176096637459508
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3105) | #3 ""goto-neo @ 3uy3Mlil7r"" (3070) | #5 ""IAMB @ gjmiQ4-uAW"" (2705) | #6 ""Ene @ 7kPHYByVxS"" (2125) | #7 ""カイン @ QK8nAFN9E2"" (2625) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2470)",2025-10-20T13:19:34.595Z,176096637459501
+"-- starting hand #8 (id: 8n8ggae9blfm)  (No Limit Texas Hold'em) (dealer: ""ナカヤマ @ Na5oN7lbKH"") --",2025-10-20T13:19:34.595Z,176096637459500
+"-- ending hand #7 --",2025-10-20T13:19:28.571Z,176096636857102
+"""Miharu @ AAC7lMsXCu"" collected 200 from pot with Pair, K's (combination: K♣, K♥, A♠, Q♣, 9♠)",2025-10-20T13:19:28.571Z,176096636857101
+"""Miharu @ AAC7lMsXCu"" shows a K♣, 9♠.",2025-10-20T13:19:28.571Z,176096636857100
+"""goto-neo @ 3uy3Mlil7r"" checks",2025-10-20T13:19:27.755Z,176096636775500
+"""Miharu @ AAC7lMsXCu"" checks",2025-10-20T13:19:25.936Z,176096636593600
+"River: K♥, Q♣, 4♣, A♠ [3♣]",2025-10-20T13:19:07.674Z,176096634767400
+"""Miharu @ AAC7lMsXCu"" calls 50",2025-10-20T13:19:06.862Z,176096634686200
+"""goto-neo @ 3uy3Mlil7r"" bets 50",2025-10-20T13:19:00.394Z,176096634039400
+"""Miharu @ AAC7lMsXCu"" checks",2025-10-20T13:18:56.317Z,176096633631700
+"Turn: K♥, Q♣, 4♣ [A♠]",2025-10-20T13:18:52.417Z,176096633241700
+"""goto-neo @ 3uy3Mlil7r"" checks",2025-10-20T13:18:51.614Z,176096633161400
+"""Miharu @ AAC7lMsXCu"" checks",2025-10-20T13:18:45.864Z,176096632586400
+"Flop:  [K♥, Q♣, 4♣]",2025-10-20T13:18:43.703Z,176096632370300
+"""Miharu @ AAC7lMsXCu"" calls 45",2025-10-20T13:18:42.842Z,176096632284200
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:18:38.438Z,176096631843800
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:18:37.051Z,176096631705100
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:18:34.301Z,176096631430100
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:18:33.206Z,176096631320600
+"""goto-neo @ 3uy3Mlil7r"" raises to 45",2025-10-20T13:18:32.173Z,176096631217300
+"""Miharu @ AAC7lMsXCu"" posts a big blind of 20",2025-10-20T13:18:26.230Z,176096630623009
+"""ナカヤマ @ Na5oN7lbKH"" posts a small blind of 10",2025-10-20T13:18:26.230Z,176096630623008
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3000) | #3 ""goto-neo @ 3uy3Mlil7r"" (3165) | #5 ""IAMB @ gjmiQ4-uAW"" (2705) | #6 ""Ene @ 7kPHYByVxS"" (2125) | #7 ""カイン @ QK8nAFN9E2"" (2625) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2480)",2025-10-20T13:18:26.230Z,176096630623001
+"-- starting hand #7 (id: zhnhanmz741z)  (No Limit Texas Hold'em) (dealer: ""カイン @ QK8nAFN9E2"") --",2025-10-20T13:18:26.230Z,176096630623000
+"-- ending hand #6 --",2025-10-20T13:18:23.320Z,176096630332002
+"""IAMB @ gjmiQ4-uAW"" collected 260 from pot",2025-10-20T13:18:23.320Z,176096630332001
+"Uncalled bet of 130 returned to ""IAMB @ gjmiQ4-uAW""",2025-10-20T13:18:23.320Z,176096630332000
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:18:22.506Z,176096630250600
+"""IAMB @ gjmiQ4-uAW"" bets 130",2025-10-20T13:18:20.647Z,176096630064700
+"Turn: A♦, 7♠, 4♦ [3♣]",2025-10-20T13:18:07.809Z,176096628780900
+"""Ene @ 7kPHYByVxS"" checks",2025-10-20T13:18:06.980Z,176096628698000
+"""IAMB @ gjmiQ4-uAW"" checks",2025-10-20T13:18:04.152Z,176096628415200
+"Flop:  [A♦, 7♠, 4♦]",2025-10-20T13:18:01.796Z,176096628179600
+"""IAMB @ gjmiQ4-uAW"" calls 115",2025-10-20T13:18:00.937Z,176096628093700
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:17:43.859Z,176096626385900
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:17:42.815Z,176096626281500
+"""Ene @ 7kPHYByVxS"" raises to 115",2025-10-20T13:17:41.734Z,176096626173400
+"""IAMB @ gjmiQ4-uAW"" raises to 50",2025-10-20T13:17:38.726Z,176096625872600
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:17:32.510Z,176096625251000
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:17:31.447Z,176096625144700
+"""ナカヤマ @ Na5oN7lbKH"" posts a big blind of 20",2025-10-20T13:17:29.211Z,176096624921109
+"""カイン @ QK8nAFN9E2"" posts a small blind of 10",2025-10-20T13:17:29.211Z,176096624921108
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3000) | #3 ""goto-neo @ 3uy3Mlil7r"" (3165) | #5 ""IAMB @ gjmiQ4-uAW"" (2560) | #6 ""Ene @ 7kPHYByVxS"" (2240) | #7 ""カイン @ QK8nAFN9E2"" (2635) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2500)",2025-10-20T13:17:29.211Z,176096624921101
+"-- starting hand #6 (id: skt1mp1u891t)  (No Limit Texas Hold'em) (dealer: ""Ene @ 7kPHYByVxS"") --",2025-10-20T13:17:29.211Z,176096624921100
+"""カイン @ QK8nAFN9E2"" shows a 7♥, 5♥.",2025-10-20T13:17:27.617Z,176096624761700
+"""Ene @ 7kPHYByVxS"" shows a A♥.",2025-10-20T13:17:27.341Z,176096624734100
+"""Ene @ 7kPHYByVxS"" shows a 5♠.",2025-10-20T13:17:26.007Z,176096624600700
+"-- ending hand #5 --",2025-10-20T13:17:24.884Z,176096624488402
+"""IAMB @ gjmiQ4-uAW"" collected 220 from pot",2025-10-20T13:17:24.884Z,176096624488401
+"Uncalled bet of 340 returned to ""IAMB @ gjmiQ4-uAW""",2025-10-20T13:17:24.884Z,176096624488400
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:17:24.074Z,176096624407400
+"""IAMB @ gjmiQ4-uAW"" bets 340",2025-10-20T13:17:12.161Z,176096623216100
+"""カイン @ QK8nAFN9E2"" checks",2025-10-20T13:16:58.318Z,176096621831800
+"River: 6♠, 7♦, 8♠, 9♣ [J♠]",2025-10-20T13:16:54.829Z,176096621482900
+"""カイン @ QK8nAFN9E2"" calls 55",2025-10-20T13:16:53.970Z,176096621397000
+"""IAMB @ gjmiQ4-uAW"" bets 55",2025-10-20T13:16:51.307Z,176096621130700
+"""カイン @ QK8nAFN9E2"" checks",2025-10-20T13:16:38.905Z,176096619890500
+"Turn: 6♠, 7♦, 8♠ [9♣]",2025-10-20T13:16:35.401Z,176096619540100
+"""IAMB @ gjmiQ4-uAW"" checks",2025-10-20T13:16:34.591Z,176096619459100
+"""カイン @ QK8nAFN9E2"" checks",2025-10-20T13:16:30.851Z,176096619085100
+"Flop:  [6♠, 7♦, 8♠]",2025-10-20T13:16:27.395Z,176096618739500
+"""カイン @ QK8nAFN9E2"" calls 50",2025-10-20T13:16:26.573Z,176096618657300
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:16:23.813Z,176096618381300
+"""IAMB @ gjmiQ4-uAW"" raises to 50",2025-10-20T13:16:22.330Z,176096618233000
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:16:17.713Z,176096617771300
+"""Miharu @ AAC7lMsXCu"" folds",2025-10-20T13:16:16.688Z,176096617668800
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:16:15.679Z,176096617567900
+"""カイン @ QK8nAFN9E2"" posts a big blind of 20",2025-10-20T13:16:06.982Z,176096616698210
+"""Ene @ 7kPHYByVxS"" posts a small blind of 10",2025-10-20T13:16:06.982Z,176096616698209
+"Player stacks: #1 ""Miharu @ AAC7lMsXCu"" (3000) | #3 ""goto-neo @ 3uy3Mlil7r"" (3165) | #5 ""IAMB @ gjmiQ4-uAW"" (2445) | #6 ""Ene @ 7kPHYByVxS"" (2250) | #7 ""カイン @ QK8nAFN9E2"" (2740) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2500)",2025-10-20T13:16:06.982Z,176096616698202
+"-- starting hand #5 (id: 4akahrwfod0p)  (No Limit Texas Hold'em) (dealer: ""IAMB @ gjmiQ4-uAW"") --",2025-10-20T13:16:06.982Z,176096616698201
+"The player ""Miharu @ AAC7lMsXCu"" joined the game with a stack of 3000.",2025-10-20T13:16:06.982Z,176096616698200
+"-- ending hand #4 --",2025-10-20T13:16:04.057Z,176096616405702
+"""Ene @ 7kPHYByVxS"" collected 120 from pot",2025-10-20T13:16:04.057Z,176096616405701
+"Uncalled bet of 120 returned to ""Ene @ 7kPHYByVxS""",2025-10-20T13:16:04.057Z,176096616405700
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:16:03.196Z,176096616319600
+"The admin approved the player ""Miharu @ AAC7lMsXCu"" participation with a stack of 3000.",2025-10-20T13:15:57.742Z,176096615774200
+"The player ""Miharu @ AAC7lMsXCu"" requested a seat.",2025-10-20T13:15:51.691Z,176096615169100
+"""Ene @ 7kPHYByVxS"" raises to 180",2025-10-20T13:15:48.688Z,176096614868800
+"""IAMB @ gjmiQ4-uAW"" raises to 60",2025-10-20T13:15:43.892Z,176096614389200
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:15:39.150Z,176096613915000
+"""ナカヤマ @ Na5oN7lbKH"" folds",2025-10-20T13:15:38.138Z,176096613813800
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:15:36.048Z,176096613604800
+"""Ene @ 7kPHYByVxS"" posts a big blind of 20",2025-10-20T13:15:32.734Z,176096613273409
+"""IAMB @ gjmiQ4-uAW"" posts a small blind of 10",2025-10-20T13:15:32.734Z,176096613273408
+"Player stacks: #3 ""goto-neo @ 3uy3Mlil7r"" (3165) | #5 ""IAMB @ gjmiQ4-uAW"" (2505) | #6 ""Ene @ 7kPHYByVxS"" (2190) | #7 ""カイン @ QK8nAFN9E2"" (2740) | #9 ""ナカヤマ @ Na5oN7lbKH"" (2500)",2025-10-20T13:15:32.734Z,176096613273402
+"-- starting hand #4 (id: zywdxis93fyh)  (No Limit Texas Hold'em) (dealer: ""goto-neo @ 3uy3Mlil7r"") --",2025-10-20T13:15:32.734Z,176096613273401
+"The player ""ナカヤマ @ Na5oN7lbKH"" joined the game with a stack of 2500.",2025-10-20T13:15:32.734Z,176096613273400
+"-- ending hand #3 --",2025-10-20T13:15:29.827Z,176096612982702
+"""Ene @ 7kPHYByVxS"" collected 200 from pot",2025-10-20T13:15:29.827Z,176096612982701
+"Uncalled bet of 60 returned to ""Ene @ 7kPHYByVxS""",2025-10-20T13:15:29.827Z,176096612982700
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:15:29.023Z,176096612902300
+"""Ene @ 7kPHYByVxS"" bets 60",2025-10-20T13:15:27.209Z,176096612720900
+"Turn: 7♣, 3♠, 8♣ [2♣]",2025-10-20T13:15:21.524Z,176096612152400
+"""カイン @ QK8nAFN9E2"" calls 40",2025-10-20T13:15:20.700Z,176096612070000
+"""Ene @ 7kPHYByVxS"" bets 40",2025-10-20T13:15:16.029Z,176096611602900
+"Flop:  [7♣, 3♠, 8♣]",2025-10-20T13:15:07.715Z,176096610771500
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:15:06.879Z,176096610687900
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:15:05.852Z,176096610585200
+"""カイン @ QK8nAFN9E2"" calls 45",2025-10-20T13:15:04.777Z,176096610477700
+"""Ene @ 7kPHYByVxS"" raises to 45",2025-10-20T13:15:00.855Z,176096610085500
+"The admin approved the player ""ナカヤマ @ Na5oN7lbKH"" participation with a stack of 2500.",2025-10-20T13:14:58.986Z,176096609898600
+"""IAMB @ gjmiQ4-uAW"" posts a big blind of 20",2025-10-20T13:14:55.051Z,176096609505107
+"""goto-neo @ 3uy3Mlil7r"" posts a small blind of 10",2025-10-20T13:14:55.051Z,176096609505106
+"Player stacks: #3 ""goto-neo @ 3uy3Mlil7r"" (3175) | #5 ""IAMB @ gjmiQ4-uAW"" (2525) | #6 ""Ene @ 7kPHYByVxS"" (2075) | #7 ""カイン @ QK8nAFN9E2"" (2825)",2025-10-20T13:14:55.051Z,176096609505101
+"-- starting hand #3 (id: i0ouvfhrwaak)  (No Limit Texas Hold'em) (dealer: ""カイン @ QK8nAFN9E2"") --",2025-10-20T13:14:55.051Z,176096609505100
+"""カイン @ QK8nAFN9E2"" shows a A♦.",2025-10-20T13:14:53.906Z,176096609390600
+"The player ""ナカヤマ @ Na5oN7lbKH"" requested a seat.",2025-10-20T13:14:51.883Z,176096609188300
+"""goto-neo @ 3uy3Mlil7r"" shows a 9♦, 9♥.",2025-10-20T13:14:51.459Z,176096609145900
+"-- ending hand #2 --",2025-10-20T13:14:50.741Z,176096609074102
+"""goto-neo @ 3uy3Mlil7r"" collected 290 from pot",2025-10-20T13:14:50.741Z,176096609074101
+"Uncalled bet of 217 returned to ""goto-neo @ 3uy3Mlil7r""",2025-10-20T13:14:50.741Z,176096609074100
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:14:49.926Z,176096608992600
+"""goto-neo @ 3uy3Mlil7r"" bets 217",2025-10-20T13:14:44.144Z,176096608414400
+"Turn: 2♦, K♦, 8♣ [Q♦]",2025-10-20T13:14:40.042Z,176096608004200
+"""Ene @ 7kPHYByVxS"" checks",2025-10-20T13:14:39.234Z,176096607923400
+"""goto-neo @ 3uy3Mlil7r"" checks",2025-10-20T13:14:33.638Z,176096607363800
+"Flop:  [2♦, K♦, 8♣]",2025-10-20T13:14:30.634Z,176096607063400
+"""IAMB @ gjmiQ4-uAW"" folds",2025-10-20T13:14:29.760Z,176096606976000
+"""goto-neo @ 3uy3Mlil7r"" calls 115",2025-10-20T13:14:28.737Z,176096606873700
+"""カイン @ QK8nAFN9E2"" folds",2025-10-20T13:14:22.322Z,176096606232200
+"""Ene @ 7kPHYByVxS"" raises to 115",2025-10-20T13:14:20.362Z,176096606036200
+"""IAMB @ gjmiQ4-uAW"" raises to 50",2025-10-20T13:14:17.764Z,176096605776400
+"""goto-neo @ 3uy3Mlil7r"" posts a big blind of 20",2025-10-20T13:14:13.511Z,176096605351107
+"""カイン @ QK8nAFN9E2"" posts a small blind of 10",2025-10-20T13:14:13.511Z,176096605351106
+"Player stacks: #3 ""goto-neo @ 3uy3Mlil7r"" (3000) | #5 ""IAMB @ gjmiQ4-uAW"" (2575) | #6 ""Ene @ 7kPHYByVxS"" (2190) | #7 ""カイン @ QK8nAFN9E2"" (2835)",2025-10-20T13:14:13.511Z,176096605351101
+"-- starting hand #2 (id: fsbnogejtg1t)  (No Limit Texas Hold'em) (dealer: ""Ene @ 7kPHYByVxS"") --",2025-10-20T13:14:13.511Z,176096605351100
+"-- ending hand #1 --",2025-10-20T13:14:07.498Z,176096604749803
+"""IAMB @ gjmiQ4-uAW"" collected 340 from pot with Pair, Q's (combination: Q♣, Q♦, A♥, J♦, 10♦)",2025-10-20T13:14:07.498Z,176096604749802
+"""IAMB @ gjmiQ4-uAW"" shows a Q♣, A♥.",2025-10-20T13:14:07.498Z,176096604749801
+"""カイン @ QK8nAFN9E2"" shows a 8♣, 10♣.",2025-10-20T13:14:07.498Z,176096604749800
+"""IAMB @ gjmiQ4-uAW"" checks",2025-10-20T13:14:06.670Z,176096604667000
+"""カイン @ QK8nAFN9E2"" checks",2025-10-20T13:14:02.803Z,176096604280300
+"River: 3♣, J♦, 10♦, 7♠ [Q♦]",2025-10-20T13:13:59.321Z,176096603932100
+"""カイン @ QK8nAFN9E2"" calls 115",2025-10-20T13:13:58.489Z,176096603848900
+"""IAMB @ gjmiQ4-uAW"" raises to 115",2025-10-20T13:13:55.981Z,176096603598100
+"""カイン @ QK8nAFN9E2"" bets 30",2025-10-20T13:13:41.150Z,176096602115000
+"Turn: 3♣, J♦, 10♦ [7♠]",2025-10-20T13:13:31.895Z,176096601189500
+"""IAMB @ gjmiQ4-uAW"" checks",2025-10-20T13:13:31.088Z,176096601108800
+"""カイン @ QK8nAFN9E2"" checks",2025-10-20T13:13:24.708Z,176096600470800
+"Flop:  [3♣, J♦, 10♦]",2025-10-20T13:13:21.889Z,176096600188900
+"""カイン @ QK8nAFN9E2"" calls 50",2025-10-20T13:13:21.082Z,176096600108200
+"""Ene @ 7kPHYByVxS"" folds",2025-10-20T13:13:18.826Z,176096599882600
+"""IAMB @ gjmiQ4-uAW"" raises to 50",2025-10-20T13:13:15.342Z,176096599534200
+"""goto-neo @ 3uy3Mlil7r"" folds",2025-10-20T13:13:10.806Z,176096599080600
+"""カイン @ QK8nAFN9E2"" posts a big blind of 20",2025-10-20T13:13:08.348Z,176096598834811
+"""Ene @ 7kPHYByVxS"" posts a small blind of 10",2025-10-20T13:13:08.348Z,176096598834810
+"Player stacks: #3 ""goto-neo @ 3uy3Mlil7r"" (3000) | #5 ""IAMB @ gjmiQ4-uAW"" (2400) | #6 ""Ene @ 7kPHYByVxS"" (2200) | #7 ""カイン @ QK8nAFN9E2"" (3000)",2025-10-20T13:13:08.348Z,176096598834805
+"The player ""カイン @ QK8nAFN9E2"" joined the game with a stack of 3000.",2025-10-20T13:13:08.348Z,176096598834804
+"The player ""Ene @ 7kPHYByVxS"" joined the game with a stack of 2200.",2025-10-20T13:13:08.348Z,176096598834803
+"The player ""IAMB @ gjmiQ4-uAW"" joined the game with a stack of 2400.",2025-10-20T13:13:08.348Z,176096598834802
+"The player ""goto-neo @ 3uy3Mlil7r"" joined the game with a stack of 3000.",2025-10-20T13:13:08.348Z,176096598834801
+"-- starting hand #1 (id: innrbzktttx5)  (No Limit Texas Hold'em) (dealer: ""IAMB @ gjmiQ4-uAW"") --",2025-10-20T13:13:08.348Z,176096598834800
+"The admin approved the player ""goto-neo @ 3uy3Mlil7r"" participation with a stack of 3000.",2025-10-20T13:13:00.754Z,176096598075401
+"The player ""goto-neo @ 3uy3Mlil7r"" requested a seat.",2025-10-20T13:13:00.754Z,176096598075400
+"The admin approved the player ""Ene @ 7kPHYByVxS"" participation with a stack of 2200.",2025-10-20T13:12:46.639Z,176096596663900
+"The player ""Ene @ 7kPHYByVxS"" requested a seat.",2025-10-20T13:12:32.081Z,176096595208100
+"The admin approved the player ""カイン @ QK8nAFN9E2"" participation with a stack of 3000.",2025-10-20T13:12:01.191Z,176096592119100
+"The admin approved the player ""IAMB @ gjmiQ4-uAW"" participation with a stack of 2400.",2025-10-20T13:11:58.052Z,176096591805200
+"The player ""カイン @ QK8nAFN9E2"" requested a seat.",2025-10-20T13:11:32.452Z,176096589245200
+"The player ""IAMB @ gjmiQ4-uAW"" requested a seat.",2025-10-20T13:11:27.004Z,176096588700400

@@ -1,0 +1,1331 @@
+entry,at,order
+"The player ""あこ @ 9FY377ItlI"" quits the game with a stack of 3570.",2025-06-29T13:33:56.064Z,175120403606400
+"-- ending hand #77 --",2025-06-29T13:33:14.364Z,175120399436403
+"""あこ @ 9FY377ItlI"" collected 900 from pot with Two Pair, A's & 8's (combination: A♥, A♠, 8♣, 8♠, J♠)",2025-06-29T13:33:14.364Z,175120399436402
+"""あこ @ 9FY377ItlI"" shows a A♥, 8♣.",2025-06-29T13:33:14.364Z,175120399436401
+"""megau @ gjiEZFeA5n"" shows a J♥, K♠.",2025-06-29T13:33:14.364Z,175120399436400
+"""あこ @ 9FY377ItlI"" calls 225",2025-06-29T13:33:13.554Z,175120399355400
+"""megau @ gjiEZFeA5n"" bets 225",2025-06-29T13:33:07.754Z,175120398775400
+"""あこ @ 9FY377ItlI"" checks",2025-06-29T13:32:45.797Z,175120396579700
+"River: 10♥, 8♠, J♠, 6♣ [A♠]",2025-06-29T13:32:43.691Z,175120396369100
+"""あこ @ 9FY377ItlI"" calls 135",2025-06-29T13:32:42.866Z,175120396286600
+"""megau @ gjiEZFeA5n"" bets 135",2025-06-29T13:32:41.117Z,175120396111700
+"""あこ @ 9FY377ItlI"" checks",2025-06-29T13:32:30.587Z,175120395058700
+"Turn: 10♥, 8♠, J♠ [6♣]",2025-06-29T13:32:29.444Z,175120394944400
+"""あこ @ 9FY377ItlI"" calls 45",2025-06-29T13:32:28.641Z,175120394864100
+"""megau @ gjiEZFeA5n"" bets 45",2025-06-29T13:32:27.281Z,175120394728100
+"""あこ @ 9FY377ItlI"" checks",2025-06-29T13:32:17.422Z,175120393742200
+"Flop:  [10♥, 8♠, J♠]",2025-06-29T13:32:15.827Z,175120393582700
+"""あこ @ 9FY377ItlI"" calls 40",2025-06-29T13:32:14.994Z,175120393499400
+"""konasho @ 6A8RjkqsNg"" folds",2025-06-29T13:32:13.429Z,175120393342900
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T13:32:12.279Z,175120393227900
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T13:32:11.178Z,175120393117800
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T13:32:10.133Z,175120393013300
+"""megau @ gjiEZFeA5n"" raises to 40",2025-06-29T13:32:09.116Z,175120392911600
+"The admin ""arash! @ OHWoWLqWap"" enqueued the game stop on next hand.",2025-06-29T13:32:02.968Z,175120392296800
+"""あこ @ 9FY377ItlI"" posts a big blind of 20",2025-06-29T13:31:39.571Z,175120389957109
+"""konasho @ 6A8RjkqsNg"" posts a small blind of 10",2025-06-29T13:31:39.571Z,175120389957108
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2465) | #2 ""らねおか @ XaClitYV1x"" (2970) | #3 ""パンドラ @ pL49LPNYjQ"" (3905) | #4 ""konasho @ 6A8RjkqsNg"" (750) | #9 ""あこ @ 9FY377ItlI"" (3115) | #10 ""megau @ gjiEZFeA5n"" (2745)",2025-06-29T13:31:39.571Z,175120389957101
+"-- starting hand #77 (id: uqloytgt9icm)  (No Limit Texas Hold'em) (dealer: ""パンドラ @ pL49LPNYjQ"") --",2025-06-29T13:31:39.571Z,175120389957100
+"-- ending hand #76 --",2025-06-29T13:31:33.526Z,175120389352603
+"""パンドラ @ pL49LPNYjQ"" collected 1980 from pot with Two Pair, A's & 8's (combination: A♥, A♦, 8♣, 8♦, J♣)",2025-06-29T13:31:33.526Z,175120389352602
+"""パンドラ @ pL49LPNYjQ"" shows a A♥, 8♣.",2025-06-29T13:31:33.526Z,175120389352601
+"""konasho @ 6A8RjkqsNg"" shows a 9♠, 7♠.",2025-06-29T13:31:33.526Z,175120389352600
+"""パンドラ @ pL49LPNYjQ"" calls 750",2025-06-29T13:31:32.671Z,175120389267100
+"""konasho @ 6A8RjkqsNg"" raises to 750",2025-06-29T13:31:19.368Z,175120387936800
+"""パンドラ @ pL49LPNYjQ"" bets 240",2025-06-29T13:31:07.017Z,175120386701700
+"River: 8♦, 4♦, 6♠, J♣ [A♦]",2025-06-29T13:30:48.933Z,175120384893300
+"""konasho @ 6A8RjkqsNg"" calls 120",2025-06-29T13:30:48.089Z,175120384808900
+"""パンドラ @ pL49LPNYjQ"" bets 120",2025-06-29T13:30:39.550Z,175120383955000
+"Turn: 8♦, 4♦, 6♠ [J♣]",2025-06-29T13:30:25.992Z,175120382599200
+"""konasho @ 6A8RjkqsNg"" calls 60",2025-06-29T13:30:25.138Z,175120382513800
+"""パンドラ @ pL49LPNYjQ"" bets 60",2025-06-29T13:30:10.454Z,175120381045400
+"Flop:  [8♦, 4♦, 6♠]",2025-06-29T13:29:59.836Z,175120379983600
+"""konasho @ 6A8RjkqsNg"" calls 60",2025-06-29T13:29:59.008Z,175120379900800
+"""パンドラ @ pL49LPNYjQ"" raises to 60",2025-06-29T13:29:54.406Z,175120379440600
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T13:29:50.888Z,175120379088800
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T13:29:49.835Z,175120378983500
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T13:29:48.762Z,175120378876200
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T13:29:39.734Z,175120377973400
+"""konasho @ 6A8RjkqsNg"" posts a big blind of 20",2025-06-29T13:29:36.865Z,175120377686509
+"""パンドラ @ pL49LPNYjQ"" posts a small blind of 10",2025-06-29T13:29:36.865Z,175120377686508
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2465) | #2 ""らねおか @ XaClitYV1x"" (2970) | #3 ""パンドラ @ pL49LPNYjQ"" (2915) | #4 ""konasho @ 6A8RjkqsNg"" (1740) | #9 ""あこ @ 9FY377ItlI"" (3115) | #10 ""megau @ gjiEZFeA5n"" (2745)",2025-06-29T13:29:36.865Z,175120377686501
+"-- starting hand #76 (id: ddh6kva1wct0)  (No Limit Texas Hold'em) (dealer: ""らねおか @ XaClitYV1x"") --",2025-06-29T13:29:36.865Z,175120377686500
+"-- ending hand #75 --",2025-06-29T13:29:33.901Z,175120377390102
+"""パンドラ @ pL49LPNYjQ"" collected 20 from pot",2025-06-29T13:29:33.901Z,175120377390101
+"Uncalled bet of 10 returned to ""パンドラ @ pL49LPNYjQ""",2025-06-29T13:29:33.901Z,175120377390100
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T13:29:33.068Z,175120377306800
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T13:29:31.808Z,175120377180800
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T13:29:30.757Z,175120377075700
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T13:29:29.696Z,175120376969600
+"""konasho @ 6A8RjkqsNg"" folds",2025-06-29T13:29:28.267Z,175120376826700
+"""パンドラ @ pL49LPNYjQ"" posts a big blind of 20",2025-06-29T13:29:26.396Z,175120376639609
+"""らねおか @ XaClitYV1x"" posts a small blind of 10",2025-06-29T13:29:26.396Z,175120376639608
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2465) | #2 ""らねおか @ XaClitYV1x"" (2980) | #3 ""パンドラ @ pL49LPNYjQ"" (2905) | #4 ""konasho @ 6A8RjkqsNg"" (1740) | #9 ""あこ @ 9FY377ItlI"" (3115) | #10 ""megau @ gjiEZFeA5n"" (2745)",2025-06-29T13:29:26.396Z,175120376639601
+"-- starting hand #75 (id: qwmwigh2jnmc)  (No Limit Texas Hold'em) (dealer: ""arash! @ OHWoWLqWap"") --",2025-06-29T13:29:26.396Z,175120376639600
+"-- ending hand #74 --",2025-06-29T13:29:23.456Z,175120376345602
+"""arash! @ OHWoWLqWap"" collected 120 from pot",2025-06-29T13:29:23.456Z,175120376345601
+"Uncalled bet of 150 returned to ""arash! @ OHWoWLqWap""",2025-06-29T13:29:23.456Z,175120376345600
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T13:29:22.609Z,175120376260900
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T13:29:20.131Z,175120376013100
+"""arash! @ OHWoWLqWap"" raises to 200",2025-06-29T13:29:19.115Z,175120375911500
+"""megau @ gjiEZFeA5n"" raises to 50",2025-06-29T13:29:15.277Z,175120375527700
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T13:29:11.454Z,175120375145400
+"""konasho @ 6A8RjkqsNg"" folds",2025-06-29T13:29:10.333Z,175120375033300
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T13:29:08.569Z,175120374856900
+"""らねおか @ XaClitYV1x"" posts a big blind of 20",2025-06-29T13:29:06.853Z,175120374685309
+"""arash! @ OHWoWLqWap"" posts a small blind of 10",2025-06-29T13:29:06.853Z,175120374685308
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2395) | #2 ""らねおか @ XaClitYV1x"" (3000) | #3 ""パンドラ @ pL49LPNYjQ"" (2905) | #4 ""konasho @ 6A8RjkqsNg"" (1740) | #9 ""あこ @ 9FY377ItlI"" (3115) | #10 ""megau @ gjiEZFeA5n"" (2795)",2025-06-29T13:29:06.853Z,175120374685301
+"-- starting hand #74 (id: efhllxvvfv7f)  (No Limit Texas Hold'em) (dealer: ""megau @ gjiEZFeA5n"") --",2025-06-29T13:29:06.853Z,175120374685300
+"-- ending hand #73 --",2025-06-29T13:29:03.932Z,175120374393202
+"""あこ @ 9FY377ItlI"" collected 260 from pot",2025-06-29T13:29:03.932Z,175120374393201
+"Uncalled bet of 130 returned to ""あこ @ 9FY377ItlI""",2025-06-29T13:29:03.932Z,175120374393200
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T13:29:03.091Z,175120374309100
+"""あこ @ 9FY377ItlI"" bets 130",2025-06-29T13:28:53.503Z,175120373350300
+"""パンドラ @ pL49LPNYjQ"" checks",2025-06-29T13:28:29.372Z,175120370937200
+"Turn: 8♥, 7♠, 8♦ [3♦]",2025-06-29T13:28:18.076Z,175120369807600
+"""あこ @ 9FY377ItlI"" calls 65",2025-06-29T13:28:17.235Z,175120369723500
+"""パンドラ @ pL49LPNYjQ"" bets 65",2025-06-29T13:28:12.873Z,175120369287300
+"Flop:  [8♥, 7♠, 8♦]",2025-06-29T13:27:56.582Z,175120367658200
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T13:27:55.774Z,175120367577400
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T13:27:54.754Z,175120367475400
+"""あこ @ 9FY377ItlI"" calls 50",2025-06-29T13:27:44.074Z,175120366407400
+"""konasho @ 6A8RjkqsNg"" folds",2025-06-29T13:27:42.528Z,175120366252800
+"""パンドラ @ pL49LPNYjQ"" raises to 50",2025-06-29T13:27:41.375Z,175120366137500
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T13:27:38.392Z,175120365839200
+"""arash! @ OHWoWLqWap"" posts a big blind of 20",2025-06-29T13:27:36.833Z,175120365683310
+"""megau @ gjiEZFeA5n"" posts a small blind of 10",2025-06-29T13:27:36.833Z,175120365683309
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2415) | #2 ""らねおか @ XaClitYV1x"" (3000) | #3 ""パンドラ @ pL49LPNYjQ"" (3020) | #4 ""konasho @ 6A8RjkqsNg"" (1740) | #9 ""あこ @ 9FY377ItlI"" (2970) | #10 ""megau @ gjiEZFeA5n"" (2805)",2025-06-29T13:27:36.833Z,175120365683302
+"-- starting hand #73 (id: v3ubkfspkyq4)  (No Limit Texas Hold'em) (dealer: ""あこ @ 9FY377ItlI"") --",2025-06-29T13:27:36.833Z,175120365683301
+"The admin updated the player ""らねおか @ XaClitYV1x"" stack from 211 to 3000.",2025-06-29T13:27:36.833Z,175120365683300
+"-- ending hand #72 --",2025-06-29T13:27:33.900Z,175120365390002
+"""パンドラ @ pL49LPNYjQ"" collected 50 from pot",2025-06-29T13:27:33.900Z,175120365390001
+"Uncalled bet of 30 returned to ""パンドラ @ pL49LPNYjQ""",2025-06-29T13:27:33.900Z,175120365390000
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T13:27:33.091Z,175120365309100
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T13:27:29.353Z,175120364935300
+"""konasho @ 6A8RjkqsNg"" folds",2025-06-29T13:27:22.347Z,175120364234700
+"""パンドラ @ pL49LPNYjQ"" raises to 50",2025-06-29T13:27:21.161Z,175120364116100
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T13:27:13.260Z,175120363326000
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T13:27:12.242Z,175120363224200
+"WARNING: the admin queued the stack change for the player ""らねおか @ XaClitYV1x"" reseting to 3000 chips in the next hand.",2025-06-29T13:27:09.396Z,175120362939600
+"""megau @ gjiEZFeA5n"" posts a big blind of 20",2025-06-29T13:27:08.733Z,175120362873309
+"""あこ @ 9FY377ItlI"" posts a small blind of 10",2025-06-29T13:27:08.733Z,175120362873308
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2415) | #2 ""らねおか @ XaClitYV1x"" (211) | #3 ""パンドラ @ pL49LPNYjQ"" (2990) | #4 ""konasho @ 6A8RjkqsNg"" (1740) | #9 ""あこ @ 9FY377ItlI"" (2980) | #10 ""megau @ gjiEZFeA5n"" (2825)",2025-06-29T13:27:08.733Z,175120362873301
+"-- starting hand #72 (id: bszxp3enjmd8)  (No Limit Texas Hold'em) (dealer: ""konasho @ 6A8RjkqsNg"") --",2025-06-29T13:27:08.733Z,175120362873300
+"-- ending hand #71 --",2025-06-29T13:27:05.821Z,175120362582102
+"""arash! @ OHWoWLqWap"" collected 50 from pot",2025-06-29T13:27:05.821Z,175120362582101
+"Uncalled bet of 40 returned to ""arash! @ OHWoWLqWap""",2025-06-29T13:27:05.821Z,175120362582100
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T13:27:04.988Z,175120362498800
+"""konasho @ 6A8RjkqsNg"" folds",2025-06-29T13:27:02.207Z,175120362220700
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T13:27:01.083Z,175120362108300
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T13:26:59.995Z,175120361999500
+"""arash! @ OHWoWLqWap"" raises to 60",2025-06-29T13:26:58.987Z,175120361898700
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T13:26:55.911Z,175120361591100
+"""あこ @ 9FY377ItlI"" posts a big blind of 20",2025-06-29T13:26:53.200Z,175120361320010
+"""konasho @ 6A8RjkqsNg"" posts a small blind of 10",2025-06-29T13:26:53.200Z,175120361320009
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2385) | #2 ""らねおか @ XaClitYV1x"" (211) | #3 ""パンドラ @ pL49LPNYjQ"" (2990) | #4 ""konasho @ 6A8RjkqsNg"" (1750) | #9 ""あこ @ 9FY377ItlI"" (3000) | #10 ""megau @ gjiEZFeA5n"" (2825)",2025-06-29T13:26:53.200Z,175120361320002
+"-- starting hand #71 (id: ds5nzy8zrwxo)  (No Limit Texas Hold'em) (dealer: ""パンドラ @ pL49LPNYjQ"") --",2025-06-29T13:26:53.200Z,175120361320001
+"The admin updated the player ""あこ @ 9FY377ItlI"" stack from 4464 to 3000.",2025-06-29T13:26:53.200Z,175120361320000
+"-- ending hand #70 --",2025-06-29T13:26:50.281Z,175120361028102
+"""あこ @ 9FY377ItlI"" collected 50 from pot",2025-06-29T13:26:50.281Z,175120361028101
+"Uncalled bet of 20 returned to ""あこ @ 9FY377ItlI""",2025-06-29T13:26:50.281Z,175120361028100
+"""konasho @ 6A8RjkqsNg"" folds",2025-06-29T13:26:49.462Z,175120360946200
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T13:26:48.317Z,175120360831700
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T13:26:47.310Z,175120360731000
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T13:26:44.334Z,175120360433400
+"WARNING: the admin queued the stack change for the player ""あこ @ 9FY377ItlI"" reseting to 3000 chips in the next hand.",2025-06-29T13:26:40.970Z,175120360097000
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T13:26:39.203Z,175120359920300
+"""あこ @ 9FY377ItlI"" raises to 40",2025-06-29T13:26:38.120Z,175120359812000
+"""konasho @ 6A8RjkqsNg"" posts a big blind of 20",2025-06-29T13:26:31.141Z,175120359114109
+"""パンドラ @ pL49LPNYjQ"" posts a small blind of 10",2025-06-29T13:26:31.141Z,175120359114108
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2385) | #2 ""らねおか @ XaClitYV1x"" (211) | #3 ""パンドラ @ pL49LPNYjQ"" (3000) | #4 ""konasho @ 6A8RjkqsNg"" (1770) | #9 ""あこ @ 9FY377ItlI"" (4434) | #10 ""megau @ gjiEZFeA5n"" (2825)",2025-06-29T13:26:31.141Z,175120359114101
+"-- starting hand #70 (id: 0yccvunm5lqa)  (No Limit Texas Hold'em) (dealer: ""らねおか @ XaClitYV1x"") --",2025-06-29T13:26:31.141Z,175120359114100
+"-- ending hand #69 --",2025-06-29T13:26:25.106Z,175120358510601
+"""あこ @ 9FY377ItlI"" collected 4434 from pot with Flush, Ah High (combination: A♥, Q♥, J♥, 7♥, 3♥)",2025-06-29T13:26:25.106Z,175120358510600
+"River: 7♣, 7♥, J♥, Q♣ [3♥]",2025-06-29T13:26:21.097Z,175120358109700
+"Turn: 7♣, 7♥, J♥ [Q♣]",2025-06-29T13:26:17.073Z,175120357707300
+"""あこ @ 9FY377ItlI"" shows a Q♥, A♥.",2025-06-29T13:26:13.055Z,175120357305501
+"""らねおか @ XaClitYV1x"" shows a A♠, A♣.",2025-06-29T13:26:13.055Z,175120357305500
+"""あこ @ 9FY377ItlI"" calls 1707 and go all in",2025-06-29T13:26:12.240Z,175120357224000
+"""らねおか @ XaClitYV1x"" bets 1707",2025-06-29T13:26:09.353Z,175120356935300
+"Flop:  [7♣, 7♥, J♥]",2025-06-29T13:26:04.430Z,175120356443000
+"""あこ @ 9FY377ItlI"" calls 480",2025-06-29T13:26:03.600Z,175120356360000
+"""konasho @ 6A8RjkqsNg"" folds",2025-06-29T13:26:01.835Z,175120356183500
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T13:26:00.354Z,175120356035400
+"""らねおか @ XaClitYV1x"" raises to 480",2025-06-29T13:25:59.219Z,175120355921900
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T13:25:52.590Z,175120355259000
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T13:25:51.521Z,175120355152100
+"""あこ @ 9FY377ItlI"" raises to 120",2025-06-29T13:25:50.504Z,175120355050400
+"""konasho @ 6A8RjkqsNg"" raises to 40",2025-06-29T13:25:45.431Z,175120354543100
+"""パンドラ @ pL49LPNYjQ"" posts a big blind of 20",2025-06-29T13:25:40.566Z,175120354056609
+"""らねおか @ XaClitYV1x"" posts a small blind of 10",2025-06-29T13:25:40.566Z,175120354056608
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2385) | #2 ""らねおか @ XaClitYV1x"" (2398) | #3 ""パンドラ @ pL49LPNYjQ"" (3020) | #4 ""konasho @ 6A8RjkqsNg"" (1810) | #9 ""あこ @ 9FY377ItlI"" (2187) | #10 ""megau @ gjiEZFeA5n"" (2825)",2025-06-29T13:25:40.566Z,175120354056601
+"-- starting hand #69 (id: nztufcme3xes)  (No Limit Texas Hold'em) (dealer: ""arash! @ OHWoWLqWap"") --",2025-06-29T13:25:40.566Z,175120354056600
+"-- ending hand #68 --",2025-06-29T13:25:34.509Z,175120353450902
+"""らねおか @ XaClitYV1x"" collected 190 from pot with Pair, J's (combination: J♥, J♣, 9♥, 8♠, 5♥)",2025-06-29T13:25:34.509Z,175120353450901
+"""らねおか @ XaClitYV1x"" shows a J♥, 5♥.",2025-06-29T13:25:34.509Z,175120353450900
+"""megau @ gjiEZFeA5n"" calls 40",2025-06-29T13:25:33.695Z,175120353369500
+"""らねおか @ XaClitYV1x"" bets 40",2025-06-29T13:25:10.700Z,175120351070000
+"River: 9♥, 8♠, J♣, 2♦ [4♠]",2025-06-29T13:25:04.639Z,175120350463900
+"""megau @ gjiEZFeA5n"" checks",2025-06-29T13:25:03.794Z,175120350379400
+"""らねおか @ XaClitYV1x"" checks",2025-06-29T13:24:43.686Z,175120348368600
+"Turn: 9♥, 8♠, J♣ [2♦]",2025-06-29T13:24:40.502Z,175120348050200
+"""megau @ gjiEZFeA5n"" checks",2025-06-29T13:24:39.692Z,175120347969200
+"""らねおか @ XaClitYV1x"" checks",2025-06-29T13:24:28.149Z,175120346814900
+"Flop:  [9♥, 8♠, J♣]",2025-06-29T13:24:24.186Z,175120346418600
+"""らねおか @ XaClitYV1x"" calls 50",2025-06-29T13:24:23.371Z,175120346337100
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T13:24:21.196Z,175120346119600
+"""megau @ gjiEZFeA5n"" raises to 50",2025-06-29T13:24:20.162Z,175120346016200
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T13:24:17.184Z,175120345718400
+"""konasho @ 6A8RjkqsNg"" folds",2025-06-29T13:24:15.378Z,175120345537800
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T13:24:14.262Z,175120345426200
+"""らねおか @ XaClitYV1x"" posts a big blind of 20",2025-06-29T13:24:12.681Z,175120345268109
+"""arash! @ OHWoWLqWap"" posts a small blind of 10",2025-06-29T13:24:12.681Z,175120345268108
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2395) | #2 ""らねおか @ XaClitYV1x"" (2298) | #3 ""パンドラ @ pL49LPNYjQ"" (3020) | #4 ""konasho @ 6A8RjkqsNg"" (1810) | #9 ""あこ @ 9FY377ItlI"" (2187) | #10 ""megau @ gjiEZFeA5n"" (2915)",2025-06-29T13:24:12.681Z,175120345268101
+"-- starting hand #68 (id: js8letzdyvnp)  (No Limit Texas Hold'em) (dealer: ""megau @ gjiEZFeA5n"") --",2025-06-29T13:24:12.681Z,175120345268100
+"-- ending hand #67 --",2025-06-29T13:24:09.727Z,175120344972702
+"""megau @ gjiEZFeA5n"" collected 120 from pot",2025-06-29T13:24:09.727Z,175120344972701
+"Uncalled bet of 90 returned to ""megau @ gjiEZFeA5n""",2025-06-29T13:24:09.727Z,175120344972700
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T13:24:08.921Z,175120344892100
+"""megau @ gjiEZFeA5n"" bets 90",2025-06-29T13:24:06.227Z,175120344622700
+"River: A♥, 7♦, 9♣, 3♣ [Q♣]",2025-06-29T13:23:52.705Z,175120343270500
+"""arash! @ OHWoWLqWap"" checks",2025-06-29T13:23:51.862Z,175120343186200
+"""megau @ gjiEZFeA5n"" checks",2025-06-29T13:23:44.887Z,175120342488700
+"Turn: A♥, 7♦, 9♣ [3♣]",2025-06-29T13:23:38.432Z,175120341843200
+"""arash! @ OHWoWLqWap"" checks",2025-06-29T13:23:37.604Z,175120341760400
+"""megau @ gjiEZFeA5n"" checks",2025-06-29T13:23:32.012Z,175120341201200
+"Flop:  [A♥, 7♦, 9♣]",2025-06-29T13:23:22.020Z,175120340202000
+"""arash! @ OHWoWLqWap"" calls 60",2025-06-29T13:23:21.172Z,175120340117200
+"""megau @ gjiEZFeA5n"" raises to 60",2025-06-29T13:23:16.862Z,175120339686200
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T13:23:08.831Z,175120338883100
+"""konasho @ 6A8RjkqsNg"" folds",2025-06-29T13:23:05.979Z,175120338597900
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T13:23:04.818Z,175120338481800
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T13:23:03.748Z,175120338374800
+"""arash! @ OHWoWLqWap"" posts a big blind of 20",2025-06-29T13:23:01.197Z,175120338119709
+"""megau @ gjiEZFeA5n"" posts a small blind of 10",2025-06-29T13:23:01.197Z,175120338119708
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2455) | #2 ""らねおか @ XaClitYV1x"" (2298) | #3 ""パンドラ @ pL49LPNYjQ"" (3020) | #4 ""konasho @ 6A8RjkqsNg"" (1810) | #9 ""あこ @ 9FY377ItlI"" (2187) | #10 ""megau @ gjiEZFeA5n"" (2855)",2025-06-29T13:23:01.197Z,175120338119701
+"-- starting hand #67 (id: 4devotdrrhc9)  (No Limit Texas Hold'em) (dealer: ""あこ @ 9FY377ItlI"") --",2025-06-29T13:23:01.197Z,175120338119700
+"-- ending hand #66 --",2025-06-29T13:22:58.265Z,175120337826502
+"""パンドラ @ pL49LPNYjQ"" collected 50 from pot",2025-06-29T13:22:58.265Z,175120337826501
+"Uncalled bet of 30 returned to ""パンドラ @ pL49LPNYjQ""",2025-06-29T13:22:58.265Z,175120337826500
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T13:22:57.393Z,175120337739300
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T13:22:56.329Z,175120337632900
+"""konasho @ 6A8RjkqsNg"" folds",2025-06-29T13:22:55.310Z,175120337531000
+"""パンドラ @ pL49LPNYjQ"" raises to 50",2025-06-29T13:22:51.382Z,175120337138200
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T13:22:45.838Z,175120336583800
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T13:22:43.371Z,175120336337100
+"""megau @ gjiEZFeA5n"" posts a big blind of 20",2025-06-29T13:22:41.878Z,175120336187809
+"""あこ @ 9FY377ItlI"" posts a small blind of 10",2025-06-29T13:22:41.878Z,175120336187808
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2455) | #2 ""らねおか @ XaClitYV1x"" (2298) | #3 ""パンドラ @ pL49LPNYjQ"" (2990) | #4 ""konasho @ 6A8RjkqsNg"" (1810) | #9 ""あこ @ 9FY377ItlI"" (2197) | #10 ""megau @ gjiEZFeA5n"" (2875)",2025-06-29T13:22:41.878Z,175120336187801
+"-- starting hand #66 (id: iuco53gd1udh)  (No Limit Texas Hold'em) (dealer: ""konasho @ 6A8RjkqsNg"") --",2025-06-29T13:22:41.878Z,175120336187800
+"""あこ @ 9FY377ItlI"" shows a 3♦, A♦.",2025-06-29T13:22:39.147Z,175120335914700
+"-- ending hand #65 --",2025-06-29T13:22:38.256Z,175120335825602
+"""あこ @ 9FY377ItlI"" collected 20 from pot",2025-06-29T13:22:38.256Z,175120335825601
+"Uncalled bet of 10 returned to ""あこ @ 9FY377ItlI""",2025-06-29T13:22:38.256Z,175120335825600
+"""konasho @ 6A8RjkqsNg"" folds",2025-06-29T13:22:37.427Z,175120335742700
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T13:22:36.278Z,175120335627800
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T13:22:35.258Z,175120335525800
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T13:22:32.769Z,175120335276900
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T13:22:30.857Z,175120335085700
+"""あこ @ 9FY377ItlI"" posts a big blind of 20",2025-06-29T13:22:29.069Z,175120334906909
+"""konasho @ 6A8RjkqsNg"" posts a small blind of 10",2025-06-29T13:22:29.069Z,175120334906908
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2455) | #2 ""らねおか @ XaClitYV1x"" (2298) | #3 ""パンドラ @ pL49LPNYjQ"" (2990) | #4 ""konasho @ 6A8RjkqsNg"" (1820) | #9 ""あこ @ 9FY377ItlI"" (2187) | #10 ""megau @ gjiEZFeA5n"" (2875)",2025-06-29T13:22:29.069Z,175120334906901
+"-- starting hand #65 (id: ndyrukgfxhds)  (No Limit Texas Hold'em) (dealer: ""パンドラ @ pL49LPNYjQ"") --",2025-06-29T13:22:29.069Z,175120334906900
+"""konasho @ 6A8RjkqsNg"" shows a 3♥, 6♣.",2025-06-29T13:22:26.890Z,175120334689000
+"-- ending hand #64 --",2025-06-29T13:22:25.459Z,175120334545902
+"""konasho @ 6A8RjkqsNg"" collected 20 from pot",2025-06-29T13:22:25.459Z,175120334545901
+"Uncalled bet of 10 returned to ""konasho @ 6A8RjkqsNg""",2025-06-29T13:22:25.459Z,175120334545900
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T13:22:24.651Z,175120334465100
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T13:22:23.624Z,175120334362400
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T13:22:20.826Z,175120334082600
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T13:22:19.784Z,175120333978400
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T13:22:18.112Z,175120333811200
+"""konasho @ 6A8RjkqsNg"" posts a big blind of 20",2025-06-29T13:22:17.049Z,175120333704910
+"""パンドラ @ pL49LPNYjQ"" posts a small blind of 10",2025-06-29T13:22:17.049Z,175120333704909
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2455) | #2 ""らねおか @ XaClitYV1x"" (2298) | #3 ""パンドラ @ pL49LPNYjQ"" (3000) | #4 ""konasho @ 6A8RjkqsNg"" (1810) | #9 ""あこ @ 9FY377ItlI"" (2187) | #10 ""megau @ gjiEZFeA5n"" (2875)",2025-06-29T13:22:17.049Z,175120333704902
+"-- starting hand #64 (id: koy4rpabmm2p)  (No Limit Texas Hold'em) (dealer: ""らねおか @ XaClitYV1x"") --",2025-06-29T13:22:17.049Z,175120333704901
+"The admin updated the player ""パンドラ @ pL49LPNYjQ"" stack from 4530 to 3000.",2025-06-29T13:22:17.049Z,175120333704900
+"""あこ @ 9FY377ItlI"" shows a 9♥, 8♦.",2025-06-29T13:22:14.898Z,175120333489800
+"WARNING: the admin queued the stack change for the player ""パンドラ @ pL49LPNYjQ"" reseting to 3000 chips in the next hand.",2025-06-29T13:22:13.935Z,175120333393500
+"-- ending hand #63 --",2025-06-29T13:22:13.439Z,175120333343902
+"""パンドラ @ pL49LPNYjQ"" collected 20 from pot",2025-06-29T13:22:13.439Z,175120333343901
+"Uncalled bet of 10 returned to ""パンドラ @ pL49LPNYjQ""",2025-06-29T13:22:13.439Z,175120333343900
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T13:22:12.621Z,175120333262100
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T13:22:11.423Z,175120333142300
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T13:22:10.361Z,175120333036100
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T13:22:09.307Z,175120332930700
+"""konasho @ 6A8RjkqsNg"" folds",2025-06-29T13:22:08.117Z,175120332811700
+"""パンドラ @ pL49LPNYjQ"" posts a big blind of 20",2025-06-29T13:22:06.634Z,175120332663409
+"""らねおか @ XaClitYV1x"" posts a small blind of 10",2025-06-29T13:22:06.634Z,175120332663408
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2455) | #2 ""らねおか @ XaClitYV1x"" (2308) | #3 ""パンドラ @ pL49LPNYjQ"" (4520) | #4 ""konasho @ 6A8RjkqsNg"" (1810) | #9 ""あこ @ 9FY377ItlI"" (2187) | #10 ""megau @ gjiEZFeA5n"" (2875)",2025-06-29T13:22:06.634Z,175120332663401
+"-- starting hand #63 (id: jy9bwrfvzm2b)  (No Limit Texas Hold'em) (dealer: ""arash! @ OHWoWLqWap"") --",2025-06-29T13:22:06.634Z,175120332663400
+"-- ending hand #62 --",2025-06-29T13:22:03.707Z,175120332370702
+"""らねおか @ XaClitYV1x"" collected 120 from pot",2025-06-29T13:22:03.707Z,175120332370701
+"Uncalled bet of 140 returned to ""らねおか @ XaClitYV1x""",2025-06-29T13:22:03.707Z,175120332370700
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T13:22:02.889Z,175120332288900
+"""らねおか @ XaClitYV1x"" raises to 200",2025-06-29T13:21:59.539Z,175120331953900
+"""arash! @ OHWoWLqWap"" raises to 60",2025-06-29T13:21:54.754Z,175120331475400
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T13:21:52.422Z,175120331242200
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T13:21:51.315Z,175120331131500
+"""konasho @ 6A8RjkqsNg"" folds",2025-06-29T13:21:49.419Z,175120330941900
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T13:21:48.250Z,175120330825000
+"""らねおか @ XaClitYV1x"" posts a big blind of 20",2025-06-29T13:21:46.601Z,175120330660109
+"""arash! @ OHWoWLqWap"" posts a small blind of 10",2025-06-29T13:21:46.601Z,175120330660108
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2515) | #2 ""らねおか @ XaClitYV1x"" (2248) | #3 ""パンドラ @ pL49LPNYjQ"" (4520) | #4 ""konasho @ 6A8RjkqsNg"" (1810) | #9 ""あこ @ 9FY377ItlI"" (2187) | #10 ""megau @ gjiEZFeA5n"" (2875)",2025-06-29T13:21:46.601Z,175120330660101
+"-- starting hand #62 (id: srnqiehvfdi3)  (No Limit Texas Hold'em) (dealer: ""megau @ gjiEZFeA5n"") --",2025-06-29T13:21:46.601Z,175120330660100
+"""パンドラ @ pL49LPNYjQ"" shows a J♥, J♠.",2025-06-29T13:21:44.859Z,175120330485900
+"""あこ @ 9FY377ItlI"" shows a Q♦, K♦.",2025-06-29T13:21:43.179Z,175120330317900
+"-- ending hand #61 --",2025-06-29T13:21:42.294Z,175120330229402
+"""パンドラ @ pL49LPNYjQ"" collected 1660 from pot",2025-06-29T13:21:42.294Z,175120330229401
+"Uncalled bet of 830 returned to ""パンドラ @ pL49LPNYjQ""",2025-06-29T13:21:42.294Z,175120330229400
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T13:21:41.434Z,175120330143400
+"""パンドラ @ pL49LPNYjQ"" bets 830",2025-06-29T13:21:08.786Z,175120326878600
+"Turn: 5♣, 10♦, 7♦ [8♥]",2025-06-29T13:20:43.107Z,175120324310700
+"""あこ @ 9FY377ItlI"" calls 415",2025-06-29T13:20:42.298Z,175120324229800
+"""パンドラ @ pL49LPNYjQ"" bets 415",2025-06-29T13:20:40.258Z,175120324025800
+"Flop:  [5♣, 10♦, 7♦]",2025-06-29T13:20:07.486Z,175120320748600
+"""あこ @ 9FY377ItlI"" calls 400",2025-06-29T13:20:06.652Z,175120320665200
+"""パンドラ @ pL49LPNYjQ"" raises to 400",2025-06-29T13:20:00.582Z,175120320058200
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T13:19:43.369Z,175120318336900
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T13:19:42.318Z,175120318231800
+"""あこ @ 9FY377ItlI"" raises to 160",2025-06-29T13:19:41.285Z,175120318128500
+"""konasho @ 6A8RjkqsNg"" folds",2025-06-29T13:19:37.049Z,175120317704900
+"""パンドラ @ pL49LPNYjQ"" raises to 50",2025-06-29T13:19:35.228Z,175120317522800
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T13:19:32.287Z,175120317228700
+"""arash! @ OHWoWLqWap"" posts a big blind of 20",2025-06-29T13:19:31.250Z,175120317125009
+"""megau @ gjiEZFeA5n"" posts a small blind of 10",2025-06-29T13:19:31.250Z,175120317125008
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2535) | #2 ""らねおか @ XaClitYV1x"" (2248) | #3 ""パンドラ @ pL49LPNYjQ"" (3675) | #4 ""konasho @ 6A8RjkqsNg"" (1810) | #9 ""あこ @ 9FY377ItlI"" (3002) | #10 ""megau @ gjiEZFeA5n"" (2885)",2025-06-29T13:19:31.250Z,175120317125001
+"-- starting hand #61 (id: ak3texjsgzp0)  (No Limit Texas Hold'em) (dealer: ""あこ @ 9FY377ItlI"") --",2025-06-29T13:19:31.250Z,175120317125000
+"-- ending hand #60 --",2025-06-29T13:19:28.347Z,175120316834702
+"""konasho @ 6A8RjkqsNg"" collected 130 from pot",2025-06-29T13:19:28.347Z,175120316834701
+"Uncalled bet of 100 returned to ""konasho @ 6A8RjkqsNg""",2025-06-29T13:19:28.347Z,175120316834700
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T13:19:27.542Z,175120316754200
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T13:19:26.381Z,175120316638100
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T13:19:23.557Z,175120316355700
+"""konasho @ 6A8RjkqsNg"" raises to 150",2025-06-29T13:19:21.567Z,175120316156700
+"""パンドラ @ pL49LPNYjQ"" raises to 50",2025-06-29T13:19:17.477Z,175120315747700
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T13:19:13.491Z,175120315349100
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T13:19:12.489Z,175120315248900
+"""megau @ gjiEZFeA5n"" posts a big blind of 20",2025-06-29T13:19:11.143Z,175120315114309
+"""あこ @ 9FY377ItlI"" posts a small blind of 10",2025-06-29T13:19:11.143Z,175120315114308
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2535) | #2 ""らねおか @ XaClitYV1x"" (2248) | #3 ""パンドラ @ pL49LPNYjQ"" (3725) | #4 ""konasho @ 6A8RjkqsNg"" (1730) | #9 ""あこ @ 9FY377ItlI"" (3012) | #10 ""megau @ gjiEZFeA5n"" (2905)",2025-06-29T13:19:11.143Z,175120315114301
+"-- starting hand #60 (id: j0nwj6b3gbvc)  (No Limit Texas Hold'em) (dealer: ""konasho @ 6A8RjkqsNg"") --",2025-06-29T13:19:11.143Z,175120315114300
+"-- ending hand #59 --",2025-06-29T13:19:08.211Z,175120314821102
+"""konasho @ 6A8RjkqsNg"" collected 220 from pot",2025-06-29T13:19:08.211Z,175120314821101
+"Uncalled bet of 150 returned to ""konasho @ 6A8RjkqsNg""",2025-06-29T13:19:08.211Z,175120314821100
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T13:19:07.378Z,175120314737800
+"""konasho @ 6A8RjkqsNg"" bets 150",2025-06-29T13:18:55.569Z,175120313556900
+"River: J♦, 5♥, 6♥, K♥ [3♥]",2025-06-29T13:18:39.270Z,175120311927000
+"""あこ @ 9FY377ItlI"" calls 50",2025-06-29T13:18:38.453Z,175120311845300
+"""konasho @ 6A8RjkqsNg"" bets 50",2025-06-29T13:18:36.227Z,175120311622700
+"Turn: J♦, 5♥, 6♥ [K♥]",2025-06-29T13:18:26.944Z,175120310694400
+"""あこ @ 9FY377ItlI"" checks",2025-06-29T13:18:26.142Z,175120310614200
+"""konasho @ 6A8RjkqsNg"" checks",2025-06-29T13:18:22.400Z,175120310240000
+"Flop:  [J♦, 5♥, 6♥]",2025-06-29T13:18:11.661Z,175120309166100
+"""あこ @ 9FY377ItlI"" calls 60",2025-06-29T13:18:10.797Z,175120309079700
+"""konasho @ 6A8RjkqsNg"" raises to 60",2025-06-29T13:18:08.727Z,175120308872700
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T13:18:03.480Z,175120308348000
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T13:18:02.369Z,175120308236900
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T13:18:00.351Z,175120308035100
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T13:17:59.317Z,175120307931700
+"""あこ @ 9FY377ItlI"" posts a big blind of 20",2025-06-29T13:17:45.408Z,175120306540809
+"""konasho @ 6A8RjkqsNg"" posts a small blind of 10",2025-06-29T13:17:45.408Z,175120306540808
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2535) | #2 ""らねおか @ XaClitYV1x"" (2248) | #3 ""パンドラ @ pL49LPNYjQ"" (3725) | #4 ""konasho @ 6A8RjkqsNg"" (1620) | #9 ""あこ @ 9FY377ItlI"" (3122) | #10 ""megau @ gjiEZFeA5n"" (2905)",2025-06-29T13:17:45.408Z,175120306540801
+"-- starting hand #59 (id: qg3czj8zybfx)  (No Limit Texas Hold'em) (dealer: ""パンドラ @ pL49LPNYjQ"") --",2025-06-29T13:17:45.408Z,175120306540800
+"-- ending hand #58 --",2025-06-29T13:17:42.470Z,175120306247002
+"""パンドラ @ pL49LPNYjQ"" collected 120 from pot",2025-06-29T13:17:42.470Z,175120306247001
+"Uncalled bet of 190 returned to ""パンドラ @ pL49LPNYjQ""",2025-06-29T13:17:42.470Z,175120306247000
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T13:17:41.659Z,175120306165900
+"""konasho @ 6A8RjkqsNg"" folds",2025-06-29T13:17:40.659Z,175120306065900
+"""パンドラ @ pL49LPNYjQ"" raises to 240",2025-06-29T13:17:33.886Z,175120305388600
+"""らねおか @ XaClitYV1x"" raises to 50",2025-06-29T13:17:30.815Z,175120305081500
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T13:17:25.095Z,175120304509500
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T13:17:24.060Z,175120304406000
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T13:17:22.989Z,175120304298900
+"""konasho @ 6A8RjkqsNg"" posts a big blind of 20",2025-06-29T13:17:19.259Z,175120303925909
+"""パンドラ @ pL49LPNYjQ"" posts a small blind of 10",2025-06-29T13:17:19.259Z,175120303925908
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2535) | #2 ""らねおか @ XaClitYV1x"" (2298) | #3 ""パンドラ @ pL49LPNYjQ"" (3655) | #4 ""konasho @ 6A8RjkqsNg"" (1640) | #9 ""あこ @ 9FY377ItlI"" (3122) | #10 ""megau @ gjiEZFeA5n"" (2905)",2025-06-29T13:17:19.259Z,175120303925901
+"-- starting hand #58 (id: yebglpocojqx)  (No Limit Texas Hold'em) (dealer: ""らねおか @ XaClitYV1x"") --",2025-06-29T13:17:19.259Z,175120303925900
+"-- ending hand #57 --",2025-06-29T13:17:16.284Z,175120303628402
+"""らねおか @ XaClitYV1x"" collected 100 from pot",2025-06-29T13:17:16.284Z,175120303628401
+"Uncalled bet of 200 returned to ""らねおか @ XaClitYV1x""",2025-06-29T13:17:16.284Z,175120303628400
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T13:17:15.471Z,175120303547100
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T13:17:14.428Z,175120303442800
+"""らねおか @ XaClitYV1x"" raises to 240",2025-06-29T13:17:13.343Z,175120303334300
+"""arash! @ OHWoWLqWap"" raises to 40",2025-06-29T13:17:08.829Z,175120302882900
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T13:17:06.791Z,175120302679100
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T13:17:01.050Z,175120302105000
+"""konasho @ 6A8RjkqsNg"" folds",2025-06-29T13:16:58.409Z,175120301840900
+"""パンドラ @ pL49LPNYjQ"" posts a big blind of 20",2025-06-29T13:16:55.299Z,175120301529909
+"""らねおか @ XaClitYV1x"" posts a small blind of 10",2025-06-29T13:16:55.299Z,175120301529908
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2575) | #2 ""らねおか @ XaClitYV1x"" (2238) | #3 ""パンドラ @ pL49LPNYjQ"" (3675) | #4 ""konasho @ 6A8RjkqsNg"" (1640) | #9 ""あこ @ 9FY377ItlI"" (3122) | #10 ""megau @ gjiEZFeA5n"" (2905)",2025-06-29T13:16:55.299Z,175120301529901
+"-- starting hand #57 (id: o6lgp0ndjkjb)  (No Limit Texas Hold'em) (dealer: ""arash! @ OHWoWLqWap"") --",2025-06-29T13:16:55.299Z,175120301529900
+"-- ending hand #56 --",2025-06-29T13:16:49.295Z,175120300929502
+"""arash! @ OHWoWLqWap"" collected 200 from pot with Two Pair, J's & 5's (combination: J♦, J♥, 5♥, 5♦, Q♣)",2025-06-29T13:16:49.295Z,175120300929501
+"""arash! @ OHWoWLqWap"" shows a 5♥, 5♦.",2025-06-29T13:16:49.295Z,175120300929500
+"""megau @ gjiEZFeA5n"" checks",2025-06-29T13:16:48.490Z,175120300849000
+"""arash! @ OHWoWLqWap"" checks",2025-06-29T13:16:37.401Z,175120299740100
+"River: 8♥, J♦, J♥, 3♦ [Q♣]",2025-06-29T13:16:34.233Z,175120299423300
+"""megau @ gjiEZFeA5n"" checks",2025-06-29T13:16:33.402Z,175120299340200
+"""arash! @ OHWoWLqWap"" checks",2025-06-29T13:16:16.608Z,175120297660800
+"Turn: 8♥, J♦, J♥ [3♦]",2025-06-29T13:16:15.584Z,175120297558400
+"""arash! @ OHWoWLqWap"" calls 40",2025-06-29T13:16:14.779Z,175120297477900
+"""megau @ gjiEZFeA5n"" bets 40",2025-06-29T13:16:09.715Z,175120296971500
+"""arash! @ OHWoWLqWap"" checks",2025-06-29T13:15:58.755Z,175120295875500
+"Flop:  [8♥, J♦, J♥]",2025-06-29T13:15:56.883Z,175120295688300
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T13:15:56.078Z,175120295607800
+"""arash! @ OHWoWLqWap"" calls 50",2025-06-29T13:15:53.819Z,175120295381900
+"""megau @ gjiEZFeA5n"" raises to 50",2025-06-29T13:15:50.960Z,175120295096000
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T13:15:47.750Z,175120294775000
+"""konasho @ 6A8RjkqsNg"" folds",2025-06-29T13:15:45.487Z,175120294548700
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T13:15:44.310Z,175120294431000
+"""らねおか @ XaClitYV1x"" posts a big blind of 20",2025-06-29T13:15:42.395Z,175120294239510
+"""arash! @ OHWoWLqWap"" posts a small blind of 10",2025-06-29T13:15:42.395Z,175120294239509
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2465) | #2 ""らねおか @ XaClitYV1x"" (2258) | #3 ""パンドラ @ pL49LPNYjQ"" (3675) | #4 ""konasho @ 6A8RjkqsNg"" (1640) | #9 ""あこ @ 9FY377ItlI"" (3122) | #10 ""megau @ gjiEZFeA5n"" (2995)",2025-06-29T13:15:42.395Z,175120294239502
+"-- starting hand #56 (id: ccelldjsrwpl)  (No Limit Texas Hold'em) (dealer: ""megau @ gjiEZFeA5n"") --",2025-06-29T13:15:42.395Z,175120294239501
+"The player ""こうちゃん @ MHgBOdbuKW"" quits the game with a stack of 2651.",2025-06-29T13:15:42.395Z,175120294239500
+"-- ending hand #55 --",2025-06-29T13:15:39.397Z,175120293939702
+"""konasho @ 6A8RjkqsNg"" collected 50 from pot",2025-06-29T13:15:39.397Z,175120293939701
+"Uncalled bet of 30 returned to ""konasho @ 6A8RjkqsNg""",2025-06-29T13:15:39.397Z,175120293939700
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T13:15:38.593Z,175120293859300
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T13:15:37.549Z,175120293754900
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T13:15:36.504Z,175120293650400
+"""こうちゃん @ MHgBOdbuKW"" folds",2025-06-29T13:15:35.485Z,175120293548501
+"The admin ""arash! @ OHWoWLqWap"" enqueued the removal of the player ""こうちゃん @ MHgBOdbuKW"".",2025-06-29T13:15:35.485Z,175120293548500
+"""konasho @ 6A8RjkqsNg"" raises to 50",2025-06-29T13:15:22.010Z,175120292201000
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T13:15:17.147Z,175120291714700
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T13:15:16.085Z,175120291608500
+"""arash! @ OHWoWLqWap"" posts a big blind of 20",2025-06-29T13:15:14.049Z,175120291404910
+"""megau @ gjiEZFeA5n"" posts a small blind of 10",2025-06-29T13:15:14.049Z,175120291404909
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2485) | #2 ""らねおか @ XaClitYV1x"" (2258) | #3 ""パンドラ @ pL49LPNYjQ"" (3675) | #4 ""konasho @ 6A8RjkqsNg"" (1610) | #7 ""こうちゃん @ MHgBOdbuKW"" (2651) | #9 ""あこ @ 9FY377ItlI"" (3122) | #10 ""megau @ gjiEZFeA5n"" (3005)",2025-06-29T13:15:14.049Z,175120291404901
+"-- starting hand #55 (id: tzbmooqjdtsa)  (No Limit Texas Hold'em) (dealer: ""あこ @ 9FY377ItlI"") --",2025-06-29T13:15:14.049Z,175120291404900
+"-- ending hand #54 --",2025-06-29T13:15:11.137Z,175120291113702
+"""arash! @ OHWoWLqWap"" collected 50 from pot",2025-06-29T13:15:11.137Z,175120291113701
+"Uncalled bet of 20 returned to ""arash! @ OHWoWLqWap""",2025-06-29T13:15:11.137Z,175120291113700
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T13:15:10.329Z,175120291032900
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T13:14:57.216Z,175120289721600
+"""こうちゃん @ MHgBOdbuKW"" folds",2025-06-29T13:14:56.151Z,175120289615100
+"""konasho @ 6A8RjkqsNg"" folds",2025-06-29T13:14:54.188Z,175120289418800
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T13:14:53.003Z,175120289300300
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T13:14:51.978Z,175120289197800
+"""arash! @ OHWoWLqWap"" raises to 40",2025-06-29T13:14:50.969Z,175120289096900
+"""megau @ gjiEZFeA5n"" posts a big blind of 20",2025-06-29T13:14:46.309Z,175120288630910
+"""あこ @ 9FY377ItlI"" posts a small blind of 10",2025-06-29T13:14:46.309Z,175120288630909
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2455) | #2 ""らねおか @ XaClitYV1x"" (2258) | #3 ""パンドラ @ pL49LPNYjQ"" (3675) | #4 ""konasho @ 6A8RjkqsNg"" (1610) | #7 ""こうちゃん @ MHgBOdbuKW"" (2651) | #9 ""あこ @ 9FY377ItlI"" (3132) | #10 ""megau @ gjiEZFeA5n"" (3025)",2025-06-29T13:14:46.309Z,175120288630901
+"-- starting hand #54 (id: xmmdqusrpfjj)  (No Limit Texas Hold'em) (dealer: ""こうちゃん @ MHgBOdbuKW"") --",2025-06-29T13:14:46.309Z,175120288630900
+"-- ending hand #53 --",2025-06-29T13:14:40.305Z,175120288030503
+"""megau @ gjiEZFeA5n"" collected 360 from pot with Two Pair, 7's & 4's (combination: 7♠, 7♦, 4♣, 4♥, A♠)",2025-06-29T13:14:40.305Z,175120288030502
+"""megau @ gjiEZFeA5n"" shows a A♠, 7♠.",2025-06-29T13:14:40.305Z,175120288030501
+"""あこ @ 9FY377ItlI"" shows a 3♦, 3♥.",2025-06-29T13:14:40.305Z,175120288030500
+"""megau @ gjiEZFeA5n"" checks",2025-06-29T13:14:39.478Z,175120287947800
+"""あこ @ 9FY377ItlI"" checks",2025-06-29T13:14:24.986Z,175120286498600
+"River: 4♣, 2♦, 7♦, 4♥ [6♣]",2025-06-29T13:14:11.561Z,175120285156100
+"""あこ @ 9FY377ItlI"" calls 135",2025-06-29T13:14:10.708Z,175120285070800
+"""megau @ gjiEZFeA5n"" raises to 135",2025-06-29T13:14:08.348Z,175120284834800
+"""あこ @ 9FY377ItlI"" bets 45",2025-06-29T13:13:48.930Z,175120282893000
+"Turn: 4♣, 2♦, 7♦ [4♥]",2025-06-29T13:13:42.454Z,175120282245400
+"""megau @ gjiEZFeA5n"" checks",2025-06-29T13:13:41.604Z,175120282160400
+"""あこ @ 9FY377ItlI"" checks",2025-06-29T13:13:32.276Z,175120281227600
+"Flop:  [4♣, 2♦, 7♦]",2025-06-29T13:13:27.119Z,175120280711900
+"""あこ @ 9FY377ItlI"" calls 40",2025-06-29T13:13:26.269Z,175120280626900
+"""こうちゃん @ MHgBOdbuKW"" folds",2025-06-29T13:13:25.252Z,175120280525200
+"""konasho @ 6A8RjkqsNg"" folds",2025-06-29T13:13:21.338Z,175120280133800
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T13:13:20.201Z,175120280020100
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T13:13:15.750Z,175120279575000
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T13:13:12.157Z,175120279215700
+"""megau @ gjiEZFeA5n"" raises to 40",2025-06-29T13:13:11.114Z,175120279111400
+"""あこ @ 9FY377ItlI"" posts a big blind of 20",2025-06-29T13:13:07.747Z,175120278774710
+"""こうちゃん @ MHgBOdbuKW"" posts a small blind of 10",2025-06-29T13:13:07.747Z,175120278774709
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2455) | #2 ""らねおか @ XaClitYV1x"" (2258) | #3 ""パンドラ @ pL49LPNYjQ"" (3675) | #4 ""konasho @ 6A8RjkqsNg"" (1610) | #7 ""こうちゃん @ MHgBOdbuKW"" (2661) | #9 ""あこ @ 9FY377ItlI"" (3307) | #10 ""megau @ gjiEZFeA5n"" (2840)",2025-06-29T13:13:07.747Z,175120278774701
+"-- starting hand #53 (id: l3qolwgp23ey)  (No Limit Texas Hold'em) (dealer: ""konasho @ 6A8RjkqsNg"") --",2025-06-29T13:13:07.747Z,175120278774700
+"-- ending hand #52 --",2025-06-29T13:13:04.841Z,175120278484102
+"""megau @ gjiEZFeA5n"" collected 270 from pot",2025-06-29T13:13:04.841Z,175120278484101
+"Uncalled bet of 240 returned to ""megau @ gjiEZFeA5n""",2025-06-29T13:13:04.841Z,175120278484100
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T13:13:04.017Z,175120278401700
+"""megau @ gjiEZFeA5n"" raises to 360",2025-06-29T13:12:54.923Z,175120277492300
+"""こうちゃん @ MHgBOdbuKW"" folds",2025-06-29T13:12:44.212Z,175120276421200
+"""konasho @ 6A8RjkqsNg"" folds",2025-06-29T13:12:43.150Z,175120276315000
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T13:12:42.063Z,175120276206300
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T13:12:40.954Z,175120276095400
+"""arash! @ OHWoWLqWap"" raises to 120",2025-06-29T13:12:39.952Z,175120275995200
+"""megau @ gjiEZFeA5n"" raises to 40",2025-06-29T13:12:37.207Z,175120275720700
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T13:12:30.130Z,175120275013000
+"""こうちゃん @ MHgBOdbuKW"" posts a big blind of 20",2025-06-29T13:12:28.187Z,175120274818710
+"""konasho @ 6A8RjkqsNg"" posts a small blind of 10",2025-06-29T13:12:28.187Z,175120274818709
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2575) | #2 ""らねおか @ XaClitYV1x"" (2258) | #3 ""パンドラ @ pL49LPNYjQ"" (3675) | #4 ""konasho @ 6A8RjkqsNg"" (1620) | #7 ""こうちゃん @ MHgBOdbuKW"" (2681) | #9 ""あこ @ 9FY377ItlI"" (3307) | #10 ""megau @ gjiEZFeA5n"" (2690)",2025-06-29T13:12:28.187Z,175120274818701
+"-- starting hand #52 (id: tpyxwqrbuc3p)  (No Limit Texas Hold'em) (dealer: ""パンドラ @ pL49LPNYjQ"") --",2025-06-29T13:12:28.187Z,175120274818700
+"-- ending hand #51 --",2025-06-29T13:12:25.254Z,175120274525402
+"""こうちゃん @ MHgBOdbuKW"" collected 50 from pot",2025-06-29T13:12:25.254Z,175120274525401
+"Uncalled bet of 20 returned to ""こうちゃん @ MHgBOdbuKW""",2025-06-29T13:12:25.254Z,175120274525400
+"""konasho @ 6A8RjkqsNg"" folds",2025-06-29T13:12:24.419Z,175120274441900
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T13:12:23.276Z,175120274327600
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T13:12:17.694Z,175120273769400
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T13:12:16.650Z,175120273665000
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T13:12:15.619Z,175120273561900
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T13:12:13.043Z,175120273304300
+"""こうちゃん @ MHgBOdbuKW"" raises to 40",2025-06-29T13:12:11.994Z,175120273199400
+"""konasho @ 6A8RjkqsNg"" posts a big blind of 20",2025-06-29T13:11:48.205Z,175120270820510
+"""パンドラ @ pL49LPNYjQ"" posts a small blind of 10",2025-06-29T13:11:48.205Z,175120270820509
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2575) | #2 ""らねおか @ XaClitYV1x"" (2258) | #3 ""パンドラ @ pL49LPNYjQ"" (3685) | #4 ""konasho @ 6A8RjkqsNg"" (1640) | #7 ""こうちゃん @ MHgBOdbuKW"" (2651) | #9 ""あこ @ 9FY377ItlI"" (3307) | #10 ""megau @ gjiEZFeA5n"" (2690)",2025-06-29T13:11:48.205Z,175120270820501
+"-- starting hand #51 (id: p50sjauwiit3)  (No Limit Texas Hold'em) (dealer: ""らねおか @ XaClitYV1x"") --",2025-06-29T13:11:48.205Z,175120270820500
+"-- ending hand #50 --",2025-06-29T13:11:45.297Z,175120270529702
+"""らねおか @ XaClitYV1x"" collected 40 from pot",2025-06-29T13:11:45.297Z,175120270529701
+"Uncalled bet of 40 returned to ""らねおか @ XaClitYV1x""",2025-06-29T13:11:45.297Z,175120270529700
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T13:11:44.420Z,175120270442000
+"""らねおか @ XaClitYV1x"" raises to 60",2025-06-29T13:11:43.289Z,175120270328900
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T13:11:40.900Z,175120270090000
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T13:11:39.885Z,175120269988500
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T13:11:33.630Z,175120269363000
+"""こうちゃん @ MHgBOdbuKW"" folds",2025-06-29T13:11:32.472Z,175120269247200
+"""konasho @ 6A8RjkqsNg"" folds",2025-06-29T13:11:31.419Z,175120269141900
+"""パンドラ @ pL49LPNYjQ"" posts a big blind of 20",2025-06-29T13:11:28.989Z,175120268898910
+"""らねおか @ XaClitYV1x"" posts a small blind of 10",2025-06-29T13:11:28.989Z,175120268898909
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2575) | #2 ""らねおか @ XaClitYV1x"" (2238) | #3 ""パンドラ @ pL49LPNYjQ"" (3705) | #4 ""konasho @ 6A8RjkqsNg"" (1640) | #7 ""こうちゃん @ MHgBOdbuKW"" (2651) | #9 ""あこ @ 9FY377ItlI"" (3307) | #10 ""megau @ gjiEZFeA5n"" (2690)",2025-06-29T13:11:28.989Z,175120268898901
+"-- starting hand #50 (id: fbg0b3fweeex)  (No Limit Texas Hold'em) (dealer: ""arash! @ OHWoWLqWap"") --",2025-06-29T13:11:28.989Z,175120268898900
+"-- ending hand #49 --",2025-06-29T13:11:26.046Z,175120268604602
+"""あこ @ 9FY377ItlI"" collected 324 from pot",2025-06-29T13:11:26.046Z,175120268604601
+"Uncalled bet of 90 returned to ""あこ @ 9FY377ItlI""",2025-06-29T13:11:26.046Z,175120268604600
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T13:11:25.216Z,175120268521600
+"""あこ @ 9FY377ItlI"" raises to 150",2025-06-29T13:11:23.534Z,175120268353400
+"""らねおか @ XaClitYV1x"" bets 60",2025-06-29T13:11:08.403Z,175120266840300
+"Turn: 4♣, 5♠, 2♦ [2♠]",2025-06-29T13:11:01.955Z,175120266195500
+"""らねおか @ XaClitYV1x"" calls 51",2025-06-29T13:11:01.150Z,175120266115000
+"""あこ @ 9FY377ItlI"" bets 51",2025-06-29T13:10:51.552Z,175120265155200
+"""らねおか @ XaClitYV1x"" checks",2025-06-29T13:10:44.699Z,175120264469900
+"Flop:  [4♣, 5♠, 2♦]",2025-06-29T13:10:42.188Z,175120264218800
+"""らねおか @ XaClitYV1x"" calls 46",2025-06-29T13:10:41.370Z,175120264137000
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T13:10:32.275Z,175120263227500
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T13:10:30.469Z,175120263046900
+"""あこ @ 9FY377ItlI"" raises to 46",2025-06-29T13:10:29.433Z,175120262943300
+"""こうちゃん @ MHgBOdbuKW"" folds",2025-06-29T13:10:25.378Z,175120262537800
+"""konasho @ 6A8RjkqsNg"" folds",2025-06-29T13:10:24.327Z,175120262432700
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T13:10:23.260Z,175120262326000
+"""らねおか @ XaClitYV1x"" posts a big blind of 20",2025-06-29T13:10:18.168Z,175120261816810
+"""arash! @ OHWoWLqWap"" posts a small blind of 10",2025-06-29T13:10:18.168Z,175120261816809
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2585) | #2 ""らねおか @ XaClitYV1x"" (2395) | #3 ""パンドラ @ pL49LPNYjQ"" (3705) | #4 ""konasho @ 6A8RjkqsNg"" (1640) | #7 ""こうちゃん @ MHgBOdbuKW"" (2651) | #9 ""あこ @ 9FY377ItlI"" (3140) | #10 ""megau @ gjiEZFeA5n"" (2690)",2025-06-29T13:10:18.168Z,175120261816801
+"-- starting hand #49 (id: tlcwmomcel1o)  (No Limit Texas Hold'em) (dealer: ""megau @ gjiEZFeA5n"") --",2025-06-29T13:10:18.168Z,175120261816800
+"""あこ @ 9FY377ItlI"" shows a 10♣.",2025-06-29T13:10:16.438Z,175120261643800
+"-- ending hand #48 --",2025-06-29T13:10:14.564Z,175120261456402
+"""arash! @ OHWoWLqWap"" collected 200 from pot",2025-06-29T13:10:14.564Z,175120261456401
+"Uncalled bet of 240 returned to ""arash! @ OHWoWLqWap""",2025-06-29T13:10:14.564Z,175120261456400
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T13:10:13.759Z,175120261375900
+"""arash! @ OHWoWLqWap"" bets 240",2025-06-29T13:09:49.526Z,175120258952600
+"""megau @ gjiEZFeA5n"" checks",2025-06-29T13:09:23.451Z,175120256345100
+"River: 3♦, J♦, K♥, 9♠ [Q♦]",2025-06-29T13:09:06.813Z,175120254681300
+"""arash! @ OHWoWLqWap"" checks",2025-06-29T13:09:05.969Z,175120254596900
+"""megau @ gjiEZFeA5n"" checks",2025-06-29T13:09:01.437Z,175120254143700
+"Turn: 3♦, J♦, K♥ [9♠]",2025-06-29T13:08:54.981Z,175120253498100
+"""megau @ gjiEZFeA5n"" calls 40",2025-06-29T13:08:54.159Z,175120253415900
+"""arash! @ OHWoWLqWap"" bets 40",2025-06-29T13:08:45.345Z,175120252534500
+"""megau @ gjiEZFeA5n"" checks",2025-06-29T13:08:39.649Z,175120251964900
+"Flop:  [3♦, J♦, K♥]",2025-06-29T13:08:32.970Z,175120251297000
+"""arash! @ OHWoWLqWap"" calls 60",2025-06-29T13:08:32.144Z,175120251214400
+"""megau @ gjiEZFeA5n"" raises to 60",2025-06-29T13:08:30.221Z,175120251022100
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T13:08:23.104Z,175120250310400
+"""こうちゃん @ MHgBOdbuKW"" folds",2025-06-29T13:08:21.622Z,175120250162200
+"""konasho @ 6A8RjkqsNg"" folds",2025-06-29T13:08:20.574Z,175120250057400
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T13:08:16.524Z,175120249652400
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T13:08:15.360Z,175120249536000
+"""arash! @ OHWoWLqWap"" posts a big blind of 20",2025-06-29T13:08:13.603Z,175120249360310
+"""megau @ gjiEZFeA5n"" posts a small blind of 10",2025-06-29T13:08:13.603Z,175120249360309
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2485) | #2 ""らねおか @ XaClitYV1x"" (2395) | #3 ""パンドラ @ pL49LPNYjQ"" (3705) | #4 ""konasho @ 6A8RjkqsNg"" (1640) | #7 ""こうちゃん @ MHgBOdbuKW"" (2651) | #9 ""あこ @ 9FY377ItlI"" (3140) | #10 ""megau @ gjiEZFeA5n"" (2790)",2025-06-29T13:08:13.603Z,175120249360301
+"-- starting hand #48 (id: spesirx6olps)  (No Limit Texas Hold'em) (dealer: ""あこ @ 9FY377ItlI"") --",2025-06-29T13:08:13.603Z,175120249360300
+"-- ending hand #47 --",2025-06-29T13:08:10.672Z,175120249067202
+"""あこ @ 9FY377ItlI"" collected 100 from pot",2025-06-29T13:08:10.672Z,175120249067201
+"Uncalled bet of 200 returned to ""あこ @ 9FY377ItlI""",2025-06-29T13:08:10.672Z,175120249067200
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T13:08:09.828Z,175120248982800
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T13:08:08.179Z,175120248817900
+"""あこ @ 9FY377ItlI"" raises to 240",2025-06-29T13:08:05.705Z,175120248570500
+"""こうちゃん @ MHgBOdbuKW"" folds",2025-06-29T13:08:00.077Z,175120248007700
+"""konasho @ 6A8RjkqsNg"" folds",2025-06-29T13:07:59.028Z,175120247902800
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T13:07:57.962Z,175120247796200
+"""らねおか @ XaClitYV1x"" raises to 40",2025-06-29T13:07:56.923Z,175120247692300
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T13:07:52.118Z,175120247211800
+"""megau @ gjiEZFeA5n"" posts a big blind of 20",2025-06-29T13:07:48.786Z,175120246878610
+"""あこ @ 9FY377ItlI"" posts a small blind of 10",2025-06-29T13:07:48.786Z,175120246878609
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2485) | #2 ""らねおか @ XaClitYV1x"" (2435) | #3 ""パンドラ @ pL49LPNYjQ"" (3705) | #4 ""konasho @ 6A8RjkqsNg"" (1640) | #7 ""こうちゃん @ MHgBOdbuKW"" (2651) | #9 ""あこ @ 9FY377ItlI"" (3080) | #10 ""megau @ gjiEZFeA5n"" (2810)",2025-06-29T13:07:48.786Z,175120246878601
+"-- starting hand #47 (id: rpqseccti06f)  (No Limit Texas Hold'em) (dealer: ""こうちゃん @ MHgBOdbuKW"") --",2025-06-29T13:07:48.786Z,175120246878600
+"-- ending hand #46 --",2025-06-29T13:07:45.852Z,175120246585202
+"""konasho @ 6A8RjkqsNg"" collected 110 from pot",2025-06-29T13:07:45.852Z,175120246585201
+"Uncalled bet of 30 returned to ""konasho @ 6A8RjkqsNg""",2025-06-29T13:07:45.852Z,175120246585200
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T13:07:45.011Z,175120246501100
+"""konasho @ 6A8RjkqsNg"" bets 30",2025-06-29T13:07:36.149Z,175120245614900
+"""あこ @ 9FY377ItlI"" checks",2025-06-29T13:07:13.780Z,175120243378000
+"Flop:  [2♠, A♦, 5♥]",2025-06-29T13:07:12.316Z,175120243231600
+"""あこ @ 9FY377ItlI"" calls 50",2025-06-29T13:07:11.458Z,175120243145800
+"""こうちゃん @ MHgBOdbuKW"" folds",2025-06-29T13:07:10.091Z,175120243009100
+"""konasho @ 6A8RjkqsNg"" raises to 50",2025-06-29T13:07:08.610Z,175120242861000
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T13:07:03.204Z,175120242320400
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T13:07:02.037Z,175120242203700
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T13:07:01.021Z,175120242102100
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T13:06:56.186Z,175120241618600
+"""あこ @ 9FY377ItlI"" posts a big blind of 20",2025-06-29T13:06:54.308Z,175120241430810
+"""こうちゃん @ MHgBOdbuKW"" posts a small blind of 10",2025-06-29T13:06:54.308Z,175120241430809
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2485) | #2 ""らねおか @ XaClitYV1x"" (2435) | #3 ""パンドラ @ pL49LPNYjQ"" (3705) | #4 ""konasho @ 6A8RjkqsNg"" (1580) | #7 ""こうちゃん @ MHgBOdbuKW"" (2661) | #9 ""あこ @ 9FY377ItlI"" (3130) | #10 ""megau @ gjiEZFeA5n"" (2810)",2025-06-29T13:06:54.308Z,175120241430801
+"-- starting hand #46 (id: yftticgo91gm)  (No Limit Texas Hold'em) (dealer: ""konasho @ 6A8RjkqsNg"") --",2025-06-29T13:06:54.308Z,175120241430800
+"-- ending hand #45 --",2025-06-29T13:06:51.353Z,175120241135302
+"""パンドラ @ pL49LPNYjQ"" collected 50 from pot",2025-06-29T13:06:51.353Z,175120241135301
+"Uncalled bet of 30 returned to ""パンドラ @ pL49LPNYjQ""",2025-06-29T13:06:51.353Z,175120241135300
+"""こうちゃん @ MHgBOdbuKW"" folds",2025-06-29T13:06:50.549Z,175120241054900
+"""konasho @ 6A8RjkqsNg"" folds",2025-06-29T13:06:47.640Z,175120240764000
+"""パンドラ @ pL49LPNYjQ"" raises to 50",2025-06-29T13:06:46.419Z,175120240641900
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T13:06:42.989Z,175120240298900
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T13:06:41.936Z,175120240193600
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T13:06:37.844Z,175120239784400
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T13:06:35.526Z,175120239552600
+"""こうちゃん @ MHgBOdbuKW"" posts a big blind of 20",2025-06-29T13:06:34.293Z,175120239429310
+"""konasho @ 6A8RjkqsNg"" posts a small blind of 10",2025-06-29T13:06:34.293Z,175120239429309
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2485) | #2 ""らねおか @ XaClitYV1x"" (2435) | #3 ""パンドラ @ pL49LPNYjQ"" (3675) | #4 ""konasho @ 6A8RjkqsNg"" (1590) | #7 ""こうちゃん @ MHgBOdbuKW"" (2681) | #9 ""あこ @ 9FY377ItlI"" (3130) | #10 ""megau @ gjiEZFeA5n"" (2810)",2025-06-29T13:06:34.293Z,175120239429301
+"-- starting hand #45 (id: bkcowx95qdcf)  (No Limit Texas Hold'em) (dealer: ""パンドラ @ pL49LPNYjQ"") --",2025-06-29T13:06:34.293Z,175120239429300
+"-- ending hand #44 --",2025-06-29T13:06:31.389Z,175120239138902
+"""こうちゃん @ MHgBOdbuKW"" collected 50 from pot",2025-06-29T13:06:31.389Z,175120239138901
+"Uncalled bet of 20 returned to ""こうちゃん @ MHgBOdbuKW""",2025-06-29T13:06:31.389Z,175120239138900
+"""konasho @ 6A8RjkqsNg"" folds",2025-06-29T13:06:30.545Z,175120239054500
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T13:06:29.413Z,175120238941300
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T13:06:28.373Z,175120238837300
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T13:06:27.374Z,175120238737400
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T13:06:24.578Z,175120238457800
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T13:06:23.542Z,175120238354200
+"""こうちゃん @ MHgBOdbuKW"" raises to 40",2025-06-29T13:06:21.562Z,175120238156200
+"""konasho @ 6A8RjkqsNg"" posts a big blind of 20",2025-06-29T13:06:15.572Z,175120237557210
+"""パンドラ @ pL49LPNYjQ"" posts a small blind of 10",2025-06-29T13:06:15.572Z,175120237557209
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2485) | #2 ""らねおか @ XaClitYV1x"" (2435) | #3 ""パンドラ @ pL49LPNYjQ"" (3685) | #4 ""konasho @ 6A8RjkqsNg"" (1610) | #7 ""こうちゃん @ MHgBOdbuKW"" (2651) | #9 ""あこ @ 9FY377ItlI"" (3130) | #10 ""megau @ gjiEZFeA5n"" (2810)",2025-06-29T13:06:15.572Z,175120237557201
+"-- starting hand #44 (id: yfogrsru9iep)  (No Limit Texas Hold'em) (dealer: ""らねおか @ XaClitYV1x"") --",2025-06-29T13:06:15.572Z,175120237557200
+"-- ending hand #43 --",2025-06-29T13:06:12.664Z,175120237266402
+"""こうちゃん @ MHgBOdbuKW"" collected 324 from pot",2025-06-29T13:06:12.664Z,175120237266401
+"Uncalled bet of 173 returned to ""こうちゃん @ MHgBOdbuKW""",2025-06-29T13:06:12.664Z,175120237266400
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T13:06:11.853Z,175120237185300
+"""こうちゃん @ MHgBOdbuKW"" raises to 320",2025-06-29T13:05:52.117Z,175120235211700
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T13:05:40.053Z,175120234005300
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T13:05:38.898Z,175120233889800
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T13:05:33.493Z,175120233349300
+"""megau @ gjiEZFeA5n"" raises to 147",2025-06-29T13:05:32.466Z,175120233246600
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T13:05:25.846Z,175120232584600
+"""こうちゃん @ MHgBOdbuKW"" raises to 50",2025-06-29T13:05:22.870Z,175120232287000
+"""konasho @ 6A8RjkqsNg"" folds",2025-06-29T13:05:19.729Z,175120231972900
+"""パンドラ @ pL49LPNYjQ"" posts a big blind of 20",2025-06-29T13:05:17.350Z,175120231735010
+"""らねおか @ XaClitYV1x"" posts a small blind of 10",2025-06-29T13:05:17.350Z,175120231735009
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2485) | #2 ""らねおか @ XaClitYV1x"" (2445) | #3 ""パンドラ @ pL49LPNYjQ"" (3705) | #4 ""konasho @ 6A8RjkqsNg"" (1610) | #7 ""こうちゃん @ MHgBOdbuKW"" (2474) | #9 ""あこ @ 9FY377ItlI"" (3130) | #10 ""megau @ gjiEZFeA5n"" (2957)",2025-06-29T13:05:17.350Z,175120231735001
+"-- starting hand #43 (id: egmx4weft8by)  (No Limit Texas Hold'em) (dealer: ""arash! @ OHWoWLqWap"") --",2025-06-29T13:05:17.350Z,175120231735000
+"-- ending hand #42 --",2025-06-29T13:05:14.362Z,175120231436202
+"""arash! @ OHWoWLqWap"" collected 120 from pot",2025-06-29T13:05:14.362Z,175120231436201
+"Uncalled bet of 150 returned to ""arash! @ OHWoWLqWap""",2025-06-29T13:05:14.362Z,175120231436200
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T13:05:13.554Z,175120231355400
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T13:05:12.535Z,175120231253500
+"""arash! @ OHWoWLqWap"" raises to 200",2025-06-29T13:05:05.678Z,175120230567800
+"""megau @ gjiEZFeA5n"" raises to 50",2025-06-29T13:04:59.803Z,175120229980300
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T13:04:56.025Z,175120229602500
+"""こうちゃん @ MHgBOdbuKW"" folds",2025-06-29T13:04:54.954Z,175120229495400
+"""konasho @ 6A8RjkqsNg"" folds",2025-06-29T13:04:53.507Z,175120229350700
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T13:04:52.344Z,175120229234400
+"""らねおか @ XaClitYV1x"" posts a big blind of 20",2025-06-29T13:04:50.464Z,175120229046410
+"""arash! @ OHWoWLqWap"" posts a small blind of 10",2025-06-29T13:04:50.464Z,175120229046409
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2415) | #2 ""らねおか @ XaClitYV1x"" (2465) | #3 ""パンドラ @ pL49LPNYjQ"" (3705) | #4 ""konasho @ 6A8RjkqsNg"" (1610) | #7 ""こうちゃん @ MHgBOdbuKW"" (2474) | #9 ""あこ @ 9FY377ItlI"" (3130) | #10 ""megau @ gjiEZFeA5n"" (3007)",2025-06-29T13:04:50.464Z,175120229046401
+"-- starting hand #42 (id: nd6duemassdt)  (No Limit Texas Hold'em) (dealer: ""megau @ gjiEZFeA5n"") --",2025-06-29T13:04:50.464Z,175120229046400
+"""パンドラ @ pL49LPNYjQ"" shows a A♣, K♦.",2025-06-29T13:04:49.022Z,175120228902200
+"""らねおか @ XaClitYV1x"" shows a Q♥, Q♠.",2025-06-29T13:04:48.193Z,175120228819300
+"-- ending hand #41 --",2025-06-29T13:04:46.139Z,175120228613902
+"""パンドラ @ pL49LPNYjQ"" collected 790 from pot",2025-06-29T13:04:46.139Z,175120228613901
+"Uncalled bet of 1610 returned to ""パンドラ @ pL49LPNYjQ""",2025-06-29T13:04:46.139Z,175120228613900
+"""konasho @ 6A8RjkqsNg"" folds",2025-06-29T13:04:45.331Z,175120228533100
+"""パンドラ @ pL49LPNYjQ"" raises to 1970",2025-06-29T13:04:20.624Z,175120226062400
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T13:03:43.740Z,175120222374000
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T13:03:31.883Z,175120221188300
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T13:03:30.843Z,175120221084300
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T13:03:26.381Z,175120220638100
+"""こうちゃん @ MHgBOdbuKW"" folds",2025-06-29T13:03:24.940Z,175120220494000
+"""konasho @ 6A8RjkqsNg"" raises to 360",2025-06-29T13:03:23.892Z,175120220389200
+"""パンドラ @ pL49LPNYjQ"" raises to 120",2025-06-29T13:03:17.158Z,175120219715800
+"""らねおか @ XaClitYV1x"" raises to 40",2025-06-29T13:03:13.987Z,175120219398700
+"""arash! @ OHWoWLqWap"" posts a big blind of 20",2025-06-29T13:03:07.094Z,175120218709410
+"""megau @ gjiEZFeA5n"" posts a small blind of 10",2025-06-29T13:03:07.094Z,175120218709409
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2435) | #2 ""らねおか @ XaClitYV1x"" (2505) | #3 ""パンドラ @ pL49LPNYjQ"" (3275) | #4 ""konasho @ 6A8RjkqsNg"" (1970) | #7 ""こうちゃん @ MHgBOdbuKW"" (2474) | #9 ""あこ @ 9FY377ItlI"" (3130) | #10 ""megau @ gjiEZFeA5n"" (3017)",2025-06-29T13:03:07.094Z,175120218709401
+"-- starting hand #41 (id: btr5q5oqj4wj)  (No Limit Texas Hold'em) (dealer: ""あこ @ 9FY377ItlI"") --",2025-06-29T13:03:07.094Z,175120218709400
+"-- ending hand #40 --",2025-06-29T13:03:04.132Z,175120218413202
+"""megau @ gjiEZFeA5n"" collected 350 from pot",2025-06-29T13:03:04.132Z,175120218413201
+"Uncalled bet of 262 returned to ""megau @ gjiEZFeA5n""",2025-06-29T13:03:04.132Z,175120218413200
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T13:03:03.299Z,175120218329900
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T13:02:40.230Z,175120216023000
+"""megau @ gjiEZFeA5n"" raises to 412",2025-06-29T13:02:37.958Z,175120215795800
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T13:02:21.726Z,175120214172600
+"""こうちゃん @ MHgBOdbuKW"" folds",2025-06-29T13:02:20.369Z,175120214036900
+"""konasho @ 6A8RjkqsNg"" folds",2025-06-29T13:02:19.328Z,175120213932800
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T13:02:18.225Z,175120213822500
+"""らねおか @ XaClitYV1x"" raises to 150",2025-06-29T13:02:17.075Z,175120213707500
+"""arash! @ OHWoWLqWap"" raises to 40",2025-06-29T13:02:11.093Z,175120213109300
+"""megau @ gjiEZFeA5n"" posts a big blind of 20",2025-06-29T13:02:09.040Z,175120212904010
+"""あこ @ 9FY377ItlI"" posts a small blind of 10",2025-06-29T13:02:09.040Z,175120212904009
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2475) | #2 ""らねおか @ XaClitYV1x"" (2655) | #3 ""パンドラ @ pL49LPNYjQ"" (3275) | #4 ""konasho @ 6A8RjkqsNg"" (1970) | #7 ""こうちゃん @ MHgBOdbuKW"" (2474) | #9 ""あこ @ 9FY377ItlI"" (3140) | #10 ""megau @ gjiEZFeA5n"" (2817)",2025-06-29T13:02:09.040Z,175120212904001
+"-- starting hand #40 (id: svcxvpjruxe5)  (No Limit Texas Hold'em) (dealer: ""こうちゃん @ MHgBOdbuKW"") --",2025-06-29T13:02:09.040Z,175120212904000
+"-- ending hand #39 --",2025-06-29T13:02:06.128Z,175120212612802
+"""あこ @ 9FY377ItlI"" collected 120 from pot",2025-06-29T13:02:06.128Z,175120212612801
+"Uncalled bet of 130 returned to ""あこ @ 9FY377ItlI""",2025-06-29T13:02:06.128Z,175120212612800
+"""こうちゃん @ MHgBOdbuKW"" folds",2025-06-29T13:02:05.277Z,175120212527700
+"""あこ @ 9FY377ItlI"" raises to 190",2025-06-29T13:01:57.091Z,175120211709100
+"""こうちゃん @ MHgBOdbuKW"" raises to 60",2025-06-29T13:01:46.145Z,175120210614500
+"""konasho @ 6A8RjkqsNg"" folds",2025-06-29T13:01:41.552Z,175120210155200
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T13:01:40.439Z,175120210043900
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T13:01:39.418Z,175120209941800
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T13:01:38.343Z,175120209834300
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T13:01:35.096Z,175120209509600
+"""あこ @ 9FY377ItlI"" posts a big blind of 20",2025-06-29T13:01:32.222Z,175120209222210
+"""こうちゃん @ MHgBOdbuKW"" posts a small blind of 10",2025-06-29T13:01:32.222Z,175120209222209
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2475) | #2 ""らねおか @ XaClitYV1x"" (2655) | #3 ""パンドラ @ pL49LPNYjQ"" (3275) | #4 ""konasho @ 6A8RjkqsNg"" (1970) | #7 ""こうちゃん @ MHgBOdbuKW"" (2534) | #9 ""あこ @ 9FY377ItlI"" (3080) | #10 ""megau @ gjiEZFeA5n"" (2817)",2025-06-29T13:01:32.222Z,175120209222201
+"-- starting hand #39 (id: naro8eqcisph)  (No Limit Texas Hold'em) (dealer: ""konasho @ 6A8RjkqsNg"") --",2025-06-29T13:01:32.222Z,175120209222200
+"-- ending hand #38 --",2025-06-29T13:01:29.219Z,175120208921902
+"""こうちゃん @ MHgBOdbuKW"" collected 20 from pot",2025-06-29T13:01:29.219Z,175120208921901
+"Uncalled bet of 10 returned to ""こうちゃん @ MHgBOdbuKW""",2025-06-29T13:01:29.219Z,175120208921900
+"""konasho @ 6A8RjkqsNg"" folds",2025-06-29T13:01:28.368Z,175120208836800
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T13:01:27.116Z,175120208711600
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T13:01:26.078Z,175120208607800
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T13:01:25.025Z,175120208502500
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T13:01:23.911Z,175120208391100
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T13:01:18.335Z,175120207833500
+"""こうちゃん @ MHgBOdbuKW"" posts a big blind of 20",2025-06-29T13:01:16.574Z,175120207657410
+"""konasho @ 6A8RjkqsNg"" posts a small blind of 10",2025-06-29T13:01:16.574Z,175120207657409
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2475) | #2 ""らねおか @ XaClitYV1x"" (2655) | #3 ""パンドラ @ pL49LPNYjQ"" (3275) | #4 ""konasho @ 6A8RjkqsNg"" (1980) | #7 ""こうちゃん @ MHgBOdbuKW"" (2524) | #9 ""あこ @ 9FY377ItlI"" (3080) | #10 ""megau @ gjiEZFeA5n"" (2817)",2025-06-29T13:01:16.574Z,175120207657401
+"-- starting hand #38 (id: mkmc00xuuopp)  (No Limit Texas Hold'em) (dealer: ""パンドラ @ pL49LPNYjQ"") --",2025-06-29T13:01:16.574Z,175120207657400
+"""arash! @ OHWoWLqWap"" shows a Q♥, Q♠.",2025-06-29T13:01:14.701Z,175120207470100
+"-- ending hand #37 --",2025-06-29T13:01:12.971Z,175120207297102
+"""arash! @ OHWoWLqWap"" collected 50 from pot",2025-06-29T13:01:12.971Z,175120207297101
+"Uncalled bet of 40 returned to ""arash! @ OHWoWLqWap""",2025-06-29T13:01:12.971Z,175120207297100
+"""konasho @ 6A8RjkqsNg"" folds",2025-06-29T13:01:12.147Z,175120207214700
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T13:00:58.140Z,175120205814000
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T13:00:57.047Z,175120205704700
+"""arash! @ OHWoWLqWap"" raises to 60",2025-06-29T13:00:56.029Z,175120205602900
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T13:00:50.264Z,175120205026400
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T13:00:44.407Z,175120204440700
+"""こうちゃん @ MHgBOdbuKW"" folds",2025-06-29T13:00:42.399Z,175120204239900
+"""konasho @ 6A8RjkqsNg"" posts a big blind of 20",2025-06-29T13:00:39.936Z,175120203993610
+"""パンドラ @ pL49LPNYjQ"" posts a small blind of 10",2025-06-29T13:00:39.936Z,175120203993609
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2445) | #2 ""らねおか @ XaClitYV1x"" (2655) | #3 ""パンドラ @ pL49LPNYjQ"" (3285) | #4 ""konasho @ 6A8RjkqsNg"" (2000) | #7 ""こうちゃん @ MHgBOdbuKW"" (2524) | #9 ""あこ @ 9FY377ItlI"" (3080) | #10 ""megau @ gjiEZFeA5n"" (2817)",2025-06-29T13:00:39.936Z,175120203993601
+"-- starting hand #37 (id: iko1icrwdus5)  (No Limit Texas Hold'em) (dealer: ""らねおか @ XaClitYV1x"") --",2025-06-29T13:00:39.936Z,175120203993600
+"-- ending hand #36 --",2025-06-29T13:00:36.974Z,175120203697402
+"""パンドラ @ pL49LPNYjQ"" collected 20 from pot",2025-06-29T13:00:36.974Z,175120203697401
+"Uncalled bet of 10 returned to ""パンドラ @ pL49LPNYjQ""",2025-06-29T13:00:36.974Z,175120203697400
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T13:00:36.153Z,175120203615300
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T13:00:30.182Z,175120203018200
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T13:00:29.132Z,175120202913200
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T13:00:28.076Z,175120202807600
+"""こうちゃん @ MHgBOdbuKW"" folds",2025-06-29T13:00:26.038Z,175120202603800
+"""konasho @ 6A8RjkqsNg"" folds",2025-06-29T13:00:24.705Z,175120202470500
+"""パンドラ @ pL49LPNYjQ"" posts a big blind of 20",2025-06-29T13:00:21.587Z,175120202158710
+"""らねおか @ XaClitYV1x"" posts a small blind of 10",2025-06-29T13:00:21.587Z,175120202158709
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2445) | #2 ""らねおか @ XaClitYV1x"" (2665) | #3 ""パンドラ @ pL49LPNYjQ"" (3275) | #4 ""konasho @ 6A8RjkqsNg"" (2000) | #7 ""こうちゃん @ MHgBOdbuKW"" (2524) | #9 ""あこ @ 9FY377ItlI"" (3080) | #10 ""megau @ gjiEZFeA5n"" (2817)",2025-06-29T13:00:21.587Z,175120202158701
+"-- starting hand #36 (id: xhplcvptx8fq)  (No Limit Texas Hold'em) (dealer: ""arash! @ OHWoWLqWap"") --",2025-06-29T13:00:21.587Z,175120202158700
+"""arash! @ OHWoWLqWap"" shows a K♥, K♠.",2025-06-29T13:00:19.511Z,175120201951100
+"-- ending hand #35 --",2025-06-29T13:00:17.968Z,175120201796802
+"""megau @ gjiEZFeA5n"" collected 120 from pot",2025-06-29T13:00:17.968Z,175120201796801
+"Uncalled bet of 60 returned to ""megau @ gjiEZFeA5n""",2025-06-29T13:00:17.968Z,175120201796800
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T13:00:17.101Z,175120201710100
+"""megau @ gjiEZFeA5n"" bets 60",2025-06-29T13:00:14.232Z,175120201423200
+"""arash! @ OHWoWLqWap"" checks",2025-06-29T12:59:58.538Z,175120199853800
+"Turn: A♦, 6♦, 5♦ [4♦]",2025-06-29T12:59:52.189Z,175120199218900
+"""megau @ gjiEZFeA5n"" checks",2025-06-29T12:59:51.386Z,175120199138600
+"""arash! @ OHWoWLqWap"" checks",2025-06-29T12:59:21.050Z,175120196105000
+"Flop:  [A♦, 6♦, 5♦]",2025-06-29T12:59:19.416Z,175120195941600
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T12:59:18.572Z,175120195857200
+"""arash! @ OHWoWLqWap"" calls 50",2025-06-29T12:59:16.075Z,175120195607500
+"""megau @ gjiEZFeA5n"" raises to 50",2025-06-29T12:59:14.618Z,175120195461800
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T12:59:09.116Z,175120194911600
+"""こうちゃん @ MHgBOdbuKW"" folds",2025-06-29T12:59:08.071Z,175120194807100
+"""konasho @ 6A8RjkqsNg"" folds",2025-06-29T12:59:07.043Z,175120194704300
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T12:59:05.965Z,175120194596500
+"""らねおか @ XaClitYV1x"" posts a big blind of 20",2025-06-29T12:59:04.207Z,175120194420710
+"""arash! @ OHWoWLqWap"" posts a small blind of 10",2025-06-29T12:59:04.207Z,175120194420709
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2495) | #2 ""らねおか @ XaClitYV1x"" (2685) | #3 ""パンドラ @ pL49LPNYjQ"" (3275) | #4 ""konasho @ 6A8RjkqsNg"" (2000) | #7 ""こうちゃん @ MHgBOdbuKW"" (2524) | #9 ""あこ @ 9FY377ItlI"" (3080) | #10 ""megau @ gjiEZFeA5n"" (2747)",2025-06-29T12:59:04.207Z,175120194420701
+"-- starting hand #35 (id: zhw5ejdfodab)  (No Limit Texas Hold'em) (dealer: ""megau @ gjiEZFeA5n"") --",2025-06-29T12:59:04.207Z,175120194420700
+"-- ending hand #34 --",2025-06-29T12:59:01.303Z,175120194130302
+"""こうちゃん @ MHgBOdbuKW"" collected 110 from pot",2025-06-29T12:59:01.303Z,175120194130301
+"Uncalled bet of 35 returned to ""こうちゃん @ MHgBOdbuKW""",2025-06-29T12:59:01.303Z,175120194130300
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T12:59:00.476Z,175120194047600
+"""こうちゃん @ MHgBOdbuKW"" bets 35",2025-06-29T12:58:55.055Z,175120193505500
+"""arash! @ OHWoWLqWap"" checks",2025-06-29T12:58:41.929Z,175120192192900
+"Flop:  [K♣, 5♥, J♠]",2025-06-29T12:58:40.287Z,175120192028700
+"""arash! @ OHWoWLqWap"" calls 50",2025-06-29T12:58:39.448Z,175120191944800
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T12:58:35.330Z,175120191533000
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T12:58:34.288Z,175120191428800
+"""こうちゃん @ MHgBOdbuKW"" raises to 50",2025-06-29T12:58:33.231Z,175120191323100
+"""konasho @ 6A8RjkqsNg"" folds",2025-06-29T12:58:29.308Z,175120190930800
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T12:58:28.150Z,175120190815000
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T12:57:22.620Z,175120184262000
+"""arash! @ OHWoWLqWap"" posts a big blind of 20",2025-06-29T12:57:21.343Z,175120184134311
+"""megau @ gjiEZFeA5n"" posts a small blind of 10",2025-06-29T12:57:21.343Z,175120184134310
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2545) | #2 ""らねおか @ XaClitYV1x"" (2685) | #3 ""パンドラ @ pL49LPNYjQ"" (3275) | #4 ""konasho @ 6A8RjkqsNg"" (2000) | #7 ""こうちゃん @ MHgBOdbuKW"" (2464) | #9 ""あこ @ 9FY377ItlI"" (3080) | #10 ""megau @ gjiEZFeA5n"" (2757)",2025-06-29T12:57:21.343Z,175120184134302
+"-- starting hand #34 (id: nvxwgvx0tzpz)  (No Limit Texas Hold'em) (dealer: ""あこ @ 9FY377ItlI"") --",2025-06-29T12:57:21.343Z,175120184134301
+"The player ""konasho @ 6A8RjkqsNg"" joined the game with a stack of 2000.",2025-06-29T12:57:21.343Z,175120184134300
+"The admin approved the player ""konasho @ 6A8RjkqsNg"" participation with a stack of 2000.",2025-06-29T12:57:19.376Z,175120183937600
+"-- ending hand #33 --",2025-06-29T12:57:18.411Z,175120183841102
+"""こうちゃん @ MHgBOdbuKW"" collected 110 from pot",2025-06-29T12:57:18.411Z,175120183841101
+"Uncalled bet of 130 returned to ""こうちゃん @ MHgBOdbuKW""",2025-06-29T12:57:18.411Z,175120183841100
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T12:57:17.574Z,175120183757400
+"The player ""konasho @ 6A8RjkqsNg"" requested a seat.",2025-06-29T12:57:14.517Z,175120183451700
+"""こうちゃん @ MHgBOdbuKW"" bets 130",2025-06-29T12:57:08.883Z,175120182888300
+"""megau @ gjiEZFeA5n"" checks",2025-06-29T12:56:56.675Z,175120181667500
+"Flop:  [A♥, A♠, 10♠]",2025-06-29T12:56:52.138Z,175120181213800
+"""megau @ gjiEZFeA5n"" calls 50",2025-06-29T12:56:51.322Z,175120181132200
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T12:56:45.337Z,175120180533700
+"""こうちゃん @ MHgBOdbuKW"" raises to 50",2025-06-29T12:56:43.954Z,175120180395400
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T12:56:40.674Z,175120180067400
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T12:56:39.662Z,175120179966200
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T12:56:38.663Z,175120179866300
+"""megau @ gjiEZFeA5n"" posts a big blind of 20",2025-06-29T12:56:36.865Z,175120179686509
+"""あこ @ 9FY377ItlI"" posts a small blind of 10",2025-06-29T12:56:36.865Z,175120179686508
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2545) | #2 ""らねおか @ XaClitYV1x"" (2685) | #3 ""パンドラ @ pL49LPNYjQ"" (3275) | #7 ""こうちゃん @ MHgBOdbuKW"" (2404) | #9 ""あこ @ 9FY377ItlI"" (3090) | #10 ""megau @ gjiEZFeA5n"" (2807)",2025-06-29T12:56:36.865Z,175120179686501
+"-- starting hand #33 (id: tugsdbjdbrup)  (No Limit Texas Hold'em) (dealer: ""こうちゃん @ MHgBOdbuKW"") --",2025-06-29T12:56:36.865Z,175120179686500
+"-- ending hand #32 --",2025-06-29T12:56:33.866Z,175120179386602
+"""あこ @ 9FY377ItlI"" collected 110 from pot",2025-06-29T12:56:33.866Z,175120179386601
+"Uncalled bet of 170 returned to ""あこ @ 9FY377ItlI""",2025-06-29T12:56:33.866Z,175120179386600
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T12:56:33.000Z,175120179300000
+"""あこ @ 9FY377ItlI"" raises to 220",2025-06-29T12:56:24.619Z,175120178461900
+"""こうちゃん @ MHgBOdbuKW"" folds",2025-06-29T12:56:14.869Z,175120177486900
+"""パンドラ @ pL49LPNYjQ"" raises to 50",2025-06-29T12:56:13.843Z,175120177384300
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T12:56:09.858Z,175120176985800
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T12:56:08.845Z,175120176884500
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T12:56:07.567Z,175120176756700
+"""あこ @ 9FY377ItlI"" posts a big blind of 20",2025-06-29T12:56:05.523Z,175120176552309
+"""こうちゃん @ MHgBOdbuKW"" posts a small blind of 10",2025-06-29T12:56:05.523Z,175120176552308
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2545) | #2 ""らねおか @ XaClitYV1x"" (2685) | #3 ""パンドラ @ pL49LPNYjQ"" (3325) | #7 ""こうちゃん @ MHgBOdbuKW"" (2414) | #9 ""あこ @ 9FY377ItlI"" (3030) | #10 ""megau @ gjiEZFeA5n"" (2807)",2025-06-29T12:56:05.523Z,175120176552301
+"-- starting hand #32 (id: yjzsk47zqqdv)  (No Limit Texas Hold'em) (dealer: ""パンドラ @ pL49LPNYjQ"") --",2025-06-29T12:56:05.523Z,175120176552300
+"-- ending hand #31 --",2025-06-29T12:56:02.619Z,175120176261902
+"""arash! @ OHWoWLqWap"" collected 130 from pot",2025-06-29T12:56:02.619Z,175120176261901
+"Uncalled bet of 40 returned to ""arash! @ OHWoWLqWap""",2025-06-29T12:56:02.619Z,175120176261900
+"""こうちゃん @ MHgBOdbuKW"" folds",2025-06-29T12:56:01.797Z,175120176179700
+"""arash! @ OHWoWLqWap"" bets 40",2025-06-29T12:55:53.125Z,175120175312500
+"""こうちゃん @ MHgBOdbuKW"" checks",2025-06-29T12:55:50.394Z,175120175039400
+"Flop:  [Q♠, 10♣, 3♣]",2025-06-29T12:55:47.587Z,175120174758700
+"""こうちゃん @ MHgBOdbuKW"" calls 60",2025-06-29T12:55:46.777Z,175120174677700
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T12:55:42.040Z,175120174204000
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T12:55:40.901Z,175120174090100
+"""arash! @ OHWoWLqWap"" raises to 60",2025-06-29T12:55:39.702Z,175120173970200
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T12:55:37.051Z,175120173705100
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T12:55:32.297Z,175120173229700
+"""こうちゃん @ MHgBOdbuKW"" posts a big blind of 20",2025-06-29T12:55:31.013Z,175120173101309
+"""パンドラ @ pL49LPNYjQ"" posts a small blind of 10",2025-06-29T12:55:31.013Z,175120173101308
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2475) | #2 ""らねおか @ XaClitYV1x"" (2685) | #3 ""パンドラ @ pL49LPNYjQ"" (3335) | #7 ""こうちゃん @ MHgBOdbuKW"" (2474) | #9 ""あこ @ 9FY377ItlI"" (3030) | #10 ""megau @ gjiEZFeA5n"" (2807)",2025-06-29T12:55:31.013Z,175120173101301
+"-- starting hand #31 (id: ugqicmqctvxe)  (No Limit Texas Hold'em) (dealer: ""らねおか @ XaClitYV1x"") --",2025-06-29T12:55:31.013Z,175120173101300
+"-- ending hand #30 --",2025-06-29T12:55:25.010Z,175120172501002
+"""パンドラ @ pL49LPNYjQ"" collected 260 from pot with Pair, Q's (combination: Q♦, Q♥, J♣, 9♣, 5♥)",2025-06-29T12:55:25.010Z,175120172501001
+"""パンドラ @ pL49LPNYjQ"" shows a Q♦, J♣.",2025-06-29T12:55:25.010Z,175120172501000
+"""arash! @ OHWoWLqWap"" calls 65",2025-06-29T12:55:24.190Z,175120172419000
+"""パンドラ @ pL49LPNYjQ"" bets 65",2025-06-29T12:55:22.458Z,175120172245800
+"River: 5♥, 3♦, Q♥, 9♣ [4♠]",2025-06-29T12:55:18.361Z,175120171836100
+"""arash! @ OHWoWLqWap"" checks",2025-06-29T12:55:17.555Z,175120171755500
+"""パンドラ @ pL49LPNYjQ"" checks",2025-06-29T12:55:16.161Z,175120171616100
+"Turn: 5♥, 3♦, Q♥ [9♣]",2025-06-29T12:55:12.555Z,175120171255500
+"""arash! @ OHWoWLqWap"" checks",2025-06-29T12:55:11.732Z,175120171173200
+"""パンドラ @ pL49LPNYjQ"" checks",2025-06-29T12:55:08.043Z,175120170804300
+"Flop:  [5♥, 3♦, Q♥]",2025-06-29T12:55:03.337Z,175120170333700
+"""パンドラ @ pL49LPNYjQ"" calls 60",2025-06-29T12:55:02.477Z,175120170247700
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T12:54:59.767Z,175120169976700
+"""arash! @ OHWoWLqWap"" raises to 60",2025-06-29T12:54:58.758Z,175120169875800
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T12:54:54.406Z,175120169440600
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T12:54:53.372Z,175120169337200
+"""こうちゃん @ MHgBOdbuKW"" folds",2025-06-29T12:54:52.365Z,175120169236500
+"""パンドラ @ pL49LPNYjQ"" posts a big blind of 20",2025-06-29T12:54:49.123Z,175120168912309
+"""らねおか @ XaClitYV1x"" posts a small blind of 10",2025-06-29T12:54:49.123Z,175120168912308
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2600) | #2 ""らねおか @ XaClitYV1x"" (2695) | #3 ""パンドラ @ pL49LPNYjQ"" (3200) | #7 ""こうちゃん @ MHgBOdbuKW"" (2474) | #9 ""あこ @ 9FY377ItlI"" (3030) | #10 ""megau @ gjiEZFeA5n"" (2807)",2025-06-29T12:54:49.123Z,175120168912301
+"-- starting hand #30 (id: rfkksfnvz6k7)  (No Limit Texas Hold'em) (dealer: ""arash! @ OHWoWLqWap"") --",2025-06-29T12:54:49.123Z,175120168912300
+"-- ending hand #29 --",2025-06-29T12:54:46.151Z,175120168615102
+"""あこ @ 9FY377ItlI"" collected 50 from pot",2025-06-29T12:54:46.151Z,175120168615101
+"Uncalled bet of 20 returned to ""あこ @ 9FY377ItlI""",2025-06-29T12:54:46.151Z,175120168615100
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T12:54:45.344Z,175120168534400
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T12:54:44.331Z,175120168433100
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T12:54:43.245Z,175120168324500
+"""あこ @ 9FY377ItlI"" raises to 40",2025-06-29T12:54:41.890Z,175120168189000
+"""こうちゃん @ MHgBOdbuKW"" folds",2025-06-29T12:54:31.777Z,175120167177700
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T12:54:28.725Z,175120166872500
+"""らねおか @ XaClitYV1x"" posts a big blind of 20",2025-06-29T12:54:27.204Z,175120166720409
+"""arash! @ OHWoWLqWap"" posts a small blind of 10",2025-06-29T12:54:27.204Z,175120166720408
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2610) | #2 ""らねおか @ XaClitYV1x"" (2715) | #3 ""パンドラ @ pL49LPNYjQ"" (3200) | #7 ""こうちゃん @ MHgBOdbuKW"" (2474) | #9 ""あこ @ 9FY377ItlI"" (3000) | #10 ""megau @ gjiEZFeA5n"" (2807)",2025-06-29T12:54:27.204Z,175120166720401
+"-- starting hand #29 (id: fpqxbhnfmwjv)  (No Limit Texas Hold'em) (dealer: ""megau @ gjiEZFeA5n"") --",2025-06-29T12:54:27.204Z,175120166720400
+"-- ending hand #28 --",2025-06-29T12:54:24.293Z,175120166429302
+"""こうちゃん @ MHgBOdbuKW"" collected 110 from pot",2025-06-29T12:54:24.293Z,175120166429301
+"Uncalled bet of 50 returned to ""こうちゃん @ MHgBOdbuKW""",2025-06-29T12:54:24.293Z,175120166429300
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T12:54:23.403Z,175120166340300
+"""こうちゃん @ MHgBOdbuKW"" bets 50",2025-06-29T12:54:18.534Z,175120165853400
+"""arash! @ OHWoWLqWap"" checks",2025-06-29T12:54:11.828Z,175120165182800
+"Turn: 6♦, A♥, 7♣ [3♥]",2025-06-29T12:54:10.324Z,175120165032400
+"""こうちゃん @ MHgBOdbuKW"" checks",2025-06-29T12:54:09.509Z,175120164950900
+"""arash! @ OHWoWLqWap"" checks",2025-06-29T12:53:55.429Z,175120163542900
+"Flop:  [6♦, A♥, 7♣]",2025-06-29T12:53:54.071Z,175120163407100
+"""arash! @ OHWoWLqWap"" calls 50",2025-06-29T12:53:53.236Z,175120163323600
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T12:53:51.322Z,175120163132200
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T12:53:48.074Z,175120162807400
+"""こうちゃん @ MHgBOdbuKW"" raises to 50",2025-06-29T12:53:46.788Z,175120162678800
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T12:53:43.557Z,175120162355700
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T12:53:38.814Z,175120161881400
+"""arash! @ OHWoWLqWap"" posts a big blind of 20",2025-06-29T12:53:33.434Z,175120161343409
+"""megau @ gjiEZFeA5n"" posts a small blind of 10",2025-06-29T12:53:33.434Z,175120161343408
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2660) | #2 ""らねおか @ XaClitYV1x"" (2715) | #3 ""パンドラ @ pL49LPNYjQ"" (3200) | #7 ""こうちゃん @ MHgBOdbuKW"" (2414) | #9 ""あこ @ 9FY377ItlI"" (3000) | #10 ""megau @ gjiEZFeA5n"" (2817)",2025-06-29T12:53:33.434Z,175120161343401
+"-- starting hand #28 (id: x8bb4kx97ho8)  (No Limit Texas Hold'em) (dealer: ""あこ @ 9FY377ItlI"") --",2025-06-29T12:53:33.434Z,175120161343400
+"-- ending hand #27 --",2025-06-29T12:53:30.502Z,175120161050202
+"""こうちゃん @ MHgBOdbuKW"" collected 110 from pot",2025-06-29T12:53:30.502Z,175120161050201
+"Uncalled bet of 110 returned to ""こうちゃん @ MHgBOdbuKW""",2025-06-29T12:53:30.502Z,175120161050200
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T12:53:29.688Z,175120160968800
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T12:53:26.849Z,175120160684900
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T12:53:25.811Z,175120160581100
+"""こうちゃん @ MHgBOdbuKW"" raises to 150",2025-06-29T12:53:23.955Z,175120160395500
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T12:53:12.729Z,175120159272900
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T12:53:11.647Z,175120159164700
+"""arash! @ OHWoWLqWap"" raises to 40",2025-06-29T12:53:08.593Z,175120158859300
+"""megau @ gjiEZFeA5n"" posts a big blind of 20",2025-06-29T12:53:06.019Z,175120158601909
+"""あこ @ 9FY377ItlI"" posts a small blind of 10",2025-06-29T12:53:06.019Z,175120158601908
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2700) | #2 ""らねおか @ XaClitYV1x"" (2715) | #3 ""パンドラ @ pL49LPNYjQ"" (3200) | #7 ""こうちゃん @ MHgBOdbuKW"" (2344) | #9 ""あこ @ 9FY377ItlI"" (3010) | #10 ""megau @ gjiEZFeA5n"" (2837)",2025-06-29T12:53:06.019Z,175120158601901
+"-- starting hand #27 (id: je0zm26arlfi)  (No Limit Texas Hold'em) (dealer: ""こうちゃん @ MHgBOdbuKW"") --",2025-06-29T12:53:06.019Z,175120158601900
+"-- ending hand #26 --",2025-06-29T12:53:03.116Z,175120158311602
+"""らねおか @ XaClitYV1x"" collected 50 from pot",2025-06-29T12:53:03.116Z,175120158311601
+"Uncalled bet of 30 returned to ""らねおか @ XaClitYV1x""",2025-06-29T12:53:03.116Z,175120158311600
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T12:53:02.287Z,175120158228700
+"""こうちゃん @ MHgBOdbuKW"" folds",2025-06-29T12:52:59.682Z,175120157968200
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T12:52:58.611Z,175120157861100
+"""らねおか @ XaClitYV1x"" raises to 50",2025-06-29T12:52:35.681Z,175120155568100
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T12:52:30.588Z,175120155058800
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T12:52:29.544Z,175120154954400
+"""あこ @ 9FY377ItlI"" posts a big blind of 20",2025-06-29T12:52:27.113Z,175120154711309
+"""こうちゃん @ MHgBOdbuKW"" posts a small blind of 10",2025-06-29T12:52:27.113Z,175120154711308
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2700) | #2 ""らねおか @ XaClitYV1x"" (2685) | #3 ""パンドラ @ pL49LPNYjQ"" (3200) | #7 ""こうちゃん @ MHgBOdbuKW"" (2354) | #9 ""あこ @ 9FY377ItlI"" (3030) | #10 ""megau @ gjiEZFeA5n"" (2837)",2025-06-29T12:52:27.113Z,175120154711301
+"-- starting hand #26 (id: suivusoo4jmc)  (No Limit Texas Hold'em) (dealer: ""パンドラ @ pL49LPNYjQ"") --",2025-06-29T12:52:27.113Z,175120154711300
+"-- ending hand #25 --",2025-06-29T12:52:24.169Z,175120154416902
+"""こうちゃん @ MHgBOdbuKW"" collected 130 from pot",2025-06-29T12:52:24.169Z,175120154416901
+"Uncalled bet of 50 returned to ""こうちゃん @ MHgBOdbuKW""",2025-06-29T12:52:24.169Z,175120154416900
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T12:52:23.340Z,175120154334000
+"""こうちゃん @ MHgBOdbuKW"" bets 50",2025-06-29T12:52:19.593Z,175120153959300
+"River: 6♦, 10♠, J♣, Q♦ [2♥]",2025-06-29T12:52:02.759Z,175120152275900
+"""arash! @ OHWoWLqWap"" checks",2025-06-29T12:52:01.898Z,175120152189800
+"""こうちゃん @ MHgBOdbuKW"" checks",2025-06-29T12:52:00.159Z,175120152015900
+"Turn: 6♦, 10♠, J♣ [Q♦]",2025-06-29T12:51:56.886Z,175120151688600
+"""arash! @ OHWoWLqWap"" calls 20",2025-06-29T12:51:56.051Z,175120151605100
+"""こうちゃん @ MHgBOdbuKW"" bets 20",2025-06-29T12:51:47.973Z,175120150797300
+"Flop:  [6♦, 10♠, J♣]",2025-06-29T12:51:44.303Z,175120150430300
+"""こうちゃん @ MHgBOdbuKW"" calls 40",2025-06-29T12:51:43.489Z,175120150348900
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T12:51:23.477Z,175120148347700
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T12:51:22.407Z,175120148240700
+"""arash! @ OHWoWLqWap"" raises to 40",2025-06-29T12:51:21.379Z,175120148137900
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T12:51:15.954Z,175120147595400
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T12:51:09.819Z,175120146981900
+"""こうちゃん @ MHgBOdbuKW"" posts a big blind of 20",2025-06-29T12:51:07.856Z,175120146785609
+"""パンドラ @ pL49LPNYjQ"" posts a small blind of 10",2025-06-29T12:51:07.856Z,175120146785608
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2760) | #2 ""らねおか @ XaClitYV1x"" (2685) | #3 ""パンドラ @ pL49LPNYjQ"" (3210) | #7 ""こうちゃん @ MHgBOdbuKW"" (2284) | #9 ""あこ @ 9FY377ItlI"" (3030) | #10 ""megau @ gjiEZFeA5n"" (2837)",2025-06-29T12:51:07.856Z,175120146785601
+"-- starting hand #25 (id: dvsi1kidgx3g)  (No Limit Texas Hold'em) (dealer: ""らねおか @ XaClitYV1x"") --",2025-06-29T12:51:07.856Z,175120146785600
+"-- ending hand #24 --",2025-06-29T12:51:04.936Z,175120146493602
+"""あこ @ 9FY377ItlI"" collected 50 from pot",2025-06-29T12:51:04.936Z,175120146493601
+"Uncalled bet of 20 returned to ""あこ @ 9FY377ItlI""",2025-06-29T12:51:04.936Z,175120146493600
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T12:51:04.124Z,175120146412400
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T12:51:03.008Z,175120146300800
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T12:51:00.275Z,175120146027500
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T12:50:59.234Z,175120145923400
+"""あこ @ 9FY377ItlI"" raises to 40",2025-06-29T12:50:58.214Z,175120145821400
+"""こうちゃん @ MHgBOdbuKW"" folds",2025-06-29T12:50:54.021Z,175120145402100
+"""パンドラ @ pL49LPNYjQ"" posts a big blind of 20",2025-06-29T12:50:52.255Z,175120145225509
+"""らねおか @ XaClitYV1x"" posts a small blind of 10",2025-06-29T12:50:52.255Z,175120145225508
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2760) | #2 ""らねおか @ XaClitYV1x"" (2695) | #3 ""パンドラ @ pL49LPNYjQ"" (3230) | #7 ""こうちゃん @ MHgBOdbuKW"" (2284) | #9 ""あこ @ 9FY377ItlI"" (3000) | #10 ""megau @ gjiEZFeA5n"" (2837)",2025-06-29T12:50:52.255Z,175120145225501
+"-- starting hand #24 (id: k4alsbqvar5b)  (No Limit Texas Hold'em) (dealer: ""arash! @ OHWoWLqWap"") --",2025-06-29T12:50:52.255Z,175120145225500
+"-- ending hand #23 --",2025-06-29T12:50:49.326Z,175120144932602
+"""こうちゃん @ MHgBOdbuKW"" collected 50 from pot",2025-06-29T12:50:49.326Z,175120144932601
+"Uncalled bet of 30 returned to ""こうちゃん @ MHgBOdbuKW""",2025-06-29T12:50:49.326Z,175120144932600
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T12:50:48.469Z,175120144846900
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T12:50:47.419Z,175120144741900
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T12:50:40.922Z,175120144092200
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T12:50:39.858Z,175120143985800
+"""こうちゃん @ MHgBOdbuKW"" raises to 50",2025-06-29T12:50:38.814Z,175120143881400
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T12:50:35.224Z,175120143522400
+"""らねおか @ XaClitYV1x"" posts a big blind of 20",2025-06-29T12:50:33.046Z,175120143304609
+"""arash! @ OHWoWLqWap"" posts a small blind of 10",2025-06-29T12:50:33.046Z,175120143304608
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2770) | #2 ""らねおか @ XaClitYV1x"" (2715) | #3 ""パンドラ @ pL49LPNYjQ"" (3230) | #7 ""こうちゃん @ MHgBOdbuKW"" (2254) | #9 ""あこ @ 9FY377ItlI"" (3000) | #10 ""megau @ gjiEZFeA5n"" (2837)",2025-06-29T12:50:33.046Z,175120143304601
+"-- starting hand #23 (id: xpx88smf8tno)  (No Limit Texas Hold'em) (dealer: ""megau @ gjiEZFeA5n"") --",2025-06-29T12:50:33.046Z,175120143304600
+"-- ending hand #22 --",2025-06-29T12:50:30.114Z,175120143011402
+"""らねおか @ XaClitYV1x"" collected 470 from pot",2025-06-29T12:50:30.114Z,175120143011401
+"Uncalled bet of 244 returned to ""らねおか @ XaClitYV1x""",2025-06-29T12:50:30.114Z,175120143011400
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T12:50:29.291Z,175120142929100
+"""らねおか @ XaClitYV1x"" bets 244",2025-06-29T12:50:20.212Z,175120142021200
+"""arash! @ OHWoWLqWap"" checks",2025-06-29T12:50:13.898Z,175120141389800
+"River: 8♥, 4♦, 8♠, 6♠ [9♥]",2025-06-29T12:50:08.871Z,175120140887100
+"""らねおか @ XaClitYV1x"" checks",2025-06-29T12:50:08.041Z,175120140804100
+"""arash! @ OHWoWLqWap"" checks",2025-06-29T12:50:05.012Z,175120140501200
+"Turn: 8♥, 4♦, 8♠ [6♠]",2025-06-29T12:49:55.682Z,175120139568200
+"""らねおか @ XaClitYV1x"" checks",2025-06-29T12:49:54.849Z,175120139484900
+"""arash! @ OHWoWLqWap"" checks",2025-06-29T12:49:53.818Z,175120139381800
+"Flop:  [8♥, 4♦, 8♠]",2025-06-29T12:49:06.339Z,175120134633900
+"""らねおか @ XaClitYV1x"" calls 230",2025-06-29T12:49:05.502Z,175120134550200
+"""arash! @ OHWoWLqWap"" raises to 230",2025-06-29T12:48:59.346Z,175120133934600
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T12:48:51.595Z,175120133159500
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T12:48:50.542Z,175120133054200
+"""こうちゃん @ MHgBOdbuKW"" folds",2025-06-29T12:48:49.391Z,175120132939100
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T12:48:48.362Z,175120132836200
+"""らねおか @ XaClitYV1x"" raises to 40",2025-06-29T12:48:46.618Z,175120132661800
+"""arash! @ OHWoWLqWap"" posts a big blind of 20",2025-06-29T12:48:04.715Z,175120128471510
+"""megau @ gjiEZFeA5n"" posts a small blind of 10",2025-06-29T12:48:04.715Z,175120128471509
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (3000) | #2 ""らねおか @ XaClitYV1x"" (2475) | #3 ""パンドラ @ pL49LPNYjQ"" (3230) | #7 ""こうちゃん @ MHgBOdbuKW"" (2254) | #9 ""あこ @ 9FY377ItlI"" (3000) | #10 ""megau @ gjiEZFeA5n"" (2847)",2025-06-29T12:48:04.715Z,175120128471502
+"-- starting hand #22 (id: gwrb8gs4gfap)  (No Limit Texas Hold'em) (dealer: ""あこ @ 9FY377ItlI"") --",2025-06-29T12:48:04.715Z,175120128471501
+"The admin updated the player ""あこ @ 9FY377ItlI"" stack from 1334 to 3000.",2025-06-29T12:48:04.715Z,175120128471500
+"-- ending hand #21 --",2025-06-29T12:48:01.793Z,175120128179302
+"""こうちゃん @ MHgBOdbuKW"" collected 50 from pot",2025-06-29T12:48:01.793Z,175120128179301
+"Uncalled bet of 30 returned to ""こうちゃん @ MHgBOdbuKW""",2025-06-29T12:48:01.793Z,175120128179300
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T12:48:00.942Z,175120128094200
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T12:47:59.932Z,175120127993200
+"""こうちゃん @ MHgBOdbuKW"" raises to 50",2025-06-29T12:47:57.946Z,175120127794600
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T12:47:54.989Z,175120127498900
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T12:47:53.945Z,175120127394500
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T12:47:52.947Z,175120127294700
+"WARNING: the admin queued the stack change for the player ""あこ @ 9FY377ItlI"" reseting to 3000 chips in the next hand.",2025-06-29T12:47:50.406Z,175120127040600
+"""megau @ gjiEZFeA5n"" posts a big blind of 20",2025-06-29T12:47:47.477Z,175120126747710
+"""あこ @ 9FY377ItlI"" posts a small blind of 10",2025-06-29T12:47:47.477Z,175120126747709
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (3000) | #2 ""らねおか @ XaClitYV1x"" (2475) | #3 ""パンドラ @ pL49LPNYjQ"" (3230) | #7 ""こうちゃん @ MHgBOdbuKW"" (2224) | #9 ""あこ @ 9FY377ItlI"" (1344) | #10 ""megau @ gjiEZFeA5n"" (2867)",2025-06-29T12:47:47.477Z,175120126747702
+"-- starting hand #21 (id: gdz7sg90vclf)  (No Limit Texas Hold'em) (dealer: ""こうちゃん @ MHgBOdbuKW"") --",2025-06-29T12:47:47.477Z,175120126747701
+"The admin updated the player ""arash! @ OHWoWLqWap"" stack from 4360 to 3000.",2025-06-29T12:47:47.477Z,175120126747700
+"-- ending hand #20 --",2025-06-29T12:47:44.547Z,175120126454702
+"""こうちゃん @ MHgBOdbuKW"" collected 120 from pot",2025-06-29T12:47:44.547Z,175120126454701
+"Uncalled bet of 150 returned to ""こうちゃん @ MHgBOdbuKW""",2025-06-29T12:47:44.547Z,175120126454700
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T12:47:43.736Z,175120126373600
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T12:47:42.702Z,175120126270200
+"WARNING: the admin queued the stack change for the player ""arash! @ OHWoWLqWap"" reseting to 3000 chips in the next hand.",2025-06-29T12:47:41.664Z,175120126166400
+"""こうちゃん @ MHgBOdbuKW"" raises to 200",2025-06-29T12:47:40.959Z,175120126095900
+"""パンドラ @ pL49LPNYjQ"" raises to 50",2025-06-29T12:47:37.016Z,175120125701600
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T12:47:32.970Z,175120125297000
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T12:47:31.937Z,175120125193700
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T12:47:30.888Z,175120125088800
+"""あこ @ 9FY377ItlI"" posts a big blind of 20",2025-06-29T12:47:29.181Z,175120124918109
+"""こうちゃん @ MHgBOdbuKW"" posts a small blind of 10",2025-06-29T12:47:29.181Z,175120124918108
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (4360) | #2 ""らねおか @ XaClitYV1x"" (2475) | #3 ""パンドラ @ pL49LPNYjQ"" (3280) | #7 ""こうちゃん @ MHgBOdbuKW"" (2154) | #9 ""あこ @ 9FY377ItlI"" (1364) | #10 ""megau @ gjiEZFeA5n"" (2867)",2025-06-29T12:47:29.181Z,175120124918101
+"-- starting hand #20 (id: p8tgjlickmb9)  (No Limit Texas Hold'em) (dealer: ""パンドラ @ pL49LPNYjQ"") --",2025-06-29T12:47:29.181Z,175120124918100
+"-- ending hand #19 --",2025-06-29T12:47:23.129Z,175120124312903
+"""arash! @ OHWoWLqWap"" collected 2670 from pot with Two Pair, A's & Q's (combination: A♦, A♣, Q♠, Q♣, 7♦)",2025-06-29T12:47:23.129Z,175120124312902
+"""arash! @ OHWoWLqWap"" shows a Q♠, A♦.",2025-06-29T12:47:23.129Z,175120124312901
+"""あこ @ 9FY377ItlI"" shows a 9♥, K♥.",2025-06-29T12:47:23.129Z,175120124312900
+"""arash! @ OHWoWLqWap"" calls 1100",2025-06-29T12:47:22.316Z,175120124231600
+"""あこ @ 9FY377ItlI"" raises to 1100",2025-06-29T12:47:20.004Z,175120124000400
+"""arash! @ OHWoWLqWap"" bets 470",2025-06-29T12:46:59.070Z,175120121907000
+"""あこ @ 9FY377ItlI"" checks",2025-06-29T12:46:55.454Z,175120121545400
+"River: 3♦, 7♦, 5♥, A♣ [Q♣]",2025-06-29T12:46:53.577Z,175120121357700
+"""あこ @ 9FY377ItlI"" calls 100",2025-06-29T12:46:52.723Z,175120121272300
+"""arash! @ OHWoWLqWap"" bets 100",2025-06-29T12:46:50.514Z,175120121051400
+"""あこ @ 9FY377ItlI"" checks",2025-06-29T12:46:46.379Z,175120120637900
+"Turn: 3♦, 7♦, 5♥ [A♣]",2025-06-29T12:46:43.970Z,175120120397000
+"""arash! @ OHWoWLqWap"" checks",2025-06-29T12:46:43.141Z,175120120314100
+"""あこ @ 9FY377ItlI"" checks",2025-06-29T12:46:41.144Z,175120120114400
+"Flop:  [3♦, 7♦, 5♥]",2025-06-29T12:46:37.767Z,175120119776700
+"""あこ @ 9FY377ItlI"" calls 120",2025-06-29T12:46:36.927Z,175120119692700
+"""こうちゃん @ MHgBOdbuKW"" folds",2025-06-29T12:46:33.378Z,175120119337800
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T12:46:32.353Z,175120119235300
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T12:46:31.235Z,175120119123500
+"""arash! @ OHWoWLqWap"" raises to 120",2025-06-29T12:46:30.241Z,175120119024100
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T12:46:27.251Z,175120118725100
+"""あこ @ 9FY377ItlI"" raises to 40",2025-06-29T12:46:25.963Z,175120118596300
+"""こうちゃん @ MHgBOdbuKW"" posts a big blind of 20",2025-06-29T12:46:22.350Z,175120118235009
+"""パンドラ @ pL49LPNYjQ"" posts a small blind of 10",2025-06-29T12:46:22.350Z,175120118235008
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (3010) | #2 ""らねおか @ XaClitYV1x"" (2475) | #3 ""パンドラ @ pL49LPNYjQ"" (3290) | #7 ""こうちゃん @ MHgBOdbuKW"" (2174) | #9 ""あこ @ 9FY377ItlI"" (2684) | #10 ""megau @ gjiEZFeA5n"" (2867)",2025-06-29T12:46:22.350Z,175120118235001
+"-- starting hand #19 (id: c7agzc4elxi0)  (No Limit Texas Hold'em) (dealer: ""らねおか @ XaClitYV1x"") --",2025-06-29T12:46:22.350Z,175120118235000
+"-- ending hand #18 --",2025-06-29T12:46:19.410Z,175120117941002
+"""arash! @ OHWoWLqWap"" collected 310 from pot",2025-06-29T12:46:19.410Z,175120117941001
+"Uncalled bet of 100 returned to ""arash! @ OHWoWLqWap""",2025-06-29T12:46:19.410Z,175120117941000
+"""こうちゃん @ MHgBOdbuKW"" folds",2025-06-29T12:46:18.598Z,175120117859800
+"""arash! @ OHWoWLqWap"" bets 100",2025-06-29T12:46:17.226Z,175120117722600
+"""こうちゃん @ MHgBOdbuKW"" checks",2025-06-29T12:46:12.899Z,175120117289900
+"Flop:  [Q♣, 10♦, A♦]",2025-06-29T12:46:08.542Z,175120116854200
+"""こうちゃん @ MHgBOdbuKW"" calls 140",2025-06-29T12:46:07.723Z,175120116772300
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T12:46:03.989Z,175120116398900
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T12:46:02.927Z,175120116292700
+"""arash! @ OHWoWLqWap"" raises to 140",2025-06-29T12:46:01.902Z,175120116190200
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T12:45:58.481Z,175120115848100
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T12:45:57.424Z,175120115742400
+"""こうちゃん @ MHgBOdbuKW"" raises to 50",2025-06-29T12:45:55.598Z,175120115559800
+"""パンドラ @ pL49LPNYjQ"" posts a big blind of 20",2025-06-29T12:45:47.848Z,175120114784809
+"""らねおか @ XaClitYV1x"" posts a small blind of 10",2025-06-29T12:45:47.848Z,175120114784808
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2840) | #2 ""らねおか @ XaClitYV1x"" (2485) | #3 ""パンドラ @ pL49LPNYjQ"" (3310) | #7 ""こうちゃん @ MHgBOdbuKW"" (2314) | #9 ""あこ @ 9FY377ItlI"" (2684) | #10 ""megau @ gjiEZFeA5n"" (2867)",2025-06-29T12:45:47.848Z,175120114784801
+"-- starting hand #18 (id: ewvjwjarsyp6)  (No Limit Texas Hold'em) (dealer: ""arash! @ OHWoWLqWap"") --",2025-06-29T12:45:47.848Z,175120114784800
+"-- ending hand #17 --",2025-06-29T12:45:44.923Z,175120114492302
+"""megau @ gjiEZFeA5n"" collected 50 from pot",2025-06-29T12:45:44.923Z,175120114492301
+"Uncalled bet of 30 returned to ""megau @ gjiEZFeA5n""",2025-06-29T12:45:44.923Z,175120114492300
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T12:45:44.098Z,175120114409800
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T12:45:41.726Z,175120114172600
+"""megau @ gjiEZFeA5n"" raises to 50",2025-06-29T12:45:40.695Z,175120114069500
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T12:45:32.240Z,175120113224000
+"""こうちゃん @ MHgBOdbuKW"" folds",2025-06-29T12:45:30.813Z,175120113081300
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T12:45:29.746Z,175120112974600
+"""らねおか @ XaClitYV1x"" posts a big blind of 20",2025-06-29T12:45:28.187Z,175120112818709
+"""arash! @ OHWoWLqWap"" posts a small blind of 10",2025-06-29T12:45:28.187Z,175120112818708
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2850) | #2 ""らねおか @ XaClitYV1x"" (2505) | #3 ""パンドラ @ pL49LPNYjQ"" (3310) | #7 ""こうちゃん @ MHgBOdbuKW"" (2314) | #9 ""あこ @ 9FY377ItlI"" (2684) | #10 ""megau @ gjiEZFeA5n"" (2837)",2025-06-29T12:45:28.187Z,175120112818701
+"-- starting hand #17 (id: w5ppbozfyeo8)  (No Limit Texas Hold'em) (dealer: ""megau @ gjiEZFeA5n"") --",2025-06-29T12:45:28.187Z,175120112818700
+"""arash! @ OHWoWLqWap"" shows a 7♦, 5♥.",2025-06-29T12:45:26.363Z,175120112636300
+"""らねおか @ XaClitYV1x"" shows a 2♣, 10♦.",2025-06-29T12:45:24.831Z,175120112483100
+"-- ending hand #16 --",2025-06-29T12:45:23.853Z,175120112385302
+"""megau @ gjiEZFeA5n"" collected 40 from pot",2025-06-29T12:45:23.853Z,175120112385301
+"Uncalled bet of 40 returned to ""megau @ gjiEZFeA5n""",2025-06-29T12:45:23.853Z,175120112385300
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T12:45:23.018Z,175120112301800
+"""megau @ gjiEZFeA5n"" raises to 60",2025-06-29T12:45:21.392Z,175120112139200
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T12:45:15.378Z,175120111537800
+"""こうちゃん @ MHgBOdbuKW"" folds",2025-06-29T12:45:13.264Z,175120111326400
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T12:45:12.194Z,175120111219400
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T12:45:10.664Z,175120111066400
+"""arash! @ OHWoWLqWap"" posts a big blind of 20",2025-06-29T12:45:09.289Z,175120110928909
+"""megau @ gjiEZFeA5n"" posts a small blind of 10",2025-06-29T12:45:09.289Z,175120110928908
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2870) | #2 ""らねおか @ XaClitYV1x"" (2505) | #3 ""パンドラ @ pL49LPNYjQ"" (3310) | #7 ""こうちゃん @ MHgBOdbuKW"" (2314) | #9 ""あこ @ 9FY377ItlI"" (2684) | #10 ""megau @ gjiEZFeA5n"" (2817)",2025-06-29T12:45:09.289Z,175120110928901
+"-- starting hand #16 (id: t3dydne7nfn0)  (No Limit Texas Hold'em) (dealer: ""あこ @ 9FY377ItlI"") --",2025-06-29T12:45:09.289Z,175120110928900
+"-- ending hand #15 --",2025-06-29T12:45:06.326Z,175120110632602
+"""あこ @ 9FY377ItlI"" collected 40 from pot",2025-06-29T12:45:06.326Z,175120110632601
+"Uncalled bet of 50 returned to ""あこ @ 9FY377ItlI""",2025-06-29T12:45:06.326Z,175120110632600
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T12:45:05.514Z,175120110551400
+"""あこ @ 9FY377ItlI"" raises to 70",2025-06-29T12:44:58.685Z,175120109868500
+"""こうちゃん @ MHgBOdbuKW"" folds",2025-06-29T12:44:53.754Z,175120109375400
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T12:44:52.409Z,175120109240900
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T12:44:51.279Z,175120109127900
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T12:44:47.699Z,175120108769900
+"""megau @ gjiEZFeA5n"" posts a big blind of 20",2025-06-29T12:44:46.103Z,175120108610309
+"""あこ @ 9FY377ItlI"" posts a small blind of 10",2025-06-29T12:44:46.103Z,175120108610308
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2870) | #2 ""らねおか @ XaClitYV1x"" (2505) | #3 ""パンドラ @ pL49LPNYjQ"" (3310) | #7 ""こうちゃん @ MHgBOdbuKW"" (2314) | #9 ""あこ @ 9FY377ItlI"" (2664) | #10 ""megau @ gjiEZFeA5n"" (2837)",2025-06-29T12:44:46.103Z,175120108610301
+"-- starting hand #15 (id: ulfw6ypx7kfv)  (No Limit Texas Hold'em) (dealer: ""こうちゃん @ MHgBOdbuKW"") --",2025-06-29T12:44:46.103Z,175120108610300
+"-- ending hand #14 --",2025-06-29T12:44:40.101Z,175120108010102
+"""megau @ gjiEZFeA5n"" collected 574 from pot with Two Pair, A's & 6's (combination: A♥, A♠, 6♥, 6♠, 8♦)",2025-06-29T12:44:40.101Z,175120108010101
+"""megau @ gjiEZFeA5n"" shows a 6♥, A♥.",2025-06-29T12:44:40.101Z,175120108010100
+"""あこ @ 9FY377ItlI"" calls 212",2025-06-29T12:44:39.266Z,175120107926600
+"""megau @ gjiEZFeA5n"" raises to 212",2025-06-29T12:44:35.245Z,175120107524500
+"""あこ @ 9FY377ItlI"" bets 40",2025-06-29T12:44:18.050Z,175120105805000
+"River: 3♠, 6♠, 8♦, 3♥ [A♠]",2025-06-29T12:44:07.431Z,175120104743100
+"""megau @ gjiEZFeA5n"" calls 30",2025-06-29T12:44:06.604Z,175120104660400
+"""あこ @ 9FY377ItlI"" bets 30",2025-06-29T12:43:46.170Z,175120102617000
+"Turn: 3♠, 6♠, 8♦ [3♥]",2025-06-29T12:43:41.199Z,175120102119900
+"""megau @ gjiEZFeA5n"" checks",2025-06-29T12:43:40.356Z,175120102035600
+"""あこ @ 9FY377ItlI"" checks",2025-06-29T12:43:31.350Z,175120101135000
+"Flop:  [3♠, 6♠, 8♦]",2025-06-29T12:43:29.394Z,175120100939400
+"""あこ @ 9FY377ItlI"" calls 40",2025-06-29T12:43:28.544Z,175120100854400
+"""こうちゃん @ MHgBOdbuKW"" folds",2025-06-29T12:43:26.076Z,175120100607600
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T12:43:24.739Z,175120100473900
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T12:43:23.724Z,175120100372400
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T12:43:22.730Z,175120100273000
+"""megau @ gjiEZFeA5n"" raises to 40",2025-06-29T12:43:20.139Z,175120100013900
+"""あこ @ 9FY377ItlI"" posts a big blind of 20",2025-06-29T12:43:15.165Z,175120099516509
+"""こうちゃん @ MHgBOdbuKW"" posts a small blind of 10",2025-06-29T12:43:15.165Z,175120099516508
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2870) | #2 ""らねおか @ XaClitYV1x"" (2505) | #3 ""パンドラ @ pL49LPNYjQ"" (3310) | #7 ""こうちゃん @ MHgBOdbuKW"" (2324) | #9 ""あこ @ 9FY377ItlI"" (2946) | #10 ""megau @ gjiEZFeA5n"" (2545)",2025-06-29T12:43:15.165Z,175120099516501
+"-- starting hand #14 (id: orp0n2u3reou)  (No Limit Texas Hold'em) (dealer: ""パンドラ @ pL49LPNYjQ"") --",2025-06-29T12:43:15.165Z,175120099516500
+"""arash! @ OHWoWLqWap"" shows a Q♣, A♣.",2025-06-29T12:43:12.289Z,175120099228900
+"-- ending hand #13 --",2025-06-29T12:43:11.557Z,175120099155702
+"""こうちゃん @ MHgBOdbuKW"" collected 290 from pot",2025-06-29T12:43:11.557Z,175120099155701
+"Uncalled bet of 180 returned to ""こうちゃん @ MHgBOdbuKW""",2025-06-29T12:43:11.557Z,175120099155700
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T12:43:10.736Z,175120099073600
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T12:43:09.634Z,175120098963400
+"""こうちゃん @ MHgBOdbuKW"" raises to 300",2025-06-29T12:43:08.620Z,175120098862000
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T12:42:57.728Z,175120097772800
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T12:42:56.654Z,175120097665400
+"""arash! @ OHWoWLqWap"" raises to 120",2025-06-29T12:42:52.666Z,175120097266600
+"""megau @ gjiEZFeA5n"" raises to 40",2025-06-29T12:42:50.224Z,175120097022400
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T12:42:45.866Z,175120096586600
+"""こうちゃん @ MHgBOdbuKW"" posts a big blind of 20",2025-06-29T12:42:43.511Z,175120096351109
+"""パンドラ @ pL49LPNYjQ"" posts a small blind of 10",2025-06-29T12:42:43.511Z,175120096351108
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2990) | #2 ""らねおか @ XaClitYV1x"" (2505) | #3 ""パンドラ @ pL49LPNYjQ"" (3320) | #7 ""こうちゃん @ MHgBOdbuKW"" (2154) | #9 ""あこ @ 9FY377ItlI"" (2946) | #10 ""megau @ gjiEZFeA5n"" (2585)",2025-06-29T12:42:43.511Z,175120096351101
+"-- starting hand #13 (id: 4ns0i5kfwhvx)  (No Limit Texas Hold'em) (dealer: ""らねおか @ XaClitYV1x"") --",2025-06-29T12:42:43.511Z,175120096351100
+"-- ending hand #12 --",2025-06-29T12:42:40.507Z,175120096050702
+"""らねおか @ XaClitYV1x"" collected 140 from pot",2025-06-29T12:42:40.507Z,175120096050701
+"Uncalled bet of 180 returned to ""らねおか @ XaClitYV1x""",2025-06-29T12:42:40.507Z,175120096050700
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T12:42:39.611Z,175120095961100
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T12:42:38.585Z,175120095858500
+"""らねおか @ XaClitYV1x"" raises to 240",2025-06-29T12:42:37.495Z,175120095749500
+"""arash! @ OHWoWLqWap"" raises to 60",2025-06-29T12:42:32.089Z,175120095208900
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T12:42:29.532Z,175120094953200
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T12:42:28.459Z,175120094845900
+"""こうちゃん @ MHgBOdbuKW"" folds",2025-06-29T12:42:27.400Z,175120094740000
+"""パンドラ @ pL49LPNYjQ"" posts a big blind of 20",2025-06-29T12:42:25.515Z,175120094551509
+"""らねおか @ XaClitYV1x"" posts a small blind of 10",2025-06-29T12:42:25.515Z,175120094551508
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (3050) | #2 ""らねおか @ XaClitYV1x"" (2425) | #3 ""パンドラ @ pL49LPNYjQ"" (3340) | #7 ""こうちゃん @ MHgBOdbuKW"" (2154) | #9 ""あこ @ 9FY377ItlI"" (2946) | #10 ""megau @ gjiEZFeA5n"" (2585)",2025-06-29T12:42:25.515Z,175120094551501
+"-- starting hand #12 (id: tlgdcfbsbhvx)  (No Limit Texas Hold'em) (dealer: ""arash! @ OHWoWLqWap"") --",2025-06-29T12:42:25.515Z,175120094551500
+"-- ending hand #11 --",2025-06-29T12:42:19.454Z,175120093945403
+"""megau @ gjiEZFeA5n"" collected 220 from pot with A High (combination: A♦, J♥, 10♦, 9♣, 5♦)",2025-06-29T12:42:19.454Z,175120093945402
+"""megau @ gjiEZFeA5n"" shows a A♦, 10♦.",2025-06-29T12:42:19.454Z,175120093945401
+"""らねおか @ XaClitYV1x"" shows a Q♣, K♠.",2025-06-29T12:42:19.454Z,175120093945400
+"""megau @ gjiEZFeA5n"" checks",2025-06-29T12:42:18.579Z,175120093857900
+"""らねおか @ XaClitYV1x"" checks",2025-06-29T12:42:00.236Z,175120092023600
+"River: 2♦, 5♦, J♥, 9♣ [3♠]",2025-06-29T12:41:52.397Z,175120091239700
+"""megau @ gjiEZFeA5n"" checks",2025-06-29T12:41:51.551Z,175120091155100
+"""らねおか @ XaClitYV1x"" checks",2025-06-29T12:41:22.694Z,175120088269400
+"Turn: 2♦, 5♦, J♥ [9♣]",2025-06-29T12:41:20.580Z,175120088058000
+"""らねおか @ XaClitYV1x"" calls 55",2025-06-29T12:41:19.721Z,175120087972100
+"""megau @ gjiEZFeA5n"" bets 55",2025-06-29T12:41:17.077Z,175120087707700
+"""らねおか @ XaClitYV1x"" checks",2025-06-29T12:41:03.027Z,175120086302700
+"Flop:  [2♦, 5♦, J♥]",2025-06-29T12:41:01.221Z,175120086122100
+"""らねおか @ XaClitYV1x"" calls 50",2025-06-29T12:41:00.380Z,175120086038000
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T12:40:52.161Z,175120085216100
+"""megau @ gjiEZFeA5n"" raises to 50",2025-06-29T12:40:51.110Z,175120085111000
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T12:40:47.823Z,175120084782300
+"""こうちゃん @ MHgBOdbuKW"" folds",2025-06-29T12:40:46.806Z,175120084680600
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T12:40:44.464Z,175120084446400
+"""らねおか @ XaClitYV1x"" posts a big blind of 20",2025-06-29T12:40:42.254Z,175120084225409
+"""arash! @ OHWoWLqWap"" posts a small blind of 10",2025-06-29T12:40:42.254Z,175120084225408
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (3060) | #2 ""らねおか @ XaClitYV1x"" (2530) | #3 ""パンドラ @ pL49LPNYjQ"" (3340) | #7 ""こうちゃん @ MHgBOdbuKW"" (2154) | #9 ""あこ @ 9FY377ItlI"" (2946) | #10 ""megau @ gjiEZFeA5n"" (2470)",2025-06-29T12:40:42.254Z,175120084225401
+"-- starting hand #11 (id: ojwlimgnfora)  (No Limit Texas Hold'em) (dealer: ""megau @ gjiEZFeA5n"") --",2025-06-29T12:40:42.254Z,175120084225400
+"-- ending hand #10 --",2025-06-29T12:40:39.327Z,175120083932702
+"""arash! @ OHWoWLqWap"" collected 20 from pot",2025-06-29T12:40:39.327Z,175120083932701
+"Uncalled bet of 10 returned to ""arash! @ OHWoWLqWap""",2025-06-29T12:40:39.327Z,175120083932700
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T12:40:38.515Z,175120083851500
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T12:40:37.483Z,175120083748300
+"""こうちゃん @ MHgBOdbuKW"" folds",2025-06-29T12:40:35.544Z,175120083554400
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T12:40:31.799Z,175120083179900
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T12:40:30.698Z,175120083069800
+"""arash! @ OHWoWLqWap"" posts a big blind of 20",2025-06-29T12:40:29.006Z,175120082900609
+"""megau @ gjiEZFeA5n"" posts a small blind of 10",2025-06-29T12:40:29.006Z,175120082900608
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (3050) | #2 ""らねおか @ XaClitYV1x"" (2530) | #3 ""パンドラ @ pL49LPNYjQ"" (3340) | #7 ""こうちゃん @ MHgBOdbuKW"" (2154) | #9 ""あこ @ 9FY377ItlI"" (2946) | #10 ""megau @ gjiEZFeA5n"" (2480)",2025-06-29T12:40:29.006Z,175120082900601
+"-- starting hand #10 (id: pl3olobmaeol)  (No Limit Texas Hold'em) (dealer: ""あこ @ 9FY377ItlI"") --",2025-06-29T12:40:29.006Z,175120082900600
+"-- ending hand #9 --",2025-06-29T12:40:23.002Z,175120082300202
+"""あこ @ 9FY377ItlI"" collected 400 from pot with Two Pair, J's & 2's (combination: J♥, J♠, 2♥, 2♠, 8♥)",2025-06-29T12:40:23.002Z,175120082300201
+"""あこ @ 9FY377ItlI"" shows a 2♥, 2♠.",2025-06-29T12:40:23.002Z,175120082300200
+"""こうちゃん @ MHgBOdbuKW"" checks",2025-06-29T12:40:22.125Z,175120082212500
+"""あこ @ 9FY377ItlI"" checks",2025-06-29T12:40:03.898Z,175120080389800
+"River: 8♥, J♥, 3♦, 6♣ [J♠]",2025-06-29T12:40:02.190Z,175120080219000
+"""あこ @ 9FY377ItlI"" calls 100",2025-06-29T12:40:01.337Z,175120080133700
+"""こうちゃん @ MHgBOdbuKW"" bets 100",2025-06-29T12:39:58.570Z,175120079857000
+"""あこ @ 9FY377ItlI"" checks",2025-06-29T12:39:49.587Z,175120078958700
+"Turn: 8♥, J♥, 3♦ [6♣]",2025-06-29T12:39:47.811Z,175120078781100
+"""あこ @ 9FY377ItlI"" calls 40",2025-06-29T12:39:46.973Z,175120078697300
+"""こうちゃん @ MHgBOdbuKW"" bets 40",2025-06-29T12:39:41.683Z,175120078168300
+"""あこ @ 9FY377ItlI"" checks",2025-06-29T12:39:26.604Z,175120076660400
+"Flop:  [8♥, J♥, 3♦]",2025-06-29T12:39:24.352Z,175120076435200
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T12:39:23.537Z,175120076353700
+"""あこ @ 9FY377ItlI"" calls 50",2025-06-29T12:39:18.883Z,175120075888300
+"""こうちゃん @ MHgBOdbuKW"" raises to 50",2025-06-29T12:39:16.099Z,175120075609900
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T12:39:11.172Z,175120075117200
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T12:39:08.530Z,175120074853000
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T12:39:07.491Z,175120074749100
+"""megau @ gjiEZFeA5n"" posts a big blind of 20",2025-06-29T12:39:05.136Z,175120074513609
+"""あこ @ 9FY377ItlI"" posts a small blind of 10",2025-06-29T12:39:05.136Z,175120074513608
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (3050) | #2 ""らねおか @ XaClitYV1x"" (2530) | #3 ""パンドラ @ pL49LPNYjQ"" (3340) | #7 ""こうちゃん @ MHgBOdbuKW"" (2344) | #9 ""あこ @ 9FY377ItlI"" (2736) | #10 ""megau @ gjiEZFeA5n"" (2500)",2025-06-29T12:39:05.136Z,175120074513601
+"-- starting hand #9 (id: edoz699phuew)  (No Limit Texas Hold'em) (dealer: ""こうちゃん @ MHgBOdbuKW"") --",2025-06-29T12:39:05.136Z,175120074513600
+"-- ending hand #8 --",2025-06-29T12:39:02.141Z,175120074214102
+"""らねおか @ XaClitYV1x"" collected 110 from pot",2025-06-29T12:39:02.141Z,175120074214101
+"Uncalled bet of 40 returned to ""らねおか @ XaClitYV1x""",2025-06-29T12:39:02.141Z,175120074214100
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T12:39:01.285Z,175120074128500
+"""らねおか @ XaClitYV1x"" bets 40",2025-06-29T12:38:59.650Z,175120073965000
+"""あこ @ 9FY377ItlI"" checks",2025-06-29T12:38:56.018Z,175120073601800
+"Flop:  [Q♥, Q♣, A♣]",2025-06-29T12:38:54.006Z,175120073400600
+"""あこ @ 9FY377ItlI"" calls 50",2025-06-29T12:38:53.172Z,175120073317200
+"""こうちゃん @ MHgBOdbuKW"" folds",2025-06-29T12:38:50.850Z,175120073085000
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T12:38:48.789Z,175120072878900
+"""らねおか @ XaClitYV1x"" raises to 50",2025-06-29T12:38:47.671Z,175120072767100
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T12:38:44.922Z,175120072492200
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T12:38:43.906Z,175120072390600
+"""あこ @ 9FY377ItlI"" posts a big blind of 20",2025-06-29T12:38:41.909Z,175120072190909
+"""こうちゃん @ MHgBOdbuKW"" posts a small blind of 10",2025-06-29T12:38:41.909Z,175120072190908
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (3050) | #2 ""らねおか @ XaClitYV1x"" (2470) | #3 ""パンドラ @ pL49LPNYjQ"" (3340) | #7 ""こうちゃん @ MHgBOdbuKW"" (2354) | #9 ""あこ @ 9FY377ItlI"" (2786) | #10 ""megau @ gjiEZFeA5n"" (2500)",2025-06-29T12:38:41.909Z,175120072190901
+"-- starting hand #8 (id: uezoix0ebdlq)  (No Limit Texas Hold'em) (dealer: ""パンドラ @ pL49LPNYjQ"") --",2025-06-29T12:38:41.909Z,175120072190900
+"-- ending hand #7 --",2025-06-29T12:38:38.908Z,175120071890802
+"""あこ @ 9FY377ItlI"" collected 50 from pot",2025-06-29T12:38:38.908Z,175120071890801
+"Uncalled bet of 20 returned to ""あこ @ 9FY377ItlI""",2025-06-29T12:38:38.908Z,175120071890800
+"""こうちゃん @ MHgBOdbuKW"" folds",2025-06-29T12:38:38.086Z,175120071808600
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T12:38:35.208Z,175120071520800
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T12:38:32.392Z,175120071239200
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T12:38:31.400Z,175120071140000
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T12:38:30.369Z,175120071036900
+"""あこ @ 9FY377ItlI"" raises to 40",2025-06-29T12:38:24.026Z,175120070402600
+"""こうちゃん @ MHgBOdbuKW"" posts a big blind of 20",2025-06-29T12:38:21.492Z,175120070149209
+"""パンドラ @ pL49LPNYjQ"" posts a small blind of 10",2025-06-29T12:38:21.492Z,175120070149208
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (3050) | #2 ""らねおか @ XaClitYV1x"" (2470) | #3 ""パンドラ @ pL49LPNYjQ"" (3350) | #7 ""こうちゃん @ MHgBOdbuKW"" (2374) | #9 ""あこ @ 9FY377ItlI"" (2756) | #10 ""megau @ gjiEZFeA5n"" (2500)",2025-06-29T12:38:21.492Z,175120070149201
+"-- starting hand #7 (id: 9zharfdstwmz)  (No Limit Texas Hold'em) (dealer: ""らねおか @ XaClitYV1x"") --",2025-06-29T12:38:21.492Z,175120070149200
+"-- ending hand #6 --",2025-06-29T12:38:18.492Z,175120069849202
+"""あこ @ 9FY377ItlI"" collected 50 from pot",2025-06-29T12:38:18.492Z,175120069849201
+"Uncalled bet of 20 returned to ""あこ @ 9FY377ItlI""",2025-06-29T12:38:18.492Z,175120069849200
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T12:38:17.594Z,175120069759400
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T12:38:14.739Z,175120069473900
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T12:38:13.715Z,175120069371500
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T12:38:12.701Z,175120069270100
+"""あこ @ 9FY377ItlI"" raises to 40",2025-06-29T12:38:11.621Z,175120069162100
+"""こうちゃん @ MHgBOdbuKW"" folds",2025-06-29T12:38:03.778Z,175120068377800
+"""パンドラ @ pL49LPNYjQ"" posts a big blind of 20",2025-06-29T12:37:59.770Z,175120067977009
+"""らねおか @ XaClitYV1x"" posts a small blind of 10",2025-06-29T12:37:59.770Z,175120067977008
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (3050) | #2 ""らねおか @ XaClitYV1x"" (2480) | #3 ""パンドラ @ pL49LPNYjQ"" (3370) | #7 ""こうちゃん @ MHgBOdbuKW"" (2374) | #9 ""あこ @ 9FY377ItlI"" (2726) | #10 ""megau @ gjiEZFeA5n"" (2500)",2025-06-29T12:37:59.770Z,175120067977001
+"-- starting hand #6 (id: bdx3teb6bgdd)  (No Limit Texas Hold'em) (dealer: ""arash! @ OHWoWLqWap"") --",2025-06-29T12:37:59.770Z,175120067977000
+"""あこ @ 9FY377ItlI"" shows a 3♥, Q♦.",2025-06-29T12:37:58.379Z,175120067837900
+"-- ending hand #5 --",2025-06-29T12:37:56.167Z,175120067616702
+"""arash! @ OHWoWLqWap"" collected 120 from pot",2025-06-29T12:37:56.167Z,175120067616701
+"Uncalled bet of 150 returned to ""arash! @ OHWoWLqWap""",2025-06-29T12:37:56.167Z,175120067616700
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T12:37:55.350Z,175120067535000
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T12:37:52.052Z,175120067205200
+"""arash! @ OHWoWLqWap"" raises to 200",2025-06-29T12:37:51.032Z,175120067103200
+"""megau @ gjiEZFeA5n"" raises to 50",2025-06-29T12:37:45.358Z,175120066535800
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T12:37:41.714Z,175120066171400
+"""こうちゃん @ MHgBOdbuKW"" folds",2025-06-29T12:37:40.330Z,175120066033000
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T12:37:37.504Z,175120065750400
+"""らねおか @ XaClitYV1x"" posts a big blind of 20",2025-06-29T12:37:31.814Z,175120065181409
+"""arash! @ OHWoWLqWap"" posts a small blind of 10",2025-06-29T12:37:31.814Z,175120065181408
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (2980) | #2 ""らねおか @ XaClitYV1x"" (2500) | #3 ""パンドラ @ pL49LPNYjQ"" (3370) | #7 ""こうちゃん @ MHgBOdbuKW"" (2374) | #9 ""あこ @ 9FY377ItlI"" (2726) | #10 ""megau @ gjiEZFeA5n"" (2550)",2025-06-29T12:37:31.814Z,175120065181401
+"-- starting hand #5 (id: vfr7wv6jxqf9)  (No Limit Texas Hold'em) (dealer: ""megau @ gjiEZFeA5n"") --",2025-06-29T12:37:31.814Z,175120065181400
+"-- ending hand #4 --",2025-06-29T12:37:28.874Z,175120064887402
+"""パンドラ @ pL49LPNYjQ"" collected 50 from pot",2025-06-29T12:37:28.874Z,175120064887401
+"Uncalled bet of 30 returned to ""パンドラ @ pL49LPNYjQ""",2025-06-29T12:37:28.874Z,175120064887400
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T12:37:28.060Z,175120064806000
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T12:37:27.032Z,175120064703200
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T12:37:25.160Z,175120064516000
+"""こうちゃん @ MHgBOdbuKW"" folds",2025-06-29T12:37:24.134Z,175120064413400
+"""パンドラ @ pL49LPNYjQ"" raises to 50",2025-06-29T12:37:23.100Z,175120064310000
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T12:37:16.563Z,175120063656300
+"""arash! @ OHWoWLqWap"" posts a big blind of 20",2025-06-29T12:37:15.350Z,175120063535009
+"""megau @ gjiEZFeA5n"" posts a small blind of 10",2025-06-29T12:37:15.350Z,175120063535008
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (3000) | #2 ""らねおか @ XaClitYV1x"" (2500) | #3 ""パンドラ @ pL49LPNYjQ"" (3340) | #7 ""こうちゃん @ MHgBOdbuKW"" (2374) | #9 ""あこ @ 9FY377ItlI"" (2726) | #10 ""megau @ gjiEZFeA5n"" (2560)",2025-06-29T12:37:15.350Z,175120063535001
+"-- starting hand #4 (id: do4ywep8dxm7)  (No Limit Texas Hold'em) (dealer: ""あこ @ 9FY377ItlI"") --",2025-06-29T12:37:15.350Z,175120063535000
+"-- ending hand #3 --",2025-06-29T12:37:12.443Z,175120063244302
+"""megau @ gjiEZFeA5n"" collected 110 from pot",2025-06-29T12:37:12.443Z,175120063244301
+"Uncalled bet of 190 returned to ""megau @ gjiEZFeA5n""",2025-06-29T12:37:12.443Z,175120063244300
+"""こうちゃん @ MHgBOdbuKW"" folds",2025-06-29T12:37:11.597Z,175120063159700
+"""megau @ gjiEZFeA5n"" raises to 240",2025-06-29T12:37:08.031Z,175120062803100
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T12:37:02.235Z,175120062223500
+"""こうちゃん @ MHgBOdbuKW"" raises to 50",2025-06-29T12:37:01.084Z,175120062108400
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T12:36:52.248Z,175120061224800
+"""らねおか @ XaClitYV1x"" folds",2025-06-29T12:36:51.231Z,175120061123100
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T12:36:50.220Z,175120061022000
+"""megau @ gjiEZFeA5n"" posts a big blind of 20",2025-06-29T12:36:48.782Z,175120060878210
+"""あこ @ 9FY377ItlI"" posts a small blind of 10",2025-06-29T12:36:48.782Z,175120060878209
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (3000) | #2 ""らねおか @ XaClitYV1x"" (2500) | #3 ""パンドラ @ pL49LPNYjQ"" (3340) | #7 ""こうちゃん @ MHgBOdbuKW"" (2424) | #9 ""あこ @ 9FY377ItlI"" (2736) | #10 ""megau @ gjiEZFeA5n"" (2500)",2025-06-29T12:36:48.782Z,175120060878202
+"-- starting hand #3 (id: yoqewpzcj4jj)  (No Limit Texas Hold'em) (dealer: ""こうちゃん @ MHgBOdbuKW"") --",2025-06-29T12:36:48.782Z,175120060878201
+"The player ""らねおか @ XaClitYV1x"" joined the game with a stack of 2500.",2025-06-29T12:36:48.782Z,175120060878200
+"-- ending hand #2 --",2025-06-29T12:36:45.873Z,175120060587302
+"""パンドラ @ pL49LPNYjQ"" collected 690 from pot",2025-06-29T12:36:45.873Z,175120060587301
+"Uncalled bet of 345 returned to ""パンドラ @ pL49LPNYjQ""",2025-06-29T12:36:45.873Z,175120060587300
+"""あこ @ 9FY377ItlI"" folds",2025-06-29T12:36:45.036Z,175120060503600
+"""パンドラ @ pL49LPNYjQ"" raises to 485",2025-06-29T12:36:42.318Z,175120060231800
+"The admin approved the player ""らねおか @ XaClitYV1x"" participation with a stack of 2500.",2025-06-29T12:36:39.899Z,175120059989900
+"""あこ @ 9FY377ItlI"" bets 140",2025-06-29T12:36:34.960Z,175120059496000
+"Flop:  [7♣, 7♦, 10♥]",2025-06-29T12:36:26.224Z,175120058622400
+"""パンドラ @ pL49LPNYjQ"" calls 200",2025-06-29T12:36:25.402Z,175120058540200
+"The player ""らねおか @ XaClitYV1x"" requested a seat.",2025-06-29T12:36:23.894Z,175120058389400
+"""あこ @ 9FY377ItlI"" raises to 200",2025-06-29T12:36:07.802Z,175120056780200
+"""こうちゃん @ MHgBOdbuKW"" folds",2025-06-29T12:35:56.305Z,175120055630500
+"""パンドラ @ pL49LPNYjQ"" raises to 50",2025-06-29T12:35:53.016Z,175120055301600
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T12:35:48.968Z,175120054896800
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T12:35:47.946Z,175120054794600
+"""あこ @ 9FY377ItlI"" posts a big blind of 20",2025-06-29T12:35:46.259Z,175120054625908
+"""こうちゃん @ MHgBOdbuKW"" posts a small blind of 10",2025-06-29T12:35:46.259Z,175120054625907
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (3000) | #3 ""パンドラ @ pL49LPNYjQ"" (2990) | #7 ""こうちゃん @ MHgBOdbuKW"" (2434) | #9 ""あこ @ 9FY377ItlI"" (3076) | #10 ""megau @ gjiEZFeA5n"" (2500)",2025-06-29T12:35:46.259Z,175120054625901
+"-- starting hand #2 (id: nekyprd8lyhh)  (No Limit Texas Hold'em) (dealer: ""パンドラ @ pL49LPNYjQ"") --",2025-06-29T12:35:46.259Z,175120054625900
+"-- ending hand #1 --",2025-06-29T12:35:43.345Z,175120054334502
+"""あこ @ 9FY377ItlI"" collected 142 from pot",2025-06-29T12:35:43.345Z,175120054334501
+"Uncalled bet of 71 returned to ""あこ @ 9FY377ItlI""",2025-06-29T12:35:43.345Z,175120054334500
+"""こうちゃん @ MHgBOdbuKW"" folds",2025-06-29T12:35:42.530Z,175120054253000
+"""あこ @ 9FY377ItlI"" bets 71",2025-06-29T12:35:37.787Z,175120053778700
+"""こうちゃん @ MHgBOdbuKW"" checks",2025-06-29T12:35:32.755Z,175120053275500
+"Turn: 7♠, J♠, 3♣ [8♥]",2025-06-29T12:35:28.793Z,175120052879300
+"""あこ @ 9FY377ItlI"" calls 20",2025-06-29T12:35:27.967Z,175120052796700
+"""こうちゃん @ MHgBOdbuKW"" bets 20",2025-06-29T12:35:22.188Z,175120052218800
+"Flop:  [7♠, J♠, 3♣]",2025-06-29T12:35:19.842Z,175120051984200
+"""こうちゃん @ MHgBOdbuKW"" calls 46",2025-06-29T12:35:19.040Z,175120051904000
+"""パンドラ @ pL49LPNYjQ"" folds",2025-06-29T12:35:16.924Z,175120051692400
+"""arash! @ OHWoWLqWap"" folds",2025-06-29T12:35:15.846Z,175120051584600
+"""megau @ gjiEZFeA5n"" folds",2025-06-29T12:35:14.553Z,175120051455300
+"""あこ @ 9FY377ItlI"" raises to 46",2025-06-29T12:35:11.602Z,175120051160200
+"""こうちゃん @ MHgBOdbuKW"" posts a big blind of 20",2025-06-29T12:35:02.528Z,175120050252813
+"""パンドラ @ pL49LPNYjQ"" posts a small blind of 10",2025-06-29T12:35:02.528Z,175120050252812
+"Player stacks: #1 ""arash! @ OHWoWLqWap"" (3000) | #3 ""パンドラ @ pL49LPNYjQ"" (3000) | #7 ""こうちゃん @ MHgBOdbuKW"" (2500) | #9 ""あこ @ 9FY377ItlI"" (3000) | #10 ""megau @ gjiEZFeA5n"" (2500)",2025-06-29T12:35:02.528Z,175120050252806
+"The player ""megau @ gjiEZFeA5n"" joined the game with a stack of 2500.",2025-06-29T12:35:02.528Z,175120050252805
+"The player ""あこ @ 9FY377ItlI"" joined the game with a stack of 3000.",2025-06-29T12:35:02.528Z,175120050252804
+"The player ""こうちゃん @ MHgBOdbuKW"" joined the game with a stack of 2500.",2025-06-29T12:35:02.528Z,175120050252803
+"The player ""パンドラ @ pL49LPNYjQ"" joined the game with a stack of 3000.",2025-06-29T12:35:02.528Z,175120050252802
+"The player ""arash! @ OHWoWLqWap"" joined the game with a stack of 3000.",2025-06-29T12:35:02.528Z,175120050252801
+"-- starting hand #1 (id: 1bj7rozykeki)  (No Limit Texas Hold'em) (dealer: ""arash! @ OHWoWLqWap"") --",2025-06-29T12:35:02.528Z,175120050252800
+"The admin approved the player ""こうちゃん @ MHgBOdbuKW"" participation with a stack of 2500.",2025-06-29T12:34:38.831Z,175120047883100
+"The player ""こうちゃん @ MHgBOdbuKW"" requested a seat.",2025-06-29T12:34:34.954Z,175120047495400
+"The player ""あこ @ 9FY377ItlI"" sit back with the stack of 3000.",2025-06-29T12:34:05.428Z,175120044542800
+"The player ""あこ @ 9FY377ItlI"" stand up with the stack of 3000.",2025-06-29T12:34:00.162Z,175120044016201
+"The admin approved the player ""あこ @ 9FY377ItlI"" participation with a stack of 3000.",2025-06-29T12:34:00.162Z,175120044016200
+"The player ""あこ @ 9FY377ItlI"" requested a seat.",2025-06-29T12:33:39.113Z,175120041911300
+"The admin approved the player ""megau @ gjiEZFeA5n"" participation with a stack of 2500.",2025-06-29T12:33:27.395Z,175120040739500
+"The player ""megau @ gjiEZFeA5n"" requested a seat.",2025-06-29T12:33:22.381Z,175120040238100
+"The admin approved the player ""パンドラ @ pL49LPNYjQ"" participation with a stack of 3000.",2025-06-29T12:33:15.515Z,175120039551500
+"The player ""パンドラ @ pL49LPNYjQ"" requested a seat.",2025-06-29T12:33:10.759Z,175120039075900
+"The admin approved the player ""arash! @ OHWoWLqWap"" participation with a stack of 3000.",2025-06-29T12:32:22.900Z,175120034290001
+"The player ""arash! @ OHWoWLqWap"" requested a seat.",2025-06-29T12:32:22.900Z,175120034290000

@@ -1,0 +1,701 @@
+entry,at,order
+"The player ""k.k @ 2GlUDrVHSg"" quits the game with a stack of 1635.",2026-02-02T12:30:38.060Z,177003543806000
+"The player ""たろす @ _EAr7O2lyX"" quits the game with a stack of 3163.",2026-02-02T12:30:29.338Z,177003542933800
+"-- ending hand #41 --",2026-02-02T12:30:26.423Z,177003542642302
+"""k.k @ 2GlUDrVHSg"" collected 40 from pot",2026-02-02T12:30:26.423Z,177003542642301
+"Uncalled bet of 20 returned to ""k.k @ 2GlUDrVHSg""",2026-02-02T12:30:26.423Z,177003542642300
+"""たろす @ _EAr7O2lyX"" folds",2026-02-02T12:30:25.579Z,177003542557900
+"""k.k @ 2GlUDrVHSg"" raises to 40",2026-02-02T12:30:18.899Z,177003541889900
+"""たろす @ _EAr7O2lyX"" posts a big blind of 20",2026-02-02T12:30:12.219Z,177003541221907
+"""k.k @ 2GlUDrVHSg"" posts a small blind of 10",2026-02-02T12:30:12.219Z,177003541221906
+"Player stacks: #5 ""k.k @ 2GlUDrVHSg"" (1615) | #7 ""たろす @ _EAr7O2lyX"" (3183)",2026-02-02T12:30:12.219Z,177003541221903
+"-- starting hand #41 (id: xggfmrld0v8u)  (No Limit Texas Hold'em) (dealer: ""k.k @ 2GlUDrVHSg"") --",2026-02-02T12:30:12.219Z,177003541221902
+"The player ""cymx2724 @ Yg9-tEe5QH"" quits the game with a stack of 2420.",2026-02-02T12:30:12.219Z,177003541221901
+"The player ""RYOTA @ SrJdWlcNBY"" quits the game with a stack of 2615.",2026-02-02T12:30:12.219Z,177003541221900
+"-- ending hand #40 --",2026-02-02T12:30:09.316Z,177003540931602
+"""cymx2724 @ Yg9-tEe5QH"" collected 50 from pot",2026-02-02T12:30:09.316Z,177003540931601
+"Uncalled bet of 30 returned to ""cymx2724 @ Yg9-tEe5QH""",2026-02-02T12:30:09.316Z,177003540931600
+"""たろす @ _EAr7O2lyX"" folds",2026-02-02T12:30:08.494Z,177003540849400
+"""k.k @ 2GlUDrVHSg"" folds",2026-02-02T12:30:03.546Z,177003540354600
+"""cymx2724 @ Yg9-tEe5QH"" raises to 50",2026-02-02T12:30:00.387Z,177003540038700
+"""RYOTA @ SrJdWlcNBY"" folds",2026-02-02T12:29:27.294Z,177003536729400
+"""たろす @ _EAr7O2lyX"" posts a big blind of 20",2026-02-02T12:29:26.263Z,177003536626308
+"""k.k @ 2GlUDrVHSg"" posts a small blind of 10",2026-02-02T12:29:26.263Z,177003536626307
+"Player stacks: #2 ""RYOTA @ SrJdWlcNBY"" (2615) | #4 ""cymx2724 @ Yg9-tEe5QH"" (2390) | #5 ""k.k @ 2GlUDrVHSg"" (1625) | #7 ""たろす @ _EAr7O2lyX"" (3203)",2026-02-02T12:29:26.263Z,177003536626302
+"-- starting hand #40 (id: ook1fmtavl9c)  (No Limit Texas Hold'em) (dealer: ""cymx2724 @ Yg9-tEe5QH"") --",2026-02-02T12:29:26.263Z,177003536626301
+"The player ""常盤木いつき @ 0QyEE5Hc9o"" quits the game with a stack of 2325.",2026-02-02T12:29:26.263Z,177003536626300
+"-- ending hand #39 --",2026-02-02T12:29:20.256Z,177003536025603
+"""cymx2724 @ Yg9-tEe5QH"" collected 960 from pot with Pair, 9's (combination: 9♠, 9♥, A♦, J♥, 6♣)",2026-02-02T12:29:20.256Z,177003536025602
+"""cymx2724 @ Yg9-tEe5QH"" shows a A♦, 9♠.",2026-02-02T12:29:20.256Z,177003536025601
+"""k.k @ 2GlUDrVHSg"" shows a 6♥, 8♠.",2026-02-02T12:29:20.256Z,177003536025600
+"""cymx2724 @ Yg9-tEe5QH"" calls 320",2026-02-02T12:29:19.450Z,177003535945000
+"""k.k @ 2GlUDrVHSg"" raises to 320",2026-02-02T12:29:13.545Z,177003535354500
+"""cymx2724 @ Yg9-tEe5QH"" bets 160",2026-02-02T12:29:08.869Z,177003534886900
+"River: 6♣, 9♥, 4♦, J♥ [3♥]",2026-02-02T12:29:01.512Z,177003534151200
+"""k.k @ 2GlUDrVHSg"" calls 60",2026-02-02T12:29:00.690Z,177003534069000
+"""cymx2724 @ Yg9-tEe5QH"" bets 60",2026-02-02T12:28:57.417Z,177003533741700
+"Turn: 6♣, 9♥, 4♦ [J♥]",2026-02-02T12:28:46.948Z,177003532694800
+"""k.k @ 2GlUDrVHSg"" calls 40",2026-02-02T12:28:46.140Z,177003532614000
+"""cymx2724 @ Yg9-tEe5QH"" bets 40",2026-02-02T12:28:42.916Z,177003532291600
+"Flop:  [6♣, 9♥, 4♦]",2026-02-02T12:28:33.444Z,177003531344400
+"""k.k @ 2GlUDrVHSg"" calls 60",2026-02-02T12:28:32.626Z,177003531262600
+"""cymx2724 @ Yg9-tEe5QH"" raises to 60",2026-02-02T12:28:30.392Z,177003531039200
+"""RYOTA @ SrJdWlcNBY"" folds",2026-02-02T12:28:20.373Z,177003530037300
+"""常盤木いつき @ 0QyEE5Hc9o"" folds",2026-02-02T12:28:13.740Z,177003529374000
+"""たろす @ _EAr7O2lyX"" folds",2026-02-02T12:28:12.680Z,177003529268000
+"""k.k @ 2GlUDrVHSg"" posts a big blind of 20",2026-02-02T12:28:04.364Z,177003528436408
+"""cymx2724 @ Yg9-tEe5QH"" posts a small blind of 10",2026-02-02T12:28:04.364Z,177003528436407
+"Player stacks: #2 ""RYOTA @ SrJdWlcNBY"" (2615) | #4 ""cymx2724 @ Yg9-tEe5QH"" (1910) | #5 ""k.k @ 2GlUDrVHSg"" (2105) | #7 ""たろす @ _EAr7O2lyX"" (3203) | #9 ""常盤木いつき @ 0QyEE5Hc9o"" (2325)",2026-02-02T12:28:04.364Z,177003528436401
+"-- starting hand #39 (id: xrq9ystggcf7)  (No Limit Texas Hold'em) (dealer: ""RYOTA @ SrJdWlcNBY"") --",2026-02-02T12:28:04.364Z,177003528436400
+"-- ending hand #38 --",2026-02-02T12:27:58.352Z,177003527835203
+"""RYOTA @ SrJdWlcNBY"" collected 1050 from pot with Pair, J's (combination: J♥, J♦, A♣, K♥, 9♣)",2026-02-02T12:27:58.352Z,177003527835202
+"""RYOTA @ SrJdWlcNBY"" shows a A♣, J♥.",2026-02-02T12:27:58.352Z,177003527835201
+"""k.k @ 2GlUDrVHSg"" shows a 6♣, Q♣.",2026-02-02T12:27:58.352Z,177003527835200
+"""RYOTA @ SrJdWlcNBY"" calls 315",2026-02-02T12:27:57.538Z,177003527753800
+"""k.k @ 2GlUDrVHSg"" bets 315",2026-02-02T12:27:35.489Z,177003525548900
+"""RYOTA @ SrJdWlcNBY"" checks",2026-02-02T12:27:25.087Z,177003524508700
+"River: K♥, 8♠, 9♣, J♦ [2♦]",2026-02-02T12:27:22.604Z,177003524260400
+"""RYOTA @ SrJdWlcNBY"" calls 100",2026-02-02T12:27:21.780Z,177003524178000
+"""k.k @ 2GlUDrVHSg"" bets 100",2026-02-02T12:27:06.881Z,177003522688100
+"""RYOTA @ SrJdWlcNBY"" checks",2026-02-02T12:26:58.491Z,177003521849100
+"Turn: K♥, 8♠, 9♣ [J♦]",2026-02-02T12:26:56.165Z,177003521616500
+"""RYOTA @ SrJdWlcNBY"" calls 40",2026-02-02T12:26:55.329Z,177003521532900
+"""k.k @ 2GlUDrVHSg"" bets 40",2026-02-02T12:26:50.896Z,177003521089600
+"""RYOTA @ SrJdWlcNBY"" checks",2026-02-02T12:26:46.070Z,177003520607000
+"Flop:  [K♥, 8♠, 9♣]",2026-02-02T12:26:41.112Z,177003520111200
+"""cymx2724 @ Yg9-tEe5QH"" folds",2026-02-02T12:26:40.306Z,177003520030600
+"""RYOTA @ SrJdWlcNBY"" calls 60",2026-02-02T12:26:32.125Z,177003519212500
+"""常盤木いつき @ 0QyEE5Hc9o"" folds",2026-02-02T12:26:27.316Z,177003518731600
+"""たろす @ _EAr7O2lyX"" folds",2026-02-02T12:26:26.172Z,177003518617200
+"""k.k @ 2GlUDrVHSg"" raises to 60",2026-02-02T12:26:25.060Z,177003518506000
+"""cymx2724 @ Yg9-tEe5QH"" posts a big blind of 20",2026-02-02T12:26:11.256Z,177003517125608
+"""RYOTA @ SrJdWlcNBY"" posts a small blind of 10",2026-02-02T12:26:11.256Z,177003517125607
+"Player stacks: #2 ""RYOTA @ SrJdWlcNBY"" (2080) | #4 ""cymx2724 @ Yg9-tEe5QH"" (1930) | #5 ""k.k @ 2GlUDrVHSg"" (2620) | #7 ""たろす @ _EAr7O2lyX"" (3203) | #9 ""常盤木いつき @ 0QyEE5Hc9o"" (2325)",2026-02-02T12:26:11.256Z,177003517125601
+"-- starting hand #38 (id: lgxmjzakyeh1)  (No Limit Texas Hold'em) (dealer: ""常盤木いつき @ 0QyEE5Hc9o"") --",2026-02-02T12:26:11.256Z,177003517125600
+"-- ending hand #37 --",2026-02-02T12:26:08.338Z,177003516833802
+"""k.k @ 2GlUDrVHSg"" collected 540 from pot",2026-02-02T12:26:08.338Z,177003516833801
+"Uncalled bet of 270 returned to ""k.k @ 2GlUDrVHSg""",2026-02-02T12:26:08.338Z,177003516833800
+"""常盤木いつき @ 0QyEE5Hc9o"" folds",2026-02-02T12:26:07.525Z,177003516752500
+"""k.k @ 2GlUDrVHSg"" bets 270",2026-02-02T12:25:59.563Z,177003515956300
+"""常盤木いつき @ 0QyEE5Hc9o"" checks",2026-02-02T12:25:53.741Z,177003515374100
+"Turn: A♥, 3♣, 6♦ [8♣]",2026-02-02T12:25:36.111Z,177003513611100
+"""k.k @ 2GlUDrVHSg"" checks",2026-02-02T12:25:35.309Z,177003513530900
+"""常盤木いつき @ 0QyEE5Hc9o"" checks",2026-02-02T12:25:32.154Z,177003513215400
+"Flop:  [A♥, 3♣, 6♦]",2026-02-02T12:25:21.301Z,177003512130100
+"""k.k @ 2GlUDrVHSg"" calls 240",2026-02-02T12:25:20.489Z,177003512048900
+"""cymx2724 @ Yg9-tEe5QH"" folds",2026-02-02T12:25:16.686Z,177003511668600
+"""RYOTA @ SrJdWlcNBY"" folds",2026-02-02T12:25:15.336Z,177003511533600
+"""常盤木いつき @ 0QyEE5Hc9o"" raises to 240",2026-02-02T12:25:11.996Z,177003511199600
+"""たろす @ _EAr7O2lyX"" folds",2026-02-02T12:25:03.516Z,177003510351600
+"""k.k @ 2GlUDrVHSg"" calls 40",2026-02-02T12:25:01.763Z,177003510176300
+"""cymx2724 @ Yg9-tEe5QH"" raises to 40",2026-02-02T12:24:55.840Z,177003509584000
+"""RYOTA @ SrJdWlcNBY"" posts a big blind of 20",2026-02-02T12:24:48.467Z,177003508846708
+"""常盤木いつき @ 0QyEE5Hc9o"" posts a small blind of 10",2026-02-02T12:24:48.467Z,177003508846707
+"Player stacks: #2 ""RYOTA @ SrJdWlcNBY"" (2100) | #4 ""cymx2724 @ Yg9-tEe5QH"" (1970) | #5 ""k.k @ 2GlUDrVHSg"" (2320) | #7 ""たろす @ _EAr7O2lyX"" (3203) | #9 ""常盤木いつき @ 0QyEE5Hc9o"" (2565)",2026-02-02T12:24:48.467Z,177003508846701
+"-- starting hand #37 (id: ttq21tkdj7ji)  (No Limit Texas Hold'em) (dealer: ""たろす @ _EAr7O2lyX"") --",2026-02-02T12:24:48.467Z,177003508846700
+"-- ending hand #36 --",2026-02-02T12:24:45.546Z,177003508554602
+"""k.k @ 2GlUDrVHSg"" collected 50 from pot",2026-02-02T12:24:45.546Z,177003508554601
+"Uncalled bet of 40 returned to ""k.k @ 2GlUDrVHSg""",2026-02-02T12:24:45.546Z,177003508554600
+"""常盤木いつき @ 0QyEE5Hc9o"" folds",2026-02-02T12:24:44.734Z,177003508473400
+"""たろす @ _EAr7O2lyX"" folds",2026-02-02T12:24:43.633Z,177003508363300
+"""k.k @ 2GlUDrVHSg"" raises to 60",2026-02-02T12:24:38.391Z,177003507839100
+"""cymx2724 @ Yg9-tEe5QH"" folds",2026-02-02T12:24:20.584Z,177003506058400
+"""RYOTA @ SrJdWlcNBY"" folds",2026-02-02T12:24:17.678Z,177003505767800
+"""常盤木いつき @ 0QyEE5Hc9o"" posts a big blind of 20",2026-02-02T12:24:13.020Z,177003505302008
+"""たろす @ _EAr7O2lyX"" posts a small blind of 10",2026-02-02T12:24:13.020Z,177003505302007
+"Player stacks: #2 ""RYOTA @ SrJdWlcNBY"" (2100) | #4 ""cymx2724 @ Yg9-tEe5QH"" (1970) | #5 ""k.k @ 2GlUDrVHSg"" (2290) | #7 ""たろす @ _EAr7O2lyX"" (3213) | #9 ""常盤木いつき @ 0QyEE5Hc9o"" (2585)",2026-02-02T12:24:13.020Z,177003505302001
+"-- starting hand #36 (id: 2vhxv3svxn54)  (No Limit Texas Hold'em) (dealer: ""k.k @ 2GlUDrVHSg"") --",2026-02-02T12:24:13.020Z,177003505302000
+"-- ending hand #35 --",2026-02-02T12:24:10.060Z,177003505006002
+"""たろす @ _EAr7O2lyX"" collected 20 from pot",2026-02-02T12:24:10.060Z,177003505006001
+"Uncalled bet of 10 returned to ""たろす @ _EAr7O2lyX""",2026-02-02T12:24:10.060Z,177003505006000
+"""k.k @ 2GlUDrVHSg"" folds",2026-02-02T12:24:09.254Z,177003504925400
+"""cymx2724 @ Yg9-tEe5QH"" folds",2026-02-02T12:24:08.162Z,177003504816200
+"""RYOTA @ SrJdWlcNBY"" folds",2026-02-02T12:24:01.265Z,177003504126500
+"""常盤木いつき @ 0QyEE5Hc9o"" folds",2026-02-02T12:23:57.546Z,177003503754600
+"""たろす @ _EAr7O2lyX"" posts a big blind of 20",2026-02-02T12:23:55.142Z,177003503514208
+"""k.k @ 2GlUDrVHSg"" posts a small blind of 10",2026-02-02T12:23:55.142Z,177003503514207
+"Player stacks: #2 ""RYOTA @ SrJdWlcNBY"" (2100) | #4 ""cymx2724 @ Yg9-tEe5QH"" (1970) | #5 ""k.k @ 2GlUDrVHSg"" (2300) | #7 ""たろす @ _EAr7O2lyX"" (3203) | #9 ""常盤木いつき @ 0QyEE5Hc9o"" (2585)",2026-02-02T12:23:55.142Z,177003503514201
+"-- starting hand #35 (id: fyimav7cg9br)  (No Limit Texas Hold'em) (dealer: ""cymx2724 @ Yg9-tEe5QH"") --",2026-02-02T12:23:55.142Z,177003503514200
+"-- ending hand #34 --",2026-02-02T12:23:49.136Z,177003502913602
+"""k.k @ 2GlUDrVHSg"" collected 220 from pot with Pair, 9's (combination: 9♦, 9♥, A♣, K♥, 5♦)",2026-02-02T12:23:49.136Z,177003502913601
+"""k.k @ 2GlUDrVHSg"" shows a K♥, 9♦.",2026-02-02T12:23:49.136Z,177003502913600
+"""RYOTA @ SrJdWlcNBY"" checks",2026-02-02T12:23:48.311Z,177003502831100
+"""k.k @ 2GlUDrVHSg"" checks",2026-02-02T12:23:42.116Z,177003502211600
+"River: 5♦, 3♣, 9♥, A♣ [2♣]",2026-02-02T12:23:38.027Z,177003501802700
+"""k.k @ 2GlUDrVHSg"" calls 45",2026-02-02T12:23:37.214Z,177003501721400
+"""RYOTA @ SrJdWlcNBY"" bets 45",2026-02-02T12:23:35.573Z,177003501557300
+"""k.k @ 2GlUDrVHSg"" checks",2026-02-02T12:23:24.233Z,177003500423300
+"Turn: 5♦, 3♣, 9♥ [A♣]",2026-02-02T12:23:15.869Z,177003499586900
+"""RYOTA @ SrJdWlcNBY"" checks",2026-02-02T12:23:15.023Z,177003499502300
+"""k.k @ 2GlUDrVHSg"" checks",2026-02-02T12:23:09.421Z,177003498942100
+"Flop:  [5♦, 3♣, 9♥]",2026-02-02T12:23:06.095Z,177003498609500
+"""k.k @ 2GlUDrVHSg"" calls 60",2026-02-02T12:23:05.277Z,177003498527700
+"""cymx2724 @ Yg9-tEe5QH"" folds",2026-02-02T12:23:02.613Z,177003498261300
+"""RYOTA @ SrJdWlcNBY"" raises to 60",2026-02-02T12:23:01.051Z,177003498105100
+"""常盤木いつき @ 0QyEE5Hc9o"" folds",2026-02-02T12:22:54.994Z,177003497499400
+"""たろす @ _EAr7O2lyX"" folds",2026-02-02T12:22:48.169Z,177003496816900
+"""k.k @ 2GlUDrVHSg"" posts a big blind of 20",2026-02-02T12:22:45.805Z,177003496580508
+"""cymx2724 @ Yg9-tEe5QH"" posts a small blind of 10",2026-02-02T12:22:45.805Z,177003496580507
+"Player stacks: #2 ""RYOTA @ SrJdWlcNBY"" (2205) | #4 ""cymx2724 @ Yg9-tEe5QH"" (1980) | #5 ""k.k @ 2GlUDrVHSg"" (2185) | #7 ""たろす @ _EAr7O2lyX"" (3203) | #9 ""常盤木いつき @ 0QyEE5Hc9o"" (2585)",2026-02-02T12:22:45.805Z,177003496580501
+"-- starting hand #34 (id: opotwmxm1fav)  (No Limit Texas Hold'em) (dealer: ""RYOTA @ SrJdWlcNBY"") --",2026-02-02T12:22:45.805Z,177003496580500
+"-- ending hand #33 --",2026-02-02T12:22:42.899Z,177003496289902
+"""常盤木いつき @ 0QyEE5Hc9o"" collected 110 from pot",2026-02-02T12:22:42.899Z,177003496289901
+"Uncalled bet of 80 returned to ""常盤木いつき @ 0QyEE5Hc9o""",2026-02-02T12:22:42.899Z,177003496289900
+"""k.k @ 2GlUDrVHSg"" folds",2026-02-02T12:22:42.063Z,177003496206300
+"""cymx2724 @ Yg9-tEe5QH"" folds",2026-02-02T12:22:37.083Z,177003495708300
+"""RYOTA @ SrJdWlcNBY"" folds",2026-02-02T12:22:35.850Z,177003495585000
+"""常盤木いつき @ 0QyEE5Hc9o"" raises to 120",2026-02-02T12:22:33.821Z,177003495382100
+"""たろす @ _EAr7O2lyX"" folds",2026-02-02T12:22:25.013Z,177003494501300
+"""k.k @ 2GlUDrVHSg"" raises to 40",2026-02-02T12:22:23.841Z,177003494384100
+"""cymx2724 @ Yg9-tEe5QH"" posts a big blind of 20",2026-02-02T12:21:04.045Z,177003486404508
+"""RYOTA @ SrJdWlcNBY"" posts a small blind of 10",2026-02-02T12:21:04.045Z,177003486404507
+"Player stacks: #2 ""RYOTA @ SrJdWlcNBY"" (2215) | #4 ""cymx2724 @ Yg9-tEe5QH"" (2000) | #5 ""k.k @ 2GlUDrVHSg"" (2225) | #7 ""たろす @ _EAr7O2lyX"" (3203) | #9 ""常盤木いつき @ 0QyEE5Hc9o"" (2515)",2026-02-02T12:21:04.045Z,177003486404501
+"-- starting hand #33 (id: 1pnhgks1gfnd)  (No Limit Texas Hold'em) (dealer: ""常盤木いつき @ 0QyEE5Hc9o"") --",2026-02-02T12:21:04.045Z,177003486404500
+"-- ending hand #32 --",2026-02-02T12:21:01.113Z,177003486111302
+"""cymx2724 @ Yg9-tEe5QH"" collected 50 from pot",2026-02-02T12:21:01.113Z,177003486111301
+"Uncalled bet of 20 returned to ""cymx2724 @ Yg9-tEe5QH""",2026-02-02T12:21:01.113Z,177003486111300
+"""RYOTA @ SrJdWlcNBY"" folds",2026-02-02T12:21:00.303Z,177003486030300
+"""常盤木いつき @ 0QyEE5Hc9o"" folds",2026-02-02T12:20:58.084Z,177003485808400
+"""たろす @ _EAr7O2lyX"" folds",2026-02-02T12:20:55.407Z,177003485540700
+"""k.k @ 2GlUDrVHSg"" folds",2026-02-02T12:20:54.107Z,177003485410700
+"""cymx2724 @ Yg9-tEe5QH"" raises to 40",2026-02-02T12:19:13.265Z,177003475326500
+"""RYOTA @ SrJdWlcNBY"" posts a big blind of 20",2026-02-02T12:18:56.144Z,177003473614408
+"""常盤木いつき @ 0QyEE5Hc9o"" posts a small blind of 10",2026-02-02T12:18:56.144Z,177003473614407
+"Player stacks: #2 ""RYOTA @ SrJdWlcNBY"" (2235) | #4 ""cymx2724 @ Yg9-tEe5QH"" (1970) | #5 ""k.k @ 2GlUDrVHSg"" (2225) | #7 ""たろす @ _EAr7O2lyX"" (3203) | #9 ""常盤木いつき @ 0QyEE5Hc9o"" (2525)",2026-02-02T12:18:56.144Z,177003473614401
+"-- starting hand #32 (id: bgl4kmjfo73a)  (No Limit Texas Hold'em) (dealer: ""たろす @ _EAr7O2lyX"") --",2026-02-02T12:18:56.144Z,177003473614400
+"-- ending hand #31 --",2026-02-02T12:18:53.209Z,177003473320902
+"""RYOTA @ SrJdWlcNBY"" collected 50 from pot",2026-02-02T12:18:53.209Z,177003473320901
+"Uncalled bet of 40 returned to ""RYOTA @ SrJdWlcNBY""",2026-02-02T12:18:53.209Z,177003473320900
+"""常盤木いつき @ 0QyEE5Hc9o"" folds",2026-02-02T12:18:52.364Z,177003473236400
+"""たろす @ _EAr7O2lyX"" folds",2026-02-02T12:18:51.300Z,177003473130000
+"""k.k @ 2GlUDrVHSg"" folds",2026-02-02T12:18:49.897Z,177003472989700
+"""cymx2724 @ Yg9-tEe5QH"" folds",2026-02-02T12:18:48.813Z,177003472881300
+"""RYOTA @ SrJdWlcNBY"" raises to 60",2026-02-02T12:18:46.281Z,177003472628100
+"""常盤木いつき @ 0QyEE5Hc9o"" posts a big blind of 20",2026-02-02T12:18:39.096Z,177003471909608
+"""たろす @ _EAr7O2lyX"" posts a small blind of 10",2026-02-02T12:18:39.096Z,177003471909607
+"Player stacks: #2 ""RYOTA @ SrJdWlcNBY"" (2205) | #4 ""cymx2724 @ Yg9-tEe5QH"" (1970) | #5 ""k.k @ 2GlUDrVHSg"" (2225) | #7 ""たろす @ _EAr7O2lyX"" (3213) | #9 ""常盤木いつき @ 0QyEE5Hc9o"" (2545)",2026-02-02T12:18:39.096Z,177003471909601
+"-- starting hand #31 (id: kimjrjlh0epn)  (No Limit Texas Hold'em) (dealer: ""k.k @ 2GlUDrVHSg"") --",2026-02-02T12:18:39.096Z,177003471909600
+"-- ending hand #30 --",2026-02-02T12:18:36.149Z,177003471614902
+"""k.k @ 2GlUDrVHSg"" collected 40 from pot",2026-02-02T12:18:36.149Z,177003471614901
+"Uncalled bet of 60 returned to ""k.k @ 2GlUDrVHSg""",2026-02-02T12:18:36.149Z,177003471614900
+"""たろす @ _EAr7O2lyX"" folds",2026-02-02T12:18:35.340Z,177003471534000
+"""k.k @ 2GlUDrVHSg"" bets 60",2026-02-02T12:18:27.329Z,177003470732900
+"River: 8♠, 6♥, Q♦, 7♥ [4♠]",2026-02-02T12:18:05.728Z,177003468572800
+"""たろす @ _EAr7O2lyX"" checks",2026-02-02T12:18:04.920Z,177003468492000
+"""k.k @ 2GlUDrVHSg"" checks",2026-02-02T12:17:55.710Z,177003467571000
+"Turn: 8♠, 6♥, Q♦ [7♥]",2026-02-02T12:17:37.979Z,177003465797900
+"""たろす @ _EAr7O2lyX"" checks",2026-02-02T12:17:37.167Z,177003465716700
+"""k.k @ 2GlUDrVHSg"" checks",2026-02-02T12:17:26.868Z,177003464686800
+"Flop:  [8♠, 6♥, Q♦]",2026-02-02T12:17:21.501Z,177003464150100
+"""たろす @ _EAr7O2lyX"" checks",2026-02-02T12:17:20.668Z,177003464066800
+"""k.k @ 2GlUDrVHSg"" calls 20",2026-02-02T12:17:14.822Z,177003463482200
+"""cymx2724 @ Yg9-tEe5QH"" folds",2026-02-02T12:17:09.743Z,177003462974300
+"""RYOTA @ SrJdWlcNBY"" folds",2026-02-02T12:17:08.392Z,177003462839200
+"""常盤木いつき @ 0QyEE5Hc9o"" folds",2026-02-02T12:17:03.268Z,177003462326800
+"""たろす @ _EAr7O2lyX"" posts a big blind of 20",2026-02-02T12:17:01.553Z,177003462155308
+"""k.k @ 2GlUDrVHSg"" posts a small blind of 10",2026-02-02T12:17:01.553Z,177003462155307
+"Player stacks: #2 ""RYOTA @ SrJdWlcNBY"" (2205) | #4 ""cymx2724 @ Yg9-tEe5QH"" (1970) | #5 ""k.k @ 2GlUDrVHSg"" (2205) | #7 ""たろす @ _EAr7O2lyX"" (3233) | #9 ""常盤木いつき @ 0QyEE5Hc9o"" (2545)",2026-02-02T12:17:01.553Z,177003462155301
+"-- starting hand #30 (id: u8hadecjkwdb)  (No Limit Texas Hold'em) (dealer: ""cymx2724 @ Yg9-tEe5QH"") --",2026-02-02T12:17:01.553Z,177003462155300
+"-- ending hand #29 --",2026-02-02T12:16:55.529Z,177003461552903
+"""RYOTA @ SrJdWlcNBY"" collected 460 from pot with Pair, J's (combination: J♦, J♠, K♠, Q♦, 10♠)",2026-02-02T12:16:55.529Z,177003461552902
+"""RYOTA @ SrJdWlcNBY"" shows a Q♦, J♦.",2026-02-02T12:16:55.529Z,177003461552901
+"""k.k @ 2GlUDrVHSg"" shows a A♦, 2♦.",2026-02-02T12:16:55.529Z,177003461552900
+"""RYOTA @ SrJdWlcNBY"" checks",2026-02-02T12:16:54.709Z,177003461470900
+"""k.k @ 2GlUDrVHSg"" checks",2026-02-02T12:16:52.636Z,177003461263600
+"River: 10♠, 5♦, J♠, 3♦ [K♠]",2026-02-02T12:16:50.255Z,177003461025500
+"""k.k @ 2GlUDrVHSg"" calls 115",2026-02-02T12:16:49.428Z,177003460942800
+"""RYOTA @ SrJdWlcNBY"" bets 115",2026-02-02T12:16:46.203Z,177003460620300
+"""k.k @ 2GlUDrVHSg"" checks",2026-02-02T12:16:33.994Z,177003459399400
+"Turn: 10♠, 5♦, J♠ [3♦]",2026-02-02T12:16:31.915Z,177003459191500
+"""k.k @ 2GlUDrVHSg"" calls 50",2026-02-02T12:16:31.005Z,177003459100500
+"""RYOTA @ SrJdWlcNBY"" bets 50",2026-02-02T12:16:29.507Z,177003458950700
+"""k.k @ 2GlUDrVHSg"" checks",2026-02-02T12:16:21.119Z,177003458111900
+"Flop:  [10♠, 5♦, J♠]",2026-02-02T12:16:16.069Z,177003457606900
+"""k.k @ 2GlUDrVHSg"" calls 60",2026-02-02T12:16:15.211Z,177003457521100
+"""cymx2724 @ Yg9-tEe5QH"" folds",2026-02-02T12:16:13.945Z,177003457394500
+"""RYOTA @ SrJdWlcNBY"" raises to 60",2026-02-02T12:16:12.739Z,177003457273900
+"""常盤木いつき @ 0QyEE5Hc9o"" folds",2026-02-02T12:16:06.178Z,177003456617800
+"""たろす @ _EAr7O2lyX"" folds",2026-02-02T12:16:05.022Z,177003456502200
+"""k.k @ 2GlUDrVHSg"" posts a big blind of 20",2026-02-02T12:15:58.325Z,177003455832508
+"""cymx2724 @ Yg9-tEe5QH"" posts a small blind of 10",2026-02-02T12:15:58.325Z,177003455832507
+"Player stacks: #2 ""RYOTA @ SrJdWlcNBY"" (1970) | #4 ""cymx2724 @ Yg9-tEe5QH"" (1980) | #5 ""k.k @ 2GlUDrVHSg"" (2430) | #7 ""たろす @ _EAr7O2lyX"" (3233) | #9 ""常盤木いつき @ 0QyEE5Hc9o"" (2545)",2026-02-02T12:15:58.325Z,177003455832501
+"-- starting hand #29 (id: afvdzvedudnq)  (No Limit Texas Hold'em) (dealer: ""RYOTA @ SrJdWlcNBY"") --",2026-02-02T12:15:58.325Z,177003455832500
+"-- ending hand #28 --",2026-02-02T12:15:55.376Z,177003455537602
+"""cymx2724 @ Yg9-tEe5QH"" collected 20 from pot",2026-02-02T12:15:55.376Z,177003455537601
+"Uncalled bet of 10 returned to ""cymx2724 @ Yg9-tEe5QH""",2026-02-02T12:15:55.376Z,177003455537600
+"""RYOTA @ SrJdWlcNBY"" folds",2026-02-02T12:15:54.549Z,177003455454900
+"""常盤木いつき @ 0QyEE5Hc9o"" folds",2026-02-02T12:15:53.467Z,177003455346700
+"""たろす @ _EAr7O2lyX"" folds",2026-02-02T12:15:52.224Z,177003455222400
+"""k.k @ 2GlUDrVHSg"" folds",2026-02-02T12:15:50.390Z,177003455039000
+"""cymx2724 @ Yg9-tEe5QH"" posts a big blind of 20",2026-02-02T12:15:47.118Z,177003454711808
+"""RYOTA @ SrJdWlcNBY"" posts a small blind of 10",2026-02-02T12:15:47.118Z,177003454711807
+"Player stacks: #2 ""RYOTA @ SrJdWlcNBY"" (1980) | #4 ""cymx2724 @ Yg9-tEe5QH"" (1970) | #5 ""k.k @ 2GlUDrVHSg"" (2430) | #7 ""たろす @ _EAr7O2lyX"" (3233) | #9 ""常盤木いつき @ 0QyEE5Hc9o"" (2545)",2026-02-02T12:15:47.118Z,177003454711801
+"-- starting hand #28 (id: oeqyipikwzg6)  (No Limit Texas Hold'em) (dealer: ""常盤木いつき @ 0QyEE5Hc9o"") --",2026-02-02T12:15:47.118Z,177003454711800
+"-- ending hand #27 --",2026-02-02T12:15:44.137Z,177003454413702
+"""k.k @ 2GlUDrVHSg"" collected 50 from pot",2026-02-02T12:15:44.137Z,177003454413701
+"Uncalled bet of 60 returned to ""k.k @ 2GlUDrVHSg""",2026-02-02T12:15:44.137Z,177003454413700
+"""RYOTA @ SrJdWlcNBY"" folds",2026-02-02T12:15:43.313Z,177003454331300
+"""常盤木いつき @ 0QyEE5Hc9o"" folds",2026-02-02T12:15:42.290Z,177003454229000
+"""たろす @ _EAr7O2lyX"" folds",2026-02-02T12:15:33.008Z,177003453300800
+"""k.k @ 2GlUDrVHSg"" raises to 80",2026-02-02T12:15:30.970Z,177003453097000
+"""cymx2724 @ Yg9-tEe5QH"" folds",2026-02-02T12:15:24.755Z,177003452475500
+"""RYOTA @ SrJdWlcNBY"" posts a big blind of 20",2026-02-02T12:15:22.698Z,177003452269808
+"""常盤木いつき @ 0QyEE5Hc9o"" posts a small blind of 10",2026-02-02T12:15:22.698Z,177003452269807
+"Player stacks: #2 ""RYOTA @ SrJdWlcNBY"" (2000) | #4 ""cymx2724 @ Yg9-tEe5QH"" (1970) | #5 ""k.k @ 2GlUDrVHSg"" (2400) | #7 ""たろす @ _EAr7O2lyX"" (3233) | #9 ""常盤木いつき @ 0QyEE5Hc9o"" (2555)",2026-02-02T12:15:22.698Z,177003452269801
+"-- starting hand #27 (id: 7c2sz1righag)  (No Limit Texas Hold'em) (dealer: ""たろす @ _EAr7O2lyX"") --",2026-02-02T12:15:22.698Z,177003452269800
+"-- ending hand #26 --",2026-02-02T12:15:19.719Z,177003451971902
+"""たろす @ _EAr7O2lyX"" collected 40 from pot",2026-02-02T12:15:19.719Z,177003451971901
+"Uncalled bet of 40 returned to ""たろす @ _EAr7O2lyX""",2026-02-02T12:15:19.719Z,177003451971900
+"""常盤木いつき @ 0QyEE5Hc9o"" folds",2026-02-02T12:15:18.906Z,177003451890600
+"""たろす @ _EAr7O2lyX"" raises to 60",2026-02-02T12:15:15.540Z,177003451554000
+"""k.k @ 2GlUDrVHSg"" folds",2026-02-02T12:15:04.719Z,177003450471900
+"""cymx2724 @ Yg9-tEe5QH"" folds",2026-02-02T12:15:03.646Z,177003450364600
+"""RYOTA @ SrJdWlcNBY"" folds",2026-02-02T12:14:45.492Z,177003448549200
+"""常盤木いつき @ 0QyEE5Hc9o"" posts a big blind of 20",2026-02-02T12:14:35.916Z,177003447591610
+"""たろす @ _EAr7O2lyX"" posts a small blind of 10",2026-02-02T12:14:35.916Z,177003447591609
+"Player stacks: #2 ""RYOTA @ SrJdWlcNBY"" (2000) | #4 ""cymx2724 @ Yg9-tEe5QH"" (1970) | #5 ""k.k @ 2GlUDrVHSg"" (2400) | #7 ""たろす @ _EAr7O2lyX"" (3213) | #9 ""常盤木いつき @ 0QyEE5Hc9o"" (2575)",2026-02-02T12:14:35.916Z,177003447591603
+"-- starting hand #26 (id: kfubdv5yj3xc)  (No Limit Texas Hold'em) (dealer: ""k.k @ 2GlUDrVHSg"") --",2026-02-02T12:14:35.916Z,177003447591602
+"The player ""ノガード @ GgfRhPuspx"" quits the game with a stack of 2000.",2026-02-02T12:14:35.916Z,177003447591601
+"The admin updated the player ""RYOTA @ SrJdWlcNBY"" stack from 1455 to 2000.",2026-02-02T12:14:35.916Z,177003447591600
+"-- ending hand #25 --",2026-02-02T12:14:29.854Z,177003446985403
+"""たろす @ _EAr7O2lyX"" collected 1160 from pot with Two Pair, 6's & 2's (combination: 6♦, 6♥, 2♠, 2♣, A♠)",2026-02-02T12:14:29.854Z,177003446985402
+"""たろす @ _EAr7O2lyX"" shows a A♠, 10♠.",2026-02-02T12:14:29.854Z,177003446985401
+"""k.k @ 2GlUDrVHSg"" shows a 3♦, 4♦.",2026-02-02T12:14:29.854Z,177003446985400
+"""たろす @ _EAr7O2lyX"" calls 400",2026-02-02T12:14:29.045Z,177003446904500
+"""k.k @ 2GlUDrVHSg"" bets 400",2026-02-02T12:12:46.972Z,177003436697200
+"River: 2♠, 2♣, 6♦, 6♥ [7♠]",2026-02-02T12:12:34.595Z,177003435459500
+"""たろす @ _EAr7O2lyX"" checks",2026-02-02T12:12:33.748Z,177003435374800
+"""k.k @ 2GlUDrVHSg"" checks",2026-02-02T12:12:24.396Z,177003434439600
+"Turn: 2♠, 2♣, 6♦ [6♥]",2026-02-02T12:12:16.659Z,177003433665900
+"""たろす @ _EAr7O2lyX"" checks",2026-02-02T12:12:15.843Z,177003433584300
+"""k.k @ 2GlUDrVHSg"" checks",2026-02-02T12:12:05.809Z,177003432580900
+"Flop:  [2♠, 2♣, 6♦]",2026-02-02T12:11:55.371Z,177003431537100
+"""k.k @ 2GlUDrVHSg"" calls 180",2026-02-02T12:11:54.566Z,177003431456600
+"""たろす @ _EAr7O2lyX"" raises to 180",2026-02-02T12:11:49.639Z,177003430963900
+"""k.k @ 2GlUDrVHSg"" raises to 50",2026-02-02T12:11:36.039Z,177003429603900
+"""cymx2724 @ Yg9-tEe5QH"" folds",2026-02-02T12:11:26.442Z,177003428644200
+"""RYOTA @ SrJdWlcNBY"" folds",2026-02-02T12:11:25.260Z,177003428526000
+"""ノガード @ GgfRhPuspx"" folds",2026-02-02T12:11:17.848Z,177003427784800
+"WARNING: the admin queued the stack change for the player ""RYOTA @ SrJdWlcNBY"" reseting to 2000 chips in the next hand.",2026-02-02T12:11:16.917Z,177003427691700
+"""常盤木いつき @ 0QyEE5Hc9o"" folds",2026-02-02T12:11:16.834Z,177003427683400
+"""たろす @ _EAr7O2lyX"" posts a big blind of 20",2026-02-02T12:11:14.856Z,177003427485610
+"""k.k @ 2GlUDrVHSg"" posts a small blind of 10",2026-02-02T12:11:14.856Z,177003427485609
+"Your hand is 3♣, 10♥",2026-02-02T12:11:14.856Z,177003427485603
+"Player stacks: #1 ""ノガード @ GgfRhPuspx"" (2000) | #2 ""RYOTA @ SrJdWlcNBY"" (1455) | #4 ""cymx2724 @ Yg9-tEe5QH"" (1970) | #5 ""k.k @ 2GlUDrVHSg"" (2980) | #7 ""たろす @ _EAr7O2lyX"" (2633) | #9 ""常盤木いつき @ 0QyEE5Hc9o"" (2575)",2026-02-02T12:11:14.856Z,177003427485602
+"-- starting hand #25 (id: vpaqgpl6gcz4)  (No Limit Texas Hold'em) (dealer: ""cymx2724 @ Yg9-tEe5QH"") --",2026-02-02T12:11:14.856Z,177003427485601
+"The player ""ノガード @ GgfRhPuspx"" joined the game with a stack of 2000.",2026-02-02T12:11:14.856Z,177003427485600
+"-- ending hand #24 --",2026-02-02T12:11:08.846Z,177003426884603
+"""常盤木いつき @ 0QyEE5Hc9o"" collected 1120 from pot with Pair, A's (combination: A♠, A♣, 10♥, 8♥, 6♥)",2026-02-02T12:11:08.846Z,177003426884602
+"""常盤木いつき @ 0QyEE5Hc9o"" shows a A♠, 10♥.",2026-02-02T12:11:08.846Z,177003426884601
+"""RYOTA @ SrJdWlcNBY"" shows a J♥, J♦.",2026-02-02T12:11:08.846Z,177003426884600
+"""常盤木いつき @ 0QyEE5Hc9o"" calls 340",2026-02-02T12:11:07.952Z,177003426795200
+"The admin approved the player ""ノガード @ GgfRhPuspx"" participation with a stack of 2000.",2026-02-02T12:10:49.758Z,177003424975800
+"The player ""ノガード @ GgfRhPuspx"" requested a seat.",2026-02-02T12:10:49.108Z,177003424910800
+"""RYOTA @ SrJdWlcNBY"" raises to 340",2026-02-02T12:10:43.931Z,177003424393100
+"""常盤木いつき @ 0QyEE5Hc9o"" bets 140",2026-02-02T12:10:15.696Z,177003421569600
+"River: 5♥, 8♥, A♣, 3♣ [6♥]",2026-02-02T12:10:06.798Z,177003420679800
+"""RYOTA @ SrJdWlcNBY"" checks",2026-02-02T12:10:05.953Z,177003420595300
+"""常盤木いつき @ 0QyEE5Hc9o"" checks",2026-02-02T12:10:03.490Z,177003420349000
+"Turn: 5♥, 8♥, A♣ [3♣]",2026-02-02T12:10:01.984Z,177003420198400
+"""常盤木いつき @ 0QyEE5Hc9o"" calls 85",2026-02-02T12:10:01.090Z,177003420109000
+"""RYOTA @ SrJdWlcNBY"" bets 85",2026-02-02T12:09:57.285Z,177003419728500
+"""常盤木いつき @ 0QyEE5Hc9o"" checks",2026-02-02T12:09:44.836Z,177003418483600
+"Flop:  [5♥, 8♥, A♣]",2026-02-02T12:09:42.328Z,177003418232800
+"""常盤木いつき @ 0QyEE5Hc9o"" calls 120",2026-02-02T12:09:41.486Z,177003418148600
+"""k.k @ 2GlUDrVHSg"" folds",2026-02-02T12:09:38.395Z,177003417839500
+"""cymx2724 @ Yg9-tEe5QH"" folds",2026-02-02T12:09:33.904Z,177003417390400
+"""RYOTA @ SrJdWlcNBY"" raises to 120",2026-02-02T12:09:30.553Z,177003417055300
+"""常盤木いつき @ 0QyEE5Hc9o"" raises to 46",2026-02-02T12:09:15.561Z,177003415556100
+"""たろす @ _EAr7O2lyX"" folds",2026-02-02T12:09:08.020Z,177003414802000
+"""k.k @ 2GlUDrVHSg"" posts a big blind of 20",2026-02-02T12:09:00.924Z,177003414092409
+"""cymx2724 @ Yg9-tEe5QH"" posts a small blind of 10",2026-02-02T12:09:00.924Z,177003414092408
+"Player stacks: #2 ""RYOTA @ SrJdWlcNBY"" (2000) | #4 ""cymx2724 @ Yg9-tEe5QH"" (1980) | #5 ""k.k @ 2GlUDrVHSg"" (3000) | #7 ""たろす @ _EAr7O2lyX"" (2633) | #9 ""常盤木いつき @ 0QyEE5Hc9o"" (2000)",2026-02-02T12:09:00.924Z,177003414092402
+"-- starting hand #24 (id: plncjua9pq0s)  (No Limit Texas Hold'em) (dealer: ""RYOTA @ SrJdWlcNBY"") --",2026-02-02T12:09:00.924Z,177003414092401
+"The admin updated the player ""RYOTA @ SrJdWlcNBY"" stack from 2020 to 2000.",2026-02-02T12:09:00.924Z,177003414092400
+"-- ending hand #23 --",2026-02-02T12:08:58.021Z,177003413802102
+"""RYOTA @ SrJdWlcNBY"" collected 40 from pot",2026-02-02T12:08:58.021Z,177003413802101
+"Uncalled bet of 40 returned to ""RYOTA @ SrJdWlcNBY""",2026-02-02T12:08:58.021Z,177003413802100
+"""cymx2724 @ Yg9-tEe5QH"" folds",2026-02-02T12:08:57.211Z,177003413721100
+"""RYOTA @ SrJdWlcNBY"" raises to 60",2026-02-02T12:08:55.990Z,177003413599000
+"""常盤木いつき @ 0QyEE5Hc9o"" folds",2026-02-02T12:08:45.113Z,177003412511300
+"""たろす @ _EAr7O2lyX"" folds",2026-02-02T12:08:39.491Z,177003411949100
+"""k.k @ 2GlUDrVHSg"" folds",2026-02-02T12:08:38.076Z,177003411807600
+"WARNING: the admin queued the stack change for the player ""RYOTA @ SrJdWlcNBY"" reseting to 2000 chips in the next hand.",2026-02-02T12:08:37.231Z,177003411723100
+"""cymx2724 @ Yg9-tEe5QH"" posts a big blind of 20",2026-02-02T12:08:35.459Z,177003411545911
+"""RYOTA @ SrJdWlcNBY"" posts a small blind of 10",2026-02-02T12:08:35.459Z,177003411545910
+"Player stacks: #2 ""RYOTA @ SrJdWlcNBY"" (2000) | #4 ""cymx2724 @ Yg9-tEe5QH"" (2000) | #5 ""k.k @ 2GlUDrVHSg"" (3000) | #7 ""たろす @ _EAr7O2lyX"" (2633) | #9 ""常盤木いつき @ 0QyEE5Hc9o"" (2000)",2026-02-02T12:08:35.459Z,177003411545904
+"-- starting hand #23 (id: 7g1fnsepaxbk)  (No Limit Texas Hold'em) (dealer: ""常盤木いつき @ 0QyEE5Hc9o"") --",2026-02-02T12:08:35.459Z,177003411545903
+"The admin updated the player ""常盤木いつき @ 0QyEE5Hc9o"" stack from 2140 to 2000.",2026-02-02T12:08:35.459Z,177003411545902
+"The admin updated the player ""k.k @ 2GlUDrVHSg"" stack from 3908 to 3000.",2026-02-02T12:08:35.459Z,177003411545901
+"The admin updated the player ""RYOTA @ SrJdWlcNBY"" stack from 1929 to 2000.",2026-02-02T12:08:35.459Z,177003411545900
+"-- ending hand #22 --",2026-02-02T12:08:29.452Z,177003410945202
+"""常盤木いつき @ 0QyEE5Hc9o"" collected 260 from pot with Pair, 8's (combination: 8♣, 8♦, Q♠, 7♣, 6♠)",2026-02-02T12:08:29.452Z,177003410945201
+"""常盤木いつき @ 0QyEE5Hc9o"" shows a 8♣, 8♦.",2026-02-02T12:08:29.452Z,177003410945200
+"""k.k @ 2GlUDrVHSg"" checks",2026-02-02T12:08:28.626Z,177003410862600
+"""常盤木いつき @ 0QyEE5Hc9o"" checks",2026-02-02T12:08:26.816Z,177003410681600
+"River: Q♠, 7♣, 6♠, 2♣ [5♦]",2026-02-02T12:08:24.618Z,177003410461800
+"""k.k @ 2GlUDrVHSg"" checks",2026-02-02T12:08:23.812Z,177003410381200
+"""常盤木いつき @ 0QyEE5Hc9o"" checks",2026-02-02T12:08:20.912Z,177003410091200
+"Turn: Q♠, 7♣, 6♠ [2♣]",2026-02-02T12:08:19.153Z,177003409915300
+"""常盤木いつき @ 0QyEE5Hc9o"" calls 60",2026-02-02T12:08:18.326Z,177003409832600
+"""k.k @ 2GlUDrVHSg"" bets 60",2026-02-02T12:08:13.391Z,177003409339100
+"""常盤木いつき @ 0QyEE5Hc9o"" checks",2026-02-02T12:08:06.576Z,177003408657600
+"Flop:  [Q♠, 7♣, 6♠]",2026-02-02T12:08:04.131Z,177003408413100
+"""RYOTA @ SrJdWlcNBY"" folds",2026-02-02T12:08:03.300Z,177003408330000
+"""常盤木いつき @ 0QyEE5Hc9o"" calls 60",2026-02-02T12:08:01.693Z,177003408169300
+"""たろす @ _EAr7O2lyX"" folds",2026-02-02T12:07:54.101Z,177003407410100
+"""k.k @ 2GlUDrVHSg"" raises to 60",2026-02-02T12:07:52.842Z,177003407284200
+"WARNING: the admin queued the stack change for the player ""常盤木いつき @ 0QyEE5Hc9o"" reseting to 2000 chips in the next hand.",2026-02-02T12:07:44.378Z,177003406437800
+"""cymx2724 @ Yg9-tEe5QH"" folds",2026-02-02T12:07:43.597Z,177003406359700
+"WARNING: the admin queued the stack change for the player ""k.k @ 2GlUDrVHSg"" reseting to 3000 chips in the next hand.",2026-02-02T12:07:42.955Z,177003406295500
+"WARNING: the admin queued the stack change for the player ""RYOTA @ SrJdWlcNBY"" reseting to 2000 chips in the next hand.",2026-02-02T12:07:41.538Z,177003406153800
+"""RYOTA @ SrJdWlcNBY"" posts a big blind of 20",2026-02-02T12:07:38.491Z,177003405849110
+"""常盤木いつき @ 0QyEE5Hc9o"" posts a small blind of 10",2026-02-02T12:07:38.491Z,177003405849109
+"Player stacks: #2 ""RYOTA @ SrJdWlcNBY"" (1949) | #4 ""cymx2724 @ Yg9-tEe5QH"" (2000) | #5 ""k.k @ 2GlUDrVHSg"" (4028) | #7 ""たろす @ _EAr7O2lyX"" (2633) | #9 ""常盤木いつき @ 0QyEE5Hc9o"" (2000)",2026-02-02T12:07:38.491Z,177003405849103
+"-- starting hand #22 (id: qc05ddx6reuy)  (No Limit Texas Hold'em) (dealer: ""たろす @ _EAr7O2lyX"") --",2026-02-02T12:07:38.491Z,177003405849102
+"The admin updated the player ""常盤木いつき @ 0QyEE5Hc9o"" stack from 1980 to 2000.",2026-02-02T12:07:38.491Z,177003405849101
+"The admin updated the player ""cymx2724 @ Yg9-tEe5QH"" stack from 1898 to 2000.",2026-02-02T12:07:38.491Z,177003405849100
+"-- ending hand #21 --",2026-02-02T12:07:35.586Z,177003405558602
+"""k.k @ 2GlUDrVHSg"" collected 132 from pot",2026-02-02T12:07:35.586Z,177003405558601
+"Uncalled bet of 99 returned to ""k.k @ 2GlUDrVHSg""",2026-02-02T12:07:35.586Z,177003405558600
+"""RYOTA @ SrJdWlcNBY"" folds",2026-02-02T12:07:34.769Z,177003405476900
+"""常盤木いつき @ 0QyEE5Hc9o"" folds",2026-02-02T12:07:16.045Z,177003403604500
+"""たろす @ _EAr7O2lyX"" folds",2026-02-02T12:07:14.881Z,177003403488100
+"""k.k @ 2GlUDrVHSg"" raises to 150",2026-02-02T12:07:06.261Z,177003402626100
+"""cymx2724 @ Yg9-tEe5QH"" folds",2026-02-02T12:06:52.888Z,177003401288800
+"""RYOTA @ SrJdWlcNBY"" raises to 51",2026-02-02T12:06:48.644Z,177003400864400
+"WARNING: the admin queued the stack change for the player ""常盤木いつき @ 0QyEE5Hc9o"" reseting to 2000 chips in the next hand.",2026-02-02T12:06:34.612Z,177003399461200
+"WARNING: the admin queued the stack change for the player ""cymx2724 @ Yg9-tEe5QH"" reseting to 2000 chips in the next hand.",2026-02-02T12:06:32.690Z,177003399269000
+"""常盤木いつき @ 0QyEE5Hc9o"" posts a big blind of 20",2026-02-02T12:06:29.936Z,177003398993608
+"""たろす @ _EAr7O2lyX"" posts a small blind of 10",2026-02-02T12:06:29.936Z,177003398993607
+"Player stacks: #2 ""RYOTA @ SrJdWlcNBY"" (2000) | #4 ""cymx2724 @ Yg9-tEe5QH"" (1898) | #5 ""k.k @ 2GlUDrVHSg"" (3947) | #7 ""たろす @ _EAr7O2lyX"" (2643) | #9 ""常盤木いつき @ 0QyEE5Hc9o"" (2000)",2026-02-02T12:06:29.936Z,177003398993601
+"-- starting hand #21 (id: f6dgvzl589nq)  (No Limit Texas Hold'em) (dealer: ""k.k @ 2GlUDrVHSg"") --",2026-02-02T12:06:29.936Z,177003398993600
+"-- ending hand #20 --",2026-02-02T12:06:27.000Z,177003398700002
+"""k.k @ 2GlUDrVHSg"" collected 680 from pot",2026-02-02T12:06:27.000Z,177003398700001
+"Uncalled bet of 680 returned to ""k.k @ 2GlUDrVHSg""",2026-02-02T12:06:27.000Z,177003398700000
+"""cymx2724 @ Yg9-tEe5QH"" folds",2026-02-02T12:06:26.164Z,177003398616400
+"""k.k @ 2GlUDrVHSg"" bets 680",2026-02-02T12:05:48.458Z,177003394845800
+"River: 3♣, 3♥, K♦, 10♣ [5♠]",2026-02-02T12:05:39.288Z,177003393928800
+"""cymx2724 @ Yg9-tEe5QH"" calls 170",2026-02-02T12:05:38.424Z,177003393842400
+"""k.k @ 2GlUDrVHSg"" bets 170",2026-02-02T12:05:10.162Z,177003391016200
+"Turn: 3♣, 3♥, K♦ [10♣]",2026-02-02T12:04:58.837Z,177003389883700
+"""cymx2724 @ Yg9-tEe5QH"" checks",2026-02-02T12:04:58.025Z,177003389802500
+"""k.k @ 2GlUDrVHSg"" checks",2026-02-02T12:04:41.663Z,177003388166300
+"Flop:  [3♣, 3♥, K♦]",2026-02-02T12:04:36.981Z,177003387698100
+"""cymx2724 @ Yg9-tEe5QH"" calls 160",2026-02-02T12:04:36.141Z,177003387614100
+"""たろす @ _EAr7O2lyX"" folds",2026-02-02T12:04:21.009Z,177003386100900
+"""k.k @ 2GlUDrVHSg"" raises to 160",2026-02-02T12:04:19.889Z,177003385988900
+"""cymx2724 @ Yg9-tEe5QH"" raises to 50",2026-02-02T12:04:11.522Z,177003385152200
+"""RYOTA @ SrJdWlcNBY"" folds",2026-02-02T12:04:01.672Z,177003384167200
+"""常盤木いつき @ 0QyEE5Hc9o"" folds",2026-02-02T12:04:00.552Z,177003384055200
+"""たろす @ _EAr7O2lyX"" posts a big blind of 20",2026-02-02T12:03:53.221Z,177003383322108
+"""k.k @ 2GlUDrVHSg"" posts a small blind of 10",2026-02-02T12:03:53.221Z,177003383322107
+"Player stacks: #2 ""RYOTA @ SrJdWlcNBY"" (2000) | #4 ""cymx2724 @ Yg9-tEe5QH"" (2228) | #5 ""k.k @ 2GlUDrVHSg"" (3597) | #7 ""たろす @ _EAr7O2lyX"" (2663) | #9 ""常盤木いつき @ 0QyEE5Hc9o"" (2000)",2026-02-02T12:03:53.221Z,177003383322101
+"-- starting hand #20 (id: 6hrcw4wocomv)  (No Limit Texas Hold'em) (dealer: ""cymx2724 @ Yg9-tEe5QH"") --",2026-02-02T12:03:53.221Z,177003383322100
+"-- ending hand #19 --",2026-02-02T12:03:50.249Z,177003383024902
+"""k.k @ 2GlUDrVHSg"" collected 20 from pot",2026-02-02T12:03:50.249Z,177003383024901
+"Uncalled bet of 10 returned to ""k.k @ 2GlUDrVHSg""",2026-02-02T12:03:50.249Z,177003383024900
+"""cymx2724 @ Yg9-tEe5QH"" folds",2026-02-02T12:03:49.433Z,177003382943300
+"""RYOTA @ SrJdWlcNBY"" folds",2026-02-02T12:03:39.910Z,177003381991000
+"""常盤木いつき @ 0QyEE5Hc9o"" folds",2026-02-02T12:03:37.148Z,177003381714800
+"""たろす @ _EAr7O2lyX"" folds",2026-02-02T12:03:36.083Z,177003381608300
+"""k.k @ 2GlUDrVHSg"" posts a big blind of 20",2026-02-02T12:03:30.411Z,177003381041110
+"""cymx2724 @ Yg9-tEe5QH"" posts a small blind of 10",2026-02-02T12:03:30.411Z,177003381041109
+"Player stacks: #2 ""RYOTA @ SrJdWlcNBY"" (2000) | #4 ""cymx2724 @ Yg9-tEe5QH"" (2238) | #5 ""k.k @ 2GlUDrVHSg"" (3587) | #7 ""たろす @ _EAr7O2lyX"" (2663) | #9 ""常盤木いつき @ 0QyEE5Hc9o"" (2000)",2026-02-02T12:03:30.411Z,177003381041103
+"-- starting hand #19 (id: mxwrosob8ylu)  (No Limit Texas Hold'em) (dealer: ""RYOTA @ SrJdWlcNBY"") --",2026-02-02T12:03:30.411Z,177003381041102
+"The admin updated the player ""常盤木いつき @ 0QyEE5Hc9o"" stack from 1990 to 2000.",2026-02-02T12:03:30.411Z,177003381041101
+"The admin updated the player ""RYOTA @ SrJdWlcNBY"" stack from 2040 to 2000.",2026-02-02T12:03:30.411Z,177003381041100
+"-- ending hand #18 --",2026-02-02T12:03:27.489Z,177003380748902
+"""RYOTA @ SrJdWlcNBY"" collected 140 from pot",2026-02-02T12:03:27.489Z,177003380748901
+"Uncalled bet of 140 returned to ""RYOTA @ SrJdWlcNBY""",2026-02-02T12:03:27.489Z,177003380748900
+"""k.k @ 2GlUDrVHSg"" folds",2026-02-02T12:03:26.677Z,177003380667700
+"""cymx2724 @ Yg9-tEe5QH"" folds",2026-02-02T12:03:21.180Z,177003380118000
+"""RYOTA @ SrJdWlcNBY"" raises to 200",2026-02-02T12:03:17.695Z,177003379769500
+"""常盤木いつき @ 0QyEE5Hc9o"" folds",2026-02-02T12:03:01.910Z,177003378191000
+"""たろす @ _EAr7O2lyX"" folds",2026-02-02T12:03:00.730Z,177003378073000
+"""k.k @ 2GlUDrVHSg"" raises to 60",2026-02-02T12:02:57.891Z,177003377789100
+"WARNING: the admin queued the stack change for the player ""常盤木いつき @ 0QyEE5Hc9o"" reseting to 2000 chips in the next hand.",2026-02-02T12:02:53.252Z,177003377325200
+"WARNING: the admin queued the stack change for the player ""RYOTA @ SrJdWlcNBY"" reseting to 2000 chips in the next hand.",2026-02-02T12:02:51.754Z,177003377175400
+"""cymx2724 @ Yg9-tEe5QH"" posts a big blind of 20",2026-02-02T12:02:48.148Z,177003376814808
+"""RYOTA @ SrJdWlcNBY"" posts a small blind of 10",2026-02-02T12:02:48.148Z,177003376814807
+"Player stacks: #2 ""RYOTA @ SrJdWlcNBY"" (1960) | #4 ""cymx2724 @ Yg9-tEe5QH"" (2258) | #5 ""k.k @ 2GlUDrVHSg"" (3647) | #7 ""たろす @ _EAr7O2lyX"" (2663) | #9 ""常盤木いつき @ 0QyEE5Hc9o"" (1990)",2026-02-02T12:02:48.148Z,177003376814801
+"-- starting hand #18 (id: duzoxhggjp91)  (No Limit Texas Hold'em) (dealer: ""常盤木いつき @ 0QyEE5Hc9o"") --",2026-02-02T12:02:48.148Z,177003376814800
+"-- ending hand #17 --",2026-02-02T12:02:45.241Z,177003376524102
+"""cymx2724 @ Yg9-tEe5QH"" collected 90 from pot",2026-02-02T12:02:45.241Z,177003376524101
+"Uncalled bet of 30 returned to ""cymx2724 @ Yg9-tEe5QH""",2026-02-02T12:02:45.241Z,177003376524100
+"""RYOTA @ SrJdWlcNBY"" folds",2026-02-02T12:02:44.372Z,177003376437200
+"""cymx2724 @ Yg9-tEe5QH"" bets 30",2026-02-02T12:02:35.667Z,177003375566700
+"""RYOTA @ SrJdWlcNBY"" checks",2026-02-02T12:02:19.288Z,177003373928800
+"Flop:  [Q♠, 7♦, 2♥]",2026-02-02T12:02:16.800Z,177003373680000
+"""RYOTA @ SrJdWlcNBY"" calls 40",2026-02-02T12:02:15.959Z,177003373595900
+"""常盤木いつき @ 0QyEE5Hc9o"" folds",2026-02-02T12:02:13.853Z,177003373385300
+"""たろす @ _EAr7O2lyX"" folds",2026-02-02T12:02:12.780Z,177003373278000
+"""k.k @ 2GlUDrVHSg"" folds",2026-02-02T12:02:11.707Z,177003373170700
+"""cymx2724 @ Yg9-tEe5QH"" raises to 40",2026-02-02T12:02:06.285Z,177003372628500
+"""RYOTA @ SrJdWlcNBY"" posts a big blind of 20",2026-02-02T12:02:01.106Z,177003372110609
+"""常盤木いつき @ 0QyEE5Hc9o"" posts a small blind of 10",2026-02-02T12:02:01.106Z,177003372110608
+"Player stacks: #2 ""RYOTA @ SrJdWlcNBY"" (2000) | #4 ""cymx2724 @ Yg9-tEe5QH"" (2208) | #5 ""k.k @ 2GlUDrVHSg"" (3647) | #7 ""たろす @ _EAr7O2lyX"" (2663) | #9 ""常盤木いつき @ 0QyEE5Hc9o"" (2000)",2026-02-02T12:02:01.106Z,177003372110602
+"-- starting hand #17 (id: bevfcuigtelk)  (No Limit Texas Hold'em) (dealer: ""たろす @ _EAr7O2lyX"") --",2026-02-02T12:02:01.106Z,177003372110601
+"The admin updated the player ""常盤木いつき @ 0QyEE5Hc9o"" stack from 2060 to 2000.",2026-02-02T12:02:01.106Z,177003372110600
+"-- ending hand #16 --",2026-02-02T12:01:55.095Z,177003371509502
+"""常盤木いつき @ 0QyEE5Hc9o"" collected 110 from pot with Pair, 3's (combination: 3♦, 3♣, K♦, J♠, 10♠)",2026-02-02T12:01:55.095Z,177003371509501
+"""常盤木いつき @ 0QyEE5Hc9o"" shows a 3♦, K♦.",2026-02-02T12:01:55.095Z,177003371509500
+"""cymx2724 @ Yg9-tEe5QH"" checks",2026-02-02T12:01:54.281Z,177003371428100
+"""常盤木いつき @ 0QyEE5Hc9o"" checks",2026-02-02T12:01:51.932Z,177003371193200
+"River: 10♠, 4♣, 7♦, 3♣ [J♠]",2026-02-02T12:01:48.656Z,177003370865600
+"""cymx2724 @ Yg9-tEe5QH"" checks",2026-02-02T12:01:47.825Z,177003370782500
+"""常盤木いつき @ 0QyEE5Hc9o"" checks",2026-02-02T12:01:40.079Z,177003370007900
+"Turn: 10♠, 4♣, 7♦ [3♣]",2026-02-02T12:01:34.451Z,177003369445100
+"""cymx2724 @ Yg9-tEe5QH"" checks",2026-02-02T12:01:33.614Z,177003369361400
+"""常盤木いつき @ 0QyEE5Hc9o"" checks",2026-02-02T12:01:13.371Z,177003367337100
+"Flop:  [10♠, 4♣, 7♦]",2026-02-02T12:01:11.426Z,177003367142600
+"""常盤木いつき @ 0QyEE5Hc9o"" calls 50",2026-02-02T12:01:10.568Z,177003367056800
+"""たろす @ _EAr7O2lyX"" folds",2026-02-02T12:01:08.291Z,177003366829100
+"""k.k @ 2GlUDrVHSg"" folds",2026-02-02T12:01:02.108Z,177003366210800
+"""cymx2724 @ Yg9-tEe5QH"" raises to 50",2026-02-02T12:01:00.962Z,177003366096200
+"""RYOTA @ SrJdWlcNBY"" folds",2026-02-02T12:00:54.232Z,177003365423200
+"WARNING: the admin queued the stack change for the player ""常盤木いつき @ 0QyEE5Hc9o"" reseting to 2000 chips in the next hand.",2026-02-02T12:00:53.535Z,177003365353500
+"""常盤木いつき @ 0QyEE5Hc9o"" posts a big blind of 20",2026-02-02T12:00:51.073Z,177003365107308
+"""たろす @ _EAr7O2lyX"" posts a small blind of 10",2026-02-02T12:00:51.073Z,177003365107307
+"Player stacks: #2 ""RYOTA @ SrJdWlcNBY"" (2000) | #4 ""cymx2724 @ Yg9-tEe5QH"" (2258) | #5 ""k.k @ 2GlUDrVHSg"" (3647) | #7 ""たろす @ _EAr7O2lyX"" (2673) | #9 ""常盤木いつき @ 0QyEE5Hc9o"" (2000)",2026-02-02T12:00:51.073Z,177003365107301
+"-- starting hand #16 (id: 1rsw0vef4dsv)  (No Limit Texas Hold'em) (dealer: ""k.k @ 2GlUDrVHSg"") --",2026-02-02T12:00:51.073Z,177003365107300
+"-- ending hand #15 --",2026-02-02T12:00:48.134Z,177003364813402
+"""k.k @ 2GlUDrVHSg"" collected 900 from pot",2026-02-02T12:00:48.134Z,177003364813401
+"Uncalled bet of 675 returned to ""k.k @ 2GlUDrVHSg""",2026-02-02T12:00:48.134Z,177003364813400
+"""たろす @ _EAr7O2lyX"" folds",2026-02-02T12:00:47.311Z,177003364731100
+"""k.k @ 2GlUDrVHSg"" bets 675",2026-02-02T12:00:43.569Z,177003364356900
+"River: 10♠, J♣, 6♦, 9♠ [5♣]",2026-02-02T12:00:12.708Z,177003361270800
+"""たろす @ _EAr7O2lyX"" calls 400",2026-02-02T12:00:11.883Z,177003361188300
+"""k.k @ 2GlUDrVHSg"" raises to 400",2026-02-02T11:59:43.908Z,177003358390800
+"""たろす @ _EAr7O2lyX"" bets 170",2026-02-02T11:59:35.853Z,177003357585300
+"""k.k @ 2GlUDrVHSg"" checks",2026-02-02T11:58:37.795Z,177003351779500
+"Turn: 10♠, J♣, 6♦ [9♠]",2026-02-02T11:58:31.365Z,177003351136500
+"""k.k @ 2GlUDrVHSg"" calls 30",2026-02-02T11:58:30.534Z,177003351053400
+"""たろす @ _EAr7O2lyX"" bets 30",2026-02-02T11:58:27.215Z,177003350721500
+"""k.k @ 2GlUDrVHSg"" checks",2026-02-02T11:58:06.428Z,177003348642800
+"Flop:  [10♠, J♣, 6♦]",2026-02-02T11:58:02.334Z,177003348233400
+"""たろす @ _EAr7O2lyX"" checks",2026-02-02T11:58:01.528Z,177003348152800
+"""k.k @ 2GlUDrVHSg"" calls 20",2026-02-02T11:57:46.277Z,177003346627700
+"""cymx2724 @ Yg9-tEe5QH"" folds",2026-02-02T11:57:45.162Z,177003346516200
+"""RYOTA @ SrJdWlcNBY"" folds",2026-02-02T11:56:56.969Z,177003341696900
+"""常盤木いつき @ 0QyEE5Hc9o"" folds",2026-02-02T11:56:55.934Z,177003341593400
+"""たろす @ _EAr7O2lyX"" posts a big blind of 20",2026-02-02T11:56:40.949Z,177003340094908
+"""k.k @ 2GlUDrVHSg"" posts a small blind of 10",2026-02-02T11:56:40.949Z,177003340094907
+"Player stacks: #2 ""RYOTA @ SrJdWlcNBY"" (2000) | #4 ""cymx2724 @ Yg9-tEe5QH"" (2258) | #5 ""k.k @ 2GlUDrVHSg"" (3197) | #7 ""たろす @ _EAr7O2lyX"" (3123) | #9 ""常盤木いつき @ 0QyEE5Hc9o"" (2000)",2026-02-02T11:56:40.949Z,177003340094901
+"-- starting hand #15 (id: giosxkruekwd)  (No Limit Texas Hold'em) (dealer: ""cymx2724 @ Yg9-tEe5QH"") --",2026-02-02T11:56:40.949Z,177003340094900
+"-- ending hand #14 --",2026-02-02T11:56:38.038Z,177003339803802
+"""k.k @ 2GlUDrVHSg"" collected 20 from pot",2026-02-02T11:56:38.038Z,177003339803801
+"Uncalled bet of 10 returned to ""k.k @ 2GlUDrVHSg""",2026-02-02T11:56:38.038Z,177003339803800
+"""cymx2724 @ Yg9-tEe5QH"" folds",2026-02-02T11:56:37.198Z,177003339719800
+"""RYOTA @ SrJdWlcNBY"" folds",2026-02-02T11:56:32.472Z,177003339247200
+"""常盤木いつき @ 0QyEE5Hc9o"" folds",2026-02-02T11:56:30.866Z,177003339086600
+"""たろす @ _EAr7O2lyX"" folds",2026-02-02T11:56:29.784Z,177003338978400
+"""k.k @ 2GlUDrVHSg"" posts a big blind of 20",2026-02-02T11:56:27.633Z,177003338763310
+"""cymx2724 @ Yg9-tEe5QH"" posts a small blind of 10",2026-02-02T11:56:27.633Z,177003338763309
+"Player stacks: #2 ""RYOTA @ SrJdWlcNBY"" (2000) | #4 ""cymx2724 @ Yg9-tEe5QH"" (2268) | #5 ""k.k @ 2GlUDrVHSg"" (3187) | #7 ""たろす @ _EAr7O2lyX"" (3123) | #9 ""常盤木いつき @ 0QyEE5Hc9o"" (2000)",2026-02-02T11:56:27.633Z,177003338763303
+"-- starting hand #14 (id: l2tkrrnmbzwa)  (No Limit Texas Hold'em) (dealer: ""RYOTA @ SrJdWlcNBY"") --",2026-02-02T11:56:27.633Z,177003338763302
+"The player ""常盤木いつき @ 0QyEE5Hc9o"" joined the game with a stack of 2000.",2026-02-02T11:56:27.633Z,177003338763301
+"The admin updated the player ""RYOTA @ SrJdWlcNBY"" stack from 1990 to 2000.",2026-02-02T11:56:27.633Z,177003338763300
+"-- ending hand #13 --",2026-02-02T11:56:21.543Z,177003338154302
+"""たろす @ _EAr7O2lyX"" collected 274 from pot with Two Pair, A's & J's (combination: A♠, A♦, J♥, J♠, 10♣)",2026-02-02T11:56:21.543Z,177003338154301
+"""たろす @ _EAr7O2lyX"" shows a 10♣, J♥.",2026-02-02T11:56:21.543Z,177003338154300
+"""cymx2724 @ Yg9-tEe5QH"" calls 82",2026-02-02T11:56:20.730Z,177003338073000
+"""たろす @ _EAr7O2lyX"" bets 82",2026-02-02T11:56:13.805Z,177003337380500
+"""cymx2724 @ Yg9-tEe5QH"" checks",2026-02-02T11:55:53.340Z,177003335334000
+"River: 6♦, J♠, 3♣, A♠ [A♦]",2026-02-02T11:55:44.498Z,177003334449800
+"""たろす @ _EAr7O2lyX"" checks",2026-02-02T11:55:43.684Z,177003334368400
+"""cymx2724 @ Yg9-tEe5QH"" checks",2026-02-02T11:55:33.368Z,177003333336800
+"Turn: 6♦, J♠, 3♣ [A♠]",2026-02-02T11:55:18.308Z,177003331830800
+"""たろす @ _EAr7O2lyX"" checks",2026-02-02T11:55:17.484Z,177003331748400
+"""cymx2724 @ Yg9-tEe5QH"" checks",2026-02-02T11:55:02.393Z,177003330239300
+"Flop:  [6♦, J♠, 3♣]",2026-02-02T11:54:59.446Z,177003329944600
+"""cymx2724 @ Yg9-tEe5QH"" calls 50",2026-02-02T11:54:58.607Z,177003329860700
+"""RYOTA @ SrJdWlcNBY"" folds",2026-02-02T11:54:14.582Z,177003325458200
+"""たろす @ _EAr7O2lyX"" raises to 50",2026-02-02T11:54:13.055Z,177003325305500
+"""k.k @ 2GlUDrVHSg"" folds",2026-02-02T11:54:03.830Z,177003324383000
+"The admin approved the player ""常盤木いつき @ 0QyEE5Hc9o"" participation with a stack of 2000.",2026-02-02T11:53:47.437Z,177003322743700
+"The player ""常盤木いつき @ 0QyEE5Hc9o"" requested a seat.",2026-02-02T11:53:46.858Z,177003322685800
+"WARNING: the admin queued the stack change for the player ""RYOTA @ SrJdWlcNBY"" reseting to 2000 chips in the next hand.",2026-02-02T11:53:27.100Z,177003320710000
+"""cymx2724 @ Yg9-tEe5QH"" posts a big blind of 20",2026-02-02T11:53:25.334Z,177003320533408
+"""RYOTA @ SrJdWlcNBY"" posts a small blind of 10",2026-02-02T11:53:25.334Z,177003320533407
+"Player stacks: #2 ""RYOTA @ SrJdWlcNBY"" (2000) | #4 ""cymx2724 @ Yg9-tEe5QH"" (2400) | #5 ""k.k @ 2GlUDrVHSg"" (3187) | #7 ""たろす @ _EAr7O2lyX"" (2981)",2026-02-02T11:53:25.334Z,177003320533402
+"-- starting hand #13 (id: zxgfsekv4pf5)  (No Limit Texas Hold'em) (dealer: ""たろす @ _EAr7O2lyX"") --",2026-02-02T11:53:25.334Z,177003320533401
+"The admin updated the player ""RYOTA @ SrJdWlcNBY"" stack from 2010 to 2000.",2026-02-02T11:53:25.334Z,177003320533400
+"-- ending hand #12 --",2026-02-02T11:53:22.361Z,177003320236102
+"""RYOTA @ SrJdWlcNBY"" collected 20 from pot",2026-02-02T11:53:22.361Z,177003320236101
+"Uncalled bet of 10 returned to ""RYOTA @ SrJdWlcNBY""",2026-02-02T11:53:22.361Z,177003320236100
+"""たろす @ _EAr7O2lyX"" folds",2026-02-02T11:53:21.551Z,177003320155100
+"""k.k @ 2GlUDrVHSg"" folds",2026-02-02T11:53:20.435Z,177003320043500
+"""cymx2724 @ Yg9-tEe5QH"" folds",2026-02-02T11:53:19.297Z,177003319929700
+"WARNING: the admin queued the stack change for the player ""RYOTA @ SrJdWlcNBY"" reseting to 2000 chips in the next hand.",2026-02-02T11:52:58.007Z,177003317800700
+"""RYOTA @ SrJdWlcNBY"" posts a big blind of 20",2026-02-02T11:52:56.214Z,177003317621407
+"""たろす @ _EAr7O2lyX"" posts a small blind of 10",2026-02-02T11:52:56.214Z,177003317621406
+"Player stacks: #2 ""RYOTA @ SrJdWlcNBY"" (2000) | #4 ""cymx2724 @ Yg9-tEe5QH"" (2400) | #5 ""k.k @ 2GlUDrVHSg"" (3187) | #7 ""たろす @ _EAr7O2lyX"" (2991)",2026-02-02T11:52:56.214Z,177003317621401
+"-- starting hand #12 (id: bibhqbff26qd)  (No Limit Texas Hold'em) (dealer: ""k.k @ 2GlUDrVHSg"") --",2026-02-02T11:52:56.214Z,177003317621400
+"-- ending hand #11 --",2026-02-02T11:52:53.288Z,177003317328802
+"""k.k @ 2GlUDrVHSg"" collected 40 from pot",2026-02-02T11:52:53.288Z,177003317328801
+"Uncalled bet of 60 returned to ""k.k @ 2GlUDrVHSg""",2026-02-02T11:52:53.288Z,177003317328800
+"""たろす @ _EAr7O2lyX"" folds",2026-02-02T11:52:52.430Z,177003317243000
+"""k.k @ 2GlUDrVHSg"" raises to 80",2026-02-02T11:52:48.885Z,177003316888500
+"""cymx2724 @ Yg9-tEe5QH"" folds",2026-02-02T11:52:43.507Z,177003316350700
+"""RYOTA @ SrJdWlcNBY"" folds",2026-02-02T11:52:42.241Z,177003316224100
+"""たろす @ _EAr7O2lyX"" posts a big blind of 20",2026-02-02T11:52:39.601Z,177003315960107
+"""k.k @ 2GlUDrVHSg"" posts a small blind of 10",2026-02-02T11:52:39.601Z,177003315960106
+"Player stacks: #2 ""RYOTA @ SrJdWlcNBY"" (2000) | #4 ""cymx2724 @ Yg9-tEe5QH"" (2400) | #5 ""k.k @ 2GlUDrVHSg"" (3167) | #7 ""たろす @ _EAr7O2lyX"" (3011)",2026-02-02T11:52:39.601Z,177003315960101
+"-- starting hand #11 (id: uaxo5a04pruw)  (No Limit Texas Hold'em) (dealer: ""cymx2724 @ Yg9-tEe5QH"") --",2026-02-02T11:52:39.601Z,177003315960100
+"-- ending hand #10 --",2026-02-02T11:52:36.669Z,177003315666902
+"""k.k @ 2GlUDrVHSg"" collected 204 from pot",2026-02-02T11:52:36.669Z,177003315666901
+"Uncalled bet of 140 returned to ""k.k @ 2GlUDrVHSg""",2026-02-02T11:52:36.669Z,177003315666900
+"""たろす @ _EAr7O2lyX"" folds",2026-02-02T11:52:35.858Z,177003315585800
+"""k.k @ 2GlUDrVHSg"" bets 140",2026-02-02T11:52:06.570Z,177003312657000
+"River: 7♣, 2♠, K♦, 7♦ [J♥]",2026-02-02T11:51:48.835Z,177003310883500
+"""たろす @ _EAr7O2lyX"" checks",2026-02-02T11:51:48.006Z,177003310800600
+"""k.k @ 2GlUDrVHSg"" checks",2026-02-02T11:51:33.341Z,177003309334100
+"Turn: 7♣, 2♠, K♦ [7♦]",2026-02-02T11:51:28.823Z,177003308882300
+"""k.k @ 2GlUDrVHSg"" calls 51",2026-02-02T11:51:27.981Z,177003308798100
+"""たろす @ _EAr7O2lyX"" bets 51",2026-02-02T11:51:11.587Z,177003307158700
+"""k.k @ 2GlUDrVHSg"" checks",2026-02-02T11:50:42.333Z,177003304233300
+"Flop:  [7♣, 2♠, K♦]",2026-02-02T11:50:38.880Z,177003303888000
+"""k.k @ 2GlUDrVHSg"" calls 46",2026-02-02T11:50:38.077Z,177003303807700
+"""cymx2724 @ Yg9-tEe5QH"" folds",2026-02-02T11:50:34.832Z,177003303483200
+"""RYOTA @ SrJdWlcNBY"" folds",2026-02-02T11:50:10.737Z,177003301073700
+"""たろす @ _EAr7O2lyX"" raises to 46",2026-02-02T11:50:08.555Z,177003300855500
+"""k.k @ 2GlUDrVHSg"" posts a big blind of 20",2026-02-02T11:50:01.106Z,177003300110608
+"""cymx2724 @ Yg9-tEe5QH"" posts a small blind of 10",2026-02-02T11:50:01.106Z,177003300110607
+"Player stacks: #2 ""RYOTA @ SrJdWlcNBY"" (2000) | #4 ""cymx2724 @ Yg9-tEe5QH"" (2410) | #5 ""k.k @ 2GlUDrVHSg"" (3060) | #7 ""たろす @ _EAr7O2lyX"" (3108)",2026-02-02T11:50:01.106Z,177003300110602
+"-- starting hand #10 (id: vd6hbvaflb3s)  (No Limit Texas Hold'em) (dealer: ""RYOTA @ SrJdWlcNBY"") --",2026-02-02T11:50:01.106Z,177003300110601
+"The admin updated the player ""RYOTA @ SrJdWlcNBY"" stack from 1940 to 2000.",2026-02-02T11:50:01.106Z,177003300110600
+"-- ending hand #9 --",2026-02-02T11:49:58.169Z,177003299816902
+"""cymx2724 @ Yg9-tEe5QH"" collected 20 from pot",2026-02-02T11:49:58.169Z,177003299816901
+"Uncalled bet of 10 returned to ""cymx2724 @ Yg9-tEe5QH""",2026-02-02T11:49:58.169Z,177003299816900
+"""RYOTA @ SrJdWlcNBY"" folds",2026-02-02T11:49:57.359Z,177003299735900
+"""たろす @ _EAr7O2lyX"" folds",2026-02-02T11:49:50.582Z,177003299058200
+"""k.k @ 2GlUDrVHSg"" folds",2026-02-02T11:49:49.512Z,177003298951200
+"WARNING: the admin queued the stack change for the player ""RYOTA @ SrJdWlcNBY"" reseting to 2000 chips in the next hand.",2026-02-02T11:49:43.012Z,177003298301200
+"""cymx2724 @ Yg9-tEe5QH"" posts a big blind of 20",2026-02-02T11:49:40.876Z,177003298087607
+"""RYOTA @ SrJdWlcNBY"" posts a small blind of 10",2026-02-02T11:49:40.876Z,177003298087606
+"Player stacks: #2 ""RYOTA @ SrJdWlcNBY"" (1950) | #4 ""cymx2724 @ Yg9-tEe5QH"" (2400) | #5 ""k.k @ 2GlUDrVHSg"" (3060) | #7 ""たろす @ _EAr7O2lyX"" (3108)",2026-02-02T11:49:40.876Z,177003298087601
+"-- starting hand #9 (id: ftp0bexlopul)  (No Limit Texas Hold'em) (dealer: ""たろす @ _EAr7O2lyX"") --",2026-02-02T11:49:40.876Z,177003298087600
+"-- ending hand #8 --",2026-02-02T11:49:37.942Z,177003297794202
+"""k.k @ 2GlUDrVHSg"" collected 170 from pot",2026-02-02T11:49:37.942Z,177003297794201
+"Uncalled bet of 100 returned to ""k.k @ 2GlUDrVHSg""",2026-02-02T11:49:37.942Z,177003297794200
+"""RYOTA @ SrJdWlcNBY"" folds",2026-02-02T11:49:37.124Z,177003297712400
+"""k.k @ 2GlUDrVHSg"" bets 100",2026-02-02T11:49:23.944Z,177003296394400
+"""RYOTA @ SrJdWlcNBY"" checks",2026-02-02T11:49:12.626Z,177003295262600
+"River: 7♣, 10♥, 7♥, 9♠ [8♠]",2026-02-02T11:49:06.913Z,177003294691300
+"""k.k @ 2GlUDrVHSg"" calls 40",2026-02-02T11:49:06.061Z,177003294606100
+"""RYOTA @ SrJdWlcNBY"" bets 40",2026-02-02T11:49:03.399Z,177003294339900
+"Turn: 7♣, 10♥, 7♥ [9♠]",2026-02-02T11:48:53.847Z,177003293384700
+"""k.k @ 2GlUDrVHSg"" checks",2026-02-02T11:48:52.984Z,177003293298400
+"""RYOTA @ SrJdWlcNBY"" checks",2026-02-02T11:48:50.835Z,177003293083500
+"Flop:  [7♣, 10♥, 7♥]",2026-02-02T11:48:47.241Z,177003292724100
+"""RYOTA @ SrJdWlcNBY"" calls 40",2026-02-02T11:48:46.434Z,177003292643400
+"""たろす @ _EAr7O2lyX"" folds",2026-02-02T11:48:42.621Z,177003292262100
+"""k.k @ 2GlUDrVHSg"" raises to 40",2026-02-02T11:48:41.561Z,177003292156100
+"""cymx2724 @ Yg9-tEe5QH"" folds",2026-02-02T11:48:34.508Z,177003291450800
+"""RYOTA @ SrJdWlcNBY"" posts a big blind of 20",2026-02-02T11:48:22.967Z,177003290296707
+"""たろす @ _EAr7O2lyX"" posts a small blind of 10",2026-02-02T11:48:22.967Z,177003290296706
+"Player stacks: #2 ""RYOTA @ SrJdWlcNBY"" (2030) | #4 ""cymx2724 @ Yg9-tEe5QH"" (2400) | #5 ""k.k @ 2GlUDrVHSg"" (2970) | #7 ""たろす @ _EAr7O2lyX"" (3118)",2026-02-02T11:48:22.967Z,177003290296701
+"-- starting hand #8 (id: t8ekcgmznhhk)  (No Limit Texas Hold'em) (dealer: ""k.k @ 2GlUDrVHSg"") --",2026-02-02T11:48:22.967Z,177003290296700
+"-- ending hand #7 --",2026-02-02T11:48:20.022Z,177003290002202
+"""RYOTA @ SrJdWlcNBY"" collected 50 from pot",2026-02-02T11:48:20.022Z,177003290002201
+"Uncalled bet of 40 returned to ""RYOTA @ SrJdWlcNBY""",2026-02-02T11:48:20.022Z,177003290002200
+"""たろす @ _EAr7O2lyX"" folds",2026-02-02T11:48:19.208Z,177003289920800
+"""k.k @ 2GlUDrVHSg"" folds",2026-02-02T11:48:18.153Z,177003289815300
+"""cymx2724 @ Yg9-tEe5QH"" folds",2026-02-02T11:48:17.043Z,177003289704300
+"""RYOTA @ SrJdWlcNBY"" raises to 60",2026-02-02T11:48:11.343Z,177003289134300
+"""たろす @ _EAr7O2lyX"" posts a big blind of 20",2026-02-02T11:47:55.313Z,177003287531307
+"""k.k @ 2GlUDrVHSg"" posts a small blind of 10",2026-02-02T11:47:55.313Z,177003287531306
+"Player stacks: #2 ""RYOTA @ SrJdWlcNBY"" (2000) | #4 ""cymx2724 @ Yg9-tEe5QH"" (2400) | #5 ""k.k @ 2GlUDrVHSg"" (2980) | #7 ""たろす @ _EAr7O2lyX"" (3138)",2026-02-02T11:47:55.313Z,177003287531301
+"-- starting hand #7 (id: 8mwee0hoz5pk)  (No Limit Texas Hold'em) (dealer: ""cymx2724 @ Yg9-tEe5QH"") --",2026-02-02T11:47:55.313Z,177003287531300
+"-- ending hand #6 --",2026-02-02T11:47:52.396Z,177003287239602
+"""k.k @ 2GlUDrVHSg"" collected 20 from pot",2026-02-02T11:47:52.396Z,177003287239601
+"Uncalled bet of 10 returned to ""k.k @ 2GlUDrVHSg""",2026-02-02T11:47:52.396Z,177003287239600
+"""cymx2724 @ Yg9-tEe5QH"" folds",2026-02-02T11:47:51.562Z,177003287156200
+"""RYOTA @ SrJdWlcNBY"" folds",2026-02-02T11:47:40.777Z,177003286077700
+"""たろす @ _EAr7O2lyX"" folds",2026-02-02T11:47:39.022Z,177003285902200
+"""k.k @ 2GlUDrVHSg"" posts a big blind of 20",2026-02-02T11:47:33.820Z,177003285382008
+"""cymx2724 @ Yg9-tEe5QH"" posts a small blind of 10",2026-02-02T11:47:33.820Z,177003285382007
+"Player stacks: #2 ""RYOTA @ SrJdWlcNBY"" (2000) | #4 ""cymx2724 @ Yg9-tEe5QH"" (2410) | #5 ""k.k @ 2GlUDrVHSg"" (2970) | #7 ""たろす @ _EAr7O2lyX"" (3138)",2026-02-02T11:47:33.820Z,177003285382002
+"-- starting hand #6 (id: cyeqfp5k83j7)  (No Limit Texas Hold'em) (dealer: ""RYOTA @ SrJdWlcNBY"") --",2026-02-02T11:47:33.820Z,177003285382001
+"The admin updated the player ""RYOTA @ SrJdWlcNBY"" stack from 1990 to 2000.",2026-02-02T11:47:33.820Z,177003285382000
+"-- ending hand #5 --",2026-02-02T11:47:30.870Z,177003285087002
+"""cymx2724 @ Yg9-tEe5QH"" collected 20 from pot",2026-02-02T11:47:30.870Z,177003285087001
+"Uncalled bet of 10 returned to ""cymx2724 @ Yg9-tEe5QH""",2026-02-02T11:47:30.870Z,177003285087000
+"""RYOTA @ SrJdWlcNBY"" folds",2026-02-02T11:47:30.056Z,177003285005600
+"""たろす @ _EAr7O2lyX"" folds",2026-02-02T11:47:26.812Z,177003284681200
+"""k.k @ 2GlUDrVHSg"" folds",2026-02-02T11:47:22.274Z,177003284227400
+"WARNING: the admin queued the stack change for the player ""RYOTA @ SrJdWlcNBY"" reseting to 2000 chips in the next hand.",2026-02-02T11:47:20.749Z,177003284074900
+"""cymx2724 @ Yg9-tEe5QH"" posts a big blind of 20",2026-02-02T11:47:19.453Z,177003283945308
+"""RYOTA @ SrJdWlcNBY"" posts a small blind of 10",2026-02-02T11:47:19.453Z,177003283945307
+"Player stacks: #2 ""RYOTA @ SrJdWlcNBY"" (2000) | #4 ""cymx2724 @ Yg9-tEe5QH"" (2400) | #5 ""k.k @ 2GlUDrVHSg"" (2970) | #7 ""たろす @ _EAr7O2lyX"" (3138)",2026-02-02T11:47:19.453Z,177003283945302
+"-- starting hand #5 (id: q3gpk0zbqs4z)  (No Limit Texas Hold'em) (dealer: ""たろす @ _EAr7O2lyX"") --",2026-02-02T11:47:19.453Z,177003283945301
+"The admin updated the player ""RYOTA @ SrJdWlcNBY"" stack from 1980 to 2000.",2026-02-02T11:47:19.453Z,177003283945300
+"-- ending hand #4 --",2026-02-02T11:47:16.549Z,177003283654902
+"""cymx2724 @ Yg9-tEe5QH"" collected 50 from pot",2026-02-02T11:47:16.549Z,177003283654901
+"Uncalled bet of 40 returned to ""cymx2724 @ Yg9-tEe5QH""",2026-02-02T11:47:16.549Z,177003283654900
+"""RYOTA @ SrJdWlcNBY"" folds",2026-02-02T11:47:15.685Z,177003283568500
+"""たろす @ _EAr7O2lyX"" folds",2026-02-02T11:47:13.999Z,177003283399900
+"""k.k @ 2GlUDrVHSg"" folds",2026-02-02T11:47:12.920Z,177003283292000
+"""cymx2724 @ Yg9-tEe5QH"" raises to 60",2026-02-02T11:47:09.178Z,177003282917800
+"WARNING: the admin queued the stack change for the player ""RYOTA @ SrJdWlcNBY"" reseting to 2000 chips in the next hand.",2026-02-02T11:47:01.558Z,177003282155800
+"""RYOTA @ SrJdWlcNBY"" posts a big blind of 20",2026-02-02T11:46:58.516Z,177003281851607
+"""たろす @ _EAr7O2lyX"" posts a small blind of 10",2026-02-02T11:46:58.516Z,177003281851606
+"Player stacks: #2 ""RYOTA @ SrJdWlcNBY"" (2000) | #4 ""cymx2724 @ Yg9-tEe5QH"" (2370) | #5 ""k.k @ 2GlUDrVHSg"" (2970) | #7 ""たろす @ _EAr7O2lyX"" (3148)",2026-02-02T11:46:58.516Z,177003281851601
+"-- starting hand #4 (id: vdrjtwjjqqos)  (No Limit Texas Hold'em) (dealer: ""k.k @ 2GlUDrVHSg"") --",2026-02-02T11:46:58.516Z,177003281851600
+"-- ending hand #3 --",2026-02-02T11:46:55.592Z,177003281559202
+"""たろす @ _EAr7O2lyX"" collected 20 from pot",2026-02-02T11:46:55.592Z,177003281559201
+"Uncalled bet of 10 returned to ""たろす @ _EAr7O2lyX""",2026-02-02T11:46:55.592Z,177003281559200
+"""k.k @ 2GlUDrVHSg"" folds",2026-02-02T11:46:54.780Z,177003281478000
+"""cymx2724 @ Yg9-tEe5QH"" folds",2026-02-02T11:46:50.595Z,177003281059500
+"""RYOTA @ SrJdWlcNBY"" folds",2026-02-02T11:46:49.347Z,177003280934700
+"""たろす @ _EAr7O2lyX"" posts a big blind of 20",2026-02-02T11:46:45.986Z,177003280598607
+"""k.k @ 2GlUDrVHSg"" posts a small blind of 10",2026-02-02T11:46:45.986Z,177003280598606
+"Player stacks: #2 ""RYOTA @ SrJdWlcNBY"" (2000) | #4 ""cymx2724 @ Yg9-tEe5QH"" (2370) | #5 ""k.k @ 2GlUDrVHSg"" (2980) | #7 ""たろす @ _EAr7O2lyX"" (3138)",2026-02-02T11:46:45.986Z,177003280598601
+"-- starting hand #3 (id: 8ohg8via40pr)  (No Limit Texas Hold'em) (dealer: ""cymx2724 @ Yg9-tEe5QH"") --",2026-02-02T11:46:45.986Z,177003280598600
+"-- ending hand #2 --",2026-02-02T11:46:43.074Z,177003280307402
+"""たろす @ _EAr7O2lyX"" collected 50 from pot",2026-02-02T11:46:43.074Z,177003280307401
+"Uncalled bet of 26 returned to ""たろす @ _EAr7O2lyX""",2026-02-02T11:46:43.074Z,177003280307400
+"""k.k @ 2GlUDrVHSg"" folds",2026-02-02T11:46:42.201Z,177003280220100
+"""cymx2724 @ Yg9-tEe5QH"" folds",2026-02-02T11:46:41.124Z,177003280112400
+"""RYOTA @ SrJdWlcNBY"" folds",2026-02-02T11:46:36.127Z,177003279612700
+"""たろす @ _EAr7O2lyX"" raises to 46",2026-02-02T11:46:34.050Z,177003279405000
+"""k.k @ 2GlUDrVHSg"" posts a big blind of 20",2026-02-02T11:46:26.571Z,177003278657109
+"""cymx2724 @ Yg9-tEe5QH"" posts a small blind of 10",2026-02-02T11:46:26.571Z,177003278657108
+"Player stacks: #2 ""RYOTA @ SrJdWlcNBY"" (2000) | #4 ""cymx2724 @ Yg9-tEe5QH"" (2380) | #5 ""k.k @ 2GlUDrVHSg"" (3000) | #7 ""たろす @ _EAr7O2lyX"" (3108)",2026-02-02T11:46:26.571Z,177003278657103
+"-- starting hand #2 (id: rmpdycmkxodc)  (No Limit Texas Hold'em) (dealer: ""RYOTA @ SrJdWlcNBY"") --",2026-02-02T11:46:26.571Z,177003278657102
+"The player ""k.k @ 2GlUDrVHSg"" joined the game with a stack of 3000.",2026-02-02T11:46:26.571Z,177003278657101
+"The admin updated the player ""RYOTA @ SrJdWlcNBY"" stack from 1912 to 2000.",2026-02-02T11:46:26.571Z,177003278657100
+"-- ending hand #1 --",2026-02-02T11:46:23.667Z,177003278366702
+"""たろす @ _EAr7O2lyX"" collected 196 from pot",2026-02-02T11:46:23.667Z,177003278366701
+"Uncalled bet of 66 returned to ""たろす @ _EAr7O2lyX""",2026-02-02T11:46:23.667Z,177003278366700
+"""RYOTA @ SrJdWlcNBY"" folds",2026-02-02T11:46:22.813Z,177003278281300
+"""たろす @ _EAr7O2lyX"" bets 66",2026-02-02T11:46:18.197Z,177003277819700
+"The admin approved the player ""k.k @ 2GlUDrVHSg"" participation with a stack of 3000.",2026-02-02T11:46:09.695Z,177003276969500
+"The player ""k.k @ 2GlUDrVHSg"" requested a seat.",2026-02-02T11:46:09.183Z,177003276918300
+"""RYOTA @ SrJdWlcNBY"" checks",2026-02-02T11:45:58.606Z,177003275860600
+"Flop:  [9♠, J♠, 5♣]",2026-02-02T11:45:48.920Z,177003274892000
+"""たろす @ _EAr7O2lyX"" calls 88",2026-02-02T11:45:48.100Z,177003274810000
+"""cymx2724 @ Yg9-tEe5QH"" folds",2026-02-02T11:45:36.880Z,177003273688000
+"""RYOTA @ SrJdWlcNBY"" raises to 88",2026-02-02T11:45:32.722Z,177003273272200
+"""たろす @ _EAr7O2lyX"" raises to 50",2026-02-02T11:45:02.823Z,177003270282300
+"WARNING: the admin queued the stack change for the player ""RYOTA @ SrJdWlcNBY"" reseting to 2000 chips in the next hand.",2026-02-02T11:44:48.254Z,177003268825400
+"""cymx2724 @ Yg9-tEe5QH"" posts a big blind of 20",2026-02-02T11:44:46.797Z,177003268679709
+"""RYOTA @ SrJdWlcNBY"" posts a small blind of 10",2026-02-02T11:44:46.797Z,177003268679708
+"Player stacks: #2 ""RYOTA @ SrJdWlcNBY"" (2000) | #4 ""cymx2724 @ Yg9-tEe5QH"" (2400) | #7 ""たろす @ _EAr7O2lyX"" (3000)",2026-02-02T11:44:46.797Z,177003268679704
+"The player ""たろす @ _EAr7O2lyX"" joined the game with a stack of 3000.",2026-02-02T11:44:46.797Z,177003268679703
+"The player ""cymx2724 @ Yg9-tEe5QH"" joined the game with a stack of 2400.",2026-02-02T11:44:46.797Z,177003268679702
+"The player ""RYOTA @ SrJdWlcNBY"" joined the game with a stack of 2000.",2026-02-02T11:44:46.797Z,177003268679701
+"-- starting hand #1 (id: bigif7jxctts)  (No Limit Texas Hold'em) (dealer: ""たろす @ _EAr7O2lyX"") --",2026-02-02T11:44:46.797Z,177003268679700
+"The admin approved the player ""cymx2724 @ Yg9-tEe5QH"" participation with a stack of 2400.",2026-02-02T11:44:46.206Z,177003268620600
+"The player ""cymx2724 @ Yg9-tEe5QH"" requested a seat.",2026-02-02T11:44:45.492Z,177003268549200
+"The admin approved the player ""RYOTA @ SrJdWlcNBY"" participation with a stack of 2000.",2026-02-02T11:43:38.727Z,177003261872700
+"The player ""RYOTA @ SrJdWlcNBY"" requested a seat.",2026-02-02T11:43:37.150Z,177003261715000
+"The admin approved the player ""たろす @ _EAr7O2lyX"" participation with a stack of 3000.",2026-02-02T11:43:36.933Z,177003261693300
+"The player ""たろす @ _EAr7O2lyX"" requested a seat.",2026-02-02T11:43:36.122Z,177003261612200
+"Game Config Changes
+* Decision Limit Time: 20s » 100s
+* Max Time Bank: 10s » 50s
+* Allow Run it Twice: no » always
+* Restart Blind Schedule at Level: none » 1",2026-02-02T11:41:48.275Z,177003250827500
+"The player ""ノガード @ GgfRhPuspx"" passed the room ownership to ""Guest @ fOKpNLU9fX"".",2026-02-02T11:41:46.894Z,177003250689400
