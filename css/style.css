@@ -7,6 +7,8 @@
     --silver-light: #e8e8e8;
     --bronze: #cd7f32;
     --bronze-light: #f4c49c;
+    --iron: #708090;
+    --iron-light: #b0b8c0;
     --red-vermilion: #b91c1c;
     --bg-deep: #050505;
     --bg-paper: #0a0a0a;
@@ -47,6 +49,12 @@ h1, h2, h3, .font-serif {
 
 .bronze-gradient {
     background: linear-gradient(to bottom, var(--bronze-light), var(--bronze), #8b4513);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.iron-gradient {
+    background: linear-gradient(to bottom, var(--iron-light), var(--iron), #2f3a48);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -123,6 +131,71 @@ h1, h2, h3, .font-serif {
 }
 .corner-deco::before { top: -2px; left: -2px; border-right: 0; border-bottom: 0; }
 .corner-deco::after { bottom: -2px; right: -2px; border-left: 0; border-top: 0; }
+
+/* ============================================
+   Hero Primary CTA (Season Entry)
+   ============================================ */
+.hero-cta {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.85rem;
+    padding: 1.1rem 3.2rem;
+    background: linear-gradient(135deg, var(--gold-light) 0%, var(--gold) 48%, #9c6b1a 100%);
+    color: #0a0a0a;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
+    letter-spacing: 0.32em;
+    border: 1px solid rgba(247, 239, 138, 0.55);
+    box-shadow: 0 0 24px rgba(212, 175, 55, 0.3),
+                inset 0 1px 0 rgba(255, 255, 255, 0.45),
+                inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+    overflow: hidden;
+    isolation: isolate;
+    white-space: nowrap;
+    transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.45s ease;
+}
+@media (max-width: 640px) {
+    .hero-cta {
+        padding: 1rem 1.9rem;
+        letter-spacing: 0.22em;
+        gap: 0.6rem;
+    }
+}
+.hero-cta:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 44px rgba(212, 175, 55, 0.55),
+                inset 0 1px 0 rgba(255, 255, 255, 0.55),
+                inset 0 0 0 1px rgba(255, 255, 255, 0.12);
+}
+.hero-cta::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -130%;
+    width: 55%;
+    height: 100%;
+    background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.65), transparent);
+    transform: skewX(-22deg);
+    z-index: -1;
+    animation: cta-shine 5.5s ease-in-out infinite;
+}
+.hero-cta .hero-cta-icon {
+    color: #2a1e05;
+    font-size: 0.85em;
+    filter: drop-shadow(0 1px 1px rgba(255, 255, 255, 0.35));
+}
+
+@keyframes cta-shine {
+    0% { left: -130%; }
+    22% { left: 150%; }
+    100% { left: 150%; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .hero-cta::before { animation: none; }
+}
 
 .player-thumb {
     width: 48px;
@@ -223,6 +296,12 @@ h1, h2, h3, .font-serif {
 .border-bronze { border-color: var(--bronze); }
 .border-bronze-30 { border-color: rgba(205, 127, 50, 0.3); }
 .divider-bronze { background: linear-gradient(to right, rgba(205, 127, 50, 0.5), transparent); }
+
+/* League Colors - Iron (D League) */
+.text-iron { color: var(--iron); }
+.border-iron { border-color: var(--iron); }
+.border-iron-30 { border-color: rgba(112, 128, 144, 0.3); }
+.divider-iron { background: linear-gradient(to right, rgba(112, 128, 144, 0.5), transparent); }
 
 /* Player Thumbnail Variants */
 .player-thumb-silver {
