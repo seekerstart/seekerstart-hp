@@ -1,59 +1,59 @@
-(function () {
-    const INTERNAL_BASE_PATH = '/houou/';
-    const CONFIG_PATH = 'config/season_rule_pages.json';
-    const pageHref = (path) => `${INTERNAL_BASE_PATH}${String(path).replace(/^\/+/, '')}`;
+#!/usr/bin/env node
+/*
+ * build-season-rules.js
+ * config/season_rule_pages.json を単一ソースとして、シーズン制度ページ（一覧＋各シーズン詳細）の
+ * 静的HTMLを生成する。テンプレートは旧 js/season-rules.js の描画ロジックを逐語移植したもので、
+ * 生成結果は従来のクライアント描画と同一になる（見た目を変えずに本文を初期HTMLへ焼き込む＝SEO対策）。
+ *
+ * 使い方:  node scripts/build-season-rules.js
+ * 出力:    season-rules.html / season-rules-s1.html / season-rules-s2.html / season-rules-s3.html ...
+ */
 
-    function escapeHtml(value) {
-        return String(value ?? '')
-            .replace(/&/g, '&amp;')
-            .replace(/</g, '&lt;')
-            .replace(/>/g, '&gt;')
-            .replace(/"/g, '&quot;')
-            .replace(/'/g, '&#39;');
-    }
+const fs = require('fs');
+const path = require('path');
 
-    function textToHtml(value) {
-        return escapeHtml(value).replace(/\n/g, '<br>');
-    }
+const ROOT = path.join(__dirname, '..');
+const CONFIG_PATH = path.join(ROOT, 'config', 'season_rule_pages.json');
+const config = JSON.parse(fs.readFileSync(CONFIG_PATH, 'utf8'));
 
-    function detailUrl(slug) {
-        return pageHref(`season-rules-${slug}.html`);
-    }
+const INTERNAL_BASE_PATH = '/houou/';
+const pageHref = (p) => `${INTERNAL_BASE_PATH}${String(p).replace(/^\/+/, '')}`;
 
-    function imageTag(src, alt, className) {
-        return `<img src="${escapeHtml(src)}" alt="${escapeHtml(alt)}" class="${className}" onerror="this.src='https://images.unsplash.com/photo-1518893063132-36e46dbe2428?auto=format&fit=crop&q=80&w=1200'">`;
-    }
+// ---- 描画ヘルパ（旧 js/season-rules.js から逐語移植） ----
 
-    function loadingMarkup() {
+function escapeHtml(value) {
+    return String(value ?? '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+}
+
+function textToHtml(value) {
+    return escapeHtml(value).replace(/\n/g, '<br>');
+}
+
+function detailUrl(slug) {
+    return pageHref(`season-rules-${slug}.html`);
+}
+
+function imageTag(src, alt, className) {
+    return `<img src="${escapeHtml(src)}" alt="${escapeHtml(alt)}" class="${className}" onerror="this.src='https://images.unsplash.com/photo-1518893063132-36e46dbe2428?auto=format&fit=crop&q=80&w=1200'">`;
+}
+
+function renderBlockList(blocks, emptyMessage, iconClass, accentClass) {
+    if (!Array.isArray(blocks) || blocks.length === 0) {
         return `
-            <div class="py-16 text-center text-gray-500">
-                <i class="fas fa-spinner fa-spin text-2xl mb-4 block text-gold/60"></i>
-                読み込み中です...
-            </div>
-        `;
-    }
-
-    function errorMarkup(message) {
-        return `
-            <div class="jp-card p-8 md:p-10 corner-deco text-center">
-                <i class="fas fa-exclamation-triangle text-2xl text-gold mb-4"></i>
-                <p class="text-sm text-gray-300 leading-loose">${textToHtml(message)}</p>
-            </div>
-        `;
-    }
-
-    function renderBlockList(blocks, emptyMessage, iconClass, accentClass) {
-        if (!Array.isArray(blocks) || blocks.length === 0) {
-            return `
                 <div class="jp-card p-6 border border-white/10">
                     <p class="text-sm text-gray-400 leading-loose">${escapeHtml(emptyMessage)}</p>
                 </div>
             `;
-        }
+    }
 
-        return blocks.map((block) => {
-            const items = Array.isArray(block.items) && block.items.length > 0
-                ? `
+    return blocks.map((block) => {
+        const items = Array.isArray(block.items) && block.items.length > 0
+            ? `
                     <ul class="space-y-2 text-sm text-gray-400 leading-loose">
                         ${block.items.map((item) => `
                             <li class="flex gap-3">
@@ -63,9 +63,9 @@
                         `).join('')}
                     </ul>
                 `
-                : '';
+            : '';
 
-            return `
+        return `
                 <article class="jp-card p-7 md:p-8 corner-deco h-full">
                     <div class="flex items-start justify-between gap-4 mb-5">
                         <div>
@@ -81,24 +81,24 @@
                     ${items}
                 </article>
             `;
-        }).join('');
-    }
+    }).join('');
+}
 
-    function renderRelatedLinkCard(options) {
-        const {
-            eyebrow,
-            title,
-            description,
-            href,
-            iconClass,
-            muted
-        } = options;
+function renderRelatedLinkCard(options) {
+    const {
+        eyebrow,
+        title,
+        description,
+        href,
+        iconClass,
+        muted
+    } = options;
 
-        const baseClass = muted
-            ? 'block border border-white/5 bg-white/[0.03] px-5 py-5 rounded-sm opacity-55'
-            : 'block border border-white/10 bg-white/5 px-5 py-5 rounded-sm hover:border-gold/40 transition-all duration-300';
+    const baseClass = muted
+        ? 'block border border-white/5 bg-white/[0.03] px-5 py-5 rounded-sm opacity-55'
+        : 'block border border-white/10 bg-white/5 px-5 py-5 rounded-sm hover:border-gold/40 transition-all duration-300';
 
-        const content = `
+    const content = `
             <div class="text-[10px] font-black tracking-[0.35em] uppercase text-white/35 mb-2">${escapeHtml(eyebrow)}</div>
             <div class="flex items-start justify-between gap-4 mb-3">
                 <div class="text-lg font-serif font-bold text-white">${escapeHtml(title)}</div>
@@ -107,24 +107,24 @@
             <p class="text-sm text-gray-400 leading-loose">${escapeHtml(description)}</p>
         `;
 
-        if (muted || !href) {
-            return `<div class="${baseClass}">${content}</div>`;
-        }
-
-        return `<a href="${escapeHtml(href)}" class="${baseClass}">${content}</a>`;
+    if (muted || !href) {
+        return `<div class="${baseClass}">${content}</div>`;
     }
 
-    function renderSeasonSwitchButton(options) {
-        const {
-            label,
-            title,
-            description,
-            href,
-            iconClass,
-            muted
-        } = options;
+    return `<a href="${escapeHtml(href)}" class="${baseClass}">${content}</a>`;
+}
 
-        const content = `
+function renderSeasonSwitchButton(options) {
+    const {
+        label,
+        title,
+        description,
+        href,
+        iconClass,
+        muted
+    } = options;
+
+    const content = `
             <div class="flex items-center justify-between gap-4">
                 <div class="min-w-0">
                     <div class="text-[10px] font-black tracking-[0.35em] uppercase text-gold/60 mb-2">${escapeHtml(label)}</div>
@@ -137,29 +137,29 @@
             </div>
         `;
 
-        const baseClass = muted
-            ? 'block jp-card p-6 md:p-7 corner-deco opacity-55'
-            : 'group block jp-card p-6 md:p-7 corner-deco hover:border-gold/40 transition-all duration-300';
+    const baseClass = muted
+        ? 'block jp-card p-6 md:p-7 corner-deco opacity-55'
+        : 'group block jp-card p-6 md:p-7 corner-deco hover:border-gold/40 transition-all duration-300';
 
-        if (muted || !href) {
-            return `<div class="${baseClass}">${content}</div>`;
-        }
+    if (muted || !href) {
+        return `<div class="${baseClass}">${content}</div>`;
+    }
 
-        return `
+    return `
             <a href="${escapeHtml(href)}" class="${baseClass}">
                 ${content}
             </a>
         `;
+}
+
+function renderScheduleTable(page) {
+    const schedule = Array.isArray(page.schedule) ? page.schedule : [];
+
+    if (schedule.length === 0) {
+        return errorMarkup('このシーズンのスケジュールはまだ設定されていません。');
     }
 
-    function renderScheduleTable(page) {
-        const schedule = Array.isArray(page.schedule) ? page.schedule : [];
-
-        if (schedule.length === 0) {
-            return errorMarkup('このシーズンのスケジュールはまだ設定されていません。');
-        }
-
-        return `
+    return `
             <div class="jp-card p-5 md:p-6 corner-deco">
                 <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-3 mb-5">
                     <div>
@@ -190,46 +190,46 @@
                 </div>
             </div>
         `;
-    }
+}
 
-    function renderSponsorshipSection(page) {
-        const sponsorship = page.sponsorship;
+function renderSponsorshipSection(page) {
+    const sponsorship = page.sponsorship;
 
-        if (!sponsorship || !sponsorship.image) {
-            return `
+    if (!sponsorship || !sponsorship.image) {
+        return `
                 <div class="jp-card p-5 md:p-6 corner-deco">
                     <p class="text-sm text-gray-400 leading-loose">本シーズンへの協賛はありません。</p>
                 </div>
             `;
-        }
+    }
 
-        const imageMarkup = imageTag(
-            sponsorship.image,
-            sponsorship.alt || `${page.title} の協賛画像`,
-            'w-full h-auto object-contain transition duration-500 group-hover:scale-[1.01]'
-        );
+    const imageMarkup = imageTag(
+        sponsorship.image,
+        sponsorship.alt || `${page.title} の協賛画像`,
+        'w-full h-auto object-contain transition duration-500 group-hover:scale-[1.01]'
+    );
 
-        if (!sponsorship.href) {
-            return `
+    if (!sponsorship.href) {
+        return `
                 <figure class="jp-card p-4 md:p-6 corner-deco">
                     <div class="overflow-hidden rounded-sm border border-white/10 bg-black">
                         ${imageMarkup}
                     </div>
                 </figure>
             `;
-        }
+    }
 
-        return `
+    return `
             <a href="${escapeHtml(sponsorship.href)}" class="group block jp-card p-4 md:p-6 corner-deco hover:border-gold/40 transition-all duration-300">
                 <div class="overflow-hidden rounded-sm border border-white/10 bg-black">
                     ${imageMarkup}
                 </div>
             </a>
         `;
-    }
+}
 
-    function renderCurrentFeature(page, isCurrent) {
-        return `
+function renderCurrentFeature(page, isCurrent) {
+    return `
             <article class="relative overflow-hidden rounded-sm border border-gold/30 bg-black">
                 <div class="absolute inset-0">
                     ${imageTag(page.hero_image, page.title, 'w-full h-full object-cover opacity-25')}
@@ -257,31 +257,28 @@
                 </div>
             </article>
         `;
-    }
+}
 
-    function renderHub(config) {
-        const currentTarget = document.getElementById('season-rules-current');
-        const archiveTarget = document.getElementById('season-rules-grid');
+// ---- 一覧（hub）の本文ビルダ ----
 
-        if (!currentTarget || !archiveTarget) return;
+function buildHubCurrent(cfg) {
+    const pages = Array.isArray(cfg.pages) ? cfg.pages : [];
+    const currentPage = pages.find((page) => page.slug === cfg.current_slug) || pages[0];
+    if (!currentPage) return '';
+    return renderCurrentFeature(currentPage, true);
+}
 
-        const pages = Array.isArray(config.pages) ? config.pages : [];
-        const currentPage = pages.find((page) => page.slug === config.current_slug) || pages[0];
+function buildHubGrid(cfg) {
+    const pages = Array.isArray(cfg.pages) ? cfg.pages : [];
+    const currentPage = pages.find((page) => page.slug === cfg.current_slug) || pages[0];
+    if (!currentPage) return '';
 
-        if (!currentPage) {
-            currentTarget.innerHTML = errorMarkup('制度ページの設定がまだありません。');
-            archiveTarget.innerHTML = '';
-            return;
-        }
+    const orderedPages = [
+        currentPage,
+        ...pages.filter((page) => page.slug !== currentPage.slug)
+    ];
 
-        currentTarget.innerHTML = renderCurrentFeature(currentPage, true);
-
-        const orderedPages = [
-            currentPage,
-            ...pages.filter((page) => page.slug !== currentPage.slug)
-        ];
-
-        archiveTarget.innerHTML = orderedPages.map((page) => `
+    return orderedPages.map((page) => `
             <article class="group jp-card overflow-hidden h-full">
                 <a href="${detailUrl(page.slug)}" class="block h-full">
                     <div class="relative aspect-[4/3] overflow-hidden border-b border-white/5">
@@ -289,7 +286,7 @@
                         <div class="absolute inset-0 bg-gradient-to-t from-black via-black/35 to-transparent"></div>
                         <div class="absolute left-3 top-3 flex flex-wrap gap-2">
                             <span class="border border-gold/30 bg-black/60 px-2 py-1 text-[9px] font-black tracking-[0.28em] uppercase text-gold">${escapeHtml(page.season_label)}</span>
-                            ${page.slug === config.current_slug ? '<span class="border border-green-500/30 bg-green-500/10 px-2 py-1 text-[9px] font-black tracking-[0.22em] uppercase text-green-300">Current</span>' : ''}
+                            ${page.slug === cfg.current_slug ? '<span class="border border-green-500/30 bg-green-500/10 px-2 py-1 text-[9px] font-black tracking-[0.22em] uppercase text-green-300">Current</span>' : ''}
                         </div>
                     </div>
                     <div class="p-4 md:p-5 flex flex-col gap-3">
@@ -306,53 +303,56 @@
                 </a>
             </article>
         `).join('');
+}
+
+// ---- 詳細ページの本文ビルダ ----
+
+function buildDetail(cfg, slug) {
+    const pages = Array.isArray(cfg.pages) ? cfg.pages : [];
+    const pageIndex = pages.findIndex((item) => item.slug === slug);
+    const page = pageIndex >= 0 ? pages[pageIndex] : null;
+    if (!page) {
+        throw new Error(`slug "${slug}" のページ定義が見つかりません。`);
     }
 
-    function renderDetail(config, slug) {
-        const target = document.getElementById('season-rule-detail');
-        if (!target) return;
+    const previousSeasonPage = pageIndex >= 0 && pageIndex < pages.length - 1 ? pages[pageIndex + 1] : null;
+    const nextSeasonPage = pageIndex > 0 ? pages[pageIndex - 1] : null;
 
-        const pages = Array.isArray(config.pages) ? config.pages : [];
-        const pageIndex = pages.findIndex((item) => item.slug === slug);
-        const page = pageIndex >= 0 ? pages[pageIndex] : null;
-        if (!page) {
-            target.innerHTML = errorMarkup('指定されたシーズン条件ページが見つかりませんでした。');
-            return;
-        }
+    const promotionMarkup = renderBlockList(
+        page.promotion_blocks,
+        'このシーズンでは昇格条件の記載はありません。',
+        'fas fa-arrow-up',
+        'border-gold/40 bg-gold/10 text-gold'
+    );
 
-        const previousSeasonPage = pageIndex >= 0 && pageIndex < pages.length - 1 ? pages[pageIndex + 1] : null;
-        const nextSeasonPage = pageIndex > 0 ? pages[pageIndex - 1] : null;
+    const relegationMarkup = renderBlockList(
+        page.relegation_blocks,
+        'このシーズンでは降格条件の記載はありません。',
+        'fas fa-arrow-down',
+        'border-red-900/40 bg-red-950/30 text-red-300'
+    );
 
-        const promotionMarkup = renderBlockList(
-            page.promotion_blocks,
-            'このシーズンでは昇格条件の記載はありません。',
-            'fas fa-arrow-up',
-            'border-gold/40 bg-gold/10 text-gold'
-        );
-
-        const relegationMarkup = renderBlockList(
-            page.relegation_blocks,
-            'このシーズンでは降格条件の記載はありません。',
-            'fas fa-arrow-down',
-            'border-red-900/40 bg-red-950/30 text-red-300'
-        );
-
-        const extraRuleMarkup = Array.isArray(page.extra_rules) && page.extra_rules.length > 0
-            ? page.extra_rules.map((rule) => `
+    const extraRuleMarkup = Array.isArray(page.extra_rules) && page.extra_rules.length > 0
+        ? page.extra_rules.map((rule) => `
                 <article class="border border-white/10 bg-white/5 px-5 py-5 rounded-sm">
                     <div class="text-[10px] font-black tracking-[0.35em] uppercase text-gold/60 mb-2">Supplement</div>
                     <h3 class="text-lg font-serif font-black text-white mb-3">${escapeHtml(rule.title)}</h3>
                     <p class="text-sm text-gray-400 leading-loose">${textToHtml(rule.body)}</p>
                 </article>
             `).join('')
-            : errorMarkup('補足ルールの記載はまだありません。');
-        const promotionHeading = page.promotion_heading || '昇格条件';
-        const relegationHeading = page.relegation_heading || '降格条件';
-        const descriptionMarkup = page.description
-            ? `<p>${textToHtml(page.description)}</p>`
-            : '';
+        : `
+            <div class="jp-card p-8 md:p-10 corner-deco text-center">
+                <i class="fas fa-exclamation-triangle text-2xl text-gold mb-4"></i>
+                <p class="text-sm text-gray-300 leading-loose">補足ルールの記載はまだありません。</p>
+            </div>
+        `;
+    const promotionHeading = page.promotion_heading || '昇格条件';
+    const relegationHeading = page.relegation_heading || '降格条件';
+    const descriptionMarkup = page.description
+        ? `<p>${textToHtml(page.description)}</p>`
+        : '';
 
-        target.innerHTML = `
+    return `
             <section class="mb-12 md:mb-16">
                 <article class="relative overflow-hidden rounded-sm border border-gold/25 bg-black">
                     <div class="absolute inset-0">
@@ -507,48 +507,152 @@
                 </div>
             </section>
         `;
+}
+
+// ---- ページ全体テンプレート ----
+
+const GENERATED_NOTE = '<!-- GENERATED by scripts/build-season-rules.js — このファイルは自動生成です。編集は config/season_rule_pages.json で行い、再生成してください。 -->';
+const REDIRECT_SCRIPT = `<script>if(location.hostname==='seekerstart-hp.vercel.app')location.replace('https://www.seekerstart.com/houou/'+location.pathname.slice(1)+location.search+location.hash);</script>`;
+const FOOTER = `    <footer class="bg-[#050505] py-12 border-t border-white/5">
+        <div class="container mx-auto px-6 text-center">
+            <div class="flex items-center justify-center gap-4 mb-6">
+                <img src="images/SeekerStart_logo.png" alt="Logo" class="h-6 w-auto" onerror="this.src='https://via.placeholder.com/80x30/111/d4af37?text=Logo'">
+                <span class="text-base font-serif font-black tracking-[0.2em] text-white">ポーカー鳳凰戦</span>
+            </div>
+            <p class="text-gray-600 text-[10px] mb-6">
+                Seeker Start 運営による公式シーズン制度ページ
+            </p>
+            <div class="text-[9px] text-gray-700 font-bold uppercase tracking-[0.4em]">
+                &copy; 2026 POKER HOUOU LEAGUE. ALL RIGHTS RESERVED.
+            </div>
+        </div>
+    </footer>`;
+
+function htmlHead(title, canonical, description) {
+    return `<!DOCTYPE html>
+<html lang="ja" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>${escapeHtml(title)}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="canonical" href="${escapeHtml(canonical)}">
+    <meta name="description" content="${escapeHtml(description)}">
+    ${REDIRECT_SCRIPT}
+</head>`;
+}
+
+function detailPageHtml(cfg, page) {
+    const canonical = `https://www.seekerstart.com/houou/season-rules-${page.slug}.html`;
+    const description = page.meta_description || page.summary || '';
+    return `${htmlHead(`${page.title} | ポーカー鳳凰戦`, canonical, description)}
+${GENERATED_NOTE}
+<body class="antialiased">
+
+    <div id="site-header"></div>
+
+    <main class="pt-32 pb-24 min-h-screen">
+        <div class="container mx-auto px-6 max-w-6xl">
+            <div id="season-rule-detail">${buildDetail(cfg, page.slug)}</div>
+        </div>
+    </main>
+
+${FOOTER}
+
+    <script src="js/header.js"></script>
+</body>
+</html>
+`;
+}
+
+function hubPageHtml(cfg) {
+    const title = 'シーズン条件一覧 | ポーカー鳳凰戦';
+    const canonical = 'https://www.seekerstart.com/houou/season-rules.html';
+    const description = cfg.hub_meta_description
+        || 'ポーカー鳳凰戦の各シーズン条件をまとめた一覧ページです。現在シーズンの条件と、条件アーカイブへアクセスできます。';
+    return `${htmlHead(title, canonical, description)}
+${GENERATED_NOTE}
+<body class="antialiased">
+
+    <div id="site-header"></div>
+
+    <main class="pt-32 pb-24 min-h-screen">
+        <div class="container mx-auto px-6 max-w-6xl">
+            <section class="text-center mb-14 md:mb-16">
+                <div class="inline-block px-4 py-1 border border-gold/30 mb-6">
+                    <span class="text-gold text-[9px] font-bold tracking-[0.5em] uppercase">Season Rules</span>
+                </div>
+                <h1 class="text-3xl md:text-5xl font-serif font-black text-white mb-6 tracking-widest">
+                    シーズン条件<span class="gold-gradient">一覧</span>
+                </h1>
+                <p class="text-sm text-gray-400 max-w-3xl mx-auto leading-loose">
+                    各シーズンの昇格・降格・認定条件をまとめた一覧ページです。
+                    今シーズンの条件を最優先で確認でき、過去シーズンの条件ページもアーカイブとして確認できます。
+                </p>
+            </section>
+
+            <section class="mb-16">
+                <div id="season-rules-current">${buildHubCurrent(cfg)}</div>
+            </section>
+
+            <section class="mb-16">
+                <div class="jp-card p-6 md:p-8 corner-deco">
+                    <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+                        <div>
+                            <div class="text-[10px] font-black tracking-[0.45em] uppercase text-gold/60 mb-3">Live Data</div>
+                            <h2 class="text-2xl font-serif font-black text-white mb-3">ランキングページとあわせて確認</h2>
+                            <p class="text-sm text-gray-400 leading-loose max-w-2xl">
+                                制度ページはルールの原本、ランキングページはシーズンの実績確認用です。
+                                昇格ラインや認定条件を把握したうえで、現在の順位やスタッツを確認できます。
+                            </p>
+                        </div>
+                        <a href="/houou/season_stats.html" class="inline-flex items-center justify-center gap-3 border border-gold/40 px-6 py-3 text-xs font-black tracking-[0.3em] uppercase text-gold hover:text-white hover:border-gold transition-all duration-300">
+                            ランキングを見る <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="flex items-center justify-between gap-4 mb-6">
+                    <div>
+                        <div class="text-[10px] font-black tracking-[0.45em] uppercase text-white/35 mb-2">Archive</div>
+                        <h2 class="text-2xl md:text-3xl font-serif font-black text-white">シーズン条件アーカイブ</h2>
+                    </div>
+                    <div class="text-[10px] font-black tracking-[0.35em] uppercase text-gray-500">Season by Season</div>
+                </div>
+                <div id="season-rules-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-5">${buildHubGrid(cfg)}</div>
+            </section>
+        </div>
+    </main>
+
+${FOOTER}
+
+    <script src="js/header.js"></script>
+</body>
+</html>
+`;
+}
+
+// ---- 出力 ----
+
+function write(file, content) {
+    const out = path.join(ROOT, file);
+    fs.writeFileSync(out, content, 'utf8');
+    console.log(`  generated: ${file}`);
+}
+
+function main() {
+    const pages = Array.isArray(config.pages) ? config.pages : [];
+    console.log('Building season-rules static pages from config/season_rule_pages.json ...');
+    write('season-rules.html', hubPageHtml(config));
+    for (const page of pages) {
+        write(`season-rules-${page.slug}.html`, detailPageHtml(config, page));
     }
+    console.log(`Done. ${pages.length + 1} files generated.`);
+}
 
-    async function loadConfig() {
-        const response = await fetch(CONFIG_PATH);
-        if (!response.ok) {
-            throw new Error('season_rule_pages.json の読み込みに失敗しました。');
-        }
-        return response.json();
-    }
-
-    async function init() {
-        const mode = document.body.dataset.pageMode;
-        if (!mode) return;
-
-        const hubTarget = document.getElementById('season-rules-current');
-        const detailTarget = document.getElementById('season-rule-detail');
-
-        if (hubTarget) hubTarget.innerHTML = loadingMarkup();
-        if (detailTarget) detailTarget.innerHTML = loadingMarkup();
-
-        try {
-            const config = await loadConfig();
-
-            if (mode === 'season-rules-index') {
-                renderHub(config);
-                return;
-            }
-
-            if (mode === 'season-rules-detail') {
-                renderDetail(config, document.body.dataset.seasonRuleSlug);
-            }
-        } catch (error) {
-            const message = error instanceof Error ? error.message : '制度ページの読み込みに失敗しました。';
-
-            if (hubTarget) hubTarget.innerHTML = errorMarkup(message);
-            if (detailTarget) detailTarget.innerHTML = errorMarkup(message);
-        }
-    }
-
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', init);
-    } else {
-        init();
-    }
-})();
+main();
