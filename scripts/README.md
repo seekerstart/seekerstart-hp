@@ -2,6 +2,25 @@
 
 Poker Now のハンド履歴から自動でスタッツを計算し、CSV を生成するスクリプト群です。
 
+---
+
+## シーズン制度ページの生成（build-season-rules.js）
+
+シーズン制度ページ（`season-rules.html` 一覧＋`season-rules-s1/s2/s3.html` 詳細）は、
+`config/season_rule_pages.json` を単一ソースとして **静的HTML を生成** します（SEO 対策で本文を初期HTMLに焼き込む）。
+
+```bash
+# JSON を編集したら再生成する
+node scripts/build-season-rules.js
+```
+
+- 入力: `config/season_rule_pages.json`
+- 出力: `season-rules.html` / `season-rules-{slug}.html`（pages 配列ぶん）
+- 生成されたHTMLは **自動生成物**。直接編集しないこと（再生成で上書きされる）。内容変更は JSON 側で行う。
+- 新シーズン追加: JSON の `pages` 先頭に追記し `current_slug` を更新 → このスクリプトを実行 → 生成物をコミット。
+
+---
+
 ## 必要な依存関係
 
 ```bash
