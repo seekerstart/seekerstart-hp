@@ -79,8 +79,8 @@
           "*"
         ]
       },
-      "status": "active",
-      "frozen": false,
+      "status": "completed",
+      "frozen": true,
       "data_source": "precalculated",
       "session_count": 8,
       "session_dates": [
@@ -96,18 +96,231 @@
       "league_rules": {
         "required_hands": 1000,
         "promotion": {
+          "B_to_A": {
+            "top_percent": 0.25
+          },
           "C_to_B": {
             "top_percent": 0.4
           }
         },
         "relegation": {
           "B_to_C": {
-            "bottom_percent": 0.3
+            "bottom_percent": 0.25
+          }
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "シーズン 3",
+      "start_date": "2026-06-08",
+      "end_date": "2026-07-27",
+      "leagues": {
+        "A": [
+          "byYrvu0Qdy",
+          "j_3joKfzS9",
+          "r1CBe6Qe79"
+        ],
+        "B": [
+          "Sc5KlYAPzP",
+          "WtIP2AbI23",
+          "X2HiN5-cFQ",
+          "bqEtnO6wX9",
+          "nPiUhQEVMi"
+        ],
+        "C": [
+          "-QE9uKlHEU",
+          "-R7k1ogPyi",
+          "-WgKDrZMvL",
+          "-lzw3Qbe04",
+          "-qEZ1CRvSu",
+          "-zWKG5L3i7",
+          "0QyEE5Hc9o",
+          "0Se4rsLO6v",
+          "0c3gLD4eiE",
+          "16f983i6Dk",
+          "26v7hSw7Sn",
+          "2GlUDrVHSg",
+          "30a66b4c-40ef-4b06-997f-d6699c7f4abf",
+          "3FatmzAl-m",
+          "3f54ee51-69b1-4678-8ba5-516769dc6286",
+          "3liBhfdN10",
+          "3xNTeMox_o",
+          "4GTkR8PieQ",
+          "4WtCZIPG2x",
+          "4_RBXVU9-k",
+          "4d81b2a2-661e-469e-aa93-f16655f79215",
+          "4kHSZklLpK",
+          "5E5VYl6oOU",
+          "5bOqayAYt3",
+          "5c5ab738-0853-445d-8cfa-e5489e42a203",
+          "5f3818e5-f4e0-44a5-b14f-76d6d270c526",
+          "5ogXjv4ef9",
+          "5v7PwEvIAz",
+          "605b96e3-56ed-49d6-aef9-361b116cb682",
+          "69a63a1b-d32c-4594-bdef-5fd660661444",
+          "6DX7hOo5Ri",
+          "6EXZrOgNuV",
+          "6N30cpGlP_",
+          "6weTfFBYpF",
+          "6ybXdApWzf",
+          "7M6m0QCn4d",
+          "7htETinMJU",
+          "7n59-giX1P",
+          "7x5MHOv7Oo",
+          "8IgjF6KI_P",
+          "9W903vxPw_",
+          "9kBl9X8tEm",
+          "9zseyWfctH",
+          "A-C0iUFfvO",
+          "A9xvP3DhlS",
+          "BZCdwuhpMU",
+          "Bvxa5VV39S",
+          "D0RgrTLvZk",
+          "DXrWVNkdav",
+          "DZezvMNAJy",
+          "DrGOt1cq1y",
+          "EI0h9NvLRP",
+          "EN9N_Z9A78",
+          "EhpMamj_1G",
+          "FaQTC0bwNd",
+          "Figi6mUf2R",
+          "FxzN600G3r",
+          "GtqOGZOqIV",
+          "HZmCRZd6SG",
+          "I42BI18xq3",
+          "JL0yn4eBi6",
+          "Kyu60mEERY",
+          "Lx-JfyAGSv",
+          "MCmjCniXJd",
+          "MI-fYAoFiY",
+          "MqZu0oArm3",
+          "NTr_pi-AHh",
+          "NnZvVXUwZ4",
+          "O1ujh7Dkxd",
+          "O2b7zy1-XM",
+          "OOnwSL9TFS",
+          "Oc04ITRF7i",
+          "Oo-rx1G24B",
+          "Q0mo0HjOtt",
+          "QBTw2JRIw5",
+          "QK8nAFN9E2",
+          "QWB-qkCzDu",
+          "QwyEWJtSb1",
+          "SQgoIV_H58",
+          "SrJdWlcNBY",
+          "SsAkQq2Oa9",
+          "SztbQ-wHxN",
+          "TOznNDIpCr",
+          "TVNlFwDOoe",
+          "TkMT4agdsh",
+          "UHNPbgw1ue",
+          "WABAdHmLRW",
+          "WCz-o4BU-5",
+          "W_OnerqyAy",
+          "WeOKnoOueQ",
+          "WjqaCs8A5o",
+          "XaClitYV1x",
+          "Xa_1dhYEV4",
+          "XqrTiXnRSu",
+          "Yg9-tEe5QH",
+          "YkRLv6Nf7r",
+          "ZzPjBrJeSm",
+          "_1mfZ1y-M8",
+          "_EAr7O2lyX",
+          "_kLNausMBV",
+          "afwX5VdcTj",
+          "b40c0fb4-0d63-4842-b999-25a9cffc7b79",
+          "b7sgMo_M-5",
+          "bdhmMIP7G-",
+          "cCFXQyltQ-",
+          "cS0TbNKfbn",
+          "cSNEDiUvjX",
+          "dc6da8ae-2813-4d48-87c7-b7fa103edeb3",
+          "fyjEJaUFUd",
+          "g0yui9LXM4",
+          "g6iLEQsU67",
+          "gEdtsiCEzz",
+          "gG60J3OV2j",
+          "hetGK5oIn4",
+          "hig4fvwo_m",
+          "iBhJbKViQ_",
+          "iKNrGrbUkg",
+          "iOgb92C-Hi",
+          "ioqGYIb5SY",
+          "j2dIJuodA7",
+          "jfd6Uaakn8",
+          "k5rEzFp2MR",
+          "kVKTrcl3ld",
+          "lQ2rbwu868",
+          "lRMrY2rxFn",
+          "lYH850EfPw",
+          "m6qcHTxJhX",
+          "mXg0a8r7as",
+          "n0s1KAOIRL",
+          "nBDoNSY8n2",
+          "nxKtWVcmeY",
+          "rhUBwDuHCf",
+          "sDxsghMy-B",
+          "sYruTEJ8Uw",
+          "s_7Utr4tDi",
+          "stzdogxFRA",
+          "t7MdS6sSCT",
+          "tOQgx5q4M5",
+          "tqB-r6hdq9",
+          "uNHIhLxU5W",
+          "upQSzf-M-C",
+          "vVo9VdBVBm",
+          "vdNIJNJGUU",
+          "wE-EPOxf9q",
+          "wO4Vw2dQ8t",
+          "wbYHjA_SbB",
+          "xOaP7PB88A",
+          "xS6UcJwLsG",
+          "y4bVPCJM4_",
+          "yEOnuJcBZo",
+          "yHZrsG6l5j",
+          "yOGROR9-hE",
+          "yokMVzYG_q",
+          "zFXBMUEx_N",
+          "zz83sIdu2k"
+        ],
+        "D": [
+          "*"
+        ]
+      },
+      "status": "active",
+      "frozen": false,
+      "data_source": "precalculated",
+      "session_count": 0,
+      "session_dates": [],
+      "league_rules": {
+        "required_hands": 1000,
+        "promotion": {
+          "B_to_A": {
+            "top_count": 3
+          },
+          "C_to_B": {
+            "top_percent": 0.3
+          },
+          "D_to_C": {
+            "top_percent": 0.5
+          }
+        },
+        "relegation": {
+          "A_to_B": {
+            "bottom_count": 1
+          },
+          "B_to_C": {
+            "bottom_count": 8
+          },
+          "C_to_D": {
+            "bottom_percent": 0.2
           }
         }
       }
     }
   ],
-  "current_season_id": 2,
+  "current_season_id": 3,
   "total_session_count": 17
 }
