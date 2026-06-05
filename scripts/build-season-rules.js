@@ -167,7 +167,7 @@ function renderParticipationSection() {
                         開催時間になりましたら以下のURLにアクセスし、Google アカウントまたは Discord アカウントでログインしてご参加ください。
                     </p>
                     <a href="${escapeHtml(PLAY_URL)}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-3 border border-gold/40 px-6 py-3 text-xs font-black tracking-[0.3em] uppercase text-gold hover:text-white hover:border-gold transition-all duration-300 break-all">
-                        対戦卓へアクセス <i class="fas fa-arrow-up-right-from-square"></i>
+                        ここから鳳凰戦へ挑戦 <i class="fas fa-arrow-up-right-from-square"></i>
                     </a>
                     <p class="text-xs text-gray-500 leading-loose mt-4 break-all">${escapeHtml(PLAY_URL)}</p>
                 </div>
