@@ -19,6 +19,9 @@ const config = JSON.parse(fs.readFileSync(CONFIG_PATH, 'utf8'));
 const INTERNAL_BASE_PATH = '/houou/';
 const pageHref = (p) => `${INTERNAL_BASE_PATH}${String(p).replace(/^\/+/, '')}`;
 
+// プレイ用URL（実際に対戦卓へアクセスするためのリンク）
+const PLAY_URL = 'https://fast-table-production.up.railway.app/';
+
 // ---- 描画ヘルパ（旧 js/season-rules.js から逐語移植） ----
 
 function escapeHtml(value) {
@@ -149,6 +152,26 @@ function renderSeasonSwitchButton(options) {
             <a href="${escapeHtml(href)}" class="${baseClass}">
                 ${content}
             </a>
+        `;
+}
+
+function renderParticipationSection() {
+    return `
+            <section class="mb-12 md:mb-16">
+                <div class="flex items-center gap-3 mb-6">
+                    <i class="fas fa-right-to-bracket text-gold"></i>
+                    <h2 class="text-2xl md:text-3xl font-serif font-bold text-white">参加方法</h2>
+                </div>
+                <div class="jp-card p-6 md:p-8 corner-deco">
+                    <p class="text-sm md:text-base text-gray-300 leading-loose mb-6">
+                        開催時間になりましたら以下のURLにアクセスし、Google アカウントまたは Discord アカウントでログインしてご参加ください。
+                    </p>
+                    <a href="${escapeHtml(PLAY_URL)}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-3 border border-gold/40 px-6 py-3 text-xs font-black tracking-[0.3em] uppercase text-gold hover:text-white hover:border-gold transition-all duration-300 break-all">
+                        対戦卓へアクセス <i class="fas fa-arrow-up-right-from-square"></i>
+                    </a>
+                    <p class="text-xs text-gray-500 leading-loose mt-4 break-all">${escapeHtml(PLAY_URL)}</p>
+                </div>
+            </section>
         `;
 }
 
@@ -421,6 +444,7 @@ ${highlightMarkup}
                 </figure>
             </section>
 
+${renderParticipationSection()}
             <section class="mb-12 md:mb-16">
                 <div class="flex items-center gap-3 mb-6">
                     <i class="fas fa-arrow-up text-gold"></i>
