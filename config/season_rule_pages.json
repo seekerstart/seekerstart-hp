@@ -9,42 +9,39 @@
       "meta_description": "ポーカー鳳凰戦シーズン3の条件ページです。A/B/C/D 4リーグ制の昇格・降格・認定条件と開催スケジュールを確認できます。",
       "period_label": "2026.06.08 - 2026.07.27",
       "hero_image": "images/houoh_kaimaku.png",
-      "thumbnail_image": "images/houoh_kaimaku.png",
+      "thumbnail_image": "images/season3zyoken.png",
       "summary": "外部参加を解禁し、A/B/C/D の4リーグ制へ移行。リーグは「評価区分」として全プレイヤーが同卓で混在し、Season 総獲得 BB 数で順位を決定します。規定ハンド数は1000ハンドです。",
-      "overview": "シーズン3では、最高位 A リーグの本格運用を開始し、新たに D リーグを新設した4リーグ制へ移行します。\nリーグは所属クラスではなく「評価区分」として位置付けられ、全リーグのプレイヤーが同卓（NLH / 6-max / fastfold）で混在して対戦します。\n順位は Season を通じた総獲得 BB 数で決定し、同数の場合は総ハンド数が多いプレイヤーを上位とします。\n各回 100BB のバイインで運用し、超過分は「確定利益」として Season 総獲得 BB に反映されます。\nなお、3 Season 連続で A リーグに所属した選手には最高位「鳳凰位」が付与されます。",
-      "promotion_heading": "昇格条件（B・C・Dリーグ）",
-      "relegation_heading": "降格条件（A・B・Cリーグ）",
+      "highlight": {
+        "eyebrow": "Road to Houou",
+        "lead": "鳳凰位への道は、ここから。",
+        "body": "Season 3 の順位が、あなたの初期リーグを決める。"
+      },
+      "overview": "シーズン3では、最高位 A リーグの本格運用を開始し、新たに D リーグを新設した4リーグ制へ移行します。\n全リーグのプレイヤーが同卓（NLH / 6-max / fastfold）で混在して対戦します。\n順位は Season を通じた総獲得 BB 数で決定し、同数の場合は総ハンド数が多いプレイヤーを上位とします。\nシーズン終了時の総合順位で次シーズンのリーグを編成します（上位100名が A・B、101位以下が C・D）。\nA リーグ在籍者がシーズン上位6名に入ると「鳳凰の羽」を1枚獲得し、通算3枚で最高位「鳳凰位」が付与されます。\nなお Season 4 より、AB／CD の2サーバー制へ移行します。",
+      "promotion_heading": "次シーズンのリーグ編成",
+      "relegation_heading": "降格・据置の扱い",
       "promotion_blocks": [
         {
-          "title": "BリーグからAリーグへ昇格",
-          "accent": "上位3名 / Aリーグへ昇格"
+          "title": "A リーグ（最上位）",
+          "accent": "総合 1〜30位"
         },
         {
-          "title": "CリーグからBリーグへ昇格",
-          "accent": "上位30% / Bリーグへ昇格"
+          "title": "B リーグ",
+          "accent": "総合 31〜100位"
         },
         {
-          "title": "DリーグからCリーグへ昇格",
-          "accent": "上位50% / Cリーグへ昇格"
+          "title": "C リーグ",
+          "accent": "総合 101位以下の上位40%"
+        },
+        {
+          "title": "D リーグ（新規の出発点）",
+          "accent": "残り（主に新規参加者）"
         }
       ],
       "relegation_blocks": [
         {
-          "title": "Aリーグ下位帯の扱い",
-          "accent": "下位1名 / Bリーグへ降格",
-          "body": "上位3名はAリーグに残留します。"
-        },
-        {
-          "title": "Bリーグ下位帯の扱い",
-          "accent": "下位8名 / Cリーグへ降格"
-        },
-        {
-          "title": "Cリーグ下位帯の扱い",
-          "accent": "下位20% / Dリーグへ降格"
-        },
-        {
-          "title": "Dリーグ下位帯の扱い",
-          "accent": "下位50% / 据置（降格なし）"
+          "title": "既存メンバーの扱い",
+          "accent": "降格なし（現リーグ据置）",
+          "body": "総合順位が下位になっても、既存プレイヤーは現在のリーグを維持します。新規参加者は D リーグから挑戦します。"
         }
       ],
       "extra_rules": [
@@ -54,7 +51,11 @@
         },
         {
           "title": "公式成績の認定基準",
-          "body": "規定ハンド数は1000ハンドです。1000ハンドに満たない場合は参考記録扱いとなり、B リーグ以上に所属する場合は次シーズン1ランク強制降格、D リーグは据置となります。"
+          "body": "規定ハンド数は1000ハンドです。1000ハンドに満たない場合は参考記録扱いとなり、次シーズン1ランク降格となります（据置保護の対象外）。"
+        },
+        {
+          "title": "Season 4 以降のサーバー構成",
+          "body": "Season 4 より、上位の AB サーバーと下位の CD サーバーの2サーバー制へ移行します。"
         },
         {
           "title": "禁止行為とログの取り扱い",
@@ -71,7 +72,7 @@
         { "week_label": "第7節", "date_label": "2026/07/20", "time_label": "20:00 - 23:00" },
         { "week_label": "第8節", "date_label": "2026/07/27", "time_label": "20:00 - 23:00" }
       ],
-      "diagram_image": "images/houoh_kaimaku.png",
+      "diagram_image": "images/season3zyoken.png",
       "diagram_caption": "",
       "stats_link": "/houou/season_stats.html"
     },
