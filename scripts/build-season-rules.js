@@ -352,6 +352,20 @@ function buildDetail(cfg, slug) {
         ? `<p>${textToHtml(page.description)}</p>`
         : '';
 
+    const highlightMarkup = page.highlight
+        ? `
+            <section class="mb-12 md:mb-16">
+                <div class="relative overflow-hidden rounded-sm border border-gold/40 bg-gradient-to-br from-[#1a1305] to-black p-8 md:p-12 text-center">
+                    <div class="absolute -right-8 -bottom-10 opacity-[0.06] pointer-events-none"><i class="fas fa-feather text-[200px] text-gold"></i></div>
+                    <div class="relative z-10">
+                        ${page.highlight.eyebrow ? `<div class="text-[10px] font-black tracking-[0.45em] uppercase text-gold/70 mb-5">${escapeHtml(page.highlight.eyebrow)}</div>` : ''}
+                        <h2 class="text-2xl md:text-4xl font-serif font-black text-white leading-snug mb-4">${escapeHtml(page.highlight.lead)}</h2>
+                        ${page.highlight.body ? `<p class="text-sm md:text-lg text-gray-300 leading-loose max-w-2xl mx-auto">${escapeHtml(page.highlight.body)}</p>` : ''}
+                    </div>
+                </div>
+            </section>`
+        : '';
+
     return `
             <section class="mb-12 md:mb-16">
                 <article class="relative overflow-hidden rounded-sm border border-gold/25 bg-black">
@@ -380,7 +394,7 @@ function buildDetail(cfg, slug) {
                     </div>
                 </article>
             </section>
-
+${highlightMarkup}
             <section class="mb-12 md:mb-16">
                 <div class="jp-card p-6 md:p-8 corner-deco">
                     <div class="flex items-center gap-3 mb-6">

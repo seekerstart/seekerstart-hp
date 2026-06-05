@@ -3,3 +3,7 @@ __pycache__/
 *.pyc
 
 .DS_Store
+
+# Local server logs
+local-server.out.log
+local-server.err.log

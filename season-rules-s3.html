@@ -49,13 +49,23 @@
             </section>
 
             <section class="mb-12 md:mb-16">
+                <div class="relative overflow-hidden rounded-sm border border-gold/40 bg-gradient-to-br from-[#1a1305] to-black p-8 md:p-12 text-center">
+                    <div class="absolute -right-8 -bottom-10 opacity-[0.06] pointer-events-none"><i class="fas fa-feather text-[200px] text-gold"></i></div>
+                    <div class="relative z-10">
+                        <div class="text-[10px] font-black tracking-[0.45em] uppercase text-gold/70 mb-5">Road to Houou</div>
+                        <h2 class="text-2xl md:text-4xl font-serif font-black text-white leading-snug mb-4">鳳凰位への道は、ここから。</h2>
+                        <p class="text-sm md:text-lg text-gray-300 leading-loose max-w-2xl mx-auto">Season 3 の順位が、あなたの初期リーグを決める。</p>
+                    </div>
+                </div>
+            </section>
+            <section class="mb-12 md:mb-16">
                 <div class="jp-card p-6 md:p-8 corner-deco">
                     <div class="flex items-center gap-3 mb-6">
                         <i class="fas fa-scroll text-gold text-lg"></i>
                         <h2 class="text-lg md:text-xl font-serif font-bold text-white">制度概要</h2>
                     </div>
                     <div class="space-y-5 text-sm md:text-base text-gray-300 leading-loose">
-                        <p>シーズン3では、最高位 A リーグの本格運用を開始し、新たに D リーグを新設した4リーグ制へ移行します。<br>リーグは所属クラスではなく「評価区分」として位置付けられ、全リーグのプレイヤーが同卓（NLH / 6-max / fastfold）で混在して対戦します。<br>順位は Season を通じた総獲得 BB 数で決定し、同数の場合は総ハンド数が多いプレイヤーを上位とします。<br>各回 100BB のバイインで運用し、超過分は「確定利益」として Season 総獲得 BB に反映されます。<br>なお、3 Season 連続で A リーグに所属した選手には最高位「鳳凰位」が付与されます。</p>
+                        <p>シーズン3では、最高位 A リーグの本格運用を開始し、新たに D リーグを新設した4リーグ制へ移行します。<br>全リーグのプレイヤーが同卓（NLH / 6-max / fastfold）で混在して対戦します。<br>順位は Season を通じた総獲得 BB 数で決定し、同数の場合は総ハンド数が多いプレイヤーを上位とします。<br>シーズン終了時の総合順位で次シーズンのリーグを編成します（上位100名が A・B、101位以下が C・D）。<br>A リーグ在籍者がシーズン上位6名に入ると「鳳凰の羽」を1枚獲得し、通算3枚で最高位「鳳凰位」が付与されます。<br>なお Season 4 より、AB／CD の2サーバー制へ移行します。</p>
                         
                     </div>
                 </div>
@@ -68,7 +78,7 @@
                 </div>
                 <figure class="jp-card p-4 md:p-6 corner-deco">
                     <div class="overflow-hidden rounded-sm border border-white/10 bg-black">
-                        <img src="images/houoh_kaimaku.png" alt="シーズン3条件" class="w-full h-auto object-cover" onerror="this.src='https://images.unsplash.com/photo-1518893063132-36e46dbe2428?auto=format&fit=crop&q=80&w=1200'">
+                        <img src="images/season3zyoken.png" alt="シーズン3条件" class="w-full h-auto object-cover" onerror="this.src='https://images.unsplash.com/photo-1518893063132-36e46dbe2428?auto=format&fit=crop&q=80&w=1200'">
                     </div>
                     
                 </figure>
@@ -77,7 +87,7 @@
             <section class="mb-12 md:mb-16">
                 <div class="flex items-center gap-3 mb-6">
                     <i class="fas fa-arrow-up text-gold"></i>
-                    <h2 class="text-2xl md:text-3xl font-serif font-bold text-white">昇格条件（B・C・Dリーグ）</h2>
+                    <h2 class="text-2xl md:text-3xl font-serif font-bold text-white">次シーズンのリーグ編成</h2>
                 </div>
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
                     
@@ -85,13 +95,13 @@
                     <div class="flex items-start justify-between gap-4 mb-5">
                         <div>
                             <div class="text-[10px] font-black tracking-[0.45em] uppercase text-gold/70 mb-2">Rule Block</div>
-                            <h3 class="text-xl md:text-2xl font-serif font-black text-white leading-snug">BリーグからAリーグへ昇格</h3>
+                            <h3 class="text-xl md:text-2xl font-serif font-black text-white leading-snug">A リーグ（最上位）</h3>
                         </div>
                         <div class="w-11 h-11 shrink-0 rounded-full border border-white/10 bg-white/5 flex items-center justify-center text-gold">
                             <i class="fas fa-arrow-up"></i>
                         </div>
                     </div>
-                    <div class="inline-flex items-center px-4 py-3 mb-4 border border-gold/40 bg-gold/10 text-gold text-xl md:text-2xl font-black leading-snug">上位3名 / Aリーグへ昇格</div>
+                    <div class="inline-flex items-center px-4 py-3 mb-4 border border-gold/40 bg-gold/10 text-gold text-xl md:text-2xl font-black leading-snug">総合 1〜30位</div>
                     
                     
                 </article>
@@ -100,13 +110,13 @@
                     <div class="flex items-start justify-between gap-4 mb-5">
                         <div>
                             <div class="text-[10px] font-black tracking-[0.45em] uppercase text-gold/70 mb-2">Rule Block</div>
-                            <h3 class="text-xl md:text-2xl font-serif font-black text-white leading-snug">CリーグからBリーグへ昇格</h3>
+                            <h3 class="text-xl md:text-2xl font-serif font-black text-white leading-snug">B リーグ</h3>
                         </div>
                         <div class="w-11 h-11 shrink-0 rounded-full border border-white/10 bg-white/5 flex items-center justify-center text-gold">
                             <i class="fas fa-arrow-up"></i>
                         </div>
                     </div>
-                    <div class="inline-flex items-center px-4 py-3 mb-4 border border-gold/40 bg-gold/10 text-gold text-xl md:text-2xl font-black leading-snug">上位30% / Bリーグへ昇格</div>
+                    <div class="inline-flex items-center px-4 py-3 mb-4 border border-gold/40 bg-gold/10 text-gold text-xl md:text-2xl font-black leading-snug">総合 31〜100位</div>
                     
                     
                 </article>
@@ -115,13 +125,28 @@
                     <div class="flex items-start justify-between gap-4 mb-5">
                         <div>
                             <div class="text-[10px] font-black tracking-[0.45em] uppercase text-gold/70 mb-2">Rule Block</div>
-                            <h3 class="text-xl md:text-2xl font-serif font-black text-white leading-snug">DリーグからCリーグへ昇格</h3>
+                            <h3 class="text-xl md:text-2xl font-serif font-black text-white leading-snug">C リーグ</h3>
                         </div>
                         <div class="w-11 h-11 shrink-0 rounded-full border border-white/10 bg-white/5 flex items-center justify-center text-gold">
                             <i class="fas fa-arrow-up"></i>
                         </div>
                     </div>
-                    <div class="inline-flex items-center px-4 py-3 mb-4 border border-gold/40 bg-gold/10 text-gold text-xl md:text-2xl font-black leading-snug">上位50% / Cリーグへ昇格</div>
+                    <div class="inline-flex items-center px-4 py-3 mb-4 border border-gold/40 bg-gold/10 text-gold text-xl md:text-2xl font-black leading-snug">総合 101位以下の上位40%</div>
+                    
+                    
+                </article>
+            
+                <article class="jp-card p-7 md:p-8 corner-deco h-full">
+                    <div class="flex items-start justify-between gap-4 mb-5">
+                        <div>
+                            <div class="text-[10px] font-black tracking-[0.45em] uppercase text-gold/70 mb-2">Rule Block</div>
+                            <h3 class="text-xl md:text-2xl font-serif font-black text-white leading-snug">D リーグ（新規の出発点）</h3>
+                        </div>
+                        <div class="w-11 h-11 shrink-0 rounded-full border border-white/10 bg-white/5 flex items-center justify-center text-gold">
+                            <i class="fas fa-arrow-up"></i>
+                        </div>
+                    </div>
+                    <div class="inline-flex items-center px-4 py-3 mb-4 border border-gold/40 bg-gold/10 text-gold text-xl md:text-2xl font-black leading-snug">残り（主に新規参加者）</div>
                     
                     
                 </article>
@@ -132,7 +157,7 @@
             <section class="mb-12 md:mb-16">
                 <div class="flex items-center gap-3 mb-6">
                     <i class="fas fa-arrow-down text-gold"></i>
-                    <h2 class="text-2xl md:text-3xl font-serif font-bold text-white">降格条件（A・B・Cリーグ）</h2>
+                    <h2 class="text-2xl md:text-3xl font-serif font-bold text-white">降格・据置の扱い</h2>
                 </div>
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
                     
@@ -140,59 +165,14 @@
                     <div class="flex items-start justify-between gap-4 mb-5">
                         <div>
                             <div class="text-[10px] font-black tracking-[0.45em] uppercase text-gold/70 mb-2">Rule Block</div>
-                            <h3 class="text-xl md:text-2xl font-serif font-black text-white leading-snug">Aリーグ下位帯の扱い</h3>
+                            <h3 class="text-xl md:text-2xl font-serif font-black text-white leading-snug">既存メンバーの扱い</h3>
                         </div>
                         <div class="w-11 h-11 shrink-0 rounded-full border border-white/10 bg-white/5 flex items-center justify-center text-gold">
                             <i class="fas fa-arrow-down"></i>
                         </div>
                     </div>
-                    <div class="inline-flex items-center px-4 py-3 mb-4 border border-red-900/40 bg-red-950/30 text-red-300 text-xl md:text-2xl font-black leading-snug">下位1名 / Bリーグへ降格</div>
-                    <p class="text-sm text-gray-300 leading-loose mb-5">上位3名はAリーグに残留します。</p>
-                    
-                </article>
-            
-                <article class="jp-card p-7 md:p-8 corner-deco h-full">
-                    <div class="flex items-start justify-between gap-4 mb-5">
-                        <div>
-                            <div class="text-[10px] font-black tracking-[0.45em] uppercase text-gold/70 mb-2">Rule Block</div>
-                            <h3 class="text-xl md:text-2xl font-serif font-black text-white leading-snug">Bリーグ下位帯の扱い</h3>
-                        </div>
-                        <div class="w-11 h-11 shrink-0 rounded-full border border-white/10 bg-white/5 flex items-center justify-center text-gold">
-                            <i class="fas fa-arrow-down"></i>
-                        </div>
-                    </div>
-                    <div class="inline-flex items-center px-4 py-3 mb-4 border border-red-900/40 bg-red-950/30 text-red-300 text-xl md:text-2xl font-black leading-snug">下位8名 / Cリーグへ降格</div>
-                    
-                    
-                </article>
-            
-                <article class="jp-card p-7 md:p-8 corner-deco h-full">
-                    <div class="flex items-start justify-between gap-4 mb-5">
-                        <div>
-                            <div class="text-[10px] font-black tracking-[0.45em] uppercase text-gold/70 mb-2">Rule Block</div>
-                            <h3 class="text-xl md:text-2xl font-serif font-black text-white leading-snug">Cリーグ下位帯の扱い</h3>
-                        </div>
-                        <div class="w-11 h-11 shrink-0 rounded-full border border-white/10 bg-white/5 flex items-center justify-center text-gold">
-                            <i class="fas fa-arrow-down"></i>
-                        </div>
-                    </div>
-                    <div class="inline-flex items-center px-4 py-3 mb-4 border border-red-900/40 bg-red-950/30 text-red-300 text-xl md:text-2xl font-black leading-snug">下位20% / Dリーグへ降格</div>
-                    
-                    
-                </article>
-            
-                <article class="jp-card p-7 md:p-8 corner-deco h-full">
-                    <div class="flex items-start justify-between gap-4 mb-5">
-                        <div>
-                            <div class="text-[10px] font-black tracking-[0.45em] uppercase text-gold/70 mb-2">Rule Block</div>
-                            <h3 class="text-xl md:text-2xl font-serif font-black text-white leading-snug">Dリーグ下位帯の扱い</h3>
-                        </div>
-                        <div class="w-11 h-11 shrink-0 rounded-full border border-white/10 bg-white/5 flex items-center justify-center text-gold">
-                            <i class="fas fa-arrow-down"></i>
-                        </div>
-                    </div>
-                    <div class="inline-flex items-center px-4 py-3 mb-4 border border-red-900/40 bg-red-950/30 text-red-300 text-xl md:text-2xl font-black leading-snug">下位50% / 据置（降格なし）</div>
-                    
+                    <div class="inline-flex items-center px-4 py-3 mb-4 border border-red-900/40 bg-red-950/30 text-red-300 text-xl md:text-2xl font-black leading-snug">降格なし（現リーグ据置）</div>
+                    <p class="text-sm text-gray-300 leading-loose mb-5">総合順位が下位になっても、既存プレイヤーは現在のリーグを維持します。新規参加者は D リーグから挑戦します。</p>
                     
                 </article>
             
@@ -215,7 +195,13 @@
                 <article class="border border-white/10 bg-white/5 px-5 py-5 rounded-sm">
                     <div class="text-[10px] font-black tracking-[0.35em] uppercase text-gold/60 mb-2">Supplement</div>
                     <h3 class="text-lg font-serif font-black text-white mb-3">公式成績の認定基準</h3>
-                    <p class="text-sm text-gray-400 leading-loose">規定ハンド数は1000ハンドです。1000ハンドに満たない場合は参考記録扱いとなり、B リーグ以上に所属する場合は次シーズン1ランク強制降格、D リーグは据置となります。</p>
+                    <p class="text-sm text-gray-400 leading-loose">規定ハンド数は1000ハンドです。1000ハンドに満たない場合は参考記録扱いとなり、次シーズン1ランク降格となります（据置保護の対象外）。</p>
+                </article>
+            
+                <article class="border border-white/10 bg-white/5 px-5 py-5 rounded-sm">
+                    <div class="text-[10px] font-black tracking-[0.35em] uppercase text-gold/60 mb-2">Supplement</div>
+                    <h3 class="text-lg font-serif font-black text-white mb-3">Season 4 以降のサーバー構成</h3>
+                    <p class="text-sm text-gray-400 leading-loose">Season 4 より、上位の AB サーバーと下位の CD サーバーの2サーバー制へ移行します。</p>
                 </article>
             
                 <article class="border border-white/10 bg-white/5 px-5 py-5 rounded-sm">
