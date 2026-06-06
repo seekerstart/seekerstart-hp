@@ -38,18 +38,129 @@
             </div>
         </section>
 
-        <!-- Sponsors Section -->
-        <section id="sponsors" class="py-24 md:py-32 bg-[#080808] border-y border-white/5">
+        <!-- Sponsors Section (Season Tabs) -->
+        <section id="sponsors" class="py-20 md:py-28 bg-[#080808] border-y border-white/5">
             <div class="container mx-auto px-6 max-w-6xl">
-                <div class="text-center mb-16 reveal">
-                    <div class="inline-block px-4 py-1 border border-gold/30 mb-6">
-                        <span class="text-gold text-[9px] font-bold tracking-[0.5em] uppercase">Featured</span>
+                <!-- Season Tabs -->
+                <div class="reveal mb-12 md:mb-16">
+                    <div class="text-center mb-8">
+                        <div class="inline-block px-4 py-1 border border-gold/30 mb-6">
+                            <span class="text-gold text-[9px] font-bold tracking-[0.5em] uppercase">Season</span>
+                        </div>
+                        <h2 class="text-3xl md:text-4xl font-serif font-black text-white tracking-widest">シーズン別協賛</h2>
+                        <p class="text-gray-400 text-sm max-w-2xl mx-auto leading-loose mt-5">
+                            協賛内容はシーズンごとに異なります。シーズンを選択してご確認ください。
+                        </p>
                     </div>
-                    <h2 class="text-3xl md:text-5xl font-serif font-black text-white mb-6 tracking-widest">メイン協賛</h2>
-                    <p class="text-gray-400 text-sm max-w-2xl mx-auto leading-loose">
-                        提供内容に応じて大きく掲載します。
-                    </p>
+                    <div class="flex flex-wrap justify-center gap-3" role="tablist" aria-label="シーズン切替">
+                        <button type="button" class="season-tab active" role="tab" aria-selected="true" aria-controls="sponsor-panel-s3" data-season="s3">Season 03</button>
+                        <button type="button" class="season-tab" role="tab" aria-selected="false" aria-controls="sponsor-panel-s2" data-season="s2">Season 02</button>
+                        <button type="button" class="season-tab" role="tab" aria-selected="false" aria-controls="sponsor-panel-s1" data-season="s1">Season 01</button>
+                    </div>
                 </div>
+
+                <!-- Season 03 Panel -->
+                <div id="sponsor-panel-s3" data-season-panel="s3" role="tabpanel" aria-label="Season 03 協賛">
+                    <div class="text-center mb-16 reveal">
+                        <div class="inline-block px-4 py-1 border border-gold/30 mb-6">
+                            <span class="text-gold text-[9px] font-bold tracking-[0.5em] uppercase">Featured</span>
+                        </div>
+                        <h3 class="text-3xl md:text-5xl font-serif font-black text-white mb-6 tracking-widest">メイン協賛</h3>
+                        <p class="text-gray-400 text-sm max-w-2xl mx-auto leading-loose">
+                            提供内容に応じて大きく掲載します。
+                        </p>
+                    </div>
+
+                    <div class="jp-card p-8 md:p-12 corner-deco reveal">
+                        <div class="flex flex-col gap-10">
+                            <div class="flex-1 flex flex-col">
+                                <div class="flex flex-wrap items-center gap-4">
+                                    <div class="w-16 h-16 bg-white/5 border border-white/10 rounded flex items-center justify-center p-2">
+                                        <img src="images/joptlogo.jpg" alt="Japan Open Poker Tour ロゴ" class="w-full h-full object-contain">
+                                    </div>
+                                    <h3 class="text-2xl md:text-3xl font-serif font-black text-white">ジャパンオープンポーカーツアー株式会社</h3>
+                                    <span class="text-[10px] font-bold tracking-[0.3em] uppercase border border-gold/40 text-gold px-3 py-1">メイン協賛</span>
+                                </div>
+                                <div class="mt-4 text-xs text-gray-500 tracking-widest uppercase">
+                                    所在地 <span class="ml-3">東京都新宿区</span>
+                                </div>
+                                <p class="text-gray-400 text-sm leading-loose mt-4">
+                                    国内最大規模のポーカー大会「JOPT」を主催・運営。2011年の発足以来、世界基準のトーナメントを提供し続け、日本のポーカーシーンを牽引するリーディングカンパニーです。ポーカーをマインドスポーツとして普及させ、世界へ挑戦するプレイヤーを支援しています。
+                                </p>
+
+                                <div class="mt-8 bg-black/40 border border-white/10 p-6">
+                                    <h4 class="text-gold font-serif font-bold text-sm mb-4">協賛内容</h4>
+                                    <ul class="space-y-2 text-xs text-gray-300 leading-relaxed">
+                                        <li class="text-gray-400">Season3 全体ランキング 上位18名（バウチャーは2026年10月「JOPT 2026 Tokyo #03」対象）</li>
+                                        <li>1位: Millions バウチャー</li>
+                                        <li>2位: Millions バウチャー</li>
+                                        <li>3位: Warm-up バウチャー</li>
+                                        <li>4-6位: HSグループ共通割引券 15,000円分 / JOPT Sit&Go チケット</li>
+                                        <li>7-12位: HSグループ共通割引券 10,000円分</li>
+                                        <li>13-18位: HSグループ共通割引券 5,000円分</li>
+                                    </ul>
+                                    <img src="images/houou-season3_JOPT.png" alt="JOPT協賛決定 鳳凰戦 Season 3 賞品" class="w-2/3 h-auto rounded mt-6 mx-auto">
+                                    <p class="text-[10px] text-gray-500 mt-3">
+                                        ※ 画像内の内容は提供特典の詳細です。<br>
+                                        ※ HS割引券総額 ¥135,000
+                                    </p>
+                                </div>
+
+                                <a href="https://japanopenpoker.com/" target="_blank" rel="noopener" class="mt-8 flex items-center gap-2 text-xs text-gold hover:text-gold-light transition self-end">
+                                    <i class="fas fa-link"></i> 公式サイト
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-20 reveal delay-100">
+                        <div class="text-center mb-10">
+                            <div class="inline-block px-4 py-1 border border-gold/20 mb-4">
+                                <span class="text-gold text-[9px] font-bold tracking-[0.5em] uppercase">Sponsors</span>
+                            </div>
+                            <h3 class="text-2xl md:text-3xl font-serif font-black text-white mb-4 tracking-widest">協賛</h3>
+                            <p class="text-gray-500 text-xs md:text-sm">協賛企業・団体・店舗一覧</p>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                            <div class="jp-card p-8 border-dashed border-white/20 text-center flex flex-col justify-center items-center">
+                                <div class="w-12 h-12 rounded-full border border-gold/40 flex items-center justify-center">
+                                    <i class="fas fa-plus text-gold"></i>
+                                </div>
+                                <h4 class="text-white font-serif font-bold mt-4">協賛募集中</h4>
+                                <p class="text-xs text-gray-500 mt-3">協賛をご希望の方はXのDMよりご連絡ください。</p>
+                                <a href="https://x.com/seekerstart" target="_blank" rel="noopener" class="text-gold text-xs font-bold tracking-widest uppercase mt-4">DMを送る</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Season 02 Panel -->
+                <div id="sponsor-panel-s2" data-season-panel="s2" role="tabpanel" aria-label="Season 02 協賛" hidden>
+                    <div class="text-center mb-12 reveal">
+                        <div class="inline-block px-4 py-1 border border-gold/20 mb-4">
+                            <span class="text-gold text-[9px] font-bold tracking-[0.5em] uppercase">Sponsors</span>
+                        </div>
+                        <h3 class="text-2xl md:text-3xl font-serif font-black text-white mb-4 tracking-widest">Season 2 協賛</h3>
+                    </div>
+                    <div class="jp-card p-10 md:p-12 corner-deco text-center reveal">
+                        <div class="w-12 h-12 rounded-full border border-white/15 flex items-center justify-center mx-auto mb-5">
+                            <i class="fas fa-circle-minus text-gray-500"></i>
+                        </div>
+                        <p class="text-sm text-gray-400 leading-loose">本シーズンは協賛がありませんでした。</p>
+                    </div>
+                </div>
+
+                <!-- Season 01 Panel -->
+                <div id="sponsor-panel-s1" data-season-panel="s1" role="tabpanel" aria-label="Season 01 協賛" hidden>
+                    <div class="text-center mb-16 reveal">
+                        <div class="inline-block px-4 py-1 border border-gold/30 mb-6">
+                            <span class="text-gold text-[9px] font-bold tracking-[0.5em] uppercase">Featured</span>
+                        </div>
+                        <h3 class="text-3xl md:text-5xl font-serif font-black text-white mb-6 tracking-widest">メイン協賛</h3>
+                        <p class="text-gray-400 text-sm max-w-2xl mx-auto leading-loose">
+                            提供内容に応じて大きく掲載します。
+                        </p>
+                    </div>
 
                 <div class="jp-card p-8 md:p-12 corner-deco reveal">
                     <div class="flex flex-col gap-10">
@@ -109,6 +220,7 @@
                             <a href="https://x.com/seekerstart" target="_blank" rel="noopener" class="text-gold text-xs font-bold tracking-widest uppercase mt-4">DMを送る</a>
                         </div>
                     </div>
+                </div>
                 </div>
             </div>
         </section>
@@ -200,5 +312,55 @@
 
     <script src="js/header.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        // 協賛ページのシーズン別タブ切替
+        (function () {
+            var VALID = ['s1', 's2', 's3'];
+            var DEFAULT_SEASON = 's3';
+            var tabs = Array.prototype.slice.call(document.querySelectorAll('[data-season]'));
+            var panels = Array.prototype.slice.call(document.querySelectorAll('[data-season-panel]'));
+            if (!tabs.length || !panels.length) return;
+
+            function activate(season, updateHash) {
+                if (VALID.indexOf(season) === -1) season = DEFAULT_SEASON;
+                tabs.forEach(function (tab) {
+                    var on = tab.getAttribute('data-season') === season;
+                    tab.classList.toggle('active', on);
+                    tab.setAttribute('aria-selected', on ? 'true' : 'false');
+                });
+                panels.forEach(function (panel) {
+                    var on = panel.getAttribute('data-season-panel') === season;
+                    panel.hidden = !on;
+                    if (on) {
+                        // タブ初期非表示の .reveal は IntersectionObserver が発火しないため即時表示
+                        panel.querySelectorAll('.reveal').forEach(function (el) {
+                            el.classList.add('active');
+                        });
+                    }
+                });
+                if (updateHash) {
+                    if (history.replaceState) {
+                        history.replaceState(null, '', '#' + season);
+                    } else {
+                        location.hash = season;
+                    }
+                }
+            }
+
+            tabs.forEach(function (tab) {
+                tab.addEventListener('click', function () {
+                    activate(tab.getAttribute('data-season'), true);
+                });
+            });
+
+            window.addEventListener('hashchange', function () {
+                var h = (location.hash || '').replace('#', '').toLowerCase();
+                if (VALID.indexOf(h) !== -1) activate(h, false);
+            });
+
+            var initial = (location.hash || '').replace('#', '').toLowerCase();
+            activate(VALID.indexOf(initial) !== -1 ? initial : DEFAULT_SEASON, false);
+        })();
+    </script>
 </body>
 </html>
