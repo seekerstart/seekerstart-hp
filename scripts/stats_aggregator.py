@@ -337,6 +337,28 @@ class StatsAggregator:
                 )
                 self.all_stats[player_id].merge(stats)
 
+    def _find_baseline_json(self, before_date: datetime) -> Optional[Path]:
+        """指定日付より前の最新の累積JSONを探す（前シーズンのベースライン用）"""
+        hand_histories_dir = self.data_dir / "hand_histories"
+        if not hand_histories_dir.exists():
+            return None
+
+        candidate = None
+        for date_dir in sorted(hand_histories_dir.iterdir(), reverse=True):
+            if not date_dir.is_dir():
+                continue
+            try:
+                dir_date = datetime.strptime(date_dir.name, "%Y%m%d")
+            except ValueError:
+                continue
+            if dir_date >= before_date:
+                continue
+            json_files = sorted(date_dir.glob("player-stats-all-time-*.json"))
+            if json_files:
+                candidate = json_files[-1]
+                break
+        return candidate
+
     def _process_precalculated_sessions(self, sessions: List[SessionInfo]) -> None:
         """計算済みJSONセッションを処理する"""
         if not sessions:
@@ -353,7 +375,35 @@ class StatsAggregator:
             sorted_sessions = sorted(season_sessions, key=lambda s: s.date)
             season_config = self.config.get_season_by_id(season_id)
 
-            previous_cumulative = None
+            # 前シーズンの最終累積JSONをベースラインとして使用
+            first_date = sorted_sessions[0].date
+            baseline_json = self._find_baseline_json(first_date)
+            if baseline_json:
+                previous_cumulative = importer.import_json(baseline_json, season_id)
+                if self.verbose:
+                    print(f"  Using baseline from {baseline_json.parent.name} ({len(previous_cumulative)} players)")
+            else:
+                previous_cumulative = None
+
+            # ベースラインJSONに含まれない凍結シーズンのプレイヤーを補完
+            # （S1参加→S2不参加→S3復帰のようなケースに対応）
+            if previous_cumulative is not None:
+                augmented = 0
+                for sid, frozen_stats in self.stats_by_season.items():
+                    frozen_cfg = self.config.get_season_by_id(sid)
+                    if not frozen_cfg or not frozen_cfg.get("frozen"):
+                        continue
+                    for pid, stats in frozen_stats.items():
+                        if pid not in previous_cumulative:
+                            prev = previous_cumulative.setdefault(pid, PlayerStats(
+                                player_id=stats.player_id,
+                                display_name=stats.display_name,
+                            ))
+                            if prev.hands == 0:
+                                augmented += 1
+                            prev.merge(stats)
+                if augmented > 0 and self.verbose:
+                    print(f"  Augmented baseline with {augmented} players from frozen seasons")
 
             for session in sorted_sessions:
                 date_str = session.date.strftime("%Y%m%d")
@@ -374,7 +424,6 @@ class StatsAggregator:
 
                 # 累積差分でセッション別データを算出
                 if previous_cumulative is None:
-                    # 初回セッション = 累積そのまま
                     session_delta = {}
                     for pid, stats in current_cumulative.items():
                         d = PlayerStats(
