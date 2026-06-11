@@ -386,12 +386,15 @@ class StatsAggregator:
                 previous_cumulative = None
 
             # ベースラインJSONに含まれない凍結シーズンのプレイヤーを補完
-            # （S1参加→S2不参加→S3復帰のようなケースに対応）
+            # 同じデータソース(precalculated)の凍結シーズンのみ対象
+            # （異なるプラットフォームのデータを混ぜると差分が不正になるため）
             if previous_cumulative is not None:
                 augmented = 0
                 for sid, frozen_stats in self.stats_by_season.items():
                     frozen_cfg = self.config.get_season_by_id(sid)
                     if not frozen_cfg or not frozen_cfg.get("frozen"):
+                        continue
+                    if frozen_cfg.get("data_source") != "precalculated":
                         continue
                     for pid, stats in frozen_stats.items():
                         if pid not in previous_cumulative:
