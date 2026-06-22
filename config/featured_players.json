@@ -65,6 +65,37 @@
           }
         }
       ]
+    },
+    {
+      "id": "season2",
+      "label": "Season 2",
+      "featured": []
+    },
+    {
+      "id": "season3",
+      "label": "Season 3",
+      "featured": [
+        {
+          "name": "舌青い町長",
+          "alias": "Ex-recreational player",
+          "tag": "配信者",
+          "quote": "敵を飛ばして得る三枚の羽で高みへ飛んでいきます",
+          "image": "images/shitaaoi-machou.jpg",
+          "achievements": [
+            "T4の成績：10万ハンドで Win Rate ＋12.39bb/100hand",
+            "JOPT入賞経験あり",
+            "ポーカーオタク"
+          ],
+          "social": {
+            "x": "https://x.com/wQKPNN8cD882418",
+            "youtube": "https://www.youtube.com/@%E8%88%8C%E9%9D%92%E3%81%84%E7%94%BA%E9%95%B7",
+            "instagram": null,
+            "tiktok": null,
+            "note": null,
+            "website": null
+          }
+        }
+      ]
     }
   ]
 }

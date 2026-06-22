@@ -270,7 +270,7 @@ async function init() {
 
     seasonTabs.innerHTML = seasons.map((season, index) => {
         const baseClass = 'px-4 py-2 border text-xs font-black tracking-[0.3em] uppercase transition';
-        const activeClass = index === 0
+        const activeClass = index === seasons.length - 1
             ? ' text-white border-gold/60'
             : ' text-gray-400 border-white/10 hover:text-white';
         return `<button class="${baseClass}${activeClass}" data-season="${season.id}">${season.label}</button>`;
@@ -284,7 +284,7 @@ async function init() {
         if (season) renderSeason(season);
     });
 
-    renderSeason(seasons[0]);
+    renderSeason(seasons[seasons.length - 1]);
 }
 
 document.addEventListener('DOMContentLoaded', init);
