@@ -94,6 +94,24 @@
             "note": null,
             "website": null
           }
+        },
+        {
+          "name": "新七しのん",
+          "alias": "インチキまじないし",
+          "tag": "配信者",
+          "quote": "本気でやる、ということはそれを楽しむことだ",
+          "image": "images/shinnana-shinon.jpg",
+          "achievements": [
+            "Vtuberポーカー講座を定期開催"
+          ],
+          "social": {
+            "x": "https://x.com/27_4non",
+            "youtube": "https://www.youtube.com/@7shino",
+            "instagram": null,
+            "tiktok": null,
+            "note": null,
+            "website": null
+          }
         }
       ]
     }
