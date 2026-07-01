@@ -132,6 +132,25 @@
             "note": null,
             "website": null
           }
+        },
+        {
+          "name": "蒼乃スぺヰド",
+          "alias": "現役アミュカジディーラー",
+          "tag": "配信者",
+          "quote": "アナタのすべてを私に賭けて！",
+          "image": "images/aono-speed.jpg",
+          "achievements": [
+            "他のポーカーアプリで参加型定期配信",
+            "大会主催（S'more杯を過去2回開催、第2回は参加者98名）"
+          ],
+          "social": {
+            "x": "https://x.com/myhands_ajyasp",
+            "youtube": "https://www.youtube.com/@%E8%92%BC%E4%B9%83%E3%82%B9%E3%81%BA%E3%83%B0%E3%83%89",
+            "instagram": null,
+            "tiktok": null,
+            "note": null,
+            "website": null
+          }
         }
       ]
     }
