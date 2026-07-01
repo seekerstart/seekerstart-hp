@@ -112,6 +112,26 @@
             "note": null,
             "website": null
           }
+        },
+        {
+          "name": "サボテン",
+          "alias": "サボテン",
+          "tag": "配信者",
+          "quote": "やるからにはレート関係なく、全力で楽しみます！",
+          "image": "images/saboten.jpg",
+          "achievements": [
+            "初級者/中級者向けの解説動画を不定期投稿",
+            "普段は国内の無料ポーカーゲームで配信しています",
+            "仕事の隙間を縫って短期の海外遠征をしばしば"
+          ],
+          "social": {
+            "x": "https://x.com/saboten6789",
+            "youtube": "https://www.youtube.com/@SabotenPoker",
+            "instagram": null,
+            "tiktok": null,
+            "note": null,
+            "website": null
+          }
         }
       ]
     }
