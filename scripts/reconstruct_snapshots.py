@@ -25,10 +25,10 @@ except ImportError:
     print("Error: psycopg2 is required. Install with: pip install psycopg2-binary")
     sys.exit(1)
 
-DATABASE_URL = os.environ.get(
-    "DATABASE_URL",
-    "postgresql://neondb_owner:npg_p9LZ8iCzyJqn@ep-lingering-fog-a17zskue-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require",
-)
+DATABASE_URL = os.environ.get("DATABASE_URL")
+if not DATABASE_URL:
+    print("Error: DATABASE_URL environment variable is required")
+    sys.exit(1)
 
 STAT_KEYS = [
     "hands", "vpip_hands", "pfr_hands",
