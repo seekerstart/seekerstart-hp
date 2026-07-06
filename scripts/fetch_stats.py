@@ -210,30 +210,49 @@ def fetch_participants(conn):
 
 
 def fetch_player_stats(conn, user_ids):
-    """player_stats テーブルから全スタッツを取得"""
+    """player_stats テーブルから全スタッツを取得（複数server_idを合算）"""
     if not user_ids:
         return {}
 
     with conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor) as cur:
         cur.execute("""
             SELECT user_id::text,
-                   hands, vpip_hands, pfr_hands,
-                   three_bet_hands, three_bet_opp,
-                   four_bet_hands, four_bet_opp,
-                   fold_to_three_bet_hands, faced_three_bet_opp,
-                   fold_to_four_bet_hands, faced_four_bet_opp,
-                   cbet_flop_made, cbet_flop_opp,
-                   cbet_turn_made, cbet_turn_opp,
-                   cbet_river_made, cbet_river_opp,
-                   fold_to_cbet_flop, fold_to_cbet_flop_opp,
-                   fold_to_cbet_turn, fold_to_cbet_turn_opp,
-                   fold_to_cbet_river, fold_to_cbet_river_opp,
-                   agg_raise, agg_call, agg_check,
-                   saw_flop_hands, went_showdown_hands,
-                   won_showdown_hands, won_when_saw_flop_hands,
-                   net_cbb, showdown_cbb, non_showdown_cbb
+                   SUM(hands) AS hands,
+                   SUM(vpip_hands) AS vpip_hands,
+                   SUM(pfr_hands) AS pfr_hands,
+                   SUM(three_bet_hands) AS three_bet_hands,
+                   SUM(three_bet_opp) AS three_bet_opp,
+                   SUM(four_bet_hands) AS four_bet_hands,
+                   SUM(four_bet_opp) AS four_bet_opp,
+                   SUM(fold_to_three_bet_hands) AS fold_to_three_bet_hands,
+                   SUM(faced_three_bet_opp) AS faced_three_bet_opp,
+                   SUM(fold_to_four_bet_hands) AS fold_to_four_bet_hands,
+                   SUM(faced_four_bet_opp) AS faced_four_bet_opp,
+                   SUM(cbet_flop_made) AS cbet_flop_made,
+                   SUM(cbet_flop_opp) AS cbet_flop_opp,
+                   SUM(cbet_turn_made) AS cbet_turn_made,
+                   SUM(cbet_turn_opp) AS cbet_turn_opp,
+                   SUM(cbet_river_made) AS cbet_river_made,
+                   SUM(cbet_river_opp) AS cbet_river_opp,
+                   SUM(fold_to_cbet_flop) AS fold_to_cbet_flop,
+                   SUM(fold_to_cbet_flop_opp) AS fold_to_cbet_flop_opp,
+                   SUM(fold_to_cbet_turn) AS fold_to_cbet_turn,
+                   SUM(fold_to_cbet_turn_opp) AS fold_to_cbet_turn_opp,
+                   SUM(fold_to_cbet_river) AS fold_to_cbet_river,
+                   SUM(fold_to_cbet_river_opp) AS fold_to_cbet_river_opp,
+                   SUM(agg_raise) AS agg_raise,
+                   SUM(agg_call) AS agg_call,
+                   SUM(agg_check) AS agg_check,
+                   SUM(saw_flop_hands) AS saw_flop_hands,
+                   SUM(went_showdown_hands) AS went_showdown_hands,
+                   SUM(won_showdown_hands) AS won_showdown_hands,
+                   SUM(won_when_saw_flop_hands) AS won_when_saw_flop_hands,
+                   SUM(net_cbb) AS net_cbb,
+                   SUM(showdown_cbb) AS showdown_cbb,
+                   SUM(non_showdown_cbb) AS non_showdown_cbb
             FROM player_stats
             WHERE user_id = ANY(%s::uuid[])
+            GROUP BY user_id
         """, (user_ids,))
         rows = cur.fetchall()
 
