@@ -151,6 +151,43 @@
             "note": null,
             "website": null
           }
+        },
+        {
+          "name": "三崎美咲",
+          "alias": "雀ゴロ女子",
+          "tag": "配信者",
+          "quote": "麻雀から飛び込んできました！初心者でも入りやすい運ゲーが好きです。その中であがく楽しさを！",
+          "image": "images/misaki-misaki.jpg",
+          "achievements": [
+            "アプリ「ポーカーチェイス」全国ランカー"
+          ],
+          "social": {
+            "x": "https://x.com/LollipopAngelus",
+            "youtube": "https://www.youtube.com/channel/UCujbsAtifAGc-vVagbGB2qw",
+            "instagram": null,
+            "tiktok": null,
+            "note": null,
+            "website": null
+          }
+        },
+        {
+          "name": "nabari",
+          "alias": "尼崎パッシブプレイヤー",
+          "tag": "配信者",
+          "quote": "ノーレートでもハイレートでも変わらないプレイを意識して日々学びです。",
+          "image": "images/nabari.jpg",
+          "achievements": [
+            "twitchでT4エキスパ卓配信"
+          ],
+          "social": {
+            "x": "https://x.com/nabari_poker",
+            "youtube": null,
+            "instagram": null,
+            "tiktok": null,
+            "note": null,
+            "website": null,
+            "twitch": "https://www.twitch.tv/nabari_poker"
+          }
         }
       ]
     }
