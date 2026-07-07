@@ -7,7 +7,7 @@
 
 // 定数
 const CONFIG = {
-    MAX_FEATURED: 5,
+    MAX_FEATURED: 6,
     PLAYER_ICON_SIZE: 218,
     DATA_PATH: 'config/featured_players.json'
 };
@@ -49,6 +49,7 @@ function buildSocialIcons(player) {
     const items = [
         { label: 'X', icon: 'fa-brands fa-twitter', url: normalizeSocialUrl(social.x), color: '#38bdf8' },
         { label: 'YouTube', icon: 'fa-brands fa-youtube', url: normalizeSocialUrl(social.youtube), color: '#ff0000' },
+        { label: 'Twitch', icon: 'fa-brands fa-twitch', url: normalizeSocialUrl(social.twitch), color: '#9146FF' },
         { label: 'Instagram', icon: 'fa-brands fa-instagram', url: normalizeSocialUrl(social.instagram), color: '#e1306c', gradient: ['#f58529', '#feda77', '#dd2a7b', '#8134af', '#515bd4'] },
         { label: 'TikTok', icon: 'fa-brands fa-tiktok', url: normalizeSocialUrl(social.tiktok), color: '#25F4EE', gradient: ['#25F4EE', '#FE2C55'] },
         { label: 'note', icon: 'fa-solid fa-note-sticky', url: normalizeSocialUrl(social.note), color: '#00c300' },
