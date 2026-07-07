@@ -8,7 +8,7 @@ houou-main の R4(6/29) と R5(7/6) のハンドデータから
 方針:
   1. hand_players + hand_actions から R4/R5 の各スタッツを直接計算
   2. houou-shared（凍結データ）+ R4 分 = 6/29 の正しい all-time snapshot
-  3. houou-shared + houou-main + houou-yosen = 7/6 の正しい all-time snapshot（検証用）
+  3. houou-shared + houou-main = 7/6 の正しい all-time snapshot（予選卓 houou-yosen は除外）
 """
 
 import json
@@ -574,14 +574,13 @@ def main():
         players_with_hands = sum(1 for s in snapshot_0629.values() if s["hands"] > 0)
         print(f"   {players_with_hands} players with hands > 0")
 
-        # 8. 7/6 all-time = houou-shared + houou-main + houou-yosen
-        print("\n8. Building 7/6 all-time snapshot (for verification)...")
+        # 8. 7/6 all-time = houou-shared + houou-main (予選卓 houou-yosen は除外)
+        print("\n8. Building 7/6 all-time snapshot...")
         snapshot_0706 = {}
         for uid, pinfo in participants.items():
             shared = server_stats.get(uid, {}).get("houou-shared", empty_stats())
             main = server_stats.get(uid, {}).get("houou-main", empty_stats())
-            yosen = server_stats.get(uid, {}).get("houou-yosen", empty_stats())
-            snapshot_0706[uid] = add_stats(add_stats(shared, main), yosen)
+            snapshot_0706[uid] = add_stats(shared, main)
 
         players_with_hands_0706 = sum(1 for s in snapshot_0706.values() if s["hands"] > 0)
         print(f"   {players_with_hands_0706} players with hands > 0")
