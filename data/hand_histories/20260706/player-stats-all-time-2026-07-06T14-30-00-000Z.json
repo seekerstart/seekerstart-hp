@@ -5,7 +5,7 @@
     "date": null,
     "timezone": null
   },
-  "player_count": 251,
+  "player_count": 254,
   "players": [
     {
       "user_id": "46bcb58c-75ae-43da-9973-67583ea19221",
@@ -1000,93 +1000,93 @@
       "discord_global_name": null,
       "is_bot": true,
       "summary": {
-        "hands": 259,
-        "vpip_pct": 20.8,
-        "pfr_pct": 20.1,
-        "three_bet_pct": 11.5,
-        "four_bet_pct": 20.0,
-        "fold_to_three_bet_pct": 41.7,
-        "fold_to_four_bet_pct": 0.0,
-        "cbet_flop_pct": 0.0,
+        "hands": 0,
+        "vpip_pct": 0,
+        "pfr_pct": 0,
+        "three_bet_pct": 0,
+        "four_bet_pct": 0,
+        "fold_to_three_bet_pct": 0,
+        "fold_to_four_bet_pct": 0,
+        "cbet_flop_pct": 0,
         "cbet_turn_pct": 0,
         "cbet_river_pct": 0,
-        "fold_to_cbet_flop_pct": 0.0,
+        "fold_to_cbet_flop_pct": 0,
         "fold_to_cbet_turn_pct": 0,
         "fold_to_cbet_river_pct": 0,
-        "vpip_hands": 54,
-        "pfr_hands": 52,
-        "three_bet_hands": 13,
-        "three_bet_opp": 113,
-        "four_bet_hands": 5,
-        "four_bet_opp": 25,
-        "fold_to_three_bet_hands": 5,
-        "faced_three_bet_opp": 12,
+        "vpip_hands": 0,
+        "pfr_hands": 0,
+        "three_bet_hands": 0,
+        "three_bet_opp": 0,
+        "four_bet_hands": 0,
+        "four_bet_opp": 0,
+        "fold_to_three_bet_hands": 0,
+        "faced_three_bet_opp": 0,
         "fold_to_four_bet_hands": 0,
-        "faced_four_bet_opp": 2,
+        "faced_four_bet_opp": 0,
         "cbet_flop_made": 0,
-        "cbet_flop_opp": 16,
+        "cbet_flop_opp": 0,
         "cbet_turn_made": 0,
         "cbet_turn_opp": 0,
         "cbet_river_made": 0,
         "cbet_river_opp": 0,
         "fold_to_cbet_flop": 0,
-        "fold_to_cbet_flop_opp": 1,
+        "fold_to_cbet_flop_opp": 0,
         "fold_to_cbet_turn": 0,
         "fold_to_cbet_turn_opp": 0,
         "fold_to_cbet_river": 0,
         "fold_to_cbet_river_opp": 0,
-        "agg_raise": 4,
-        "agg_call": 8,
-        "agg_check": 52,
-        "saw_flop_hands": 23,
-        "went_showdown_hands": 15,
-        "won_showdown_hands": 9,
-        "won_when_saw_flop_hands": 13,
-        "aggression": "0.50",
-        "aggression_freq_pct": 6.2,
-        "wtsd_pct": 65.2,
-        "wsd_pct": 60.0,
-        "wwsf_pct": 56.5,
-        "bb_per_100": "4.60",
-        "net_cbb": 1192,
-        "showdown_cbb": 3676,
-        "non_showdown_cbb": -2484
+        "agg_raise": 0,
+        "agg_call": 0,
+        "agg_check": 0,
+        "saw_flop_hands": 0,
+        "went_showdown_hands": 0,
+        "won_showdown_hands": 0,
+        "won_when_saw_flop_hands": 0,
+        "aggression": "0.00",
+        "aggression_freq_pct": 0,
+        "wtsd_pct": 0,
+        "wsd_pct": 0,
+        "wwsf_pct": 0,
+        "bb_per_100": "0.00",
+        "net_cbb": 0,
+        "showdown_cbb": 0,
+        "non_showdown_cbb": 0
       },
       "metrics": {
         "vpip": {
-          "pct": 20.8,
-          "numerator": 54,
-          "denominator": 259
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "pfr": {
-          "pct": 20.1,
-          "numerator": 52,
-          "denominator": 259
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "three_bet": {
-          "pct": 11.5,
-          "numerator": 13,
-          "denominator": 113
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "four_bet": {
-          "pct": 20.0,
-          "numerator": 5,
-          "denominator": 25
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "fold_to_three_bet": {
-          "pct": 41.7,
-          "numerator": 5,
-          "denominator": 12
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "fold_to_four_bet": {
-          "pct": 0.0,
+          "pct": 0,
           "numerator": 0,
-          "denominator": 2
+          "denominator": 0
         },
         "cbet_flop": {
-          "pct": 0.0,
+          "pct": 0,
           "numerator": 0,
-          "denominator": 16
+          "denominator": 0
         },
         "cbet_turn": {
           "pct": 0,
@@ -1099,9 +1099,9 @@
           "denominator": 0
         },
         "fold_to_cbet_flop": {
-          "pct": 0.0,
+          "pct": 0,
           "numerator": 0,
-          "denominator": 1
+          "denominator": 0
         },
         "fold_to_cbet_turn": {
           "pct": 0,
@@ -1114,79 +1114,79 @@
           "denominator": 0
         },
         "aggression": {
-          "value": "0.50",
-          "numerator": 4,
-          "denominator": 8
+          "value": "0.00",
+          "numerator": 0,
+          "denominator": 0
         },
         "aggression_frequency": {
-          "pct": 6.2,
-          "numerator": 4,
-          "denominator": 64
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wtsd": {
-          "pct": 65.2,
-          "numerator": 15,
-          "denominator": 23
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wsd": {
-          "pct": 60.0,
-          "numerator": 9,
-          "denominator": 15
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wwsf": {
-          "pct": 56.5,
-          "numerator": 13,
-          "denominator": 23
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "bb_per_100": {
-          "value": 4.6,
-          "numerator": 1192,
-          "denominator": 259
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 0
         },
         "net": {
-          "cbb": 1192
+          "cbb": 0
         },
         "showdown": {
-          "cbb": 3676
+          "cbb": 0
         },
         "non_showdown": {
-          "cbb": -2484
+          "cbb": 0
         }
       },
       "raw_totals": {
-        "hands": 259,
-        "vpip_hands": 54,
-        "pfr_hands": 52,
-        "three_bet_hands": 13,
-        "three_bet_opp": 113,
-        "four_bet_hands": 5,
-        "four_bet_opp": 25,
-        "fold_to_three_bet_hands": 5,
-        "faced_three_bet_opp": 12,
+        "hands": 0,
+        "vpip_hands": 0,
+        "pfr_hands": 0,
+        "three_bet_hands": 0,
+        "three_bet_opp": 0,
+        "four_bet_hands": 0,
+        "four_bet_opp": 0,
+        "fold_to_three_bet_hands": 0,
+        "faced_three_bet_opp": 0,
         "fold_to_four_bet_hands": 0,
-        "faced_four_bet_opp": 2,
+        "faced_four_bet_opp": 0,
         "cbet_flop_made": 0,
-        "cbet_flop_opp": 16,
+        "cbet_flop_opp": 0,
         "cbet_turn_made": 0,
         "cbet_turn_opp": 0,
         "cbet_river_made": 0,
         "cbet_river_opp": 0,
         "fold_to_cbet_flop": 0,
-        "fold_to_cbet_flop_opp": 1,
+        "fold_to_cbet_flop_opp": 0,
         "fold_to_cbet_turn": 0,
         "fold_to_cbet_turn_opp": 0,
         "fold_to_cbet_river": 0,
         "fold_to_cbet_river_opp": 0,
-        "agg_raise": 4,
-        "agg_call": 8,
-        "agg_check": 52,
-        "saw_flop_hands": 23,
-        "went_showdown_hands": 15,
-        "won_showdown_hands": 9,
-        "won_when_saw_flop_hands": 13,
-        "net_cbb": 1192,
-        "showdown_cbb": 3676,
-        "non_showdown_cbb": -2484
+        "agg_raise": 0,
+        "agg_call": 0,
+        "agg_check": 0,
+        "saw_flop_hands": 0,
+        "went_showdown_hands": 0,
+        "won_showdown_hands": 0,
+        "won_when_saw_flop_hands": 0,
+        "net_cbb": 0,
+        "showdown_cbb": 0,
+        "non_showdown_cbb": 0
       }
     },
     {
@@ -1197,93 +1197,93 @@
       "discord_global_name": null,
       "is_bot": true,
       "summary": {
-        "hands": 247,
-        "vpip_pct": 27.9,
-        "pfr_pct": 27.5,
-        "three_bet_pct": 23.8,
-        "four_bet_pct": 3.7,
-        "fold_to_three_bet_pct": 80.0,
-        "fold_to_four_bet_pct": 28.6,
-        "cbet_flop_pct": 18.2,
+        "hands": 0,
+        "vpip_pct": 0,
+        "pfr_pct": 0,
+        "three_bet_pct": 0,
+        "four_bet_pct": 0,
+        "fold_to_three_bet_pct": 0,
+        "fold_to_four_bet_pct": 0,
+        "cbet_flop_pct": 0,
         "cbet_turn_pct": 0,
         "cbet_river_pct": 0,
-        "fold_to_cbet_flop_pct": 0.0,
-        "fold_to_cbet_turn_pct": 100.0,
+        "fold_to_cbet_flop_pct": 0,
+        "fold_to_cbet_turn_pct": 0,
         "fold_to_cbet_river_pct": 0,
-        "vpip_hands": 69,
-        "pfr_hands": 68,
-        "three_bet_hands": 24,
-        "three_bet_opp": 101,
-        "four_bet_hands": 1,
-        "four_bet_opp": 27,
-        "fold_to_three_bet_hands": 8,
-        "faced_three_bet_opp": 10,
-        "fold_to_four_bet_hands": 2,
-        "faced_four_bet_opp": 7,
-        "cbet_flop_made": 2,
-        "cbet_flop_opp": 11,
+        "vpip_hands": 0,
+        "pfr_hands": 0,
+        "three_bet_hands": 0,
+        "three_bet_opp": 0,
+        "four_bet_hands": 0,
+        "four_bet_opp": 0,
+        "fold_to_three_bet_hands": 0,
+        "faced_three_bet_opp": 0,
+        "fold_to_four_bet_hands": 0,
+        "faced_four_bet_opp": 0,
+        "cbet_flop_made": 0,
+        "cbet_flop_opp": 0,
         "cbet_turn_made": 0,
         "cbet_turn_opp": 0,
         "cbet_river_made": 0,
         "cbet_river_opp": 0,
         "fold_to_cbet_flop": 0,
-        "fold_to_cbet_flop_opp": 2,
-        "fold_to_cbet_turn": 1,
-        "fold_to_cbet_turn_opp": 1,
+        "fold_to_cbet_flop_opp": 0,
+        "fold_to_cbet_turn": 0,
+        "fold_to_cbet_turn_opp": 0,
         "fold_to_cbet_river": 0,
         "fold_to_cbet_river_opp": 0,
-        "agg_raise": 7,
-        "agg_call": 9,
-        "agg_check": 39,
-        "saw_flop_hands": 20,
-        "went_showdown_hands": 14,
-        "won_showdown_hands": 5,
-        "won_when_saw_flop_hands": 9,
-        "aggression": "0.78",
-        "aggression_freq_pct": 12.7,
-        "wtsd_pct": 70.0,
-        "wsd_pct": 35.7,
-        "wwsf_pct": 45.0,
-        "bb_per_100": "38.13",
-        "net_cbb": 9418,
-        "showdown_cbb": 9576,
-        "non_showdown_cbb": -158
+        "agg_raise": 0,
+        "agg_call": 0,
+        "agg_check": 0,
+        "saw_flop_hands": 0,
+        "went_showdown_hands": 0,
+        "won_showdown_hands": 0,
+        "won_when_saw_flop_hands": 0,
+        "aggression": "0.00",
+        "aggression_freq_pct": 0,
+        "wtsd_pct": 0,
+        "wsd_pct": 0,
+        "wwsf_pct": 0,
+        "bb_per_100": "0.00",
+        "net_cbb": 0,
+        "showdown_cbb": 0,
+        "non_showdown_cbb": 0
       },
       "metrics": {
         "vpip": {
-          "pct": 27.9,
-          "numerator": 69,
-          "denominator": 247
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "pfr": {
-          "pct": 27.5,
-          "numerator": 68,
-          "denominator": 247
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "three_bet": {
-          "pct": 23.8,
-          "numerator": 24,
-          "denominator": 101
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "four_bet": {
-          "pct": 3.7,
-          "numerator": 1,
-          "denominator": 27
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "fold_to_three_bet": {
-          "pct": 80.0,
-          "numerator": 8,
-          "denominator": 10
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "fold_to_four_bet": {
-          "pct": 28.6,
-          "numerator": 2,
-          "denominator": 7
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "cbet_flop": {
-          "pct": 18.2,
-          "numerator": 2,
-          "denominator": 11
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "cbet_turn": {
           "pct": 0,
@@ -1296,14 +1296,14 @@
           "denominator": 0
         },
         "fold_to_cbet_flop": {
-          "pct": 0.0,
+          "pct": 0,
           "numerator": 0,
-          "denominator": 2
+          "denominator": 0
         },
         "fold_to_cbet_turn": {
-          "pct": 100.0,
-          "numerator": 1,
-          "denominator": 1
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "fold_to_cbet_river": {
           "pct": 0,
@@ -1311,79 +1311,79 @@
           "denominator": 0
         },
         "aggression": {
-          "value": "0.78",
-          "numerator": 7,
-          "denominator": 9
+          "value": "0.00",
+          "numerator": 0,
+          "denominator": 0
         },
         "aggression_frequency": {
-          "pct": 12.7,
-          "numerator": 7,
-          "denominator": 55
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wtsd": {
-          "pct": 70.0,
-          "numerator": 14,
-          "denominator": 20
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wsd": {
-          "pct": 35.7,
-          "numerator": 5,
-          "denominator": 14
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wwsf": {
-          "pct": 45.0,
-          "numerator": 9,
-          "denominator": 20
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "bb_per_100": {
-          "value": 38.13,
-          "numerator": 9418,
-          "denominator": 247
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 0
         },
         "net": {
-          "cbb": 9418
+          "cbb": 0
         },
         "showdown": {
-          "cbb": 9576
+          "cbb": 0
         },
         "non_showdown": {
-          "cbb": -158
+          "cbb": 0
         }
       },
       "raw_totals": {
-        "hands": 247,
-        "vpip_hands": 69,
-        "pfr_hands": 68,
-        "three_bet_hands": 24,
-        "three_bet_opp": 101,
-        "four_bet_hands": 1,
-        "four_bet_opp": 27,
-        "fold_to_three_bet_hands": 8,
-        "faced_three_bet_opp": 10,
-        "fold_to_four_bet_hands": 2,
-        "faced_four_bet_opp": 7,
-        "cbet_flop_made": 2,
-        "cbet_flop_opp": 11,
+        "hands": 0,
+        "vpip_hands": 0,
+        "pfr_hands": 0,
+        "three_bet_hands": 0,
+        "three_bet_opp": 0,
+        "four_bet_hands": 0,
+        "four_bet_opp": 0,
+        "fold_to_three_bet_hands": 0,
+        "faced_three_bet_opp": 0,
+        "fold_to_four_bet_hands": 0,
+        "faced_four_bet_opp": 0,
+        "cbet_flop_made": 0,
+        "cbet_flop_opp": 0,
         "cbet_turn_made": 0,
         "cbet_turn_opp": 0,
         "cbet_river_made": 0,
         "cbet_river_opp": 0,
         "fold_to_cbet_flop": 0,
-        "fold_to_cbet_flop_opp": 2,
-        "fold_to_cbet_turn": 1,
-        "fold_to_cbet_turn_opp": 1,
+        "fold_to_cbet_flop_opp": 0,
+        "fold_to_cbet_turn": 0,
+        "fold_to_cbet_turn_opp": 0,
         "fold_to_cbet_river": 0,
         "fold_to_cbet_river_opp": 0,
-        "agg_raise": 7,
-        "agg_call": 9,
-        "agg_check": 39,
-        "saw_flop_hands": 20,
-        "went_showdown_hands": 14,
-        "won_showdown_hands": 5,
-        "won_when_saw_flop_hands": 9,
-        "net_cbb": 9418,
-        "showdown_cbb": 9576,
-        "non_showdown_cbb": -158
+        "agg_raise": 0,
+        "agg_call": 0,
+        "agg_check": 0,
+        "saw_flop_hands": 0,
+        "went_showdown_hands": 0,
+        "won_showdown_hands": 0,
+        "won_when_saw_flop_hands": 0,
+        "net_cbb": 0,
+        "showdown_cbb": 0,
+        "non_showdown_cbb": 0
       }
     },
     {
@@ -1581,6 +1581,203 @@
         "net_cbb": 210,
         "showdown_cbb": 0,
         "non_showdown_cbb": 210
+      }
+    },
+    {
+      "user_id": "3e448895-d6d4-4931-800d-00cc1c9af452",
+      "display_name": "D2",
+      "discord_id": null,
+      "discord_username": null,
+      "discord_global_name": null,
+      "is_bot": false,
+      "summary": {
+        "hands": 0,
+        "vpip_pct": 0,
+        "pfr_pct": 0,
+        "three_bet_pct": 0,
+        "four_bet_pct": 0,
+        "fold_to_three_bet_pct": 0,
+        "fold_to_four_bet_pct": 0,
+        "cbet_flop_pct": 0,
+        "cbet_turn_pct": 0,
+        "cbet_river_pct": 0,
+        "fold_to_cbet_flop_pct": 0,
+        "fold_to_cbet_turn_pct": 0,
+        "fold_to_cbet_river_pct": 0,
+        "vpip_hands": 0,
+        "pfr_hands": 0,
+        "three_bet_hands": 0,
+        "three_bet_opp": 0,
+        "four_bet_hands": 0,
+        "four_bet_opp": 0,
+        "fold_to_three_bet_hands": 0,
+        "faced_three_bet_opp": 0,
+        "fold_to_four_bet_hands": 0,
+        "faced_four_bet_opp": 0,
+        "cbet_flop_made": 0,
+        "cbet_flop_opp": 0,
+        "cbet_turn_made": 0,
+        "cbet_turn_opp": 0,
+        "cbet_river_made": 0,
+        "cbet_river_opp": 0,
+        "fold_to_cbet_flop": 0,
+        "fold_to_cbet_flop_opp": 0,
+        "fold_to_cbet_turn": 0,
+        "fold_to_cbet_turn_opp": 0,
+        "fold_to_cbet_river": 0,
+        "fold_to_cbet_river_opp": 0,
+        "agg_raise": 0,
+        "agg_call": 0,
+        "agg_check": 0,
+        "saw_flop_hands": 0,
+        "went_showdown_hands": 0,
+        "won_showdown_hands": 0,
+        "won_when_saw_flop_hands": 0,
+        "aggression": "0.00",
+        "aggression_freq_pct": 0,
+        "wtsd_pct": 0,
+        "wsd_pct": 0,
+        "wwsf_pct": 0,
+        "bb_per_100": "0.00",
+        "net_cbb": 0,
+        "showdown_cbb": 0,
+        "non_showdown_cbb": 0
+      },
+      "metrics": {
+        "vpip": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "pfr": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "three_bet": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "four_bet": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "fold_to_three_bet": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "fold_to_four_bet": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "cbet_flop": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "cbet_turn": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "cbet_river": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "fold_to_cbet_flop": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "fold_to_cbet_turn": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "fold_to_cbet_river": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "aggression": {
+          "value": "0.00",
+          "numerator": 0,
+          "denominator": 0
+        },
+        "aggression_frequency": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "wtsd": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "wsd": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "wwsf": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "bb_per_100": {
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "net": {
+          "cbb": 0
+        },
+        "showdown": {
+          "cbb": 0
+        },
+        "non_showdown": {
+          "cbb": 0
+        }
+      },
+      "raw_totals": {
+        "hands": 0,
+        "vpip_hands": 0,
+        "pfr_hands": 0,
+        "three_bet_hands": 0,
+        "three_bet_opp": 0,
+        "four_bet_hands": 0,
+        "four_bet_opp": 0,
+        "fold_to_three_bet_hands": 0,
+        "faced_three_bet_opp": 0,
+        "fold_to_four_bet_hands": 0,
+        "faced_four_bet_opp": 0,
+        "cbet_flop_made": 0,
+        "cbet_flop_opp": 0,
+        "cbet_turn_made": 0,
+        "cbet_turn_opp": 0,
+        "cbet_river_made": 0,
+        "cbet_river_opp": 0,
+        "fold_to_cbet_flop": 0,
+        "fold_to_cbet_flop_opp": 0,
+        "fold_to_cbet_turn": 0,
+        "fold_to_cbet_turn_opp": 0,
+        "fold_to_cbet_river": 0,
+        "fold_to_cbet_river_opp": 0,
+        "agg_raise": 0,
+        "agg_call": 0,
+        "agg_check": 0,
+        "saw_flop_hands": 0,
+        "went_showdown_hands": 0,
+        "won_showdown_hands": 0,
+        "won_when_saw_flop_hands": 0,
+        "net_cbb": 0,
+        "showdown_cbb": 0,
+        "non_showdown_cbb": 0
       }
     },
     {
@@ -3955,103 +4152,103 @@
       "discord_global_name": null,
       "is_bot": false,
       "summary": {
-        "hands": 487,
-        "vpip_pct": 24.0,
-        "pfr_pct": 22.0,
-        "three_bet_pct": 12.7,
-        "four_bet_pct": 6.8,
-        "fold_to_three_bet_pct": 72.7,
+        "hands": 318,
+        "vpip_pct": 25.5,
+        "pfr_pct": 23.6,
+        "three_bet_pct": 11.8,
+        "four_bet_pct": 10.0,
+        "fold_to_three_bet_pct": 68.8,
         "fold_to_four_bet_pct": 100.0,
-        "cbet_flop_pct": 50.0,
-        "cbet_turn_pct": 87.5,
-        "cbet_river_pct": 20.0,
+        "cbet_flop_pct": 54.2,
+        "cbet_turn_pct": 85.7,
+        "cbet_river_pct": 25.0,
         "fold_to_cbet_flop_pct": 40.0,
         "fold_to_cbet_turn_pct": 0.0,
         "fold_to_cbet_river_pct": 0,
-        "vpip_hands": 117,
-        "pfr_hands": 107,
-        "three_bet_hands": 21,
-        "three_bet_opp": 166,
+        "vpip_hands": 81,
+        "pfr_hands": 75,
+        "three_bet_hands": 14,
+        "three_bet_opp": 119,
         "four_bet_hands": 3,
-        "four_bet_opp": 44,
-        "fold_to_three_bet_hands": 16,
-        "faced_three_bet_opp": 22,
-        "fold_to_four_bet_hands": 5,
-        "faced_four_bet_opp": 5,
-        "cbet_flop_made": 14,
-        "cbet_flop_opp": 28,
-        "cbet_turn_made": 7,
-        "cbet_turn_opp": 8,
+        "four_bet_opp": 30,
+        "fold_to_three_bet_hands": 11,
+        "faced_three_bet_opp": 16,
+        "fold_to_four_bet_hands": 3,
+        "faced_four_bet_opp": 3,
+        "cbet_flop_made": 13,
+        "cbet_flop_opp": 24,
+        "cbet_turn_made": 6,
+        "cbet_turn_opp": 7,
         "cbet_river_made": 1,
-        "cbet_river_opp": 5,
+        "cbet_river_opp": 4,
         "fold_to_cbet_flop": 2,
         "fold_to_cbet_flop_opp": 5,
         "fold_to_cbet_turn": 0,
         "fold_to_cbet_turn_opp": 1,
         "fold_to_cbet_river": 0,
         "fold_to_cbet_river_opp": 0,
-        "agg_raise": 43,
+        "agg_raise": 33,
         "agg_call": 7,
-        "agg_check": 42,
-        "saw_flop_hands": 42,
-        "went_showdown_hands": 11,
-        "won_showdown_hands": 5,
-        "won_when_saw_flop_hands": 22,
-        "aggression": "6.14",
-        "aggression_freq_pct": 46.7,
-        "wtsd_pct": 26.2,
-        "wsd_pct": 45.5,
-        "wwsf_pct": 52.4,
-        "bb_per_100": "22.38",
-        "net_cbb": 10897,
-        "showdown_cbb": 11170,
-        "non_showdown_cbb": -273
+        "agg_check": 32,
+        "saw_flop_hands": 33,
+        "went_showdown_hands": 7,
+        "won_showdown_hands": 4,
+        "won_when_saw_flop_hands": 17,
+        "aggression": "4.71",
+        "aggression_freq_pct": 45.8,
+        "wtsd_pct": 21.2,
+        "wsd_pct": 57.1,
+        "wwsf_pct": 51.5,
+        "bb_per_100": "32.67",
+        "net_cbb": 10388,
+        "showdown_cbb": 12066,
+        "non_showdown_cbb": -1678
       },
       "metrics": {
         "vpip": {
-          "pct": 24.0,
-          "numerator": 117,
-          "denominator": 487
+          "pct": 25.5,
+          "numerator": 81,
+          "denominator": 318
         },
         "pfr": {
-          "pct": 22.0,
-          "numerator": 107,
-          "denominator": 487
+          "pct": 23.6,
+          "numerator": 75,
+          "denominator": 318
         },
         "three_bet": {
-          "pct": 12.7,
-          "numerator": 21,
-          "denominator": 166
+          "pct": 11.8,
+          "numerator": 14,
+          "denominator": 119
         },
         "four_bet": {
-          "pct": 6.8,
+          "pct": 10.0,
           "numerator": 3,
-          "denominator": 44
+          "denominator": 30
         },
         "fold_to_three_bet": {
-          "pct": 72.7,
-          "numerator": 16,
-          "denominator": 22
+          "pct": 68.8,
+          "numerator": 11,
+          "denominator": 16
         },
         "fold_to_four_bet": {
           "pct": 100.0,
-          "numerator": 5,
-          "denominator": 5
+          "numerator": 3,
+          "denominator": 3
         },
         "cbet_flop": {
-          "pct": 50.0,
-          "numerator": 14,
-          "denominator": 28
+          "pct": 54.2,
+          "numerator": 13,
+          "denominator": 24
         },
         "cbet_turn": {
-          "pct": 87.5,
-          "numerator": 7,
-          "denominator": 8
+          "pct": 85.7,
+          "numerator": 6,
+          "denominator": 7
         },
         "cbet_river": {
-          "pct": 20.0,
+          "pct": 25.0,
           "numerator": 1,
-          "denominator": 5
+          "denominator": 4
         },
         "fold_to_cbet_flop": {
           "pct": 40.0,
@@ -4069,79 +4266,79 @@
           "denominator": 0
         },
         "aggression": {
-          "value": "6.14",
-          "numerator": 43,
+          "value": "4.71",
+          "numerator": 33,
           "denominator": 7
         },
         "aggression_frequency": {
-          "pct": 46.7,
-          "numerator": 43,
-          "denominator": 92
+          "pct": 45.8,
+          "numerator": 33,
+          "denominator": 72
         },
         "wtsd": {
-          "pct": 26.2,
-          "numerator": 11,
-          "denominator": 42
+          "pct": 21.2,
+          "numerator": 7,
+          "denominator": 33
         },
         "wsd": {
-          "pct": 45.5,
-          "numerator": 5,
-          "denominator": 11
+          "pct": 57.1,
+          "numerator": 4,
+          "denominator": 7
         },
         "wwsf": {
-          "pct": 52.4,
-          "numerator": 22,
-          "denominator": 42
+          "pct": 51.5,
+          "numerator": 17,
+          "denominator": 33
         },
         "bb_per_100": {
-          "value": 22.38,
-          "numerator": 10897,
-          "denominator": 487
+          "value": 32.67,
+          "numerator": 10388,
+          "denominator": 318
         },
         "net": {
-          "cbb": 10897
+          "cbb": 10388
         },
         "showdown": {
-          "cbb": 11170
+          "cbb": 12066
         },
         "non_showdown": {
-          "cbb": -273
+          "cbb": -1678
         }
       },
       "raw_totals": {
-        "hands": 487,
-        "vpip_hands": 117,
-        "pfr_hands": 107,
-        "three_bet_hands": 21,
-        "three_bet_opp": 166,
+        "hands": 318,
+        "vpip_hands": 81,
+        "pfr_hands": 75,
+        "three_bet_hands": 14,
+        "three_bet_opp": 119,
         "four_bet_hands": 3,
-        "four_bet_opp": 44,
-        "fold_to_three_bet_hands": 16,
-        "faced_three_bet_opp": 22,
-        "fold_to_four_bet_hands": 5,
-        "faced_four_bet_opp": 5,
-        "cbet_flop_made": 14,
-        "cbet_flop_opp": 28,
-        "cbet_turn_made": 7,
-        "cbet_turn_opp": 8,
+        "four_bet_opp": 30,
+        "fold_to_three_bet_hands": 11,
+        "faced_three_bet_opp": 16,
+        "fold_to_four_bet_hands": 3,
+        "faced_four_bet_opp": 3,
+        "cbet_flop_made": 13,
+        "cbet_flop_opp": 24,
+        "cbet_turn_made": 6,
+        "cbet_turn_opp": 7,
         "cbet_river_made": 1,
-        "cbet_river_opp": 5,
+        "cbet_river_opp": 4,
         "fold_to_cbet_flop": 2,
         "fold_to_cbet_flop_opp": 5,
         "fold_to_cbet_turn": 0,
         "fold_to_cbet_turn_opp": 1,
         "fold_to_cbet_river": 0,
         "fold_to_cbet_river_opp": 0,
-        "agg_raise": 43,
+        "agg_raise": 33,
         "agg_call": 7,
-        "agg_check": 42,
-        "saw_flop_hands": 42,
-        "went_showdown_hands": 11,
-        "won_showdown_hands": 5,
-        "won_when_saw_flop_hands": 22,
-        "net_cbb": 10897,
-        "showdown_cbb": 11170,
-        "non_showdown_cbb": -273
+        "agg_check": 32,
+        "saw_flop_hands": 33,
+        "went_showdown_hands": 7,
+        "won_showdown_hands": 4,
+        "won_when_saw_flop_hands": 17,
+        "net_cbb": 10388,
+        "showdown_cbb": 12066,
+        "non_showdown_cbb": -1678
       }
     },
     {
@@ -7297,6 +7494,203 @@
       }
     },
     {
+      "user_id": "dc87a2de-7311-4f47-95ff-71203c186377",
+      "display_name": "Kuro",
+      "discord_id": null,
+      "discord_username": null,
+      "discord_global_name": null,
+      "is_bot": false,
+      "summary": {
+        "hands": 0,
+        "vpip_pct": 0,
+        "pfr_pct": 0,
+        "three_bet_pct": 0,
+        "four_bet_pct": 0,
+        "fold_to_three_bet_pct": 0,
+        "fold_to_four_bet_pct": 0,
+        "cbet_flop_pct": 0,
+        "cbet_turn_pct": 0,
+        "cbet_river_pct": 0,
+        "fold_to_cbet_flop_pct": 0,
+        "fold_to_cbet_turn_pct": 0,
+        "fold_to_cbet_river_pct": 0,
+        "vpip_hands": 0,
+        "pfr_hands": 0,
+        "three_bet_hands": 0,
+        "three_bet_opp": 0,
+        "four_bet_hands": 0,
+        "four_bet_opp": 0,
+        "fold_to_three_bet_hands": 0,
+        "faced_three_bet_opp": 0,
+        "fold_to_four_bet_hands": 0,
+        "faced_four_bet_opp": 0,
+        "cbet_flop_made": 0,
+        "cbet_flop_opp": 0,
+        "cbet_turn_made": 0,
+        "cbet_turn_opp": 0,
+        "cbet_river_made": 0,
+        "cbet_river_opp": 0,
+        "fold_to_cbet_flop": 0,
+        "fold_to_cbet_flop_opp": 0,
+        "fold_to_cbet_turn": 0,
+        "fold_to_cbet_turn_opp": 0,
+        "fold_to_cbet_river": 0,
+        "fold_to_cbet_river_opp": 0,
+        "agg_raise": 0,
+        "agg_call": 0,
+        "agg_check": 0,
+        "saw_flop_hands": 0,
+        "went_showdown_hands": 0,
+        "won_showdown_hands": 0,
+        "won_when_saw_flop_hands": 0,
+        "aggression": "0.00",
+        "aggression_freq_pct": 0,
+        "wtsd_pct": 0,
+        "wsd_pct": 0,
+        "wwsf_pct": 0,
+        "bb_per_100": "0.00",
+        "net_cbb": 0,
+        "showdown_cbb": 0,
+        "non_showdown_cbb": 0
+      },
+      "metrics": {
+        "vpip": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "pfr": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "three_bet": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "four_bet": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "fold_to_three_bet": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "fold_to_four_bet": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "cbet_flop": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "cbet_turn": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "cbet_river": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "fold_to_cbet_flop": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "fold_to_cbet_turn": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "fold_to_cbet_river": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "aggression": {
+          "value": "0.00",
+          "numerator": 0,
+          "denominator": 0
+        },
+        "aggression_frequency": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "wtsd": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "wsd": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "wwsf": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "bb_per_100": {
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "net": {
+          "cbb": 0
+        },
+        "showdown": {
+          "cbb": 0
+        },
+        "non_showdown": {
+          "cbb": 0
+        }
+      },
+      "raw_totals": {
+        "hands": 0,
+        "vpip_hands": 0,
+        "pfr_hands": 0,
+        "three_bet_hands": 0,
+        "three_bet_opp": 0,
+        "four_bet_hands": 0,
+        "four_bet_opp": 0,
+        "fold_to_three_bet_hands": 0,
+        "faced_three_bet_opp": 0,
+        "fold_to_four_bet_hands": 0,
+        "faced_four_bet_opp": 0,
+        "cbet_flop_made": 0,
+        "cbet_flop_opp": 0,
+        "cbet_turn_made": 0,
+        "cbet_turn_opp": 0,
+        "cbet_river_made": 0,
+        "cbet_river_opp": 0,
+        "fold_to_cbet_flop": 0,
+        "fold_to_cbet_flop_opp": 0,
+        "fold_to_cbet_turn": 0,
+        "fold_to_cbet_turn_opp": 0,
+        "fold_to_cbet_river": 0,
+        "fold_to_cbet_river_opp": 0,
+        "agg_raise": 0,
+        "agg_call": 0,
+        "agg_check": 0,
+        "saw_flop_hands": 0,
+        "went_showdown_hands": 0,
+        "won_showdown_hands": 0,
+        "won_when_saw_flop_hands": 0,
+        "net_cbb": 0,
+        "showdown_cbb": 0,
+        "non_showdown_cbb": 0
+      }
+    },
+    {
       "user_id": "a2208112-8e8e-433c-9415-d934489442d0",
       "display_name": "Lagrangian",
       "discord_id": null,
@@ -9077,98 +9471,98 @@
       "discord_global_name": null,
       "is_bot": true,
       "summary": {
-        "hands": 276,
-        "vpip_pct": 14.5,
-        "pfr_pct": 12.3,
-        "three_bet_pct": 7.8,
-        "four_bet_pct": 4.0,
-        "fold_to_three_bet_pct": 66.7,
-        "fold_to_four_bet_pct": 50.0,
-        "cbet_flop_pct": 25.0,
-        "cbet_turn_pct": 0.0,
+        "hands": 0,
+        "vpip_pct": 0,
+        "pfr_pct": 0,
+        "three_bet_pct": 0,
+        "four_bet_pct": 0,
+        "fold_to_three_bet_pct": 0,
+        "fold_to_four_bet_pct": 0,
+        "cbet_flop_pct": 0,
+        "cbet_turn_pct": 0,
         "cbet_river_pct": 0,
-        "fold_to_cbet_flop_pct": 50.0,
+        "fold_to_cbet_flop_pct": 0,
         "fold_to_cbet_turn_pct": 0,
         "fold_to_cbet_river_pct": 0,
-        "vpip_hands": 40,
-        "pfr_hands": 34,
-        "three_bet_hands": 9,
-        "three_bet_opp": 116,
-        "four_bet_hands": 1,
-        "four_bet_opp": 25,
-        "fold_to_three_bet_hands": 6,
-        "faced_three_bet_opp": 9,
-        "fold_to_four_bet_hands": 2,
-        "faced_four_bet_opp": 4,
-        "cbet_flop_made": 2,
-        "cbet_flop_opp": 8,
+        "vpip_hands": 0,
+        "pfr_hands": 0,
+        "three_bet_hands": 0,
+        "three_bet_opp": 0,
+        "four_bet_hands": 0,
+        "four_bet_opp": 0,
+        "fold_to_three_bet_hands": 0,
+        "faced_three_bet_opp": 0,
+        "fold_to_four_bet_hands": 0,
+        "faced_four_bet_opp": 0,
+        "cbet_flop_made": 0,
+        "cbet_flop_opp": 0,
         "cbet_turn_made": 0,
-        "cbet_turn_opp": 2,
+        "cbet_turn_opp": 0,
         "cbet_river_made": 0,
         "cbet_river_opp": 0,
-        "fold_to_cbet_flop": 1,
-        "fold_to_cbet_flop_opp": 2,
+        "fold_to_cbet_flop": 0,
+        "fold_to_cbet_flop_opp": 0,
         "fold_to_cbet_turn": 0,
         "fold_to_cbet_turn_opp": 0,
         "fold_to_cbet_river": 0,
         "fold_to_cbet_river_opp": 0,
-        "agg_raise": 7,
-        "agg_call": 4,
-        "agg_check": 39,
-        "saw_flop_hands": 18,
-        "went_showdown_hands": 16,
-        "won_showdown_hands": 9,
-        "won_when_saw_flop_hands": 10,
-        "aggression": "1.75",
-        "aggression_freq_pct": 14.0,
-        "wtsd_pct": 88.9,
-        "wsd_pct": 56.2,
-        "wwsf_pct": 55.6,
-        "bb_per_100": "-96.77",
-        "net_cbb": -26708,
-        "showdown_cbb": -20942,
-        "non_showdown_cbb": -5766
+        "agg_raise": 0,
+        "agg_call": 0,
+        "agg_check": 0,
+        "saw_flop_hands": 0,
+        "went_showdown_hands": 0,
+        "won_showdown_hands": 0,
+        "won_when_saw_flop_hands": 0,
+        "aggression": "0.00",
+        "aggression_freq_pct": 0,
+        "wtsd_pct": 0,
+        "wsd_pct": 0,
+        "wwsf_pct": 0,
+        "bb_per_100": "0.00",
+        "net_cbb": 0,
+        "showdown_cbb": 0,
+        "non_showdown_cbb": 0
       },
       "metrics": {
         "vpip": {
-          "pct": 14.5,
-          "numerator": 40,
-          "denominator": 276
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "pfr": {
-          "pct": 12.3,
-          "numerator": 34,
-          "denominator": 276
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "three_bet": {
-          "pct": 7.8,
-          "numerator": 9,
-          "denominator": 116
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "four_bet": {
-          "pct": 4.0,
-          "numerator": 1,
-          "denominator": 25
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "fold_to_three_bet": {
-          "pct": 66.7,
-          "numerator": 6,
-          "denominator": 9
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "fold_to_four_bet": {
-          "pct": 50.0,
-          "numerator": 2,
-          "denominator": 4
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "cbet_flop": {
-          "pct": 25.0,
-          "numerator": 2,
-          "denominator": 8
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "cbet_turn": {
-          "pct": 0.0,
+          "pct": 0,
           "numerator": 0,
-          "denominator": 2
+          "denominator": 0
         },
         "cbet_river": {
           "pct": 0,
@@ -9176,9 +9570,9 @@
           "denominator": 0
         },
         "fold_to_cbet_flop": {
-          "pct": 50.0,
-          "numerator": 1,
-          "denominator": 2
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "fold_to_cbet_turn": {
           "pct": 0,
@@ -9191,79 +9585,79 @@
           "denominator": 0
         },
         "aggression": {
-          "value": "1.75",
-          "numerator": 7,
-          "denominator": 4
+          "value": "0.00",
+          "numerator": 0,
+          "denominator": 0
         },
         "aggression_frequency": {
-          "pct": 14.0,
-          "numerator": 7,
-          "denominator": 50
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wtsd": {
-          "pct": 88.9,
-          "numerator": 16,
-          "denominator": 18
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wsd": {
-          "pct": 56.2,
-          "numerator": 9,
-          "denominator": 16
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wwsf": {
-          "pct": 55.6,
-          "numerator": 10,
-          "denominator": 18
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "bb_per_100": {
-          "value": -96.77,
-          "numerator": -26708,
-          "denominator": 276
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 0
         },
         "net": {
-          "cbb": -26708
+          "cbb": 0
         },
         "showdown": {
-          "cbb": -20942
+          "cbb": 0
         },
         "non_showdown": {
-          "cbb": -5766
+          "cbb": 0
         }
       },
       "raw_totals": {
-        "hands": 276,
-        "vpip_hands": 40,
-        "pfr_hands": 34,
-        "three_bet_hands": 9,
-        "three_bet_opp": 116,
-        "four_bet_hands": 1,
-        "four_bet_opp": 25,
-        "fold_to_three_bet_hands": 6,
-        "faced_three_bet_opp": 9,
-        "fold_to_four_bet_hands": 2,
-        "faced_four_bet_opp": 4,
-        "cbet_flop_made": 2,
-        "cbet_flop_opp": 8,
+        "hands": 0,
+        "vpip_hands": 0,
+        "pfr_hands": 0,
+        "three_bet_hands": 0,
+        "three_bet_opp": 0,
+        "four_bet_hands": 0,
+        "four_bet_opp": 0,
+        "fold_to_three_bet_hands": 0,
+        "faced_three_bet_opp": 0,
+        "fold_to_four_bet_hands": 0,
+        "faced_four_bet_opp": 0,
+        "cbet_flop_made": 0,
+        "cbet_flop_opp": 0,
         "cbet_turn_made": 0,
-        "cbet_turn_opp": 2,
+        "cbet_turn_opp": 0,
         "cbet_river_made": 0,
         "cbet_river_opp": 0,
-        "fold_to_cbet_flop": 1,
-        "fold_to_cbet_flop_opp": 2,
+        "fold_to_cbet_flop": 0,
+        "fold_to_cbet_flop_opp": 0,
         "fold_to_cbet_turn": 0,
         "fold_to_cbet_turn_opp": 0,
         "fold_to_cbet_river": 0,
         "fold_to_cbet_river_opp": 0,
-        "agg_raise": 7,
-        "agg_call": 4,
-        "agg_check": 39,
-        "saw_flop_hands": 18,
-        "went_showdown_hands": 16,
-        "won_showdown_hands": 9,
-        "won_when_saw_flop_hands": 10,
-        "net_cbb": -26708,
-        "showdown_cbb": -20942,
-        "non_showdown_cbb": -5766
+        "agg_raise": 0,
+        "agg_call": 0,
+        "agg_check": 0,
+        "saw_flop_hands": 0,
+        "went_showdown_hands": 0,
+        "won_showdown_hands": 0,
+        "won_when_saw_flop_hands": 0,
+        "net_cbb": 0,
+        "showdown_cbb": 0,
+        "non_showdown_cbb": 0
       }
     },
     {
@@ -9668,98 +10062,98 @@
       "discord_global_name": null,
       "is_bot": false,
       "summary": {
-        "hands": 272,
-        "vpip_pct": 41.9,
-        "pfr_pct": 19.5,
-        "three_bet_pct": 5.3,
-        "four_bet_pct": 5.4,
-        "fold_to_three_bet_pct": 10.5,
-        "fold_to_four_bet_pct": 0.0,
-        "cbet_flop_pct": 60.0,
-        "cbet_turn_pct": 0.0,
+        "hands": 31,
+        "vpip_pct": 38.7,
+        "pfr_pct": 22.6,
+        "three_bet_pct": 8.3,
+        "four_bet_pct": 0.0,
+        "fold_to_three_bet_pct": 33.3,
+        "fold_to_four_bet_pct": 0,
+        "cbet_flop_pct": 0.0,
+        "cbet_turn_pct": 0,
         "cbet_river_pct": 0,
-        "fold_to_cbet_flop_pct": 60.0,
+        "fold_to_cbet_flop_pct": 66.7,
         "fold_to_cbet_turn_pct": 0,
         "fold_to_cbet_river_pct": 0,
-        "vpip_hands": 114,
-        "pfr_hands": 53,
-        "three_bet_hands": 6,
-        "three_bet_opp": 113,
-        "four_bet_hands": 2,
-        "four_bet_opp": 37,
-        "fold_to_three_bet_hands": 2,
-        "faced_three_bet_opp": 19,
+        "vpip_hands": 12,
+        "pfr_hands": 7,
+        "three_bet_hands": 1,
+        "three_bet_opp": 12,
+        "four_bet_hands": 0,
+        "four_bet_opp": 4,
+        "fold_to_three_bet_hands": 1,
+        "faced_three_bet_opp": 3,
         "fold_to_four_bet_hands": 0,
-        "faced_four_bet_opp": 1,
-        "cbet_flop_made": 3,
-        "cbet_flop_opp": 5,
+        "faced_four_bet_opp": 0,
+        "cbet_flop_made": 0,
+        "cbet_flop_opp": 1,
         "cbet_turn_made": 0,
-        "cbet_turn_opp": 1,
+        "cbet_turn_opp": 0,
         "cbet_river_made": 0,
         "cbet_river_opp": 0,
-        "fold_to_cbet_flop": 6,
-        "fold_to_cbet_flop_opp": 10,
+        "fold_to_cbet_flop": 2,
+        "fold_to_cbet_flop_opp": 3,
         "fold_to_cbet_turn": 0,
         "fold_to_cbet_turn_opp": 0,
         "fold_to_cbet_river": 0,
         "fold_to_cbet_river_opp": 0,
-        "agg_raise": 47,
-        "agg_call": 12,
-        "agg_check": 150,
-        "saw_flop_hands": 82,
-        "went_showdown_hands": 53,
-        "won_showdown_hands": 21,
-        "won_when_saw_flop_hands": 35,
-        "aggression": "3.92",
-        "aggression_freq_pct": 22.5,
-        "wtsd_pct": 64.6,
-        "wsd_pct": 39.6,
-        "wwsf_pct": 42.7,
-        "bb_per_100": "-73.11",
-        "net_cbb": -19886,
-        "showdown_cbb": -26000,
-        "non_showdown_cbb": 6114
+        "agg_raise": 7,
+        "agg_call": 2,
+        "agg_check": 10,
+        "saw_flop_hands": 8,
+        "went_showdown_hands": 2,
+        "won_showdown_hands": 0,
+        "won_when_saw_flop_hands": 3,
+        "aggression": "3.50",
+        "aggression_freq_pct": 36.8,
+        "wtsd_pct": 25.0,
+        "wsd_pct": 0.0,
+        "wwsf_pct": 37.5,
+        "bb_per_100": "-336.74",
+        "net_cbb": -10439,
+        "showdown_cbb": -12050,
+        "non_showdown_cbb": 1611
       },
       "metrics": {
         "vpip": {
-          "pct": 41.9,
-          "numerator": 114,
-          "denominator": 272
+          "pct": 38.7,
+          "numerator": 12,
+          "denominator": 31
         },
         "pfr": {
-          "pct": 19.5,
-          "numerator": 53,
-          "denominator": 272
+          "pct": 22.6,
+          "numerator": 7,
+          "denominator": 31
         },
         "three_bet": {
-          "pct": 5.3,
-          "numerator": 6,
-          "denominator": 113
+          "pct": 8.3,
+          "numerator": 1,
+          "denominator": 12
         },
         "four_bet": {
-          "pct": 5.4,
-          "numerator": 2,
-          "denominator": 37
+          "pct": 0.0,
+          "numerator": 0,
+          "denominator": 4
         },
         "fold_to_three_bet": {
-          "pct": 10.5,
-          "numerator": 2,
-          "denominator": 19
+          "pct": 33.3,
+          "numerator": 1,
+          "denominator": 3
         },
         "fold_to_four_bet": {
-          "pct": 0.0,
+          "pct": 0,
           "numerator": 0,
-          "denominator": 1
+          "denominator": 0
         },
         "cbet_flop": {
-          "pct": 60.0,
-          "numerator": 3,
-          "denominator": 5
-        },
-        "cbet_turn": {
           "pct": 0.0,
           "numerator": 0,
           "denominator": 1
+        },
+        "cbet_turn": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "cbet_river": {
           "pct": 0,
@@ -9767,9 +10161,9 @@
           "denominator": 0
         },
         "fold_to_cbet_flop": {
-          "pct": 60.0,
-          "numerator": 6,
-          "denominator": 10
+          "pct": 66.7,
+          "numerator": 2,
+          "denominator": 3
         },
         "fold_to_cbet_turn": {
           "pct": 0,
@@ -9782,79 +10176,79 @@
           "denominator": 0
         },
         "aggression": {
-          "value": "3.92",
-          "numerator": 47,
-          "denominator": 12
+          "value": "3.50",
+          "numerator": 7,
+          "denominator": 2
         },
         "aggression_frequency": {
-          "pct": 22.5,
-          "numerator": 47,
-          "denominator": 209
+          "pct": 36.8,
+          "numerator": 7,
+          "denominator": 19
         },
         "wtsd": {
-          "pct": 64.6,
-          "numerator": 53,
-          "denominator": 82
+          "pct": 25.0,
+          "numerator": 2,
+          "denominator": 8
         },
         "wsd": {
-          "pct": 39.6,
-          "numerator": 21,
-          "denominator": 53
+          "pct": 0.0,
+          "numerator": 0,
+          "denominator": 2
         },
         "wwsf": {
-          "pct": 42.7,
-          "numerator": 35,
-          "denominator": 82
+          "pct": 37.5,
+          "numerator": 3,
+          "denominator": 8
         },
         "bb_per_100": {
-          "value": -73.11,
-          "numerator": -19886,
-          "denominator": 272
+          "value": -336.74,
+          "numerator": -10439,
+          "denominator": 31
         },
         "net": {
-          "cbb": -19886
+          "cbb": -10439
         },
         "showdown": {
-          "cbb": -26000
+          "cbb": -12050
         },
         "non_showdown": {
-          "cbb": 6114
+          "cbb": 1611
         }
       },
       "raw_totals": {
-        "hands": 272,
-        "vpip_hands": 114,
-        "pfr_hands": 53,
-        "three_bet_hands": 6,
-        "three_bet_opp": 113,
-        "four_bet_hands": 2,
-        "four_bet_opp": 37,
-        "fold_to_three_bet_hands": 2,
-        "faced_three_bet_opp": 19,
+        "hands": 31,
+        "vpip_hands": 12,
+        "pfr_hands": 7,
+        "three_bet_hands": 1,
+        "three_bet_opp": 12,
+        "four_bet_hands": 0,
+        "four_bet_opp": 4,
+        "fold_to_three_bet_hands": 1,
+        "faced_three_bet_opp": 3,
         "fold_to_four_bet_hands": 0,
-        "faced_four_bet_opp": 1,
-        "cbet_flop_made": 3,
-        "cbet_flop_opp": 5,
+        "faced_four_bet_opp": 0,
+        "cbet_flop_made": 0,
+        "cbet_flop_opp": 1,
         "cbet_turn_made": 0,
-        "cbet_turn_opp": 1,
+        "cbet_turn_opp": 0,
         "cbet_river_made": 0,
         "cbet_river_opp": 0,
-        "fold_to_cbet_flop": 6,
-        "fold_to_cbet_flop_opp": 10,
+        "fold_to_cbet_flop": 2,
+        "fold_to_cbet_flop_opp": 3,
         "fold_to_cbet_turn": 0,
         "fold_to_cbet_turn_opp": 0,
         "fold_to_cbet_river": 0,
         "fold_to_cbet_river_opp": 0,
-        "agg_raise": 47,
-        "agg_call": 12,
-        "agg_check": 150,
-        "saw_flop_hands": 82,
-        "went_showdown_hands": 53,
-        "won_showdown_hands": 21,
-        "won_when_saw_flop_hands": 35,
-        "net_cbb": -19886,
-        "showdown_cbb": -26000,
-        "non_showdown_cbb": 6114
+        "agg_raise": 7,
+        "agg_call": 2,
+        "agg_check": 10,
+        "saw_flop_hands": 8,
+        "went_showdown_hands": 2,
+        "won_showdown_hands": 0,
+        "won_when_saw_flop_hands": 3,
+        "net_cbb": -10439,
+        "showdown_cbb": -12050,
+        "non_showdown_cbb": 1611
       }
     },
     {
@@ -12623,93 +13017,93 @@
       "discord_global_name": null,
       "is_bot": true,
       "summary": {
-        "hands": 275,
-        "vpip_pct": 17.5,
-        "pfr_pct": 15.6,
-        "three_bet_pct": 10.9,
-        "four_bet_pct": 13.6,
-        "fold_to_three_bet_pct": 66.7,
-        "fold_to_four_bet_pct": 25.0,
-        "cbet_flop_pct": 0.0,
+        "hands": 0,
+        "vpip_pct": 0,
+        "pfr_pct": 0,
+        "three_bet_pct": 0,
+        "four_bet_pct": 0,
+        "fold_to_three_bet_pct": 0,
+        "fold_to_four_bet_pct": 0,
+        "cbet_flop_pct": 0,
         "cbet_turn_pct": 0,
         "cbet_river_pct": 0,
-        "fold_to_cbet_flop_pct": 100.0,
+        "fold_to_cbet_flop_pct": 0,
         "fold_to_cbet_turn_pct": 0,
         "fold_to_cbet_river_pct": 0,
-        "vpip_hands": 48,
-        "pfr_hands": 43,
-        "three_bet_hands": 12,
-        "three_bet_opp": 110,
-        "four_bet_hands": 3,
-        "four_bet_opp": 22,
-        "fold_to_three_bet_hands": 6,
-        "faced_three_bet_opp": 9,
-        "fold_to_four_bet_hands": 1,
-        "faced_four_bet_opp": 4,
+        "vpip_hands": 0,
+        "pfr_hands": 0,
+        "three_bet_hands": 0,
+        "three_bet_opp": 0,
+        "four_bet_hands": 0,
+        "four_bet_opp": 0,
+        "fold_to_three_bet_hands": 0,
+        "faced_three_bet_opp": 0,
+        "fold_to_four_bet_hands": 0,
+        "faced_four_bet_opp": 0,
         "cbet_flop_made": 0,
-        "cbet_flop_opp": 16,
+        "cbet_flop_opp": 0,
         "cbet_turn_made": 0,
         "cbet_turn_opp": 0,
         "cbet_river_made": 0,
         "cbet_river_opp": 0,
-        "fold_to_cbet_flop": 1,
-        "fold_to_cbet_flop_opp": 1,
+        "fold_to_cbet_flop": 0,
+        "fold_to_cbet_flop_opp": 0,
         "fold_to_cbet_turn": 0,
         "fold_to_cbet_turn_opp": 0,
         "fold_to_cbet_river": 0,
         "fold_to_cbet_river_opp": 0,
-        "agg_raise": 7,
-        "agg_call": 5,
-        "agg_check": 55,
-        "saw_flop_hands": 25,
-        "went_showdown_hands": 18,
-        "won_showdown_hands": 13,
-        "won_when_saw_flop_hands": 16,
-        "aggression": "1.40",
-        "aggression_freq_pct": 10.4,
-        "wtsd_pct": 72.0,
-        "wsd_pct": 72.2,
-        "wwsf_pct": 64.0,
-        "bb_per_100": "39.75",
-        "net_cbb": 10932,
-        "showdown_cbb": 14802,
-        "non_showdown_cbb": -3870
+        "agg_raise": 0,
+        "agg_call": 0,
+        "agg_check": 0,
+        "saw_flop_hands": 0,
+        "went_showdown_hands": 0,
+        "won_showdown_hands": 0,
+        "won_when_saw_flop_hands": 0,
+        "aggression": "0.00",
+        "aggression_freq_pct": 0,
+        "wtsd_pct": 0,
+        "wsd_pct": 0,
+        "wwsf_pct": 0,
+        "bb_per_100": "0.00",
+        "net_cbb": 0,
+        "showdown_cbb": 0,
+        "non_showdown_cbb": 0
       },
       "metrics": {
         "vpip": {
-          "pct": 17.5,
-          "numerator": 48,
-          "denominator": 275
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "pfr": {
-          "pct": 15.6,
-          "numerator": 43,
-          "denominator": 275
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "three_bet": {
-          "pct": 10.9,
-          "numerator": 12,
-          "denominator": 110
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "four_bet": {
-          "pct": 13.6,
-          "numerator": 3,
-          "denominator": 22
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "fold_to_three_bet": {
-          "pct": 66.7,
-          "numerator": 6,
-          "denominator": 9
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "fold_to_four_bet": {
-          "pct": 25.0,
-          "numerator": 1,
-          "denominator": 4
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "cbet_flop": {
-          "pct": 0.0,
+          "pct": 0,
           "numerator": 0,
-          "denominator": 16
+          "denominator": 0
         },
         "cbet_turn": {
           "pct": 0,
@@ -12722,9 +13116,9 @@
           "denominator": 0
         },
         "fold_to_cbet_flop": {
-          "pct": 100.0,
-          "numerator": 1,
-          "denominator": 1
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "fold_to_cbet_turn": {
           "pct": 0,
@@ -12737,79 +13131,79 @@
           "denominator": 0
         },
         "aggression": {
-          "value": "1.40",
-          "numerator": 7,
-          "denominator": 5
+          "value": "0.00",
+          "numerator": 0,
+          "denominator": 0
         },
         "aggression_frequency": {
-          "pct": 10.4,
-          "numerator": 7,
-          "denominator": 67
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wtsd": {
-          "pct": 72.0,
-          "numerator": 18,
-          "denominator": 25
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wsd": {
-          "pct": 72.2,
-          "numerator": 13,
-          "denominator": 18
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wwsf": {
-          "pct": 64.0,
-          "numerator": 16,
-          "denominator": 25
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "bb_per_100": {
-          "value": 39.75,
-          "numerator": 10932,
-          "denominator": 275
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 0
         },
         "net": {
-          "cbb": 10932
+          "cbb": 0
         },
         "showdown": {
-          "cbb": 14802
+          "cbb": 0
         },
         "non_showdown": {
-          "cbb": -3870
+          "cbb": 0
         }
       },
       "raw_totals": {
-        "hands": 275,
-        "vpip_hands": 48,
-        "pfr_hands": 43,
-        "three_bet_hands": 12,
-        "three_bet_opp": 110,
-        "four_bet_hands": 3,
-        "four_bet_opp": 22,
-        "fold_to_three_bet_hands": 6,
-        "faced_three_bet_opp": 9,
-        "fold_to_four_bet_hands": 1,
-        "faced_four_bet_opp": 4,
+        "hands": 0,
+        "vpip_hands": 0,
+        "pfr_hands": 0,
+        "three_bet_hands": 0,
+        "three_bet_opp": 0,
+        "four_bet_hands": 0,
+        "four_bet_opp": 0,
+        "fold_to_three_bet_hands": 0,
+        "faced_three_bet_opp": 0,
+        "fold_to_four_bet_hands": 0,
+        "faced_four_bet_opp": 0,
         "cbet_flop_made": 0,
-        "cbet_flop_opp": 16,
+        "cbet_flop_opp": 0,
         "cbet_turn_made": 0,
         "cbet_turn_opp": 0,
         "cbet_river_made": 0,
         "cbet_river_opp": 0,
-        "fold_to_cbet_flop": 1,
-        "fold_to_cbet_flop_opp": 1,
+        "fold_to_cbet_flop": 0,
+        "fold_to_cbet_flop_opp": 0,
         "fold_to_cbet_turn": 0,
         "fold_to_cbet_turn_opp": 0,
         "fold_to_cbet_river": 0,
         "fold_to_cbet_river_opp": 0,
-        "agg_raise": 7,
-        "agg_call": 5,
-        "agg_check": 55,
-        "saw_flop_hands": 25,
-        "went_showdown_hands": 18,
-        "won_showdown_hands": 13,
-        "won_when_saw_flop_hands": 16,
-        "net_cbb": 10932,
-        "showdown_cbb": 14802,
-        "non_showdown_cbb": -3870
+        "agg_raise": 0,
+        "agg_call": 0,
+        "agg_check": 0,
+        "saw_flop_hands": 0,
+        "went_showdown_hands": 0,
+        "won_showdown_hands": 0,
+        "won_when_saw_flop_hands": 0,
+        "net_cbb": 0,
+        "showdown_cbb": 0,
+        "non_showdown_cbb": 0
       }
     },
     {
@@ -16169,31 +16563,31 @@
       "discord_global_name": null,
       "is_bot": true,
       "summary": {
-        "hands": 258,
-        "vpip_pct": 24.0,
-        "pfr_pct": 22.9,
-        "three_bet_pct": 13.8,
-        "four_bet_pct": 15.8,
-        "fold_to_three_bet_pct": 60.0,
-        "fold_to_four_bet_pct": 66.7,
-        "cbet_flop_pct": 5.6,
+        "hands": 0,
+        "vpip_pct": 0,
+        "pfr_pct": 0,
+        "three_bet_pct": 0,
+        "four_bet_pct": 0,
+        "fold_to_three_bet_pct": 0,
+        "fold_to_four_bet_pct": 0,
+        "cbet_flop_pct": 0,
         "cbet_turn_pct": 0,
         "cbet_river_pct": 0,
         "fold_to_cbet_flop_pct": 0,
         "fold_to_cbet_turn_pct": 0,
         "fold_to_cbet_river_pct": 0,
-        "vpip_hands": 62,
-        "pfr_hands": 59,
-        "three_bet_hands": 15,
-        "three_bet_opp": 109,
-        "four_bet_hands": 3,
-        "four_bet_opp": 19,
-        "fold_to_three_bet_hands": 6,
-        "faced_three_bet_opp": 10,
-        "fold_to_four_bet_hands": 2,
-        "faced_four_bet_opp": 3,
-        "cbet_flop_made": 1,
-        "cbet_flop_opp": 18,
+        "vpip_hands": 0,
+        "pfr_hands": 0,
+        "three_bet_hands": 0,
+        "three_bet_opp": 0,
+        "four_bet_hands": 0,
+        "four_bet_opp": 0,
+        "fold_to_three_bet_hands": 0,
+        "faced_three_bet_opp": 0,
+        "fold_to_four_bet_hands": 0,
+        "faced_four_bet_opp": 0,
+        "cbet_flop_made": 0,
+        "cbet_flop_opp": 0,
         "cbet_turn_made": 0,
         "cbet_turn_opp": 0,
         "cbet_river_made": 0,
@@ -16204,58 +16598,58 @@
         "fold_to_cbet_turn_opp": 0,
         "fold_to_cbet_river": 0,
         "fold_to_cbet_river_opp": 0,
-        "agg_raise": 4,
-        "agg_call": 10,
-        "agg_check": 43,
-        "saw_flop_hands": 23,
-        "went_showdown_hands": 16,
-        "won_showdown_hands": 9,
-        "won_when_saw_flop_hands": 11,
-        "aggression": "0.40",
-        "aggression_freq_pct": 7.0,
-        "wtsd_pct": 69.6,
-        "wsd_pct": 56.2,
-        "wwsf_pct": 47.8,
-        "bb_per_100": "5.03",
-        "net_cbb": 1298,
-        "showdown_cbb": 3921,
-        "non_showdown_cbb": -2623
+        "agg_raise": 0,
+        "agg_call": 0,
+        "agg_check": 0,
+        "saw_flop_hands": 0,
+        "went_showdown_hands": 0,
+        "won_showdown_hands": 0,
+        "won_when_saw_flop_hands": 0,
+        "aggression": "0.00",
+        "aggression_freq_pct": 0,
+        "wtsd_pct": 0,
+        "wsd_pct": 0,
+        "wwsf_pct": 0,
+        "bb_per_100": "0.00",
+        "net_cbb": 0,
+        "showdown_cbb": 0,
+        "non_showdown_cbb": 0
       },
       "metrics": {
         "vpip": {
-          "pct": 24.0,
-          "numerator": 62,
-          "denominator": 258
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "pfr": {
-          "pct": 22.9,
-          "numerator": 59,
-          "denominator": 258
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "three_bet": {
-          "pct": 13.8,
-          "numerator": 15,
-          "denominator": 109
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "four_bet": {
-          "pct": 15.8,
-          "numerator": 3,
-          "denominator": 19
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "fold_to_three_bet": {
-          "pct": 60.0,
-          "numerator": 6,
-          "denominator": 10
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "fold_to_four_bet": {
-          "pct": 66.7,
-          "numerator": 2,
-          "denominator": 3
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "cbet_flop": {
-          "pct": 5.6,
-          "numerator": 1,
-          "denominator": 18
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "cbet_turn": {
           "pct": 0,
@@ -16283,59 +16677,59 @@
           "denominator": 0
         },
         "aggression": {
-          "value": "0.40",
-          "numerator": 4,
-          "denominator": 10
+          "value": "0.00",
+          "numerator": 0,
+          "denominator": 0
         },
         "aggression_frequency": {
-          "pct": 7.0,
-          "numerator": 4,
-          "denominator": 57
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wtsd": {
-          "pct": 69.6,
-          "numerator": 16,
-          "denominator": 23
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wsd": {
-          "pct": 56.2,
-          "numerator": 9,
-          "denominator": 16
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wwsf": {
-          "pct": 47.8,
-          "numerator": 11,
-          "denominator": 23
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "bb_per_100": {
-          "value": 5.03,
-          "numerator": 1298,
-          "denominator": 258
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 0
         },
         "net": {
-          "cbb": 1298
+          "cbb": 0
         },
         "showdown": {
-          "cbb": 3921
+          "cbb": 0
         },
         "non_showdown": {
-          "cbb": -2623
+          "cbb": 0
         }
       },
       "raw_totals": {
-        "hands": 258,
-        "vpip_hands": 62,
-        "pfr_hands": 59,
-        "three_bet_hands": 15,
-        "three_bet_opp": 109,
-        "four_bet_hands": 3,
-        "four_bet_opp": 19,
-        "fold_to_three_bet_hands": 6,
-        "faced_three_bet_opp": 10,
-        "fold_to_four_bet_hands": 2,
-        "faced_four_bet_opp": 3,
-        "cbet_flop_made": 1,
-        "cbet_flop_opp": 18,
+        "hands": 0,
+        "vpip_hands": 0,
+        "pfr_hands": 0,
+        "three_bet_hands": 0,
+        "three_bet_opp": 0,
+        "four_bet_hands": 0,
+        "four_bet_opp": 0,
+        "fold_to_three_bet_hands": 0,
+        "faced_three_bet_opp": 0,
+        "fold_to_four_bet_hands": 0,
+        "faced_four_bet_opp": 0,
+        "cbet_flop_made": 0,
+        "cbet_flop_opp": 0,
         "cbet_turn_made": 0,
         "cbet_turn_opp": 0,
         "cbet_river_made": 0,
@@ -16346,16 +16740,16 @@
         "fold_to_cbet_turn_opp": 0,
         "fold_to_cbet_river": 0,
         "fold_to_cbet_river_opp": 0,
-        "agg_raise": 4,
-        "agg_call": 10,
-        "agg_check": 43,
-        "saw_flop_hands": 23,
-        "went_showdown_hands": 16,
-        "won_showdown_hands": 9,
-        "won_when_saw_flop_hands": 11,
-        "net_cbb": 1298,
-        "showdown_cbb": 3921,
-        "non_showdown_cbb": -2623
+        "agg_raise": 0,
+        "agg_call": 0,
+        "agg_check": 0,
+        "saw_flop_hands": 0,
+        "went_showdown_hands": 0,
+        "won_showdown_hands": 0,
+        "won_when_saw_flop_hands": 0,
+        "net_cbb": 0,
+        "showdown_cbb": 0,
+        "non_showdown_cbb": 0
       }
     },
     {
@@ -17154,33 +17548,33 @@
       "discord_global_name": null,
       "is_bot": false,
       "summary": {
-        "hands": 4641,
-        "vpip_pct": 23.7,
+        "hands": 4601,
+        "vpip_pct": 23.6,
         "pfr_pct": 19.3,
-        "three_bet_pct": 10.6,
-        "four_bet_pct": 10.0,
-        "fold_to_three_bet_pct": 65.9,
+        "three_bet_pct": 10.5,
+        "four_bet_pct": 10.1,
+        "fold_to_three_bet_pct": 65.3,
         "fold_to_four_bet_pct": 78.1,
-        "cbet_flop_pct": 56.2,
-        "cbet_turn_pct": 41.6,
+        "cbet_flop_pct": 56.4,
+        "cbet_turn_pct": 41.9,
         "cbet_river_pct": 66.7,
         "fold_to_cbet_flop_pct": 38.6,
         "fold_to_cbet_turn_pct": 28.6,
         "fold_to_cbet_river_pct": 40.0,
-        "vpip_hands": 1099,
-        "pfr_hands": 898,
-        "three_bet_hands": 181,
-        "three_bet_opp": 1707,
+        "vpip_hands": 1086,
+        "pfr_hands": 888,
+        "three_bet_hands": 178,
+        "three_bet_opp": 1693,
         "four_bet_hands": 41,
-        "four_bet_opp": 412,
-        "fold_to_three_bet_hands": 135,
-        "faced_three_bet_opp": 205,
+        "four_bet_opp": 407,
+        "fold_to_three_bet_hands": 132,
+        "faced_three_bet_opp": 202,
         "fold_to_four_bet_hands": 25,
         "faced_four_bet_opp": 32,
-        "cbet_flop_made": 191,
-        "cbet_flop_opp": 340,
+        "cbet_flop_made": 190,
+        "cbet_flop_opp": 337,
         "cbet_turn_made": 52,
-        "cbet_turn_opp": 125,
+        "cbet_turn_opp": 124,
         "cbet_river_made": 16,
         "cbet_river_opp": 24,
         "fold_to_cbet_flop": 51,
@@ -17189,48 +17583,48 @@
         "fold_to_cbet_turn_opp": 35,
         "fold_to_cbet_river": 4,
         "fold_to_cbet_river_opp": 10,
-        "agg_raise": 461,
-        "agg_call": 212,
-        "agg_check": 760,
-        "saw_flop_hands": 596,
-        "went_showdown_hands": 216,
-        "won_showdown_hands": 115,
-        "won_when_saw_flop_hands": 282,
+        "agg_raise": 456,
+        "agg_call": 210,
+        "agg_check": 749,
+        "saw_flop_hands": 590,
+        "went_showdown_hands": 211,
+        "won_showdown_hands": 113,
+        "won_when_saw_flop_hands": 280,
         "aggression": "2.17",
         "aggression_freq_pct": 32.2,
-        "wtsd_pct": 36.2,
-        "wsd_pct": 53.2,
-        "wwsf_pct": 47.3,
-        "bb_per_100": "10.21",
-        "net_cbb": 47378,
-        "showdown_cbb": 111416,
-        "non_showdown_cbb": -64038
+        "wtsd_pct": 35.8,
+        "wsd_pct": 53.6,
+        "wwsf_pct": 47.5,
+        "bb_per_100": "12.48",
+        "net_cbb": 57419,
+        "showdown_cbb": 120808,
+        "non_showdown_cbb": -63389
       },
       "metrics": {
         "vpip": {
-          "pct": 23.7,
-          "numerator": 1099,
-          "denominator": 4641
+          "pct": 23.6,
+          "numerator": 1086,
+          "denominator": 4601
         },
         "pfr": {
           "pct": 19.3,
-          "numerator": 898,
-          "denominator": 4641
+          "numerator": 888,
+          "denominator": 4601
         },
         "three_bet": {
-          "pct": 10.6,
-          "numerator": 181,
-          "denominator": 1707
+          "pct": 10.5,
+          "numerator": 178,
+          "denominator": 1693
         },
         "four_bet": {
-          "pct": 10.0,
+          "pct": 10.1,
           "numerator": 41,
-          "denominator": 412
+          "denominator": 407
         },
         "fold_to_three_bet": {
-          "pct": 65.9,
-          "numerator": 135,
-          "denominator": 205
+          "pct": 65.3,
+          "numerator": 132,
+          "denominator": 202
         },
         "fold_to_four_bet": {
           "pct": 78.1,
@@ -17238,14 +17632,14 @@
           "denominator": 32
         },
         "cbet_flop": {
-          "pct": 56.2,
-          "numerator": 191,
-          "denominator": 340
+          "pct": 56.4,
+          "numerator": 190,
+          "denominator": 337
         },
         "cbet_turn": {
-          "pct": 41.6,
+          "pct": 41.9,
           "numerator": 52,
-          "denominator": 125
+          "denominator": 124
         },
         "cbet_river": {
           "pct": 66.7,
@@ -17269,60 +17663,60 @@
         },
         "aggression": {
           "value": "2.17",
-          "numerator": 461,
-          "denominator": 212
+          "numerator": 456,
+          "denominator": 210
         },
         "aggression_frequency": {
           "pct": 32.2,
-          "numerator": 461,
-          "denominator": 1433
+          "numerator": 456,
+          "denominator": 1415
         },
         "wtsd": {
-          "pct": 36.2,
-          "numerator": 216,
-          "denominator": 596
+          "pct": 35.8,
+          "numerator": 211,
+          "denominator": 590
         },
         "wsd": {
-          "pct": 53.2,
-          "numerator": 115,
-          "denominator": 216
+          "pct": 53.6,
+          "numerator": 113,
+          "denominator": 211
         },
         "wwsf": {
-          "pct": 47.3,
-          "numerator": 282,
-          "denominator": 596
+          "pct": 47.5,
+          "numerator": 280,
+          "denominator": 590
         },
         "bb_per_100": {
-          "value": 10.21,
-          "numerator": 47378,
-          "denominator": 4641
+          "value": 12.48,
+          "numerator": 57419,
+          "denominator": 4601
         },
         "net": {
-          "cbb": 47378
+          "cbb": 57419
         },
         "showdown": {
-          "cbb": 111416
+          "cbb": 120808
         },
         "non_showdown": {
-          "cbb": -64038
+          "cbb": -63389
         }
       },
       "raw_totals": {
-        "hands": 4641,
-        "vpip_hands": 1099,
-        "pfr_hands": 898,
-        "three_bet_hands": 181,
-        "three_bet_opp": 1707,
+        "hands": 4601,
+        "vpip_hands": 1086,
+        "pfr_hands": 888,
+        "three_bet_hands": 178,
+        "three_bet_opp": 1693,
         "four_bet_hands": 41,
-        "four_bet_opp": 412,
-        "fold_to_three_bet_hands": 135,
-        "faced_three_bet_opp": 205,
+        "four_bet_opp": 407,
+        "fold_to_three_bet_hands": 132,
+        "faced_three_bet_opp": 202,
         "fold_to_four_bet_hands": 25,
         "faced_four_bet_opp": 32,
-        "cbet_flop_made": 191,
-        "cbet_flop_opp": 340,
+        "cbet_flop_made": 190,
+        "cbet_flop_opp": 337,
         "cbet_turn_made": 52,
-        "cbet_turn_opp": 125,
+        "cbet_turn_opp": 124,
         "cbet_river_made": 16,
         "cbet_river_opp": 24,
         "fold_to_cbet_flop": 51,
@@ -17331,16 +17725,16 @@
         "fold_to_cbet_turn_opp": 35,
         "fold_to_cbet_river": 4,
         "fold_to_cbet_river_opp": 10,
-        "agg_raise": 461,
-        "agg_call": 212,
-        "agg_check": 760,
-        "saw_flop_hands": 596,
-        "went_showdown_hands": 216,
-        "won_showdown_hands": 115,
-        "won_when_saw_flop_hands": 282,
-        "net_cbb": 47378,
-        "showdown_cbb": 111416,
-        "non_showdown_cbb": -64038
+        "agg_raise": 456,
+        "agg_call": 210,
+        "agg_check": 749,
+        "saw_flop_hands": 590,
+        "went_showdown_hands": 211,
+        "won_showdown_hands": 113,
+        "won_when_saw_flop_hands": 280,
+        "net_cbb": 57419,
+        "showdown_cbb": 120808,
+        "non_showdown_cbb": -63389
       }
     },
     {
@@ -21488,10 +21882,10 @@
       "discord_global_name": null,
       "is_bot": false,
       "summary": {
-        "hands": 1,
-        "vpip_pct": 0.0,
-        "pfr_pct": 0.0,
-        "three_bet_pct": 0.0,
+        "hands": 0,
+        "vpip_pct": 0,
+        "pfr_pct": 0,
+        "three_bet_pct": 0,
         "four_bet_pct": 0,
         "fold_to_three_bet_pct": 0,
         "fold_to_four_bet_pct": 0,
@@ -21504,7 +21898,7 @@
         "vpip_hands": 0,
         "pfr_hands": 0,
         "three_bet_hands": 0,
-        "three_bet_opp": 1,
+        "three_bet_opp": 0,
         "four_bet_hands": 0,
         "four_bet_opp": 0,
         "fold_to_three_bet_hands": 0,
@@ -21542,19 +21936,19 @@
       },
       "metrics": {
         "vpip": {
-          "pct": 0.0,
+          "pct": 0,
           "numerator": 0,
-          "denominator": 1
+          "denominator": 0
         },
         "pfr": {
-          "pct": 0.0,
+          "pct": 0,
           "numerator": 0,
-          "denominator": 1
+          "denominator": 0
         },
         "three_bet": {
-          "pct": 0.0,
+          "pct": 0,
           "numerator": 0,
-          "denominator": 1
+          "denominator": 0
         },
         "four_bet": {
           "pct": 0,
@@ -21629,7 +22023,7 @@
         "bb_per_100": {
           "value": 0.0,
           "numerator": 0,
-          "denominator": 1
+          "denominator": 0
         },
         "net": {
           "cbb": 0
@@ -21642,11 +22036,11 @@
         }
       },
       "raw_totals": {
-        "hands": 1,
+        "hands": 0,
         "vpip_hands": 0,
         "pfr_hands": 0,
         "three_bet_hands": 0,
-        "three_bet_opp": 1,
+        "three_bet_opp": 0,
         "four_bet_hands": 0,
         "four_bet_opp": 0,
         "fold_to_three_bet_hands": 0,
@@ -25822,9 +26216,9 @@
       "discord_global_name": null,
       "is_bot": false,
       "summary": {
-        "hands": 437,
-        "vpip_pct": 22.4,
-        "pfr_pct": 18.5,
+        "hands": 436,
+        "vpip_pct": 22.5,
+        "pfr_pct": 18.6,
         "three_bet_pct": 7.2,
         "four_bet_pct": 4.4,
         "fold_to_three_bet_pct": 87.5,
@@ -25869,21 +26263,21 @@
         "wtsd_pct": 30.0,
         "wsd_pct": 50.0,
         "wwsf_pct": 52.5,
-        "bb_per_100": "-56.16",
+        "bb_per_100": "-56.29",
         "net_cbb": -24543,
         "showdown_cbb": -11803,
         "non_showdown_cbb": -12740
       },
       "metrics": {
         "vpip": {
-          "pct": 22.4,
+          "pct": 22.5,
           "numerator": 98,
-          "denominator": 437
+          "denominator": 436
         },
         "pfr": {
-          "pct": 18.5,
+          "pct": 18.6,
           "numerator": 81,
-          "denominator": 437
+          "denominator": 436
         },
         "three_bet": {
           "pct": 7.2,
@@ -25961,9 +26355,9 @@
           "denominator": 40
         },
         "bb_per_100": {
-          "value": -56.16,
+          "value": -56.29,
           "numerator": -24543,
-          "denominator": 437
+          "denominator": 436
         },
         "net": {
           "cbb": -24543
@@ -25976,7 +26370,7 @@
         }
       },
       "raw_totals": {
-        "hands": 437,
+        "hands": 436,
         "vpip_hands": 98,
         "pfr_hands": 81,
         "three_bet_hands": 11,
@@ -28777,31 +29171,31 @@
       "discord_global_name": null,
       "is_bot": false,
       "summary": {
-        "hands": 13,
-        "vpip_pct": 23.1,
-        "pfr_pct": 23.1,
-        "three_bet_pct": 0.0,
-        "four_bet_pct": 50.0,
-        "fold_to_three_bet_pct": 100.0,
+        "hands": 0,
+        "vpip_pct": 0,
+        "pfr_pct": 0,
+        "three_bet_pct": 0,
+        "four_bet_pct": 0,
+        "fold_to_three_bet_pct": 0,
         "fold_to_four_bet_pct": 0,
-        "cbet_flop_pct": 0.0,
+        "cbet_flop_pct": 0,
         "cbet_turn_pct": 0,
         "cbet_river_pct": 0,
         "fold_to_cbet_flop_pct": 0,
         "fold_to_cbet_turn_pct": 0,
         "fold_to_cbet_river_pct": 0,
-        "vpip_hands": 3,
-        "pfr_hands": 3,
+        "vpip_hands": 0,
+        "pfr_hands": 0,
         "three_bet_hands": 0,
-        "three_bet_opp": 6,
-        "four_bet_hands": 1,
-        "four_bet_opp": 2,
-        "fold_to_three_bet_hands": 1,
-        "faced_three_bet_opp": 1,
+        "three_bet_opp": 0,
+        "four_bet_hands": 0,
+        "four_bet_opp": 0,
+        "fold_to_three_bet_hands": 0,
+        "faced_three_bet_opp": 0,
         "fold_to_four_bet_hands": 0,
         "faced_four_bet_opp": 0,
         "cbet_flop_made": 0,
-        "cbet_flop_opp": 1,
+        "cbet_flop_opp": 0,
         "cbet_turn_made": 0,
         "cbet_turn_opp": 0,
         "cbet_river_made": 0,
@@ -28812,48 +29206,48 @@
         "fold_to_cbet_turn_opp": 0,
         "fold_to_cbet_river": 0,
         "fold_to_cbet_river_opp": 0,
-        "agg_raise": 1,
-        "agg_call": 2,
-        "agg_check": 2,
-        "saw_flop_hands": 1,
-        "went_showdown_hands": 1,
-        "won_showdown_hands": 1,
-        "won_when_saw_flop_hands": 1,
-        "aggression": "0.50",
-        "aggression_freq_pct": 20.0,
-        "wtsd_pct": 100.0,
-        "wsd_pct": 100.0,
-        "wwsf_pct": 100.0,
-        "bb_per_100": "1469.23",
-        "net_cbb": 19100,
-        "showdown_cbb": 19600,
-        "non_showdown_cbb": -500
+        "agg_raise": 0,
+        "agg_call": 0,
+        "agg_check": 0,
+        "saw_flop_hands": 0,
+        "went_showdown_hands": 0,
+        "won_showdown_hands": 0,
+        "won_when_saw_flop_hands": 0,
+        "aggression": "0.00",
+        "aggression_freq_pct": 0,
+        "wtsd_pct": 0,
+        "wsd_pct": 0,
+        "wwsf_pct": 0,
+        "bb_per_100": "0.00",
+        "net_cbb": 0,
+        "showdown_cbb": 0,
+        "non_showdown_cbb": 0
       },
       "metrics": {
         "vpip": {
-          "pct": 23.1,
-          "numerator": 3,
-          "denominator": 13
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "pfr": {
-          "pct": 23.1,
-          "numerator": 3,
-          "denominator": 13
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "three_bet": {
-          "pct": 0.0,
+          "pct": 0,
           "numerator": 0,
-          "denominator": 6
+          "denominator": 0
         },
         "four_bet": {
-          "pct": 50.0,
-          "numerator": 1,
-          "denominator": 2
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "fold_to_three_bet": {
-          "pct": 100.0,
-          "numerator": 1,
-          "denominator": 1
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "fold_to_four_bet": {
           "pct": 0,
@@ -28861,9 +29255,9 @@
           "denominator": 0
         },
         "cbet_flop": {
-          "pct": 0.0,
+          "pct": 0,
           "numerator": 0,
-          "denominator": 1
+          "denominator": 0
         },
         "cbet_turn": {
           "pct": 0,
@@ -28891,59 +29285,59 @@
           "denominator": 0
         },
         "aggression": {
-          "value": "0.50",
-          "numerator": 1,
-          "denominator": 2
+          "value": "0.00",
+          "numerator": 0,
+          "denominator": 0
         },
         "aggression_frequency": {
-          "pct": 20.0,
-          "numerator": 1,
-          "denominator": 5
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wtsd": {
-          "pct": 100.0,
-          "numerator": 1,
-          "denominator": 1
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wsd": {
-          "pct": 100.0,
-          "numerator": 1,
-          "denominator": 1
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wwsf": {
-          "pct": 100.0,
-          "numerator": 1,
-          "denominator": 1
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "bb_per_100": {
-          "value": 1469.23,
-          "numerator": 19100,
-          "denominator": 13
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 0
         },
         "net": {
-          "cbb": 19100
+          "cbb": 0
         },
         "showdown": {
-          "cbb": 19600
+          "cbb": 0
         },
         "non_showdown": {
-          "cbb": -500
+          "cbb": 0
         }
       },
       "raw_totals": {
-        "hands": 13,
-        "vpip_hands": 3,
-        "pfr_hands": 3,
+        "hands": 0,
+        "vpip_hands": 0,
+        "pfr_hands": 0,
         "three_bet_hands": 0,
-        "three_bet_opp": 6,
-        "four_bet_hands": 1,
-        "four_bet_opp": 2,
-        "fold_to_three_bet_hands": 1,
-        "faced_three_bet_opp": 1,
+        "three_bet_opp": 0,
+        "four_bet_hands": 0,
+        "four_bet_opp": 0,
+        "fold_to_three_bet_hands": 0,
+        "faced_three_bet_opp": 0,
         "fold_to_four_bet_hands": 0,
         "faced_four_bet_opp": 0,
         "cbet_flop_made": 0,
-        "cbet_flop_opp": 1,
+        "cbet_flop_opp": 0,
         "cbet_turn_made": 0,
         "cbet_turn_opp": 0,
         "cbet_river_made": 0,
@@ -28954,16 +29348,16 @@
         "fold_to_cbet_turn_opp": 0,
         "fold_to_cbet_river": 0,
         "fold_to_cbet_river_opp": 0,
-        "agg_raise": 1,
-        "agg_call": 2,
-        "agg_check": 2,
-        "saw_flop_hands": 1,
-        "went_showdown_hands": 1,
-        "won_showdown_hands": 1,
-        "won_when_saw_flop_hands": 1,
-        "net_cbb": 19100,
-        "showdown_cbb": 19600,
-        "non_showdown_cbb": -500
+        "agg_raise": 0,
+        "agg_call": 0,
+        "agg_check": 0,
+        "saw_flop_hands": 0,
+        "went_showdown_hands": 0,
+        "won_showdown_hands": 0,
+        "won_when_saw_flop_hands": 0,
+        "net_cbb": 0,
+        "showdown_cbb": 0,
+        "non_showdown_cbb": 0
       }
     },
     {
@@ -29368,33 +29762,33 @@
       "discord_global_name": null,
       "is_bot": false,
       "summary": {
-        "hands": 2831,
+        "hands": 2827,
         "vpip_pct": 22.0,
-        "pfr_pct": 16.7,
-        "three_bet_pct": 8.4,
-        "four_bet_pct": 8.3,
+        "pfr_pct": 16.6,
+        "three_bet_pct": 8.5,
+        "four_bet_pct": 7.9,
         "fold_to_three_bet_pct": 27.8,
         "fold_to_four_bet_pct": 26.3,
-        "cbet_flop_pct": 46.5,
-        "cbet_turn_pct": 48.9,
+        "cbet_flop_pct": 46.2,
+        "cbet_turn_pct": 47.7,
         "cbet_river_pct": 50.0,
         "fold_to_cbet_flop_pct": 35.0,
         "fold_to_cbet_turn_pct": 34.9,
         "fold_to_cbet_river_pct": 47.1,
-        "vpip_hands": 623,
-        "pfr_hands": 472,
+        "vpip_hands": 621,
+        "pfr_hands": 470,
         "three_bet_hands": 92,
-        "three_bet_opp": 1089,
-        "four_bet_hands": 19,
-        "four_bet_opp": 228,
+        "three_bet_opp": 1087,
+        "four_bet_hands": 18,
+        "four_bet_opp": 227,
         "fold_to_three_bet_hands": 25,
         "faced_three_bet_opp": 90,
         "fold_to_four_bet_hands": 5,
         "faced_four_bet_opp": 19,
-        "cbet_flop_made": 79,
-        "cbet_flop_opp": 170,
-        "cbet_turn_made": 22,
-        "cbet_turn_opp": 45,
+        "cbet_flop_made": 78,
+        "cbet_flop_opp": 169,
+        "cbet_turn_made": 21,
+        "cbet_turn_opp": 44,
         "cbet_river_made": 3,
         "cbet_river_opp": 6,
         "fold_to_cbet_flop": 41,
@@ -29403,43 +29797,43 @@
         "fold_to_cbet_turn_opp": 43,
         "fold_to_cbet_river": 8,
         "fold_to_cbet_river_opp": 17,
-        "agg_raise": 243,
+        "agg_raise": 241,
         "agg_call": 182,
         "agg_check": 504,
-        "saw_flop_hands": 389,
+        "saw_flop_hands": 388,
         "went_showdown_hands": 155,
         "won_showdown_hands": 80,
-        "won_when_saw_flop_hands": 191,
-        "aggression": "1.34",
-        "aggression_freq_pct": 26.2,
-        "wtsd_pct": 39.8,
+        "won_when_saw_flop_hands": 190,
+        "aggression": "1.32",
+        "aggression_freq_pct": 26.0,
+        "wtsd_pct": 39.9,
         "wsd_pct": 51.6,
-        "wwsf_pct": 49.1,
-        "bb_per_100": "17.62",
-        "net_cbb": 49878,
+        "wwsf_pct": 49.0,
+        "bb_per_100": "16.44",
+        "net_cbb": 46490,
         "showdown_cbb": 61210,
-        "non_showdown_cbb": -11332
+        "non_showdown_cbb": -14720
       },
       "metrics": {
         "vpip": {
           "pct": 22.0,
-          "numerator": 623,
-          "denominator": 2831
+          "numerator": 621,
+          "denominator": 2827
         },
         "pfr": {
-          "pct": 16.7,
-          "numerator": 472,
-          "denominator": 2831
+          "pct": 16.6,
+          "numerator": 470,
+          "denominator": 2827
         },
         "three_bet": {
-          "pct": 8.4,
+          "pct": 8.5,
           "numerator": 92,
-          "denominator": 1089
+          "denominator": 1087
         },
         "four_bet": {
-          "pct": 8.3,
-          "numerator": 19,
-          "denominator": 228
+          "pct": 7.9,
+          "numerator": 18,
+          "denominator": 227
         },
         "fold_to_three_bet": {
           "pct": 27.8,
@@ -29452,14 +29846,14 @@
           "denominator": 19
         },
         "cbet_flop": {
-          "pct": 46.5,
-          "numerator": 79,
-          "denominator": 170
+          "pct": 46.2,
+          "numerator": 78,
+          "denominator": 169
         },
         "cbet_turn": {
-          "pct": 48.9,
-          "numerator": 22,
-          "denominator": 45
+          "pct": 47.7,
+          "numerator": 21,
+          "denominator": 44
         },
         "cbet_river": {
           "pct": 50.0,
@@ -29482,19 +29876,19 @@
           "denominator": 17
         },
         "aggression": {
-          "value": "1.34",
-          "numerator": 243,
+          "value": "1.32",
+          "numerator": 241,
           "denominator": 182
         },
         "aggression_frequency": {
-          "pct": 26.2,
-          "numerator": 243,
-          "denominator": 929
+          "pct": 26.0,
+          "numerator": 241,
+          "denominator": 927
         },
         "wtsd": {
-          "pct": 39.8,
+          "pct": 39.9,
           "numerator": 155,
-          "denominator": 389
+          "denominator": 388
         },
         "wsd": {
           "pct": 51.6,
@@ -29502,41 +29896,41 @@
           "denominator": 155
         },
         "wwsf": {
-          "pct": 49.1,
-          "numerator": 191,
-          "denominator": 389
+          "pct": 49.0,
+          "numerator": 190,
+          "denominator": 388
         },
         "bb_per_100": {
-          "value": 17.62,
-          "numerator": 49878,
-          "denominator": 2831
+          "value": 16.44,
+          "numerator": 46490,
+          "denominator": 2827
         },
         "net": {
-          "cbb": 49878
+          "cbb": 46490
         },
         "showdown": {
           "cbb": 61210
         },
         "non_showdown": {
-          "cbb": -11332
+          "cbb": -14720
         }
       },
       "raw_totals": {
-        "hands": 2831,
-        "vpip_hands": 623,
-        "pfr_hands": 472,
+        "hands": 2827,
+        "vpip_hands": 621,
+        "pfr_hands": 470,
         "three_bet_hands": 92,
-        "three_bet_opp": 1089,
-        "four_bet_hands": 19,
-        "four_bet_opp": 228,
+        "three_bet_opp": 1087,
+        "four_bet_hands": 18,
+        "four_bet_opp": 227,
         "fold_to_three_bet_hands": 25,
         "faced_three_bet_opp": 90,
         "fold_to_four_bet_hands": 5,
         "faced_four_bet_opp": 19,
-        "cbet_flop_made": 79,
-        "cbet_flop_opp": 170,
-        "cbet_turn_made": 22,
-        "cbet_turn_opp": 45,
+        "cbet_flop_made": 78,
+        "cbet_flop_opp": 169,
+        "cbet_turn_made": 21,
+        "cbet_turn_opp": 44,
         "cbet_river_made": 3,
         "cbet_river_opp": 6,
         "fold_to_cbet_flop": 41,
@@ -29545,16 +29939,16 @@
         "fold_to_cbet_turn_opp": 43,
         "fold_to_cbet_river": 8,
         "fold_to_cbet_river_opp": 17,
-        "agg_raise": 243,
+        "agg_raise": 241,
         "agg_call": 182,
         "agg_check": 504,
-        "saw_flop_hands": 389,
+        "saw_flop_hands": 388,
         "went_showdown_hands": 155,
         "won_showdown_hands": 80,
-        "won_when_saw_flop_hands": 191,
-        "net_cbb": 49878,
+        "won_when_saw_flop_hands": 190,
+        "net_cbb": 46490,
         "showdown_cbb": 61210,
-        "non_showdown_cbb": -11332
+        "non_showdown_cbb": -14720
       }
     },
     {
@@ -32323,9 +32717,9 @@
       "discord_global_name": null,
       "is_bot": false,
       "summary": {
-        "hands": 2533,
+        "hands": 2530,
         "vpip_pct": 24.9,
-        "pfr_pct": 17.8,
+        "pfr_pct": 17.7,
         "three_bet_pct": 9.9,
         "four_bet_pct": 9.7,
         "fold_to_three_bet_pct": 62.9,
@@ -32336,8 +32730,8 @@
         "fold_to_cbet_flop_pct": 38.4,
         "fold_to_cbet_turn_pct": 41.7,
         "fold_to_cbet_river_pct": 40.0,
-        "vpip_hands": 631,
-        "pfr_hands": 450,
+        "vpip_hands": 629,
+        "pfr_hands": 448,
         "three_bet_hands": 98,
         "three_bet_opp": 989,
         "four_bet_hands": 21,
@@ -32370,21 +32764,21 @@
         "wtsd_pct": 33.8,
         "wsd_pct": 57.1,
         "wwsf_pct": 47.7,
-        "bb_per_100": "-0.47",
-        "net_cbb": -1182,
+        "bb_per_100": "-0.57",
+        "net_cbb": -1432,
         "showdown_cbb": 27641,
-        "non_showdown_cbb": -28823
+        "non_showdown_cbb": -29073
       },
       "metrics": {
         "vpip": {
           "pct": 24.9,
-          "numerator": 631,
-          "denominator": 2533
+          "numerator": 629,
+          "denominator": 2530
         },
         "pfr": {
-          "pct": 17.8,
-          "numerator": 450,
-          "denominator": 2533
+          "pct": 17.7,
+          "numerator": 448,
+          "denominator": 2530
         },
         "three_bet": {
           "pct": 9.9,
@@ -32462,24 +32856,24 @@
           "denominator": 373
         },
         "bb_per_100": {
-          "value": -0.47,
-          "numerator": -1182,
-          "denominator": 2533
+          "value": -0.57,
+          "numerator": -1432,
+          "denominator": 2530
         },
         "net": {
-          "cbb": -1182
+          "cbb": -1432
         },
         "showdown": {
           "cbb": 27641
         },
         "non_showdown": {
-          "cbb": -28823
+          "cbb": -29073
         }
       },
       "raw_totals": {
-        "hands": 2533,
-        "vpip_hands": 631,
-        "pfr_hands": 450,
+        "hands": 2530,
+        "vpip_hands": 629,
+        "pfr_hands": 448,
         "three_bet_hands": 98,
         "three_bet_opp": 989,
         "four_bet_hands": 21,
@@ -32507,9 +32901,9 @@
         "went_showdown_hands": 126,
         "won_showdown_hands": 72,
         "won_when_saw_flop_hands": 178,
-        "net_cbb": -1182,
+        "net_cbb": -1432,
         "showdown_cbb": 27641,
-        "non_showdown_cbb": -28823
+        "non_showdown_cbb": -29073
       }
     },
     {
@@ -35475,31 +35869,31 @@
       "discord_global_name": null,
       "is_bot": false,
       "summary": {
-        "hands": 777,
-        "vpip_pct": 24.1,
+        "hands": 683,
+        "vpip_pct": 24.0,
         "pfr_pct": 19.8,
-        "three_bet_pct": 9.9,
-        "four_bet_pct": 16.2,
-        "fold_to_three_bet_pct": 56.1,
-        "fold_to_four_bet_pct": 66.7,
-        "cbet_flop_pct": 51.0,
+        "three_bet_pct": 9.6,
+        "four_bet_pct": 12.5,
+        "fold_to_three_bet_pct": 60.6,
+        "fold_to_four_bet_pct": 75.0,
+        "cbet_flop_pct": 53.2,
         "cbet_turn_pct": 25.0,
         "cbet_river_pct": 0.0,
         "fold_to_cbet_flop_pct": 22.7,
         "fold_to_cbet_turn_pct": 55.6,
         "fold_to_cbet_river_pct": 0.0,
-        "vpip_hands": 187,
-        "pfr_hands": 154,
-        "three_bet_hands": 30,
-        "three_bet_opp": 303,
-        "four_bet_hands": 12,
-        "four_bet_opp": 74,
-        "fold_to_three_bet_hands": 23,
-        "faced_three_bet_opp": 41,
-        "fold_to_four_bet_hands": 4,
-        "faced_four_bet_opp": 6,
+        "vpip_hands": 164,
+        "pfr_hands": 135,
+        "three_bet_hands": 25,
+        "three_bet_opp": 261,
+        "four_bet_hands": 8,
+        "four_bet_opp": 64,
+        "fold_to_three_bet_hands": 20,
+        "faced_three_bet_opp": 33,
+        "fold_to_four_bet_hands": 3,
+        "faced_four_bet_opp": 4,
         "cbet_flop_made": 25,
-        "cbet_flop_opp": 49,
+        "cbet_flop_opp": 47,
         "cbet_turn_made": 4,
         "cbet_turn_opp": 16,
         "cbet_river_made": 0,
@@ -35510,58 +35904,58 @@
         "fold_to_cbet_turn_opp": 9,
         "fold_to_cbet_river": 0,
         "fold_to_cbet_river_opp": 1,
-        "agg_raise": 75,
+        "agg_raise": 68,
         "agg_call": 37,
-        "agg_check": 115,
-        "saw_flop_hands": 93,
-        "went_showdown_hands": 35,
-        "won_showdown_hands": 18,
-        "won_when_saw_flop_hands": 45,
-        "aggression": "2.03",
-        "aggression_freq_pct": 33.0,
-        "wtsd_pct": 37.6,
-        "wsd_pct": 51.4,
-        "wwsf_pct": 48.4,
-        "bb_per_100": "20.80",
-        "net_cbb": 16165,
-        "showdown_cbb": 27232,
-        "non_showdown_cbb": -11067
+        "agg_check": 103,
+        "saw_flop_hands": 85,
+        "went_showdown_hands": 33,
+        "won_showdown_hands": 17,
+        "won_when_saw_flop_hands": 40,
+        "aggression": "1.84",
+        "aggression_freq_pct": 32.7,
+        "wtsd_pct": 38.8,
+        "wsd_pct": 51.5,
+        "wwsf_pct": 47.1,
+        "bb_per_100": "13.35",
+        "net_cbb": 9120,
+        "showdown_cbb": 24705,
+        "non_showdown_cbb": -15585
       },
       "metrics": {
         "vpip": {
-          "pct": 24.1,
-          "numerator": 187,
-          "denominator": 777
+          "pct": 24.0,
+          "numerator": 164,
+          "denominator": 683
         },
         "pfr": {
           "pct": 19.8,
-          "numerator": 154,
-          "denominator": 777
+          "numerator": 135,
+          "denominator": 683
         },
         "three_bet": {
-          "pct": 9.9,
-          "numerator": 30,
-          "denominator": 303
+          "pct": 9.6,
+          "numerator": 25,
+          "denominator": 261
         },
         "four_bet": {
-          "pct": 16.2,
-          "numerator": 12,
-          "denominator": 74
+          "pct": 12.5,
+          "numerator": 8,
+          "denominator": 64
         },
         "fold_to_three_bet": {
-          "pct": 56.1,
-          "numerator": 23,
-          "denominator": 41
+          "pct": 60.6,
+          "numerator": 20,
+          "denominator": 33
         },
         "fold_to_four_bet": {
-          "pct": 66.7,
-          "numerator": 4,
-          "denominator": 6
+          "pct": 75.0,
+          "numerator": 3,
+          "denominator": 4
         },
         "cbet_flop": {
-          "pct": 51.0,
+          "pct": 53.2,
           "numerator": 25,
-          "denominator": 49
+          "denominator": 47
         },
         "cbet_turn": {
           "pct": 25.0,
@@ -35589,59 +35983,59 @@
           "denominator": 1
         },
         "aggression": {
-          "value": "2.03",
-          "numerator": 75,
+          "value": "1.84",
+          "numerator": 68,
           "denominator": 37
         },
         "aggression_frequency": {
-          "pct": 33.0,
-          "numerator": 75,
-          "denominator": 227
+          "pct": 32.7,
+          "numerator": 68,
+          "denominator": 208
         },
         "wtsd": {
-          "pct": 37.6,
-          "numerator": 35,
-          "denominator": 93
+          "pct": 38.8,
+          "numerator": 33,
+          "denominator": 85
         },
         "wsd": {
-          "pct": 51.4,
-          "numerator": 18,
-          "denominator": 35
+          "pct": 51.5,
+          "numerator": 17,
+          "denominator": 33
         },
         "wwsf": {
-          "pct": 48.4,
-          "numerator": 45,
-          "denominator": 93
+          "pct": 47.1,
+          "numerator": 40,
+          "denominator": 85
         },
         "bb_per_100": {
-          "value": 20.8,
-          "numerator": 16165,
-          "denominator": 777
+          "value": 13.35,
+          "numerator": 9120,
+          "denominator": 683
         },
         "net": {
-          "cbb": 16165
+          "cbb": 9120
         },
         "showdown": {
-          "cbb": 27232
+          "cbb": 24705
         },
         "non_showdown": {
-          "cbb": -11067
+          "cbb": -15585
         }
       },
       "raw_totals": {
-        "hands": 777,
-        "vpip_hands": 187,
-        "pfr_hands": 154,
-        "three_bet_hands": 30,
-        "three_bet_opp": 303,
-        "four_bet_hands": 12,
-        "four_bet_opp": 74,
-        "fold_to_three_bet_hands": 23,
-        "faced_three_bet_opp": 41,
-        "fold_to_four_bet_hands": 4,
-        "faced_four_bet_opp": 6,
+        "hands": 683,
+        "vpip_hands": 164,
+        "pfr_hands": 135,
+        "three_bet_hands": 25,
+        "three_bet_opp": 261,
+        "four_bet_hands": 8,
+        "four_bet_opp": 64,
+        "fold_to_three_bet_hands": 20,
+        "faced_three_bet_opp": 33,
+        "fold_to_four_bet_hands": 3,
+        "faced_four_bet_opp": 4,
         "cbet_flop_made": 25,
-        "cbet_flop_opp": 49,
+        "cbet_flop_opp": 47,
         "cbet_turn_made": 4,
         "cbet_turn_opp": 16,
         "cbet_river_made": 0,
@@ -35652,16 +36046,16 @@
         "fold_to_cbet_turn_opp": 9,
         "fold_to_cbet_river": 0,
         "fold_to_cbet_river_opp": 1,
-        "agg_raise": 75,
+        "agg_raise": 68,
         "agg_call": 37,
-        "agg_check": 115,
-        "saw_flop_hands": 93,
-        "went_showdown_hands": 35,
-        "won_showdown_hands": 18,
-        "won_when_saw_flop_hands": 45,
-        "net_cbb": 16165,
-        "showdown_cbb": 27232,
-        "non_showdown_cbb": -11067
+        "agg_check": 103,
+        "saw_flop_hands": 85,
+        "went_showdown_hands": 33,
+        "won_showdown_hands": 17,
+        "won_when_saw_flop_hands": 40,
+        "net_cbb": 9120,
+        "showdown_cbb": 24705,
+        "non_showdown_cbb": -15585
       }
     },
     {
@@ -35672,98 +36066,98 @@
       "discord_global_name": null,
       "is_bot": true,
       "summary": {
-        "hands": 248,
-        "vpip_pct": 25.0,
-        "pfr_pct": 23.8,
-        "three_bet_pct": 15.5,
-        "four_bet_pct": 17.5,
-        "fold_to_three_bet_pct": 47.4,
-        "fold_to_four_bet_pct": 33.3,
-        "cbet_flop_pct": 6.2,
-        "cbet_turn_pct": 0.0,
+        "hands": 0,
+        "vpip_pct": 0,
+        "pfr_pct": 0,
+        "three_bet_pct": 0,
+        "four_bet_pct": 0,
+        "fold_to_three_bet_pct": 0,
+        "fold_to_four_bet_pct": 0,
+        "cbet_flop_pct": 0,
+        "cbet_turn_pct": 0,
         "cbet_river_pct": 0,
-        "fold_to_cbet_flop_pct": 50.0,
+        "fold_to_cbet_flop_pct": 0,
         "fold_to_cbet_turn_pct": 0,
         "fold_to_cbet_river_pct": 0,
-        "vpip_hands": 62,
-        "pfr_hands": 59,
-        "three_bet_hands": 13,
-        "three_bet_opp": 84,
-        "four_bet_hands": 7,
-        "four_bet_opp": 40,
-        "fold_to_three_bet_hands": 9,
-        "faced_three_bet_opp": 19,
-        "fold_to_four_bet_hands": 1,
-        "faced_four_bet_opp": 3,
-        "cbet_flop_made": 1,
-        "cbet_flop_opp": 16,
+        "vpip_hands": 0,
+        "pfr_hands": 0,
+        "three_bet_hands": 0,
+        "three_bet_opp": 0,
+        "four_bet_hands": 0,
+        "four_bet_opp": 0,
+        "fold_to_three_bet_hands": 0,
+        "faced_three_bet_opp": 0,
+        "fold_to_four_bet_hands": 0,
+        "faced_four_bet_opp": 0,
+        "cbet_flop_made": 0,
+        "cbet_flop_opp": 0,
         "cbet_turn_made": 0,
-        "cbet_turn_opp": 1,
+        "cbet_turn_opp": 0,
         "cbet_river_made": 0,
         "cbet_river_opp": 0,
-        "fold_to_cbet_flop": 1,
-        "fold_to_cbet_flop_opp": 2,
+        "fold_to_cbet_flop": 0,
+        "fold_to_cbet_flop_opp": 0,
         "fold_to_cbet_turn": 0,
         "fold_to_cbet_turn_opp": 0,
         "fold_to_cbet_river": 0,
         "fold_to_cbet_river_opp": 0,
-        "agg_raise": 9,
-        "agg_call": 7,
-        "agg_check": 54,
-        "saw_flop_hands": 25,
-        "went_showdown_hands": 15,
-        "won_showdown_hands": 7,
-        "won_when_saw_flop_hands": 9,
-        "aggression": "1.29",
-        "aggression_freq_pct": 12.9,
-        "wtsd_pct": 60.0,
-        "wsd_pct": 46.7,
-        "wwsf_pct": 36.0,
-        "bb_per_100": "-61.06",
-        "net_cbb": -15143,
-        "showdown_cbb": -11994,
-        "non_showdown_cbb": -3149
+        "agg_raise": 0,
+        "agg_call": 0,
+        "agg_check": 0,
+        "saw_flop_hands": 0,
+        "went_showdown_hands": 0,
+        "won_showdown_hands": 0,
+        "won_when_saw_flop_hands": 0,
+        "aggression": "0.00",
+        "aggression_freq_pct": 0,
+        "wtsd_pct": 0,
+        "wsd_pct": 0,
+        "wwsf_pct": 0,
+        "bb_per_100": "0.00",
+        "net_cbb": 0,
+        "showdown_cbb": 0,
+        "non_showdown_cbb": 0
       },
       "metrics": {
         "vpip": {
-          "pct": 25.0,
-          "numerator": 62,
-          "denominator": 248
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "pfr": {
-          "pct": 23.8,
-          "numerator": 59,
-          "denominator": 248
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "three_bet": {
-          "pct": 15.5,
-          "numerator": 13,
-          "denominator": 84
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "four_bet": {
-          "pct": 17.5,
-          "numerator": 7,
-          "denominator": 40
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "fold_to_three_bet": {
-          "pct": 47.4,
-          "numerator": 9,
-          "denominator": 19
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "fold_to_four_bet": {
-          "pct": 33.3,
-          "numerator": 1,
-          "denominator": 3
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "cbet_flop": {
-          "pct": 6.2,
-          "numerator": 1,
-          "denominator": 16
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "cbet_turn": {
-          "pct": 0.0,
+          "pct": 0,
           "numerator": 0,
-          "denominator": 1
+          "denominator": 0
         },
         "cbet_river": {
           "pct": 0,
@@ -35771,9 +36165,9 @@
           "denominator": 0
         },
         "fold_to_cbet_flop": {
-          "pct": 50.0,
-          "numerator": 1,
-          "denominator": 2
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "fold_to_cbet_turn": {
           "pct": 0,
@@ -35786,79 +36180,79 @@
           "denominator": 0
         },
         "aggression": {
-          "value": "1.29",
-          "numerator": 9,
-          "denominator": 7
+          "value": "0.00",
+          "numerator": 0,
+          "denominator": 0
         },
         "aggression_frequency": {
-          "pct": 12.9,
-          "numerator": 9,
-          "denominator": 70
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wtsd": {
-          "pct": 60.0,
-          "numerator": 15,
-          "denominator": 25
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wsd": {
-          "pct": 46.7,
-          "numerator": 7,
-          "denominator": 15
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wwsf": {
-          "pct": 36.0,
-          "numerator": 9,
-          "denominator": 25
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "bb_per_100": {
-          "value": -61.06,
-          "numerator": -15143,
-          "denominator": 248
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 0
         },
         "net": {
-          "cbb": -15143
+          "cbb": 0
         },
         "showdown": {
-          "cbb": -11994
+          "cbb": 0
         },
         "non_showdown": {
-          "cbb": -3149
+          "cbb": 0
         }
       },
       "raw_totals": {
-        "hands": 248,
-        "vpip_hands": 62,
-        "pfr_hands": 59,
-        "three_bet_hands": 13,
-        "three_bet_opp": 84,
-        "four_bet_hands": 7,
-        "four_bet_opp": 40,
-        "fold_to_three_bet_hands": 9,
-        "faced_three_bet_opp": 19,
-        "fold_to_four_bet_hands": 1,
-        "faced_four_bet_opp": 3,
-        "cbet_flop_made": 1,
-        "cbet_flop_opp": 16,
+        "hands": 0,
+        "vpip_hands": 0,
+        "pfr_hands": 0,
+        "three_bet_hands": 0,
+        "three_bet_opp": 0,
+        "four_bet_hands": 0,
+        "four_bet_opp": 0,
+        "fold_to_three_bet_hands": 0,
+        "faced_three_bet_opp": 0,
+        "fold_to_four_bet_hands": 0,
+        "faced_four_bet_opp": 0,
+        "cbet_flop_made": 0,
+        "cbet_flop_opp": 0,
         "cbet_turn_made": 0,
-        "cbet_turn_opp": 1,
+        "cbet_turn_opp": 0,
         "cbet_river_made": 0,
         "cbet_river_opp": 0,
-        "fold_to_cbet_flop": 1,
-        "fold_to_cbet_flop_opp": 2,
+        "fold_to_cbet_flop": 0,
+        "fold_to_cbet_flop_opp": 0,
         "fold_to_cbet_turn": 0,
         "fold_to_cbet_turn_opp": 0,
         "fold_to_cbet_river": 0,
         "fold_to_cbet_river_opp": 0,
-        "agg_raise": 9,
-        "agg_call": 7,
-        "agg_check": 54,
-        "saw_flop_hands": 25,
-        "went_showdown_hands": 15,
-        "won_showdown_hands": 7,
-        "won_when_saw_flop_hands": 9,
-        "net_cbb": -15143,
-        "showdown_cbb": -11994,
-        "non_showdown_cbb": -3149
+        "agg_raise": 0,
+        "agg_call": 0,
+        "agg_check": 0,
+        "saw_flop_hands": 0,
+        "went_showdown_hands": 0,
+        "won_showdown_hands": 0,
+        "won_when_saw_flop_hands": 0,
+        "net_cbb": 0,
+        "showdown_cbb": 0,
+        "non_showdown_cbb": 0
       }
     },
     {
@@ -38627,93 +39021,93 @@
       "discord_global_name": null,
       "is_bot": true,
       "summary": {
-        "hands": 260,
-        "vpip_pct": 21.9,
-        "pfr_pct": 20.8,
-        "three_bet_pct": 13.7,
-        "four_bet_pct": 4.0,
-        "fold_to_three_bet_pct": 63.6,
-        "fold_to_four_bet_pct": 33.3,
-        "cbet_flop_pct": 0.0,
+        "hands": 0,
+        "vpip_pct": 0,
+        "pfr_pct": 0,
+        "three_bet_pct": 0,
+        "four_bet_pct": 0,
+        "fold_to_three_bet_pct": 0,
+        "fold_to_four_bet_pct": 0,
+        "cbet_flop_pct": 0,
         "cbet_turn_pct": 0,
         "cbet_river_pct": 0,
-        "fold_to_cbet_flop_pct": 0.0,
+        "fold_to_cbet_flop_pct": 0,
         "fold_to_cbet_turn_pct": 0,
         "fold_to_cbet_river_pct": 0,
-        "vpip_hands": 57,
-        "pfr_hands": 54,
-        "three_bet_hands": 13,
-        "three_bet_opp": 95,
-        "four_bet_hands": 1,
-        "four_bet_opp": 25,
-        "fold_to_three_bet_hands": 7,
-        "faced_three_bet_opp": 11,
-        "fold_to_four_bet_hands": 2,
-        "faced_four_bet_opp": 6,
+        "vpip_hands": 0,
+        "pfr_hands": 0,
+        "three_bet_hands": 0,
+        "three_bet_opp": 0,
+        "four_bet_hands": 0,
+        "four_bet_opp": 0,
+        "fold_to_three_bet_hands": 0,
+        "faced_three_bet_opp": 0,
+        "fold_to_four_bet_hands": 0,
+        "faced_four_bet_opp": 0,
         "cbet_flop_made": 0,
-        "cbet_flop_opp": 12,
+        "cbet_flop_opp": 0,
         "cbet_turn_made": 0,
         "cbet_turn_opp": 0,
         "cbet_river_made": 0,
         "cbet_river_opp": 0,
         "fold_to_cbet_flop": 0,
-        "fold_to_cbet_flop_opp": 1,
+        "fold_to_cbet_flop_opp": 0,
         "fold_to_cbet_turn": 0,
         "fold_to_cbet_turn_opp": 0,
         "fold_to_cbet_river": 0,
         "fold_to_cbet_river_opp": 0,
-        "agg_raise": 3,
-        "agg_call": 10,
-        "agg_check": 51,
-        "saw_flop_hands": 22,
-        "went_showdown_hands": 21,
-        "won_showdown_hands": 13,
-        "won_when_saw_flop_hands": 13,
-        "aggression": "0.30",
-        "aggression_freq_pct": 4.7,
-        "wtsd_pct": 95.5,
-        "wsd_pct": 61.9,
-        "wwsf_pct": 59.1,
-        "bb_per_100": "68.14",
-        "net_cbb": 17716,
-        "showdown_cbb": 20116,
-        "non_showdown_cbb": -2400
+        "agg_raise": 0,
+        "agg_call": 0,
+        "agg_check": 0,
+        "saw_flop_hands": 0,
+        "went_showdown_hands": 0,
+        "won_showdown_hands": 0,
+        "won_when_saw_flop_hands": 0,
+        "aggression": "0.00",
+        "aggression_freq_pct": 0,
+        "wtsd_pct": 0,
+        "wsd_pct": 0,
+        "wwsf_pct": 0,
+        "bb_per_100": "0.00",
+        "net_cbb": 0,
+        "showdown_cbb": 0,
+        "non_showdown_cbb": 0
       },
       "metrics": {
         "vpip": {
-          "pct": 21.9,
-          "numerator": 57,
-          "denominator": 260
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "pfr": {
-          "pct": 20.8,
-          "numerator": 54,
-          "denominator": 260
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "three_bet": {
-          "pct": 13.7,
-          "numerator": 13,
-          "denominator": 95
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "four_bet": {
-          "pct": 4.0,
-          "numerator": 1,
-          "denominator": 25
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "fold_to_three_bet": {
-          "pct": 63.6,
-          "numerator": 7,
-          "denominator": 11
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "fold_to_four_bet": {
-          "pct": 33.3,
-          "numerator": 2,
-          "denominator": 6
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "cbet_flop": {
-          "pct": 0.0,
+          "pct": 0,
           "numerator": 0,
-          "denominator": 12
+          "denominator": 0
         },
         "cbet_turn": {
           "pct": 0,
@@ -38726,9 +39120,9 @@
           "denominator": 0
         },
         "fold_to_cbet_flop": {
-          "pct": 0.0,
+          "pct": 0,
           "numerator": 0,
-          "denominator": 1
+          "denominator": 0
         },
         "fold_to_cbet_turn": {
           "pct": 0,
@@ -38741,79 +39135,79 @@
           "denominator": 0
         },
         "aggression": {
-          "value": "0.30",
-          "numerator": 3,
-          "denominator": 10
+          "value": "0.00",
+          "numerator": 0,
+          "denominator": 0
         },
         "aggression_frequency": {
-          "pct": 4.7,
-          "numerator": 3,
-          "denominator": 64
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wtsd": {
-          "pct": 95.5,
-          "numerator": 21,
-          "denominator": 22
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wsd": {
-          "pct": 61.9,
-          "numerator": 13,
-          "denominator": 21
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wwsf": {
-          "pct": 59.1,
-          "numerator": 13,
-          "denominator": 22
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "bb_per_100": {
-          "value": 68.14,
-          "numerator": 17716,
-          "denominator": 260
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 0
         },
         "net": {
-          "cbb": 17716
+          "cbb": 0
         },
         "showdown": {
-          "cbb": 20116
+          "cbb": 0
         },
         "non_showdown": {
-          "cbb": -2400
+          "cbb": 0
         }
       },
       "raw_totals": {
-        "hands": 260,
-        "vpip_hands": 57,
-        "pfr_hands": 54,
-        "three_bet_hands": 13,
-        "three_bet_opp": 95,
-        "four_bet_hands": 1,
-        "four_bet_opp": 25,
-        "fold_to_three_bet_hands": 7,
-        "faced_three_bet_opp": 11,
-        "fold_to_four_bet_hands": 2,
-        "faced_four_bet_opp": 6,
+        "hands": 0,
+        "vpip_hands": 0,
+        "pfr_hands": 0,
+        "three_bet_hands": 0,
+        "three_bet_opp": 0,
+        "four_bet_hands": 0,
+        "four_bet_opp": 0,
+        "fold_to_three_bet_hands": 0,
+        "faced_three_bet_opp": 0,
+        "fold_to_four_bet_hands": 0,
+        "faced_four_bet_opp": 0,
         "cbet_flop_made": 0,
-        "cbet_flop_opp": 12,
+        "cbet_flop_opp": 0,
         "cbet_turn_made": 0,
         "cbet_turn_opp": 0,
         "cbet_river_made": 0,
         "cbet_river_opp": 0,
         "fold_to_cbet_flop": 0,
-        "fold_to_cbet_flop_opp": 1,
+        "fold_to_cbet_flop_opp": 0,
         "fold_to_cbet_turn": 0,
         "fold_to_cbet_turn_opp": 0,
         "fold_to_cbet_river": 0,
         "fold_to_cbet_river_opp": 0,
-        "agg_raise": 3,
-        "agg_call": 10,
-        "agg_check": 51,
-        "saw_flop_hands": 22,
-        "went_showdown_hands": 21,
-        "won_showdown_hands": 13,
-        "won_when_saw_flop_hands": 13,
-        "net_cbb": 17716,
-        "showdown_cbb": 20116,
-        "non_showdown_cbb": -2400
+        "agg_raise": 0,
+        "agg_call": 0,
+        "agg_check": 0,
+        "saw_flop_hands": 0,
+        "went_showdown_hands": 0,
+        "won_showdown_hands": 0,
+        "won_when_saw_flop_hands": 0,
+        "net_cbb": 0,
+        "showdown_cbb": 0,
+        "non_showdown_cbb": 0
       }
     },
     {
@@ -39612,10 +40006,10 @@
       "discord_global_name": null,
       "is_bot": false,
       "summary": {
-        "hands": 1333,
+        "hands": 1326,
         "vpip_pct": 18.1,
         "pfr_pct": 14.4,
-        "three_bet_pct": 7.8,
+        "three_bet_pct": 7.9,
         "four_bet_pct": 7.3,
         "fold_to_three_bet_pct": 42.1,
         "fold_to_four_bet_pct": 80.0,
@@ -39625,10 +40019,10 @@
         "fold_to_cbet_flop_pct": 48.6,
         "fold_to_cbet_turn_pct": 80.0,
         "fold_to_cbet_river_pct": 0.0,
-        "vpip_hands": 241,
-        "pfr_hands": 192,
+        "vpip_hands": 240,
+        "pfr_hands": 191,
         "three_bet_hands": 38,
-        "three_bet_opp": 485,
+        "three_bet_opp": 483,
         "four_bet_hands": 8,
         "four_bet_opp": 109,
         "fold_to_three_bet_hands": 16,
@@ -39659,26 +40053,26 @@
         "wtsd_pct": 34.2,
         "wsd_pct": 60.8,
         "wwsf_pct": 47.7,
-        "bb_per_100": "-13.20",
-        "net_cbb": -17590,
+        "bb_per_100": "-13.30",
+        "net_cbb": -17640,
         "showdown_cbb": -6850,
-        "non_showdown_cbb": -10740
+        "non_showdown_cbb": -10790
       },
       "metrics": {
         "vpip": {
           "pct": 18.1,
-          "numerator": 241,
-          "denominator": 1333
+          "numerator": 240,
+          "denominator": 1326
         },
         "pfr": {
           "pct": 14.4,
-          "numerator": 192,
-          "denominator": 1333
+          "numerator": 191,
+          "denominator": 1326
         },
         "three_bet": {
-          "pct": 7.8,
+          "pct": 7.9,
           "numerator": 38,
-          "denominator": 485
+          "denominator": 483
         },
         "four_bet": {
           "pct": 7.3,
@@ -39751,26 +40145,26 @@
           "denominator": 149
         },
         "bb_per_100": {
-          "value": -13.2,
-          "numerator": -17590,
-          "denominator": 1333
+          "value": -13.3,
+          "numerator": -17640,
+          "denominator": 1326
         },
         "net": {
-          "cbb": -17590
+          "cbb": -17640
         },
         "showdown": {
           "cbb": -6850
         },
         "non_showdown": {
-          "cbb": -10740
+          "cbb": -10790
         }
       },
       "raw_totals": {
-        "hands": 1333,
-        "vpip_hands": 241,
-        "pfr_hands": 192,
+        "hands": 1326,
+        "vpip_hands": 240,
+        "pfr_hands": 191,
         "three_bet_hands": 38,
-        "three_bet_opp": 485,
+        "three_bet_opp": 483,
         "four_bet_hands": 8,
         "four_bet_opp": 109,
         "fold_to_three_bet_hands": 16,
@@ -39796,9 +40190,9 @@
         "went_showdown_hands": 51,
         "won_showdown_hands": 31,
         "won_when_saw_flop_hands": 71,
-        "net_cbb": -17590,
+        "net_cbb": -17640,
         "showdown_cbb": -6850,
-        "non_showdown_cbb": -10740
+        "non_showdown_cbb": -10790
       }
     },
     {
@@ -40393,6 +40787,203 @@
       }
     },
     {
+      "user_id": "00180b2f-46ef-462a-9a8f-5a34292f5317",
+      "display_name": "やちよぴ",
+      "discord_id": null,
+      "discord_username": null,
+      "discord_global_name": null,
+      "is_bot": false,
+      "summary": {
+        "hands": 0,
+        "vpip_pct": 0,
+        "pfr_pct": 0,
+        "three_bet_pct": 0,
+        "four_bet_pct": 0,
+        "fold_to_three_bet_pct": 0,
+        "fold_to_four_bet_pct": 0,
+        "cbet_flop_pct": 0,
+        "cbet_turn_pct": 0,
+        "cbet_river_pct": 0,
+        "fold_to_cbet_flop_pct": 0,
+        "fold_to_cbet_turn_pct": 0,
+        "fold_to_cbet_river_pct": 0,
+        "vpip_hands": 0,
+        "pfr_hands": 0,
+        "three_bet_hands": 0,
+        "three_bet_opp": 0,
+        "four_bet_hands": 0,
+        "four_bet_opp": 0,
+        "fold_to_three_bet_hands": 0,
+        "faced_three_bet_opp": 0,
+        "fold_to_four_bet_hands": 0,
+        "faced_four_bet_opp": 0,
+        "cbet_flop_made": 0,
+        "cbet_flop_opp": 0,
+        "cbet_turn_made": 0,
+        "cbet_turn_opp": 0,
+        "cbet_river_made": 0,
+        "cbet_river_opp": 0,
+        "fold_to_cbet_flop": 0,
+        "fold_to_cbet_flop_opp": 0,
+        "fold_to_cbet_turn": 0,
+        "fold_to_cbet_turn_opp": 0,
+        "fold_to_cbet_river": 0,
+        "fold_to_cbet_river_opp": 0,
+        "agg_raise": 0,
+        "agg_call": 0,
+        "agg_check": 0,
+        "saw_flop_hands": 0,
+        "went_showdown_hands": 0,
+        "won_showdown_hands": 0,
+        "won_when_saw_flop_hands": 0,
+        "aggression": "0.00",
+        "aggression_freq_pct": 0,
+        "wtsd_pct": 0,
+        "wsd_pct": 0,
+        "wwsf_pct": 0,
+        "bb_per_100": "0.00",
+        "net_cbb": 0,
+        "showdown_cbb": 0,
+        "non_showdown_cbb": 0
+      },
+      "metrics": {
+        "vpip": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "pfr": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "three_bet": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "four_bet": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "fold_to_three_bet": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "fold_to_four_bet": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "cbet_flop": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "cbet_turn": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "cbet_river": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "fold_to_cbet_flop": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "fold_to_cbet_turn": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "fold_to_cbet_river": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "aggression": {
+          "value": "0.00",
+          "numerator": 0,
+          "denominator": 0
+        },
+        "aggression_frequency": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "wtsd": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "wsd": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "wwsf": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "bb_per_100": {
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "net": {
+          "cbb": 0
+        },
+        "showdown": {
+          "cbb": 0
+        },
+        "non_showdown": {
+          "cbb": 0
+        }
+      },
+      "raw_totals": {
+        "hands": 0,
+        "vpip_hands": 0,
+        "pfr_hands": 0,
+        "three_bet_hands": 0,
+        "three_bet_opp": 0,
+        "four_bet_hands": 0,
+        "four_bet_opp": 0,
+        "fold_to_three_bet_hands": 0,
+        "faced_three_bet_opp": 0,
+        "fold_to_four_bet_hands": 0,
+        "faced_four_bet_opp": 0,
+        "cbet_flop_made": 0,
+        "cbet_flop_opp": 0,
+        "cbet_turn_made": 0,
+        "cbet_turn_opp": 0,
+        "cbet_river_made": 0,
+        "cbet_river_opp": 0,
+        "fold_to_cbet_flop": 0,
+        "fold_to_cbet_flop_opp": 0,
+        "fold_to_cbet_turn": 0,
+        "fold_to_cbet_turn_opp": 0,
+        "fold_to_cbet_river": 0,
+        "fold_to_cbet_river_opp": 0,
+        "agg_raise": 0,
+        "agg_call": 0,
+        "agg_check": 0,
+        "saw_flop_hands": 0,
+        "went_showdown_hands": 0,
+        "won_showdown_hands": 0,
+        "won_when_saw_flop_hands": 0,
+        "net_cbb": 0,
+        "showdown_cbb": 0,
+        "non_showdown_cbb": 0
+      }
+    },
+    {
       "user_id": "e85c7ae7-16da-471c-8984-68082a3fef90",
       "display_name": "ゆいき",
       "discord_id": "784771620568301599",
@@ -40597,83 +41188,83 @@
       "discord_global_name": null,
       "is_bot": false,
       "summary": {
-        "hands": 34,
-        "vpip_pct": 47.1,
-        "pfr_pct": 38.2,
-        "three_bet_pct": 33.3,
-        "four_bet_pct": 28.6,
-        "fold_to_three_bet_pct": 20.0,
+        "hands": 0,
+        "vpip_pct": 0,
+        "pfr_pct": 0,
+        "three_bet_pct": 0,
+        "four_bet_pct": 0,
+        "fold_to_three_bet_pct": 0,
         "fold_to_four_bet_pct": 0,
-        "cbet_flop_pct": 50.0,
-        "cbet_turn_pct": 0.0,
+        "cbet_flop_pct": 0,
+        "cbet_turn_pct": 0,
         "cbet_river_pct": 0,
-        "fold_to_cbet_flop_pct": 100.0,
+        "fold_to_cbet_flop_pct": 0,
         "fold_to_cbet_turn_pct": 0,
         "fold_to_cbet_river_pct": 0,
-        "vpip_hands": 16,
-        "pfr_hands": 13,
-        "three_bet_hands": 3,
-        "three_bet_opp": 9,
-        "four_bet_hands": 2,
-        "four_bet_opp": 7,
-        "fold_to_three_bet_hands": 1,
-        "faced_three_bet_opp": 5,
+        "vpip_hands": 0,
+        "pfr_hands": 0,
+        "three_bet_hands": 0,
+        "three_bet_opp": 0,
+        "four_bet_hands": 0,
+        "four_bet_opp": 0,
+        "fold_to_three_bet_hands": 0,
+        "faced_three_bet_opp": 0,
         "fold_to_four_bet_hands": 0,
         "faced_four_bet_opp": 0,
-        "cbet_flop_made": 1,
-        "cbet_flop_opp": 2,
+        "cbet_flop_made": 0,
+        "cbet_flop_opp": 0,
         "cbet_turn_made": 0,
-        "cbet_turn_opp": 1,
+        "cbet_turn_opp": 0,
         "cbet_river_made": 0,
         "cbet_river_opp": 0,
-        "fold_to_cbet_flop": 1,
-        "fold_to_cbet_flop_opp": 1,
+        "fold_to_cbet_flop": 0,
+        "fold_to_cbet_flop_opp": 0,
         "fold_to_cbet_turn": 0,
         "fold_to_cbet_turn_opp": 0,
         "fold_to_cbet_river": 0,
         "fold_to_cbet_river_opp": 0,
-        "agg_raise": 5,
-        "agg_call": 2,
-        "agg_check": 13,
-        "saw_flop_hands": 7,
-        "went_showdown_hands": 3,
-        "won_showdown_hands": 2,
-        "won_when_saw_flop_hands": 2,
-        "aggression": "2.50",
-        "aggression_freq_pct": 25.0,
-        "wtsd_pct": 42.9,
-        "wsd_pct": 66.7,
-        "wwsf_pct": 28.6,
-        "bb_per_100": "142.15",
-        "net_cbb": 4833,
-        "showdown_cbb": 9812,
-        "non_showdown_cbb": -4979
+        "agg_raise": 0,
+        "agg_call": 0,
+        "agg_check": 0,
+        "saw_flop_hands": 0,
+        "went_showdown_hands": 0,
+        "won_showdown_hands": 0,
+        "won_when_saw_flop_hands": 0,
+        "aggression": "0.00",
+        "aggression_freq_pct": 0,
+        "wtsd_pct": 0,
+        "wsd_pct": 0,
+        "wwsf_pct": 0,
+        "bb_per_100": "0.00",
+        "net_cbb": 0,
+        "showdown_cbb": 0,
+        "non_showdown_cbb": 0
       },
       "metrics": {
         "vpip": {
-          "pct": 47.1,
-          "numerator": 16,
-          "denominator": 34
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "pfr": {
-          "pct": 38.2,
-          "numerator": 13,
-          "denominator": 34
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "three_bet": {
-          "pct": 33.3,
-          "numerator": 3,
-          "denominator": 9
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "four_bet": {
-          "pct": 28.6,
-          "numerator": 2,
-          "denominator": 7
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "fold_to_three_bet": {
-          "pct": 20.0,
-          "numerator": 1,
-          "denominator": 5
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "fold_to_four_bet": {
           "pct": 0,
@@ -40681,14 +41272,14 @@
           "denominator": 0
         },
         "cbet_flop": {
-          "pct": 50.0,
-          "numerator": 1,
-          "denominator": 2
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "cbet_turn": {
-          "pct": 0.0,
+          "pct": 0,
           "numerator": 0,
-          "denominator": 1
+          "denominator": 0
         },
         "cbet_river": {
           "pct": 0,
@@ -40696,9 +41287,9 @@
           "denominator": 0
         },
         "fold_to_cbet_flop": {
-          "pct": 100.0,
-          "numerator": 1,
-          "denominator": 1
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "fold_to_cbet_turn": {
           "pct": 0,
@@ -40711,79 +41302,79 @@
           "denominator": 0
         },
         "aggression": {
-          "value": "2.50",
-          "numerator": 5,
-          "denominator": 2
+          "value": "0.00",
+          "numerator": 0,
+          "denominator": 0
         },
         "aggression_frequency": {
-          "pct": 25.0,
-          "numerator": 5,
-          "denominator": 20
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wtsd": {
-          "pct": 42.9,
-          "numerator": 3,
-          "denominator": 7
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wsd": {
-          "pct": 66.7,
-          "numerator": 2,
-          "denominator": 3
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wwsf": {
-          "pct": 28.6,
-          "numerator": 2,
-          "denominator": 7
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "bb_per_100": {
-          "value": 142.15,
-          "numerator": 4833,
-          "denominator": 34
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 0
         },
         "net": {
-          "cbb": 4833
+          "cbb": 0
         },
         "showdown": {
-          "cbb": 9812
+          "cbb": 0
         },
         "non_showdown": {
-          "cbb": -4979
+          "cbb": 0
         }
       },
       "raw_totals": {
-        "hands": 34,
-        "vpip_hands": 16,
-        "pfr_hands": 13,
-        "three_bet_hands": 3,
-        "three_bet_opp": 9,
-        "four_bet_hands": 2,
-        "four_bet_opp": 7,
-        "fold_to_three_bet_hands": 1,
-        "faced_three_bet_opp": 5,
+        "hands": 0,
+        "vpip_hands": 0,
+        "pfr_hands": 0,
+        "three_bet_hands": 0,
+        "three_bet_opp": 0,
+        "four_bet_hands": 0,
+        "four_bet_opp": 0,
+        "fold_to_three_bet_hands": 0,
+        "faced_three_bet_opp": 0,
         "fold_to_four_bet_hands": 0,
         "faced_four_bet_opp": 0,
-        "cbet_flop_made": 1,
-        "cbet_flop_opp": 2,
+        "cbet_flop_made": 0,
+        "cbet_flop_opp": 0,
         "cbet_turn_made": 0,
-        "cbet_turn_opp": 1,
+        "cbet_turn_opp": 0,
         "cbet_river_made": 0,
         "cbet_river_opp": 0,
-        "fold_to_cbet_flop": 1,
-        "fold_to_cbet_flop_opp": 1,
+        "fold_to_cbet_flop": 0,
+        "fold_to_cbet_flop_opp": 0,
         "fold_to_cbet_turn": 0,
         "fold_to_cbet_turn_opp": 0,
         "fold_to_cbet_river": 0,
         "fold_to_cbet_river_opp": 0,
-        "agg_raise": 5,
-        "agg_call": 2,
-        "agg_check": 13,
-        "saw_flop_hands": 7,
-        "went_showdown_hands": 3,
-        "won_showdown_hands": 2,
-        "won_when_saw_flop_hands": 2,
-        "net_cbb": 4833,
-        "showdown_cbb": 9812,
-        "non_showdown_cbb": -4979
+        "agg_raise": 0,
+        "agg_call": 0,
+        "agg_check": 0,
+        "saw_flop_hands": 0,
+        "went_showdown_hands": 0,
+        "won_showdown_hands": 0,
+        "won_when_saw_flop_hands": 0,
+        "net_cbb": 0,
+        "showdown_cbb": 0,
+        "non_showdown_cbb": 0
       }
     },
     {
@@ -41582,12 +42173,12 @@
       "discord_global_name": null,
       "is_bot": false,
       "summary": {
-        "hands": 91,
-        "vpip_pct": 30.8,
-        "pfr_pct": 25.3,
-        "three_bet_pct": 7.7,
+        "hands": 39,
+        "vpip_pct": 25.6,
+        "pfr_pct": 23.1,
+        "three_bet_pct": 13.3,
         "four_bet_pct": 0.0,
-        "fold_to_three_bet_pct": 50.0,
+        "fold_to_three_bet_pct": 100.0,
         "fold_to_four_bet_pct": 0,
         "cbet_flop_pct": 66.7,
         "cbet_turn_pct": 100.0,
@@ -41595,14 +42186,14 @@
         "fold_to_cbet_flop_pct": 0.0,
         "fold_to_cbet_turn_pct": 100.0,
         "fold_to_cbet_river_pct": 0,
-        "vpip_hands": 28,
-        "pfr_hands": 23,
+        "vpip_hands": 10,
+        "pfr_hands": 9,
         "three_bet_hands": 2,
-        "three_bet_opp": 26,
+        "three_bet_opp": 15,
         "four_bet_hands": 0,
-        "four_bet_opp": 8,
-        "fold_to_three_bet_hands": 3,
-        "faced_three_bet_opp": 6,
+        "four_bet_opp": 1,
+        "fold_to_three_bet_hands": 2,
+        "faced_three_bet_opp": 2,
         "fold_to_four_bet_hands": 0,
         "faced_four_bet_opp": 0,
         "cbet_flop_made": 2,
@@ -41617,48 +42208,48 @@
         "fold_to_cbet_turn_opp": 1,
         "fold_to_cbet_river": 0,
         "fold_to_cbet_river_opp": 0,
-        "agg_raise": 10,
+        "agg_raise": 3,
         "agg_call": 1,
-        "agg_check": 12,
-        "saw_flop_hands": 11,
-        "went_showdown_hands": 4,
-        "won_showdown_hands": 2,
-        "won_when_saw_flop_hands": 6,
-        "aggression": "10.00",
-        "aggression_freq_pct": 43.5,
-        "wtsd_pct": 36.4,
-        "wsd_pct": 50.0,
-        "wwsf_pct": 54.5,
-        "bb_per_100": "0.81",
-        "net_cbb": 74,
-        "showdown_cbb": -716,
-        "non_showdown_cbb": 790
+        "agg_check": 3,
+        "saw_flop_hands": 4,
+        "went_showdown_hands": 0,
+        "won_showdown_hands": 0,
+        "won_when_saw_flop_hands": 2,
+        "aggression": "3.00",
+        "aggression_freq_pct": 42.9,
+        "wtsd_pct": 0.0,
+        "wsd_pct": 0,
+        "wwsf_pct": 50.0,
+        "bb_per_100": "-29.92",
+        "net_cbb": -1167,
+        "showdown_cbb": 0,
+        "non_showdown_cbb": -1167
       },
       "metrics": {
         "vpip": {
-          "pct": 30.8,
-          "numerator": 28,
-          "denominator": 91
+          "pct": 25.6,
+          "numerator": 10,
+          "denominator": 39
         },
         "pfr": {
-          "pct": 25.3,
-          "numerator": 23,
-          "denominator": 91
+          "pct": 23.1,
+          "numerator": 9,
+          "denominator": 39
         },
         "three_bet": {
-          "pct": 7.7,
+          "pct": 13.3,
           "numerator": 2,
-          "denominator": 26
+          "denominator": 15
         },
         "four_bet": {
           "pct": 0.0,
           "numerator": 0,
-          "denominator": 8
+          "denominator": 1
         },
         "fold_to_three_bet": {
-          "pct": 50.0,
-          "numerator": 3,
-          "denominator": 6
+          "pct": 100.0,
+          "numerator": 2,
+          "denominator": 2
         },
         "fold_to_four_bet": {
           "pct": 0,
@@ -41696,55 +42287,55 @@
           "denominator": 0
         },
         "aggression": {
-          "value": "10.00",
-          "numerator": 10,
+          "value": "3.00",
+          "numerator": 3,
           "denominator": 1
         },
         "aggression_frequency": {
-          "pct": 43.5,
-          "numerator": 10,
-          "denominator": 23
+          "pct": 42.9,
+          "numerator": 3,
+          "denominator": 7
         },
         "wtsd": {
-          "pct": 36.4,
-          "numerator": 4,
-          "denominator": 11
+          "pct": 0.0,
+          "numerator": 0,
+          "denominator": 4
         },
         "wsd": {
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
+        },
+        "wwsf": {
           "pct": 50.0,
           "numerator": 2,
           "denominator": 4
         },
-        "wwsf": {
-          "pct": 54.5,
-          "numerator": 6,
-          "denominator": 11
-        },
         "bb_per_100": {
-          "value": 0.81,
-          "numerator": 74,
-          "denominator": 91
+          "value": -29.92,
+          "numerator": -1167,
+          "denominator": 39
         },
         "net": {
-          "cbb": 74
+          "cbb": -1167
         },
         "showdown": {
-          "cbb": -716
+          "cbb": 0
         },
         "non_showdown": {
-          "cbb": 790
+          "cbb": -1167
         }
       },
       "raw_totals": {
-        "hands": 91,
-        "vpip_hands": 28,
-        "pfr_hands": 23,
+        "hands": 39,
+        "vpip_hands": 10,
+        "pfr_hands": 9,
         "three_bet_hands": 2,
-        "three_bet_opp": 26,
+        "three_bet_opp": 15,
         "four_bet_hands": 0,
-        "four_bet_opp": 8,
-        "fold_to_three_bet_hands": 3,
-        "faced_three_bet_opp": 6,
+        "four_bet_opp": 1,
+        "fold_to_three_bet_hands": 2,
+        "faced_three_bet_opp": 2,
         "fold_to_four_bet_hands": 0,
         "faced_four_bet_opp": 0,
         "cbet_flop_made": 2,
@@ -41759,16 +42350,16 @@
         "fold_to_cbet_turn_opp": 1,
         "fold_to_cbet_river": 0,
         "fold_to_cbet_river_opp": 0,
-        "agg_raise": 10,
+        "agg_raise": 3,
         "agg_call": 1,
-        "agg_check": 12,
-        "saw_flop_hands": 11,
-        "went_showdown_hands": 4,
-        "won_showdown_hands": 2,
-        "won_when_saw_flop_hands": 6,
-        "net_cbb": 74,
-        "showdown_cbb": -716,
-        "non_showdown_cbb": 790
+        "agg_check": 3,
+        "saw_flop_hands": 4,
+        "went_showdown_hands": 0,
+        "won_showdown_hands": 0,
+        "won_when_saw_flop_hands": 2,
+        "net_cbb": -1167,
+        "showdown_cbb": 0,
+        "non_showdown_cbb": -1167
       }
     },
     {
@@ -42567,83 +43158,83 @@
       "discord_global_name": null,
       "is_bot": true,
       "summary": {
-        "hands": 261,
-        "vpip_pct": 21.5,
-        "pfr_pct": 18.8,
-        "three_bet_pct": 6.1,
-        "four_bet_pct": 7.1,
-        "fold_to_three_bet_pct": 58.3,
+        "hands": 0,
+        "vpip_pct": 0,
+        "pfr_pct": 0,
+        "three_bet_pct": 0,
+        "four_bet_pct": 0,
+        "fold_to_three_bet_pct": 0,
         "fold_to_four_bet_pct": 0,
-        "cbet_flop_pct": 8.3,
+        "cbet_flop_pct": 0,
         "cbet_turn_pct": 0,
         "cbet_river_pct": 0,
-        "fold_to_cbet_flop_pct": 0.0,
-        "fold_to_cbet_turn_pct": 0.0,
+        "fold_to_cbet_flop_pct": 0,
+        "fold_to_cbet_turn_pct": 0,
         "fold_to_cbet_river_pct": 0,
-        "vpip_hands": 56,
-        "pfr_hands": 49,
-        "three_bet_hands": 6,
-        "three_bet_opp": 98,
-        "four_bet_hands": 2,
-        "four_bet_opp": 28,
-        "fold_to_three_bet_hands": 7,
-        "faced_three_bet_opp": 12,
+        "vpip_hands": 0,
+        "pfr_hands": 0,
+        "three_bet_hands": 0,
+        "three_bet_opp": 0,
+        "four_bet_hands": 0,
+        "four_bet_opp": 0,
+        "fold_to_three_bet_hands": 0,
+        "faced_three_bet_opp": 0,
         "fold_to_four_bet_hands": 0,
         "faced_four_bet_opp": 0,
-        "cbet_flop_made": 1,
-        "cbet_flop_opp": 12,
+        "cbet_flop_made": 0,
+        "cbet_flop_opp": 0,
         "cbet_turn_made": 0,
         "cbet_turn_opp": 0,
         "cbet_river_made": 0,
         "cbet_river_opp": 0,
         "fold_to_cbet_flop": 0,
-        "fold_to_cbet_flop_opp": 1,
+        "fold_to_cbet_flop_opp": 0,
         "fold_to_cbet_turn": 0,
-        "fold_to_cbet_turn_opp": 1,
+        "fold_to_cbet_turn_opp": 0,
         "fold_to_cbet_river": 0,
         "fold_to_cbet_river_opp": 0,
-        "agg_raise": 9,
-        "agg_call": 9,
-        "agg_check": 44,
-        "saw_flop_hands": 23,
-        "went_showdown_hands": 15,
-        "won_showdown_hands": 9,
-        "won_when_saw_flop_hands": 15,
-        "aggression": "1.00",
-        "aggression_freq_pct": 14.5,
-        "wtsd_pct": 65.2,
-        "wsd_pct": 60.0,
-        "wwsf_pct": 65.2,
-        "bb_per_100": "14.38",
-        "net_cbb": 3753,
-        "showdown_cbb": 2735,
-        "non_showdown_cbb": 1018
+        "agg_raise": 0,
+        "agg_call": 0,
+        "agg_check": 0,
+        "saw_flop_hands": 0,
+        "went_showdown_hands": 0,
+        "won_showdown_hands": 0,
+        "won_when_saw_flop_hands": 0,
+        "aggression": "0.00",
+        "aggression_freq_pct": 0,
+        "wtsd_pct": 0,
+        "wsd_pct": 0,
+        "wwsf_pct": 0,
+        "bb_per_100": "0.00",
+        "net_cbb": 0,
+        "showdown_cbb": 0,
+        "non_showdown_cbb": 0
       },
       "metrics": {
         "vpip": {
-          "pct": 21.5,
-          "numerator": 56,
-          "denominator": 261
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "pfr": {
-          "pct": 18.8,
-          "numerator": 49,
-          "denominator": 261
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "three_bet": {
-          "pct": 6.1,
-          "numerator": 6,
-          "denominator": 98
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "four_bet": {
-          "pct": 7.1,
-          "numerator": 2,
-          "denominator": 28
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "fold_to_three_bet": {
-          "pct": 58.3,
-          "numerator": 7,
-          "denominator": 12
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "fold_to_four_bet": {
           "pct": 0,
@@ -42651,9 +43242,9 @@
           "denominator": 0
         },
         "cbet_flop": {
-          "pct": 8.3,
-          "numerator": 1,
-          "denominator": 12
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "cbet_turn": {
           "pct": 0,
@@ -42666,14 +43257,14 @@
           "denominator": 0
         },
         "fold_to_cbet_flop": {
-          "pct": 0.0,
+          "pct": 0,
           "numerator": 0,
-          "denominator": 1
+          "denominator": 0
         },
         "fold_to_cbet_turn": {
-          "pct": 0.0,
+          "pct": 0,
           "numerator": 0,
-          "denominator": 1
+          "denominator": 0
         },
         "fold_to_cbet_river": {
           "pct": 0,
@@ -42681,79 +43272,79 @@
           "denominator": 0
         },
         "aggression": {
-          "value": "1.00",
-          "numerator": 9,
-          "denominator": 9
+          "value": "0.00",
+          "numerator": 0,
+          "denominator": 0
         },
         "aggression_frequency": {
-          "pct": 14.5,
-          "numerator": 9,
-          "denominator": 62
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wtsd": {
-          "pct": 65.2,
-          "numerator": 15,
-          "denominator": 23
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wsd": {
-          "pct": 60.0,
-          "numerator": 9,
-          "denominator": 15
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wwsf": {
-          "pct": 65.2,
-          "numerator": 15,
-          "denominator": 23
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "bb_per_100": {
-          "value": 14.38,
-          "numerator": 3753,
-          "denominator": 261
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 0
         },
         "net": {
-          "cbb": 3753
+          "cbb": 0
         },
         "showdown": {
-          "cbb": 2735
+          "cbb": 0
         },
         "non_showdown": {
-          "cbb": 1018
+          "cbb": 0
         }
       },
       "raw_totals": {
-        "hands": 261,
-        "vpip_hands": 56,
-        "pfr_hands": 49,
-        "three_bet_hands": 6,
-        "three_bet_opp": 98,
-        "four_bet_hands": 2,
-        "four_bet_opp": 28,
-        "fold_to_three_bet_hands": 7,
-        "faced_three_bet_opp": 12,
+        "hands": 0,
+        "vpip_hands": 0,
+        "pfr_hands": 0,
+        "three_bet_hands": 0,
+        "three_bet_opp": 0,
+        "four_bet_hands": 0,
+        "four_bet_opp": 0,
+        "fold_to_three_bet_hands": 0,
+        "faced_three_bet_opp": 0,
         "fold_to_four_bet_hands": 0,
         "faced_four_bet_opp": 0,
-        "cbet_flop_made": 1,
-        "cbet_flop_opp": 12,
+        "cbet_flop_made": 0,
+        "cbet_flop_opp": 0,
         "cbet_turn_made": 0,
         "cbet_turn_opp": 0,
         "cbet_river_made": 0,
         "cbet_river_opp": 0,
         "fold_to_cbet_flop": 0,
-        "fold_to_cbet_flop_opp": 1,
+        "fold_to_cbet_flop_opp": 0,
         "fold_to_cbet_turn": 0,
-        "fold_to_cbet_turn_opp": 1,
+        "fold_to_cbet_turn_opp": 0,
         "fold_to_cbet_river": 0,
         "fold_to_cbet_river_opp": 0,
-        "agg_raise": 9,
-        "agg_call": 9,
-        "agg_check": 44,
-        "saw_flop_hands": 23,
-        "went_showdown_hands": 15,
-        "won_showdown_hands": 9,
-        "won_when_saw_flop_hands": 15,
-        "net_cbb": 3753,
-        "showdown_cbb": 2735,
-        "non_showdown_cbb": 1018
+        "agg_raise": 0,
+        "agg_call": 0,
+        "agg_check": 0,
+        "saw_flop_hands": 0,
+        "went_showdown_hands": 0,
+        "won_showdown_hands": 0,
+        "won_when_saw_flop_hands": 0,
+        "net_cbb": 0,
+        "showdown_cbb": 0,
+        "non_showdown_cbb": 0
       }
     },
     {
@@ -43749,31 +44340,31 @@
       "discord_global_name": null,
       "is_bot": true,
       "summary": {
-        "hands": 262,
-        "vpip_pct": 17.9,
-        "pfr_pct": 16.4,
-        "three_bet_pct": 15.3,
-        "four_bet_pct": 0.0,
-        "fold_to_three_bet_pct": 80.0,
-        "fold_to_four_bet_pct": 60.0,
-        "cbet_flop_pct": 0.0,
+        "hands": 0,
+        "vpip_pct": 0,
+        "pfr_pct": 0,
+        "three_bet_pct": 0,
+        "four_bet_pct": 0,
+        "fold_to_three_bet_pct": 0,
+        "fold_to_four_bet_pct": 0,
+        "cbet_flop_pct": 0,
         "cbet_turn_pct": 0,
         "cbet_river_pct": 0,
         "fold_to_cbet_flop_pct": 0,
         "fold_to_cbet_turn_pct": 0,
         "fold_to_cbet_river_pct": 0,
-        "vpip_hands": 47,
-        "pfr_hands": 43,
-        "three_bet_hands": 17,
-        "three_bet_opp": 111,
+        "vpip_hands": 0,
+        "pfr_hands": 0,
+        "three_bet_hands": 0,
+        "three_bet_opp": 0,
         "four_bet_hands": 0,
-        "four_bet_opp": 20,
-        "fold_to_three_bet_hands": 4,
-        "faced_three_bet_opp": 5,
-        "fold_to_four_bet_hands": 3,
-        "faced_four_bet_opp": 5,
+        "four_bet_opp": 0,
+        "fold_to_three_bet_hands": 0,
+        "faced_three_bet_opp": 0,
+        "fold_to_four_bet_hands": 0,
+        "faced_four_bet_opp": 0,
         "cbet_flop_made": 0,
-        "cbet_flop_opp": 11,
+        "cbet_flop_opp": 0,
         "cbet_turn_made": 0,
         "cbet_turn_opp": 0,
         "cbet_river_made": 0,
@@ -43784,58 +44375,58 @@
         "fold_to_cbet_turn_opp": 0,
         "fold_to_cbet_river": 0,
         "fold_to_cbet_river_opp": 0,
-        "agg_raise": 8,
-        "agg_call": 4,
-        "agg_check": 36,
-        "saw_flop_hands": 18,
-        "went_showdown_hands": 15,
-        "won_showdown_hands": 5,
-        "won_when_saw_flop_hands": 7,
-        "aggression": "2.00",
-        "aggression_freq_pct": 16.7,
-        "wtsd_pct": 83.3,
-        "wsd_pct": 33.3,
-        "wwsf_pct": 38.9,
-        "bb_per_100": "-102.48",
-        "net_cbb": -26850,
-        "showdown_cbb": -22160,
-        "non_showdown_cbb": -4690
+        "agg_raise": 0,
+        "agg_call": 0,
+        "agg_check": 0,
+        "saw_flop_hands": 0,
+        "went_showdown_hands": 0,
+        "won_showdown_hands": 0,
+        "won_when_saw_flop_hands": 0,
+        "aggression": "0.00",
+        "aggression_freq_pct": 0,
+        "wtsd_pct": 0,
+        "wsd_pct": 0,
+        "wwsf_pct": 0,
+        "bb_per_100": "0.00",
+        "net_cbb": 0,
+        "showdown_cbb": 0,
+        "non_showdown_cbb": 0
       },
       "metrics": {
         "vpip": {
-          "pct": 17.9,
-          "numerator": 47,
-          "denominator": 262
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "pfr": {
-          "pct": 16.4,
-          "numerator": 43,
-          "denominator": 262
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "three_bet": {
-          "pct": 15.3,
-          "numerator": 17,
-          "denominator": 111
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "four_bet": {
-          "pct": 0.0,
+          "pct": 0,
           "numerator": 0,
-          "denominator": 20
+          "denominator": 0
         },
         "fold_to_three_bet": {
-          "pct": 80.0,
-          "numerator": 4,
-          "denominator": 5
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "fold_to_four_bet": {
-          "pct": 60.0,
-          "numerator": 3,
-          "denominator": 5
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "cbet_flop": {
-          "pct": 0.0,
+          "pct": 0,
           "numerator": 0,
-          "denominator": 11
+          "denominator": 0
         },
         "cbet_turn": {
           "pct": 0,
@@ -43863,59 +44454,59 @@
           "denominator": 0
         },
         "aggression": {
-          "value": "2.00",
-          "numerator": 8,
-          "denominator": 4
+          "value": "0.00",
+          "numerator": 0,
+          "denominator": 0
         },
         "aggression_frequency": {
-          "pct": 16.7,
-          "numerator": 8,
-          "denominator": 48
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wtsd": {
-          "pct": 83.3,
-          "numerator": 15,
-          "denominator": 18
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wsd": {
-          "pct": 33.3,
-          "numerator": 5,
-          "denominator": 15
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wwsf": {
-          "pct": 38.9,
-          "numerator": 7,
-          "denominator": 18
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "bb_per_100": {
-          "value": -102.48,
-          "numerator": -26850,
-          "denominator": 262
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 0
         },
         "net": {
-          "cbb": -26850
+          "cbb": 0
         },
         "showdown": {
-          "cbb": -22160
+          "cbb": 0
         },
         "non_showdown": {
-          "cbb": -4690
+          "cbb": 0
         }
       },
       "raw_totals": {
-        "hands": 262,
-        "vpip_hands": 47,
-        "pfr_hands": 43,
-        "three_bet_hands": 17,
-        "three_bet_opp": 111,
+        "hands": 0,
+        "vpip_hands": 0,
+        "pfr_hands": 0,
+        "three_bet_hands": 0,
+        "three_bet_opp": 0,
         "four_bet_hands": 0,
-        "four_bet_opp": 20,
-        "fold_to_three_bet_hands": 4,
-        "faced_three_bet_opp": 5,
-        "fold_to_four_bet_hands": 3,
-        "faced_four_bet_opp": 5,
+        "four_bet_opp": 0,
+        "fold_to_three_bet_hands": 0,
+        "faced_three_bet_opp": 0,
+        "fold_to_four_bet_hands": 0,
+        "faced_four_bet_opp": 0,
         "cbet_flop_made": 0,
-        "cbet_flop_opp": 11,
+        "cbet_flop_opp": 0,
         "cbet_turn_made": 0,
         "cbet_turn_opp": 0,
         "cbet_river_made": 0,
@@ -43926,16 +44517,16 @@
         "fold_to_cbet_turn_opp": 0,
         "fold_to_cbet_river": 0,
         "fold_to_cbet_river_opp": 0,
-        "agg_raise": 8,
-        "agg_call": 4,
-        "agg_check": 36,
-        "saw_flop_hands": 18,
-        "went_showdown_hands": 15,
-        "won_showdown_hands": 5,
-        "won_when_saw_flop_hands": 7,
-        "net_cbb": -26850,
-        "showdown_cbb": -22160,
-        "non_showdown_cbb": -4690
+        "agg_raise": 0,
+        "agg_call": 0,
+        "agg_check": 0,
+        "saw_flop_hands": 0,
+        "went_showdown_hands": 0,
+        "won_showdown_hands": 0,
+        "won_when_saw_flop_hands": 0,
+        "net_cbb": 0,
+        "showdown_cbb": 0,
+        "non_showdown_cbb": 0
       }
     },
     {
@@ -45128,98 +45719,98 @@
       "discord_global_name": null,
       "is_bot": true,
       "summary": {
-        "hands": 255,
-        "vpip_pct": 20.8,
-        "pfr_pct": 19.2,
-        "three_bet_pct": 14.4,
-        "four_bet_pct": 21.1,
-        "fold_to_three_bet_pct": 45.5,
-        "fold_to_four_bet_pct": 40.0,
-        "cbet_flop_pct": 7.1,
-        "cbet_turn_pct": 0.0,
+        "hands": 0,
+        "vpip_pct": 0,
+        "pfr_pct": 0,
+        "three_bet_pct": 0,
+        "four_bet_pct": 0,
+        "fold_to_three_bet_pct": 0,
+        "fold_to_four_bet_pct": 0,
+        "cbet_flop_pct": 0,
+        "cbet_turn_pct": 0,
         "cbet_river_pct": 0,
-        "fold_to_cbet_flop_pct": 100.0,
+        "fold_to_cbet_flop_pct": 0,
         "fold_to_cbet_turn_pct": 0,
         "fold_to_cbet_river_pct": 0,
-        "vpip_hands": 53,
-        "pfr_hands": 49,
-        "three_bet_hands": 14,
-        "three_bet_opp": 97,
-        "four_bet_hands": 4,
-        "four_bet_opp": 19,
-        "fold_to_three_bet_hands": 5,
-        "faced_three_bet_opp": 11,
-        "fold_to_four_bet_hands": 2,
-        "faced_four_bet_opp": 5,
-        "cbet_flop_made": 1,
-        "cbet_flop_opp": 14,
+        "vpip_hands": 0,
+        "pfr_hands": 0,
+        "three_bet_hands": 0,
+        "three_bet_opp": 0,
+        "four_bet_hands": 0,
+        "four_bet_opp": 0,
+        "fold_to_three_bet_hands": 0,
+        "faced_three_bet_opp": 0,
+        "fold_to_four_bet_hands": 0,
+        "faced_four_bet_opp": 0,
+        "cbet_flop_made": 0,
+        "cbet_flop_opp": 0,
         "cbet_turn_made": 0,
-        "cbet_turn_opp": 1,
+        "cbet_turn_opp": 0,
         "cbet_river_made": 0,
         "cbet_river_opp": 0,
-        "fold_to_cbet_flop": 1,
-        "fold_to_cbet_flop_opp": 1,
+        "fold_to_cbet_flop": 0,
+        "fold_to_cbet_flop_opp": 0,
         "fold_to_cbet_turn": 0,
         "fold_to_cbet_turn_opp": 0,
         "fold_to_cbet_river": 0,
         "fold_to_cbet_river_opp": 0,
-        "agg_raise": 11,
-        "agg_call": 5,
-        "agg_check": 47,
-        "saw_flop_hands": 23,
-        "went_showdown_hands": 17,
-        "won_showdown_hands": 9,
-        "won_when_saw_flop_hands": 11,
-        "aggression": "2.20",
-        "aggression_freq_pct": 17.5,
-        "wtsd_pct": 73.9,
-        "wsd_pct": 52.9,
-        "wwsf_pct": 47.8,
-        "bb_per_100": "-37.96",
-        "net_cbb": -9680,
-        "showdown_cbb": -5205,
-        "non_showdown_cbb": -4475
+        "agg_raise": 0,
+        "agg_call": 0,
+        "agg_check": 0,
+        "saw_flop_hands": 0,
+        "went_showdown_hands": 0,
+        "won_showdown_hands": 0,
+        "won_when_saw_flop_hands": 0,
+        "aggression": "0.00",
+        "aggression_freq_pct": 0,
+        "wtsd_pct": 0,
+        "wsd_pct": 0,
+        "wwsf_pct": 0,
+        "bb_per_100": "0.00",
+        "net_cbb": 0,
+        "showdown_cbb": 0,
+        "non_showdown_cbb": 0
       },
       "metrics": {
         "vpip": {
-          "pct": 20.8,
-          "numerator": 53,
-          "denominator": 255
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "pfr": {
-          "pct": 19.2,
-          "numerator": 49,
-          "denominator": 255
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "three_bet": {
-          "pct": 14.4,
-          "numerator": 14,
-          "denominator": 97
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "four_bet": {
-          "pct": 21.1,
-          "numerator": 4,
-          "denominator": 19
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "fold_to_three_bet": {
-          "pct": 45.5,
-          "numerator": 5,
-          "denominator": 11
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "fold_to_four_bet": {
-          "pct": 40.0,
-          "numerator": 2,
-          "denominator": 5
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "cbet_flop": {
-          "pct": 7.1,
-          "numerator": 1,
-          "denominator": 14
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "cbet_turn": {
-          "pct": 0.0,
+          "pct": 0,
           "numerator": 0,
-          "denominator": 1
+          "denominator": 0
         },
         "cbet_river": {
           "pct": 0,
@@ -45227,9 +45818,9 @@
           "denominator": 0
         },
         "fold_to_cbet_flop": {
-          "pct": 100.0,
-          "numerator": 1,
-          "denominator": 1
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "fold_to_cbet_turn": {
           "pct": 0,
@@ -45242,79 +45833,79 @@
           "denominator": 0
         },
         "aggression": {
-          "value": "2.20",
-          "numerator": 11,
-          "denominator": 5
+          "value": "0.00",
+          "numerator": 0,
+          "denominator": 0
         },
         "aggression_frequency": {
-          "pct": 17.5,
-          "numerator": 11,
-          "denominator": 63
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wtsd": {
-          "pct": 73.9,
-          "numerator": 17,
-          "denominator": 23
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wsd": {
-          "pct": 52.9,
-          "numerator": 9,
-          "denominator": 17
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wwsf": {
-          "pct": 47.8,
-          "numerator": 11,
-          "denominator": 23
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "bb_per_100": {
-          "value": -37.96,
-          "numerator": -9680,
-          "denominator": 255
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 0
         },
         "net": {
-          "cbb": -9680
+          "cbb": 0
         },
         "showdown": {
-          "cbb": -5205
+          "cbb": 0
         },
         "non_showdown": {
-          "cbb": -4475
+          "cbb": 0
         }
       },
       "raw_totals": {
-        "hands": 255,
-        "vpip_hands": 53,
-        "pfr_hands": 49,
-        "three_bet_hands": 14,
-        "three_bet_opp": 97,
-        "four_bet_hands": 4,
-        "four_bet_opp": 19,
-        "fold_to_three_bet_hands": 5,
-        "faced_three_bet_opp": 11,
-        "fold_to_four_bet_hands": 2,
-        "faced_four_bet_opp": 5,
-        "cbet_flop_made": 1,
-        "cbet_flop_opp": 14,
+        "hands": 0,
+        "vpip_hands": 0,
+        "pfr_hands": 0,
+        "three_bet_hands": 0,
+        "three_bet_opp": 0,
+        "four_bet_hands": 0,
+        "four_bet_opp": 0,
+        "fold_to_three_bet_hands": 0,
+        "faced_three_bet_opp": 0,
+        "fold_to_four_bet_hands": 0,
+        "faced_four_bet_opp": 0,
+        "cbet_flop_made": 0,
+        "cbet_flop_opp": 0,
         "cbet_turn_made": 0,
-        "cbet_turn_opp": 1,
+        "cbet_turn_opp": 0,
         "cbet_river_made": 0,
         "cbet_river_opp": 0,
-        "fold_to_cbet_flop": 1,
-        "fold_to_cbet_flop_opp": 1,
+        "fold_to_cbet_flop": 0,
+        "fold_to_cbet_flop_opp": 0,
         "fold_to_cbet_turn": 0,
         "fold_to_cbet_turn_opp": 0,
         "fold_to_cbet_river": 0,
         "fold_to_cbet_river_opp": 0,
-        "agg_raise": 11,
-        "agg_call": 5,
-        "agg_check": 47,
-        "saw_flop_hands": 23,
-        "went_showdown_hands": 17,
-        "won_showdown_hands": 9,
-        "won_when_saw_flop_hands": 11,
-        "net_cbb": -9680,
-        "showdown_cbb": -5205,
-        "non_showdown_cbb": -4475
+        "agg_raise": 0,
+        "agg_call": 0,
+        "agg_check": 0,
+        "saw_flop_hands": 0,
+        "went_showdown_hands": 0,
+        "won_showdown_hands": 0,
+        "won_when_saw_flop_hands": 0,
+        "net_cbb": 0,
+        "showdown_cbb": 0,
+        "non_showdown_cbb": 0
       }
     },
     {
@@ -45325,33 +45916,33 @@
       "discord_global_name": null,
       "is_bot": true,
       "summary": {
-        "hands": 258,
-        "vpip_pct": 18.6,
-        "pfr_pct": 17.8,
-        "three_bet_pct": 7.9,
-        "four_bet_pct": 21.4,
-        "fold_to_three_bet_pct": 50.0,
-        "fold_to_four_bet_pct": 33.3,
-        "cbet_flop_pct": 15.8,
-        "cbet_turn_pct": 0.0,
+        "hands": 0,
+        "vpip_pct": 0,
+        "pfr_pct": 0,
+        "three_bet_pct": 0,
+        "four_bet_pct": 0,
+        "fold_to_three_bet_pct": 0,
+        "fold_to_four_bet_pct": 0,
+        "cbet_flop_pct": 0,
+        "cbet_turn_pct": 0,
         "cbet_river_pct": 0,
         "fold_to_cbet_flop_pct": 0,
         "fold_to_cbet_turn_pct": 0,
         "fold_to_cbet_river_pct": 0,
-        "vpip_hands": 48,
-        "pfr_hands": 46,
-        "three_bet_hands": 9,
-        "three_bet_opp": 114,
-        "four_bet_hands": 6,
-        "four_bet_opp": 28,
-        "fold_to_three_bet_hands": 8,
-        "faced_three_bet_opp": 16,
-        "fold_to_four_bet_hands": 1,
-        "faced_four_bet_opp": 3,
-        "cbet_flop_made": 3,
-        "cbet_flop_opp": 19,
+        "vpip_hands": 0,
+        "pfr_hands": 0,
+        "three_bet_hands": 0,
+        "three_bet_opp": 0,
+        "four_bet_hands": 0,
+        "four_bet_opp": 0,
+        "fold_to_three_bet_hands": 0,
+        "faced_three_bet_opp": 0,
+        "fold_to_four_bet_hands": 0,
+        "faced_four_bet_opp": 0,
+        "cbet_flop_made": 0,
+        "cbet_flop_opp": 0,
         "cbet_turn_made": 0,
-        "cbet_turn_opp": 1,
+        "cbet_turn_opp": 0,
         "cbet_river_made": 0,
         "cbet_river_opp": 0,
         "fold_to_cbet_flop": 0,
@@ -45360,63 +45951,63 @@
         "fold_to_cbet_turn_opp": 0,
         "fold_to_cbet_river": 0,
         "fold_to_cbet_river_opp": 0,
-        "agg_raise": 7,
-        "agg_call": 7,
-        "agg_check": 54,
-        "saw_flop_hands": 26,
-        "went_showdown_hands": 16,
-        "won_showdown_hands": 6,
-        "won_when_saw_flop_hands": 11,
-        "aggression": "1.00",
-        "aggression_freq_pct": 10.3,
-        "wtsd_pct": 61.5,
-        "wsd_pct": 37.5,
-        "wwsf_pct": 42.3,
-        "bb_per_100": "-68.80",
-        "net_cbb": -17750,
-        "showdown_cbb": -13996,
-        "non_showdown_cbb": -3754
+        "agg_raise": 0,
+        "agg_call": 0,
+        "agg_check": 0,
+        "saw_flop_hands": 0,
+        "went_showdown_hands": 0,
+        "won_showdown_hands": 0,
+        "won_when_saw_flop_hands": 0,
+        "aggression": "0.00",
+        "aggression_freq_pct": 0,
+        "wtsd_pct": 0,
+        "wsd_pct": 0,
+        "wwsf_pct": 0,
+        "bb_per_100": "0.00",
+        "net_cbb": 0,
+        "showdown_cbb": 0,
+        "non_showdown_cbb": 0
       },
       "metrics": {
         "vpip": {
-          "pct": 18.6,
-          "numerator": 48,
-          "denominator": 258
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "pfr": {
-          "pct": 17.8,
-          "numerator": 46,
-          "denominator": 258
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "three_bet": {
-          "pct": 7.9,
-          "numerator": 9,
-          "denominator": 114
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "four_bet": {
-          "pct": 21.4,
-          "numerator": 6,
-          "denominator": 28
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "fold_to_three_bet": {
-          "pct": 50.0,
-          "numerator": 8,
-          "denominator": 16
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "fold_to_four_bet": {
-          "pct": 33.3,
-          "numerator": 1,
-          "denominator": 3
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "cbet_flop": {
-          "pct": 15.8,
-          "numerator": 3,
-          "denominator": 19
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "cbet_turn": {
-          "pct": 0.0,
+          "pct": 0,
           "numerator": 0,
-          "denominator": 1
+          "denominator": 0
         },
         "cbet_river": {
           "pct": 0,
@@ -45439,61 +46030,61 @@
           "denominator": 0
         },
         "aggression": {
-          "value": "1.00",
-          "numerator": 7,
-          "denominator": 7
+          "value": "0.00",
+          "numerator": 0,
+          "denominator": 0
         },
         "aggression_frequency": {
-          "pct": 10.3,
-          "numerator": 7,
-          "denominator": 68
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wtsd": {
-          "pct": 61.5,
-          "numerator": 16,
-          "denominator": 26
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wsd": {
-          "pct": 37.5,
-          "numerator": 6,
-          "denominator": 16
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wwsf": {
-          "pct": 42.3,
-          "numerator": 11,
-          "denominator": 26
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "bb_per_100": {
-          "value": -68.8,
-          "numerator": -17750,
-          "denominator": 258
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 0
         },
         "net": {
-          "cbb": -17750
+          "cbb": 0
         },
         "showdown": {
-          "cbb": -13996
+          "cbb": 0
         },
         "non_showdown": {
-          "cbb": -3754
+          "cbb": 0
         }
       },
       "raw_totals": {
-        "hands": 258,
-        "vpip_hands": 48,
-        "pfr_hands": 46,
-        "three_bet_hands": 9,
-        "three_bet_opp": 114,
-        "four_bet_hands": 6,
-        "four_bet_opp": 28,
-        "fold_to_three_bet_hands": 8,
-        "faced_three_bet_opp": 16,
-        "fold_to_four_bet_hands": 1,
-        "faced_four_bet_opp": 3,
-        "cbet_flop_made": 3,
-        "cbet_flop_opp": 19,
+        "hands": 0,
+        "vpip_hands": 0,
+        "pfr_hands": 0,
+        "three_bet_hands": 0,
+        "three_bet_opp": 0,
+        "four_bet_hands": 0,
+        "four_bet_opp": 0,
+        "fold_to_three_bet_hands": 0,
+        "faced_three_bet_opp": 0,
+        "fold_to_four_bet_hands": 0,
+        "faced_four_bet_opp": 0,
+        "cbet_flop_made": 0,
+        "cbet_flop_opp": 0,
         "cbet_turn_made": 0,
-        "cbet_turn_opp": 1,
+        "cbet_turn_opp": 0,
         "cbet_river_made": 0,
         "cbet_river_opp": 0,
         "fold_to_cbet_flop": 0,
@@ -45502,16 +46093,16 @@
         "fold_to_cbet_turn_opp": 0,
         "fold_to_cbet_river": 0,
         "fold_to_cbet_river_opp": 0,
-        "agg_raise": 7,
-        "agg_call": 7,
-        "agg_check": 54,
-        "saw_flop_hands": 26,
-        "went_showdown_hands": 16,
-        "won_showdown_hands": 6,
-        "won_when_saw_flop_hands": 11,
-        "net_cbb": -17750,
-        "showdown_cbb": -13996,
-        "non_showdown_cbb": -3754
+        "agg_raise": 0,
+        "agg_call": 0,
+        "agg_check": 0,
+        "saw_flop_hands": 0,
+        "went_showdown_hands": 0,
+        "won_showdown_hands": 0,
+        "won_when_saw_flop_hands": 0,
+        "net_cbb": 0,
+        "showdown_cbb": 0,
+        "non_showdown_cbb": 0
       }
     },
     {
@@ -47098,11 +47689,11 @@
       "discord_global_name": null,
       "is_bot": false,
       "summary": {
-        "hands": 1171,
-        "vpip_pct": 29.2,
-        "pfr_pct": 19.6,
+        "hands": 1169,
+        "vpip_pct": 29.3,
+        "pfr_pct": 19.7,
         "three_bet_pct": 11.1,
-        "four_bet_pct": 10.2,
+        "four_bet_pct": 10.3,
         "fold_to_three_bet_pct": 27.7,
         "fold_to_four_bet_pct": 30.0,
         "cbet_flop_pct": 73.7,
@@ -47116,7 +47707,7 @@
         "three_bet_hands": 47,
         "three_bet_opp": 422,
         "four_bet_hands": 12,
-        "four_bet_opp": 118,
+        "four_bet_opp": 117,
         "fold_to_three_bet_hands": 13,
         "faced_three_bet_opp": 47,
         "fold_to_four_bet_hands": 3,
@@ -47145,21 +47736,21 @@
         "wtsd_pct": 38.0,
         "wsd_pct": 52.2,
         "wwsf_pct": 52.9,
-        "bb_per_100": "62.21",
-        "net_cbb": 72844,
+        "bb_per_100": "62.40",
+        "net_cbb": 72944,
         "showdown_cbb": 78350,
-        "non_showdown_cbb": -5506
+        "non_showdown_cbb": -5406
       },
       "metrics": {
         "vpip": {
-          "pct": 29.2,
+          "pct": 29.3,
           "numerator": 342,
-          "denominator": 1171
+          "denominator": 1169
         },
         "pfr": {
-          "pct": 19.6,
+          "pct": 19.7,
           "numerator": 230,
-          "denominator": 1171
+          "denominator": 1169
         },
         "three_bet": {
           "pct": 11.1,
@@ -47167,9 +47758,9 @@
           "denominator": 422
         },
         "four_bet": {
-          "pct": 10.2,
+          "pct": 10.3,
           "numerator": 12,
-          "denominator": 118
+          "denominator": 117
         },
         "fold_to_three_bet": {
           "pct": 27.7,
@@ -47237,28 +47828,28 @@
           "denominator": 242
         },
         "bb_per_100": {
-          "value": 62.21,
-          "numerator": 72844,
-          "denominator": 1171
+          "value": 62.4,
+          "numerator": 72944,
+          "denominator": 1169
         },
         "net": {
-          "cbb": 72844
+          "cbb": 72944
         },
         "showdown": {
           "cbb": 78350
         },
         "non_showdown": {
-          "cbb": -5506
+          "cbb": -5406
         }
       },
       "raw_totals": {
-        "hands": 1171,
+        "hands": 1169,
         "vpip_hands": 342,
         "pfr_hands": 230,
         "three_bet_hands": 47,
         "three_bet_opp": 422,
         "four_bet_hands": 12,
-        "four_bet_opp": 118,
+        "four_bet_opp": 117,
         "fold_to_three_bet_hands": 13,
         "faced_three_bet_opp": 47,
         "fold_to_four_bet_hands": 3,
@@ -47282,9 +47873,9 @@
         "went_showdown_hands": 92,
         "won_showdown_hands": 48,
         "won_when_saw_flop_hands": 128,
-        "net_cbb": 72844,
+        "net_cbb": 72944,
         "showdown_cbb": 78350,
-        "non_showdown_cbb": -5506
+        "non_showdown_cbb": -5406
       }
     },
     {
@@ -49265,98 +49856,98 @@
       "discord_global_name": null,
       "is_bot": true,
       "summary": {
-        "hands": 265,
-        "vpip_pct": 20.0,
-        "pfr_pct": 18.1,
-        "three_bet_pct": 10.1,
-        "four_bet_pct": 17.9,
-        "fold_to_three_bet_pct": 45.5,
-        "fold_to_four_bet_pct": 0.0,
-        "cbet_flop_pct": 33.3,
-        "cbet_turn_pct": 0.0,
+        "hands": 0,
+        "vpip_pct": 0,
+        "pfr_pct": 0,
+        "three_bet_pct": 0,
+        "four_bet_pct": 0,
+        "fold_to_three_bet_pct": 0,
+        "fold_to_four_bet_pct": 0,
+        "cbet_flop_pct": 0,
+        "cbet_turn_pct": 0,
         "cbet_river_pct": 0,
-        "fold_to_cbet_flop_pct": 0.0,
+        "fold_to_cbet_flop_pct": 0,
         "fold_to_cbet_turn_pct": 0,
         "fold_to_cbet_river_pct": 0,
-        "vpip_hands": 53,
-        "pfr_hands": 48,
-        "three_bet_hands": 10,
-        "three_bet_opp": 99,
-        "four_bet_hands": 5,
-        "four_bet_opp": 28,
-        "fold_to_three_bet_hands": 5,
-        "faced_three_bet_opp": 11,
+        "vpip_hands": 0,
+        "pfr_hands": 0,
+        "three_bet_hands": 0,
+        "three_bet_opp": 0,
+        "four_bet_hands": 0,
+        "four_bet_opp": 0,
+        "fold_to_three_bet_hands": 0,
+        "faced_three_bet_opp": 0,
         "fold_to_four_bet_hands": 0,
-        "faced_four_bet_opp": 1,
-        "cbet_flop_made": 3,
-        "cbet_flop_opp": 9,
+        "faced_four_bet_opp": 0,
+        "cbet_flop_made": 0,
+        "cbet_flop_opp": 0,
         "cbet_turn_made": 0,
-        "cbet_turn_opp": 2,
+        "cbet_turn_opp": 0,
         "cbet_river_made": 0,
         "cbet_river_opp": 0,
         "fold_to_cbet_flop": 0,
-        "fold_to_cbet_flop_opp": 2,
+        "fold_to_cbet_flop_opp": 0,
         "fold_to_cbet_turn": 0,
         "fold_to_cbet_turn_opp": 0,
         "fold_to_cbet_river": 0,
         "fold_to_cbet_river_opp": 0,
-        "agg_raise": 10,
-        "agg_call": 5,
-        "agg_check": 33,
-        "saw_flop_hands": 17,
-        "went_showdown_hands": 13,
-        "won_showdown_hands": 7,
-        "won_when_saw_flop_hands": 10,
-        "aggression": "2.00",
-        "aggression_freq_pct": 20.8,
-        "wtsd_pct": 76.5,
-        "wsd_pct": 53.8,
-        "wwsf_pct": 58.8,
-        "bb_per_100": "63.13",
-        "net_cbb": 16730,
-        "showdown_cbb": 11586,
-        "non_showdown_cbb": 5144
+        "agg_raise": 0,
+        "agg_call": 0,
+        "agg_check": 0,
+        "saw_flop_hands": 0,
+        "went_showdown_hands": 0,
+        "won_showdown_hands": 0,
+        "won_when_saw_flop_hands": 0,
+        "aggression": "0.00",
+        "aggression_freq_pct": 0,
+        "wtsd_pct": 0,
+        "wsd_pct": 0,
+        "wwsf_pct": 0,
+        "bb_per_100": "0.00",
+        "net_cbb": 0,
+        "showdown_cbb": 0,
+        "non_showdown_cbb": 0
       },
       "metrics": {
         "vpip": {
-          "pct": 20.0,
-          "numerator": 53,
-          "denominator": 265
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "pfr": {
-          "pct": 18.1,
-          "numerator": 48,
-          "denominator": 265
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "three_bet": {
-          "pct": 10.1,
-          "numerator": 10,
-          "denominator": 99
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "four_bet": {
-          "pct": 17.9,
-          "numerator": 5,
-          "denominator": 28
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "fold_to_three_bet": {
-          "pct": 45.5,
-          "numerator": 5,
-          "denominator": 11
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "fold_to_four_bet": {
-          "pct": 0.0,
+          "pct": 0,
           "numerator": 0,
-          "denominator": 1
+          "denominator": 0
         },
         "cbet_flop": {
-          "pct": 33.3,
-          "numerator": 3,
-          "denominator": 9
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "cbet_turn": {
-          "pct": 0.0,
+          "pct": 0,
           "numerator": 0,
-          "denominator": 2
+          "denominator": 0
         },
         "cbet_river": {
           "pct": 0,
@@ -49364,9 +49955,9 @@
           "denominator": 0
         },
         "fold_to_cbet_flop": {
-          "pct": 0.0,
+          "pct": 0,
           "numerator": 0,
-          "denominator": 2
+          "denominator": 0
         },
         "fold_to_cbet_turn": {
           "pct": 0,
@@ -49379,79 +49970,79 @@
           "denominator": 0
         },
         "aggression": {
-          "value": "2.00",
-          "numerator": 10,
-          "denominator": 5
+          "value": "0.00",
+          "numerator": 0,
+          "denominator": 0
         },
         "aggression_frequency": {
-          "pct": 20.8,
-          "numerator": 10,
-          "denominator": 48
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wtsd": {
-          "pct": 76.5,
-          "numerator": 13,
-          "denominator": 17
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wsd": {
-          "pct": 53.8,
-          "numerator": 7,
-          "denominator": 13
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "wwsf": {
-          "pct": 58.8,
-          "numerator": 10,
-          "denominator": 17
+          "pct": 0,
+          "numerator": 0,
+          "denominator": 0
         },
         "bb_per_100": {
-          "value": 63.13,
-          "numerator": 16730,
-          "denominator": 265
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 0
         },
         "net": {
-          "cbb": 16730
+          "cbb": 0
         },
         "showdown": {
-          "cbb": 11586
+          "cbb": 0
         },
         "non_showdown": {
-          "cbb": 5144
+          "cbb": 0
         }
       },
       "raw_totals": {
-        "hands": 265,
-        "vpip_hands": 53,
-        "pfr_hands": 48,
-        "three_bet_hands": 10,
-        "three_bet_opp": 99,
-        "four_bet_hands": 5,
-        "four_bet_opp": 28,
-        "fold_to_three_bet_hands": 5,
-        "faced_three_bet_opp": 11,
+        "hands": 0,
+        "vpip_hands": 0,
+        "pfr_hands": 0,
+        "three_bet_hands": 0,
+        "three_bet_opp": 0,
+        "four_bet_hands": 0,
+        "four_bet_opp": 0,
+        "fold_to_three_bet_hands": 0,
+        "faced_three_bet_opp": 0,
         "fold_to_four_bet_hands": 0,
-        "faced_four_bet_opp": 1,
-        "cbet_flop_made": 3,
-        "cbet_flop_opp": 9,
+        "faced_four_bet_opp": 0,
+        "cbet_flop_made": 0,
+        "cbet_flop_opp": 0,
         "cbet_turn_made": 0,
-        "cbet_turn_opp": 2,
+        "cbet_turn_opp": 0,
         "cbet_river_made": 0,
         "cbet_river_opp": 0,
         "fold_to_cbet_flop": 0,
-        "fold_to_cbet_flop_opp": 2,
+        "fold_to_cbet_flop_opp": 0,
         "fold_to_cbet_turn": 0,
         "fold_to_cbet_turn_opp": 0,
         "fold_to_cbet_river": 0,
         "fold_to_cbet_river_opp": 0,
-        "agg_raise": 10,
-        "agg_call": 5,
-        "agg_check": 33,
-        "saw_flop_hands": 17,
-        "went_showdown_hands": 13,
-        "won_showdown_hands": 7,
-        "won_when_saw_flop_hands": 10,
-        "net_cbb": 16730,
-        "showdown_cbb": 11586,
-        "non_showdown_cbb": 5144
+        "agg_raise": 0,
+        "agg_call": 0,
+        "agg_check": 0,
+        "saw_flop_hands": 0,
+        "went_showdown_hands": 0,
+        "won_showdown_hands": 0,
+        "won_when_saw_flop_hands": 0,
+        "net_cbb": 0,
+        "showdown_cbb": 0,
+        "non_showdown_cbb": 0
       }
     }
   ]

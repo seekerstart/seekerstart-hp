@@ -252,6 +252,7 @@ def fetch_player_stats(conn, user_ids):
                    SUM(non_showdown_cbb) AS non_showdown_cbb
             FROM player_stats
             WHERE user_id = ANY(%s::uuid[])
+            AND server_id IN ('houou-shared', 'houou-main')
             GROUP BY user_id
         """, (user_ids,))
         rows = cur.fetchall()
